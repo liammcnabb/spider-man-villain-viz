@@ -128,6 +128,7 @@ Follow the standards in [GUIDELINES.md](docs/GUIDELINES.md):
 - [ ] Add villain statistics (first appearance, frequency)
 - [ ] Implement villain relationship visualization
 - [ ] Extend Interaction with the marvel fandom website
+- [ ] Consider Arc's/Saga's ([Part of the End of Spider-Man arc](https://marvel.fandom.com/wiki/End_of_Spider-Man))
 
 ### Long Term
 - [ ] Support multiple Spider-Man series (2099, Ultimate, etc.)
