@@ -1,3 +1,5 @@
+# This repo is entirely written by Claude as an example of a workflow. Since I do not pay for any AI, progress is limited by the amount of tokens I get per month.
+
 # Spider-Man Villain Timeline
 
 A visualization of Spider-Man villain appearances across the Amazing Spider-Man Vol. 1 comic book series (first 20 issues).
@@ -135,7 +137,3 @@ Follow the standards in [GUIDELINES.md](docs/GUIDELINES.md):
 - [Marvel Fandom - Amazing Spider-Man Vol 1](https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_1)
 - [D3.js Documentation](https://d3js.org)
 - [Context Engineering Template](../context-engineering-template)
-
-## License
-
-MIT
