@@ -118,19 +118,22 @@ Follow the standards in [GUIDELINES.md](docs/GUIDELINES.md):
 ## Next Steps
 
 ### Short Term
-- [ ] Complete scraper for issues 1-20
-- [ ] Create basic D3 timeline visualization
+- [x] Complete scraper for issues 1-20
+- [x] Create basic D3 timeline visualization
 - [ ] Add interactive filtering by villain
+- [ ] Create specific D3 gantt plot to explore as one chart
 
 ### Medium Term
 - [ ] Extend scraper to all 800+ issues
 - [ ] Add villain statistics (first appearance, frequency)
 - [ ] Implement villain relationship visualization
+- [ ] Extend Interaction with the marvel fandom website
 
 ### Long Term
 - [ ] Support multiple Spider-Man series (2099, Ultimate, etc.)
 - [ ] Add comics from other Marvel properties
 - [ ] Historical analysis of villain popularity trends
+
 
 ## Resources
 
