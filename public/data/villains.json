@@ -1,0 +1,9540 @@
+{
+  "series": "Amazing Spider-Man Vol 1",
+  "processedAt": "2025-12-31T16:11:07.672Z",
+  "stats": {
+    "totalVillains": 495,
+    "mostFrequent": "Doctor Octopus",
+    "mostFrequentCount": 38,
+    "averageFrequency": 2.46
+  },
+  "villains": [
+    {
+      "id": "burglar",
+      "name": "Burglar",
+      "aliases": [],
+      "firstAppearance": 1,
+      "appearances": [
+        1,
+        181,
+        193,
+        194,
+        197,
+        198,
+        199,
+        200,
+        248,
+        365,
+        400
+      ],
+      "frequency": 11
+    },
+    {
+      "id": "chameleon",
+      "name": "Chameleon",
+      "aliases": [],
+      "firstAppearance": 1,
+      "appearances": [
+        1,
+        15,
+        80,
+        181,
+        186,
+        306,
+        307,
+        318,
+        340,
+        341,
+        342,
+        343,
+        387,
+        388,
+        389
+      ],
+      "frequency": 15
+    },
+    {
+      "id": "vulture",
+      "name": "Vulture",
+      "aliases": [],
+      "firstAppearance": 2,
+      "appearances": [
+        2,
+        7,
+        18,
+        48,
+        49,
+        63,
+        64,
+        100,
+        127,
+        128,
+        181,
+        224,
+        240,
+        241,
+        336,
+        337,
+        338,
+        339,
+        396
+      ],
+      "frequency": 19
+    },
+    {
+      "id": "tinkerer",
+      "name": "Tinkerer",
+      "aliases": [],
+      "firstAppearance": 2,
+      "appearances": [
+        2,
+        160,
+        183
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "quentin-beck",
+      "name": "Quentin Beck",
+      "aliases": [],
+      "firstAppearance": 2,
+      "appearances": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "charlie",
+      "name": "Charlie",
+      "aliases": [],
+      "firstAppearance": 2,
+      "appearances": [
+        2,
+        3,
+        4,
+        51,
+        91,
+        92
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "doctor-octopus",
+      "name": "Doctor Octopus",
+      "aliases": [],
+      "firstAppearance": 3,
+      "appearances": [
+        3,
+        11,
+        12,
+        18,
+        32,
+        53,
+        54,
+        55,
+        56,
+        88,
+        89,
+        90,
+        100,
+        112,
+        113,
+        114,
+        115,
+        130,
+        131,
+        157,
+        158,
+        159,
+        296,
+        297,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        365,
+        375,
+        397,
+        398,
+        405,
+        406,
+        427,
+        428
+      ],
+      "frequency": 38
+    },
+    {
+      "id": "sandman",
+      "name": "Sandman",
+      "aliases": [],
+      "firstAppearance": 4,
+      "appearances": [
+        4,
+        18,
+        19,
+        154,
+        181,
+        215,
+        217,
+        334,
+        337,
+        338,
+        339,
+        375
+      ],
+      "frequency": 12
+    },
+    {
+      "id": "doctor-doom",
+      "name": "Doctor Doom",
+      "aliases": [],
+      "firstAppearance": 5,
+      "appearances": [
+        5,
+        327,
+        350
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "doombot",
+      "name": "Doombot",
+      "aliases": [],
+      "firstAppearance": 5,
+      "appearances": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-lizard",
+      "name": "The Lizard",
+      "aliases": [],
+      "firstAppearance": 6,
+      "appearances": [
+        6,
+        100,
+        101,
+        166,
+        313
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "museum-gunmen",
+      "name": "Museum Gunmen",
+      "aliases": [],
+      "firstAppearance": 6,
+      "appearances": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "living-brain",
+      "name": "Living Brain",
+      "aliases": [],
+      "firstAppearance": 8,
+      "appearances": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "electro",
+      "name": "Electro",
+      "aliases": [],
+      "firstAppearance": 9,
+      "appearances": [
+        9,
+        82,
+        181,
+        187,
+        334,
+        337,
+        338,
+        339,
+        365,
+        369,
+        422,
+        423,
+        425
+      ],
+      "frequency": 13
+    },
+    {
+      "id": "big-man",
+      "name": "Big Man",
+      "aliases": [],
+      "firstAppearance": 10,
+      "appearances": [
+        10,
+        181
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "enforcers",
+      "name": "Enforcers",
+      "aliases": [],
+      "firstAppearance": 10,
+      "appearances": [
+        10,
+        14,
+        19,
+        181
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "montana",
+      "name": "Montana",
+      "aliases": [],
+      "firstAppearance": 10,
+      "appearances": [
+        10,
+        14,
+        19,
+        181
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "fancy-dan",
+      "name": "Fancy Dan",
+      "aliases": [],
+      "firstAppearance": 10,
+      "appearances": [
+        10,
+        14,
+        19,
+        181
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "ox",
+      "name": "Ox",
+      "aliases": [],
+      "firstAppearance": 10,
+      "appearances": [
+        10,
+        14,
+        19,
+        181
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "blackie-gaxton",
+      "name": "Blackie Gaxton",
+      "aliases": [],
+      "firstAppearance": 11,
+      "appearances": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "numerous-unnamed-gangsters",
+      "name": "Numerous unnamed gangsters",
+      "aliases": [],
+      "firstAppearance": 11,
+      "appearances": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mysterio",
+      "name": "Mysterio",
+      "aliases": [],
+      "firstAppearance": 13,
+      "appearances": [
+        13,
+        24,
+        66,
+        67,
+        141,
+        142,
+        181,
+        198,
+        199,
+        311,
+        335,
+        337,
+        338,
+        339,
+        365,
+        407,
+        408,
+        413
+      ],
+      "frequency": 18
+    },
+    {
+      "id": "green-goblin",
+      "name": "Green Goblin",
+      "aliases": [],
+      "firstAppearance": 14,
+      "appearances": [
+        14,
+        17,
+        18,
+        23,
+        26,
+        27,
+        39,
+        40,
+        66,
+        96,
+        97,
+        98,
+        100,
+        121,
+        122,
+        136,
+        137,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        365,
+        432
+      ],
+      "frequency": 25
+    },
+    {
+      "id": "kraven-the-hunter",
+      "name": "Kraven the Hunter",
+      "aliases": [],
+      "firstAppearance": 15,
+      "appearances": [
+        15,
+        18,
+        34,
+        47,
+        49,
+        103,
+        104,
+        111,
+        181,
+        209,
+        294
+      ],
+      "frequency": 11
+    },
+    {
+      "id": "circus-of-crime",
+      "name": "Circus of Crime",
+      "aliases": [],
+      "firstAppearance": 16,
+      "appearances": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ringmaster",
+      "name": "Ringmaster",
+      "aliases": [],
+      "firstAppearance": 16,
+      "appearances": [
+        16,
+        22
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "human-cannonball",
+      "name": "Human Cannonball",
+      "aliases": [],
+      "firstAppearance": 16,
+      "appearances": [
+        16,
+        22
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "great-gambonnos",
+      "name": "Great Gambonnos",
+      "aliases": [],
+      "firstAppearance": 16,
+      "appearances": [
+        16,
+        22
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "clown",
+      "name": "Clown",
+      "aliases": [],
+      "firstAppearance": 16,
+      "appearances": [
+        16,
+        22
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "bruto-the-strongman",
+      "name": "Bruto the Strongman",
+      "aliases": [],
+      "firstAppearance": 16,
+      "appearances": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rocky-roberts",
+      "name": "Rocky Roberts",
+      "aliases": [],
+      "firstAppearance": 18,
+      "appearances": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rock-gimpy",
+      "name": "Rock Gimpy",
+      "aliases": [],
+      "firstAppearance": 19,
+      "appearances": [
+        19,
+        65
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "scorpion",
+      "name": "Scorpion",
+      "aliases": [],
+      "firstAppearance": 20,
+      "appearances": [
+        20,
+        29,
+        145,
+        146,
+        181,
+        318,
+        319,
+        342,
+        343,
+        370
+      ],
+      "frequency": 10
+    },
+    {
+      "id": "beetle",
+      "name": "Beetle",
+      "aliases": [],
+      "firstAppearance": 21,
+      "appearances": [
+        21,
+        94,
+        181,
+        280,
+        281
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "masters-of-menace",
+      "name": "Masters of Menace",
+      "aliases": [],
+      "firstAppearance": 22,
+      "appearances": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "princess-python",
+      "name": "Princess Python",
+      "aliases": [],
+      "firstAppearance": 22,
+      "appearances": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "precious",
+      "name": "Precious",
+      "aliases": [],
+      "firstAppearance": 22,
+      "appearances": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lucky-lobo",
+      "name": "Lucky Lobo",
+      "aliases": [],
+      "firstAppearance": 23,
+      "appearances": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mike",
+      "name": "Mike",
+      "aliases": [],
+      "firstAppearance": 23,
+      "appearances": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "numerous-unnamed-others",
+      "name": "Numerous unnamed others",
+      "aliases": [],
+      "firstAppearance": 23,
+      "appearances": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spencer-smythe",
+      "name": "Spencer Smythe",
+      "aliases": [],
+      "firstAppearance": 25,
+      "appearances": [
+        25,
+        58,
+        105,
+        106,
+        107,
+        150,
+        186,
+        189,
+        190,
+        191,
+        192
+      ],
+      "frequency": 11
+    },
+    {
+      "id": "spider-slayer",
+      "name": "Spider Slayer",
+      "aliases": [],
+      "firstAppearance": 25,
+      "appearances": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "crime-master",
+      "name": "Crime Master",
+      "aliases": [],
+      "firstAppearance": 26,
+      "appearances": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "crime-master",
+      "name": "Crime-Master",
+      "aliases": [],
+      "firstAppearance": 27,
+      "appearances": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "molten-man",
+      "name": "Molten Man",
+      "aliases": [],
+      "firstAppearance": 28,
+      "appearances": [
+        28,
+        35,
+        132,
+        133,
+        172,
+        173,
+        181,
+        440,
+        441
+      ],
+      "frequency": 9
+    },
+    {
+      "id": "cat-burglar",
+      "name": "Cat Burglar",
+      "aliases": [],
+      "firstAppearance": 30,
+      "appearances": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "master-planner",
+      "name": "Master Planner",
+      "aliases": [],
+      "firstAppearance": 30,
+      "appearances": [
+        30,
+        31
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "foxy-briggs",
+      "name": "Foxy Briggs",
+      "aliases": [],
+      "firstAppearance": 31,
+      "appearances": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "master-planner-s-henchmen",
+      "name": "Master Planner's henchmen",
+      "aliases": [],
+      "firstAppearance": 33,
+      "appearances": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "looter",
+      "name": "Looter",
+      "aliases": [],
+      "firstAppearance": 36,
+      "appearances": [
+        36
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mendel-stromm",
+      "name": "Mendel Stromm",
+      "aliases": [],
+      "firstAppearance": 37,
+      "appearances": [
+        37
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "norman-osborn",
+      "name": "Norman Osborn",
+      "aliases": [],
+      "firstAppearance": 37,
+      "appearances": [
+        37,
+        418,
+        429,
+        432
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "joe-smith",
+      "name": "Joe Smith",
+      "aliases": [],
+      "firstAppearance": 38,
+      "appearances": [
+        38
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "boinard",
+      "name": "Boinard",
+      "aliases": [],
+      "firstAppearance": 39,
+      "appearances": [
+        39
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "blackie",
+      "name": "Blackie",
+      "aliases": [],
+      "firstAppearance": 39,
+      "appearances": [
+        39,
+        50,
+        61,
+        75
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "aliases": [],
+      "firstAppearance": 41,
+      "appearances": [
+        41,
+        43,
+        181,
+        280,
+        281,
+        319,
+        344,
+        409
+      ],
+      "frequency": 8
+    },
+    {
+      "id": "colonel-john-jameson",
+      "name": "Colonel John Jameson",
+      "aliases": [],
+      "firstAppearance": 42,
+      "appearances": [
+        42
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lizard",
+      "name": "Lizard",
+      "aliases": [],
+      "firstAppearance": 44,
+      "appearances": [
+        44,
+        45,
+        76,
+        77,
+        181,
+        365
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "shocker",
+      "name": "Shocker",
+      "aliases": [],
+      "firstAppearance": 46,
+      "appearances": [
+        46,
+        72,
+        151,
+        152,
+        181,
+        335,
+        364
+      ],
+      "frequency": 7
+    },
+    {
+      "id": "kingpin",
+      "name": "Kingpin",
+      "aliases": [],
+      "firstAppearance": 50,
+      "appearances": [
+        50,
+        51,
+        52,
+        59,
+        60,
+        61,
+        68,
+        69,
+        70,
+        83,
+        84,
+        85,
+        100,
+        163,
+        164,
+        181,
+        195,
+        196,
+        197,
+        249,
+        257,
+        268,
+        275,
+        277,
+        280,
+        287,
+        288,
+        289,
+        327,
+        336
+      ],
+      "frequency": 30
+    },
+    {
+      "id": "flint",
+      "name": "Flint",
+      "aliases": [],
+      "firstAppearance": 50,
+      "appearances": [
+        50,
+        51,
+        52
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "shorty",
+      "name": "Shorty",
+      "aliases": [],
+      "firstAppearance": 50,
+      "appearances": [
+        50,
+        51
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "kingpin-s-henchmen",
+      "name": "Kingpin's Henchmen",
+      "aliases": [],
+      "firstAppearance": 51,
+      "appearances": [
+        51,
+        59,
+        60,
+        61,
+        68,
+        69,
+        70
+      ],
+      "frequency": 7
+    },
+    {
+      "id": "big-turk",
+      "name": "Big Turk",
+      "aliases": [],
+      "firstAppearance": 51,
+      "appearances": [
+        51
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "blinker",
+      "name": "Blinker",
+      "aliases": [],
+      "firstAppearance": 51,
+      "appearances": [
+        51
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "members-of-master-planner-s-gang",
+      "name": "Members of Master Planner's gang",
+      "aliases": [],
+      "firstAppearance": 54,
+      "appearances": [
+        54
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "j-jonah-jameson",
+      "name": "J. Jonah Jameson",
+      "aliases": [],
+      "firstAppearance": 58,
+      "appearances": [
+        58,
+        167,
+        168,
+        368
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "spider-slayer-mark-ii",
+      "name": "Spider-Slayer Mark II",
+      "aliases": [],
+      "firstAppearance": 58,
+      "appearances": [
+        58
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dr-winkler",
+      "name": "Dr. Winkler",
+      "aliases": [],
+      "firstAppearance": 59,
+      "appearances": [
+        59,
+        60,
+        61
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "mr-slade",
+      "name": "Mr. Slade",
+      "aliases": [],
+      "firstAppearance": 59,
+      "appearances": [
+        59
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "louie",
+      "name": "Louie",
+      "aliases": [],
+      "firstAppearance": 59,
+      "appearances": [
+        59
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "aliases": [],
+      "firstAppearance": 62,
+      "appearances": [
+        62
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mack",
+      "name": "Mack",
+      "aliases": [],
+      "firstAppearance": 65,
+      "appearances": [
+        65
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "duke",
+      "name": "Duke",
+      "aliases": [],
+      "firstAppearance": 65,
+      "appearances": [
+        65
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "red",
+      "name": "Red",
+      "aliases": [],
+      "firstAppearance": 65,
+      "appearances": [
+        65
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "wilson",
+      "name": "Wilson",
+      "aliases": [],
+      "firstAppearance": 68,
+      "appearances": [
+        68,
+        69
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "crusher",
+      "name": "Crusher",
+      "aliases": [],
+      "firstAppearance": 68,
+      "appearances": [
+        68
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "numerous-unnamed-members",
+      "name": "Numerous unnamed members",
+      "aliases": [],
+      "firstAppearance": 68,
+      "appearances": [
+        68,
+        130
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "three-unnamed-henchmen",
+      "name": "Three unnamed henchmen",
+      "aliases": [],
+      "firstAppearance": 69,
+      "appearances": [
+        69
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "numerous-unnamed-henchmen",
+      "name": "Numerous unnamed henchmen",
+      "aliases": [],
+      "firstAppearance": 70,
+      "appearances": [
+        70,
+        131
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "quicksilver",
+      "name": "Quicksilver",
+      "aliases": [],
+      "firstAppearance": 71,
+      "appearances": [
+        71
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maggia",
+      "name": "Maggia",
+      "aliases": [],
+      "firstAppearance": 73,
+      "appearances": [
+        73,
+        74,
+        75,
+        226
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "manfredi-family",
+      "name": "Manfredi Family",
+      "aliases": [],
+      "firstAppearance": 73,
+      "appearances": [
+        73,
+        74,
+        75
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "man-mountain-marko",
+      "name": "Man-Mountain Marko",
+      "aliases": [],
+      "firstAppearance": 73,
+      "appearances": [
+        73,
+        74
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "caesar-cicero",
+      "name": "Caesar Cicero",
+      "aliases": [],
+      "firstAppearance": 73,
+      "appearances": [
+        73,
+        74,
+        75
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "silvermane",
+      "name": "Silvermane",
+      "aliases": [],
+      "firstAppearance": 73,
+      "appearances": [
+        73,
+        74,
+        75,
+        177,
+        178,
+        179,
+        180,
+        284
+      ],
+      "frequency": 8
+    },
+    {
+      "id": "three-unnamed-members",
+      "name": "Three unnamed members",
+      "aliases": [],
+      "firstAppearance": 73,
+      "appearances": [
+        73
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "four-unnamed-members",
+      "name": "Four unnamed members",
+      "aliases": [],
+      "firstAppearance": 74,
+      "appearances": [
+        74,
+        75
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "man-mountain-marko",
+      "name": "Man Mountain Marko",
+      "aliases": [],
+      "firstAppearance": 75,
+      "appearances": [
+        75
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "prowler",
+      "name": "Prowler",
+      "aliases": [],
+      "firstAppearance": 78,
+      "appearances": [
+        78,
+        79,
+        93
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "kangaroo",
+      "name": "Kangaroo",
+      "aliases": [],
+      "firstAppearance": 81,
+      "appearances": [
+        81,
+        126
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "schemer",
+      "name": "Schemer",
+      "aliases": [],
+      "firstAppearance": 83,
+      "appearances": [
+        83,
+        84,
+        85
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "black-widow",
+      "name": "Black Widow",
+      "aliases": [],
+      "firstAppearance": 86,
+      "appearances": [
+        86
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sam-bullit",
+      "name": "Sam Bullit",
+      "aliases": [],
+      "firstAppearance": 91,
+      "appearances": [
+        91,
+        92
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "terrorists",
+      "name": "Terrorists",
+      "aliases": [],
+      "firstAppearance": 95,
+      "appearances": [
+        95
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unnamed-pusher-and-his-two-henchmen",
+      "name": "Unnamed pusher and his two henchmen",
+      "aliases": [],
+      "firstAppearance": 98,
+      "appearances": [
+        98
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "turpo",
+      "name": "Turpo",
+      "aliases": [],
+      "firstAppearance": 99,
+      "appearances": [
+        99
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "morbius",
+      "name": "Morbius",
+      "aliases": [],
+      "firstAppearance": 101,
+      "appearances": [
+        101,
+        102
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "gog",
+      "name": "Gog",
+      "aliases": [],
+      "firstAppearance": 103,
+      "appearances": [
+        103,
+        104
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "giant-one",
+      "name": "Giant One",
+      "aliases": [],
+      "firstAppearance": 108,
+      "appearances": [
+        108,
+        109
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "gibbon",
+      "name": "Gibbon",
+      "aliases": [],
+      "firstAppearance": 110,
+      "appearances": [
+        110,
+        111
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "debt-collectors",
+      "name": "Debt Collectors",
+      "aliases": [],
+      "firstAppearance": 112,
+      "appearances": [
+        112
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bert",
+      "name": "Bert",
+      "aliases": [],
+      "firstAppearance": 112,
+      "appearances": [
+        112,
+        114,
+        115
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "benny",
+      "name": "Benny",
+      "aliases": [],
+      "firstAppearance": 112,
+      "appearances": [
+        112,
+        162
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "doctor-octopus-henchmen",
+      "name": "Doctor Octopus' Henchmen",
+      "aliases": [],
+      "firstAppearance": 112,
+      "appearances": [
+        112
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mickey",
+      "name": "Mickey",
+      "aliases": [],
+      "firstAppearance": 112,
+      "appearances": [
+        112
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "tex",
+      "name": "Tex",
+      "aliases": [],
+      "firstAppearance": 112,
+      "appearances": [
+        112
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unnamed-henchman",
+      "name": "Unnamed Henchman",
+      "aliases": [],
+      "firstAppearance": 112,
+      "appearances": [
+        112,
+        135
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "doctor-octopus-s-henchmen",
+      "name": "Doctor Octopus's Henchmen",
+      "aliases": [],
+      "firstAppearance": 113,
+      "appearances": [
+        113
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bernie",
+      "name": "Bernie",
+      "aliases": [],
+      "firstAppearance": 113,
+      "appearances": [
+        113
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "karl",
+      "name": "Karl",
+      "aliases": [],
+      "firstAppearance": 113,
+      "appearances": [
+        113
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "hammerhead",
+      "name": "Hammerhead",
+      "aliases": [],
+      "firstAppearance": 113,
+      "appearances": [
+        113,
+        114,
+        115,
+        130,
+        131,
+        157,
+        158,
+        159,
+        181,
+        284,
+        285,
+        288
+      ],
+      "frequency": 12
+    },
+    {
+      "id": "hammerhead-s-henchmen",
+      "name": "Hammerhead's Henchmen",
+      "aliases": [],
+      "firstAppearance": 113,
+      "appearances": [
+        113,
+        114,
+        130
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "ruffio",
+      "name": "Ruffio",
+      "aliases": [],
+      "firstAppearance": 113,
+      "appearances": [
+        113
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "tony",
+      "name": "Tony",
+      "aliases": [],
+      "firstAppearance": 113,
+      "appearances": [
+        113
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "waldo",
+      "name": "Waldo",
+      "aliases": [],
+      "firstAppearance": 113,
+      "appearances": [
+        113,
+        114
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "bennie",
+      "name": "Bennie",
+      "aliases": [],
+      "firstAppearance": 114,
+      "appearances": [
+        114
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "porky",
+      "name": "Porky",
+      "aliases": [],
+      "firstAppearance": 114,
+      "appearances": [
+        114
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ernie",
+      "name": "Ernie",
+      "aliases": [],
+      "firstAppearance": 114,
+      "appearances": [
+        114,
+        115
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "jimmy",
+      "name": "Jimmy",
+      "aliases": [],
+      "firstAppearance": 114,
+      "appearances": [
+        114,
+        115
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "harvey",
+      "name": "Harvey",
+      "aliases": [],
+      "firstAppearance": 114,
+      "appearances": [
+        114,
+        115
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "hammerhead-s-men",
+      "name": "Hammerhead's Men",
+      "aliases": [],
+      "firstAppearance": 115,
+      "appearances": [
+        115
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "chuck",
+      "name": "Chuck",
+      "aliases": [],
+      "firstAppearance": 115,
+      "appearances": [
+        115
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "doctor-octopus-men",
+      "name": "Doctor Octopus' Men",
+      "aliases": [],
+      "firstAppearance": 115,
+      "appearances": [
+        115
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "smasher",
+      "name": "Smasher",
+      "aliases": [],
+      "firstAppearance": 116,
+      "appearances": [
+        116,
+        117,
+        118
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "disruptor",
+      "name": "Disruptor",
+      "aliases": [],
+      "firstAppearance": 117,
+      "appearances": [
+        117,
+        118
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "dr-thaxton",
+      "name": "Dr. Thaxton",
+      "aliases": [],
+      "firstAppearance": 117,
+      "appearances": [
+        117,
+        118
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "hulk",
+      "name": "Hulk",
+      "aliases": [],
+      "firstAppearance": 119,
+      "appearances": [
+        119,
+        120,
+        328,
+        382
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "luke-cage",
+      "name": "Luke Cage",
+      "aliases": [],
+      "firstAppearance": 123,
+      "appearances": [
+        123
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "man-wolf",
+      "name": "Man-Wolf",
+      "aliases": [],
+      "firstAppearance": 124,
+      "appearances": [
+        124,
+        125,
+        181,
+        189,
+        190
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "jonas-harrow",
+      "name": "Jonas Harrow",
+      "aliases": [],
+      "firstAppearance": 126,
+      "appearances": [
+        126,
+        168,
+        206,
+        219
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "punisher",
+      "name": "Punisher",
+      "aliases": [],
+      "firstAppearance": 129,
+      "appearances": [
+        129
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "jackal",
+      "name": "Jackal",
+      "aliases": [],
+      "firstAppearance": 129,
+      "appearances": [
+        129,
+        130,
+        139,
+        140,
+        146,
+        147,
+        148,
+        149,
+        394,
+        399,
+        400,
+        404
+      ],
+      "frequency": 12
+    },
+    {
+      "id": "bebo",
+      "name": "Bebo",
+      "aliases": [],
+      "firstAppearance": 129,
+      "appearances": [
+        129
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "three-unnamed-robbers",
+      "name": "Three unnamed robbers",
+      "aliases": [],
+      "firstAppearance": 129,
+      "appearances": [
+        129
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reno",
+      "name": "Reno",
+      "aliases": [],
+      "firstAppearance": 130,
+      "appearances": [
+        130
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "flakey",
+      "name": "Flakey",
+      "aliases": [],
+      "firstAppearance": 130,
+      "appearances": [
+        130
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "juan",
+      "name": "Juan",
+      "aliases": [],
+      "firstAppearance": 134,
+      "appearances": [
+        134,
+        135
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "hidalgo-rodriquez",
+      "name": "Hidalgo Rodriquez",
+      "aliases": [],
+      "firstAppearance": 134,
+      "appearances": [
+        134,
+        135
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "tarantula",
+      "name": "Tarantula",
+      "aliases": [],
+      "firstAppearance": 134,
+      "appearances": [
+        134,
+        135,
+        147,
+        148,
+        181,
+        233,
+        234,
+        235,
+        236,
+        341,
+        343
+      ],
+      "frequency": 11
+    },
+    {
+      "id": "mindworm",
+      "name": "Mindworm",
+      "aliases": [],
+      "firstAppearance": 138,
+      "appearances": [
+        138
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "grizzly",
+      "name": "Grizzly",
+      "aliases": [],
+      "firstAppearance": 139,
+      "appearances": [
+        139,
+        140
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "cyclone",
+      "name": "Cyclone",
+      "aliases": [],
+      "firstAppearance": 143,
+      "appearances": [
+        143,
+        144
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "spider-clone",
+      "name": "Spider-Clone",
+      "aliases": [],
+      "firstAppearance": 149,
+      "appearances": [
+        149
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vulture-kingpin-and-sandman-robots",
+      "name": "Vulture, Kingpin and Sandman Robots",
+      "aliases": [],
+      "firstAppearance": 150,
+      "appearances": [
+        150
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "two-unnamed-kidnappers",
+      "name": "Two Unnamed Kidnappers",
+      "aliases": [],
+      "firstAppearance": 152,
+      "appearances": [
+        152,
+        153
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "paine",
+      "name": "Paine",
+      "aliases": [],
+      "firstAppearance": 153,
+      "appearances": [
+        153
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sandman-s-employer",
+      "name": "Sandman's Employer",
+      "aliases": [],
+      "firstAppearance": 154,
+      "appearances": [
+        154
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "worldwide-habitual-offender-computer",
+      "name": "Worldwide Habitual Offender Computer",
+      "aliases": [],
+      "firstAppearance": 155,
+      "appearances": [
+        155
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "jason-sledge",
+      "name": "Jason Sledge",
+      "aliases": [],
+      "firstAppearance": 155,
+      "appearances": [
+        155
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "leroy-tallon",
+      "name": "Leroy Tallon",
+      "aliases": [],
+      "firstAppearance": 155,
+      "appearances": [
+        155
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "conrad-fox",
+      "name": "Conrad Fox",
+      "aliases": [],
+      "firstAppearance": 155,
+      "appearances": [
+        155
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mirage",
+      "name": "Mirage",
+      "aliases": [],
+      "firstAppearance": 156,
+      "appearances": [
+        156,
+        181
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "man-with-the-999-faces-daredevil",
+      "name": "Man with the 999 Faces/\"Daredevil\"",
+      "aliases": [],
+      "firstAppearance": 156,
+      "appearances": [
+        156
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "toy",
+      "name": "Toy",
+      "aliases": [],
+      "firstAppearance": 160,
+      "appearances": [
+        160,
+        183
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "jigsaw",
+      "name": "Jigsaw",
+      "aliases": [],
+      "firstAppearance": 161,
+      "appearances": [
+        161,
+        162,
+        188
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "snake-eyes",
+      "name": "Snake-Eyes",
+      "aliases": [],
+      "firstAppearance": 161,
+      "appearances": [
+        161
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "roscoe",
+      "name": "Roscoe",
+      "aliases": [],
+      "firstAppearance": 162,
+      "appearances": [
+        162
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "stegron",
+      "name": "Stegron",
+      "aliases": [],
+      "firstAppearance": 165,
+      "appearances": [
+        165,
+        181
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "stegron-the-dinosaur-man",
+      "name": "Stegron The Dinosaur Man",
+      "aliases": [],
+      "firstAppearance": 166,
+      "appearances": [
+        166
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "will-o-the-wisp",
+      "name": "Will O' The Wisp",
+      "aliases": [],
+      "firstAppearance": 167,
+      "appearances": [
+        167,
+        168,
+        181
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "dr-faustus",
+      "name": "Dr. Faustus",
+      "aliases": [],
+      "firstAppearance": 169,
+      "appearances": [
+        169
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "doctor-faustus",
+      "name": "Doctor Faustus",
+      "aliases": [],
+      "firstAppearance": 170,
+      "appearances": [
+        170
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "photon",
+      "name": "Photon",
+      "aliases": [],
+      "firstAppearance": 171,
+      "appearances": [
+        171
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "a-i-m",
+      "name": "A.I.M",
+      "aliases": [],
+      "firstAppearance": 171,
+      "appearances": [
+        171
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "harry-daze",
+      "name": "Harry Daze",
+      "aliases": [],
+      "firstAppearance": 171,
+      "appearances": [
+        171
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rocket-racer",
+      "name": "Rocket Racer",
+      "aliases": [],
+      "firstAppearance": 172,
+      "appearances": [
+        172,
+        182
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "people-s-liberation-front",
+      "name": "People's Liberation Front",
+      "aliases": [],
+      "firstAppearance": 174,
+      "appearances": [
+        174,
+        175
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "hitman",
+      "name": "Hitman",
+      "aliases": [],
+      "firstAppearance": 174,
+      "appearances": [
+        174,
+        175
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "morty-ralph-milo-and-other-unnamed-members-of-the-plf",
+      "name": "Morty, Ralph, Milo and other unnamed members of the PLF",
+      "aliases": [],
+      "firstAppearance": 175,
+      "appearances": [
+        175
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "frank",
+      "name": "Frank",
+      "aliases": [],
+      "firstAppearance": 175,
+      "appearances": [
+        175
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-human-fly",
+      "name": "The Human Fly",
+      "aliases": [],
+      "firstAppearance": 181,
+      "appearances": [
+        181
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dr-doom",
+      "name": "Dr. Doom",
+      "aliases": [],
+      "firstAppearance": 181,
+      "appearances": [
+        181
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dr-octopus",
+      "name": "Dr. Octopus",
+      "aliases": [],
+      "firstAppearance": 181,
+      "appearances": [
+        181
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "morbius-the-living-vampire",
+      "name": "Morbius the Living Vampire",
+      "aliases": [],
+      "firstAppearance": 181,
+      "appearances": [
+        181
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "jackson-weele",
+      "name": "Jackson Weele",
+      "aliases": [],
+      "firstAppearance": 182,
+      "appearances": [
+        182
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "big-wheel",
+      "name": "Big Wheel",
+      "aliases": [],
+      "firstAppearance": 183,
+      "appearances": [
+        183
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-dragon-lords",
+      "name": "The Dragon Lords",
+      "aliases": [],
+      "firstAppearance": 184,
+      "appearances": [
+        184,
+        185
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "white-dragon",
+      "name": "White Dragon",
+      "aliases": [],
+      "firstAppearance": 184,
+      "appearances": [
+        184,
+        185
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "human-fly",
+      "name": "Human Fly",
+      "aliases": [],
+      "firstAppearance": 192,
+      "appearances": [
+        192,
+        276
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "fly",
+      "name": "Fly",
+      "aliases": [],
+      "firstAppearance": 193,
+      "appearances": [
+        193
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "black-cat",
+      "name": "Black Cat",
+      "aliases": [],
+      "firstAppearance": 194,
+      "appearances": [
+        194,
+        195,
+        204,
+        205,
+        227,
+        331
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "boris-korpse",
+      "name": "Boris Korpse",
+      "aliases": [],
+      "firstAppearance": 194,
+      "appearances": [
+        194,
+        195,
+        196
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "bruno-grainger",
+      "name": "Bruno Grainger",
+      "aliases": [],
+      "firstAppearance": 194,
+      "appearances": [
+        194,
+        195,
+        196
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "emil-greco",
+      "name": "Emil Greco",
+      "aliases": [],
+      "firstAppearance": 194,
+      "appearances": [
+        194
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-burglar",
+      "name": "The Burglar",
+      "aliases": [],
+      "firstAppearance": 195,
+      "appearances": [
+        195
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dr-rinehart",
+      "name": "Dr. Rinehart",
+      "aliases": [],
+      "firstAppearance": 196,
+      "appearances": [
+        196,
+        197
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "lorenzo-jacobi",
+      "name": "Lorenzo Jacobi",
+      "aliases": [],
+      "firstAppearance": 201,
+      "appearances": [
+        201,
+        202
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "alfred",
+      "name": "Alfred",
+      "aliases": [],
+      "firstAppearance": 202,
+      "appearances": [
+        202
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "arnie",
+      "name": "Arnie",
+      "aliases": [],
+      "firstAppearance": 202,
+      "appearances": [
+        202
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reis",
+      "name": "Reis",
+      "aliases": [],
+      "firstAppearance": 202,
+      "appearances": [
+        202
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "seaman",
+      "name": "Seaman",
+      "aliases": [],
+      "firstAppearance": 202,
+      "appearances": [
+        202
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "hatay",
+      "name": "Hatay",
+      "aliases": [],
+      "firstAppearance": 202,
+      "appearances": [
+        202
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lightmaster",
+      "name": "Lightmaster",
+      "aliases": [],
+      "firstAppearance": 203,
+      "appearances": [
+        203
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mesmero",
+      "name": "Mesmero",
+      "aliases": [],
+      "firstAppearance": 207,
+      "appearances": [
+        207
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion",
+      "aliases": [],
+      "firstAppearance": 208,
+      "appearances": [
+        208
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "calypso",
+      "name": "Calypso",
+      "aliases": [],
+      "firstAppearance": 209,
+      "appearances": [
+        209
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rupert-dockery",
+      "name": "Rupert Dockery",
+      "aliases": [],
+      "firstAppearance": 210,
+      "appearances": [
+        210
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sub-mariner",
+      "name": "Sub-Mariner",
+      "aliases": [],
+      "firstAppearance": 211,
+      "appearances": [
+        211
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "hydro-man",
+      "name": "Hydro-Man",
+      "aliases": [],
+      "firstAppearance": 212,
+      "appearances": [
+        212,
+        217,
+        280,
+        315
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "wizard",
+      "name": "Wizard",
+      "aliases": [],
+      "firstAppearance": 213,
+      "appearances": [
+        213
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "llyra",
+      "name": "Llyra",
+      "aliases": [],
+      "firstAppearance": 213,
+      "appearances": [
+        213,
+        214,
+        215
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "frightful-four",
+      "name": "Frightful Four",
+      "aliases": [],
+      "firstAppearance": 214,
+      "appearances": [
+        214,
+        215
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "the-wizard",
+      "name": "The Wizard",
+      "aliases": [],
+      "firstAppearance": 214,
+      "appearances": [
+        214,
+        215,
+        327
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "the-sandman",
+      "name": "The Sandman",
+      "aliases": [],
+      "firstAppearance": 214,
+      "appearances": [
+        214
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-trapster",
+      "name": "The Trapster",
+      "aliases": [],
+      "firstAppearance": 214,
+      "appearances": [
+        214
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "trapster",
+      "name": "Trapster",
+      "aliases": [],
+      "firstAppearance": 215,
+      "appearances": [
+        215
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unnamed-gunmen",
+      "name": "Unnamed gunmen",
+      "aliases": [],
+      "firstAppearance": 216,
+      "appearances": [
+        216
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mud-thing",
+      "name": "Mud-Thing",
+      "aliases": [],
+      "firstAppearance": 217,
+      "appearances": [
+        217,
+        218
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "grey-gargoyle",
+      "name": "Grey Gargoyle",
+      "aliases": [],
+      "firstAppearance": 219,
+      "appearances": [
+        219
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "armand-dubroth",
+      "name": "Armand DuBroth",
+      "aliases": [],
+      "firstAppearance": 219,
+      "appearances": [
+        219
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "national-syndicate-directorate",
+      "name": "National Syndicate Directorate",
+      "aliases": [],
+      "firstAppearance": 220,
+      "appearances": [
+        220
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rat-pack",
+      "name": "Rat Pack",
+      "aliases": [],
+      "firstAppearance": 220,
+      "appearances": [
+        220
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "louie-frenchetti",
+      "name": "Louie Frenchetti",
+      "aliases": [],
+      "firstAppearance": 220,
+      "appearances": [
+        220
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "blinky",
+      "name": "Blinky",
+      "aliases": [],
+      "firstAppearance": 220,
+      "appearances": [
+        220
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "weasel",
+      "name": "Weasel",
+      "aliases": [],
+      "firstAppearance": 220,
+      "appearances": [
+        220
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rodney-polly-s-nephew",
+      "name": "Rodney - Polly's nephew",
+      "aliases": [],
+      "firstAppearance": 220,
+      "appearances": [
+        220
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ramrod",
+      "name": "Ramrod",
+      "aliases": [],
+      "firstAppearance": 221,
+      "appearances": [
+        221
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "speed-demon",
+      "name": "Speed Demon",
+      "aliases": [],
+      "firstAppearance": 222,
+      "appearances": [
+        222,
+        280,
+        281
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "red-ghost",
+      "name": "Red Ghost",
+      "aliases": [],
+      "firstAppearance": 223,
+      "appearances": [
+        223,
+        255
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "super-apes",
+      "name": "Super-Apes",
+      "aliases": [],
+      "firstAppearance": 223,
+      "appearances": [
+        223,
+        255
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "miklho",
+      "name": "Miklho",
+      "aliases": [],
+      "firstAppearance": 223,
+      "appearances": [
+        223,
+        255
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "peotor",
+      "name": "Peotor",
+      "aliases": [],
+      "firstAppearance": 223,
+      "appearances": [
+        223,
+        255
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "igor",
+      "name": "Igor",
+      "aliases": [],
+      "firstAppearance": 223,
+      "appearances": [
+        223,
+        255
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "foolkiller",
+      "name": "Foolkiller",
+      "aliases": [],
+      "firstAppearance": 225,
+      "appearances": [
+        225
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "phil-bradshaw",
+      "name": "Phil Bradshaw",
+      "aliases": [],
+      "firstAppearance": 226,
+      "appearances": [
+        226
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "his-goons",
+      "name": "his goons",
+      "aliases": [],
+      "firstAppearance": 226,
+      "appearances": [
+        226
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sam-galvagno",
+      "name": "Sam Galvagno",
+      "aliases": [],
+      "firstAppearance": 227,
+      "appearances": [
+        227
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "murderer-by-spider",
+      "name": "Murderer by Spider",
+      "aliases": [],
+      "firstAppearance": 228,
+      "appearances": [
+        228
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "juggernaut",
+      "name": "Juggernaut",
+      "aliases": [],
+      "firstAppearance": 229,
+      "appearances": [
+        229,
+        230
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "black-tom-cassidy",
+      "name": "Black Tom Cassidy",
+      "aliases": [],
+      "firstAppearance": 229,
+      "appearances": [
+        229,
+        230
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "cobra",
+      "name": "Cobra",
+      "aliases": [],
+      "firstAppearance": 231,
+      "appearances": [
+        231,
+        232
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "mister-hyde",
+      "name": "Mister Hyde",
+      "aliases": [],
+      "firstAppearance": 231,
+      "appearances": [
+        231,
+        232
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "brand-corporation",
+      "name": "Brand Corporation",
+      "aliases": [],
+      "firstAppearance": 233,
+      "appearances": [
+        233,
+        234,
+        235,
+        236
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "smith",
+      "name": "Smith",
+      "aliases": [],
+      "firstAppearance": 233,
+      "appearances": [
+        233
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "will-o-the-wisp",
+      "name": "Will O' the Wisp",
+      "aliases": [],
+      "firstAppearance": 234,
+      "appearances": [
+        234,
+        235
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "aliases": [],
+      "firstAppearance": 234,
+      "appearances": [
+        234
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mr-smith",
+      "name": "Mr. Smith",
+      "aliases": [],
+      "firstAppearance": 234,
+      "appearances": [
+        234
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "james-melvin",
+      "name": "James Melvin",
+      "aliases": [],
+      "firstAppearance": 234,
+      "appearances": [
+        234,
+        235,
+        236
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "dr-fenton",
+      "name": "Dr. Fenton",
+      "aliases": [],
+      "firstAppearance": 234,
+      "appearances": [
+        234,
+        235
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "dodds",
+      "name": "Dodds",
+      "aliases": [],
+      "firstAppearance": 234,
+      "appearances": [
+        234
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "roxxon-oil-company",
+      "name": "Roxxon Oil Company",
+      "aliases": [],
+      "firstAppearance": 235,
+      "appearances": [
+        235,
+        236
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "harv-carson",
+      "name": "Harv Carson",
+      "aliases": [],
+      "firstAppearance": 235,
+      "appearances": [
+        235
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "thorpe",
+      "name": "Thorpe",
+      "aliases": [],
+      "firstAppearance": 235,
+      "appearances": [
+        235
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "john-t-gamelin",
+      "name": "John T. Gamelin",
+      "aliases": [],
+      "firstAppearance": 235,
+      "appearances": [
+        235,
+        236
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "board-of-directors",
+      "name": "Board of Directors",
+      "aliases": [],
+      "firstAppearance": 236,
+      "appearances": [
+        236
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "august-d-angelo",
+      "name": "August D'Angelo",
+      "aliases": [],
+      "firstAppearance": 236,
+      "appearances": [
+        236
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "stilt-man",
+      "name": "Stilt-Man",
+      "aliases": [],
+      "firstAppearance": 237,
+      "appearances": [
+        237
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "georgie-hill",
+      "name": "Georgie Hill",
+      "aliases": [],
+      "firstAppearance": 238,
+      "appearances": [
+        238
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "hobgoblin",
+      "name": "Hobgoblin",
+      "aliases": [],
+      "firstAppearance": 238,
+      "appearances": [
+        238,
+        239,
+        244,
+        245,
+        249,
+        250,
+        251,
+        257,
+        258,
+        259,
+        260,
+        261,
+        275,
+        276,
+        278,
+        280,
+        281,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        312,
+        335,
+        337,
+        338,
+        339,
+        372
+      ],
+      "frequency": 30
+    },
+    {
+      "id": "mad-thinker",
+      "name": "Mad Thinker",
+      "aliases": [],
+      "firstAppearance": 242,
+      "appearances": [
+        242
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "battledroids",
+      "name": "Battledroids",
+      "aliases": [],
+      "firstAppearance": 242,
+      "appearances": [
+        242
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "universal-liberation-army",
+      "name": "Universal Liberation Army",
+      "aliases": [],
+      "firstAppearance": 243,
+      "appearances": [
+        243
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lefty-donovan",
+      "name": "Lefty Donovan",
+      "aliases": [],
+      "firstAppearance": 244,
+      "appearances": [
+        244
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "thunderball",
+      "name": "Thunderball",
+      "aliases": [],
+      "firstAppearance": 247,
+      "appearances": [
+        247,
+        248,
+        354,
+        357,
+        358
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "unnamed-mugger",
+      "name": "Unnamed mugger",
+      "aliases": [],
+      "firstAppearance": 252,
+      "appearances": [
+        252
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rose",
+      "name": "Rose",
+      "aliases": [],
+      "firstAppearance": 253,
+      "appearances": [
+        253,
+        275,
+        276,
+        284,
+        286,
+        287,
+        288,
+        289,
+        421,
+        425,
+        427,
+        434,
+        435
+      ],
+      "frequency": 13
+    },
+    {
+      "id": "jack-o-lantern",
+      "name": "Jack O'Lantern",
+      "aliases": [],
+      "firstAppearance": 254,
+      "appearances": [
+        254,
+        279,
+        280,
+        281,
+        284,
+        285,
+        286,
+        288
+      ],
+      "frequency": 8
+    },
+    {
+      "id": "frankie-silvera",
+      "name": "Frankie Silvera",
+      "aliases": [],
+      "firstAppearance": 256,
+      "appearances": [
+        256
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ralph-mac",
+      "name": "Ralph Mac",
+      "aliases": [],
+      "firstAppearance": 256,
+      "appearances": [
+        256
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "puma",
+      "name": "Puma",
+      "aliases": [],
+      "firstAppearance": 256,
+      "appearances": [
+        256,
+        257,
+        395
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "the-rose",
+      "name": "The Rose",
+      "aliases": [],
+      "firstAppearance": 256,
+      "appearances": [
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        278,
+        280,
+        281,
+        285,
+        414,
+        416,
+        420,
+        422,
+        423,
+        424,
+        428,
+        432
+      ],
+      "frequency": 18
+    },
+    {
+      "id": "spider-man-s-black-suit",
+      "name": "Spider-Man's Black Suit",
+      "aliases": [],
+      "firstAppearance": 258,
+      "appearances": [
+        258
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "harry",
+      "name": "Harry",
+      "aliases": [],
+      "firstAppearance": 258,
+      "appearances": [
+        258
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "symbiote-suit",
+      "name": "Symbiote Suit",
+      "aliases": [],
+      "firstAppearance": 259,
+      "appearances": [
+        259
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "roberto-denatale",
+      "name": "Roberto DeNatale",
+      "aliases": [],
+      "firstAppearance": 262,
+      "appearances": [
+        262
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bluto",
+      "name": "Bluto",
+      "aliases": [],
+      "firstAppearance": 262,
+      "appearances": [
+        262
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cheo",
+      "name": "Cheo",
+      "aliases": [],
+      "firstAppearance": 262,
+      "appearances": [
+        262
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "other-unnamed-henchmen",
+      "name": "other unnamed henchmen",
+      "aliases": [],
+      "firstAppearance": 262,
+      "appearances": [
+        262
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "jake-d-j-jones",
+      "name": "Jake \"D.J.\" Jones",
+      "aliases": [],
+      "firstAppearance": 262,
+      "appearances": [
+        262
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "blazing-skull-gang",
+      "name": "Blazing Skull Gang",
+      "aliases": [],
+      "firstAppearance": 263,
+      "appearances": [
+        263
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "matt",
+      "name": "Matt",
+      "aliases": [],
+      "firstAppearance": 263,
+      "appearances": [
+        263
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "eddie",
+      "name": "Eddie",
+      "aliases": [],
+      "firstAppearance": 263,
+      "appearances": [
+        263
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "red-9",
+      "name": "Red 9",
+      "aliases": [],
+      "firstAppearance": 264,
+      "appearances": [
+        264
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "black-fox",
+      "name": "Black Fox",
+      "aliases": [],
+      "firstAppearance": 265,
+      "appearances": [
+        265,
+        304,
+        305,
+        349,
+        350
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "various-thugs",
+      "name": "Various Thugs",
+      "aliases": [],
+      "firstAppearance": 266,
+      "appearances": [
+        266
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-commuter",
+      "name": "The Commuter",
+      "aliases": [],
+      "firstAppearance": 267,
+      "appearances": [
+        267
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "arranger",
+      "name": "Arranger",
+      "aliases": [],
+      "firstAppearance": 268,
+      "appearances": [
+        268,
+        277,
+        284,
+        285,
+        287,
+        288
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "firelord",
+      "name": "Firelord",
+      "aliases": [],
+      "firstAppearance": 269,
+      "appearances": [
+        269,
+        270
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "manslaughter-marsdale",
+      "name": "Manslaughter Marsdale",
+      "aliases": [],
+      "firstAppearance": 271,
+      "appearances": [
+        271,
+        309
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "madame-fang",
+      "name": "Madame Fang",
+      "aliases": [],
+      "firstAppearance": 271,
+      "appearances": [
+        271
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "slyde",
+      "name": "Slyde",
+      "aliases": [],
+      "firstAppearance": 272,
+      "appearances": [
+        272
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "beyonder",
+      "name": "Beyonder",
+      "aliases": [],
+      "firstAppearance": 273,
+      "appearances": [
+        273,
+        274
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "mephisto",
+      "name": "Mephisto",
+      "aliases": [],
+      "firstAppearance": 274,
+      "appearances": [
+        274
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "zarathos",
+      "name": "Zarathos",
+      "aliases": [],
+      "firstAppearance": 274,
+      "appearances": [
+        274
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "scourge",
+      "name": "Scourge",
+      "aliases": [],
+      "firstAppearance": 276,
+      "appearances": [
+        276,
+        278
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "kidnappers",
+      "name": "Kidnappers",
+      "aliases": [],
+      "firstAppearance": 277,
+      "appearances": [
+        277
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "wraith",
+      "name": "Wraith",
+      "aliases": [],
+      "firstAppearance": 278,
+      "appearances": [
+        278
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sinister-syndicate",
+      "name": "Sinister Syndicate",
+      "aliases": [],
+      "firstAppearance": 280,
+      "appearances": [
+        280,
+        281
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "boomerang",
+      "name": "Boomerang",
+      "aliases": [],
+      "firstAppearance": 280,
+      "appearances": [
+        280,
+        281,
+        345
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "hydroman",
+      "name": "Hydroman",
+      "aliases": [],
+      "firstAppearance": 281,
+      "appearances": [
+        281
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "x-factor",
+      "name": "X-Factor",
+      "aliases": [],
+      "firstAppearance": 282,
+      "appearances": [
+        282
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "aliases": [],
+      "firstAppearance": 282,
+      "appearances": [
+        282
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "marvel-girl",
+      "name": "Marvel Girl",
+      "aliases": [],
+      "firstAppearance": 282,
+      "appearances": [
+        282
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iceman",
+      "name": "Iceman",
+      "aliases": [],
+      "firstAppearance": 282,
+      "appearances": [
+        282
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "angel",
+      "name": "Angel",
+      "aliases": [],
+      "firstAppearance": 282,
+      "appearances": [
+        282
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "beast",
+      "name": "Beast",
+      "aliases": [],
+      "firstAppearance": 282,
+      "appearances": [
+        282
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "titania",
+      "name": "Titania",
+      "aliases": [],
+      "firstAppearance": 283,
+      "appearances": [
+        283
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "absorbing-man",
+      "name": "Absorbing Man",
+      "aliases": [],
+      "firstAppearance": 283,
+      "appearances": [
+        283
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "blue-boys",
+      "name": "Blue Boys",
+      "aliases": [],
+      "firstAppearance": 284,
+      "appearances": [
+        284,
+        286,
+        288
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "the-blue-boys",
+      "name": "The Blue Boys",
+      "aliases": [],
+      "firstAppearance": 285,
+      "appearances": [
+        285
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "1400-club",
+      "name": "1400 Club",
+      "aliases": [],
+      "firstAppearance": 289,
+      "appearances": [
+        289
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "foreigner",
+      "name": "Foreigner",
+      "aliases": [],
+      "firstAppearance": 289,
+      "appearances": [
+        289
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unnamed-agents",
+      "name": "Unnamed Agents",
+      "aliases": [],
+      "firstAppearance": 289,
+      "appearances": [
+        289
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "preserver",
+      "name": "Preserver",
+      "aliases": [],
+      "firstAppearance": 290,
+      "appearances": [
+        290
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "aliases": [],
+      "firstAppearance": 290,
+      "appearances": [
+        290
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "alistaire-smythe",
+      "name": "Alistaire Smythe",
+      "aliases": [],
+      "firstAppearance": 291,
+      "appearances": [
+        291
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "alistair-smythe",
+      "name": "Alistair Smythe",
+      "aliases": [],
+      "firstAppearance": 292,
+      "appearances": [
+        292,
+        368,
+        369,
+        372
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "philip-watson",
+      "name": "Philip Watson",
+      "aliases": [],
+      "firstAppearance": 292,
+      "appearances": [
+        292,
+        371
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "vermin",
+      "name": "Vermin",
+      "aliases": [],
+      "firstAppearance": 293,
+      "appearances": [
+        293,
+        294
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "doctor-hope",
+      "name": "Doctor Hope",
+      "aliases": [],
+      "firstAppearance": 295,
+      "appearances": [
+        295
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "chance",
+      "name": "Chance",
+      "aliases": [],
+      "firstAppearance": 298,
+      "appearances": [
+        298,
+        299,
+        336
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "life-foundation",
+      "name": "Life Foundation",
+      "aliases": [],
+      "firstAppearance": 298,
+      "appearances": [
+        298,
+        299,
+        320,
+        321,
+        324,
+        351,
+        352
+      ],
+      "frequency": 7
+    },
+    {
+      "id": "carlton-drake",
+      "name": "Carlton Drake",
+      "aliases": [],
+      "firstAppearance": 298,
+      "appearances": [
+        298,
+        299,
+        320,
+        321,
+        351,
+        352
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "venom",
+      "name": "Venom",
+      "aliases": [],
+      "firstAppearance": 300,
+      "appearances": [
+        300,
+        315,
+        316,
+        317,
+        331,
+        332,
+        333,
+        345,
+        346,
+        347,
+        365,
+        374,
+        375
+      ],
+      "frequency": 13
+    },
+    {
+      "id": "frank-cruz",
+      "name": "Frank Cruz",
+      "aliases": [],
+      "firstAppearance": 301,
+      "appearances": [
+        301
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "royce-nero",
+      "name": "Royce Nero",
+      "aliases": [],
+      "firstAppearance": 302,
+      "appearances": [
+        302
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "franz-kraus",
+      "name": "Franz Kraus",
+      "aliases": [],
+      "firstAppearance": 303,
+      "appearances": [
+        303
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transcorp",
+      "name": "Transcorp",
+      "aliases": [],
+      "firstAppearance": 305,
+      "appearances": [
+        305
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "troy-fishburne",
+      "name": "Troy Fishburne",
+      "aliases": [],
+      "firstAppearance": 305,
+      "appearances": [
+        305
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "humbug",
+      "name": "Humbug",
+      "aliases": [],
+      "firstAppearance": 306,
+      "appearances": [
+        306
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "jonathan-caesar",
+      "name": "Jonathan Caesar",
+      "aliases": [],
+      "firstAppearance": 306,
+      "appearances": [
+        306,
+        307,
+        308,
+        309,
+        313,
+        332,
+        333,
+        337,
+        338,
+        339
+      ],
+      "frequency": 10
+    },
+    {
+      "id": "taskmaster",
+      "name": "Taskmaster",
+      "aliases": [],
+      "firstAppearance": 308,
+      "appearances": [
+        308,
+        366,
+        367
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "styx",
+      "name": "Styx",
+      "aliases": [],
+      "firstAppearance": 309,
+      "appearances": [
+        309,
+        332,
+        333,
+        376,
+        377
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "aliases": [],
+      "firstAppearance": 309,
+      "appearances": [
+        309,
+        332,
+        333,
+        376,
+        377
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "killer-shrike",
+      "name": "Killer Shrike",
+      "aliases": [],
+      "firstAppearance": 310,
+      "appearances": [
+        310
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-tinkerer",
+      "name": "The Tinkerer",
+      "aliases": [],
+      "firstAppearance": 310,
+      "appearances": [
+        310
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "malcolm-kinderman",
+      "name": "Malcolm Kinderman",
+      "aliases": [],
+      "firstAppearance": 314,
+      "appearances": [
+        314
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unnamed-bank-robber",
+      "name": "Unnamed bank robber",
+      "aliases": [],
+      "firstAppearance": 316,
+      "appearances": [
+        316
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "justin-hammer",
+      "name": "Justin Hammer",
+      "aliases": [],
+      "firstAppearance": 318,
+      "appearances": [
+        318,
+        319,
+        344,
+        345
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "backlash",
+      "name": "Backlash",
+      "aliases": [],
+      "firstAppearance": 319,
+      "appearances": [
+        319
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "chakane",
+      "name": "Chakane",
+      "aliases": [],
+      "firstAppearance": 320,
+      "appearances": [
+        320
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "protectors",
+      "name": "Protectors",
+      "aliases": [],
+      "firstAppearance": 321,
+      "appearances": [
+        321
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sabretooth",
+      "name": "Sabretooth",
+      "aliases": [],
+      "firstAppearance": 322,
+      "appearances": [
+        322,
+        324
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "ultimatum",
+      "name": "ULTIMATUM",
+      "aliases": [],
+      "firstAppearance": 322,
+      "appearances": [
+        322,
+        323,
+        324
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "major-toler-weil",
+      "name": "Major Toler Weil",
+      "aliases": [],
+      "firstAppearance": 322,
+      "appearances": [
+        322,
+        323,
+        324,
+        325
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "prime-minister-klaus-limka",
+      "name": "Prime Minister Klaus Limka",
+      "aliases": [],
+      "firstAppearance": 322,
+      "appearances": [
+        322
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "macvay",
+      "name": "MacVay",
+      "aliases": [],
+      "firstAppearance": 324,
+      "appearances": [
+        324
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "red-skull",
+      "name": "Red Skull",
+      "aliases": [],
+      "firstAppearance": 325,
+      "appearances": [
+        325,
+        366,
+        367
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "ultimatum",
+      "name": "Ultimatum",
+      "aliases": [],
+      "firstAppearance": 325,
+      "appearances": [
+        325
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "resistants",
+      "name": "Resistants",
+      "aliases": [],
+      "firstAppearance": 325,
+      "appearances": [
+        325
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sweatshop",
+      "name": "Sweatshop",
+      "aliases": [],
+      "firstAppearance": 325,
+      "appearances": [
+        325
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "watchdogs",
+      "name": "Watchdogs",
+      "aliases": [],
+      "firstAppearance": 325,
+      "appearances": [
+        325
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "graviton",
+      "name": "Graviton",
+      "aliases": [],
+      "firstAppearance": 326,
+      "appearances": [
+        326,
+        329
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "magneto",
+      "name": "Magneto",
+      "aliases": [],
+      "firstAppearance": 327,
+      "appearances": [
+        327
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sebastian-shaw",
+      "name": "Sebastian Shaw",
+      "aliases": [],
+      "firstAppearance": 328,
+      "appearances": [
+        328,
+        329
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "tri-sentinel",
+      "name": "Tri-Sentinel",
+      "aliases": [],
+      "firstAppearance": 329,
+      "appearances": [
+        329,
+        351,
+        352
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "sentinel-mk-iv",
+      "name": "Sentinel Mk IV",
+      "aliases": [],
+      "firstAppearance": 329,
+      "appearances": [
+        329
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sentinel-mk-v",
+      "name": "Sentinel Mk V",
+      "aliases": [],
+      "firstAppearance": 329,
+      "appearances": [
+        329
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sentinel-mk-vi",
+      "name": "Sentinel Mk VI",
+      "aliases": [],
+      "firstAppearance": 329,
+      "appearances": [
+        329
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "aliases": [],
+      "firstAppearance": 329,
+      "appearances": [
+        329
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "avengers",
+      "name": "Avengers",
+      "aliases": [],
+      "firstAppearance": 329,
+      "appearances": [
+        329
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "galactus",
+      "name": "Galactus",
+      "aliases": [],
+      "firstAppearance": 329,
+      "appearances": [
+        329
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unidentified-drug-cartel",
+      "name": "Unidentified Drug Cartel",
+      "aliases": [],
+      "firstAppearance": 330,
+      "appearances": [
+        330
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "eddie-brock",
+      "name": "Eddie Brock",
+      "aliases": [],
+      "firstAppearance": 330,
+      "appearances": [
+        330
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "col-buchinsky",
+      "name": "Col. Buchinsky",
+      "aliases": [],
+      "firstAppearance": 331,
+      "appearances": [
+        331
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "venom-symbiote",
+      "name": "Venom Symbiote",
+      "aliases": [],
+      "firstAppearance": 332,
+      "appearances": [
+        332,
+        346,
+        347,
+        374,
+        375
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "sinister-six",
+      "name": "Sinister Six",
+      "aliases": [],
+      "firstAppearance": 334,
+      "appearances": [
+        334,
+        335,
+        337,
+        338,
+        339
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "femme-fatales",
+      "name": "Femme Fatales",
+      "aliases": [],
+      "firstAppearance": 340,
+      "appearances": [
+        340,
+        343
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "bloodlust",
+      "name": "Bloodlust",
+      "aliases": [],
+      "firstAppearance": 340,
+      "appearances": [
+        340,
+        343
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "whiplash",
+      "name": "Whiplash",
+      "aliases": [],
+      "firstAppearance": 340,
+      "appearances": [
+        340,
+        343
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "knockout",
+      "name": "Knockout",
+      "aliases": [],
+      "firstAppearance": 340,
+      "appearances": [
+        340,
+        343
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "mindblast",
+      "name": "Mindblast",
+      "aliases": [],
+      "firstAppearance": 340,
+      "appearances": [
+        340,
+        343
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "cardiac",
+      "name": "Cardiac",
+      "aliases": [],
+      "firstAppearance": 344,
+      "appearances": [
+        344,
+        345,
+        359,
+        360,
+        376,
+        377
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "hammer-industries",
+      "name": "Hammer Industries",
+      "aliases": [],
+      "firstAppearance": 344,
+      "appearances": [
+        344,
+        345
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "phillip-barnett",
+      "name": "Phillip Barnett",
+      "aliases": [],
+      "firstAppearance": 344,
+      "appearances": [
+        344,
+        345
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "weapons-dealers",
+      "name": "Weapons Dealers",
+      "aliases": [],
+      "firstAppearance": 348,
+      "appearances": [
+        348
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "arcane-order-of-the-night",
+      "name": "Arcane Order of the Night",
+      "aliases": [],
+      "firstAppearance": 350,
+      "appearances": [
+        350
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "andrew-carpathian",
+      "name": "Andrew Carpathian",
+      "aliases": [],
+      "firstAppearance": 350,
+      "appearances": [
+        350
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unnamed-members",
+      "name": "Unnamed members",
+      "aliases": [],
+      "firstAppearance": 351,
+      "appearances": [
+        351
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "secret-empire",
+      "name": "Secret Empire",
+      "aliases": [],
+      "firstAppearance": 353,
+      "appearances": [
+        353,
+        354,
+        355,
+        356,
+        357,
+        358
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "number-two",
+      "name": "Number Two",
+      "aliases": [],
+      "firstAppearance": 353,
+      "appearances": [
+        353
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "number-five",
+      "name": "Number Five",
+      "aliases": [],
+      "firstAppearance": 353,
+      "appearances": [
+        353,
+        355,
+        356
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "number-seven",
+      "name": "Number Seven",
+      "aliases": [],
+      "firstAppearance": 353,
+      "appearances": [
+        353,
+        354,
+        355,
+        356
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "midnight",
+      "name": "Midnight",
+      "aliases": [],
+      "firstAppearance": 353,
+      "appearances": [
+        353,
+        354,
+        355,
+        356,
+        357,
+        358
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "eliot-franklin",
+      "name": "Eliot Franklin",
+      "aliases": [],
+      "firstAppearance": 353,
+      "appearances": [
+        353,
+        355
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "number-three",
+      "name": "Number Three",
+      "aliases": [],
+      "firstAppearance": 354,
+      "appearances": [
+        354,
+        356,
+        357
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "number-twelve",
+      "name": "Number Twelve",
+      "aliases": [],
+      "firstAppearance": 354,
+      "appearances": [
+        354,
+        356
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "lynn-church",
+      "name": "Lynn Church",
+      "aliases": [],
+      "firstAppearance": 354,
+      "appearances": [
+        354,
+        355,
+        356,
+        357,
+        358
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "number-nine",
+      "name": "Number Nine",
+      "aliases": [],
+      "firstAppearance": 355,
+      "appearances": [
+        355
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "number-ten",
+      "name": "Number Ten",
+      "aliases": [],
+      "firstAppearance": 355,
+      "appearances": [
+        355,
+        356
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "sonic",
+      "name": "Sonic",
+      "aliases": [],
+      "firstAppearance": 355,
+      "appearances": [
+        355,
+        358
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "chain",
+      "name": "Chain",
+      "aliases": [],
+      "firstAppearance": 355,
+      "appearances": [
+        355,
+        358
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "grasp",
+      "name": "Grasp",
+      "aliases": [],
+      "firstAppearance": 355,
+      "appearances": [
+        355,
+        358
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "number-four",
+      "name": "Number Four",
+      "aliases": [],
+      "firstAppearance": 356,
+      "appearances": [
+        356,
+        357
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "number-thirteen",
+      "name": "Number Thirteen",
+      "aliases": [],
+      "firstAppearance": 356,
+      "appearances": [
+        356
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "number-twenty-one",
+      "name": "Number Twenty-One",
+      "aliases": [],
+      "firstAppearance": 356,
+      "appearances": [
+        356
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dr-eliot-franklin",
+      "name": "Dr. Eliot Franklin",
+      "aliases": [],
+      "firstAppearance": 356,
+      "appearances": [
+        356
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "number-six",
+      "name": "Number Six",
+      "aliases": [],
+      "firstAppearance": 357,
+      "appearances": [
+        357
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "stane-international",
+      "name": "Stane International",
+      "aliases": [],
+      "firstAppearance": 360,
+      "appearances": [
+        360
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "joe-faulkner",
+      "name": "Joe Faulkner",
+      "aliases": [],
+      "firstAppearance": 360,
+      "appearances": [
+        360
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "stane-international-security-guards",
+      "name": "Stane International Security Guards",
+      "aliases": [],
+      "firstAppearance": 360,
+      "appearances": [
+        360
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "carnage",
+      "name": "Carnage",
+      "aliases": [],
+      "firstAppearance": 361,
+      "appearances": [
+        361,
+        362,
+        363,
+        378,
+        379,
+        380,
+        403,
+        410,
+        430,
+        431
+      ],
+      "frequency": 10
+    },
+    {
+      "id": "carnage-symbiote",
+      "name": "Carnage Symbiote",
+      "aliases": [],
+      "firstAppearance": 361,
+      "appearances": [
+        361,
+        362
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "carnage-symbiote",
+      "name": "Carnage symbiote",
+      "aliases": [],
+      "firstAppearance": 363,
+      "appearances": [
+        363
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saboteurs",
+      "name": "Saboteurs",
+      "aliases": [],
+      "firstAppearance": 365,
+      "appearances": [
+        365
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-green-goblin",
+      "name": "The Green Goblin",
+      "aliases": [],
+      "firstAppearance": 365,
+      "appearances": [
+        365
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "viper",
+      "name": "Viper",
+      "aliases": [],
+      "firstAppearance": 366,
+      "appearances": [
+        366,
+        367
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "sweat-shop",
+      "name": "Sweat Shop",
+      "aliases": [],
+      "firstAppearance": 366,
+      "appearances": [
+        366
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "errol",
+      "name": "Errol",
+      "aliases": [],
+      "firstAppearance": 366,
+      "appearances": [
+        366
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "aliases": [],
+      "firstAppearance": 366,
+      "appearances": [
+        366
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "tompkins",
+      "name": "Tompkins",
+      "aliases": [],
+      "firstAppearance": 366,
+      "appearances": [
+        366
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "death-shield",
+      "name": "Death-Shield",
+      "aliases": [],
+      "firstAppearance": 367,
+      "appearances": [
+        367
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "jagged-bow",
+      "name": "Jagged Bow",
+      "aliases": [],
+      "firstAppearance": 367,
+      "appearances": [
+        367
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "blood-spider",
+      "name": "Blood Spider",
+      "aliases": [],
+      "firstAppearance": 367,
+      "appearances": [
+        367
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "u-l-t-i-m-a-t-u-m",
+      "name": "U.L.T.I.M.A.T.U.M",
+      "aliases": [],
+      "firstAppearance": 367,
+      "appearances": [
+        367
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spider-slayer-mark-x",
+      "name": "Spider-Slayer Mark X",
+      "aliases": [],
+      "firstAppearance": 368,
+      "appearances": [
+        368
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spider-slayer-mark-xi",
+      "name": "Spider-Slayer Mark XI",
+      "aliases": [],
+      "firstAppearance": 368,
+      "appearances": [
+        368
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spider-slayer-mark-xii",
+      "name": "Spider-Slayer Mark XII",
+      "aliases": [],
+      "firstAppearance": 369,
+      "appearances": [
+        369
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spider-slayer-mark-xiii",
+      "name": "Spider-Slayer Mark XIII",
+      "aliases": [],
+      "firstAppearance": 370,
+      "appearances": [
+        370
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "max-young",
+      "name": "Max Young",
+      "aliases": [],
+      "firstAppearance": 371,
+      "appearances": [
+        371,
+        372
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "spider-slayer-mark-xiv",
+      "name": "Spider-Slayer Mark XIV",
+      "aliases": [],
+      "firstAppearance": 371,
+      "appearances": [
+        371
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "charlie-shaddock",
+      "name": "Charlie Shaddock",
+      "aliases": [],
+      "firstAppearance": 372,
+      "appearances": [
+        372
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spider-slayer-mark-xv",
+      "name": "Spider-Slayer Mark XV",
+      "aliases": [],
+      "firstAppearance": 372,
+      "appearances": [
+        372
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spider-slayer-mark-xvi",
+      "name": "Spider-Slayer Mark XVI",
+      "aliases": [],
+      "firstAppearance": 372,
+      "appearances": [
+        372
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spider-slayer-mark-xvii",
+      "name": "Spider-Slayer Mark XVII",
+      "aliases": [],
+      "firstAppearance": 372,
+      "appearances": [
+        372
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "agent-charles-shaddock",
+      "name": "Agent Charles Shaddock",
+      "aliases": [],
+      "firstAppearance": 373,
+      "appearances": [
+        373
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-spider-slayer",
+      "name": "Ultimate Spider-Slayer",
+      "aliases": [],
+      "firstAppearance": 373,
+      "appearances": [
+        373
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "perkins",
+      "name": "Perkins",
+      "aliases": [],
+      "firstAppearance": 373,
+      "appearances": [
+        373
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "wild-pack",
+      "name": "Wild Pack",
+      "aliases": [],
+      "firstAppearance": 375,
+      "appearances": [
+        375
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "amy-chen",
+      "name": "Amy Chen",
+      "aliases": [],
+      "firstAppearance": 375,
+      "appearances": [
+        375
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "battlestar",
+      "name": "Battlestar",
+      "aliases": [],
+      "firstAppearance": 375,
+      "appearances": [
+        375
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "raul-quentino",
+      "name": "Raul Quentino",
+      "aliases": [],
+      "firstAppearance": 375,
+      "appearances": [
+        375
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "douglas-powell",
+      "name": "Douglas Powell",
+      "aliases": [],
+      "firstAppearance": 375,
+      "appearances": [
+        375
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "crippler",
+      "name": "Crippler",
+      "aliases": [],
+      "firstAppearance": 375,
+      "appearances": [
+        375
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "jake-austin",
+      "name": "Jake Austin",
+      "aliases": [],
+      "firstAppearance": 375,
+      "appearances": [
+        375
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "shriek",
+      "name": "Shriek",
+      "aliases": [],
+      "firstAppearance": 378,
+      "appearances": [
+        378,
+        379,
+        380,
+        390,
+        391,
+        392,
+        393
+      ],
+      "frequency": 7
+    },
+    {
+      "id": "spider-doppelganger",
+      "name": "Spider-Doppelganger",
+      "aliases": [],
+      "firstAppearance": 378,
+      "appearances": [
+        378,
+        379,
+        380
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "demogoblin",
+      "name": "Demogoblin",
+      "aliases": [],
+      "firstAppearance": 378,
+      "appearances": [
+        378,
+        379,
+        380
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "carrion",
+      "name": "Carrion",
+      "aliases": [],
+      "firstAppearance": 379,
+      "appearances": [
+        379,
+        380,
+        391,
+        392,
+        393
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "doc-samson",
+      "name": "Doc Samson",
+      "aliases": [],
+      "firstAppearance": 381,
+      "appearances": [
+        381
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orwell-taylor",
+      "name": "Orwell Taylor",
+      "aliases": [],
+      "firstAppearance": 383,
+      "appearances": [
+        383,
+        384,
+        385
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "jury",
+      "name": "Jury",
+      "aliases": [],
+      "firstAppearance": 383,
+      "appearances": [
+        383,
+        384,
+        385
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "aliases": [],
+      "firstAppearance": 383,
+      "appearances": [
+        383,
+        384,
+        385
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "ramshot",
+      "name": "Ramshot",
+      "aliases": [],
+      "firstAppearance": 383,
+      "appearances": [
+        383,
+        384,
+        385
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "firearm",
+      "name": "Firearm",
+      "aliases": [],
+      "firstAppearance": 383,
+      "appearances": [
+        383,
+        384,
+        385
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "screech",
+      "name": "Screech",
+      "aliases": [],
+      "firstAppearance": 383,
+      "appearances": [
+        383,
+        384,
+        385
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "bomblast",
+      "name": "Bomblast",
+      "aliases": [],
+      "firstAppearance": 383,
+      "appearances": [
+        383,
+        384,
+        385
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "the-vulture",
+      "name": "The Vulture",
+      "aliases": [],
+      "firstAppearance": 386,
+      "appearances": [
+        386,
+        387,
+        388
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "richard-parker-simulacrum",
+      "name": "Richard Parker Simulacrum",
+      "aliases": [],
+      "firstAppearance": 388,
+      "appearances": [
+        388
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spider-man",
+      "name": "Spider-Man",
+      "aliases": [],
+      "firstAppearance": 388,
+      "appearances": [
+        388
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "enos-warwick",
+      "name": "Enos Warwick",
+      "aliases": [],
+      "firstAppearance": 388,
+      "appearances": [
+        388
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dr-judas-traveller",
+      "name": "Dr. Judas Traveller",
+      "aliases": [],
+      "firstAppearance": 394,
+      "appearances": [
+        394
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "the-host",
+      "name": "The Host",
+      "aliases": [],
+      "firstAppearance": 394,
+      "appearances": [
+        394,
+        416,
+        417
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "mr-nacht",
+      "name": "Mr. Nacht",
+      "aliases": [],
+      "firstAppearance": 394,
+      "appearances": [
+        394,
+        400
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "chakra",
+      "name": "Chakra",
+      "aliases": [],
+      "firstAppearance": 394,
+      "appearances": [
+        394,
+        401,
+        416
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "scrier",
+      "name": "Scrier",
+      "aliases": [],
+      "firstAppearance": 394,
+      "appearances": [
+        394,
+        399,
+        402,
+        416,
+        417
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "the-owl",
+      "name": "The Owl",
+      "aliases": [],
+      "firstAppearance": 396,
+      "appearances": [
+        396
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "kaine",
+      "name": "Kaine",
+      "aliases": [],
+      "firstAppearance": 397,
+      "appearances": [
+        397,
+        399,
+        401
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "stunner",
+      "name": "Stunner",
+      "aliases": [],
+      "firstAppearance": 397,
+      "appearances": [
+        397,
+        427
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "judas-traveller",
+      "name": "Judas Traveller",
+      "aliases": [],
+      "firstAppearance": 400,
+      "appearances": [
+        400,
+        401,
+        402,
+        403,
+        416,
+        417
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "medea",
+      "name": "Medea",
+      "aliases": [],
+      "firstAppearance": 400,
+      "appearances": [
+        400,
+        416,
+        417
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "peter-parker",
+      "name": "Peter Parker",
+      "aliases": [],
+      "firstAppearance": 401,
+      "appearances": [
+        401
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "spidercide",
+      "name": "Spidercide",
+      "aliases": [],
+      "firstAppearance": 404,
+      "appearances": [
+        404
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "armada",
+      "name": "Armada",
+      "aliases": [],
+      "firstAppearance": 408,
+      "appearances": [
+        408,
+        413
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "jagged-skulls-gang",
+      "name": "Jagged Skulls Gang",
+      "aliases": [],
+      "firstAppearance": 408,
+      "appearances": [
+        408
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "great-game",
+      "name": "Great Game",
+      "aliases": [],
+      "firstAppearance": 409,
+      "appearances": [
+        409
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "great-game-sponsors",
+      "name": "Great Game Sponsors",
+      "aliases": [],
+      "firstAppearance": 409,
+      "appearances": [
+        409
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "james-johnsmeyer",
+      "name": "James Johnsmeyer",
+      "aliases": [],
+      "firstAppearance": 409,
+      "appearances": [
+        409
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "yassaf",
+      "name": "Yassaf",
+      "aliases": [],
+      "firstAppearance": 409,
+      "appearances": [
+        409
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "nicolas",
+      "name": "Nicolas",
+      "aliases": [],
+      "firstAppearance": 409,
+      "appearances": [
+        409
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "chu-chi-huan",
+      "name": "Chu Chi-Huan",
+      "aliases": [],
+      "firstAppearance": 409,
+      "appearances": [
+        409
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "joystick",
+      "name": "Joystick",
+      "aliases": [],
+      "firstAppearance": 409,
+      "appearances": [
+        409
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "polestar",
+      "name": "Polestar",
+      "aliases": [],
+      "firstAppearance": 409,
+      "appearances": [
+        409
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cletus-kasady",
+      "name": "Cletus Kasady",
+      "aliases": [],
+      "firstAppearance": 410,
+      "appearances": [
+        410
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "multivex-corporation",
+      "name": "Multivex Corporation",
+      "aliases": [],
+      "firstAppearance": 411,
+      "appearances": [
+        411,
+        412
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "gaunt",
+      "name": "Gaunt",
+      "aliases": [],
+      "firstAppearance": 411,
+      "appearances": [
+        411,
+        412,
+        416,
+        417,
+        418
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "cell-12",
+      "name": "Cell-12",
+      "aliases": [],
+      "firstAppearance": 411,
+      "appearances": [
+        411
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bramer",
+      "name": "Bramer",
+      "aliases": [],
+      "firstAppearance": 411,
+      "appearances": [
+        411
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "nardi",
+      "name": "Nardi",
+      "aliases": [],
+      "firstAppearance": 411,
+      "appearances": [
+        411
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "andros",
+      "name": "Andros",
+      "aliases": [],
+      "firstAppearance": 411,
+      "appearances": [
+        411
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lasher",
+      "name": "Lasher",
+      "aliases": [],
+      "firstAppearance": 411,
+      "appearances": [
+        411
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "multivex-armored-security-guards",
+      "name": "Multivex armored security guards",
+      "aliases": [],
+      "firstAppearance": 412,
+      "appearances": [
+        412
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "delilah",
+      "name": "Delilah",
+      "aliases": [],
+      "firstAppearance": 414,
+      "appearances": [
+        414,
+        416,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        427,
+        428,
+        434,
+        435
+      ],
+      "frequency": 12
+    },
+    {
+      "id": "sentinels",
+      "name": "Sentinels",
+      "aliases": [],
+      "firstAppearance": 415,
+      "appearances": [
+        415
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mister-nacht",
+      "name": "Mister Nacht",
+      "aliases": [],
+      "firstAppearance": 416,
+      "appearances": [
+        416,
+        417
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "boone",
+      "name": "Boone",
+      "aliases": [],
+      "firstAppearance": 416,
+      "appearances": [
+        416,
+        417
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "brotherhood-of-the-scrier",
+      "name": "Brotherhood of the Scrier",
+      "aliases": [],
+      "firstAppearance": 417,
+      "appearances": [
+        417
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "black-tarantula",
+      "name": "Black Tarantula",
+      "aliases": [],
+      "firstAppearance": 419,
+      "appearances": [
+        419,
+        420,
+        421,
+        422,
+        428,
+        432,
+        435
+      ],
+      "frequency": 7
+    },
+    {
+      "id": "tarantula-s-organization",
+      "name": "Tarantula's Organization",
+      "aliases": [],
+      "firstAppearance": 420,
+      "appearances": [
+        420,
+        421,
+        424
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "el-uno",
+      "name": "El Uno",
+      "aliases": [],
+      "firstAppearance": 420,
+      "appearances": [
+        420
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "true-believers",
+      "name": "True Believers",
+      "aliases": [],
+      "firstAppearance": 421,
+      "appearances": [
+        421,
+        424
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "madam-qwa",
+      "name": "Madam Qwa",
+      "aliases": [],
+      "firstAppearance": 421,
+      "appearances": [
+        421,
+        424
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "karsano",
+      "name": "Karsano",
+      "aliases": [],
+      "firstAppearance": 421,
+      "appearances": [
+        421
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "don-fortunato",
+      "name": "Don Fortunato",
+      "aliases": [],
+      "firstAppearance": 422,
+      "appearances": [
+        422,
+        432,
+        435
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "yano",
+      "name": "Yano",
+      "aliases": [],
+      "firstAppearance": 424,
+      "appearances": [
+        424
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "titania-thunder-girl",
+      "name": "Titania/Thunder Girl",
+      "aliases": [],
+      "firstAppearance": 429,
+      "appearances": [
+        429
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "absorbing-man-lightning-bolt",
+      "name": "Absorbing Man/Lightning Bolt",
+      "aliases": [],
+      "firstAppearance": 429,
+      "appearances": [
+        429
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "carnage-cosmic",
+      "name": "Carnage Cosmic",
+      "aliases": [],
+      "firstAppearance": 430,
+      "appearances": [
+        430,
+        431
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "shotgun",
+      "name": "Shotgun",
+      "aliases": [],
+      "firstAppearance": 432,
+      "appearances": [
+        432
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "brotherhood-of-the-scriers",
+      "name": "Brotherhood of the Scriers",
+      "aliases": [],
+      "firstAppearance": 434,
+      "appearances": [
+        434,
+        435
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "bloodscream",
+      "name": "Bloodscream",
+      "aliases": [],
+      "firstAppearance": 435,
+      "appearances": [
+        435
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "roughouse",
+      "name": "Roughouse",
+      "aliases": [],
+      "firstAppearance": 435,
+      "appearances": [
+        435
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "plant-man",
+      "name": "Plant-Man",
+      "aliases": [],
+      "firstAppearance": 437,
+      "appearances": [
+        437
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "synario",
+      "name": "Synario",
+      "aliases": [],
+      "firstAppearance": 438,
+      "appearances": [
+        438
+      ],
+      "frequency": 1
+    }
+  ],
+  "timeline": [
+    {
+      "issue": 1,
+      "villainCount": 2,
+      "villains": [
+        "Burglar",
+        "Chameleon"
+      ]
+    },
+    {
+      "issue": 2,
+      "villainCount": 4,
+      "villains": [
+        "Vulture",
+        "Tinkerer",
+        "Quentin Beck",
+        "Charlie"
+      ]
+    },
+    {
+      "issue": 3,
+      "villainCount": 2,
+      "villains": [
+        "Charlie",
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 4,
+      "villainCount": 2,
+      "villains": [
+        "Charlie",
+        "Sandman"
+      ]
+    },
+    {
+      "issue": 5,
+      "villainCount": 2,
+      "villains": [
+        "Doctor Doom",
+        "Doombot"
+      ]
+    },
+    {
+      "issue": 6,
+      "villainCount": 2,
+      "villains": [
+        "The Lizard",
+        "Museum Gunmen"
+      ]
+    },
+    {
+      "issue": 7,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 8,
+      "villainCount": 1,
+      "villains": [
+        "Living Brain"
+      ]
+    },
+    {
+      "issue": 9,
+      "villainCount": 1,
+      "villains": [
+        "Electro"
+      ]
+    },
+    {
+      "issue": 10,
+      "villainCount": 5,
+      "villains": [
+        "Big Man",
+        "Enforcers",
+        "Montana",
+        "Fancy Dan",
+        "Ox"
+      ]
+    },
+    {
+      "issue": 11,
+      "villainCount": 3,
+      "villains": [
+        "Doctor Octopus",
+        "Blackie Gaxton",
+        "Numerous unnamed gangsters"
+      ]
+    },
+    {
+      "issue": 12,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 13,
+      "villainCount": 1,
+      "villains": [
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 14,
+      "villainCount": 5,
+      "villains": [
+        "Enforcers",
+        "Montana",
+        "Fancy Dan",
+        "Ox",
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 15,
+      "villainCount": 2,
+      "villains": [
+        "Chameleon",
+        "Kraven the Hunter"
+      ]
+    },
+    {
+      "issue": 16,
+      "villainCount": 6,
+      "villains": [
+        "Circus of Crime",
+        "Ringmaster",
+        "Human Cannonball",
+        "Great Gambonnos",
+        "Clown",
+        "Bruto the Strongman"
+      ]
+    },
+    {
+      "issue": 17,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 18,
+      "villainCount": 6,
+      "villains": [
+        "Vulture",
+        "Doctor Octopus",
+        "Sandman",
+        "Green Goblin",
+        "Kraven the Hunter",
+        "Rocky Roberts"
+      ]
+    },
+    {
+      "issue": 19,
+      "villainCount": 6,
+      "villains": [
+        "Sandman",
+        "Enforcers",
+        "Montana",
+        "Fancy Dan",
+        "Ox",
+        "Rock Gimpy"
+      ]
+    },
+    {
+      "issue": 20,
+      "villainCount": 1,
+      "villains": [
+        "Scorpion"
+      ]
+    },
+    {
+      "issue": 21,
+      "villainCount": 1,
+      "villains": [
+        "Beetle"
+      ]
+    },
+    {
+      "issue": 22,
+      "villainCount": 7,
+      "villains": [
+        "Ringmaster",
+        "Human Cannonball",
+        "Great Gambonnos",
+        "Clown",
+        "Masters of Menace",
+        "Princess Python",
+        "Precious"
+      ]
+    },
+    {
+      "issue": 23,
+      "villainCount": 4,
+      "villains": [
+        "Green Goblin",
+        "Lucky Lobo",
+        "Mike",
+        "Numerous unnamed others"
+      ]
+    },
+    {
+      "issue": 24,
+      "villainCount": 1,
+      "villains": [
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 25,
+      "villainCount": 2,
+      "villains": [
+        "Spencer Smythe",
+        "Spider Slayer"
+      ]
+    },
+    {
+      "issue": 26,
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Crime Master"
+      ]
+    },
+    {
+      "issue": 27,
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Crime-Master"
+      ]
+    },
+    {
+      "issue": 28,
+      "villainCount": 1,
+      "villains": [
+        "Molten Man"
+      ]
+    },
+    {
+      "issue": 29,
+      "villainCount": 1,
+      "villains": [
+        "Scorpion"
+      ]
+    },
+    {
+      "issue": 30,
+      "villainCount": 2,
+      "villains": [
+        "Cat Burglar",
+        "Master Planner"
+      ]
+    },
+    {
+      "issue": 31,
+      "villainCount": 2,
+      "villains": [
+        "Master Planner",
+        "Foxy Briggs"
+      ]
+    },
+    {
+      "issue": 32,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 33,
+      "villainCount": 1,
+      "villains": [
+        "Master Planner's henchmen"
+      ]
+    },
+    {
+      "issue": 34,
+      "villainCount": 1,
+      "villains": [
+        "Kraven the Hunter"
+      ]
+    },
+    {
+      "issue": 35,
+      "villainCount": 1,
+      "villains": [
+        "Molten Man"
+      ]
+    },
+    {
+      "issue": 36,
+      "villainCount": 1,
+      "villains": [
+        "Looter"
+      ]
+    },
+    {
+      "issue": 37,
+      "villainCount": 2,
+      "villains": [
+        "Mendel Stromm",
+        "Norman Osborn"
+      ]
+    },
+    {
+      "issue": 38,
+      "villainCount": 1,
+      "villains": [
+        "Joe Smith"
+      ]
+    },
+    {
+      "issue": 39,
+      "villainCount": 3,
+      "villains": [
+        "Green Goblin",
+        "Boinard",
+        "Blackie"
+      ]
+    },
+    {
+      "issue": 40,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 41,
+      "villainCount": 1,
+      "villains": [
+        "Rhino"
+      ]
+    },
+    {
+      "issue": 42,
+      "villainCount": 1,
+      "villains": [
+        "Colonel John Jameson"
+      ]
+    },
+    {
+      "issue": 43,
+      "villainCount": 1,
+      "villains": [
+        "Rhino"
+      ]
+    },
+    {
+      "issue": 44,
+      "villainCount": 1,
+      "villains": [
+        "Lizard"
+      ]
+    },
+    {
+      "issue": 45,
+      "villainCount": 1,
+      "villains": [
+        "Lizard"
+      ]
+    },
+    {
+      "issue": 46,
+      "villainCount": 1,
+      "villains": [
+        "Shocker"
+      ]
+    },
+    {
+      "issue": 47,
+      "villainCount": 1,
+      "villains": [
+        "Kraven the Hunter"
+      ]
+    },
+    {
+      "issue": 48,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 49,
+      "villainCount": 2,
+      "villains": [
+        "Vulture",
+        "Kraven the Hunter"
+      ]
+    },
+    {
+      "issue": 50,
+      "villainCount": 4,
+      "villains": [
+        "Blackie",
+        "Kingpin",
+        "Flint",
+        "Shorty"
+      ]
+    },
+    {
+      "issue": 51,
+      "villainCount": 7,
+      "villains": [
+        "Charlie",
+        "Kingpin",
+        "Flint",
+        "Shorty",
+        "Kingpin's Henchmen",
+        "Big Turk",
+        "Blinker"
+      ]
+    },
+    {
+      "issue": 52,
+      "villainCount": 2,
+      "villains": [
+        "Kingpin",
+        "Flint"
+      ]
+    },
+    {
+      "issue": 53,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 54,
+      "villainCount": 2,
+      "villains": [
+        "Doctor Octopus",
+        "Members of Master Planner's gang"
+      ]
+    },
+    {
+      "issue": 55,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 56,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 57,
+      "villainCount": 0,
+      "villains": []
+    },
+    {
+      "issue": 58,
+      "villainCount": 3,
+      "villains": [
+        "Spencer Smythe",
+        "J. Jonah Jameson",
+        "Spider-Slayer Mark II"
+      ]
+    },
+    {
+      "issue": 59,
+      "villainCount": 5,
+      "villains": [
+        "Kingpin",
+        "Kingpin's Henchmen",
+        "Dr. Winkler",
+        "Mr. Slade",
+        "Louie"
+      ]
+    },
+    {
+      "issue": 60,
+      "villainCount": 3,
+      "villains": [
+        "Kingpin",
+        "Kingpin's Henchmen",
+        "Dr. Winkler"
+      ]
+    },
+    {
+      "issue": 61,
+      "villainCount": 4,
+      "villains": [
+        "Blackie",
+        "Kingpin",
+        "Kingpin's Henchmen",
+        "Dr. Winkler"
+      ]
+    },
+    {
+      "issue": 62,
+      "villainCount": 1,
+      "villains": [
+        "Medusa"
+      ]
+    },
+    {
+      "issue": 63,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 64,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 65,
+      "villainCount": 4,
+      "villains": [
+        "Rock Gimpy",
+        "Mack",
+        "Duke",
+        "Red"
+      ]
+    },
+    {
+      "issue": 66,
+      "villainCount": 2,
+      "villains": [
+        "Mysterio",
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 67,
+      "villainCount": 1,
+      "villains": [
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 68,
+      "villainCount": 5,
+      "villains": [
+        "Kingpin",
+        "Kingpin's Henchmen",
+        "Wilson",
+        "Crusher",
+        "Numerous unnamed members"
+      ]
+    },
+    {
+      "issue": 69,
+      "villainCount": 4,
+      "villains": [
+        "Kingpin",
+        "Kingpin's Henchmen",
+        "Wilson",
+        "Three unnamed henchmen"
+      ]
+    },
+    {
+      "issue": 70,
+      "villainCount": 3,
+      "villains": [
+        "Kingpin",
+        "Kingpin's Henchmen",
+        "Numerous unnamed henchmen"
+      ]
+    },
+    {
+      "issue": 71,
+      "villainCount": 1,
+      "villains": [
+        "Quicksilver"
+      ]
+    },
+    {
+      "issue": 72,
+      "villainCount": 1,
+      "villains": [
+        "Shocker"
+      ]
+    },
+    {
+      "issue": 73,
+      "villainCount": 6,
+      "villains": [
+        "Maggia",
+        "Manfredi Family",
+        "Man-Mountain Marko",
+        "Caesar Cicero",
+        "Silvermane",
+        "Three unnamed members"
+      ]
+    },
+    {
+      "issue": 74,
+      "villainCount": 6,
+      "villains": [
+        "Maggia",
+        "Manfredi Family",
+        "Man-Mountain Marko",
+        "Caesar Cicero",
+        "Silvermane",
+        "Four unnamed members"
+      ]
+    },
+    {
+      "issue": 75,
+      "villainCount": 7,
+      "villains": [
+        "Blackie",
+        "Maggia",
+        "Manfredi Family",
+        "Caesar Cicero",
+        "Silvermane",
+        "Four unnamed members",
+        "Man Mountain Marko"
+      ]
+    },
+    {
+      "issue": 76,
+      "villainCount": 1,
+      "villains": [
+        "Lizard"
+      ]
+    },
+    {
+      "issue": 77,
+      "villainCount": 1,
+      "villains": [
+        "Lizard"
+      ]
+    },
+    {
+      "issue": 78,
+      "villainCount": 1,
+      "villains": [
+        "Prowler"
+      ]
+    },
+    {
+      "issue": 79,
+      "villainCount": 1,
+      "villains": [
+        "Prowler"
+      ]
+    },
+    {
+      "issue": 80,
+      "villainCount": 1,
+      "villains": [
+        "Chameleon"
+      ]
+    },
+    {
+      "issue": 81,
+      "villainCount": 1,
+      "villains": [
+        "Kangaroo"
+      ]
+    },
+    {
+      "issue": 82,
+      "villainCount": 1,
+      "villains": [
+        "Electro"
+      ]
+    },
+    {
+      "issue": 83,
+      "villainCount": 2,
+      "villains": [
+        "Kingpin",
+        "Schemer"
+      ]
+    },
+    {
+      "issue": 84,
+      "villainCount": 2,
+      "villains": [
+        "Kingpin",
+        "Schemer"
+      ]
+    },
+    {
+      "issue": 85,
+      "villainCount": 2,
+      "villains": [
+        "Kingpin",
+        "Schemer"
+      ]
+    },
+    {
+      "issue": 86,
+      "villainCount": 1,
+      "villains": [
+        "Black Widow"
+      ]
+    },
+    {
+      "issue": 87,
+      "villainCount": 0,
+      "villains": []
+    },
+    {
+      "issue": 88,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 89,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 90,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 91,
+      "villainCount": 2,
+      "villains": [
+        "Charlie",
+        "Sam Bullit"
+      ]
+    },
+    {
+      "issue": 92,
+      "villainCount": 2,
+      "villains": [
+        "Charlie",
+        "Sam Bullit"
+      ]
+    },
+    {
+      "issue": 93,
+      "villainCount": 1,
+      "villains": [
+        "Prowler"
+      ]
+    },
+    {
+      "issue": 94,
+      "villainCount": 1,
+      "villains": [
+        "Beetle"
+      ]
+    },
+    {
+      "issue": 95,
+      "villainCount": 1,
+      "villains": [
+        "Terrorists"
+      ]
+    },
+    {
+      "issue": 96,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 97,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 98,
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Unnamed pusher and his two henchmen"
+      ]
+    },
+    {
+      "issue": 99,
+      "villainCount": 1,
+      "villains": [
+        "Turpo"
+      ]
+    },
+    {
+      "issue": 100,
+      "villainCount": 5,
+      "villains": [
+        "Vulture",
+        "Doctor Octopus",
+        "The Lizard",
+        "Green Goblin",
+        "Kingpin"
+      ]
+    },
+    {
+      "issue": 101,
+      "villainCount": 2,
+      "villains": [
+        "The Lizard",
+        "Morbius"
+      ]
+    },
+    {
+      "issue": 102,
+      "villainCount": 1,
+      "villains": [
+        "Morbius"
+      ]
+    },
+    {
+      "issue": 103,
+      "villainCount": 2,
+      "villains": [
+        "Kraven the Hunter",
+        "Gog"
+      ]
+    },
+    {
+      "issue": 104,
+      "villainCount": 2,
+      "villains": [
+        "Kraven the Hunter",
+        "Gog"
+      ]
+    },
+    {
+      "issue": 105,
+      "villainCount": 1,
+      "villains": [
+        "Spencer Smythe"
+      ]
+    },
+    {
+      "issue": 106,
+      "villainCount": 1,
+      "villains": [
+        "Spencer Smythe"
+      ]
+    },
+    {
+      "issue": 107,
+      "villainCount": 1,
+      "villains": [
+        "Spencer Smythe"
+      ]
+    },
+    {
+      "issue": 108,
+      "villainCount": 1,
+      "villains": [
+        "Giant One"
+      ]
+    },
+    {
+      "issue": 109,
+      "villainCount": 1,
+      "villains": [
+        "Giant One"
+      ]
+    },
+    {
+      "issue": 110,
+      "villainCount": 1,
+      "villains": [
+        "Gibbon"
+      ]
+    },
+    {
+      "issue": 111,
+      "villainCount": 2,
+      "villains": [
+        "Kraven the Hunter",
+        "Gibbon"
+      ]
+    },
+    {
+      "issue": 112,
+      "villainCount": 8,
+      "villains": [
+        "Doctor Octopus",
+        "Debt Collectors",
+        "Bert",
+        "Benny",
+        "Doctor Octopus' Henchmen",
+        "Mickey",
+        "Tex",
+        "Unnamed Henchman"
+      ]
+    },
+    {
+      "issue": 113,
+      "villainCount": 9,
+      "villains": [
+        "Doctor Octopus",
+        "Doctor Octopus's Henchmen",
+        "Bernie",
+        "Karl",
+        "Hammerhead",
+        "Hammerhead's Henchmen",
+        "Ruffio",
+        "Tony",
+        "Waldo"
+      ]
+    },
+    {
+      "issue": 114,
+      "villainCount": 10,
+      "villains": [
+        "Doctor Octopus",
+        "Bert",
+        "Hammerhead",
+        "Hammerhead's Henchmen",
+        "Waldo",
+        "Bennie",
+        "Porky",
+        "Ernie",
+        "Jimmy",
+        "Harvey"
+      ]
+    },
+    {
+      "issue": 115,
+      "villainCount": 9,
+      "villains": [
+        "Doctor Octopus",
+        "Bert",
+        "Hammerhead",
+        "Ernie",
+        "Jimmy",
+        "Harvey",
+        "Hammerhead's Men",
+        "Chuck",
+        "Doctor Octopus' Men"
+      ]
+    },
+    {
+      "issue": 116,
+      "villainCount": 1,
+      "villains": [
+        "Smasher"
+      ]
+    },
+    {
+      "issue": 117,
+      "villainCount": 3,
+      "villains": [
+        "Smasher",
+        "Disruptor",
+        "Dr. Thaxton"
+      ]
+    },
+    {
+      "issue": 118,
+      "villainCount": 3,
+      "villains": [
+        "Smasher",
+        "Disruptor",
+        "Dr. Thaxton"
+      ]
+    },
+    {
+      "issue": 119,
+      "villainCount": 1,
+      "villains": [
+        "Hulk"
+      ]
+    },
+    {
+      "issue": 120,
+      "villainCount": 1,
+      "villains": [
+        "Hulk"
+      ]
+    },
+    {
+      "issue": 121,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 122,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 123,
+      "villainCount": 1,
+      "villains": [
+        "Luke Cage"
+      ]
+    },
+    {
+      "issue": 124,
+      "villainCount": 1,
+      "villains": [
+        "Man-Wolf"
+      ]
+    },
+    {
+      "issue": 125,
+      "villainCount": 1,
+      "villains": [
+        "Man-Wolf"
+      ]
+    },
+    {
+      "issue": 126,
+      "villainCount": 2,
+      "villains": [
+        "Kangaroo",
+        "Jonas Harrow"
+      ]
+    },
+    {
+      "issue": 127,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 128,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 129,
+      "villainCount": 4,
+      "villains": [
+        "Punisher",
+        "Jackal",
+        "Bebo",
+        "Three unnamed robbers"
+      ]
+    },
+    {
+      "issue": 130,
+      "villainCount": 7,
+      "villains": [
+        "Doctor Octopus",
+        "Numerous unnamed members",
+        "Hammerhead",
+        "Hammerhead's Henchmen",
+        "Jackal",
+        "Reno",
+        "Flakey"
+      ]
+    },
+    {
+      "issue": 131,
+      "villainCount": 3,
+      "villains": [
+        "Doctor Octopus",
+        "Numerous unnamed henchmen",
+        "Hammerhead"
+      ]
+    },
+    {
+      "issue": 132,
+      "villainCount": 1,
+      "villains": [
+        "Molten Man"
+      ]
+    },
+    {
+      "issue": 133,
+      "villainCount": 1,
+      "villains": [
+        "Molten Man"
+      ]
+    },
+    {
+      "issue": 134,
+      "villainCount": 3,
+      "villains": [
+        "Juan",
+        "Hidalgo Rodriquez",
+        "Tarantula"
+      ]
+    },
+    {
+      "issue": 135,
+      "villainCount": 4,
+      "villains": [
+        "Unnamed Henchman",
+        "Juan",
+        "Hidalgo Rodriquez",
+        "Tarantula"
+      ]
+    },
+    {
+      "issue": 136,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 137,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 138,
+      "villainCount": 1,
+      "villains": [
+        "Mindworm"
+      ]
+    },
+    {
+      "issue": 139,
+      "villainCount": 2,
+      "villains": [
+        "Jackal",
+        "Grizzly"
+      ]
+    },
+    {
+      "issue": 140,
+      "villainCount": 2,
+      "villains": [
+        "Jackal",
+        "Grizzly"
+      ]
+    },
+    {
+      "issue": 141,
+      "villainCount": 1,
+      "villains": [
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 142,
+      "villainCount": 1,
+      "villains": [
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 143,
+      "villainCount": 1,
+      "villains": [
+        "Cyclone"
+      ]
+    },
+    {
+      "issue": 144,
+      "villainCount": 1,
+      "villains": [
+        "Cyclone"
+      ]
+    },
+    {
+      "issue": 145,
+      "villainCount": 1,
+      "villains": [
+        "Scorpion"
+      ]
+    },
+    {
+      "issue": 146,
+      "villainCount": 2,
+      "villains": [
+        "Scorpion",
+        "Jackal"
+      ]
+    },
+    {
+      "issue": 147,
+      "villainCount": 2,
+      "villains": [
+        "Jackal",
+        "Tarantula"
+      ]
+    },
+    {
+      "issue": 148,
+      "villainCount": 2,
+      "villains": [
+        "Jackal",
+        "Tarantula"
+      ]
+    },
+    {
+      "issue": 149,
+      "villainCount": 2,
+      "villains": [
+        "Jackal",
+        "Spider-Clone"
+      ]
+    },
+    {
+      "issue": 150,
+      "villainCount": 2,
+      "villains": [
+        "Spencer Smythe",
+        "Vulture, Kingpin and Sandman Robots"
+      ]
+    },
+    {
+      "issue": 151,
+      "villainCount": 1,
+      "villains": [
+        "Shocker"
+      ]
+    },
+    {
+      "issue": 152,
+      "villainCount": 2,
+      "villains": [
+        "Shocker",
+        "Two Unnamed Kidnappers"
+      ]
+    },
+    {
+      "issue": 153,
+      "villainCount": 2,
+      "villains": [
+        "Two Unnamed Kidnappers",
+        "Paine"
+      ]
+    },
+    {
+      "issue": 154,
+      "villainCount": 2,
+      "villains": [
+        "Sandman",
+        "Sandman's Employer"
+      ]
+    },
+    {
+      "issue": 155,
+      "villainCount": 4,
+      "villains": [
+        "Worldwide Habitual Offender Computer",
+        "Jason Sledge",
+        "Leroy Tallon",
+        "Conrad Fox"
+      ]
+    },
+    {
+      "issue": 156,
+      "villainCount": 2,
+      "villains": [
+        "Mirage",
+        "Man with the 999 Faces/\"Daredevil\""
+      ]
+    },
+    {
+      "issue": 157,
+      "villainCount": 2,
+      "villains": [
+        "Doctor Octopus",
+        "Hammerhead"
+      ]
+    },
+    {
+      "issue": 158,
+      "villainCount": 2,
+      "villains": [
+        "Doctor Octopus",
+        "Hammerhead"
+      ]
+    },
+    {
+      "issue": 159,
+      "villainCount": 2,
+      "villains": [
+        "Doctor Octopus",
+        "Hammerhead"
+      ]
+    },
+    {
+      "issue": 160,
+      "villainCount": 2,
+      "villains": [
+        "Tinkerer",
+        "Toy"
+      ]
+    },
+    {
+      "issue": 161,
+      "villainCount": 2,
+      "villains": [
+        "Jigsaw",
+        "Snake-Eyes"
+      ]
+    },
+    {
+      "issue": 162,
+      "villainCount": 3,
+      "villains": [
+        "Benny",
+        "Jigsaw",
+        "Roscoe"
+      ]
+    },
+    {
+      "issue": 163,
+      "villainCount": 1,
+      "villains": [
+        "Kingpin"
+      ]
+    },
+    {
+      "issue": 164,
+      "villainCount": 1,
+      "villains": [
+        "Kingpin"
+      ]
+    },
+    {
+      "issue": 165,
+      "villainCount": 1,
+      "villains": [
+        "Stegron"
+      ]
+    },
+    {
+      "issue": 166,
+      "villainCount": 2,
+      "villains": [
+        "The Lizard",
+        "Stegron The Dinosaur Man"
+      ]
+    },
+    {
+      "issue": 167,
+      "villainCount": 2,
+      "villains": [
+        "J. Jonah Jameson",
+        "Will O' The Wisp"
+      ]
+    },
+    {
+      "issue": 168,
+      "villainCount": 3,
+      "villains": [
+        "J. Jonah Jameson",
+        "Jonas Harrow",
+        "Will O' The Wisp"
+      ]
+    },
+    {
+      "issue": 169,
+      "villainCount": 1,
+      "villains": [
+        "Dr. Faustus"
+      ]
+    },
+    {
+      "issue": 170,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Faustus"
+      ]
+    },
+    {
+      "issue": 171,
+      "villainCount": 3,
+      "villains": [
+        "Photon",
+        "A.I.M",
+        "Harry Daze"
+      ]
+    },
+    {
+      "issue": 172,
+      "villainCount": 2,
+      "villains": [
+        "Molten Man",
+        "Rocket Racer"
+      ]
+    },
+    {
+      "issue": 173,
+      "villainCount": 1,
+      "villains": [
+        "Molten Man"
+      ]
+    },
+    {
+      "issue": 174,
+      "villainCount": 2,
+      "villains": [
+        "People's Liberation Front",
+        "Hitman"
+      ]
+    },
+    {
+      "issue": 175,
+      "villainCount": 4,
+      "villains": [
+        "People's Liberation Front",
+        "Hitman",
+        "Morty, Ralph, Milo and other unnamed members of the PLF",
+        "Frank"
+      ]
+    },
+    {
+      "issue": 176,
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ]
+    },
+    {
+      "issue": 177,
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Silvermane"
+      ]
+    },
+    {
+      "issue": 178,
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Silvermane"
+      ]
+    },
+    {
+      "issue": 179,
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Silvermane"
+      ]
+    },
+    {
+      "issue": 180,
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Silvermane"
+      ]
+    },
+    {
+      "issue": 181,
+      "villainCount": 30,
+      "villains": [
+        "Burglar",
+        "Chameleon",
+        "Vulture",
+        "Sandman",
+        "Electro",
+        "Big Man",
+        "Enforcers",
+        "Montana",
+        "Fancy Dan",
+        "Ox",
+        "Mysterio",
+        "Green Goblin",
+        "Kraven the Hunter",
+        "Scorpion",
+        "Beetle",
+        "Molten Man",
+        "Rhino",
+        "Lizard",
+        "Shocker",
+        "Kingpin",
+        "Hammerhead",
+        "Man-Wolf",
+        "Tarantula",
+        "Mirage",
+        "Stegron",
+        "Will O' The Wisp",
+        "The Human Fly",
+        "Dr. Doom",
+        "Dr. Octopus",
+        "Morbius the Living Vampire"
+      ]
+    },
+    {
+      "issue": 182,
+      "villainCount": 2,
+      "villains": [
+        "Rocket Racer",
+        "Jackson Weele"
+      ]
+    },
+    {
+      "issue": 183,
+      "villainCount": 3,
+      "villains": [
+        "Tinkerer",
+        "Toy",
+        "Big Wheel"
+      ]
+    },
+    {
+      "issue": 184,
+      "villainCount": 2,
+      "villains": [
+        "The Dragon Lords",
+        "White Dragon"
+      ]
+    },
+    {
+      "issue": 185,
+      "villainCount": 2,
+      "villains": [
+        "The Dragon Lords",
+        "White Dragon"
+      ]
+    },
+    {
+      "issue": 186,
+      "villainCount": 2,
+      "villains": [
+        "Chameleon",
+        "Spencer Smythe"
+      ]
+    },
+    {
+      "issue": 187,
+      "villainCount": 1,
+      "villains": [
+        "Electro"
+      ]
+    },
+    {
+      "issue": 188,
+      "villainCount": 1,
+      "villains": [
+        "Jigsaw"
+      ]
+    },
+    {
+      "issue": 189,
+      "villainCount": 2,
+      "villains": [
+        "Spencer Smythe",
+        "Man-Wolf"
+      ]
+    },
+    {
+      "issue": 190,
+      "villainCount": 2,
+      "villains": [
+        "Spencer Smythe",
+        "Man-Wolf"
+      ]
+    },
+    {
+      "issue": 191,
+      "villainCount": 1,
+      "villains": [
+        "Spencer Smythe"
+      ]
+    },
+    {
+      "issue": 192,
+      "villainCount": 2,
+      "villains": [
+        "Spencer Smythe",
+        "Human Fly"
+      ]
+    },
+    {
+      "issue": 193,
+      "villainCount": 2,
+      "villains": [
+        "Burglar",
+        "Fly"
+      ]
+    },
+    {
+      "issue": 194,
+      "villainCount": 5,
+      "villains": [
+        "Burglar",
+        "Black Cat",
+        "Boris Korpse",
+        "Bruno Grainger",
+        "Emil Greco"
+      ]
+    },
+    {
+      "issue": 195,
+      "villainCount": 5,
+      "villains": [
+        "Kingpin",
+        "Black Cat",
+        "Boris Korpse",
+        "Bruno Grainger",
+        "The Burglar"
+      ]
+    },
+    {
+      "issue": 196,
+      "villainCount": 4,
+      "villains": [
+        "Kingpin",
+        "Boris Korpse",
+        "Bruno Grainger",
+        "Dr. Rinehart"
+      ]
+    },
+    {
+      "issue": 197,
+      "villainCount": 3,
+      "villains": [
+        "Burglar",
+        "Kingpin",
+        "Dr. Rinehart"
+      ]
+    },
+    {
+      "issue": 198,
+      "villainCount": 2,
+      "villains": [
+        "Burglar",
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 199,
+      "villainCount": 2,
+      "villains": [
+        "Burglar",
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 200,
+      "villainCount": 1,
+      "villains": [
+        "Burglar"
+      ]
+    },
+    {
+      "issue": 201,
+      "villainCount": 1,
+      "villains": [
+        "Lorenzo Jacobi"
+      ]
+    },
+    {
+      "issue": 202,
+      "villainCount": 6,
+      "villains": [
+        "Lorenzo Jacobi",
+        "Alfred",
+        "Arnie",
+        "Reis",
+        "Seaman",
+        "Hatay"
+      ]
+    },
+    {
+      "issue": 203,
+      "villainCount": 1,
+      "villains": [
+        "Lightmaster"
+      ]
+    },
+    {
+      "issue": 204,
+      "villainCount": 1,
+      "villains": [
+        "Black Cat"
+      ]
+    },
+    {
+      "issue": 205,
+      "villainCount": 1,
+      "villains": [
+        "Black Cat"
+      ]
+    },
+    {
+      "issue": 206,
+      "villainCount": 1,
+      "villains": [
+        "Jonas Harrow"
+      ]
+    },
+    {
+      "issue": 207,
+      "villainCount": 1,
+      "villains": [
+        "Mesmero"
+      ]
+    },
+    {
+      "issue": 208,
+      "villainCount": 1,
+      "villains": [
+        "Fusion"
+      ]
+    },
+    {
+      "issue": 209,
+      "villainCount": 2,
+      "villains": [
+        "Kraven the Hunter",
+        "Calypso"
+      ]
+    },
+    {
+      "issue": 210,
+      "villainCount": 1,
+      "villains": [
+        "Rupert Dockery"
+      ]
+    },
+    {
+      "issue": 211,
+      "villainCount": 1,
+      "villains": [
+        "Sub-Mariner"
+      ]
+    },
+    {
+      "issue": 212,
+      "villainCount": 1,
+      "villains": [
+        "Hydro-Man"
+      ]
+    },
+    {
+      "issue": 213,
+      "villainCount": 2,
+      "villains": [
+        "Wizard",
+        "Llyra"
+      ]
+    },
+    {
+      "issue": 214,
+      "villainCount": 5,
+      "villains": [
+        "Llyra",
+        "Frightful Four",
+        "The Wizard",
+        "The Sandman",
+        "The Trapster"
+      ]
+    },
+    {
+      "issue": 215,
+      "villainCount": 5,
+      "villains": [
+        "Sandman",
+        "Llyra",
+        "Frightful Four",
+        "The Wizard",
+        "Trapster"
+      ]
+    },
+    {
+      "issue": 216,
+      "villainCount": 1,
+      "villains": [
+        "Unnamed gunmen"
+      ]
+    },
+    {
+      "issue": 217,
+      "villainCount": 3,
+      "villains": [
+        "Sandman",
+        "Hydro-Man",
+        "Mud-Thing"
+      ]
+    },
+    {
+      "issue": 218,
+      "villainCount": 1,
+      "villains": [
+        "Mud-Thing"
+      ]
+    },
+    {
+      "issue": 219,
+      "villainCount": 3,
+      "villains": [
+        "Jonas Harrow",
+        "Grey Gargoyle",
+        "Armand DuBroth"
+      ]
+    },
+    {
+      "issue": 220,
+      "villainCount": 6,
+      "villains": [
+        "National Syndicate Directorate",
+        "Rat Pack",
+        "Louie Frenchetti",
+        "Blinky",
+        "Weasel",
+        "Rodney - Polly's nephew"
+      ]
+    },
+    {
+      "issue": 221,
+      "villainCount": 1,
+      "villains": [
+        "Ramrod"
+      ]
+    },
+    {
+      "issue": 222,
+      "villainCount": 1,
+      "villains": [
+        "Speed Demon"
+      ]
+    },
+    {
+      "issue": 223,
+      "villainCount": 5,
+      "villains": [
+        "Red Ghost",
+        "Super-Apes",
+        "Miklho",
+        "Peotor",
+        "Igor"
+      ]
+    },
+    {
+      "issue": 224,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 225,
+      "villainCount": 1,
+      "villains": [
+        "Foolkiller"
+      ]
+    },
+    {
+      "issue": 226,
+      "villainCount": 3,
+      "villains": [
+        "Maggia",
+        "Phil Bradshaw",
+        "his goons"
+      ]
+    },
+    {
+      "issue": 227,
+      "villainCount": 2,
+      "villains": [
+        "Black Cat",
+        "Sam Galvagno"
+      ]
+    },
+    {
+      "issue": 228,
+      "villainCount": 1,
+      "villains": [
+        "Murderer by Spider"
+      ]
+    },
+    {
+      "issue": 229,
+      "villainCount": 2,
+      "villains": [
+        "Juggernaut",
+        "Black Tom Cassidy"
+      ]
+    },
+    {
+      "issue": 230,
+      "villainCount": 2,
+      "villains": [
+        "Juggernaut",
+        "Black Tom Cassidy"
+      ]
+    },
+    {
+      "issue": 231,
+      "villainCount": 2,
+      "villains": [
+        "Cobra",
+        "Mister Hyde"
+      ]
+    },
+    {
+      "issue": 232,
+      "villainCount": 2,
+      "villains": [
+        "Cobra",
+        "Mister Hyde"
+      ]
+    },
+    {
+      "issue": 233,
+      "villainCount": 3,
+      "villains": [
+        "Tarantula",
+        "Brand Corporation",
+        "Smith"
+      ]
+    },
+    {
+      "issue": 234,
+      "villainCount": 8,
+      "villains": [
+        "Tarantula",
+        "Brand Corporation",
+        "Will O' the Wisp",
+        "Jenkins",
+        "Mr. Smith",
+        "James Melvin",
+        "Dr. Fenton",
+        "Dodds"
+      ]
+    },
+    {
+      "issue": 235,
+      "villainCount": 9,
+      "villains": [
+        "Tarantula",
+        "Brand Corporation",
+        "Will O' the Wisp",
+        "James Melvin",
+        "Dr. Fenton",
+        "Roxxon Oil Company",
+        "Harv Carson",
+        "Thorpe",
+        "John T. Gamelin"
+      ]
+    },
+    {
+      "issue": 236,
+      "villainCount": 7,
+      "villains": [
+        "Tarantula",
+        "Brand Corporation",
+        "James Melvin",
+        "Roxxon Oil Company",
+        "John T. Gamelin",
+        "Board of Directors",
+        "August D'Angelo"
+      ]
+    },
+    {
+      "issue": 237,
+      "villainCount": 1,
+      "villains": [
+        "Stilt-Man"
+      ]
+    },
+    {
+      "issue": 238,
+      "villainCount": 2,
+      "villains": [
+        "Georgie Hill",
+        "Hobgoblin"
+      ]
+    },
+    {
+      "issue": 239,
+      "villainCount": 1,
+      "villains": [
+        "Hobgoblin"
+      ]
+    },
+    {
+      "issue": 240,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 241,
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ]
+    },
+    {
+      "issue": 242,
+      "villainCount": 2,
+      "villains": [
+        "Mad Thinker",
+        "Battledroids"
+      ]
+    },
+    {
+      "issue": 243,
+      "villainCount": 1,
+      "villains": [
+        "Universal Liberation Army"
+      ]
+    },
+    {
+      "issue": 244,
+      "villainCount": 2,
+      "villains": [
+        "Hobgoblin",
+        "Lefty Donovan"
+      ]
+    },
+    {
+      "issue": 245,
+      "villainCount": 1,
+      "villains": [
+        "Hobgoblin"
+      ]
+    },
+    {
+      "issue": 246,
+      "villainCount": 0,
+      "villains": []
+    },
+    {
+      "issue": 247,
+      "villainCount": 1,
+      "villains": [
+        "Thunderball"
+      ]
+    },
+    {
+      "issue": 248,
+      "villainCount": 2,
+      "villains": [
+        "Burglar",
+        "Thunderball"
+      ]
+    },
+    {
+      "issue": 249,
+      "villainCount": 2,
+      "villains": [
+        "Kingpin",
+        "Hobgoblin"
+      ]
+    },
+    {
+      "issue": 250,
+      "villainCount": 1,
+      "villains": [
+        "Hobgoblin"
+      ]
+    },
+    {
+      "issue": 251,
+      "villainCount": 1,
+      "villains": [
+        "Hobgoblin"
+      ]
+    },
+    {
+      "issue": 252,
+      "villainCount": 1,
+      "villains": [
+        "Unnamed mugger"
+      ]
+    },
+    {
+      "issue": 253,
+      "villainCount": 1,
+      "villains": [
+        "Rose"
+      ]
+    },
+    {
+      "issue": 254,
+      "villainCount": 1,
+      "villains": [
+        "Jack O'Lantern"
+      ]
+    },
+    {
+      "issue": 255,
+      "villainCount": 5,
+      "villains": [
+        "Red Ghost",
+        "Super-Apes",
+        "Miklho",
+        "Peotor",
+        "Igor"
+      ]
+    },
+    {
+      "issue": 256,
+      "villainCount": 4,
+      "villains": [
+        "Frankie Silvera",
+        "Ralph Mac",
+        "Puma",
+        "The Rose"
+      ]
+    },
+    {
+      "issue": 257,
+      "villainCount": 4,
+      "villains": [
+        "Kingpin",
+        "Hobgoblin",
+        "Puma",
+        "The Rose"
+      ]
+    },
+    {
+      "issue": 258,
+      "villainCount": 4,
+      "villains": [
+        "Hobgoblin",
+        "The Rose",
+        "Spider-Man's Black Suit",
+        "Harry"
+      ]
+    },
+    {
+      "issue": 259,
+      "villainCount": 3,
+      "villains": [
+        "Hobgoblin",
+        "The Rose",
+        "Symbiote Suit"
+      ]
+    },
+    {
+      "issue": 260,
+      "villainCount": 2,
+      "villains": [
+        "Hobgoblin",
+        "The Rose"
+      ]
+    },
+    {
+      "issue": 261,
+      "villainCount": 2,
+      "villains": [
+        "Hobgoblin",
+        "The Rose"
+      ]
+    },
+    {
+      "issue": 262,
+      "villainCount": 5,
+      "villains": [
+        "Roberto DeNatale",
+        "Bluto",
+        "Cheo",
+        "other unnamed henchmen",
+        "Jake \"D.J.\" Jones"
+      ]
+    },
+    {
+      "issue": 263,
+      "villainCount": 3,
+      "villains": [
+        "Blazing Skull Gang",
+        "Matt",
+        "Eddie"
+      ]
+    },
+    {
+      "issue": 264,
+      "villainCount": 1,
+      "villains": [
+        "Red 9"
+      ]
+    },
+    {
+      "issue": 265,
+      "villainCount": 1,
+      "villains": [
+        "Black Fox"
+      ]
+    },
+    {
+      "issue": 266,
+      "villainCount": 1,
+      "villains": [
+        "Various Thugs"
+      ]
+    },
+    {
+      "issue": 267,
+      "villainCount": 1,
+      "villains": [
+        "The Commuter"
+      ]
+    },
+    {
+      "issue": 268,
+      "villainCount": 2,
+      "villains": [
+        "Kingpin",
+        "Arranger"
+      ]
+    },
+    {
+      "issue": 269,
+      "villainCount": 1,
+      "villains": [
+        "Firelord"
+      ]
+    },
+    {
+      "issue": 270,
+      "villainCount": 1,
+      "villains": [
+        "Firelord"
+      ]
+    },
+    {
+      "issue": 271,
+      "villainCount": 2,
+      "villains": [
+        "Manslaughter Marsdale",
+        "Madame Fang"
+      ]
+    },
+    {
+      "issue": 272,
+      "villainCount": 1,
+      "villains": [
+        "Slyde"
+      ]
+    },
+    {
+      "issue": 273,
+      "villainCount": 1,
+      "villains": [
+        "Beyonder"
+      ]
+    },
+    {
+      "issue": 274,
+      "villainCount": 3,
+      "villains": [
+        "Beyonder",
+        "Mephisto",
+        "Zarathos"
+      ]
+    },
+    {
+      "issue": 275,
+      "villainCount": 3,
+      "villains": [
+        "Kingpin",
+        "Hobgoblin",
+        "Rose"
+      ]
+    },
+    {
+      "issue": 276,
+      "villainCount": 4,
+      "villains": [
+        "Human Fly",
+        "Hobgoblin",
+        "Rose",
+        "Scourge"
+      ]
+    },
+    {
+      "issue": 277,
+      "villainCount": 3,
+      "villains": [
+        "Kingpin",
+        "Arranger",
+        "Kidnappers"
+      ]
+    },
+    {
+      "issue": 278,
+      "villainCount": 4,
+      "villains": [
+        "Hobgoblin",
+        "The Rose",
+        "Scourge",
+        "Wraith"
+      ]
+    },
+    {
+      "issue": 279,
+      "villainCount": 1,
+      "villains": [
+        "Jack O'Lantern"
+      ]
+    },
+    {
+      "issue": 280,
+      "villainCount": 10,
+      "villains": [
+        "Beetle",
+        "Rhino",
+        "Kingpin",
+        "Hydro-Man",
+        "Speed Demon",
+        "Hobgoblin",
+        "Jack O'Lantern",
+        "The Rose",
+        "Sinister Syndicate",
+        "Boomerang"
+      ]
+    },
+    {
+      "issue": 281,
+      "villainCount": 9,
+      "villains": [
+        "Beetle",
+        "Rhino",
+        "Speed Demon",
+        "Hobgoblin",
+        "Jack O'Lantern",
+        "The Rose",
+        "Sinister Syndicate",
+        "Boomerang",
+        "Hydroman"
+      ]
+    },
+    {
+      "issue": 282,
+      "villainCount": 6,
+      "villains": [
+        "X-Factor",
+        "Cyclops",
+        "Marvel Girl",
+        "Iceman",
+        "Angel",
+        "Beast"
+      ]
+    },
+    {
+      "issue": 283,
+      "villainCount": 3,
+      "villains": [
+        "Hobgoblin",
+        "Titania",
+        "Absorbing Man"
+      ]
+    },
+    {
+      "issue": 284,
+      "villainCount": 7,
+      "villains": [
+        "Silvermane",
+        "Hammerhead",
+        "Hobgoblin",
+        "Rose",
+        "Jack O'Lantern",
+        "Arranger",
+        "Blue Boys"
+      ]
+    },
+    {
+      "issue": 285,
+      "villainCount": 6,
+      "villains": [
+        "Hammerhead",
+        "Hobgoblin",
+        "Jack O'Lantern",
+        "The Rose",
+        "Arranger",
+        "The Blue Boys"
+      ]
+    },
+    {
+      "issue": 286,
+      "villainCount": 4,
+      "villains": [
+        "Hobgoblin",
+        "Rose",
+        "Jack O'Lantern",
+        "Blue Boys"
+      ]
+    },
+    {
+      "issue": 287,
+      "villainCount": 4,
+      "villains": [
+        "Kingpin",
+        "Hobgoblin",
+        "Rose",
+        "Arranger"
+      ]
+    },
+    {
+      "issue": 288,
+      "villainCount": 7,
+      "villains": [
+        "Kingpin",
+        "Hammerhead",
+        "Hobgoblin",
+        "Rose",
+        "Jack O'Lantern",
+        "Arranger",
+        "Blue Boys"
+      ]
+    },
+    {
+      "issue": 289,
+      "villainCount": 6,
+      "villains": [
+        "Kingpin",
+        "Hobgoblin",
+        "Rose",
+        "1400 Club",
+        "Foreigner",
+        "Unnamed Agents"
+      ]
+    },
+    {
+      "issue": 290,
+      "villainCount": 2,
+      "villains": [
+        "Preserver",
+        "Max"
+      ]
+    },
+    {
+      "issue": 291,
+      "villainCount": 1,
+      "villains": [
+        "Alistaire Smythe"
+      ]
+    },
+    {
+      "issue": 292,
+      "villainCount": 2,
+      "villains": [
+        "Alistair Smythe",
+        "Philip Watson"
+      ]
+    },
+    {
+      "issue": 293,
+      "villainCount": 1,
+      "villains": [
+        "Vermin"
+      ]
+    },
+    {
+      "issue": 294,
+      "villainCount": 2,
+      "villains": [
+        "Kraven the Hunter",
+        "Vermin"
+      ]
+    },
+    {
+      "issue": 295,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Hope"
+      ]
+    },
+    {
+      "issue": 296,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 297,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 298,
+      "villainCount": 3,
+      "villains": [
+        "Chance",
+        "Life Foundation",
+        "Carlton Drake"
+      ]
+    },
+    {
+      "issue": 299,
+      "villainCount": 3,
+      "villains": [
+        "Chance",
+        "Life Foundation",
+        "Carlton Drake"
+      ]
+    },
+    {
+      "issue": 300,
+      "villainCount": 1,
+      "villains": [
+        "Venom"
+      ]
+    },
+    {
+      "issue": 301,
+      "villainCount": 1,
+      "villains": [
+        "Frank Cruz"
+      ]
+    },
+    {
+      "issue": 302,
+      "villainCount": 1,
+      "villains": [
+        "Royce Nero"
+      ]
+    },
+    {
+      "issue": 303,
+      "villainCount": 1,
+      "villains": [
+        "Franz Kraus"
+      ]
+    },
+    {
+      "issue": 304,
+      "villainCount": 1,
+      "villains": [
+        "Black Fox"
+      ]
+    },
+    {
+      "issue": 305,
+      "villainCount": 3,
+      "villains": [
+        "Black Fox",
+        "Transcorp",
+        "Troy Fishburne"
+      ]
+    },
+    {
+      "issue": 306,
+      "villainCount": 3,
+      "villains": [
+        "Chameleon",
+        "Humbug",
+        "Jonathan Caesar"
+      ]
+    },
+    {
+      "issue": 307,
+      "villainCount": 2,
+      "villains": [
+        "Chameleon",
+        "Jonathan Caesar"
+      ]
+    },
+    {
+      "issue": 308,
+      "villainCount": 2,
+      "villains": [
+        "Jonathan Caesar",
+        "Taskmaster"
+      ]
+    },
+    {
+      "issue": 309,
+      "villainCount": 4,
+      "villains": [
+        "Manslaughter Marsdale",
+        "Jonathan Caesar",
+        "Styx",
+        "Stone"
+      ]
+    },
+    {
+      "issue": 310,
+      "villainCount": 2,
+      "villains": [
+        "Killer Shrike",
+        "The Tinkerer"
+      ]
+    },
+    {
+      "issue": 311,
+      "villainCount": 1,
+      "villains": [
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 312,
+      "villainCount": 1,
+      "villains": [
+        "Hobgoblin"
+      ]
+    },
+    {
+      "issue": 313,
+      "villainCount": 2,
+      "villains": [
+        "The Lizard",
+        "Jonathan Caesar"
+      ]
+    },
+    {
+      "issue": 314,
+      "villainCount": 1,
+      "villains": [
+        "Malcolm Kinderman"
+      ]
+    },
+    {
+      "issue": 315,
+      "villainCount": 2,
+      "villains": [
+        "Hydro-Man",
+        "Venom"
+      ]
+    },
+    {
+      "issue": 316,
+      "villainCount": 2,
+      "villains": [
+        "Venom",
+        "Unnamed bank robber"
+      ]
+    },
+    {
+      "issue": 317,
+      "villainCount": 1,
+      "villains": [
+        "Venom"
+      ]
+    },
+    {
+      "issue": 318,
+      "villainCount": 3,
+      "villains": [
+        "Chameleon",
+        "Scorpion",
+        "Justin Hammer"
+      ]
+    },
+    {
+      "issue": 319,
+      "villainCount": 4,
+      "villains": [
+        "Scorpion",
+        "Rhino",
+        "Justin Hammer",
+        "Backlash"
+      ]
+    },
+    {
+      "issue": 320,
+      "villainCount": 3,
+      "villains": [
+        "Life Foundation",
+        "Carlton Drake",
+        "Chakane"
+      ]
+    },
+    {
+      "issue": 321,
+      "villainCount": 3,
+      "villains": [
+        "Life Foundation",
+        "Carlton Drake",
+        "Protectors"
+      ]
+    },
+    {
+      "issue": 322,
+      "villainCount": 4,
+      "villains": [
+        "Sabretooth",
+        "ULTIMATUM",
+        "Major Toler Weil",
+        "Prime Minister Klaus Limka"
+      ]
+    },
+    {
+      "issue": 323,
+      "villainCount": 2,
+      "villains": [
+        "ULTIMATUM",
+        "Major Toler Weil"
+      ]
+    },
+    {
+      "issue": 324,
+      "villainCount": 5,
+      "villains": [
+        "Life Foundation",
+        "Sabretooth",
+        "ULTIMATUM",
+        "Major Toler Weil",
+        "MacVay"
+      ]
+    },
+    {
+      "issue": 325,
+      "villainCount": 6,
+      "villains": [
+        "Major Toler Weil",
+        "Red Skull",
+        "Ultimatum",
+        "Resistants",
+        "Sweatshop",
+        "Watchdogs"
+      ]
+    },
+    {
+      "issue": 326,
+      "villainCount": 1,
+      "villains": [
+        "Graviton"
+      ]
+    },
+    {
+      "issue": 327,
+      "villainCount": 4,
+      "villains": [
+        "Doctor Doom",
+        "Kingpin",
+        "The Wizard",
+        "Magneto"
+      ]
+    },
+    {
+      "issue": 328,
+      "villainCount": 2,
+      "villains": [
+        "Hulk",
+        "Sebastian Shaw"
+      ]
+    },
+    {
+      "issue": 329,
+      "villainCount": 9,
+      "villains": [
+        "Graviton",
+        "Sebastian Shaw",
+        "Tri-Sentinel",
+        "Sentinel Mk IV",
+        "Sentinel Mk V",
+        "Sentinel Mk VI",
+        "Loki",
+        "Avengers",
+        "Galactus"
+      ]
+    },
+    {
+      "issue": 330,
+      "villainCount": 2,
+      "villains": [
+        "Unidentified Drug Cartel",
+        "Eddie Brock"
+      ]
+    },
+    {
+      "issue": 331,
+      "villainCount": 3,
+      "villains": [
+        "Black Cat",
+        "Venom",
+        "Col. Buchinsky"
+      ]
+    },
+    {
+      "issue": 332,
+      "villainCount": 5,
+      "villains": [
+        "Venom",
+        "Jonathan Caesar",
+        "Styx",
+        "Stone",
+        "Venom Symbiote"
+      ]
+    },
+    {
+      "issue": 333,
+      "villainCount": 4,
+      "villains": [
+        "Venom",
+        "Jonathan Caesar",
+        "Styx",
+        "Stone"
+      ]
+    },
+    {
+      "issue": 334,
+      "villainCount": 4,
+      "villains": [
+        "Doctor Octopus",
+        "Sandman",
+        "Electro",
+        "Sinister Six"
+      ]
+    },
+    {
+      "issue": 335,
+      "villainCount": 5,
+      "villains": [
+        "Doctor Octopus",
+        "Mysterio",
+        "Shocker",
+        "Hobgoblin",
+        "Sinister Six"
+      ]
+    },
+    {
+      "issue": 336,
+      "villainCount": 4,
+      "villains": [
+        "Vulture",
+        "Doctor Octopus",
+        "Kingpin",
+        "Chance"
+      ]
+    },
+    {
+      "issue": 337,
+      "villainCount": 8,
+      "villains": [
+        "Vulture",
+        "Doctor Octopus",
+        "Sandman",
+        "Electro",
+        "Mysterio",
+        "Hobgoblin",
+        "Jonathan Caesar",
+        "Sinister Six"
+      ]
+    },
+    {
+      "issue": 338,
+      "villainCount": 8,
+      "villains": [
+        "Vulture",
+        "Doctor Octopus",
+        "Sandman",
+        "Electro",
+        "Mysterio",
+        "Hobgoblin",
+        "Jonathan Caesar",
+        "Sinister Six"
+      ]
+    },
+    {
+      "issue": 339,
+      "villainCount": 8,
+      "villains": [
+        "Vulture",
+        "Doctor Octopus",
+        "Sandman",
+        "Electro",
+        "Mysterio",
+        "Hobgoblin",
+        "Jonathan Caesar",
+        "Sinister Six"
+      ]
+    },
+    {
+      "issue": 340,
+      "villainCount": 6,
+      "villains": [
+        "Chameleon",
+        "Femme Fatales",
+        "Bloodlust",
+        "Whiplash",
+        "Knockout",
+        "Mindblast"
+      ]
+    },
+    {
+      "issue": 341,
+      "villainCount": 2,
+      "villains": [
+        "Chameleon",
+        "Tarantula"
+      ]
+    },
+    {
+      "issue": 342,
+      "villainCount": 2,
+      "villains": [
+        "Chameleon",
+        "Scorpion"
+      ]
+    },
+    {
+      "issue": 343,
+      "villainCount": 8,
+      "villains": [
+        "Chameleon",
+        "Scorpion",
+        "Tarantula",
+        "Femme Fatales",
+        "Bloodlust",
+        "Whiplash",
+        "Knockout",
+        "Mindblast"
+      ]
+    },
+    {
+      "issue": 344,
+      "villainCount": 5,
+      "villains": [
+        "Rhino",
+        "Justin Hammer",
+        "Cardiac",
+        "Hammer Industries",
+        "Phillip Barnett"
+      ]
+    },
+    {
+      "issue": 345,
+      "villainCount": 6,
+      "villains": [
+        "Boomerang",
+        "Venom",
+        "Justin Hammer",
+        "Cardiac",
+        "Hammer Industries",
+        "Phillip Barnett"
+      ]
+    },
+    {
+      "issue": 346,
+      "villainCount": 2,
+      "villains": [
+        "Venom",
+        "Venom Symbiote"
+      ]
+    },
+    {
+      "issue": 347,
+      "villainCount": 2,
+      "villains": [
+        "Venom",
+        "Venom Symbiote"
+      ]
+    },
+    {
+      "issue": 348,
+      "villainCount": 1,
+      "villains": [
+        "Weapons Dealers"
+      ]
+    },
+    {
+      "issue": 349,
+      "villainCount": 1,
+      "villains": [
+        "Black Fox"
+      ]
+    },
+    {
+      "issue": 350,
+      "villainCount": 4,
+      "villains": [
+        "Doctor Doom",
+        "Black Fox",
+        "Arcane Order of the Night",
+        "Andrew Carpathian"
+      ]
+    },
+    {
+      "issue": 351,
+      "villainCount": 4,
+      "villains": [
+        "Life Foundation",
+        "Carlton Drake",
+        "Tri-Sentinel",
+        "Unnamed members"
+      ]
+    },
+    {
+      "issue": 352,
+      "villainCount": 3,
+      "villains": [
+        "Life Foundation",
+        "Carlton Drake",
+        "Tri-Sentinel"
+      ]
+    },
+    {
+      "issue": 353,
+      "villainCount": 6,
+      "villains": [
+        "Secret Empire",
+        "Number Two",
+        "Number Five",
+        "Number Seven",
+        "Midnight",
+        "Eliot Franklin"
+      ]
+    },
+    {
+      "issue": 354,
+      "villainCount": 7,
+      "villains": [
+        "Thunderball",
+        "Secret Empire",
+        "Number Seven",
+        "Midnight",
+        "Number Three",
+        "Number Twelve",
+        "Lynn Church"
+      ]
+    },
+    {
+      "issue": 355,
+      "villainCount": 11,
+      "villains": [
+        "Secret Empire",
+        "Number Five",
+        "Number Seven",
+        "Midnight",
+        "Eliot Franklin",
+        "Lynn Church",
+        "Number Nine",
+        "Number Ten",
+        "Sonic",
+        "Chain",
+        "Grasp"
+      ]
+    },
+    {
+      "issue": 356,
+      "villainCount": 12,
+      "villains": [
+        "Secret Empire",
+        "Number Five",
+        "Number Seven",
+        "Midnight",
+        "Number Three",
+        "Number Twelve",
+        "Lynn Church",
+        "Number Ten",
+        "Number Four",
+        "Number Thirteen",
+        "Number Twenty-One",
+        "Dr. Eliot Franklin"
+      ]
+    },
+    {
+      "issue": 357,
+      "villainCount": 7,
+      "villains": [
+        "Thunderball",
+        "Secret Empire",
+        "Midnight",
+        "Number Three",
+        "Lynn Church",
+        "Number Four",
+        "Number Six"
+      ]
+    },
+    {
+      "issue": 358,
+      "villainCount": 7,
+      "villains": [
+        "Thunderball",
+        "Secret Empire",
+        "Midnight",
+        "Lynn Church",
+        "Sonic",
+        "Chain",
+        "Grasp"
+      ]
+    },
+    {
+      "issue": 359,
+      "villainCount": 1,
+      "villains": [
+        "Cardiac"
+      ]
+    },
+    {
+      "issue": 360,
+      "villainCount": 4,
+      "villains": [
+        "Cardiac",
+        "Stane International",
+        "Joe Faulkner",
+        "Stane International Security Guards"
+      ]
+    },
+    {
+      "issue": 361,
+      "villainCount": 2,
+      "villains": [
+        "Carnage",
+        "Carnage Symbiote"
+      ]
+    },
+    {
+      "issue": 362,
+      "villainCount": 2,
+      "villains": [
+        "Carnage",
+        "Carnage Symbiote"
+      ]
+    },
+    {
+      "issue": 363,
+      "villainCount": 2,
+      "villains": [
+        "Carnage",
+        "Carnage symbiote"
+      ]
+    },
+    {
+      "issue": 364,
+      "villainCount": 1,
+      "villains": [
+        "Shocker"
+      ]
+    },
+    {
+      "issue": 365,
+      "villainCount": 9,
+      "villains": [
+        "Burglar",
+        "Doctor Octopus",
+        "Electro",
+        "Mysterio",
+        "Green Goblin",
+        "Lizard",
+        "Venom",
+        "Saboteurs",
+        "The Green Goblin"
+      ]
+    },
+    {
+      "issue": 366,
+      "villainCount": 7,
+      "villains": [
+        "Taskmaster",
+        "Red Skull",
+        "Viper",
+        "Sweat Shop",
+        "Errol",
+        "Jason",
+        "Tompkins"
+      ]
+    },
+    {
+      "issue": 367,
+      "villainCount": 7,
+      "villains": [
+        "Taskmaster",
+        "Red Skull",
+        "Viper",
+        "Death-Shield",
+        "Jagged Bow",
+        "Blood Spider",
+        "U.L.T.I.M.A.T.U.M"
+      ]
+    },
+    {
+      "issue": 368,
+      "villainCount": 4,
+      "villains": [
+        "J. Jonah Jameson",
+        "Alistair Smythe",
+        "Spider-Slayer Mark X",
+        "Spider-Slayer Mark XI"
+      ]
+    },
+    {
+      "issue": 369,
+      "villainCount": 3,
+      "villains": [
+        "Electro",
+        "Alistair Smythe",
+        "Spider-Slayer Mark XII"
+      ]
+    },
+    {
+      "issue": 370,
+      "villainCount": 2,
+      "villains": [
+        "Scorpion",
+        "Spider-Slayer Mark XIII"
+      ]
+    },
+    {
+      "issue": 371,
+      "villainCount": 3,
+      "villains": [
+        "Philip Watson",
+        "Max Young",
+        "Spider-Slayer Mark XIV"
+      ]
+    },
+    {
+      "issue": 372,
+      "villainCount": 7,
+      "villains": [
+        "Hobgoblin",
+        "Alistair Smythe",
+        "Max Young",
+        "Charlie Shaddock",
+        "Spider-Slayer Mark XV",
+        "Spider-Slayer Mark XVI",
+        "Spider-Slayer Mark XVII"
+      ]
+    },
+    {
+      "issue": 373,
+      "villainCount": 3,
+      "villains": [
+        "Agent Charles Shaddock",
+        "Ultimate Spider-Slayer",
+        "Perkins"
+      ]
+    },
+    {
+      "issue": 374,
+      "villainCount": 2,
+      "villains": [
+        "Venom",
+        "Venom Symbiote"
+      ]
+    },
+    {
+      "issue": 375,
+      "villainCount": 11,
+      "villains": [
+        "Doctor Octopus",
+        "Sandman",
+        "Venom",
+        "Venom Symbiote",
+        "Wild Pack",
+        "Amy Chen",
+        "Battlestar",
+        "Raul Quentino",
+        "Douglas Powell",
+        "Crippler",
+        "Jake Austin"
+      ]
+    },
+    {
+      "issue": 376,
+      "villainCount": 3,
+      "villains": [
+        "Styx",
+        "Stone",
+        "Cardiac"
+      ]
+    },
+    {
+      "issue": 377,
+      "villainCount": 3,
+      "villains": [
+        "Styx",
+        "Stone",
+        "Cardiac"
+      ]
+    },
+    {
+      "issue": 378,
+      "villainCount": 4,
+      "villains": [
+        "Carnage",
+        "Shriek",
+        "Spider-Doppelganger",
+        "Demogoblin"
+      ]
+    },
+    {
+      "issue": 379,
+      "villainCount": 5,
+      "villains": [
+        "Carnage",
+        "Shriek",
+        "Spider-Doppelganger",
+        "Demogoblin",
+        "Carrion"
+      ]
+    },
+    {
+      "issue": 380,
+      "villainCount": 5,
+      "villains": [
+        "Carnage",
+        "Shriek",
+        "Spider-Doppelganger",
+        "Demogoblin",
+        "Carrion"
+      ]
+    },
+    {
+      "issue": 381,
+      "villainCount": 1,
+      "villains": [
+        "Doc Samson"
+      ]
+    },
+    {
+      "issue": 382,
+      "villainCount": 1,
+      "villains": [
+        "Hulk"
+      ]
+    },
+    {
+      "issue": 383,
+      "villainCount": 7,
+      "villains": [
+        "Orwell Taylor",
+        "Jury",
+        "Sentry",
+        "Ramshot",
+        "Firearm",
+        "Screech",
+        "Bomblast"
+      ]
+    },
+    {
+      "issue": 384,
+      "villainCount": 7,
+      "villains": [
+        "Orwell Taylor",
+        "Jury",
+        "Sentry",
+        "Ramshot",
+        "Firearm",
+        "Screech",
+        "Bomblast"
+      ]
+    },
+    {
+      "issue": 385,
+      "villainCount": 7,
+      "villains": [
+        "Orwell Taylor",
+        "Jury",
+        "Sentry",
+        "Ramshot",
+        "Firearm",
+        "Screech",
+        "Bomblast"
+      ]
+    },
+    {
+      "issue": 386,
+      "villainCount": 1,
+      "villains": [
+        "The Vulture"
+      ]
+    },
+    {
+      "issue": 387,
+      "villainCount": 2,
+      "villains": [
+        "Chameleon",
+        "The Vulture"
+      ]
+    },
+    {
+      "issue": 388,
+      "villainCount": 5,
+      "villains": [
+        "Chameleon",
+        "The Vulture",
+        "Richard Parker Simulacrum",
+        "Spider-Man",
+        "Enos Warwick"
+      ]
+    },
+    {
+      "issue": 389,
+      "villainCount": 1,
+      "villains": [
+        "Chameleon"
+      ]
+    },
+    {
+      "issue": 390,
+      "villainCount": 1,
+      "villains": [
+        "Shriek"
+      ]
+    },
+    {
+      "issue": 391,
+      "villainCount": 2,
+      "villains": [
+        "Shriek",
+        "Carrion"
+      ]
+    },
+    {
+      "issue": 392,
+      "villainCount": 2,
+      "villains": [
+        "Shriek",
+        "Carrion"
+      ]
+    },
+    {
+      "issue": 393,
+      "villainCount": 2,
+      "villains": [
+        "Shriek",
+        "Carrion"
+      ]
+    },
+    {
+      "issue": 394,
+      "villainCount": 6,
+      "villains": [
+        "Jackal",
+        "Dr. Judas Traveller",
+        "The Host",
+        "Mr. Nacht",
+        "Chakra",
+        "Scrier"
+      ]
+    },
+    {
+      "issue": 395,
+      "villainCount": 1,
+      "villains": [
+        "Puma"
+      ]
+    },
+    {
+      "issue": 396,
+      "villainCount": 2,
+      "villains": [
+        "Vulture",
+        "The Owl"
+      ]
+    },
+    {
+      "issue": 397,
+      "villainCount": 3,
+      "villains": [
+        "Doctor Octopus",
+        "Kaine",
+        "Stunner"
+      ]
+    },
+    {
+      "issue": 398,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 399,
+      "villainCount": 3,
+      "villains": [
+        "Jackal",
+        "Scrier",
+        "Kaine"
+      ]
+    },
+    {
+      "issue": 400,
+      "villainCount": 5,
+      "villains": [
+        "Burglar",
+        "Jackal",
+        "Mr. Nacht",
+        "Judas Traveller",
+        "Medea"
+      ]
+    },
+    {
+      "issue": 401,
+      "villainCount": 4,
+      "villains": [
+        "Chakra",
+        "Kaine",
+        "Judas Traveller",
+        "Peter Parker"
+      ]
+    },
+    {
+      "issue": 402,
+      "villainCount": 2,
+      "villains": [
+        "Scrier",
+        "Judas Traveller"
+      ]
+    },
+    {
+      "issue": 403,
+      "villainCount": 2,
+      "villains": [
+        "Carnage",
+        "Judas Traveller"
+      ]
+    },
+    {
+      "issue": 404,
+      "villainCount": 2,
+      "villains": [
+        "Jackal",
+        "Spidercide"
+      ]
+    },
+    {
+      "issue": 405,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 406,
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ]
+    },
+    {
+      "issue": 407,
+      "villainCount": 1,
+      "villains": [
+        "Mysterio"
+      ]
+    },
+    {
+      "issue": 408,
+      "villainCount": 3,
+      "villains": [
+        "Mysterio",
+        "Armada",
+        "Jagged Skulls Gang"
+      ]
+    },
+    {
+      "issue": 409,
+      "villainCount": 9,
+      "villains": [
+        "Rhino",
+        "Great Game",
+        "Great Game Sponsors",
+        "James Johnsmeyer",
+        "Yassaf",
+        "Nicolas",
+        "Chu Chi-Huan",
+        "Joystick",
+        "Polestar"
+      ]
+    },
+    {
+      "issue": 410,
+      "villainCount": 2,
+      "villains": [
+        "Carnage",
+        "Cletus Kasady"
+      ]
+    },
+    {
+      "issue": 411,
+      "villainCount": 7,
+      "villains": [
+        "Multivex Corporation",
+        "Gaunt",
+        "Cell-12",
+        "Bramer",
+        "Nardi",
+        "Andros",
+        "Lasher"
+      ]
+    },
+    {
+      "issue": 412,
+      "villainCount": 3,
+      "villains": [
+        "Multivex Corporation",
+        "Gaunt",
+        "Multivex armored security guards"
+      ]
+    },
+    {
+      "issue": 413,
+      "villainCount": 2,
+      "villains": [
+        "Mysterio",
+        "Armada"
+      ]
+    },
+    {
+      "issue": 414,
+      "villainCount": 2,
+      "villains": [
+        "The Rose",
+        "Delilah"
+      ]
+    },
+    {
+      "issue": 415,
+      "villainCount": 1,
+      "villains": [
+        "Sentinels"
+      ]
+    },
+    {
+      "issue": 416,
+      "villainCount": 10,
+      "villains": [
+        "The Rose",
+        "The Host",
+        "Chakra",
+        "Scrier",
+        "Judas Traveller",
+        "Medea",
+        "Gaunt",
+        "Delilah",
+        "Mister Nacht",
+        "Boone"
+      ]
+    },
+    {
+      "issue": 417,
+      "villainCount": 8,
+      "villains": [
+        "The Host",
+        "Scrier",
+        "Judas Traveller",
+        "Medea",
+        "Gaunt",
+        "Mister Nacht",
+        "Boone",
+        "Brotherhood of the Scrier"
+      ]
+    },
+    {
+      "issue": 418,
+      "villainCount": 2,
+      "villains": [
+        "Norman Osborn",
+        "Gaunt"
+      ]
+    },
+    {
+      "issue": 419,
+      "villainCount": 1,
+      "villains": [
+        "Black Tarantula"
+      ]
+    },
+    {
+      "issue": 420,
+      "villainCount": 5,
+      "villains": [
+        "The Rose",
+        "Delilah",
+        "Black Tarantula",
+        "Tarantula's Organization",
+        "El Uno"
+      ]
+    },
+    {
+      "issue": 421,
+      "villainCount": 7,
+      "villains": [
+        "Rose",
+        "Delilah",
+        "Black Tarantula",
+        "Tarantula's Organization",
+        "True Believers",
+        "Madam Qwa",
+        "Karsano"
+      ]
+    },
+    {
+      "issue": 422,
+      "villainCount": 5,
+      "villains": [
+        "Electro",
+        "The Rose",
+        "Delilah",
+        "Black Tarantula",
+        "Don Fortunato"
+      ]
+    },
+    {
+      "issue": 423,
+      "villainCount": 3,
+      "villains": [
+        "Electro",
+        "The Rose",
+        "Delilah"
+      ]
+    },
+    {
+      "issue": 424,
+      "villainCount": 6,
+      "villains": [
+        "The Rose",
+        "Delilah",
+        "Tarantula's Organization",
+        "True Believers",
+        "Madam Qwa",
+        "Yano"
+      ]
+    },
+    {
+      "issue": 425,
+      "villainCount": 3,
+      "villains": [
+        "Electro",
+        "Rose",
+        "Delilah"
+      ]
+    },
+    {
+      "issue": 426,
+      "villainCount": 0,
+      "villains": []
+    },
+    {
+      "issue": 427,
+      "villainCount": 4,
+      "villains": [
+        "Doctor Octopus",
+        "Rose",
+        "Stunner",
+        "Delilah"
+      ]
+    },
+    {
+      "issue": 428,
+      "villainCount": 4,
+      "villains": [
+        "Doctor Octopus",
+        "The Rose",
+        "Delilah",
+        "Black Tarantula"
+      ]
+    },
+    {
+      "issue": 429,
+      "villainCount": 3,
+      "villains": [
+        "Norman Osborn",
+        "Titania/Thunder Girl",
+        "Absorbing Man/Lightning Bolt"
+      ]
+    },
+    {
+      "issue": 430,
+      "villainCount": 2,
+      "villains": [
+        "Carnage",
+        "Carnage Cosmic"
+      ]
+    },
+    {
+      "issue": 431,
+      "villainCount": 2,
+      "villains": [
+        "Carnage",
+        "Carnage Cosmic"
+      ]
+    },
+    {
+      "issue": 432,
+      "villainCount": 6,
+      "villains": [
+        "Green Goblin",
+        "Norman Osborn",
+        "The Rose",
+        "Black Tarantula",
+        "Don Fortunato",
+        "Shotgun"
+      ]
+    },
+    {
+      "issue": 433,
+      "villainCount": 0,
+      "villains": []
+    },
+    {
+      "issue": 434,
+      "villainCount": 3,
+      "villains": [
+        "Rose",
+        "Delilah",
+        "Brotherhood of the Scriers"
+      ]
+    },
+    {
+      "issue": 435,
+      "villainCount": 7,
+      "villains": [
+        "Rose",
+        "Delilah",
+        "Black Tarantula",
+        "Don Fortunato",
+        "Brotherhood of the Scriers",
+        "Bloodscream",
+        "Roughouse"
+      ]
+    },
+    {
+      "issue": 436,
+      "villainCount": 0,
+      "villains": []
+    },
+    {
+      "issue": 437,
+      "villainCount": 1,
+      "villains": [
+        "Plant-Man"
+      ]
+    },
+    {
+      "issue": 438,
+      "villainCount": 1,
+      "villains": [
+        "Synario"
+      ]
+    },
+    {
+      "issue": 439,
+      "villainCount": 0,
+      "villains": []
+    },
+    {
+      "issue": 440,
+      "villainCount": 1,
+      "villains": [
+        "Molten Man"
+      ]
+    },
+    {
+      "issue": 441,
+      "villainCount": 1,
+      "villains": [
+        "Molten Man"
+      ]
+    }
+  ]
+}

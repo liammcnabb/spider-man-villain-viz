@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man Villain Timeline</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🕷️ Spider-Man Villain Timeline</h1>
+            <p class="subtitle">
+                Antagonist appearances in Amazing Spider-Man Vol. 1 (Issues 1-20)
+            </p>
+        </header>
+
+        <main class="main-content">
+            <!-- Statistics Panel -->
+            <section class="stats-panel">
+                <h2>Statistics</h2>
+                <div class="stats-grid" id="statsGrid">
+                    <div class="stat-card">
+                        <div class="stat-label">Total Villains</div>
+                        <div class="stat-value" id="totalVillains">-</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Most Frequent</div>
+                        <div class="stat-value" id="mostFrequent">-</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Appearances</div>
+                        <div class="stat-value" id="mostFrequentCount">-</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Avg Frequency</div>
+                        <div class="stat-value" id="avgFrequency">-</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Visualization Section -->
+            <section class="visualization-section">
+                <h2>Villain Appearance Timeline</h2>
+                <div class="chart-container">
+                    <svg id="timeline-chart"></svg>
+                </div>
+                <p class="chart-description">
+                    This chart shows the number of distinct villains appearing 
+                    in each issue. Hover over data points to see villain names.
+                </p>
+            </section>
+
+            <!-- Villain List Section -->
+            <section class="villain-list-section">
+                <h2>Villain Index</h2>
+                <div class="filters">
+                    <input 
+                        type="text" 
+                        id="villainFilter" 
+                        class="search-input"
+                        placeholder="Filter villains..."
+                    >
+                </div>
+                <div class="villain-list" id="villainList">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>
+                Data from 
+                <a href="https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_1" 
+                   target="_blank">
+                    Marvel Fandom Wiki
+                </a> 
+                | 
+                Built with 
+                <a href="https://d3js.org" target="_blank">D3.js</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

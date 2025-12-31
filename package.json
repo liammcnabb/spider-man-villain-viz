@@ -1,0 +1,36 @@
+{
+  "name": "spider-man-villain-timeline",
+  "version": "0.1.0",
+  "description": "A visualization of Spider-Man villain appearances across Amazing Spider-Man Vol. 1 comic book series",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "scrape": "ts-node src/index.ts scrape",
+    "serve": "python -m http.server 8000 --directory public",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "spider-man",
+    "marvel",
+    "visualization",
+    "d3js",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "d3": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
