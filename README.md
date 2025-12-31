@@ -1,4 +1,4 @@
-# This repo is entirely written by Claude as an example of a workflow. Since I do not pay for any AI, progress is limited by the amount of tokens I get per month.
+# This repo is entirely written by Claude as a public example of a workflow. Since I do not pay for any AI, progress is limited by the amount of tokens I get per month.
 
 # Spider-Man Villain Timeline
 
