@@ -7,7 +7,7 @@
 import axios, { AxiosInstance } from 'axios';
 import * as cheerio from 'cheerio';
 
-import type { IssueData, RawVillainData } from '../types';
+import type { IssueData, RawVillainData, Antagonist } from '../types';
 
 // Configuration constants
 const MARVEL_FANDOM_BASE = 'https://marvel.fandom.com';
@@ -186,15 +186,15 @@ export class MarvelScraper {
    * 
    * @param html - HTML content of the issue page
    * @param issueNumber - The issue number (for logging)
-   * @returns Array of antagonist names
+   * @returns Array of antagonist objects with name and URL
    */
   private parseAntagonistsFromHtml(
     html: string,
     issueNumber: number
-  ): string[] {
+  ): Antagonist[] {
     try {
       const $ = cheerio.load(html);
-      const antagonists: string[] = [];
+      const antagonists: Antagonist[] = [];
 
       // Find "Appearing in" sections (story sections)
       const sections = $('h2');
@@ -229,25 +229,29 @@ export class MarvelScraper {
               if (nextList.length > 0) {
                 nextList.find('li').each((_, liElement) => {
                   // Marvel Fandom lists may have navigation symbols
-                  // Extract character name by:
+                  // Extract character name and URL by:
                   // 1. Getting all links in the <li>
                   // 2. Filtering out navigation symbol links
-                  // 3. Taking the character name (usually 2nd link)
+                  // 3. Taking the character link (usually 2nd link)
                   
                   const $li = $(liElement);
                   const links = $li.find('a');
                   
                   let name = '';
+                  let url = '';
                   
                   if (links.length === 1) {
                     // Simple case: single link is the character name
-                    name = links.first().text().trim();
+                    const link = links.first();
+                    name = link.text().trim();
+                    url = link.attr('href') || '';
                   } else if (links.length > 1) {
                     // Complex case: multiple links
                     // Skip navigation symbols (usually single characters or symbols)
                     // and get the character name
                     for (let j = 0; j < links.length; j++) {
-                      const linkText = $(links[j]).text().trim();
+                      const link = $(links[j]);
+                      const linkText = link.text().trim();
                       
                       // Skip navigation symbols and helper links
                       if (linkText && 
@@ -255,12 +259,13 @@ export class MarvelScraper {
                           !linkText.match(/^[\s⏴◀▶→←↑↓]+$/) &&
                           !linkText.match(/^See/i)) {
                         name = linkText;
+                        url = link.attr('href') || '';
                         break;
                       }
                     }
                   }
                   
-                  // If no name from links, try text content
+                  // If no name from links, try text content (no URL available)
                   if (!name) {
                     const text = $li.text().split('\n')[0].trim();
                     // Filter out navigation symbols
@@ -270,9 +275,14 @@ export class MarvelScraper {
                     }
                   }
                   
+                  // Normalize URL to full path if it's relative
+                  if (url && !url.startsWith('http')) {
+                    url = `${MARVEL_FANDOM_BASE}${url}`;
+                  }
+                  
                   // Add to antagonists if valid
                   if (name && name.length > 1) {
-                    antagonists.push(name);
+                    antagonists.push({ name, url: url || undefined });
                   }
                 });
               }

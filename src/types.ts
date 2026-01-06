@@ -2,16 +2,23 @@
  * Type definitions for Spider-Man Villain Timeline project
  */
 
+export interface Antagonist {
+  name: string;
+  url?: string; // Marvel Fandom URL to uniquely identify character
+}
+
 export interface IssueData {
   issueNumber: number;
   title: string;
   publicationDate?: string;
-  antagonists: string[];
+  antagonists: Antagonist[];
 }
 
 export interface ProcessedVillain {
   id: string;
-  names: string[];
+  name: string; // Primary name (most frequently used alias)
+  names: string[]; // All name variants/aliases
+  url?: string; // Canonical Marvel Fandom URL
   firstAppearance: number;
   appearances: number[];
   frequency: number;

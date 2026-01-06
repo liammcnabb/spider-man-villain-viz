@@ -42,6 +42,25 @@ export function normalizeVillainName(name: string): string {
 }
 
 /**
+ * Extracts canonical identifier from Marvel Fandom URL
+ * Removes query parameters and anchors to get clean character page URL
+ * 
+ * @param url - Full Marvel Fandom URL
+ * @returns Canonical URL or undefined if no URL provided
+ */
+export function getCanonicalUrl(url?: string): string | undefined {
+  if (!url) return undefined;
+  
+  try {
+    // Remove query params and anchors
+    const cleanUrl = url.split('?')[0].split('#')[0];
+    return cleanUrl;
+  } catch {
+    return url;
+  }
+}
+
+/**
  * Generates unique ID from villain name
  * 
  * @param name - Villain name
@@ -55,7 +74,28 @@ export function generateVillainId(name: string): string {
 }
 
 /**
+ * Selects the most prominent (frequently used) name from name frequency map
+ * 
+ * @param nameFrequency - Map of name variants to their usage count
+ * @returns Most frequently used name
+ */
+function selectMostProminentName(nameFrequency: Map<string, number>): string {
+  let maxCount = 0;
+  let prominentName = '';
+  
+  for (const [name, count] of nameFrequency.entries()) {
+    if (count > maxCount) {
+      maxCount = count;
+      prominentName = name;
+    }
+  }
+  
+  return prominentName;
+}
+
+/**
  * Processes raw scraped data into normalized, structured format
+ * Uses URLs as canonical identifiers to handle villains with multiple names
  * 
  * @param rawData - Data directly from scraper
  * @returns Processed data with stats and timeline
@@ -68,11 +108,17 @@ export function processVillainData(
     throw new Error('Invalid raw data format');
   }
 
-  // Build villain index
-  const villainMap = new Map<string, ProcessedVillain>();
+  // Build villain index using URL as primary key, fallback to normalized name
+  // Track name frequency to determine most prominent alias
+  const villainMapByUrl = new Map<string, ProcessedVillain>();
+  const villainMapByName = new Map<string, ProcessedVillain>();
+  const nameFrequencyByKey = new Map<string, Map<string, number>>();
   
   for (const issue of rawData.issues) {
-    for (const rawName of issue.antagonists) {
+    for (const antagonist of issue.antagonists) {
+      const rawName: string = typeof antagonist === 'string' ? antagonist : antagonist.name;
+      const url: string | undefined = typeof antagonist === 'object' ? getCanonicalUrl(antagonist.url) : undefined;
+      
       if (!rawName || rawName.trim().length === 0) {
         continue; // Skip empty names
       }
@@ -83,18 +129,37 @@ export function processVillainData(
         continue; // Skip names that become empty after normalization
       }
 
-      if (!villainMap.has(normalized)) {
+      // Determine key: use URL if available, otherwise use normalized name
+      const key = url || normalized;
+      const useUrlKey = !!url;
+      const map = useUrlKey ? villainMapByUrl : villainMapByName;
+
+      if (!map.has(key)) {
         // New villain
-        villainMap.set(normalized, {
+        const nameFrequency = new Map<string, number>();
+        nameFrequency.set(normalized, 1);
+        nameFrequencyByKey.set(key, nameFrequency);
+        
+        map.set(key, {
           id: generateVillainId(normalized),
+          name: normalized, // Will be updated to most prominent name later
           names: [normalized],
+          url: url,
           firstAppearance: issue.issueNumber,
           appearances: [issue.issueNumber],
           frequency: 1
         });
       } else {
-        // Existing villain
-        const villain = villainMap.get(normalized)!;
+        // Existing villain - add appearance and track name variant
+        const villain = map.get(key)!;
+        const nameFrequency = nameFrequencyByKey.get(key)!;
+        
+        // Track how many times this specific name variant appears
+        nameFrequency.set(normalized, (nameFrequency.get(normalized) || 0) + 1);
+        
+        if (!villain.names.includes(normalized)) {
+          villain.names.push(normalized);
+        }
         if (!villain.appearances.includes(issue.issueNumber)) {
           villain.appearances.push(issue.issueNumber);
           villain.frequency++;
@@ -103,24 +168,44 @@ export function processVillainData(
     }
   }
 
+  // Merge both maps, prioritizing URL-based entries
+  // Set most prominent name as primary name for each villain
+  const allVillains = new Map<string, ProcessedVillain>();
+  
+  // Add all URL-based villains first
+  for (const [key, villain] of villainMapByUrl) {
+    const nameFrequency = nameFrequencyByKey.get(key)!;
+    villain.name = selectMostProminentName(nameFrequency);
+    allVillains.set(villain.id, villain);
+  }
+  
+  // Add name-based villains (those without URLs)
+  for (const [key, villain] of villainMapByName) {
+    if (!allVillains.has(villain.id)) {
+      const nameFrequency = nameFrequencyByKey.get(key)!;
+      villain.name = selectMostProminentName(nameFrequency);
+      allVillains.set(villain.id, villain);
+    }
+  }
+
   // Sort appearances chronologically
-  for (const villain of villainMap.values()) {
+  for (const villain of allVillains.values()) {
     villain.appearances.sort((a, b) => a - b);
   }
 
   // Generate timeline
   const timeline = generateTimeline(
     rawData.issues,
-    villainMap
+    allVillains
   );
 
   // Generate statistics
-  const stats = generateStats(villainMap);
+  const stats = generateStats(allVillains);
 
   return {
     series: rawData.series,
     processedAt: new Date().toISOString(),
-    villains: Array.from(villainMap.values()),
+    villains: Array.from(allVillains.values()),
     timeline,
     stats
   };
@@ -171,7 +256,7 @@ function generateStats(
     ? villainArray.reduce((prev, current) =>
         (current.frequency > prev.frequency) ? current : prev
       )
-    : { id: '', names: [], frequency: 0, firstAppearance: 0, appearances: [] };
+    : { id: '', name: '', names: [], frequency: 0, firstAppearance: 0, appearances: [] };
 
   // Calculate average
   const averageFrequency = villainArray.length > 0
@@ -185,7 +270,7 @@ function generateStats(
     if (!firstAppearances.has(issue)) {
       firstAppearances.set(issue, []);
     }
-    firstAppearances.get(issue)!.push(villain.names[0]);
+    firstAppearances.get(issue)!.push(villain.name);
   }
 
   return {
@@ -210,7 +295,7 @@ export function serializeProcessedData(
     processedAt: data.processedAt,
     stats: {
       totalVillains: data.stats.totalVillains,
-      mostFrequent: data.stats.mostFrequent.names[0],
+      mostFrequent: data.stats.mostFrequent.name,
       mostFrequentCount: data.stats.mostFrequent.frequency,
       averageFrequency: Math.round(
         data.stats.averageFrequency * 100
@@ -218,8 +303,9 @@ export function serializeProcessedData(
     },
     villains: data.villains.map(v => ({
       id: v.id,
-      name: v.names[0],
-      aliases: v.names.slice(1),
+      name: v.name,
+      aliases: v.names.filter(n => n !== v.name), // Exclude primary name from aliases
+      url: v.url,
       firstAppearance: v.firstAppearance,
       appearances: v.appearances,
       frequency: v.frequency
@@ -227,7 +313,7 @@ export function serializeProcessedData(
     timeline: data.timeline.map(t => ({
       issue: t.issue,
       villainCount: t.villainCount,
-      villains: t.villains.map(v => v.names[0])
+      villains: t.villains.map(v => v.name)
     }))
   };
 }

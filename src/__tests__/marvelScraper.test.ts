@@ -5,6 +5,7 @@
  */
 
 import { MarvelScraper } from '../scraper/marvelScraper';
+import type { Antagonist } from '../types';
 
 describe('Marvel Scraper - Proof Steps', () => {
   let scraper: MarvelScraper;
@@ -115,7 +116,7 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(issueOneStoryTwo);
       
       // Assert: PROOF that Chameleon is extracted
-      expect(antagonists).toContain('Chameleon');
+      expect(antagonists.some(a => a.name === 'Chameleon')).toBe(true);
       expect(antagonists.length).toBeGreaterThan(0);
     });
 
@@ -144,8 +145,8 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(issueOneComplete);
       
       // Assert: PROOF that both appear
-      expect(antagonists.some(a => a.includes('Burglar'))).toBe(true);
-      expect(antagonists).toContain('Chameleon');
+      expect(antagonists.some(a => a.name.includes('Burglar'))).toBe(true);
+      expect(antagonists.some(a => a.name === 'Chameleon')).toBe(true);
       expect(antagonists.length).toBe(2);
     });
 
@@ -167,9 +168,9 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(htmlWithNavigation);
       
       // Assert: PROOF that navigation symbols are filtered
-      expect(antagonists).toContain('Character Name');
-      expect(antagonists).not.toContain('⏴');
-      expect(antagonists).not.toContain('⏵');
+      expect(antagonists.some(a => a.name === 'Character Name')).toBe(true);
+      expect(antagonists.some(a => a.name === '⏴')).toBe(false);
+      expect(antagonists.some(a => a.name === '⏵')).toBe(false);
       expect(antagonists.length).toBe(1);
     });
 
@@ -191,9 +192,9 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(htmlWithVariousSymbols);
       
       // Assert: PROOF that all symbol types are filtered
-      expect(antagonists).toContain('Real Villain');
-      expect(antagonists).not.toContain('◀');
-      expect(antagonists).not.toContain('▶');
+      expect(antagonists.some(a => a.name === 'Real Villain')).toBe(true);
+      expect(antagonists.some(a => a.name === '◀')).toBe(false);
+      expect(antagonists.some(a => a.name === '▶')).toBe(false);
     });
 
     it('PROOF: Chameleon correctly identified as first appearance Issue #1', () => {
@@ -216,9 +217,9 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(issue1Chameleon);
       
       // Assert: PROOF that Chameleon is found
-      expect(antagonists).toContain('Chameleon');
+      expect(antagonists.some(a => a.name === 'Chameleon')).toBe(true);
       // Verify it's not confusing navigation symbols for the character
-      expect(antagonists.filter(a => a === 'Chameleon').length).toBe(1);
+      expect(antagonists.filter(a => a.name === 'Chameleon').length).toBe(1);
     });
 
     it('PROOF: Parser handles mixed single and multi-link items', () => {
@@ -240,8 +241,8 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(mixedFormat);
       
       // Assert: PROOF that both formats are handled
-      expect(antagonists).toContain('Simple Villain Name');
-      expect(antagonists).toContain('Complex Villain Name');
+      expect(antagonists.some(a => a.name === 'Simple Villain Name')).toBe(true);
+      expect(antagonists.some(a => a.name === 'Complex Villain Name')).toBe(true);
       expect(antagonists.length).toBe(2);
     });
 
@@ -262,8 +263,8 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(htmlWithHelperLinks);
       
       // Assert: PROOF that helper links are skipped
-      expect(antagonists).toContain('Character');
-      expect(antagonists).not.toContain('See chronology');
+      expect(antagonists.some(a => a.name === 'Character')).toBe(true);
+      expect(antagonists.some(a => a.name === 'See chronology')).toBe(false);
     });
 
     it('PROOF: Multiple stories in one issue all parsed correctly', () => {
@@ -293,8 +294,8 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(issue1RealStructure);
       
       // Assert: PROOF that multiple stories are parsed
-      expect(antagonists.some(a => a.includes('Burglar'))).toBe(true);
-      expect(antagonists).toContain('Chameleon');
+      expect(antagonists.some(a => a.name.includes('Burglar'))).toBe(true);
+      expect(antagonists.some(a => a.name === 'Chameleon')).toBe(true);
       expect(antagonists.length).toBe(2);
     });
 
@@ -316,9 +317,9 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
       const antagonists = parseAntagonistsFromHTML(htmlWithSpecialChars);
       
       // Assert: PROOF that names are trimmed and extracted correctly
-      expect(antagonists).toContain('Doctor Octopus');
-      expect(antagonists[0]).not.toMatch(/^\s+/); // No leading spaces
-      expect(antagonists[0]).not.toMatch(/\s+$/); // No trailing spaces
+      expect(antagonists.some(a => a.name === 'Doctor Octopus')).toBe(true);
+      expect(antagonists[0].name).not.toMatch(/^\s+/); // No leading spaces
+      expect(antagonists[0].name).not.toMatch(/\s+$/); // No trailing spaces
     });
   });
 });
@@ -327,10 +328,11 @@ describe('Marvel Scraper - Antagonist Parsing Proof Steps', () => {
  * Helper function: parseAntagonistsFromHTML
  * Simulates the fixed parsing logic from marvelScraper.ts
  */
-function parseAntagonistsFromHTML(html: string): string[] {
+function parseAntagonistsFromHTML(html: string): Antagonist[] {
   const cheerio = require('cheerio');
   const $ = cheerio.load(html);
-  const antagonists: string[] = [];
+  const antagonists: Antagonist[] = [];
+  const MARVEL_FANDOM_BASE = 'https://marvel.fandom.com';
 
   const sections = $('h2');
   
@@ -362,18 +364,23 @@ function parseAntagonistsFromHTML(html: string): string[] {
               const links = $li.find('a');
               
               let name = '';
+              let url = '';
               
               if (links.length === 1) {
-                name = links.first().text().trim();
+                const link = links.first();
+                name = link.text().trim();
+                url = link.attr('href') || '';
               } else if (links.length > 1) {
                 for (let j = 0; j < links.length; j++) {
-                  const linkText = $(links[j]).text().trim();
+                  const link = $(links[j]);
+                  const linkText = link.text().trim();
                   
                   if (linkText && 
                       linkText.length > 1 && 
                       !linkText.match(/^[\s⏴◀▶→←↑↓]+$/) &&
                       !linkText.match(/^See/i)) {
                     name = linkText;
+                    url = link.attr('href') || '';
                     break;
                   }
                 }
@@ -387,8 +394,13 @@ function parseAntagonistsFromHTML(html: string): string[] {
                 }
               }
               
+              // Normalize URL to full path if it's relative
+              if (url && !url.startsWith('http')) {
+                url = `${MARVEL_FANDOM_BASE}${url}`;
+              }
+              
               if (name && name.length > 1) {
-                antagonists.push(name);
+                antagonists.push({ name, url: url || undefined });
               }
             });
           }
