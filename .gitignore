@@ -25,3 +25,5 @@ villains.json
 d3-config.json
 *.md
 .cursorrules
+public/data/d3-config.json
+public/data/villains.json
