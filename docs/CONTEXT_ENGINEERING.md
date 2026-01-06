@@ -1,201 +1,210 @@
-# Context Engineering Integration
+﻿# Context Engineering for Spider-Man Villain Timeline
 
-This file documents how the Spider-Man Villain Timeline project implements the Context Engineering Protocol.
+This project implements modern context engineering patterns (2026) for AI-assisted development.
 
-## Protocol Integration
+## Quick Reference
 
-### 1. Tool System
-
-The project implements three main tools as per Context Engineering standards:
-
-#### Tool 1: Marvel Fandom Scraper
-- **Location**: `src/scraper/marvelScraper.ts`
-- **Input**: Issue range (startIssue, endIssue)
-- **Output**: RawVillainData with antagonist lists
-- **Responsibility**: Extract data from external source
-
-#### Tool 2: Data Processor
-- **Location**: `src/utils/dataProcessor.ts`
-- **Input**: RawVillainData
-- **Output**: ProcessedData with normalized villains
-- **Responsibility**: Transform and validate data
-
-#### Tool 3: Visualization Generator
-- **Location**: `src/visualization/d3Graph.ts`
-- **Input**: ProcessedData
-- **Output**: D3 configuration and SVG paths
-- **Responsibility**: Prepare data for rendering
-
-### 2. Context Building
-
-The project builds context through:
-
-**User Request** → Context determination → Tool orchestration
-
+### Project Structure
 ```
-User provides issue range
-    ↓
-System builds context:
-  - Required issues
-  - Data validation rules
-  - Output format requirements
-    ↓
-Tools executed in sequence:
-  1. Scraper (fetches data)
-  2. Processor (transforms data)
-  3. Visualizer (prepares for rendering)
+spider-man-villain-timeline/
+ .cursorrules                    # Context for AI agents
+ .github/
+    copilot-instructions.md    # GitHub Copilot config
+    workflows/validate.yml     # CI validation
+ src/
+    scraper/                   # Web scraping modules
+    utils/                     # Data processing
+    visualization/             # D3.js components
+    __tests__/                 # Jest tests
+ data/                          # Scraped JSON data
+ public/                        # Static visualization files
+ docs/                          # Documentation
+     CONTEXT_ENGINEERING.md     # This file
+     MODERN_PATTERNS_2026.md    # Complete guide
 ```
 
-### 3. Feedback Loop
+## AI Agent Context Files
 
-Metrics collected at each stage:
+### 1. `.cursorrules`
+Project-specific context including:
+- Architecture overview
+- Code conventions
+- TypeScript patterns
+- Scraping best practices
+- Testing requirements
 
-**Scraping Feedback**:
-- Success rate per issue
-- Network latency
-- HTML parsing accuracy
-- Villains extracted per issue
+### 2. `.github/copilot-instructions.md`
+GitHub Copilot specific instructions for:
+- Tech stack
+- Common tasks
+- Code style
+- Validation commands
 
-**Processing Feedback**:
-- Normalization success rate
-- Duplicate detection rate
-- Data validation pass rate
-- Villain frequency distribution
+### 3. `docs/MODERN_PATTERNS_2026.md`
+Comprehensive guide to modern context engineering:
+- Autonomous agent patterns
+- Validation-driven feedback
+- Parallel execution strategies
+- Error recovery patterns
+- Complete implementation examples
 
-**Visualization Feedback**:
-- Scale generation accuracy
-- Color palette coverage
-- Render time performance
-- Data point density
+## Using Modern Patterns in This Project
 
-### 4. Proof Steps
-
-The project implements proof verification:
-
-**Proof of Data Extraction**:
-- Verify issue count matches request
-- Verify antagonist lists are non-empty
-- Verify URL generation is correct
-
-**Proof of Normalization**:
-- Verify villains are deduplicated
-- Verify all appearances tracked
-- Verify stats calculations are correct
-
-**Proof of Visualization**:
-- Verify D3 scales match data domain
-- Verify colors are distinct
-- Verify timeline is chronological
-
-## Type System
-
-All data flows through strict TypeScript types:
+### 1. Autonomous Context Discovery
+Let AI agents discover context through semantic search:
 
 ```typescript
-// Input types
-IssueData → RawVillainData
+// Agent will automatically:
+// 1. Search for existing scraping patterns
+// 2. Find data processing examples
+// 3. Understand D3.js visualization patterns
+// 4. Discover test patterns
 
-// Processing types
-RawVillainData → ProcessedData
-ProcessedVillain → VillainStats
-
-// Visualization types
-ProcessedData → D3DataPoint
-D3DataPoint → D3Config
+// You just request: "Add a new scraper for villain aliases"
 ```
 
-## Error Handling Strategy
+### 2. Validation-Driven Development
+Every change is validated automatically:
 
-Following Context Engineering principles:
+```bash
+# Before committing
+npm run validate  # Runs type-check + tests
 
-1. **Graceful Degradation**: If one issue fails to scrape, continue with others
-2. **Logging**: All errors logged for feedback analysis
-3. **Validation**: Data validated at each stage
-4. **Recovery**: Normalized data marked with source quality
-
-## Configuration Management
-
-Context Engineering defines configuration as external to code:
-
-**Environment Variables** (in `.env`):
-```
-MARVEL_FANDOM_BASE=https://marvel.fandom.com
-SCRAPE_ISSUES_START=1
-SCRAPE_ISSUES_END=20
-SCRAPE_TIMEOUT=10000
-DATA_OUTPUT_PATH=./data/villains.json
+# CI automatically validates on push
+# See .github/workflows/validate.yml
 ```
 
-**Runtime Configuration** (in `public/script.js`):
-```javascript
-const VIZ_CONFIG = {
-    margin: { top: 30, right: 30, bottom: 40, left: 70 },
-    animationDuration: 750,
-    tooltipDelay: 100
-};
-```
+### 3. Parallel Operations
+AI agents batch independent operations:
 
-## Modularity & Separation of Concerns
-
-Each component is independent and can be modified without affecting others:
-
-- **Scraper**: Can change HTML parsing without affecting processor
-- **Processor**: Can change normalization rules without affecting visualizer
-- **Visualizer**: Can change D3 configuration without affecting processor
-- **Frontend**: Can change UI without affecting backend
-
-## Extension Points
-
-Following Context Engineering extensibility:
-
-### Add New Series
 ```typescript
-// In marvelScraper.ts
-async scrapeUltimateSpiderMan(startIssue: number, endIssue: number)
+// Agent will parallelize these automatically:
+const [villainData, comicData, imageData] = await Promise.all([
+  scrapeVillains(urls),
+  scrapeComics(issues),
+  scrapeImages(characters)
+]);
 ```
 
-### Add New Metrics
+### 4. Progressive Refinement
+AI agents iterate until validation passes:
+
+```
+Attempt 1: Implement scraper
+   Type error detected
+   Fix type definitions
+  
+Attempt 2: Implement with correct types
+   Test fails (missing rate limiting)
+   Add rate limiter
+  
+Attempt 3: Implement with rate limiting
+   All tests pass 
+```
+
+## Validation Tools
+
+### Type Checking
+```bash
+npm run type-check  # TypeScript strict mode validation
+```
+
+### Testing
+```bash
+npm test           # Run all Jest tests
+npm test -- --watch # Watch mode
+```
+
+### Full Validation
+```bash
+npm run validate   # Type-check + tests (used in CI)
+```
+
+## Common Workflows
+
+### Adding a New Scraper
+1. Agent searches for existing scraper patterns
+2. Creates new scraper with types and error handling
+3. Adds tests with mocked HTTP responses
+4. Validates: type-check + tests
+5. Auto-fixes any errors found
+
+### Updating Visualization
+1. Agent analyzes existing D3.js patterns
+2. Implements new visualization feature
+3. Creates snapshot tests
+4. Validates rendering logic
+5. Iterates until tests pass
+
+### Refactoring Data Processing
+1. Agent finds all usages of data structures
+2. Plans refactoring with type safety
+3. Updates code with multi-file edits
+4. Validates: no type errors, all tests pass
+5. Confirms no breaking changes
+
+## Best Practices
+
+### 1. Let Agents Drive Discovery
+ **Don't**: Manually specify all context files to read
+ **Do**: Request the task and let agents discover needed context
+
+### 2. Use Real Validation
+ **Don't**: Rely on "looks good" assessment
+ **Do**: Run `npm run validate` to check actual errors
+
+### 3. Batch Independent Operations
+ **Don't**: Sequential reads when order doesn't matter
+ **Do**: Parallel Promise.all() for independent operations
+
+### 4. Iterate with Feedback
+ **Don't**: Give up after first attempt
+ **Do**: Use errors to guide progressive refinement
+
+## See Also
+
+- [MODERN_PATTERNS_2026.md](./MODERN_PATTERNS_2026.md) - Complete implementation guide
+- [.cursorrules](../.cursorrules) - Project context for AI agents
+- [.github/copilot-instructions.md](../.github/copilot-instructions.md) - Copilot config
+
+## Proof Steps Integration
+
+This project implements the **Proof Steps** methodology: write failing tests that prove issues exist, then fix the code until tests pass.
+
+### Quick Example
+
 ```typescript
-// In dataProcessor.ts
-function generateMetrics(data: ProcessedData)
+// Issue: Scraper crashes on villains without power descriptions
+
+// 1. Write FAILING test (proves the bug)
+it('should handle villains without powers', () => {
+  const html = '<div class="villain"><h2>Chameleon</h2></div>';
+  const result = parseVillain(html);
+  expect(result.powers).toEqual([]); // FAILS 
+});
+
+// 2. Fix the code
+function parseVillain(html: string): Villain {
+  const powers = extractPowers(html) || []; //  Handle undefined
+  return { name, powers };
+}
+
+// 3. Test now PASSES 
 ```
 
-### Add New Visualizations
-```typescript
-// In src/visualization/newVizType.ts
-function generateNewVisualizationType(config: D3Config)
-```
+### For AI Agents
 
-## Documentation Structure
+When requesting bug fixes or features, AI agents will:
+1. Generate failing test that demonstrates the issue
+2. Implement the fix
+3. Verify test passes
+4. Add edge case tests
 
-Following Context Engineering documentation standards:
+**Example requests:**
+- "Fix the scraper to handle missing aliases - use proof steps"
+- "Add support for villain team affiliations with proof tests"
 
-- **ARCHITECTURE.md**: System design and component relationships
-- **GUIDELINES.md**: Code standards and best practices
-- **SETUP.md**: Installation and configuration
-- **This file**: Context Engineering implementation details
-- **Code comments**: Implementation-level documentation via JSDoc
+### Documentation
 
-## Quality Assurance
-
-Context Engineering emphasizes measurable improvement:
-
-**Metrics Collected**:
-- Scraping success rate
-- Data quality score
-- Parsing accuracy
-- Normalization effectiveness
-- Visualization render time
-
-**Continuous Improvement**:
-- Monitor feedback metrics
-- Identify bottlenecks
-- Optimize tool efficiency
-- Validate proof steps
-
-## References
-
-- Main template: [Context Engineering Template](../../context-engineering-template/)
-- Architecture guide: [ARCHITECTURE.md](./ARCHITECTURE.md)
-- Code guidelines: [GUIDELINES.md](./GUIDELINES.md)
-- Setup instructions: [SETUP.md](./SETUP.md)
+- [PROOF_STEPS_GUIDE.md](./PROOF_STEPS_GUIDE.md) - Complete methodology
+- [CODE_GUIDELINES.md](./CODE_GUIDELINES.md) - Coding standards with proof steps

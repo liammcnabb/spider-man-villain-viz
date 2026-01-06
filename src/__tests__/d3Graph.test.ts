@@ -157,8 +157,8 @@ describe('D3 Graph - Proof Steps', () => {
       const config = generateD3Config(mockProcessedData);
       const exported = exportD3ConfigJSON(config);
       
-      expect(typeof exported.colors).toBe('object');
-      expect(exported.colors).not.toBeInstanceOf(Map);
+      expect(typeof (exported as any).colors).toBe('object');
+      expect((exported as any).colors).not.toBeInstanceOf(Map);
     });
   });
 

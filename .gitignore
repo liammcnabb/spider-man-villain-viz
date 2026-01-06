@@ -21,3 +21,6 @@ __pycache__/
 out/
 build/
 docs/
+
+*.md
+.cursorrules

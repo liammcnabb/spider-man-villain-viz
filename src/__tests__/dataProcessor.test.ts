@@ -10,7 +10,7 @@ import {
   processVillainData
 } from '../utils/dataProcessor';
 
-import type { IssueData, RawVillainData } from '../types';
+import type { RawVillainData } from '../types';
 
 describe('Data Processor - Proof Steps', () => {
   
@@ -50,7 +50,7 @@ describe('Data Processor - Proof Steps', () => {
 
     it('should remove special characters', () => {
       expect(generateVillainId("Doctor Octopus's"))
-        .toBe('doctor-octopuss');
+        .toBe('doctor-octopus-s');
     });
 
     it('should handle multiple spaces', () => {

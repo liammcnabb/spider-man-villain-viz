@@ -115,7 +115,7 @@ export function processVillainData(
   );
 
   // Generate statistics
-  const stats = generateStats(villainMap, rawData.issues);
+  const stats = generateStats(villainMap);
 
   return {
     series: rawData.series,
@@ -159,12 +159,10 @@ function generateTimeline(
  * Generates statistics from processed villain data
  * 
  * @param villainMap - Normalized villain map
- * @param originalIssues - Original issue data
  * @returns Statistics object
  */
 function generateStats(
-  villainMap: Map<string, ProcessedVillain>,
-  originalIssues: IssueData[]
+  villainMap: Map<string, ProcessedVillain>
 ): VillainStats {
   const villainArray = Array.from(villainMap.values());
   
