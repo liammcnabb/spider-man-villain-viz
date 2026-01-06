@@ -280,9 +280,12 @@ export class MarvelScraper {
                     url = `${MARVEL_FANDOM_BASE}${url}`;
                   }
                   
-                  // Add to antagonists if valid
-                  if (name && name.length > 1) {
-                    antagonists.push({ name, url: url || undefined });
+                  // Add to antagonists if valid and has a URL (named character)
+                  // Exclude unnamed characters (e.g., "Unnamed Robbers", "Unidentified thugs")
+                  const isUnnamedCharacter = /^(unnamed|unidentified)/i.test(name);
+                  
+                  if (name && name.length > 1 && url && !isUnnamedCharacter) {
+                    antagonists.push({ name, url });
                   }
                 });
               }
