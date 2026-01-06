@@ -22,5 +22,6 @@ out/
 build/
 docs/
 villains.json
+d3-config.json
 *.md
 .cursorrules
