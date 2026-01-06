@@ -1,3 +1,5 @@
+# This repo is entirely written by Claude as a public example of a workflow. Since I do not pay for any AI, progress is limited by the amount of tokens I get per month.
+
 # Spider-Man Villain Timeline
 
 A visualization of Spider-Man villain appearances across the Amazing Spider-Man Vol. 1 comic book series (first 20 issues).
@@ -116,26 +118,26 @@ Follow the standards in [GUIDELINES.md](docs/GUIDELINES.md):
 ## Next Steps
 
 ### Short Term
-- [ ] Complete scraper for issues 1-20
-- [ ] Create basic D3 timeline visualization
+- [x] Complete scraper for issues 1-20
+- [x] Create basic D3 timeline visualization
 - [ ] Add interactive filtering by villain
+- [ ] Create specific D3 gantt plot to explore as one chart
 
 ### Medium Term
 - [ ] Extend scraper to all 800+ issues
 - [ ] Add villain statistics (first appearance, frequency)
 - [ ] Implement villain relationship visualization
+- [ ] Extend Interaction with the marvel fandom website
+- [ ] Consider Arc's/Saga's ([Part of the End of Spider-Man arc](https://marvel.fandom.com/wiki/End_of_Spider-Man))
 
 ### Long Term
 - [ ] Support multiple Spider-Man series (2099, Ultimate, etc.)
 - [ ] Add comics from other Marvel properties
 - [ ] Historical analysis of villain popularity trends
 
+
 ## Resources
 
 - [Marvel Fandom - Amazing Spider-Man Vol 1](https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_1)
 - [D3.js Documentation](https://d3js.org)
 - [Context Engineering Template](../context-engineering-template)
-
-## License
-
-MIT
