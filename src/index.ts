@@ -18,6 +18,10 @@ import {
   generateD3Config,
   exportD3ConfigJSON
 } from './visualization/d3Graph';
+import {
+  parseScrapeArgs,
+  getDefaultIssuesForVolume
+} from './utils/cliParser';
 
 // Configuration
 const DATA_DIR = path.join(__dirname, '..', 'data');
@@ -61,11 +65,26 @@ async function runScraper(): Promise<void> {
   try {
     ensureDataDir();
     
-    console.log('🕷️  Starting Marvel Fandom scraper...');
+    // Parse command-line arguments
+    const options = parseScrapeArgs(process.argv);
+    
+    // Determine which issues to scrape
+    let issues: number[];
+    if (options.issues.length > 0) {
+      issues = options.issues;
+      console.log(`🕷️  Starting Marvel Fandom scraper for ${options.volume}...`);
+      console.log(`   Scraping ${issues.length} issue(s): ${formatIssueList(issues)}`);
+    } else {
+      // Default: scrape all issues for the volume
+      issues = getDefaultIssuesForVolume(options.volume);
+      console.log(`🕷️  Starting Marvel Fandom scraper for ${options.volume}...`);
+      console.log(`   Scraping default range: issues ${issues[0]}-${issues[issues.length - 1]}`);
+    }
+    
     const scraper = new MarvelScraper();
     
-    // Scrape issues 1-20
-    const rawData = await scraper.scrapeAmazingSpiderManVol1(1, 441);
+    // Scrape the specified issues
+    const rawData = await scraper.scrapeIssues(issues, options.volume);
     
     console.log(`✓ Scraped ${rawData.issues.length} issues`);
     
@@ -121,6 +140,16 @@ async function runScraper(): Promise<void> {
 }
 
 /**
+ * Formats issue list for display
+ */
+function formatIssueList(issues: number[]): string {
+  if (issues.length <= 5) {
+    return issues.join(', ');
+  }
+  return `${issues[0]}-${issues[issues.length - 1]} (${issues.length} total)`;
+}
+
+/**
  * Main function - handles CLI commands
  */
 async function main(): Promise<void> {
@@ -135,11 +164,29 @@ async function main(): Promise<void> {
       console.log(`
 Spider-Man Villain Timeline
 
-Usage: npm run dev [command]
+Usage: npm run scrape [options]
 
-Commands:
-  scrape    Extract villain data from Marvel Fandom (default)
-  help      Show this help message
+Options:
+  --issues, -i <spec>    Issues to scrape (ranges, specific issues, or both)
+                         Examples:
+                           1-20              Scrape issues 1 through 20
+                           1,5,10,20         Scrape specific issues
+                           1-20,50-60        Scrape multiple ranges
+                           1-20,50,60-70     Combine ranges and specific issues
+  
+  --volume, -v <name>    Volume to scrape (default: "Amazing Spider-Man Vol 1")
+                         Examples:
+                           "Amazing Spider-Man Vol 1"
+                           "Amazing Spider-Man Vol 2"
+  
+  help                   Show this help message
+
+Examples:
+  npm run scrape                                    # Scrape all issues (1-441)
+  npm run scrape -- --issues 1-20                   # Scrape issues 1-20
+  npm run scrape -- --issues 1,5,10,20              # Scrape specific issues
+  npm run scrape -- --issues 1-20,50-60             # Scrape multiple ranges
+  npm run scrape -- --volume "Amazing Spider-Man Vol 2" --issues 1-58
       `);
       break;
       
