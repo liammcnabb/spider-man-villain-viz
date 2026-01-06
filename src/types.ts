@@ -2,9 +2,12 @@
  * Type definitions for Spider-Man Villain Timeline project
  */
 
+export type EntityKind = 'individual' | 'group';
+
 export interface Antagonist {
   name: string;
   url?: string; // Marvel Fandom URL to uniquely identify character
+  kind?: EntityKind; // Optional classification; defaults to 'individual' if omitted
 }
 
 export interface IssueData {
@@ -22,12 +25,14 @@ export interface ProcessedVillain {
   firstAppearance: number;
   appearances: number[];
   frequency: number;
+  kind?: EntityKind; // Present for compatibility; should be 'individual'
 }
 
 export interface TimelineData {
   issue: number;
   villains: ProcessedVillain[];
   villainCount: number;
+  groups?: GroupAppearance[]; // Optional: group appearances for this issue
 }
 
 export interface VillainStats {
@@ -69,4 +74,24 @@ export interface ProcessedData {
   villains: ProcessedVillain[];
   timeline: TimelineData[];
   stats: VillainStats;
+  groups?: ProcessedGroup[]; // Optional summary of groups across timeline
+}
+
+/**
+ * Group-related types
+ */
+export interface GroupAppearance {
+  id: string;
+  name: string;
+  url?: string;
+  issue: number;
+  members: string[]; // Names of individual antagonists present when the group appears
+}
+
+export interface ProcessedGroup {
+  id: string;
+  name: string;
+  url?: string;
+  appearances: number[];
+  frequency: number;
 }

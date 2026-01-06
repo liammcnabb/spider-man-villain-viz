@@ -10,8 +10,11 @@ import type {
   TimelineData,
   VillainStats,
   ProcessedData,
-  RawVillainData
+  RawVillainData,
+  GroupAppearance,
+  ProcessedGroup
 } from '../types';
+import { classifyKind } from './groupClassifier';
 
 /**
  * Normalizes villain names to canonical form
@@ -113,6 +116,7 @@ export function processVillainData(
   const villainMapByUrl = new Map<string, ProcessedVillain>();
   const villainMapByName = new Map<string, ProcessedVillain>();
   const nameFrequencyByKey = new Map<string, Map<string, number>>();
+  const groupMapByKey = new Map<string, ProcessedGroup>();
   
   for (const issue of rawData.issues) {
     for (const antagonist of issue.antagonists) {
@@ -124,6 +128,7 @@ export function processVillainData(
       }
 
       const normalized = normalizeVillainName(rawName);
+      const kind = classifyKind(normalized);
       
       if (normalized.length === 0) {
         continue; // Skip names that become empty after normalization
@@ -132,6 +137,26 @@ export function processVillainData(
       // Determine key: use URL if available, otherwise use normalized name
       const key = url || normalized;
       const useUrlKey = !!url;
+      // Route to group or villain map based on classification
+      if (kind === 'group') {
+        if (!groupMapByKey.has(key)) {
+          groupMapByKey.set(key, {
+            id: generateVillainId(normalized),
+            name: normalized,
+            url: url,
+            appearances: [issue.issueNumber],
+            frequency: 1
+          });
+        } else {
+          const group = groupMapByKey.get(key)!;
+          if (!group.appearances.includes(issue.issueNumber)) {
+            group.appearances.push(issue.issueNumber);
+            group.frequency++;
+          }
+        }
+        continue; // Skip adding groups to villain maps
+      }
+
       const map = useUrlKey ? villainMapByUrl : villainMapByName;
 
       if (!map.has(key)) {
@@ -147,7 +172,8 @@ export function processVillainData(
           url: url,
           firstAppearance: issue.issueNumber,
           appearances: [issue.issueNumber],
-          frequency: 1
+          frequency: 1,
+          kind: 'individual'
         });
       } else {
         // Existing villain - add appearance and track name variant
@@ -192,11 +218,16 @@ export function processVillainData(
   for (const villain of allVillains.values()) {
     villain.appearances.sort((a, b) => a - b);
   }
+  // Sort group appearances chronologically
+  for (const group of groupMapByKey.values()) {
+    group.appearances.sort((a, b) => a - b);
+  }
 
   // Generate timeline
-  const timeline = generateTimeline(
+  const { timeline } = generateTimeline(
     rawData.issues,
-    allVillains
+    allVillains,
+    groupMapByKey
   );
 
   // Generate statistics
@@ -207,7 +238,8 @@ export function processVillainData(
     processedAt: new Date().toISOString(),
     villains: Array.from(allVillains.values()),
     timeline,
-    stats
+    stats,
+    groups: Array.from(groupMapByKey.values())
   };
 }
 
@@ -220,24 +252,50 @@ export function processVillainData(
  */
 function generateTimeline(
   issues: IssueData[],
-  villainMap: Map<string, ProcessedVillain>
-): TimelineData[] {
-  return issues.map(issue => {
-    // Find villains for this issue
+  villainMap: Map<string, ProcessedVillain>,
+  groupMap: Map<string, ProcessedGroup>
+): { timeline: TimelineData[]; groupsByIssue: Map<number, GroupAppearance[]> } {
+  const groupsByIssue = new Map<number, GroupAppearance[]>();
+
+  const timeline = issues.map(issue => {
+    const issueNumber = issue.issueNumber;
+
+    // Individuals in this issue
     const villainsInIssue: ProcessedVillain[] = [];
-    
     for (const villain of villainMap.values()) {
-      if (villain.appearances.includes(issue.issueNumber)) {
+      if (villain.appearances.includes(issueNumber)) {
         villainsInIssue.push(villain);
       }
     }
 
+    // Groups in this issue
+    const groupAppearances: GroupAppearance[] = [];
+    for (const group of groupMap.values()) {
+      if (group.appearances.includes(issueNumber)) {
+        const members = villainsInIssue.map(v => v.name);
+        groupAppearances.push({
+          id: group.id,
+          name: group.name,
+          url: group.url,
+          issue: issueNumber,
+          members
+        });
+      }
+    }
+
+    if (groupAppearances.length > 0) {
+      groupsByIssue.set(issueNumber, groupAppearances);
+    }
+
     return {
-      issue: issue.issueNumber,
+      issue: issueNumber,
       villains: villainsInIssue,
-      villainCount: villainsInIssue.length
+      villainCount: villainsInIssue.length,
+      groups: groupAppearances.length > 0 ? groupAppearances : undefined
     };
   });
+
+  return { timeline, groupsByIssue };
 }
 
 /**
@@ -313,7 +371,15 @@ export function serializeProcessedData(
     timeline: data.timeline.map(t => ({
       issue: t.issue,
       villainCount: t.villainCount,
-      villains: t.villains.map(v => v.name)
+      villains: t.villains.map(v => v.name),
+      groups: t.groups?.map(g => ({ name: g.name, members: g.members }))
+    })),
+    groups: data.groups?.map(g => ({
+      id: g.id,
+      name: g.name,
+      url: g.url,
+      appearances: g.appearances,
+      frequency: g.frequency
     }))
   };
 }

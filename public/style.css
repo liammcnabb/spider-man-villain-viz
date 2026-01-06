@@ -305,6 +305,92 @@ body {
     font-weight: 500;
 }
 
+/* =========================== Groups List Section ========================== */
+
+.group-list-section {
+    background-color: var(--color-surface);
+    padding: calc(var(--spacing-unit) * 3);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.group-list-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.group-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: calc(var(--spacing-unit) * 2);
+}
+
+.group-card {
+    padding: calc(var(--spacing-unit) * 2);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: var(--color-background);
+    transition: all var(--transition-speed);
+}
+
+.group-card:hover {
+    border-color: var(--color-secondary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.group-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-unit);
+}
+
+.group-stat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+    font-size: 0.9rem;
+}
+
+.group-stat-label {
+    color: var(--color-text-light);
+}
+
+.group-stat-value {
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.group-members {
+    margin-top: calc(var(--spacing-unit) * 1.5);
+    padding-top: calc(var(--spacing-unit) * 1.5);
+    border-top: 1px solid var(--color-border);
+}
+
+.group-members-label {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-unit);
+}
+
+.member-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-unit);
+}
+
+.member-tag {
+    display: inline-block;
+    padding: calc(var(--spacing-unit) * 0.5) var(--spacing-unit);
+    background-color: var(--color-secondary);
+    color: white;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
 /* =========================== Footer ========================== */
 
 .footer {
