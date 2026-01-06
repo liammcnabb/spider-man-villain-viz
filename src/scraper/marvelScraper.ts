@@ -45,7 +45,7 @@ export class MarvelScraper {
     volumeName: string = 'Amazing Spider-Man Vol 1'
   ): Promise<RawVillainData> {
     if (issueNumbers.length === 0) {
-      throw new Error('No issue numbers provided');
+      throw new Error('No issue numbers provided. Please specify at least one issue number using the --issues flag.');
     }
     
     // Validate all issue numbers

@@ -28,6 +28,7 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const PUBLIC_DATA_DIR = path.join(__dirname, '..', 'public', 'data');
 const VILLAINS_JSON = path.join(DATA_DIR, 'villains.json');
 const PUBLIC_VILLAINS_JSON = path.join(PUBLIC_DATA_DIR, 'villains.json');
+const MAX_ISSUES_TO_DISPLAY = 5; // Maximum number of issues to list individually in output
 
 /**
  * Ensures data directory exists
@@ -143,7 +144,7 @@ async function runScraper(): Promise<void> {
  * Formats issue list for display
  */
 function formatIssueList(issues: number[]): string {
-  if (issues.length <= 5) {
+  if (issues.length <= MAX_ISSUES_TO_DISPLAY) {
     return issues.join(', ');
   }
   return `${issues[0]}-${issues[issues.length - 1]} (${issues.length} total)`;

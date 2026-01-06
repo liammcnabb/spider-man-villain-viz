@@ -4,6 +4,9 @@
  * Parses command-line arguments for the scrape command
  */
 
+// Configuration constants
+const DEFAULT_FALLBACK_RANGE = 20; // Default issue count for unknown volumes
+
 export interface ScrapeOptions {
   volume: string;
   issues: number[];
@@ -139,9 +142,9 @@ export function getDefaultIssuesForVolume(volume: string): number[] {
   
   const range = volumeRanges[volume];
   if (!range) {
-    // Default to first 20 issues if volume not found
-    console.warn(`Unknown volume: ${volume}, defaulting to issues 1-20`);
-    return Array.from({ length: 20 }, (_, i) => i + 1);
+    // Default to first N issues if volume not found
+    console.warn(`Unknown volume: ${volume}, defaulting to issues 1-${DEFAULT_FALLBACK_RANGE}`);
+    return Array.from({ length: DEFAULT_FALLBACK_RANGE }, (_, i) => i + 1);
   }
   
   const [start, end] = range;
