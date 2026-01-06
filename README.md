@@ -73,11 +73,34 @@ npm run build
 ### Scraping Data
 
 ```bash
-# Scrape Amazing Spider-Man Vol 1 for antagonists (issues 1-20)
+# Scrape all issues (default: Amazing Spider-Man Vol 1, issues 1-441)
 npm run scrape
+
+# Scrape specific issue range
+npm run scrape -- --issues 1-20
+
+# Scrape specific issues
+npm run scrape -- --issues 1,5,10,20
+
+# Scrape multiple ranges and specific issues
+npm run scrape -- --issues 1-20,50-60,100
+
+# Scrape a different volume
+npm run scrape -- --volume "Amazing Spider-Man Vol 2" --issues 1-58
 ```
 
 This creates `data/villains.json` with all extracted antagonist information.
+
+#### Scraping Options
+
+- `--issues, -i <spec>`: Specify which issues to scrape
+  - Single issue: `1`
+  - Range: `1-20`
+  - Multiple issues: `1,5,10,20`
+  - Combined: `1-20,50-60,100`
+  
+- `--volume, -v <name>`: Specify which volume to scrape (default: "Amazing Spider-Man Vol 1")
+  - Currently supports: Vol 1 (1-441), Vol 2 (1-58), Vol 3 (1-20), Vol 4 (1-32), Vol 5 (1-93)
 
 ### Viewing the Visualization
 

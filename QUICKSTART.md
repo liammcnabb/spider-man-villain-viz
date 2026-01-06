@@ -20,12 +20,18 @@ npm install
 
 ### Step 3: Scrape Marvel Fandom Data (30-40 seconds)
 ```bash
+# Scrape all issues (default: 1-441)
 npm run scrape
+
+# Or scrape specific issues:
+npm run scrape -- --issues 1-20          # First 20 issues
+npm run scrape -- --issues 1,5,10,20     # Specific issues only
+npm run scrape -- --issues 1-20,50-60    # Multiple ranges
 ```
 
 **What this does:**
 - Connects to https://marvel.fandom.com
-- Fetches Amazing Spider-Man Vol 1 issues 1-20
+- Fetches Amazing Spider-Man Vol 1 issues (default: 1-441)
 - Extracts antagonist information
 - Normalizes villain names
 - Calculates statistics
@@ -34,7 +40,9 @@ npm run scrape
 
 **Expected output:**
 ```
-🕷️  Starting Marvel Fandom scraper...
+🕷️  Starting Marvel Fandom scraper for Amazing Spider-Man Vol 1...
+   Scraping 20 issue(s): 1-20 (20 total)
+Starting scrape: 20 issues (1-20)
 Scraping issue 1...
 Scraping issue 2...
 [... 18 more issues ...]
@@ -93,6 +101,21 @@ You should see:
 
 ## 🔧 Other Useful Commands
 
+### Scrape with Options
+```bash
+# Scrape specific issues
+npm run scrape -- --issues 1-20
+
+# Scrape specific issues only
+npm run scrape -- --issues 1,5,10,20
+
+# Scrape multiple ranges
+npm run scrape -- --issues 1-20,50-60,100
+
+# Scrape a different volume
+npm run scrape -- --volume "Amazing Spider-Man Vol 2" --issues 1-58
+```
+
 ### Build TypeScript to JavaScript
 ```bash
 npm run build
@@ -109,7 +132,7 @@ Same as `npm run scrape` but with faster compilation.
 ```bash
 npm test
 ```
-(Tests not yet created - you can add them!)
+Runs the test suite to verify functionality.
 
 ---
 
@@ -247,8 +270,9 @@ After getting the basic version running:
    - Add new statistics
 
 2. **Expand the data**
-   - Try more issues (1-50, 1-100)
-   - Add other Spider-Man series
+   - Try more issues: `npm run scrape -- --issues 1-100`
+   - Try specific ranges: `npm run scrape -- --issues 1-20,50-60`
+   - Add other Spider-Man series with `--volume`
    - Compare series side-by-side
 
 3. **Enhance the analysis**
