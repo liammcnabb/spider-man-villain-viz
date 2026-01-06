@@ -33,32 +33,39 @@ export class MarvelScraper {
   }
 
   /**
-   * Scrapes Amazing Spider-Man Vol 1 for antagonist data
+   * Scrapes specific issues of Amazing Spider-Man Vol 1 for antagonist data
    * 
-   * @param startIssue - First issue to scrape (1-based)
-   * @param endIssue - Last issue to scrape (inclusive)
+   * @param issueNumbers - Array of issue numbers to scrape
+   * @param volumeName - Name of the volume (default: "Amazing Spider-Man Vol 1")
    * @returns Promise resolving to raw scraped data
    * @throws Error if scraping fails
    */
-  async scrapeAmazingSpiderManVol1(
-    startIssue: number = 1,
-    endIssue: number = 441
+  async scrapeIssues(
+    issueNumbers: number[],
+    volumeName: string = 'Amazing Spider-Man Vol 1'
   ): Promise<RawVillainData> {
-    console.log(`Starting scrape: Issues ${startIssue}-${endIssue}`);
-    
-    if (startIssue < 1 || endIssue < startIssue) {
-      throw new Error(
-        `Invalid issue range: ${startIssue}-${endIssue}`
-      );
+    if (issueNumbers.length === 0) {
+      throw new Error('No issue numbers provided. Please specify at least one issue number using the --issues flag.');
     }
-
-    const issues: IssueData[] = [];
-    const issueNumbers = Array.from(
-      { length: endIssue - startIssue + 1 },
-      (_, i) => startIssue + i
+    
+    // Validate all issue numbers
+    for (const num of issueNumbers) {
+      if (num < 1) {
+        throw new Error(`Invalid issue number: ${num} (must be >= 1)`);
+      }
+    }
+    
+    const sortedIssues = [...issueNumbers].sort((a, b) => a - b);
+    const min = sortedIssues[0];
+    const max = sortedIssues[sortedIssues.length - 1];
+    
+    console.log(
+      `Starting scrape: ${sortedIssues.length} issues (${min}-${max})`
     );
 
-    for (const issueNumber of issueNumbers) {
+    const issues: IssueData[] = [];
+
+    for (const issueNumber of sortedIssues) {
       try {
         console.log(`Scraping issue ${issueNumber}...`);
         const issueData = await this.scrapeIssue(issueNumber);
@@ -85,10 +92,37 @@ export class MarvelScraper {
     );
 
     return {
-      series: 'Amazing Spider-Man Vol 1',
+      series: volumeName,
       baseUrl: AMAZING_SPIDER_MAN_URL_TEMPLATE,
       issues
     };
+  }
+
+  /**
+   * Scrapes Amazing Spider-Man Vol 1 for antagonist data
+   * 
+   * @param startIssue - First issue to scrape (1-based)
+   * @param endIssue - Last issue to scrape (inclusive)
+   * @returns Promise resolving to raw scraped data
+   * @throws Error if scraping fails
+   */
+  async scrapeAmazingSpiderManVol1(
+    startIssue: number = 1,
+    endIssue: number = 441
+  ): Promise<RawVillainData> {
+    if (startIssue < 1 || endIssue < startIssue) {
+      throw new Error(
+        `Invalid issue range: ${startIssue}-${endIssue}`
+      );
+    }
+
+    // Generate array of issue numbers and use scrapeIssues
+    const issueNumbers = Array.from(
+      { length: endIssue - startIssue + 1 },
+      (_, i) => startIssue + i
+    );
+
+    return this.scrapeIssues(issueNumbers, 'Amazing Spider-Man Vol 1');
   }
 
   /**
