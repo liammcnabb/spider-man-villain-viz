@@ -19,6 +19,7 @@ class SpiderManVisualization {
         this.data = null;
         this.config = null;
         this.villains = [];
+        this.groups = [];
     }
 
     /**
@@ -35,11 +36,13 @@ class SpiderManVisualization {
             this.data = villainData;
             this.config = d3Config;
             this.villains = villainData.villains || [];
+            this.groups = this.resolveGroups(villainData);
 
             // Render all components
             this.renderStats();
             this.renderTimeline();
             this.renderVillainList();
+            this.renderGroupList();
 
             console.log('✅ Visualization loaded successfully');
         } catch (error) {
@@ -52,10 +55,46 @@ class SpiderManVisualization {
     }
 
     /**
+     * Resolve groups data, falling back to timeline-derived groups when absent
+     */
+    resolveGroups(villainData) {
+        if (Array.isArray(villainData.groups) && villainData.groups.length > 0) {
+            return villainData.groups;
+        }
+
+        // Fallback: derive unique groups from timeline entries
+        const timeline = villainData.timeline || [];
+        const map = new Map();
+        for (const t of timeline) {
+            const groups = t.groups || [];
+            for (const g of groups) {
+                const key = g.name;
+                if (!map.has(key)) {
+                    map.set(key, {
+                        id: g.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+                        name: g.name,
+                        url: undefined,
+                        appearances: [t.issue],
+                        frequency: 1
+                    });
+                } else {
+                    const entry = map.get(key);
+                    if (!entry.appearances.includes(t.issue)) {
+                        entry.appearances.push(t.issue);
+                        entry.frequency += 1;
+                    }
+                }
+            }
+        }
+        return Array.from(map.values());
+    }
+
+    /**
      * Load JSON file
      */
     async loadJSON(url) {
-        const response = await fetch(url);
+        // Prevent stale caches from hiding updated groups data
+        const response = await fetch(url, { cache: 'no-cache' });
         if (!response.ok) {
             throw new Error(
                 `Failed to load ${url}: ${response.statusText}`
@@ -279,6 +318,121 @@ class SpiderManVisualization {
             );
             renderVillains(filtered);
         });
+    }
+
+    /**
+     * Render groups list with latest roster per group
+     */
+    renderGroupList() {
+        const groupListDiv = document.getElementById('groupList');
+        const filterInput = document.getElementById('groupFilter');
+
+        const timeline = this.data.timeline || [];
+
+        // Helper: get latest roster for a group by name
+        const getLatestRoster = (groupName) => {
+            // Search timeline groups from latest to earliest
+            for (let i = timeline.length - 1; i >= 0; i--) {
+                const t = timeline[i];
+                const groups = t.groups || [];
+                const match = groups.find(g => g.name === groupName);
+                if (match) {
+                    return { issue: t.issue, members: match.members };
+                }
+            }
+            return { issue: null, members: [] };
+        };
+
+        // Sort groups by frequency
+        const sortedGroups = [...this.groups].sort((a, b) => b.frequency - a.frequency);
+
+        const renderGroups = (groupsToRender) => {
+            groupListDiv.innerHTML = '';
+            if (groupsToRender.length === 0) {
+                groupListDiv.innerHTML = '<p>No groups found</p>';
+                return;
+            }
+            groupsToRender.forEach(group => {
+                const latest = getLatestRoster(group.name);
+                const card = this.createGroupCard(group, latest.issue, latest.members);
+                groupListDiv.appendChild(card);
+            });
+        };
+
+        renderGroups(sortedGroups);
+
+        if (filterInput) {
+            filterInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase();
+                const filtered = sortedGroups.filter(g => g.name.toLowerCase().includes(query));
+                renderGroups(filtered);
+            });
+        }
+    }
+
+    /**
+     * Create a group card element
+     */
+    createGroupCard(group, latestIssue, members) {
+        const card = document.createElement('div');
+        card.className = 'group-card';
+
+        const name = document.createElement('div');
+        name.className = 'group-name';
+        name.textContent = group.name;
+
+        const statsDiv = document.createElement('div');
+        const frequencyStat = this.createGroupStat('Appearances', group.frequency);
+        const lastSeenStat = this.createGroupStat('Last Issue', latestIssue || '—');
+
+        statsDiv.appendChild(frequencyStat);
+        statsDiv.appendChild(lastSeenStat);
+
+        const membersDiv = document.createElement('div');
+        membersDiv.className = 'group-members';
+
+        const membersLabel = document.createElement('div');
+        membersLabel.className = 'group-members-label';
+        membersLabel.textContent = 'Latest Roster:';
+
+        const tagsDiv = document.createElement('div');
+        tagsDiv.className = 'member-tags';
+        members.forEach(m => {
+            const tag = document.createElement('span');
+            tag.className = 'member-tag';
+            tag.textContent = m;
+            tagsDiv.appendChild(tag);
+        });
+
+        membersDiv.appendChild(membersLabel);
+        membersDiv.appendChild(tagsDiv);
+
+        card.appendChild(name);
+        card.appendChild(statsDiv);
+        card.appendChild(membersDiv);
+
+        return card;
+    }
+
+    /**
+     * Create a group stat element
+     */
+    createGroupStat(label, value) {
+        const stat = document.createElement('div');
+        stat.className = 'group-stat';
+
+        const labelEl = document.createElement('span');
+        labelEl.className = 'group-stat-label';
+        labelEl.textContent = label;
+
+        const valueEl = document.createElement('span');
+        valueEl.className = 'group-stat-value';
+        valueEl.textContent = value;
+
+        stat.appendChild(labelEl);
+        stat.appendChild(valueEl);
+
+        return stat;
     }
 
     /**

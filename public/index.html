@@ -67,6 +67,25 @@
                     <!-- Populated by JavaScript -->
                 </div>
             </section>
+
+            <!-- Groups Activity Section -->
+            <section class="group-list-section">
+                <h2>Groups Activity</h2>
+                <p class="chart-description">
+                    Teams and factions tracked separately from villain stats. Shows frequency and latest roster.
+                </p>
+                <div class="filters">
+                    <input 
+                        type="text" 
+                        id="groupFilter" 
+                        class="search-input"
+                        placeholder="Filter groups..."
+                    >
+                </div>
+                <div class="group-list" id="groupList">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </section>
         </main>
 
         <footer class="footer">
@@ -83,6 +102,7 @@
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Cache-bust to ensure latest script loads -->
+    <script src="script.js?v=20260106"></script>
 </body>
 </html>

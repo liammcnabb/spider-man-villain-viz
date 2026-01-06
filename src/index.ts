@@ -25,7 +25,8 @@ import {
 
 // Configuration
 const DATA_DIR = path.join(__dirname, '..', 'data');
-const PUBLIC_DATA_DIR = path.join(__dirname, '..', '..', 'public', 'data');
+// Use process.cwd() to ensure correct path when running via ts-node
+const PUBLIC_DATA_DIR = path.join(process.cwd(), 'public', 'data');
 const VILLAINS_JSON = path.join(DATA_DIR, 'villains.json');
 const PUBLIC_VILLAINS_JSON = path.join(PUBLIC_DATA_DIR, 'villains.json');
 const MAX_ISSUES_TO_DISPLAY = 5; // Maximum number of issues to list individually in output
