@@ -7,7 +7,8 @@
 import {
   normalizeVillainName,
   generateVillainId,
-  processVillainData
+  processVillainData,
+  getCanonicalUrl
 } from '../utils/dataProcessor';
 
 import type { RawVillainData } from '../types';
@@ -39,6 +40,28 @@ describe('Data Processor - Proof Steps', () => {
       const input = '  Venom (Eddie Brock),  ';
       expect(normalizeVillainName(input))
         .toBe('Venom');
+    });
+  });
+
+  describe('getCanonicalUrl', () => {
+    it('should remove query parameters from URLs', () => {
+      const url = 'https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)?foo=bar';
+      expect(getCanonicalUrl(url))
+        .toBe('https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)');
+    });
+
+    it('should remove anchor fragments from URLs', () => {
+      const url = 'https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)#history';
+      expect(getCanonicalUrl(url))
+        .toBe('https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)');
+    });
+
+    it('should handle undefined URLs', () => {
+      expect(getCanonicalUrl(undefined)).toBeUndefined();
+    });
+
+    it('should handle empty URLs', () => {
+      expect(getCanonicalUrl('')).toBeUndefined();
     });
   });
 
@@ -74,12 +97,18 @@ describe('Data Processor - Proof Steps', () => {
           {
             issueNumber: 1,
             title: 'Issue 1',
-            antagonists: ['Green Goblin', 'Doctor Octopus']
+            antagonists: [
+              { name: 'Green Goblin', url: 'https://marvel.fandom.com/wiki/Green_Goblin' },
+              { name: 'Doctor Octopus', url: 'https://marvel.fandom.com/wiki/Doctor_Octopus' }
+            ]
           },
           {
             issueNumber: 2,
             title: 'Issue 2',
-            antagonists: ['Green Goblin', 'Venom']
+            antagonists: [
+              { name: 'Green Goblin', url: 'https://marvel.fandom.com/wiki/Green_Goblin' },
+              { name: 'Venom', url: 'https://marvel.fandom.com/wiki/Venom' }
+            ]
           }
         ]
       };
@@ -96,9 +125,9 @@ describe('Data Processor - Proof Steps', () => {
         series: 'Test Series',
         baseUrl: 'https://example.com',
         issues: [
-          { issueNumber: 1, title: 'Issue 1', antagonists: ['Villain A'] },
-          { issueNumber: 2, title: 'Issue 2', antagonists: ['Villain A'] },
-          { issueNumber: 3, title: 'Issue 3', antagonists: ['Villain A'] }
+          { issueNumber: 1, title: 'Issue 1', antagonists: [{ name: 'Villain A' }] },
+          { issueNumber: 2, title: 'Issue 2', antagonists: [{ name: 'Villain A' }] },
+          { issueNumber: 3, title: 'Issue 3', antagonists: [{ name: 'Villain A' }] }
         ]
       };
 
@@ -114,8 +143,8 @@ describe('Data Processor - Proof Steps', () => {
         series: 'Test Series',
         baseUrl: 'https://example.com',
         issues: [
-          { issueNumber: 1, title: 'Issue 1', antagonists: ['Villain A', 'Villain B'] },
-          { issueNumber: 2, title: 'Issue 2', antagonists: ['Villain A'] }
+          { issueNumber: 1, title: 'Issue 1', antagonists: [{ name: 'Villain A' }, { name: 'Villain B' }] },
+          { issueNumber: 2, title: 'Issue 2', antagonists: [{ name: 'Villain A' }] }
         ]
       };
 
@@ -131,8 +160,8 @@ describe('Data Processor - Proof Steps', () => {
         series: 'Test Series',
         baseUrl: 'https://example.com',
         issues: [
-          { issueNumber: 1, title: 'Issue 1', antagonists: ['Villain A', 'Villain B'] },
-          { issueNumber: 2, title: 'Issue 2', antagonists: ['Villain A'] }
+          { issueNumber: 1, title: 'Issue 1', antagonists: [{ name: 'Villain A' }, { name: 'Villain B' }] },
+          { issueNumber: 2, title: 'Issue 2', antagonists: [{ name: 'Villain A' }] }
         ]
       };
 
@@ -149,7 +178,7 @@ describe('Data Processor - Proof Steps', () => {
         baseUrl: 'https://example.com',
         issues: [
           { issueNumber: 1, title: 'Issue 1', antagonists: [] },
-          { issueNumber: 2, title: 'Issue 2', antagonists: ['Villain A'] }
+          { issueNumber: 2, title: 'Issue 2', antagonists: [{ name: 'Villain A' }] }
         ]
       };
 
@@ -157,6 +186,111 @@ describe('Data Processor - Proof Steps', () => {
       
       expect(result.villains.length).toBe(1);
       expect(result.timeline[0].villainCount).toBe(0);
+    });
+
+    it('should merge villains with different names but same URL (e.g., Rose and The Rose)', () => {
+      const rawData: RawVillainData = {
+        series: 'Test Series',
+        baseUrl: 'https://example.com',
+        issues: [
+          { issueNumber: 253, title: 'Issue 253', antagonists: [{ name: 'Rose', url: 'https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)' }] },
+          { issueNumber: 256, title: 'Issue 256', antagonists: [{ name: 'The Rose', url: 'https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)' }] },
+          { issueNumber: 275, title: 'Issue 275', antagonists: [{ name: 'Rose', url: 'https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)' }] },
+          { issueNumber: 280, title: 'Issue 280', antagonists: [{ name: 'The Rose', url: 'https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)' }] }
+        ]
+      };
+
+      const result = processVillainData(rawData);
+      
+      // Should have only ONE villain entry because they share the same URL
+      expect(result.villains.length).toBe(1);
+      
+      const rose = result.villains[0];
+      // Should track both name variants
+      expect(rose.names).toContain('Rose');
+      expect(rose.names).toContain('The Rose');
+      // Should have all 4 appearances
+      expect(rose.frequency).toBe(4);
+      expect(rose.appearances).toEqual([253, 256, 275, 280]);
+      expect(rose.firstAppearance).toBe(253);
+      // Should have the canonical URL
+      expect(rose.url).toBe('https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)');
+    });
+
+    it('should use the most frequently appearing name as the primary name (Green Goblin vs Norman Osborn)', () => {
+      const rawData: RawVillainData = {
+        series: 'Test Series',
+        baseUrl: 'https://example.com',
+        issues: [
+          { issueNumber: 14, title: 'Issue 14', antagonists: [{ name: 'Green Goblin', url: 'https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)' }] },
+          { issueNumber: 17, title: 'Issue 17', antagonists: [{ name: 'Green Goblin', url: 'https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)' }] },
+          { issueNumber: 23, title: 'Issue 23', antagonists: [{ name: 'Green Goblin', url: 'https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)' }] },
+          { issueNumber: 39, title: 'Issue 39', antagonists: [{ name: 'Green Goblin', url: 'https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)' }] },
+          { issueNumber: 96, title: 'Issue 96', antagonists: [{ name: 'Norman Osborn', url: 'https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)' }] },
+          { issueNumber: 98, title: 'Issue 98', antagonists: [{ name: 'Norman Osborn', url: 'https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)' }] }
+        ]
+      };
+
+      const result = processVillainData(rawData);
+      
+      // Should have only ONE villain entry
+      expect(result.villains.length).toBe(1);
+      
+      const goblin = result.villains[0];
+      // Primary name should be the most frequently used one (Green Goblin appeared 4 times)
+      expect(goblin.name).toBe('Green Goblin');
+      // Should track both name variants
+      expect(goblin.names).toContain('Green Goblin');
+      expect(goblin.names).toContain('Norman Osborn');
+      // Should have all 6 appearances
+      expect(goblin.frequency).toBe(6);
+      expect(goblin.appearances).toEqual([14, 17, 23, 39, 96, 98]);
+    });
+
+    it('should use the most prominent name even when it appears later (Chameleon example)', () => {
+      const rawData: RawVillainData = {
+        series: 'Test Series',
+        baseUrl: 'https://example.com',
+        issues: [
+          { issueNumber: 1, title: 'Issue 1', antagonists: [{ name: 'Dmitri Smerdyakov', url: 'https://marvel.fandom.com/wiki/Chameleon_(Dmitri_Smerdyakov)' }] },
+          { issueNumber: 2, title: 'Issue 2', antagonists: [{ name: 'Dmitri Smerdyakov', url: 'https://marvel.fandom.com/wiki/Chameleon_(Dmitri_Smerdyakov)' }] },
+          { issueNumber: 15, title: 'Issue 15', antagonists: [{ name: 'Chameleon', url: 'https://marvel.fandom.com/wiki/Chameleon_(Dmitri_Smerdyakov)' }] },
+          { issueNumber: 66, title: 'Issue 66', antagonists: [{ name: 'Chameleon', url: 'https://marvel.fandom.com/wiki/Chameleon_(Dmitri_Smerdyakov)' }] },
+          { issueNumber: 80, title: 'Issue 80', antagonists: [{ name: 'Chameleon', url: 'https://marvel.fandom.com/wiki/Chameleon_(Dmitri_Smerdyakov)' }] },
+          { issueNumber: 186, title: 'Issue 186', antagonists: [{ name: 'Chameleon', url: 'https://marvel.fandom.com/wiki/Chameleon_(Dmitri_Smerdyakov)' }] }
+        ]
+      };
+
+      const result = processVillainData(rawData);
+      
+      expect(result.villains.length).toBe(1);
+      
+      const chameleon = result.villains[0];
+      // Primary name should be "Chameleon" (appears 4 times vs 2 times for Dmitri)
+      expect(chameleon.name).toBe('Chameleon');
+      expect(chameleon.names).toContain('Chameleon');
+      expect(chameleon.names).toContain('Dmitri Smerdyakov');
+      expect(chameleon.frequency).toBe(6);
+    });
+
+    it('should handle tie in name frequency by choosing first alphabetically', () => {
+      const rawData: RawVillainData = {
+        series: 'Test Series',
+        baseUrl: 'https://example.com',
+        issues: [
+          { issueNumber: 1, title: 'Issue 1', antagonists: [{ name: 'Alias A', url: 'https://marvel.fandom.com/wiki/Villain_X' }] },
+          { issueNumber: 2, title: 'Issue 2', antagonists: [{ name: 'Alias B', url: 'https://marvel.fandom.com/wiki/Villain_X' }] }
+        ]
+      };
+
+      const result = processVillainData(rawData);
+      
+      expect(result.villains.length).toBe(1);
+      const villain = result.villains[0];
+      // When tied, the first one encountered becomes primary
+      expect(villain.name).toBeTruthy();
+      expect(villain.names).toContain('Alias A');
+      expect(villain.names).toContain('Alias B');
     });
   });
 });

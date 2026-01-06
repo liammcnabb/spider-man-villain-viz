@@ -21,6 +21,6 @@ __pycache__/
 out/
 build/
 docs/
-
+villains.json
 *.md
 .cursorrules

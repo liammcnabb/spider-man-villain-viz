@@ -11,28 +11,24 @@
     {
       "issueNumber": 2,
       "villainsInIssue": [
-        "Vulture",
         "Tinkerer",
-        "Quentin Beck",
-        "Charlie"
+        "Quentin Beck"
       ],
-      "villainCount": 4
+      "villainCount": 2
     },
     {
       "issueNumber": 3,
       "villainsInIssue": [
-        "Charlie",
-        "Doctor Octopus"
+        "Charlie"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 4,
       "villainsInIssue": [
-        "Charlie",
         "Sandman"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 5,
@@ -52,10 +48,8 @@
     },
     {
       "issueNumber": 7,
-      "villainsInIssue": [
-        "Vulture"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 8,
@@ -85,23 +79,20 @@
     {
       "issueNumber": 11,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Blackie Gaxton",
         "Numerous unnamed gangsters"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 12,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 13,
       "villainsInIssue": [
-        "Mysterio"
+        "Quentin Beck"
       ],
       "villainCount": 1
     },
@@ -111,10 +102,9 @@
         "Enforcers",
         "Montana",
         "Fancy Dan",
-        "Ox",
-        "Green Goblin"
+        "Ox"
       ],
-      "villainCount": 5
+      "villainCount": 4
     },
     {
       "issueNumber": 15,
@@ -138,22 +128,17 @@
     },
     {
       "issueNumber": 17,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 18,
       "villainsInIssue": [
-        "Vulture",
-        "Doctor Octopus",
         "Sandman",
-        "Green Goblin",
         "Kraven the Hunter",
         "Rocky Roberts"
       ],
-      "villainCount": 6
+      "villainCount": 3
     },
     {
       "issueNumber": 19,
@@ -184,11 +169,11 @@
     {
       "issueNumber": 22,
       "villainsInIssue": [
+        "Circus of Crime",
         "Ringmaster",
         "Human Cannonball",
         "Great Gambonnos",
         "Clown",
-        "Masters of Menace",
         "Princess Python",
         "Precious"
       ],
@@ -197,17 +182,16 @@
     {
       "issueNumber": 23,
       "villainsInIssue": [
-        "Green Goblin",
         "Lucky Lobo",
         "Mike",
         "Numerous unnamed others"
       ],
-      "villainCount": 4
+      "villainCount": 3
     },
     {
       "issueNumber": 24,
       "villainsInIssue": [
-        "Mysterio"
+        "Quentin Beck"
       ],
       "villainCount": 1
     },
@@ -222,18 +206,16 @@
     {
       "issueNumber": 26,
       "villainsInIssue": [
-        "Green Goblin",
         "Crime Master"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 27,
       "villainsInIssue": [
-        "Green Goblin",
-        "Crime-Master"
+        "Crime Master"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 28,
@@ -252,25 +234,21 @@
     {
       "issueNumber": 30,
       "villainsInIssue": [
-        "Cat Burglar",
-        "Master Planner"
+        "Cat Burglar"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 31,
       "villainsInIssue": [
-        "Master Planner",
         "Foxy Briggs"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 32,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 33,
@@ -303,10 +281,9 @@
     {
       "issueNumber": 37,
       "villainsInIssue": [
-        "Mendel Stromm",
-        "Norman Osborn"
+        "Mendel Stromm"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 38,
@@ -318,18 +295,14 @@
     {
       "issueNumber": 39,
       "villainsInIssue": [
-        "Green Goblin",
-        "Boinard",
-        "Blackie"
+        "Boinard"
       ],
-      "villainCount": 3
+      "villainCount": 1
     },
     {
       "issueNumber": 40,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 41,
@@ -355,14 +328,14 @@
     {
       "issueNumber": 44,
       "villainsInIssue": [
-        "Lizard"
+        "The Lizard"
       ],
       "villainCount": 1
     },
     {
       "issueNumber": 45,
       "villainsInIssue": [
-        "Lizard"
+        "The Lizard"
       ],
       "villainCount": 1
     },
@@ -382,23 +355,20 @@
     },
     {
       "issueNumber": 48,
-      "villainsInIssue": [
-        "Vulture"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 49,
       "villainsInIssue": [
-        "Vulture",
         "Kraven the Hunter"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 50,
       "villainsInIssue": [
-        "Blackie",
+        "Boinard",
         "Kingpin",
         "Flint",
         "Shorty"
@@ -408,15 +378,11 @@
     {
       "issueNumber": 51,
       "villainsInIssue": [
-        "Charlie",
         "Kingpin",
         "Flint",
-        "Shorty",
-        "Kingpin's Henchmen",
-        "Big Turk",
-        "Blinker"
+        "Kingpin's Henchmen"
       ],
-      "villainCount": 7
+      "villainCount": 3
     },
     {
       "issueNumber": 52,
@@ -428,32 +394,25 @@
     },
     {
       "issueNumber": 53,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 54,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Members of Master Planner's gang"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 55,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 56,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 57,
@@ -474,11 +433,9 @@
       "villainsInIssue": [
         "Kingpin",
         "Kingpin's Henchmen",
-        "Dr. Winkler",
-        "Mr. Slade",
-        "Louie"
+        "Dr. Winkler"
       ],
-      "villainCount": 5
+      "villainCount": 3
     },
     {
       "issueNumber": 60,
@@ -492,12 +449,11 @@
     {
       "issueNumber": 61,
       "villainsInIssue": [
-        "Blackie",
         "Kingpin",
         "Kingpin's Henchmen",
         "Dr. Winkler"
       ],
-      "villainCount": 4
+      "villainCount": 3
     },
     {
       "issueNumber": 62,
@@ -508,23 +464,19 @@
     },
     {
       "issueNumber": 63,
-      "villainsInIssue": [
-        "Vulture"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 64,
-      "villainsInIssue": [
-        "Vulture"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 65,
       "villainsInIssue": [
         "Rock Gimpy",
-        "Mack",
+        "Mike",
         "Duke",
         "Red"
       ],
@@ -533,15 +485,14 @@
     {
       "issueNumber": 66,
       "villainsInIssue": [
-        "Mysterio",
-        "Green Goblin"
+        "Quentin Beck"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 67,
       "villainsInIssue": [
-        "Mysterio"
+        "Quentin Beck"
       ],
       "villainCount": 1
     },
@@ -551,10 +502,9 @@
         "Kingpin",
         "Kingpin's Henchmen",
         "Wilson",
-        "Crusher",
         "Numerous unnamed members"
       ],
-      "villainCount": 5
+      "villainCount": 4
     },
     {
       "issueNumber": 69,
@@ -616,27 +566,27 @@
     {
       "issueNumber": 75,
       "villainsInIssue": [
-        "Blackie",
         "Maggia",
         "Manfredi Family",
+        "Man-Mountain Marko",
         "Caesar Cicero",
         "Silvermane",
-        "Four unnamed members",
-        "Man Mountain Marko"
+        "Blackie",
+        "Four unnamed members"
       ],
       "villainCount": 7
     },
     {
       "issueNumber": 76,
       "villainsInIssue": [
-        "Lizard"
+        "The Lizard"
       ],
       "villainCount": 1
     },
     {
       "issueNumber": 77,
       "villainsInIssue": [
-        "Lizard"
+        "The Lizard"
       ],
       "villainCount": 1
     },
@@ -713,40 +663,32 @@
     },
     {
       "issueNumber": 88,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 89,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 90,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 91,
       "villainsInIssue": [
-        "Charlie",
         "Sam Bullit"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 92,
       "villainsInIssue": [
-        "Charlie",
         "Sam Bullit"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 93,
@@ -771,25 +713,20 @@
     },
     {
       "issueNumber": 96,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 97,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 98,
       "villainsInIssue": [
-        "Green Goblin",
         "Unnamed pusher and his two henchmen"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 99,
@@ -801,13 +738,10 @@
     {
       "issueNumber": 100,
       "villainsInIssue": [
-        "Vulture",
-        "Doctor Octopus",
         "The Lizard",
-        "Green Goblin",
         "Kingpin"
       ],
-      "villainCount": 5
+      "villainCount": 2
     },
     {
       "issueNumber": 101,
@@ -893,7 +827,6 @@
     {
       "issueNumber": 112,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Debt Collectors",
         "Bert",
         "Benny",
@@ -902,29 +835,27 @@
         "Tex",
         "Unnamed Henchman"
       ],
-      "villainCount": 8
+      "villainCount": 7
     },
     {
       "issueNumber": 113,
       "villainsInIssue": [
-        "Doctor Octopus",
+        "Hammerhead",
         "Doctor Octopus's Henchmen",
         "Bernie",
         "Karl",
-        "Hammerhead",
         "Hammerhead's Henchmen",
         "Ruffio",
         "Tony",
         "Waldo"
       ],
-      "villainCount": 9
+      "villainCount": 8
     },
     {
       "issueNumber": 114,
       "villainsInIssue": [
-        "Doctor Octopus",
-        "Bert",
         "Hammerhead",
+        "Bert",
         "Hammerhead's Henchmen",
         "Waldo",
         "Bennie",
@@ -933,14 +864,13 @@
         "Jimmy",
         "Harvey"
       ],
-      "villainCount": 10
+      "villainCount": 9
     },
     {
       "issueNumber": 115,
       "villainsInIssue": [
-        "Doctor Octopus",
-        "Bert",
         "Hammerhead",
+        "Bert",
         "Ernie",
         "Jimmy",
         "Harvey",
@@ -948,7 +878,7 @@
         "Chuck",
         "Doctor Octopus' Men"
       ],
-      "villainCount": 9
+      "villainCount": 8
     },
     {
       "issueNumber": 116,
@@ -991,17 +921,13 @@
     },
     {
       "issueNumber": 121,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 122,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 123,
@@ -1013,14 +939,14 @@
     {
       "issueNumber": 124,
       "villainsInIssue": [
-        "Man-Wolf"
+        "Colonel John Jameson"
       ],
       "villainCount": 1
     },
     {
       "issueNumber": 125,
       "villainsInIssue": [
-        "Man-Wolf"
+        "Colonel John Jameson"
       ],
       "villainCount": 1
     },
@@ -1049,34 +975,30 @@
     {
       "issueNumber": 129,
       "villainsInIssue": [
+        "Boinard",
         "Punisher",
-        "Jackal",
-        "Bebo",
         "Three unnamed robbers"
       ],
-      "villainCount": 4
+      "villainCount": 3
     },
     {
       "issueNumber": 130,
       "villainsInIssue": [
-        "Doctor Octopus",
-        "Numerous unnamed members",
         "Hammerhead",
+        "Numerous unnamed members",
         "Hammerhead's Henchmen",
-        "Jackal",
         "Reno",
         "Flakey"
       ],
-      "villainCount": 7
+      "villainCount": 5
     },
     {
       "issueNumber": 131,
       "villainsInIssue": [
-        "Doctor Octopus",
-        "Numerous unnamed henchmen",
-        "Hammerhead"
+        "Hammerhead",
+        "Numerous unnamed henchmen"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 132,
@@ -1096,34 +1018,28 @@
       "issueNumber": 134,
       "villainsInIssue": [
         "Juan",
-        "Hidalgo Rodriquez",
-        "Tarantula"
+        "Hidalgo Rodriquez"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 135,
       "villainsInIssue": [
-        "Unnamed Henchman",
         "Juan",
         "Hidalgo Rodriquez",
-        "Tarantula"
+        "Unnamed Henchman"
       ],
-      "villainCount": 4
+      "villainCount": 3
     },
     {
       "issueNumber": 136,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 137,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 138,
@@ -1135,18 +1051,16 @@
     {
       "issueNumber": 139,
       "villainsInIssue": [
-        "Jackal",
         "Grizzly"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 140,
       "villainsInIssue": [
-        "Jackal",
         "Grizzly"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 141,
@@ -1186,34 +1100,26 @@
     {
       "issueNumber": 146,
       "villainsInIssue": [
-        "Scorpion",
-        "Jackal"
+        "Scorpion"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 147,
-      "villainsInIssue": [
-        "Jackal",
-        "Tarantula"
-      ],
-      "villainCount": 2
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 148,
-      "villainsInIssue": [
-        "Jackal",
-        "Tarantula"
-      ],
-      "villainCount": 2
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 149,
       "villainsInIssue": [
-        "Jackal",
         "Spider-Clone"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 150,
@@ -1241,8 +1147,8 @@
     {
       "issueNumber": 153,
       "villainsInIssue": [
-        "Two Unnamed Kidnappers",
-        "Paine"
+        "Kingpin's Henchmen",
+        "Two Unnamed Kidnappers"
       ],
       "villainCount": 2
     },
@@ -1250,7 +1156,7 @@
       "issueNumber": 154,
       "villainsInIssue": [
         "Sandman",
-        "Sandman's Employer"
+        "Kingpin"
       ],
       "villainCount": 2
     },
@@ -1258,8 +1164,8 @@
       "issueNumber": 155,
       "villainsInIssue": [
         "Worldwide Habitual Offender Computer",
-        "Jason Sledge",
         "Leroy Tallon",
+        "Jason Sledge",
         "Conrad Fox"
       ],
       "villainCount": 4
@@ -1275,26 +1181,23 @@
     {
       "issueNumber": 157,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Hammerhead"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 158,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Hammerhead"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 159,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Hammerhead"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 160,
@@ -1315,9 +1218,9 @@
     {
       "issueNumber": 162,
       "villainsInIssue": [
-        "Benny",
-        "Jigsaw",
-        "Roscoe"
+        "Boinard",
+        "Red",
+        "Jigsaw"
       ],
       "villainCount": 3
     },
@@ -1346,7 +1249,7 @@
       "issueNumber": 166,
       "villainsInIssue": [
         "The Lizard",
-        "Stegron The Dinosaur Man"
+        "Stegron"
       ],
       "villainCount": 2
     },
@@ -1377,7 +1280,7 @@
     {
       "issueNumber": 170,
       "villainsInIssue": [
-        "Doctor Faustus"
+        "Dr. Faustus"
       ],
       "villainCount": 1
     },
@@ -1408,16 +1311,16 @@
     {
       "issueNumber": 174,
       "villainsInIssue": [
-        "People's Liberation Front",
-        "Hitman"
+        "Hitman",
+        "People's Liberation Front"
       ],
       "villainCount": 2
     },
     {
       "issueNumber": 175,
       "villainsInIssue": [
-        "People's Liberation Front",
         "Hitman",
+        "People's Liberation Front",
         "Morty, Ralph, Milo and other unnamed members of the PLF",
         "Frank"
       ],
@@ -1425,78 +1328,68 @@
     },
     {
       "issueNumber": 176,
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 177,
       "villainsInIssue": [
-        "Green Goblin",
         "Silvermane"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 178,
       "villainsInIssue": [
-        "Green Goblin",
         "Silvermane"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 179,
       "villainsInIssue": [
-        "Green Goblin",
         "Silvermane"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 180,
       "villainsInIssue": [
-        "Green Goblin",
         "Silvermane"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 181,
       "villainsInIssue": [
         "Burglar",
         "Chameleon",
-        "Vulture",
+        "Quentin Beck",
         "Sandman",
+        "Doctor Doom",
+        "The Lizard",
         "Electro",
         "Big Man",
         "Enforcers",
         "Montana",
         "Fancy Dan",
         "Ox",
-        "Mysterio",
-        "Green Goblin",
         "Kraven the Hunter",
         "Scorpion",
         "Beetle",
         "Molten Man",
         "Rhino",
-        "Lizard",
+        "Colonel John Jameson",
         "Shocker",
         "Kingpin",
+        "Morbius",
         "Hammerhead",
-        "Man-Wolf",
-        "Tarantula",
         "Mirage",
         "Stegron",
         "Will O' The Wisp",
-        "The Human Fly",
-        "Dr. Doom",
-        "Dr. Octopus",
-        "Morbius the Living Vampire"
+        "The Human Fly"
       ],
-      "villainCount": 30
+      "villainCount": 26
     },
     {
       "issueNumber": 182,
@@ -1511,7 +1404,7 @@
       "villainsInIssue": [
         "Tinkerer",
         "Toy",
-        "Big Wheel"
+        "Jackson Weele"
       ],
       "villainCount": 3
     },
@@ -1557,7 +1450,7 @@
       "issueNumber": 189,
       "villainsInIssue": [
         "Spencer Smythe",
-        "Man-Wolf"
+        "Colonel John Jameson"
       ],
       "villainCount": 2
     },
@@ -1565,7 +1458,7 @@
       "issueNumber": 190,
       "villainsInIssue": [
         "Spencer Smythe",
-        "Man-Wolf"
+        "Colonel John Jameson"
       ],
       "villainCount": 2
     },
@@ -1580,7 +1473,7 @@
       "issueNumber": 192,
       "villainsInIssue": [
         "Spencer Smythe",
-        "Human Fly"
+        "The Human Fly"
       ],
       "villainCount": 2
     },
@@ -1588,7 +1481,7 @@
       "issueNumber": 193,
       "villainsInIssue": [
         "Burglar",
-        "Fly"
+        "The Human Fly"
       ],
       "villainCount": 2
     },
@@ -1606,21 +1499,21 @@
     {
       "issueNumber": 195,
       "villainsInIssue": [
+        "Burglar",
         "Kingpin",
         "Black Cat",
         "Boris Korpse",
-        "Bruno Grainger",
-        "The Burglar"
+        "Bruno Grainger"
       ],
       "villainCount": 5
     },
     {
       "issueNumber": 196,
       "villainsInIssue": [
+        "Quentin Beck",
         "Kingpin",
         "Boris Korpse",
-        "Bruno Grainger",
-        "Dr. Rinehart"
+        "Bruno Grainger"
       ],
       "villainCount": 4
     },
@@ -1628,8 +1521,8 @@
       "issueNumber": 197,
       "villainsInIssue": [
         "Burglar",
-        "Kingpin",
-        "Dr. Rinehart"
+        "Quentin Beck",
+        "Kingpin"
       ],
       "villainCount": 3
     },
@@ -1637,7 +1530,7 @@
       "issueNumber": 198,
       "villainsInIssue": [
         "Burglar",
-        "Mysterio"
+        "Quentin Beck"
       ],
       "villainCount": 2
     },
@@ -1645,7 +1538,7 @@
       "issueNumber": 199,
       "villainsInIssue": [
         "Burglar",
-        "Mysterio"
+        "Quentin Beck"
       ],
       "villainCount": 2
     },
@@ -1666,14 +1559,13 @@
     {
       "issueNumber": 202,
       "villainsInIssue": [
+        "Shorty",
+        "Red",
         "Lorenzo Jacobi",
         "Alfred",
-        "Arnie",
-        "Reis",
-        "Seaman",
         "Hatay"
       ],
-      "villainCount": 6
+      "villainCount": 5
     },
     {
       "issueNumber": 203,
@@ -1757,10 +1649,10 @@
     {
       "issueNumber": 214,
       "villainsInIssue": [
+        "Sandman",
+        "Wizard",
         "Llyra",
         "Frightful Four",
-        "The Wizard",
-        "The Sandman",
         "The Trapster"
       ],
       "villainCount": 5
@@ -1769,10 +1661,10 @@
       "issueNumber": 215,
       "villainsInIssue": [
         "Sandman",
+        "Wizard",
         "Llyra",
         "Frightful Four",
-        "The Wizard",
-        "Trapster"
+        "The Trapster"
       ],
       "villainCount": 5
     },
@@ -1814,8 +1706,8 @@
         "National Syndicate Directorate",
         "Rat Pack",
         "Louie Frenchetti",
-        "Blinky",
         "Weasel",
+        "Blinky",
         "Rodney - Polly's nephew"
       ],
       "villainCount": 6
@@ -1847,10 +1739,8 @@
     },
     {
       "issueNumber": 224,
-      "villainsInIssue": [
-        "Vulture"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 225,
@@ -1918,45 +1808,37 @@
     {
       "issueNumber": 233,
       "villainsInIssue": [
-        "Tarantula",
         "Brand Corporation",
         "Smith"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 234,
       "villainsInIssue": [
-        "Tarantula",
+        "Will O' The Wisp",
         "Brand Corporation",
-        "Will O' the Wisp",
-        "Jenkins",
-        "Mr. Smith",
-        "James Melvin",
-        "Dr. Fenton",
-        "Dodds"
+        "Smith",
+        "James Melvin"
       ],
-      "villainCount": 8
+      "villainCount": 4
     },
     {
       "issueNumber": 235,
       "villainsInIssue": [
-        "Tarantula",
+        "Will O' The Wisp",
         "Brand Corporation",
-        "Will O' the Wisp",
+        "Smith",
         "James Melvin",
-        "Dr. Fenton",
         "Roxxon Oil Company",
         "Harv Carson",
-        "Thorpe",
         "John T. Gamelin"
       ],
-      "villainCount": 9
+      "villainCount": 7
     },
     {
       "issueNumber": 236,
       "villainsInIssue": [
-        "Tarantula",
         "Brand Corporation",
         "James Melvin",
         "Roxxon Oil Company",
@@ -1964,7 +1846,7 @@
         "Board of Directors",
         "August D'Angelo"
       ],
-      "villainCount": 7
+      "villainCount": 6
     },
     {
       "issueNumber": 237,
@@ -1976,31 +1858,24 @@
     {
       "issueNumber": 238,
       "villainsInIssue": [
-        "Georgie Hill",
-        "Hobgoblin"
+        "Georgie Hill"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 239,
-      "villainsInIssue": [
-        "Hobgoblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 240,
-      "villainsInIssue": [
-        "Vulture"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 241,
-      "villainsInIssue": [
-        "Vulture"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 242,
@@ -2020,15 +1895,14 @@
     {
       "issueNumber": 244,
       "villainsInIssue": [
-        "Hobgoblin",
         "Lefty Donovan"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 245,
       "villainsInIssue": [
-        "Hobgoblin"
+        "Lefty Donovan"
       ],
       "villainCount": 1
     },
@@ -2055,24 +1929,19 @@
     {
       "issueNumber": 249,
       "villainsInIssue": [
-        "Kingpin",
-        "Hobgoblin"
+        "Kingpin"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 250,
-      "villainsInIssue": [
-        "Hobgoblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 251,
-      "villainsInIssue": [
-        "Hobgoblin"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 252,
@@ -2084,7 +1953,7 @@
     {
       "issueNumber": 253,
       "villainsInIssue": [
-        "Rose"
+        "Schemer"
       ],
       "villainCount": 1
     },
@@ -2109,10 +1978,10 @@
     {
       "issueNumber": 256,
       "villainsInIssue": [
+        "Schemer",
         "Frankie Silvera",
         "Ralph Mac",
-        "Puma",
-        "The Rose"
+        "Puma"
       ],
       "villainCount": 4
     },
@@ -2120,17 +1989,17 @@
       "issueNumber": 257,
       "villainsInIssue": [
         "Kingpin",
+        "Schemer",
         "Hobgoblin",
-        "Puma",
-        "The Rose"
+        "Puma"
       ],
       "villainCount": 4
     },
     {
       "issueNumber": 258,
       "villainsInIssue": [
+        "Schemer",
         "Hobgoblin",
-        "The Rose",
         "Spider-Man's Black Suit",
         "Harry"
       ],
@@ -2139,44 +2008,40 @@
     {
       "issueNumber": 259,
       "villainsInIssue": [
-        "Hobgoblin",
-        "The Rose",
-        "Symbiote Suit"
+        "Schemer",
+        "Spider-Man's Black Suit"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 260,
       "villainsInIssue": [
-        "Hobgoblin",
-        "The Rose"
+        "Schemer"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 261,
       "villainsInIssue": [
-        "Hobgoblin",
-        "The Rose"
+        "Schemer"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 262,
       "villainsInIssue": [
+        "Boinard",
         "Roberto DeNatale",
-        "Bluto",
-        "Cheo",
-        "other unnamed henchmen",
-        "Jake \"D.J.\" Jones"
+        "Jake \"D.J.\" Jones",
+        "other unnamed henchmen"
       ],
-      "villainCount": 5
+      "villainCount": 4
     },
     {
       "issueNumber": 263,
       "villainsInIssue": [
+        "Mike",
         "Blazing Skull Gang",
-        "Matt",
         "Eddie"
       ],
       "villainCount": 3
@@ -2266,20 +2131,18 @@
       "issueNumber": 275,
       "villainsInIssue": [
         "Kingpin",
-        "Hobgoblin",
-        "Rose"
+        "Schemer"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 276,
       "villainsInIssue": [
-        "Human Fly",
-        "Hobgoblin",
-        "Rose",
-        "Scourge"
+        "Schemer",
+        "The Human Fly",
+        "Hobgoblin"
       ],
-      "villainCount": 4
+      "villainCount": 3
     },
     {
       "issueNumber": 277,
@@ -2293,12 +2156,11 @@
     {
       "issueNumber": 278,
       "villainsInIssue": [
-        "Hobgoblin",
-        "The Rose",
+        "Schemer",
         "Scourge",
         "Wraith"
       ],
-      "villainCount": 4
+      "villainCount": 3
     },
     {
       "issueNumber": 279,
@@ -2313,30 +2175,28 @@
         "Beetle",
         "Rhino",
         "Kingpin",
+        "Schemer",
         "Hydro-Man",
         "Speed Demon",
-        "Hobgoblin",
         "Jack O'Lantern",
-        "The Rose",
         "Sinister Syndicate",
         "Boomerang"
       ],
-      "villainCount": 10
+      "villainCount": 9
     },
     {
       "issueNumber": 281,
       "villainsInIssue": [
         "Beetle",
         "Rhino",
+        "Schemer",
+        "Hydro-Man",
         "Speed Demon",
-        "Hobgoblin",
         "Jack O'Lantern",
-        "The Rose",
         "Sinister Syndicate",
-        "Boomerang",
-        "Hydroman"
+        "Boomerang"
       ],
-      "villainCount": 9
+      "villainCount": 8
     },
     {
       "issueNumber": 282,
@@ -2353,42 +2213,40 @@
     {
       "issueNumber": 283,
       "villainsInIssue": [
-        "Hobgoblin",
         "Titania",
         "Absorbing Man"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 284,
       "villainsInIssue": [
         "Silvermane",
+        "Schemer",
         "Hammerhead",
-        "Hobgoblin",
-        "Rose",
         "Jack O'Lantern",
         "Arranger",
         "Blue Boys"
       ],
-      "villainCount": 7
+      "villainCount": 6
     },
     {
       "issueNumber": 285,
       "villainsInIssue": [
+        "Schemer",
         "Hammerhead",
         "Hobgoblin",
         "Jack O'Lantern",
-        "The Rose",
         "Arranger",
-        "The Blue Boys"
+        "Blue Boys"
       ],
       "villainCount": 6
     },
     {
       "issueNumber": 286,
       "villainsInIssue": [
+        "Schemer",
         "Hobgoblin",
-        "Rose",
         "Jack O'Lantern",
         "Blue Boys"
       ],
@@ -2398,8 +2256,8 @@
       "issueNumber": 287,
       "villainsInIssue": [
         "Kingpin",
+        "Schemer",
         "Hobgoblin",
-        "Rose",
         "Arranger"
       ],
       "villainCount": 4
@@ -2408,9 +2266,9 @@
       "issueNumber": 288,
       "villainsInIssue": [
         "Kingpin",
+        "Schemer",
         "Hammerhead",
         "Hobgoblin",
-        "Rose",
         "Jack O'Lantern",
         "Arranger",
         "Blue Boys"
@@ -2421,8 +2279,8 @@
       "issueNumber": 289,
       "villainsInIssue": [
         "Kingpin",
-        "Hobgoblin",
-        "Rose",
+        "Schemer",
+        "Jack O'Lantern",
         "1400 Club",
         "Foreigner",
         "Unnamed Agents"
@@ -2432,8 +2290,8 @@
     {
       "issueNumber": 290,
       "villainsInIssue": [
-        "Preserver",
-        "Max"
+        "Mike",
+        "Preserver"
       ],
       "villainCount": 2
     },
@@ -2447,7 +2305,7 @@
     {
       "issueNumber": 292,
       "villainsInIssue": [
-        "Alistair Smythe",
+        "Alistaire Smythe",
         "Philip Watson"
       ],
       "villainCount": 2
@@ -2476,17 +2334,13 @@
     },
     {
       "issueNumber": 296,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 297,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 298,
@@ -2509,7 +2363,7 @@
     {
       "issueNumber": 300,
       "villainsInIssue": [
-        "Venom"
+        "Spider-Man's Black Suit"
       ],
       "villainCount": 1
     },
@@ -2530,7 +2384,7 @@
     {
       "issueNumber": 303,
       "villainsInIssue": [
-        "Franz Kraus"
+        "Frank Cruz"
       ],
       "villainCount": 1
     },
@@ -2588,22 +2442,22 @@
     {
       "issueNumber": 310,
       "villainsInIssue": [
-        "Killer Shrike",
-        "The Tinkerer"
+        "Tinkerer",
+        "Killer Shrike"
       ],
       "villainCount": 2
     },
     {
       "issueNumber": 311,
       "villainsInIssue": [
-        "Mysterio"
+        "Quentin Beck"
       ],
       "villainCount": 1
     },
     {
       "issueNumber": 312,
       "villainsInIssue": [
-        "Hobgoblin"
+        "Jack O'Lantern"
       ],
       "villainCount": 1
     },
@@ -2714,12 +2568,12 @@
     {
       "issueNumber": 325,
       "villainsInIssue": [
+        "ULTIMATUM",
         "Major Toler Weil",
         "Red Skull",
-        "Ultimatum",
         "Resistants",
-        "Sweatshop",
-        "Watchdogs"
+        "Watchdogs",
+        "Sweatshop"
       ],
       "villainCount": 6
     },
@@ -2735,7 +2589,7 @@
       "villainsInIssue": [
         "Doctor Doom",
         "Kingpin",
-        "The Wizard",
+        "Wizard",
         "Magneto"
       ],
       "villainCount": 4
@@ -2766,113 +2620,103 @@
     {
       "issueNumber": 330,
       "villainsInIssue": [
-        "Unidentified Drug Cartel",
-        "Eddie Brock"
+        "Venom",
+        "Unidentified Drug Cartel"
       ],
       "villainCount": 2
     },
     {
       "issueNumber": 331,
       "villainsInIssue": [
+        "Boinard",
         "Black Cat",
-        "Venom",
-        "Col. Buchinsky"
+        "Venom"
       ],
       "villainCount": 3
     },
     {
       "issueNumber": 332,
       "villainsInIssue": [
-        "Venom",
+        "Spider-Man's Black Suit",
         "Jonathan Caesar",
         "Styx",
         "Stone",
-        "Venom Symbiote"
+        "Venom"
       ],
       "villainCount": 5
     },
     {
       "issueNumber": 333,
       "villainsInIssue": [
-        "Venom",
         "Jonathan Caesar",
         "Styx",
-        "Stone"
+        "Stone",
+        "Venom"
       ],
       "villainCount": 4
     },
     {
       "issueNumber": 334,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Sandman",
         "Electro",
         "Sinister Six"
       ],
-      "villainCount": 4
+      "villainCount": 3
     },
     {
       "issueNumber": 335,
       "villainsInIssue": [
-        "Doctor Octopus",
-        "Mysterio",
+        "Quentin Beck",
         "Shocker",
-        "Hobgoblin",
+        "Jack O'Lantern",
         "Sinister Six"
-      ],
-      "villainCount": 5
-    },
-    {
-      "issueNumber": 336,
-      "villainsInIssue": [
-        "Vulture",
-        "Doctor Octopus",
-        "Kingpin",
-        "Chance"
       ],
       "villainCount": 4
     },
     {
+      "issueNumber": 336,
+      "villainsInIssue": [
+        "Kingpin",
+        "Chance"
+      ],
+      "villainCount": 2
+    },
+    {
       "issueNumber": 337,
       "villainsInIssue": [
-        "Vulture",
-        "Doctor Octopus",
+        "Quentin Beck",
         "Sandman",
         "Electro",
-        "Mysterio",
-        "Hobgoblin",
+        "Jack O'Lantern",
         "Jonathan Caesar",
         "Sinister Six"
       ],
-      "villainCount": 8
+      "villainCount": 6
     },
     {
       "issueNumber": 338,
       "villainsInIssue": [
-        "Vulture",
-        "Doctor Octopus",
+        "Quentin Beck",
         "Sandman",
         "Electro",
-        "Mysterio",
-        "Hobgoblin",
+        "Jack O'Lantern",
         "Jonathan Caesar",
         "Sinister Six"
       ],
-      "villainCount": 8
+      "villainCount": 6
     },
     {
       "issueNumber": 339,
       "villainsInIssue": [
-        "Vulture",
-        "Doctor Octopus",
+        "Quentin Beck",
         "Sandman",
         "Electro",
-        "Mysterio",
-        "Hobgoblin",
+        "Jack O'Lantern",
         "Jonathan Caesar",
         "Sinister Six"
       ],
-      "villainCount": 8
+      "villainCount": 6
     },
     {
       "issueNumber": 340,
@@ -2942,16 +2786,16 @@
     {
       "issueNumber": 346,
       "villainsInIssue": [
-        "Venom",
-        "Venom Symbiote"
+        "Spider-Man's Black Suit",
+        "Venom"
       ],
       "villainCount": 2
     },
     {
       "issueNumber": 347,
       "villainsInIssue": [
-        "Venom",
-        "Venom Symbiote"
+        "Spider-Man's Black Suit",
+        "Venom"
       ],
       "villainCount": 2
     },
@@ -3001,75 +2845,59 @@
     {
       "issueNumber": 353,
       "villainsInIssue": [
+        "Thunderball",
         "Secret Empire",
         "Number Two",
-        "Number Five",
-        "Number Seven",
-        "Midnight",
-        "Eliot Franklin"
+        "Midnight"
       ],
-      "villainCount": 6
+      "villainCount": 4
     },
     {
       "issueNumber": 354,
       "villainsInIssue": [
         "Thunderball",
         "Secret Empire",
-        "Number Seven",
+        "Number Two",
         "Midnight",
-        "Number Three",
-        "Number Twelve",
         "Lynn Church"
       ],
-      "villainCount": 7
+      "villainCount": 5
     },
     {
       "issueNumber": 355,
       "villainsInIssue": [
+        "Thunderball",
         "Secret Empire",
-        "Number Five",
-        "Number Seven",
+        "Number Two",
         "Midnight",
-        "Eliot Franklin",
         "Lynn Church",
-        "Number Nine",
-        "Number Ten",
         "Sonic",
         "Chain",
         "Grasp"
       ],
-      "villainCount": 11
+      "villainCount": 8
     },
     {
       "issueNumber": 356,
       "villainsInIssue": [
+        "Thunderball",
         "Secret Empire",
-        "Number Five",
-        "Number Seven",
+        "Number Two",
         "Midnight",
-        "Number Three",
-        "Number Twelve",
-        "Lynn Church",
-        "Number Ten",
-        "Number Four",
-        "Number Thirteen",
-        "Number Twenty-One",
-        "Dr. Eliot Franklin"
+        "Lynn Church"
       ],
-      "villainCount": 12
+      "villainCount": 5
     },
     {
       "issueNumber": 357,
       "villainsInIssue": [
         "Thunderball",
         "Secret Empire",
+        "Number Two",
         "Midnight",
-        "Number Three",
-        "Lynn Church",
-        "Number Four",
-        "Number Six"
+        "Lynn Church"
       ],
-      "villainCount": 7
+      "villainCount": 5
     },
     {
       "issueNumber": 358,
@@ -3121,7 +2949,7 @@
       "issueNumber": 363,
       "villainsInIssue": [
         "Carnage",
-        "Carnage symbiote"
+        "Carnage Symbiote"
       ],
       "villainCount": 2
     },
@@ -3136,25 +2964,22 @@
       "issueNumber": 365,
       "villainsInIssue": [
         "Burglar",
-        "Doctor Octopus",
+        "Quentin Beck",
+        "The Lizard",
         "Electro",
-        "Mysterio",
-        "Green Goblin",
-        "Lizard",
         "Venom",
-        "Saboteurs",
-        "The Green Goblin"
+        "Saboteurs"
       ],
-      "villainCount": 9
+      "villainCount": 6
     },
     {
       "issueNumber": 366,
       "villainsInIssue": [
+        "Eddie",
         "Taskmaster",
         "Red Skull",
         "Viper",
         "Sweat Shop",
-        "Errol",
         "Jason",
         "Tompkins"
       ],
@@ -3164,12 +2989,12 @@
       "issueNumber": 367,
       "villainsInIssue": [
         "Taskmaster",
+        "ULTIMATUM",
         "Red Skull",
         "Viper",
         "Death-Shield",
         "Jagged Bow",
-        "Blood Spider",
-        "U.L.T.I.M.A.T.U.M"
+        "Blood Spider"
       ],
       "villainCount": 7
     },
@@ -3177,7 +3002,7 @@
       "issueNumber": 368,
       "villainsInIssue": [
         "J. Jonah Jameson",
-        "Alistair Smythe",
+        "Alistaire Smythe",
         "Spider-Slayer Mark X",
         "Spider-Slayer Mark XI"
       ],
@@ -3187,7 +3012,7 @@
       "issueNumber": 369,
       "villainsInIssue": [
         "Electro",
-        "Alistair Smythe",
+        "Alistaire Smythe",
         "Spider-Slayer Mark XII"
       ],
       "villainCount": 3
@@ -3212,8 +3037,8 @@
     {
       "issueNumber": 372,
       "villainsInIssue": [
-        "Hobgoblin",
-        "Alistair Smythe",
+        "Jack O'Lantern",
+        "Alistaire Smythe",
         "Max Young",
         "Charlie Shaddock",
         "Spider-Slayer Mark XV",
@@ -3225,8 +3050,8 @@
     {
       "issueNumber": 373,
       "villainsInIssue": [
-        "Agent Charles Shaddock",
-        "Ultimate Spider-Slayer",
+        "Alistaire Smythe",
+        "Charlie Shaddock",
         "Perkins"
       ],
       "villainCount": 3
@@ -3234,18 +3059,17 @@
     {
       "issueNumber": 374,
       "villainsInIssue": [
-        "Venom",
-        "Venom Symbiote"
+        "Spider-Man's Black Suit",
+        "Venom"
       ],
       "villainCount": 2
     },
     {
       "issueNumber": 375,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Sandman",
+        "Spider-Man's Black Suit",
         "Venom",
-        "Venom Symbiote",
         "Wild Pack",
         "Amy Chen",
         "Battlestar",
@@ -3254,7 +3078,7 @@
         "Crippler",
         "Jake Austin"
       ],
-      "villainCount": 11
+      "villainCount": 10
     },
     {
       "issueNumber": 376,
@@ -3277,7 +3101,7 @@
     {
       "issueNumber": 378,
       "villainsInIssue": [
-        "Carnage",
+        "Carnage Symbiote",
         "Shriek",
         "Spider-Doppelganger",
         "Demogoblin"
@@ -3298,7 +3122,7 @@
     {
       "issueNumber": 380,
       "villainsInIssue": [
-        "Carnage",
+        "Carnage Symbiote",
         "Shriek",
         "Spider-Doppelganger",
         "Demogoblin",
@@ -3361,29 +3185,25 @@
     },
     {
       "issueNumber": 386,
-      "villainsInIssue": [
-        "The Vulture"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 387,
       "villainsInIssue": [
-        "Chameleon",
-        "The Vulture"
+        "Chameleon"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 388,
       "villainsInIssue": [
         "Chameleon",
-        "The Vulture",
         "Richard Parker Simulacrum",
         "Spider-Man",
         "Enos Warwick"
       ],
-      "villainCount": 5
+      "villainCount": 4
     },
     {
       "issueNumber": 389,
@@ -3426,14 +3246,12 @@
     {
       "issueNumber": 394,
       "villainsInIssue": [
-        "Jackal",
         "Dr. Judas Traveller",
         "The Host",
         "Mr. Nacht",
-        "Chakra",
-        "Scrier"
+        "Chakra"
       ],
-      "villainCount": 6
+      "villainCount": 4
     },
     {
       "issueNumber": 395,
@@ -3445,26 +3263,22 @@
     {
       "issueNumber": 396,
       "villainsInIssue": [
-        "Vulture",
         "The Owl"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 397,
       "villainsInIssue": [
-        "Doctor Octopus",
         "Kaine",
         "Stunner"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 398,
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
-      "villainCount": 1
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 399,
@@ -3480,8 +3294,8 @@
       "villainsInIssue": [
         "Burglar",
         "Jackal",
+        "Dr. Judas Traveller",
         "Mr. Nacht",
-        "Judas Traveller",
         "Medea"
       ],
       "villainCount": 5
@@ -3489,9 +3303,9 @@
     {
       "issueNumber": 401,
       "villainsInIssue": [
+        "Dr. Judas Traveller",
         "Chakra",
         "Kaine",
-        "Judas Traveller",
         "Peter Parker"
       ],
       "villainCount": 4
@@ -3499,16 +3313,15 @@
     {
       "issueNumber": 402,
       "villainsInIssue": [
-        "Scrier",
-        "Judas Traveller"
+        "Dr. Judas Traveller"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 403,
       "villainsInIssue": [
         "Carnage",
-        "Judas Traveller"
+        "Dr. Judas Traveller"
       ],
       "villainCount": 2
     },
@@ -3516,7 +3329,7 @@
       "issueNumber": 404,
       "villainsInIssue": [
         "Jackal",
-        "Spidercide"
+        "Peter Parker"
       ],
       "villainCount": 2
     },
@@ -3537,14 +3350,14 @@
     {
       "issueNumber": 407,
       "villainsInIssue": [
-        "Mysterio"
+        "Quentin Beck"
       ],
       "villainCount": 1
     },
     {
       "issueNumber": 408,
       "villainsInIssue": [
-        "Mysterio",
+        "Quentin Beck",
         "Armada",
         "Jagged Skulls Gang"
       ],
@@ -3555,7 +3368,6 @@
       "villainsInIssue": [
         "Rhino",
         "Great Game",
-        "Great Game Sponsors",
         "James Johnsmeyer",
         "Yassaf",
         "Nicolas",
@@ -3563,21 +3375,21 @@
         "Joystick",
         "Polestar"
       ],
-      "villainCount": 9
+      "villainCount": 8
     },
     {
       "issueNumber": 410,
       "villainsInIssue": [
         "Carnage",
-        "Cletus Kasady"
+        "Carnage Symbiote"
       ],
       "villainCount": 2
     },
     {
       "issueNumber": 411,
       "villainsInIssue": [
+        "Mendel Stromm",
         "Multivex Corporation",
-        "Gaunt",
         "Cell-12",
         "Bramer",
         "Nardi",
@@ -3589,8 +3401,8 @@
     {
       "issueNumber": 412,
       "villainsInIssue": [
+        "Mendel Stromm",
         "Multivex Corporation",
-        "Gaunt",
         "Multivex armored security guards"
       ],
       "villainCount": 3
@@ -3598,7 +3410,7 @@
     {
       "issueNumber": 413,
       "villainsInIssue": [
-        "Mysterio",
+        "Quentin Beck",
         "Armada"
       ],
       "villainCount": 2
@@ -3606,8 +3418,8 @@
     {
       "issueNumber": 414,
       "villainsInIssue": [
-        "The Rose",
-        "Delilah"
+        "Delilah",
+        "The Rose"
       ],
       "villainCount": 2
     },
@@ -3621,40 +3433,37 @@
     {
       "issueNumber": 416,
       "villainsInIssue": [
-        "The Rose",
+        "Mendel Stromm",
+        "Dr. Judas Traveller",
         "The Host",
+        "Mr. Nacht",
         "Chakra",
-        "Scrier",
-        "Judas Traveller",
         "Medea",
-        "Gaunt",
         "Delilah",
-        "Mister Nacht",
+        "The Rose",
         "Boone"
       ],
-      "villainCount": 10
+      "villainCount": 9
     },
     {
       "issueNumber": 417,
       "villainsInIssue": [
+        "Mendel Stromm",
+        "Dr. Judas Traveller",
         "The Host",
-        "Scrier",
-        "Judas Traveller",
+        "Mr. Nacht",
         "Medea",
-        "Gaunt",
-        "Mister Nacht",
         "Boone",
         "Brotherhood of the Scrier"
       ],
-      "villainCount": 8
+      "villainCount": 7
     },
     {
       "issueNumber": 418,
       "villainsInIssue": [
-        "Norman Osborn",
-        "Gaunt"
+        "Mendel Stromm"
       ],
-      "villainCount": 2
+      "villainCount": 1
     },
     {
       "issueNumber": 419,
@@ -3666,8 +3475,8 @@
     {
       "issueNumber": 420,
       "villainsInIssue": [
-        "The Rose",
         "Delilah",
+        "The Rose",
         "Black Tarantula",
         "Tarantula's Organization",
         "El Uno"
@@ -3677,8 +3486,8 @@
     {
       "issueNumber": 421,
       "villainsInIssue": [
-        "Rose",
         "Delilah",
+        "The Rose",
         "Black Tarantula",
         "Tarantula's Organization",
         "True Believers",
@@ -3691,8 +3500,8 @@
       "issueNumber": 422,
       "villainsInIssue": [
         "Electro",
-        "The Rose",
         "Delilah",
+        "The Rose",
         "Black Tarantula",
         "Don Fortunato"
       ],
@@ -3702,16 +3511,16 @@
       "issueNumber": 423,
       "villainsInIssue": [
         "Electro",
-        "The Rose",
-        "Delilah"
+        "Delilah",
+        "The Rose"
       ],
       "villainCount": 3
     },
     {
       "issueNumber": 424,
       "villainsInIssue": [
-        "The Rose",
         "Delilah",
+        "The Rose",
         "Tarantula's Organization",
         "True Believers",
         "Madam Qwa",
@@ -3723,8 +3532,8 @@
       "issueNumber": 425,
       "villainsInIssue": [
         "Electro",
-        "Rose",
-        "Delilah"
+        "Delilah",
+        "The Rose"
       ],
       "villainCount": 3
     },
@@ -3737,9 +3546,9 @@
       "issueNumber": 427,
       "villainsInIssue": [
         "Doctor Octopus",
-        "Rose",
         "Stunner",
-        "Delilah"
+        "Delilah",
+        "The Rose"
       ],
       "villainCount": 4
     },
@@ -3747,8 +3556,8 @@
       "issueNumber": 428,
       "villainsInIssue": [
         "Doctor Octopus",
-        "The Rose",
         "Delilah",
+        "The Rose",
         "Black Tarantula"
       ],
       "villainCount": 4
@@ -3756,11 +3565,10 @@
     {
       "issueNumber": 429,
       "villainsInIssue": [
-        "Norman Osborn",
-        "Titania/Thunder Girl",
-        "Absorbing Man/Lightning Bolt"
+        "Titania",
+        "Absorbing Man"
       ],
-      "villainCount": 3
+      "villainCount": 2
     },
     {
       "issueNumber": 430,
@@ -3782,13 +3590,12 @@
       "issueNumber": 432,
       "villainsInIssue": [
         "Green Goblin",
-        "Norman Osborn",
         "The Rose",
         "Black Tarantula",
         "Don Fortunato",
         "Shotgun"
       ],
-      "villainCount": 6
+      "villainCount": 5
     },
     {
       "issueNumber": 433,
@@ -3798,20 +3605,20 @@
     {
       "issueNumber": 434,
       "villainsInIssue": [
-        "Rose",
         "Delilah",
-        "Brotherhood of the Scriers"
+        "The Rose",
+        "Brotherhood of the Scrier"
       ],
       "villainCount": 3
     },
     {
       "issueNumber": 435,
       "villainsInIssue": [
-        "Rose",
         "Delilah",
+        "The Rose",
+        "Brotherhood of the Scrier",
         "Black Tarantula",
         "Don Fortunato",
-        "Brotherhood of the Scriers",
         "Bloodscream",
         "Roughouse"
       ],
@@ -3870,7 +3677,7 @@
     "y": {
       "domain": [
         0,
-        30
+        26
       ],
       "range": [
         570,
@@ -3890,7 +3697,6 @@
     "Doctor Doom": "#d35400",
     "Doombot": "#8e44ad",
     "The Lizard": "#34495e",
-    "Museum Gunmen": "#e74c3c",
     "Living Brain": "#f1c40f",
     "Electro": "#2980b9",
     "Big Man": "#e67e22",
@@ -3899,8 +3705,6 @@
     "Fancy Dan": "#f1c40f",
     "Ox": "#9b59b6",
     "Blackie Gaxton": "#16a085",
-    "Numerous unnamed gangsters": "#3498db",
-    "Mysterio": "#8e44ad",
     "Green Goblin": "#8e44ad",
     "Kraven the Hunter": "#16a085",
     "Circus of Crime": "#34495e",
@@ -3913,164 +3717,92 @@
     "Rock Gimpy": "#34495e",
     "Scorpion": "#16a085",
     "Beetle": "#16a085",
-    "Masters of Menace": "#c0392b",
     "Princess Python": "#f39c12",
     "Precious": "#c0392b",
     "Lucky Lobo": "#1abc9c",
     "Mike": "#e74c3c",
-    "Numerous unnamed others": "#2ecc71",
     "Spencer Smythe": "#2ecc71",
     "Spider Slayer": "#1abc9c",
     "Crime Master": "#e74c3c",
-    "Crime-Master": "#8e44ad",
     "Molten Man": "#27ae60",
     "Cat Burglar": "#34495e",
-    "Master Planner": "#34495e",
     "Foxy Briggs": "#34495e",
-    "Master Planner's henchmen": "#3498db",
     "Looter": "#2ecc71",
     "Mendel Stromm": "#1abc9c",
-    "Norman Osborn": "#9b59b6",
     "Joe Smith": "#f39c12",
     "Boinard": "#f1c40f",
-    "Blackie": "#d35400",
     "Rhino": "#2ecc71",
     "Colonel John Jameson": "#27ae60",
-    "Lizard": "#2ecc71",
     "Shocker": "#9b59b6",
     "Kingpin": "#f1c40f",
     "Flint": "#f1c40f",
     "Shorty": "#27ae60",
     "Kingpin's Henchmen": "#2ecc71",
-    "Big Turk": "#2980b9",
-    "Blinker": "#34495e",
-    "Members of Master Planner's gang": "#34495e",
     "J. Jonah Jameson": "#e74c3c",
     "Spider-Slayer Mark II": "#d35400",
     "Dr. Winkler": "#27ae60",
-    "Mr. Slade": "#f39c12",
-    "Louie": "#e74c3c",
     "Medusa": "#d35400",
-    "Mack": "#1abc9c",
     "Duke": "#f39c12",
     "Red": "#2980b9",
     "Wilson": "#c0392b",
-    "Crusher": "#f39c12",
-    "Numerous unnamed members": "#1abc9c",
-    "Three unnamed henchmen": "#e74c3c",
-    "Numerous unnamed henchmen": "#e74c3c",
     "Quicksilver": "#3498db",
     "Maggia": "#9b59b6",
     "Manfredi Family": "#e67e22",
     "Man-Mountain Marko": "#e74c3c",
     "Caesar Cicero": "#c0392b",
     "Silvermane": "#3498db",
-    "Three unnamed members": "#d35400",
-    "Four unnamed members": "#e74c3c",
-    "Man Mountain Marko": "#f39c12",
+    "Blackie": "#d35400",
     "Prowler": "#c0392b",
     "Kangaroo": "#2ecc71",
     "Schemer": "#27ae60",
     "Black Widow": "#27ae60",
     "Sam Bullit": "#e67e22",
-    "Terrorists": "#2980b9",
-    "Unnamed pusher and his two henchmen": "#f1c40f",
-    "Turpo": "#2980b9",
     "Morbius": "#e74c3c",
     "Gog": "#e74c3c",
     "Giant One": "#34495e",
     "Gibbon": "#16a085",
-    "Debt Collectors": "#8e44ad",
-    "Bert": "#34495e",
-    "Benny": "#2980b9",
-    "Doctor Octopus' Henchmen": "#f1c40f",
-    "Mickey": "#e67e22",
-    "Tex": "#1abc9c",
-    "Unnamed Henchman": "#3498db",
-    "Doctor Octopus's Henchmen": "#27ae60",
-    "Bernie": "#27ae60",
-    "Karl": "#9b59b6",
     "Hammerhead": "#2ecc71",
-    "Hammerhead's Henchmen": "#e74c3c",
-    "Ruffio": "#27ae60",
-    "Tony": "#e67e22",
-    "Waldo": "#16a085",
-    "Bennie": "#16a085",
-    "Porky": "#16a085",
-    "Ernie": "#9b59b6",
-    "Jimmy": "#16a085",
-    "Harvey": "#16a085",
-    "Hammerhead's Men": "#9b59b6",
-    "Chuck": "#f1c40f",
-    "Doctor Octopus' Men": "#16a085",
     "Smasher": "#e74c3c",
     "Disruptor": "#f1c40f",
     "Dr. Thaxton": "#f1c40f",
     "Hulk": "#f1c40f",
     "Luke Cage": "#27ae60",
-    "Man-Wolf": "#2980b9",
     "Jonas Harrow": "#9b59b6",
     "Punisher": "#d35400",
     "Jackal": "#9b59b6",
-    "Bebo": "#3498db",
-    "Three unnamed robbers": "#e67e22",
-    "Reno": "#f1c40f",
-    "Flakey": "#9b59b6",
     "Juan": "#16a085",
     "Hidalgo Rodriquez": "#2ecc71",
     "Tarantula": "#d35400",
     "Mindworm": "#3498db",
     "Grizzly": "#2980b9",
+    "Mysterio": "#8e44ad",
     "Cyclone": "#f39c12",
     "Spider-Clone": "#9b59b6",
-    "Vulture, Kingpin and Sandman Robots": "#d35400",
-    "Two Unnamed Kidnappers": "#34495e",
-    "Paine": "#2980b9",
-    "Sandman's Employer": "#27ae60",
     "Worldwide Habitual Offender Computer": "#d35400",
-    "Jason Sledge": "#27ae60",
     "Leroy Tallon": "#2980b9",
-    "Conrad Fox": "#34495e",
     "Mirage": "#9b59b6",
     "Man with the 999 Faces/\"Daredevil\"": "#2ecc71",
     "Toy": "#3498db",
     "Jigsaw": "#f39c12",
     "Snake-Eyes": "#2ecc71",
-    "Roscoe": "#27ae60",
     "Stegron": "#e74c3c",
-    "Stegron The Dinosaur Man": "#e67e22",
     "Will O' The Wisp": "#34495e",
     "Dr. Faustus": "#34495e",
-    "Doctor Faustus": "#f1c40f",
     "Photon": "#f1c40f",
     "A.I.M": "#34495e",
     "Harry Daze": "#16a085",
     "Rocket Racer": "#2980b9",
-    "People's Liberation Front": "#e74c3c",
     "Hitman": "#34495e",
-    "Morty, Ralph, Milo and other unnamed members of the PLF": "#34495e",
-    "Frank": "#f39c12",
     "The Human Fly": "#8e44ad",
-    "Dr. Doom": "#1abc9c",
-    "Dr. Octopus": "#16a085",
-    "Morbius the Living Vampire": "#c0392b",
     "Jackson Weele": "#f39c12",
-    "Big Wheel": "#27ae60",
     "The Dragon Lords": "#34495e",
     "White Dragon": "#e74c3c",
-    "Human Fly": "#3498db",
-    "Fly": "#f1c40f",
     "Black Cat": "#c0392b",
     "Boris Korpse": "#c0392b",
     "Bruno Grainger": "#27ae60",
     "Emil Greco": "#16a085",
-    "The Burglar": "#c0392b",
-    "Dr. Rinehart": "#16a085",
     "Lorenzo Jacobi": "#1abc9c",
     "Alfred": "#1abc9c",
-    "Arnie": "#e74c3c",
-    "Reis": "#2980b9",
-    "Seaman": "#9b59b6",
     "Hatay": "#16a085",
     "Lightmaster": "#34495e",
     "Mesmero": "#d35400",
@@ -4082,20 +3814,14 @@
     "Wizard": "#e67e22",
     "Llyra": "#e67e22",
     "Frightful Four": "#e67e22",
-    "The Wizard": "#8e44ad",
-    "The Sandman": "#d35400",
     "The Trapster": "#f1c40f",
-    "Trapster": "#e67e22",
-    "Unnamed gunmen": "#1abc9c",
     "Mud-Thing": "#d35400",
     "Grey Gargoyle": "#2980b9",
     "Armand DuBroth": "#34495e",
     "National Syndicate Directorate": "#34495e",
     "Rat Pack": "#f1c40f",
     "Louie Frenchetti": "#c0392b",
-    "Blinky": "#2ecc71",
     "Weasel": "#34495e",
-    "Rodney - Polly's nephew": "#e67e22",
     "Ramrod": "#f39c12",
     "Speed Demon": "#f1c40f",
     "Red Ghost": "#e67e22",
@@ -4105,7 +3831,6 @@
     "Igor": "#8e44ad",
     "Foolkiller": "#1abc9c",
     "Phil Bradshaw": "#1abc9c",
-    "his goons": "#2980b9",
     "Sam Galvagno": "#d35400",
     "Murderer by Spider": "#2ecc71",
     "Juggernaut": "#e67e22",
@@ -4114,15 +3839,9 @@
     "Mister Hyde": "#c0392b",
     "Brand Corporation": "#27ae60",
     "Smith": "#34495e",
-    "Will O' the Wisp": "#f1c40f",
-    "Jenkins": "#f1c40f",
-    "Mr. Smith": "#1abc9c",
     "James Melvin": "#27ae60",
-    "Dr. Fenton": "#27ae60",
-    "Dodds": "#f1c40f",
     "Roxxon Oil Company": "#16a085",
     "Harv Carson": "#9b59b6",
-    "Thorpe": "#1abc9c",
     "John T. Gamelin": "#f39c12",
     "Board of Directors": "#16a085",
     "August D'Angelo": "#34495e",
@@ -4134,42 +3853,30 @@
     "Universal Liberation Army": "#1abc9c",
     "Lefty Donovan": "#e67e22",
     "Thunderball": "#f39c12",
-    "Unnamed mugger": "#16a085",
-    "Rose": "#9b59b6",
     "Jack O'Lantern": "#8e44ad",
     "Frankie Silvera": "#e67e22",
     "Ralph Mac": "#c0392b",
     "Puma": "#2980b9",
-    "The Rose": "#1abc9c",
     "Spider-Man's Black Suit": "#3498db",
     "Harry": "#16a085",
-    "Symbiote Suit": "#d35400",
     "Roberto DeNatale": "#e67e22",
-    "Bluto": "#16a085",
-    "Cheo": "#16a085",
-    "other unnamed henchmen": "#2ecc71",
     "Jake \"D.J.\" Jones": "#d35400",
     "Blazing Skull Gang": "#16a085",
-    "Matt": "#3498db",
     "Eddie": "#c0392b",
     "Red 9": "#27ae60",
     "Black Fox": "#9b59b6",
-    "Various Thugs": "#f39c12",
     "The Commuter": "#e67e22",
     "Arranger": "#2980b9",
     "Firelord": "#16a085",
     "Manslaughter Marsdale": "#9b59b6",
-    "Madame Fang": "#c0392b",
     "Slyde": "#f39c12",
     "Beyonder": "#1abc9c",
     "Mephisto": "#9b59b6",
     "Zarathos": "#34495e",
     "Scourge": "#c0392b",
-    "Kidnappers": "#1abc9c",
     "Wraith": "#16a085",
     "Sinister Syndicate": "#34495e",
     "Boomerang": "#9b59b6",
-    "Hydroman": "#2980b9",
     "X-Factor": "#2ecc71",
     "Cyclops": "#2ecc71",
     "Marvel Girl": "#e67e22",
@@ -4179,24 +3886,18 @@
     "Titania": "#e67e22",
     "Absorbing Man": "#8e44ad",
     "Blue Boys": "#8e44ad",
-    "The Blue Boys": "#3498db",
     "1400 Club": "#1abc9c",
     "Foreigner": "#27ae60",
-    "Unnamed Agents": "#3498db",
     "Preserver": "#c0392b",
-    "Max": "#d35400",
     "Alistaire Smythe": "#f1c40f",
-    "Alistair Smythe": "#8e44ad",
     "Philip Watson": "#2ecc71",
     "Vermin": "#e67e22",
     "Doctor Hope": "#27ae60",
     "Chance": "#16a085",
     "Life Foundation": "#e67e22",
     "Carlton Drake": "#e67e22",
-    "Venom": "#34495e",
     "Frank Cruz": "#c0392b",
     "Royce Nero": "#27ae60",
-    "Franz Kraus": "#d35400",
     "Transcorp": "#e67e22",
     "Troy Fishburne": "#e74c3c",
     "Humbug": "#e74c3c",
@@ -4205,22 +3906,17 @@
     "Styx": "#1abc9c",
     "Stone": "#8e44ad",
     "Killer Shrike": "#f39c12",
-    "The Tinkerer": "#f1c40f",
     "Malcolm Kinderman": "#1abc9c",
-    "Unnamed bank robber": "#3498db",
+    "Venom": "#34495e",
     "Justin Hammer": "#f1c40f",
     "Backlash": "#8e44ad",
-    "Chakane": "#34495e",
     "Protectors": "#27ae60",
     "Sabretooth": "#16a085",
     "ULTIMATUM": "#2980b9",
     "Major Toler Weil": "#e74c3c",
     "Prime Minister Klaus Limka": "#27ae60",
-    "MacVay": "#d35400",
     "Red Skull": "#27ae60",
-    "Ultimatum": "#f1c40f",
     "Resistants": "#27ae60",
-    "Sweatshop": "#f39c12",
     "Watchdogs": "#1abc9c",
     "Graviton": "#f39c12",
     "Magneto": "#34495e",
@@ -4232,10 +3928,6 @@
     "Loki": "#d35400",
     "Avengers": "#8e44ad",
     "Galactus": "#3498db",
-    "Unidentified Drug Cartel": "#8e44ad",
-    "Eddie Brock": "#3498db",
-    "Col. Buchinsky": "#9b59b6",
-    "Venom Symbiote": "#27ae60",
     "Sinister Six": "#f39c12",
     "Femme Fatales": "#3498db",
     "Bloodlust": "#e74c3c",
@@ -4245,58 +3937,29 @@
     "Cardiac": "#8e44ad",
     "Hammer Industries": "#8e44ad",
     "Phillip Barnett": "#27ae60",
-    "Weapons Dealers": "#9b59b6",
     "Arcane Order of the Night": "#2ecc71",
     "Andrew Carpathian": "#16a085",
-    "Unnamed members": "#2980b9",
     "Secret Empire": "#f1c40f",
     "Number Two": "#e67e22",
-    "Number Five": "#3498db",
-    "Number Seven": "#f39c12",
     "Midnight": "#8e44ad",
-    "Eliot Franklin": "#1abc9c",
-    "Number Three": "#27ae60",
-    "Number Twelve": "#27ae60",
     "Lynn Church": "#1abc9c",
-    "Number Nine": "#3498db",
-    "Number Ten": "#2ecc71",
     "Sonic": "#2980b9",
     "Chain": "#f39c12",
     "Grasp": "#f1c40f",
-    "Number Four": "#2980b9",
-    "Number Thirteen": "#f39c12",
-    "Number Twenty-One": "#16a085",
-    "Dr. Eliot Franklin": "#8e44ad",
-    "Number Six": "#e74c3c",
     "Stane International": "#c0392b",
     "Joe Faulkner": "#34495e",
-    "Stane International Security Guards": "#34495e",
     "Carnage": "#3498db",
     "Carnage Symbiote": "#f1c40f",
-    "Carnage symbiote": "#e67e22",
-    "Saboteurs": "#2980b9",
-    "The Green Goblin": "#2980b9",
     "Viper": "#16a085",
     "Sweat Shop": "#e74c3c",
-    "Errol": "#e67e22",
-    "Jason": "#27ae60",
-    "Tompkins": "#d35400",
     "Death-Shield": "#16a085",
     "Jagged Bow": "#d35400",
     "Blood Spider": "#34495e",
-    "U.L.T.I.M.A.T.U.M": "#2ecc71",
-    "Spider-Slayer Mark X": "#2ecc71",
-    "Spider-Slayer Mark XI": "#d35400",
-    "Spider-Slayer Mark XII": "#27ae60",
-    "Spider-Slayer Mark XIII": "#c0392b",
     "Max Young": "#e67e22",
-    "Spider-Slayer Mark XIV": "#c0392b",
     "Charlie Shaddock": "#34495e",
     "Spider-Slayer Mark XV": "#8e44ad",
     "Spider-Slayer Mark XVI": "#c0392b",
     "Spider-Slayer Mark XVII": "#27ae60",
-    "Agent Charles Shaddock": "#e74c3c",
-    "Ultimate Spider-Slayer": "#34495e",
     "Perkins": "#c0392b",
     "Wild Pack": "#27ae60",
     "Amy Chen": "#3498db",
@@ -4317,7 +3980,6 @@
     "Firearm": "#1abc9c",
     "Screech": "#34495e",
     "Bomblast": "#f1c40f",
-    "The Vulture": "#3498db",
     "Richard Parker Simulacrum": "#e67e22",
     "Spider-Man": "#e74c3c",
     "Enos Warwick": "#1abc9c",
@@ -4329,32 +3991,26 @@
     "The Owl": "#d35400",
     "Kaine": "#16a085",
     "Stunner": "#2ecc71",
-    "Judas Traveller": "#f1c40f",
     "Medea": "#8e44ad",
     "Peter Parker": "#16a085",
-    "Spidercide": "#3498db",
     "Armada": "#27ae60",
     "Jagged Skulls Gang": "#d35400",
     "Great Game": "#1abc9c",
-    "Great Game Sponsors": "#16a085",
     "James Johnsmeyer": "#34495e",
     "Yassaf": "#3498db",
     "Nicolas": "#d35400",
     "Chu Chi-Huan": "#27ae60",
     "Joystick": "#c0392b",
     "Polestar": "#e67e22",
-    "Cletus Kasady": "#e67e22",
     "Multivex Corporation": "#3498db",
-    "Gaunt": "#3498db",
     "Cell-12": "#27ae60",
     "Bramer": "#3498db",
     "Nardi": "#f1c40f",
     "Andros": "#e74c3c",
     "Lasher": "#d35400",
-    "Multivex armored security guards": "#f39c12",
     "Delilah": "#f1c40f",
+    "The Rose": "#1abc9c",
     "Sentinels": "#9b59b6",
-    "Mister Nacht": "#8e44ad",
     "Boone": "#9b59b6",
     "Brotherhood of the Scrier": "#e74c3c",
     "Black Tarantula": "#9b59b6",
@@ -4365,14 +4021,83 @@
     "Karsano": "#2980b9",
     "Don Fortunato": "#16a085",
     "Yano": "#2ecc71",
-    "Titania/Thunder Girl": "#27ae60",
-    "Absorbing Man/Lightning Bolt": "#1abc9c",
     "Carnage Cosmic": "#f39c12",
     "Shotgun": "#d35400",
-    "Brotherhood of the Scriers": "#1abc9c",
     "Bloodscream": "#3498db",
     "Roughouse": "#34495e",
     "Plant-Man": "#d35400",
-    "Synario": "#27ae60"
+    "Synario": "#27ae60",
+    "Museum Gunmen": "#e74c3c",
+    "Numerous unnamed gangsters": "#3498db",
+    "Numerous unnamed others": "#2ecc71",
+    "Master Planner's henchmen": "#3498db",
+    "Members of Master Planner's gang": "#34495e",
+    "Numerous unnamed members": "#1abc9c",
+    "Three unnamed henchmen": "#e74c3c",
+    "Numerous unnamed henchmen": "#e74c3c",
+    "Three unnamed members": "#d35400",
+    "Four unnamed members": "#e74c3c",
+    "Terrorists": "#2980b9",
+    "Unnamed pusher and his two henchmen": "#f1c40f",
+    "Turpo": "#2980b9",
+    "Debt Collectors": "#8e44ad",
+    "Bert": "#34495e",
+    "Benny": "#2980b9",
+    "Doctor Octopus' Henchmen": "#f1c40f",
+    "Mickey": "#e67e22",
+    "Tex": "#1abc9c",
+    "Unnamed Henchman": "#3498db",
+    "Doctor Octopus's Henchmen": "#27ae60",
+    "Bernie": "#27ae60",
+    "Karl": "#9b59b6",
+    "Hammerhead's Henchmen": "#e74c3c",
+    "Ruffio": "#27ae60",
+    "Tony": "#e67e22",
+    "Waldo": "#16a085",
+    "Bennie": "#16a085",
+    "Porky": "#16a085",
+    "Ernie": "#9b59b6",
+    "Jimmy": "#16a085",
+    "Harvey": "#16a085",
+    "Hammerhead's Men": "#9b59b6",
+    "Chuck": "#f1c40f",
+    "Doctor Octopus' Men": "#16a085",
+    "Three unnamed robbers": "#e67e22",
+    "Reno": "#f1c40f",
+    "Flakey": "#9b59b6",
+    "Vulture, Kingpin and Sandman Robots": "#d35400",
+    "Two Unnamed Kidnappers": "#34495e",
+    "Jason Sledge": "#27ae60",
+    "Conrad Fox": "#34495e",
+    "People's Liberation Front": "#e74c3c",
+    "Morty, Ralph, Milo and other unnamed members of the PLF": "#34495e",
+    "Frank": "#f39c12",
+    "Unnamed gunmen": "#1abc9c",
+    "Blinky": "#2ecc71",
+    "Rodney - Polly's nephew": "#e67e22",
+    "his goons": "#2980b9",
+    "Unnamed mugger": "#16a085",
+    "other unnamed henchmen": "#2ecc71",
+    "Various Thugs": "#f39c12",
+    "Madame Fang": "#c0392b",
+    "Kidnappers": "#1abc9c",
+    "Unnamed Agents": "#3498db",
+    "Unnamed bank robber": "#3498db",
+    "Chakane": "#34495e",
+    "MacVay": "#d35400",
+    "Sweatshop": "#f39c12",
+    "Unidentified Drug Cartel": "#8e44ad",
+    "Weapons Dealers": "#9b59b6",
+    "Unnamed members": "#2980b9",
+    "Stane International Security Guards": "#34495e",
+    "Saboteurs": "#2980b9",
+    "Jason": "#27ae60",
+    "Tompkins": "#d35400",
+    "Spider-Slayer Mark X": "#2ecc71",
+    "Spider-Slayer Mark XI": "#d35400",
+    "Spider-Slayer Mark XII": "#27ae60",
+    "Spider-Slayer Mark XIII": "#c0392b",
+    "Spider-Slayer Mark XIV": "#c0392b",
+    "Multivex armored security guards": "#f39c12"
   }
 }

@@ -21,6 +21,7 @@ describe('D3 Graph - Proof Steps', () => {
     villains: [
       {
         id: 'green-goblin',
+        name: 'Green Goblin',
         names: ['Green Goblin'],
         firstAppearance: 1,
         appearances: [1, 2, 3],
@@ -28,6 +29,7 @@ describe('D3 Graph - Proof Steps', () => {
       },
       {
         id: 'doctor-octopus',
+        name: 'Doctor Octopus',
         names: ['Doctor Octopus'],
         firstAppearance: 3,
         appearances: [3, 5],
@@ -43,6 +45,7 @@ describe('D3 Graph - Proof Steps', () => {
       totalVillains: 2,
       mostFrequent: {
         id: 'green-goblin',
+        name: 'Green Goblin',
         names: ['Green Goblin'],
         firstAppearance: 1,
         appearances: [1, 2, 3],
