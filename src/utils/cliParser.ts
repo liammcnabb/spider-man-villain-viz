@@ -137,7 +137,9 @@ export function getDefaultIssuesForVolume(volume: string): number[] {
     'Amazing Spider-Man Vol 2': [1, 58],
     'Amazing Spider-Man Vol 3': [1, 20],
     'Amazing Spider-Man Vol 4': [1, 32],
-    'Amazing Spider-Man Vol 5': [1, 93]
+    'Amazing Spider-Man Vol 5': [1, 93],
+    // Added support for Untold Tales of Spider-Man Vol 1
+    'Untold Tales of Spider-Man Vol 1': [1, 25]
   };
   
   const range = volumeRanges[volume];

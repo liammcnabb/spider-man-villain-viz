@@ -20,6 +20,7 @@ class SpiderManVisualization {
         this.config = null;
         this.villains = [];
         this.groups = [];
+        this.seriesData = [];  // Store separate series data for grid display
     }
 
     /**
@@ -38,6 +39,9 @@ class SpiderManVisualization {
             this.villains = villainData.villains || [];
             this.groups = this.resolveGroups(villainData);
 
+            // Load series-specific data for grid visualization
+            this.seriesData = await this.loadSeriesData();
+
             // Render all components
             this.renderStats();
             this.renderGridTimeline();
@@ -53,6 +57,33 @@ class SpiderManVisualization {
                 'Please run "npm run scrape" first.'
             );
         }
+    }
+
+    /**
+     * Load series-specific data files
+     */
+    async loadSeriesData() {
+        const seriesList = [
+            { file: 'data/villains.Amazing_Spider-Man_Vol_1.json', name: 'Amazing Spider-Man Vol 1', color: '#e74c3c' },
+            { file: 'data/villains.Untold_Tales_of_Spider-Man_Vol_1.json', name: 'Untold Tales of Spider-Man Vol 1', color: '#3498db' }
+        ];
+
+        const loaded = [];
+        for (const series of seriesList) {
+            try {
+                const data = await this.loadJSON(series.file);
+                loaded.push({
+                    name: series.name,
+                    color: series.color,
+                    data: data
+                });
+            } catch (err) {
+                // Series file not available, skip silently
+                console.debug(`Series file ${series.file} not available`);
+            }
+        }
+
+        return loaded;
     }
 
     /**
@@ -132,13 +163,51 @@ class SpiderManVisualization {
     }
 
     /**
-     * Render grid timeline visualization
+     * Render grid timeline visualization with separate grids per series
      */
     renderGridTimeline() {
         const gridContainer = document.getElementById('grid-timeline');
         if (!gridContainer) return;
 
-        const timeline = this.data.timeline || [];
+        // Clear previous content
+        gridContainer.innerHTML = '';
+
+        // Create a grid for each series
+        for (const series of this.seriesData) {
+            // Create section header
+            const header = document.createElement('div');
+            header.style.marginTop = '30px';
+            header.style.marginBottom = '15px';
+            
+            const title = document.createElement('h3');
+            title.textContent = series.name;
+            title.style.marginBottom = '10px';
+            title.style.color = series.color;
+            title.style.fontWeight = 'bold';
+            
+            header.appendChild(title);
+            gridContainer.appendChild(header);
+
+            // Create SVG container for this series' grid
+            const svgContainer = document.createElement('div');
+            svgContainer.style.marginBottom = '20px';
+            svgContainer.style.overflowX = 'auto';
+            svgContainer.style.border = `2px solid ${series.color}`;
+            svgContainer.style.borderRadius = '4px';
+            svgContainer.style.padding = '10px';
+            
+            gridContainer.appendChild(svgContainer);
+
+            // Render grid for this series
+            this.renderSeriesGrid(series, svgContainer);
+        }
+    }
+
+    /**
+     * Render a single series grid with color coding
+     */
+    renderSeriesGrid(series, containerDiv) {
+        const timeline = series.data.timeline || [];
         
         // Extract unique issues and villains in order
         const issueSet = new Set();
@@ -162,8 +231,6 @@ class SpiderManVisualization {
         });
 
         const issues = Array.from(issueSet).sort((a, b) => a - b).map(i => `#${i}`);
-        // Only show villains who have appeared in at least one issue
-        // Sorted by their first appearance issue
         const villains = Object.keys(villainFirstAppearance).sort((a, b) => villainFirstAppearance[a] - villainFirstAppearance[b]);
 
         const cellSize = 20;
@@ -178,13 +245,12 @@ class SpiderManVisualization {
         const totalHeight = height + marginTop + marginBottom;
 
         // Create SVG
-        const svg = d3.select('#grid-timeline')
+        const svg = d3.select(containerDiv)
             .append('svg')
-            .attr('width', '100%')
-            .attr('height', '100%')
+            .attr('width', Math.max(800, totalWidth))
+            .attr('height', totalHeight)
             .attr('viewBox', `0 0 ${totalWidth} ${totalHeight}`)
-            .style('background', '#fff')
-            .style('border', '1px solid #ddd');
+            .style('background', '#fff');
 
         // Pan and zoom group
         const g = svg.append('g')
@@ -204,7 +270,6 @@ class SpiderManVisualization {
         issues.forEach((issue, xIdx) => {
             villains.forEach((villain, yIdx) => {
                 const issueNum = parseInt(issue.substring(1));
-                // Only create cell if villain has appeared by this issue
                 if (issueNum >= villainFirstAppearance[villain]) {
                     const isPresent = appearances[issueNum]?.has(villain) ?? false;
                     cellData.push({
@@ -228,7 +293,7 @@ class SpiderManVisualization {
             .attr('y', (d) => d.y * cellSize)
             .attr('width', cellSize)
             .attr('height', cellSize)
-            .attr('fill', (d) => d.present ? '#e74c3c' : '#ecf0f1')
+            .attr('fill', (d) => d.present ? series.color : '#ecf0f1')
             .attr('stroke', '#bdc3c7')
             .attr('stroke-width', 0.5)
             .on('mouseenter', (event, d) => {
@@ -251,7 +316,7 @@ class SpiderManVisualization {
             .attr('font-weight', 'bold')
             .text((d) => d);
 
-        // Villain labels (Y-axis) - positioned at first appearance
+        // Villain labels (Y-axis)
         g.selectAll('text.villain-label')
             .data(villains)
             .enter()

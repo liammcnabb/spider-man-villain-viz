@@ -11,8 +11,35 @@ import type { IssueData, RawVillainData, Antagonist } from '../types';
 
 // Configuration constants
 const MARVEL_FANDOM_BASE = 'https://marvel.fandom.com';
-const AMAZING_SPIDER_MAN_URL_TEMPLATE = 
-  `${MARVEL_FANDOM_BASE}/wiki/Amazing_Spider-Man_Vol_1_{issue}`;
+
+interface SeriesConfig {
+  slugTemplate: string; // e.g., `${MARVEL_FANDOM_BASE}/wiki/Amazing_Spider-Man_Vol_1_{issue}`
+  titlePrefix: string;  // e.g., 'Amazing Spider-Man'
+}
+
+// Known series configurations (extendable)
+const SERIES_CONFIG: Record<string, SeriesConfig> = {
+  'Amazing Spider-Man Vol 1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Amazing_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Amazing Spider-Man'
+  },
+  // Alias: accept wiki-style slug as volume input
+  'Amazing_Spider-Man_Vol_1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Amazing_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Amazing Spider-Man'
+  },
+  // New series support
+  'Untold Tales of Spider-Man Vol 1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Untold_Tales_of_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Untold Tales of Spider-Man'
+  }
+  ,
+  // Alias: wiki-style slug
+  'Untold_Tales_of_Spider-Man_Vol_1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Untold_Tales_of_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Untold Tales of Spider-Man'
+  }
+};
 const DEFAULT_TIMEOUT = 10000;
 const REQUEST_DELAY_MS = 1000; // Respectful scraping
 
@@ -22,6 +49,7 @@ const REQUEST_DELAY_MS = 1000; // Respectful scraping
 export class MarvelScraper {
   private axiosClient: AxiosInstance;
   private requestCount: number = 0;
+  private currentSeries: SeriesConfig = SERIES_CONFIG['Amazing Spider-Man Vol 1'];
 
   constructor() {
     this.axiosClient = axios.create({
@@ -39,6 +67,12 @@ export class MarvelScraper {
    * @param volumeName - Name of the volume (default: "Amazing Spider-Man Vol 1")
    * @returns Promise resolving to raw scraped data
    * @throws Error if scraping fails
+   */
+  /**
+   * Scrapes specific issues of a selected series for antagonist data
+   *
+   * @param issueNumbers - Array of issue numbers to scrape
+   * @param volumeName - Human-readable volume/series name
    */
   async scrapeIssues(
     issueNumbers: number[],
@@ -62,6 +96,9 @@ export class MarvelScraper {
     console.log(
       `Starting scrape: ${sortedIssues.length} issues (${min}-${max})`
     );
+
+    // Resolve and store current series configuration (fallback to ASM Vol 1)
+    this.currentSeries = SERIES_CONFIG[volumeName] || SERIES_CONFIG['Amazing Spider-Man Vol 1'];
 
     const issues: IssueData[] = [];
 
@@ -93,7 +130,7 @@ export class MarvelScraper {
 
     return {
       series: volumeName,
-      baseUrl: AMAZING_SPIDER_MAN_URL_TEMPLATE,
+      baseUrl: this.currentSeries.slugTemplate,
       issues
     };
   }
@@ -148,7 +185,7 @@ export class MarvelScraper {
 
       return {
         issueNumber,
-        title: `Amazing Spider-Man #${issueNumber}`,
+        title: `${this.currentSeries.titlePrefix} #${issueNumber}`,
         antagonists
       };
     } catch (error) {
@@ -168,10 +205,8 @@ export class MarvelScraper {
    * @returns Formatted URL string
    */
   private getIssueUrl(issueNumber: number): string {
-    return AMAZING_SPIDER_MAN_URL_TEMPLATE.replace(
-      '{issue}',
-      issueNumber.toString()
-    );
+    const tmpl = this.currentSeries.slugTemplate;
+    return tmpl.replace('{issue}', issueNumber.toString());
   }
 
   /**

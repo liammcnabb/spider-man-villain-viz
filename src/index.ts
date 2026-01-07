@@ -97,13 +97,32 @@ async function runScraper(): Promise<void> {
     // Serialize for JSON storage
     const serialized = serializeProcessedData(processedData);
     
-    // Save to file
+    // Determine series-specific filenames (additive, non-destructive)
+    const baseUrl = typeof (rawData as any).baseUrl === 'string' ? (rawData as any).baseUrl as string : '';
+    const slugFromBase = baseUrl.includes('/wiki/')
+      ? baseUrl.split('/wiki/')[1].replace('_{issue}', '')
+      : options.volume.replace(/\s+/g, '_').replace(/Vol\s+/i, 'Vol_');
+    const seriesSlug = slugFromBase || 'series';
+
+    const SERIES_VILLAINS_JSON = path.join(DATA_DIR, `villains.${seriesSlug}.json`);
+    const SERIES_PUBLIC_VILLAINS_JSON = path.join(PUBLIC_DATA_DIR, `villains.${seriesSlug}.json`);
+
+    const SERIES_CONFIG_JSON = path.join(DATA_DIR, `d3-config.${seriesSlug}.json`);
+    const SERIES_PUBLIC_CONFIG_JSON = path.join(PUBLIC_DATA_DIR, `d3-config.${seriesSlug}.json`);
+
+    // Save default files (legacy behavior: will be replaced by combined below)
     fs.writeFileSync(
       VILLAINS_JSON,
       JSON.stringify(serialized, null, 2)
     );
-    
+    // Save series-specific additive files
+    fs.writeFileSync(
+      SERIES_VILLAINS_JSON,
+      JSON.stringify(serialized, null, 2)
+    );
+
     console.log(`✓ Saved to ${VILLAINS_JSON}`);
+    console.log(`✓ Saved to ${SERIES_VILLAINS_JSON}`);
     
     // Log statistics
     console.log('\n📊 Statistics:');
@@ -121,17 +140,155 @@ async function runScraper(): Promise<void> {
     console.log('Generating D3 visualization config...');
     const d3Config = generateD3Config(processedData);
     const d3ConfigJSON = exportD3ConfigJSON(d3Config);
-    
+
     const configPath = path.join(DATA_DIR, 'd3-config.json');
     fs.writeFileSync(
       configPath,
       JSON.stringify(d3ConfigJSON, null, 2)
     );
+    // Save series-specific config (additive)
+    fs.writeFileSync(
+      SERIES_CONFIG_JSON,
+      JSON.stringify(d3ConfigJSON, null, 2)
+    );
     
     console.log(`✓ Saved D3 config to ${configPath}`);
+    console.log(`✓ Saved D3 config to ${SERIES_CONFIG_JSON}`);
     
-    // Copy files to public directory for HTTP server
+    // Build combined villains dataset across all series-specific files
+    try {
+      const files = fs.readdirSync(DATA_DIR)
+        .filter(f => f.startsWith('villains.') && f.endsWith('.json'));
+
+      type SerializedVillain = {
+        id: string;
+        name: string;
+        aliases: string[];
+        url?: string;
+        firstAppearance: number;
+        appearances: number[];
+        frequency: number;
+      };
+
+      type SerializedGroup = {
+        id: string;
+        name: string;
+        url?: string;
+        appearances: number[];
+        frequency: number;
+      };
+
+      const datasets: any[] = [];
+      for (const f of files) {
+        try {
+          const content = fs.readFileSync(path.join(DATA_DIR, f), 'utf-8');
+          datasets.push(JSON.parse(content));
+        } catch {}
+      }
+      // Ensure current dataset is included even if files list misses it
+      datasets.push(serialized);
+
+      // Merge villains by URL if present, else by id
+      const villainMap = new Map<string, SerializedVillain>();
+      const groupMap = new Map<string, SerializedGroup>();
+
+      for (const ds of datasets) {
+        const villains: SerializedVillain[] = Array.isArray(ds?.villains) ? ds.villains : [];
+        for (const v of villains) {
+          const key = v.url || v.id;
+          if (!villainMap.has(key)) {
+            // clone
+            villainMap.set(key, {
+              id: v.id,
+              name: v.name,
+              aliases: [...(v.aliases || [])],
+              url: v.url,
+              firstAppearance: v.firstAppearance,
+              appearances: [...(v.appearances || [])],
+              frequency: 0
+            });
+          } else {
+            const cur = villainMap.get(key)!;
+            // merge aliases and choose existing name
+            const aliasSet = new Set([...(cur.aliases || []), ...(v.aliases || [])]);
+            cur.aliases = Array.from(aliasSet);
+            // union appearances
+            const appearSet = new Set([...(cur.appearances || []), ...(v.appearances || [])]);
+            cur.appearances = Array.from(appearSet).sort((a, b) => a - b);
+            // earliest first appearance
+            cur.firstAppearance = Math.min(cur.firstAppearance, v.firstAppearance);
+          }
+        }
+
+        const groups: SerializedGroup[] = Array.isArray(ds?.groups) ? ds.groups : [];
+        for (const g of groups) {
+          const gkey = g.name || g.id;
+          if (!groupMap.has(gkey)) {
+            groupMap.set(gkey, {
+              id: g.id,
+              name: g.name,
+              url: g.url,
+              appearances: [...(g.appearances || [])],
+              frequency: 0
+            });
+          } else {
+            const curg = groupMap.get(gkey)!;
+            const appearSet = new Set([...(curg.appearances || []), ...(g.appearances || [])]);
+            curg.appearances = Array.from(appearSet).sort((a, b) => a - b);
+          }
+        }
+      }
+
+      // Recompute frequency as count of unique appearances
+      for (const v of villainMap.values()) {
+        v.frequency = (v.appearances || []).length;
+      }
+      for (const g of groupMap.values()) {
+        g.frequency = (g.appearances || []).length;
+      }
+
+      const combinedVillains = Array.from(villainMap.values());
+      const combinedGroups = Array.from(groupMap.values());
+
+      // Compute combined stats
+      const totalVillains = combinedVillains.length;
+      const mostFrequent = combinedVillains.reduce((prev, curr) => (curr.frequency > prev.frequency ? curr : prev),
+        { id: '', name: '', aliases: [], url: undefined, firstAppearance: 0, appearances: [], frequency: 0 } as SerializedVillain);
+      const averageFrequency = totalVillains > 0
+        ? combinedVillains.reduce((sum, v) => sum + v.frequency, 0) / totalVillains
+        : 0;
+
+      const combined = {
+        series: 'Combined',
+        processedAt: new Date().toISOString(),
+        stats: {
+          totalVillains,
+          mostFrequent: mostFrequent.name,
+          mostFrequentCount: mostFrequent.frequency,
+          averageFrequency: Math.round(averageFrequency * 100) / 100
+        },
+        villains: combinedVillains,
+        // Keep current timeline and groups optional for visualization continuity
+        timeline: (serialized as any).timeline || [],
+        groups: combinedGroups
+      };
+
+      // Overwrite default villains.json with combined
+      fs.writeFileSync(VILLAINS_JSON, JSON.stringify(combined, null, 2));
+      console.log(`✓ Wrote combined default to ${VILLAINS_JSON}`);
+    } catch (combineErr) {
+      console.error('Warning: Failed to generate combined default dataset:', combineErr);
+    }
+
+    // Copy files to public directory for HTTP server (default + series-specific)
     copyDataToPublic();
+    try {
+      fs.copyFileSync(SERIES_VILLAINS_JSON, SERIES_PUBLIC_VILLAINS_JSON);
+      fs.copyFileSync(SERIES_CONFIG_JSON, SERIES_PUBLIC_CONFIG_JSON);
+      console.log('✓ Copied series-specific data files to public directory');
+    } catch (err) {
+      console.error('Warning: Failed to copy series-specific files to public directory:', err);
+    }
     
     console.log('\n✅ Scraping complete!');
     
