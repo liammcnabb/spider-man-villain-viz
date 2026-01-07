@@ -40,6 +40,7 @@ class SpiderManVisualization {
 
             // Render all components
             this.renderStats();
+            this.renderGridTimeline();
             this.renderTimeline();
             this.renderVillainList();
             this.renderGroupList();
@@ -129,6 +130,179 @@ class SpiderManVisualization {
         document.getElementById('avgFrequency').textContent = 
             stats.averageFrequency.toFixed(2);
     }
+
+    /**
+     * Render grid timeline visualization
+     */
+    renderGridTimeline() {
+        const gridContainer = document.getElementById('grid-timeline');
+        if (!gridContainer) return;
+
+        const timeline = this.data.timeline || [];
+        
+        // Extract unique issues and villains in order
+        const issueSet = new Set();
+        const villainFirstAppearance = {};
+        const appearances = {};
+
+        timeline.forEach(entry => {
+            issueSet.add(entry.issue);
+            if (!appearances[entry.issue]) {
+                appearances[entry.issue] = new Set();
+            }
+            if (entry.villains) {
+                entry.villains.forEach(villain => {
+                    // Track first appearance for each villain
+                    if (!villainFirstAppearance[villain]) {
+                        villainFirstAppearance[villain] = entry.issue;
+                    }
+                    appearances[entry.issue].add(villain);
+                });
+            }
+        });
+
+        const issues = Array.from(issueSet).sort((a, b) => a - b).map(i => `#${i}`);
+        // Only show villains who have appeared in at least one issue
+        // Sorted by their first appearance issue
+        const villains = Object.keys(villainFirstAppearance).sort((a, b) => villainFirstAppearance[a] - villainFirstAppearance[b]);
+
+        const cellSize = 20;
+        const marginLeft = 150;
+        const marginTop = 40;
+        const marginRight = 20;
+        const marginBottom = 20;
+
+        const width = issues.length * cellSize;
+        const height = villains.length * cellSize;
+        const totalWidth = width + marginLeft + marginRight;
+        const totalHeight = height + marginTop + marginBottom;
+
+        // Create SVG
+        const svg = d3.select('#grid-timeline')
+            .append('svg')
+            .attr('width', '100%')
+            .attr('height', '100%')
+            .attr('viewBox', `0 0 ${totalWidth} ${totalHeight}`)
+            .style('background', '#fff')
+            .style('border', '1px solid #ddd');
+
+        // Pan and zoom group
+        const g = svg.append('g')
+            .attr('transform', `translate(${marginLeft},${marginTop})`);
+
+        // Pan and zoom behavior
+        svg.call(
+            d3.zoom()
+                .scaleExtent([0.5, 16])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform.translate(marginLeft, marginTop));
+                })
+        );
+
+        // Draw grid cells
+        const cellData = [];
+        issues.forEach((issue, xIdx) => {
+            villains.forEach((villain, yIdx) => {
+                const issueNum = parseInt(issue.substring(1));
+                // Only create cell if villain has appeared by this issue
+                if (issueNum >= villainFirstAppearance[villain]) {
+                    const isPresent = appearances[issueNum]?.has(villain) ?? false;
+                    cellData.push({
+                        issue,
+                        issueNum,
+                        villain,
+                        x: xIdx,
+                        y: yIdx,
+                        present: isPresent
+                    });
+                }
+            });
+        });
+
+        g.selectAll('rect.grid-cell')
+            .data(cellData)
+            .enter()
+            .append('rect')
+            .attr('class', 'grid-cell')
+            .attr('x', (d) => d.x * cellSize)
+            .attr('y', (d) => d.y * cellSize)
+            .attr('width', cellSize)
+            .attr('height', cellSize)
+            .attr('fill', (d) => d.present ? '#e74c3c' : '#ecf0f1')
+            .attr('stroke', '#bdc3c7')
+            .attr('stroke-width', 0.5)
+            .on('mouseenter', (event, d) => {
+                this.showGridTooltip(event, d);
+            })
+            .on('mouseleave', () => {
+                this.hideGridTooltip();
+            });
+
+        // Issue labels (X-axis)
+        g.selectAll('text.issue-label')
+            .data(issues)
+            .enter()
+            .append('text')
+            .attr('class', 'issue-label')
+            .attr('x', (d, i) => i * cellSize + cellSize / 2)
+            .attr('y', -10)
+            .attr('text-anchor', 'middle')
+            .attr('font-size', '11px')
+            .attr('font-weight', 'bold')
+            .text((d) => d);
+
+        // Villain labels (Y-axis) - positioned at first appearance
+        g.selectAll('text.villain-label')
+            .data(villains)
+            .enter()
+            .append('text')
+            .attr('class', 'villain-label')
+            .attr('x', (d) => {
+                const firstAppearanceIssue = villainFirstAppearance[d];
+                const issueIndex = issues.findIndex(issue => parseInt(issue.substring(1)) === firstAppearanceIssue);
+                return issueIndex * cellSize - 8;
+            })
+            .attr('y', (d, i) => i * cellSize + cellSize / 2 + 4)
+            .attr('text-anchor', 'end')
+            .attr('font-size', '11px')
+            .text((d) => d);
+    }
+
+    /**
+     * Show tooltip for grid cell
+     */
+    showGridTooltip(event, d) {
+        let tooltip = document.getElementById('grid-tooltip');
+        
+        if (!tooltip) {
+            tooltip = document.createElement('div');
+            tooltip.id = 'grid-tooltip';
+            tooltip.className = 'tooltip';
+            document.body.appendChild(tooltip);
+        }
+
+        tooltip.innerHTML = `
+            <strong>${d.villain}</strong><br>
+            Issue: ${d.issue}<br>
+            Status: ${d.present ? 'Appears' : 'Absent'}
+        `;
+
+        const rect = event.target.getBoundingClientRect();
+        tooltip.style.left = (rect.left + 10) + 'px';
+        tooltip.style.top = (rect.top - 40) + 'px';
+        tooltip.style.display = 'block';
+    }
+
+    /**
+     * Hide grid tooltip
+     */
+    hideGridTooltip() {
+        const tooltip = document.getElementById('grid-tooltip');
+        if (tooltip) {
+            tooltip.style.display = 'none';
+        }
+    }
+
 
     /**
      * Render D3 timeline visualization
