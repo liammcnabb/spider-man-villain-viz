@@ -374,6 +374,8 @@ export function serializeProcessedData(
       releaseDate: t.releaseDate,
       villainCount: t.villainCount,
       villains: t.villains.map(v => v.name),
+      series: t.series,
+      chronologicalPosition: t.chronologicalPosition,
       groups: t.groups?.map(g => ({ name: g.name, members: g.members }))
     })),
     groups: data.groups?.map(g => ({

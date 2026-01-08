@@ -87,6 +87,14 @@ npm run scrape -- --issues 1-20,50-60,100
 
 # Scrape a different volume
 npm run scrape -- --volume "Amazing Spider-Man Vol 2" --issues 1-58
+
+# Fast dev (avoid long scrapes)
+# - Use a small subset while iterating on code/visuals
+npm run scrape -- --issues 1-20
+
+# - If data/villains.json already exists, skip scraping and just serve
+#   to see UI changes against existing data
+npm run serve
 ```
 
 This creates `data/villains.json` with all extracted antagonist information.

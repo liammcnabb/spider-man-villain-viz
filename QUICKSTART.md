@@ -18,18 +18,20 @@ npm install
 - Installs d3 (visualization library)
 - Installs TypeScript and development tools
 
-### Step 3: Scrape Marvel Fandom Data (30-40 seconds)
+### Step 3: Scrape Marvel Fandom Data (or use a small sample)
 ```bash
-# Scrape all issues (default: 1-441)
+# Fast dev: scrape a small subset while iterating
+npm run scrape -- --issues 1-20
+
+# Full scrape (default: 1-441)
 npm run scrape
 
-# Or scrape specific issues:
-npm run scrape -- --issues 1-20          # First 20 issues
+# Other examples
 npm run scrape -- --issues 1,5,10,20     # Specific issues only
 npm run scrape -- --issues 1-20,50-60    # Multiple ranges
 ```
 
-**What this does:**
+**What this does:** (for the chosen range)
 - Connects to https://marvel.fandom.com
 - Fetches Amazing Spider-Man Vol 1 issues (default: 1-441)
 - Extracts antagonist information
@@ -37,6 +39,11 @@ npm run scrape -- --issues 1-20,50-60    # Multiple ranges
 - Calculates statistics
 - Saves to `data/villains.json`
 - Saves visualization config to `data/d3-config.json`
+
+**Tip for UI-only changes:** if `data/villains.json` already exists, you can skip scraping and just run:
+```bash
+npm run serve
+```
 
 **Expected output:**
 ```

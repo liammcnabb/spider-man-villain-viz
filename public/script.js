@@ -21,6 +21,37 @@ class SpiderManVisualization {
         this.villains = [];
         this.groups = [];
         this.seriesData = [];  // Store separate series data for grid display
+        this.seriesColorMap = {
+            'Amazing Spider-Man Vol 1': '#e74c3c',
+            'Amazing Spider-Man Annual Vol 1': '#9b59b6',
+            'Untold Tales of Spider-Man Vol 1': '#3498db'
+        };
+    }
+
+    /**
+     * Normalize a series name into a display title and volume label
+     */
+    getSeriesDisplay(seriesName) {
+        const name = seriesName || '';
+        const match = name.match(/^(.*)\s+Vol\s+(\d+)$/i);
+        if (match) {
+            return {
+                title: match[1].trim(),
+                volume: `Vol ${match[2]}`
+            };
+        }
+        return { title: name, volume: null };
+    }
+
+    /**
+     * Create a styled volume badge element
+     */
+    createVolumeBadge(volume) {
+        if (!volume) return null;
+        const badge = document.createElement('span');
+        badge.className = 'volume-badge';
+        badge.textContent = volume;
+        return badge;
     }
 
     /**
@@ -179,8 +210,16 @@ class SpiderManVisualization {
             header.style.marginTop = '30px';
             header.style.marginBottom = '15px';
             
+            const { title: seriesTitle, volume } = this.getSeriesDisplay(series.name);
+
             const title = document.createElement('h3');
-            title.textContent = series.name;
+            title.textContent = seriesTitle;
+            if (volume) {
+                const badge = this.createVolumeBadge(volume);
+                if (badge) {
+                    title.appendChild(badge);
+                }
+            }
             title.style.marginBottom = '10px';
             title.style.color = series.color;
             title.style.fontWeight = 'bold';
@@ -209,13 +248,13 @@ class SpiderManVisualization {
     renderSeriesGrid(series, containerDiv) {
         const timeline = series.data.timeline || [];
         
-        // Extract unique issues and villains in order
-        const issueSet = new Set();
+        // Extract unique issues and villains in order, including chronological data
+        const issueMap = new Map(); // Map issue number to full timeline entry
         const villainFirstAppearance = {};
         const appearances = {};
 
         timeline.forEach(entry => {
-            issueSet.add(entry.issue);
+            issueMap.set(entry.issue, entry);
             if (!appearances[entry.issue]) {
                 appearances[entry.issue] = new Set();
             }
@@ -230,7 +269,15 @@ class SpiderManVisualization {
             }
         });
 
-        const issues = Array.from(issueSet).sort((a, b) => a - b).map(i => `#${i}`);
+        // Sort by chronologicalPosition instead of issue number
+        const issues = Array.from(issueMap.entries())
+            .sort((a, b) => (a[1].chronologicalPosition || 0) - (b[1].chronologicalPosition || 0))
+            .map(([issueNum, entry]) => ({
+                number: issueNum,
+                label: `#${issueNum}`,
+                series: entry.series,
+                chronologicalPosition: entry.chronologicalPosition
+            }));
         const villains = Object.keys(villainFirstAppearance).sort((a, b) => villainFirstAppearance[a] - villainFirstAppearance[b]);
 
         const cellSize = 20;
@@ -269,12 +316,13 @@ class SpiderManVisualization {
         const cellData = [];
         issues.forEach((issue, xIdx) => {
             villains.forEach((villain, yIdx) => {
-                const issueNum = parseInt(issue.substring(1));
+                const issueNum = issue.number;
                 if (issueNum >= villainFirstAppearance[villain]) {
                     const isPresent = appearances[issueNum]?.has(villain) ?? false;
                     cellData.push({
-                        issue,
+                        issue: issue.label,
                         issueNum,
+                        series: issue.series,
                         villain,
                         x: xIdx,
                         y: yIdx,
@@ -314,7 +362,9 @@ class SpiderManVisualization {
             .attr('text-anchor', 'middle')
             .attr('font-size', '11px')
             .attr('font-weight', 'bold')
-            .text((d) => d);
+            .text((d) => d.label)
+            .append('title')
+            .text((d) => d.series);
 
         // Villain labels (Y-axis)
         g.selectAll('text.villain-label')
@@ -324,7 +374,7 @@ class SpiderManVisualization {
             .attr('class', 'villain-label')
             .attr('x', (d) => {
                 const firstAppearanceIssue = villainFirstAppearance[d];
-                const issueIndex = issues.findIndex(issue => parseInt(issue.substring(1)) === firstAppearanceIssue);
+                const issueIndex = issues.findIndex(issue => issue.number === firstAppearanceIssue);
                 return issueIndex * cellSize - 8;
             })
             .attr('y', (d, i) => i * cellSize + cellSize / 2 + 4)
@@ -348,7 +398,7 @@ class SpiderManVisualization {
 
         tooltip.innerHTML = `
             <strong>${d.villain}</strong><br>
-            Issue: ${d.issue}<br>
+            Issue: ${d.issue} (${d.series})<br>
             Status: ${d.present ? 'Appears' : 'Absent'}
         `;
 
@@ -725,10 +775,37 @@ class SpiderManVisualization {
         const tagsDiv = document.createElement('div');
         tagsDiv.className = 'issue-tags';
 
+        // Build a map of (issue, villainName) -> series from timeline
+        const villainIssueToSeries = {};
+        const timeline = this.data.timeline || [];
+        for (const entry of timeline) {
+            for (const villainInEntry of entry.villains) {
+                const key = `${entry.issue}|${villainInEntry}`;
+                villainIssueToSeries[key] = entry.series;
+            }
+        }
+
         villain.appearances.forEach(issue => {
             const tag = document.createElement('span');
             tag.className = 'issue-tag';
-            tag.textContent = `#${issue}`;
+            
+            // Get the specific series where THIS villain appears in THIS issue
+            const key = `${issue}|${villain.name}`;
+            const series = villainIssueToSeries[key];
+            
+            if (series) {
+                // Show with series info
+                tag.textContent = `#${issue}`;
+                tag.title = series;
+                // Apply series-specific color
+                const color = this.seriesColorMap[series] || '#95a5a6';
+                tag.style.backgroundColor = color;
+                tag.setAttribute('data-series', series);
+            } else {
+                tag.textContent = `#${issue}`;
+                tag.style.backgroundColor = '#95a5a6';
+            }
+            
             tagsDiv.appendChild(tag);
         });
 

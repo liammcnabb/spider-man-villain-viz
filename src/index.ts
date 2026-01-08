@@ -134,6 +134,7 @@ async function runScraper(): Promise<void> {
           aliases: string[];
           url?: string;
           firstAppearance: number;
+          firstAppearanceSeries?: string;
           appearances: number[];
           frequency: number;
         };
@@ -168,6 +169,7 @@ async function runScraper(): Promise<void> {
                 aliases: [...(v.aliases || [])],
                 url: v.url,
                 firstAppearance: v.firstAppearance,
+                firstAppearanceSeries: undefined,
                 appearances: [...(v.appearances || [])],
                 frequency: 0
               });
@@ -177,7 +179,7 @@ async function runScraper(): Promise<void> {
               cur.aliases = Array.from(aliasSet);
               const appearSet = new Set([...(cur.appearances || []), ...(v.appearances || [])]);
               cur.appearances = Array.from(appearSet).sort((a, b) => a - b);
-              cur.firstAppearance = Math.min(cur.firstAppearance, v.firstAppearance);
+              // Defer accurate firstAppearance computation until after timeline merge
             }
           }
 
@@ -241,6 +243,41 @@ async function runScraper(): Promise<void> {
         });
 
         const combinedVillains = Array.from(villainMap.values());
+
+        // Compute firstAppearance/series and rebuild appearances in chronological order
+        for (const vill of combinedVillains) {
+          const names = new Set<string>([vill.name, ...vill.aliases]);
+
+          const chronologicalAppearances: number[] = [];
+          let earliestIssue: number | undefined;
+          let earliestSeries: string | undefined;
+
+          for (const entry of sortedTimeline) {
+            const entryVillains: string[] = Array.isArray(entry.villains) ? entry.villains : [];
+            if (entryVillains.some(n => names.has(n))) {
+              chronologicalAppearances.push(entry.issue);
+              if (earliestIssue === undefined) {
+                earliestIssue = entry.issue;
+                earliestSeries = entry.series;
+              }
+            }
+          }
+
+          if (chronologicalAppearances.length > 0) {
+            vill.appearances = chronologicalAppearances;
+            vill.frequency = chronologicalAppearances.length;
+          }
+
+          if (earliestIssue !== undefined) {
+            vill.firstAppearance = earliestIssue;
+            vill.firstAppearanceSeries = earliestSeries;
+          } else {
+            const minIssue = (vill.appearances && vill.appearances.length > 0)
+              ? Math.min(...vill.appearances)
+              : vill.firstAppearance;
+            vill.firstAppearance = minIssue;
+          }
+        }
         const combinedGroups = Array.from(groupMap.values());
         const totalVillains = combinedVillains.length;
         const mostFrequent = combinedVillains.reduce((prev, curr) => (curr.frequency > prev.frequency ? curr : prev),

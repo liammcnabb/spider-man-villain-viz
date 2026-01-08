@@ -142,7 +142,7 @@ describe('CLI Parser', () => {
 
     it('should throw error when --volume flag has no value', () => {
       const args = ['node', 'index.js', 'scrape', '--volume'];
-      expect(() => parseScrapeArgs(args)).toThrow('--volume flag requires an argument');
+      expect(() => parseScrapeArgs(args)).toThrow('--volume/--series flag requires an argument');
     });
   });
 
