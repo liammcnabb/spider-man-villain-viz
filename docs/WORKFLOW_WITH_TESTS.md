@@ -22,8 +22,8 @@ When you ask for help solving an issue or adding a feature, follow this pattern:
    - Add JSDoc comments
 
 ### 4. **Proof Steps (Tests)**
-   - Write Jest tests verifying the code works
-   - Tests go in `src/__tests__/` directory
+   - For data processing: run `npx ts-node test-merge-logic.ts` (fast, no scraping)
+   - For scraper/general: write Jest tests in `src/__tests__/`
    - Each test should verify one behavior
    - All tests must pass
 
@@ -32,14 +32,49 @@ When you ask for help solving an issue or adding a feature, follow this pattern:
    - Check for edge cases
    - Document results
 
-## 🧪 Test Structure
+## 🧪 Testing Strategies
 
-### Test File Location
+### Strategy 1: Test Processing Logic (Fast - No Scraping)
+
+For changes to data merge/processing logic, use the test script:
+
+```bash
+npx ts-node test-merge-logic.ts
+```
+
+**When to use:**
+- Modifying `src/utils/mergeDatasets.ts`
+- Testing villain deduplication
+- Verifying chronological sorting
+- Checking first appearance calculation
+
+**Speed:** < 1 second ⚡
+
+**Example workflow:**
+```bash
+# 1. Edit src/utils/mergeDatasets.ts
+# 2. Rebuild
+npm run build
+# 3. Test immediately (no scraping!)
+npx ts-node test-merge-logic.ts
+# 4. View results for Doctor Octopus and The Rose
+```
+
+### Strategy 2: Unit Tests (Jest)
+
+For scraper, data processor, and visualization logic:
+
+```bash
+npm test
+```
+
+**Test File Location**
 ```
 src/__tests__/
-├── dataProcessor.test.ts      # Tests for data processing
-├── marvelScraper.test.ts      # Tests for web scraper
-└── d3Graph.test.ts            # Tests for visualization
+├── dataProcessor.test.ts      # Data processing unit tests
+├── marvelScraper.test.ts      # Web scraper unit tests
+├── d3Graph.test.ts            # Visualization unit tests
+└── groupHandling.test.ts      # Group classification tests
 ```
 
 ### Test Template
@@ -66,77 +101,61 @@ describe('Module Name - Proof Steps', () => {
 ## 💡 Example: Applying the Workflow
 
 ### Request
-> "Fix the scraper to handle rate limiting better using the Context Engineering workflow"
+> "Fix villain deduplication to properly handle multiple mantles using the Context Engineering workflow"
 
 ### What Should Happen
 
 **1. Context**
 ```
-- Current state: Scraper has 1s delay
-- Issue: Rate limiting is hardcoded
-- Goal: Make it configurable
+- Current state: Two Doctor Octopus entries (Otto vs Carolyn)
+- Issue: Should be separate by URL, not merged by name
+- Goal: Use URL-based deduplication
+- Files affected: src/utils/mergeDatasets.ts
 ```
 
 **2. Tools**
 ```
-- Modify: marvelScraper.ts (add config parameter)
-- Update: index.ts (pass configuration)
-- Test: Write tests verifying the new behavior
+- Modify: mergeDatasets.ts (add URL matching logic)
+- Test: Use test-merge-logic.ts for verification (fast!)
+- Verify: Run npm test (all 93 tests pass)
 ```
 
 **3. Implementation**
 ```typescript
-// Code changes in marvelScraper.ts
-async scrapeWithConfig(config: ScraperConfig) {
-  // ... implementation
-}
+// In src/utils/mergeDatasets.ts
+const isMatch = villainUrl && entryVillainUrls.includes(villainUrl);
 ```
 
-**4. Proof Steps (Tests)**
-```typescript
-// Tests in src/__tests__/marvelScraper.test.ts
-it('should use custom delay from config', () => {
-  const config = { delay: 2000 };
-  // Verify the delay is applied
-});
-
-it('should fall back to default delay', () => {
-  // Verify default behavior
-});
+**4. Proof Steps (Fast Testing)**
+```bash
+npm run build
+npx ts-node test-merge-logic.ts
+# Output shows:
+# Doctor Octopus (Otto Octavius) - Issue #3 ✓
+# (No Carolyn Trainer duplicate) ✓
 ```
 
 **5. Feedback**
 ```
-✅ Tests pass
-✅ Rate limiting configurable
-✅ Backward compatible
+✅ Villains properly separated by URL
+✅ No accidental merging
+✅ All 93 tests pass
+✅ Process is fast (< 1 sec)
 ```
 
-## 🎯 How to Request the Workflow
-
-Use explicit language:
-
-✅ **Good requests:**
-```
-"Fix the D3 chart rendering using the Context Engineering workflow. 
-Include Jest tests as proof steps."
-
-"Add a villain filter feature following the workflow:
-1. Update data processor
-2. Modify frontend
-3. Write tests proving it works"
-```
-
-❌ **Vague requests:**
-```
-"Fix the chart"  // No workflow mention
-"Add filtering"  // No test requirement
-```
+---
 
 ## 📊 Running Tests
 
+### Fast Data Processing Tests (Recommended for processing changes)
 ```bash
-# Run all tests
+# Test merge logic on existing JSON files (< 1 second)
+npx ts-node test-merge-logic.ts
+```
+
+### Unit Tests (All tests)
+```bash
+# Run all 93 tests
 npm test
 
 # Run tests for a specific file
@@ -148,6 +167,74 @@ npm test -- --coverage
 # Watch mode (re-run on changes)
 npm test -- --watch
 ```
+
+### Full Pipeline Testing
+```bash
+# Compile TypeScript
+npm run build
+
+# Run all unit tests
+npm test
+
+# Test processing logic
+npx ts-node test-merge-logic.ts
+
+# If all pass, scrape and view
+npm run scrape -- --all-series
+npm run serve
+```
+
+---
+
+## 🎯 How to Request the Workflow
+
+Use explicit language about what phase you're testing:
+
+✅ **Good requests:**
+```
+"Fix the villain deduplication using the Context Engineering workflow. 
+Test with: npx ts-node test-merge-logic.ts"
+
+"Add a villain filter feature following the workflow:
+1. Update mergeDatasets.ts
+2. Test with test-merge-logic.ts (fast)
+3. Write Jest tests for edge cases
+4. Verify with npm test"
+```
+
+❌ **Vague requests:**
+```
+"Fix the data"  // No workflow mention
+"Add filtering"  // No test method specified
+```
+
+---
+
+## ⚡ Performance: Testing Philosophy
+
+**For process logic changes:**
+- Use `npx ts-node test-merge-logic.ts` (< 1 second)
+- Don't re-scrape during development
+- Quick iteration cycles
+
+**For scraper/general changes:**
+- Use `npm test` (< 2 seconds)
+- Full suite of 93 tests
+- No network calls (mocked responses)
+
+**For final verification:**
+- Run full pipeline: build → test → scrape → serve
+- Takes ~15 minutes for complete data
+- Done once when confident
+
+---
+
+## 📝 For Pull/Process Separation
+
+See [PULL_AND_PROCESS.md](PULL_AND_PROCESS.md) for details on:
+- Running **Pull phase** (scraping) separately
+- Running **Process phase** (merging) separately  
+- Testing each phase independently
 
 ## ✅ Test Quality Checklist
 

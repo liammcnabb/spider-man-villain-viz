@@ -69,8 +69,16 @@ export function getCanonicalUrl(url?: string): string | undefined {
  * @param name - Villain name
  * @returns URL-friendly ID
  */
-export function generateVillainId(name: string): string {
-  return name
+export function generateVillainId(nameOrUrl: string): string {
+  // If input is a URL, extract the slug from the end
+  // e.g., https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616) -> Carolyn_Trainer_(Earth-616)
+  if (nameOrUrl.includes('marvel.fandom.com/wiki/')) {
+    const slug = nameOrUrl.split('marvel.fandom.com/wiki/')[1];
+    return slug ? slug.split('?')[0].split('#')[0] : nameOrUrl; // Remove query params and anchors
+  }
+  
+  // Fallback for non-URL inputs (backward compatibility)
+  return nameOrUrl
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
@@ -141,7 +149,7 @@ export function processVillainData(
       if (kind === 'group') {
         if (!groupMapByKey.has(key)) {
           groupMapByKey.set(key, {
-            id: generateVillainId(normalized),
+            id: generateVillainId(url || normalized),
             name: normalized,
             url: url,
             appearances: [issue.issueNumber],
@@ -166,7 +174,7 @@ export function processVillainData(
         nameFrequencyByKey.set(key, nameFrequency);
         
         map.set(key, {
-          id: generateVillainId(normalized),
+          id: generateVillainId(url || normalized),
           name: normalized, // Will be updated to most prominent name later
           names: [normalized],
           url: url,
@@ -374,6 +382,7 @@ export function serializeProcessedData(
       releaseDate: t.releaseDate,
       villainCount: t.villainCount,
       villains: t.villains.map(v => v.name),
+      villainUrls: t.villains.map(v => v.url), // Track villain URLs for proper mantle identification during merge
       series: t.series,
       chronologicalPosition: t.chronologicalPosition,
       groups: t.groups?.map(g => ({ name: g.name, members: g.members }))

@@ -23,6 +23,7 @@ import {
   parseScrapeArgs,
   getDefaultIssuesForVolume
 } from './utils/cliParser';
+import { mergeDatasets } from './utils/mergeDatasets';
 
 // Configuration
 const DATA_DIR = path.join(__dirname, '..', 'data');
@@ -128,25 +129,6 @@ async function runScraper(): Promise<void> {
         const files = fs.readdirSync(DATA_DIR)
           .filter(f => f.startsWith('villains.') && f.endsWith('.json') && !f.includes('villains.json'));
 
-        type SerializedVillain = {
-          id: string;
-          name: string;
-          aliases: string[];
-          url?: string;
-          firstAppearance: number;
-          firstAppearanceSeries?: string;
-          appearances: number[];
-          frequency: number;
-        };
-
-        type SerializedGroup = {
-          id: string;
-          name: string;
-          url?: string;
-          appearances: number[];
-          frequency: number;
-        };
-
         const datasets: any[] = [];
         for (const f of files) {
           try {
@@ -155,149 +137,21 @@ async function runScraper(): Promise<void> {
           } catch {}
         }
 
-        const villainMap = new Map<string, SerializedVillain>();
-        const groupMap = new Map<string, SerializedGroup>();
-
-        for (const ds of datasets) {
-          const villains: SerializedVillain[] = Array.isArray(ds?.villains) ? ds.villains : [];
-          for (const v of villains) {
-            const key = v.url || v.id;
-            if (!villainMap.has(key)) {
-              villainMap.set(key, {
-                id: v.id,
-                name: v.name,
-                aliases: [...(v.aliases || [])],
-                url: v.url,
-                firstAppearance: v.firstAppearance,
-                firstAppearanceSeries: undefined,
-                appearances: [...(v.appearances || [])],
-                frequency: 0
-              });
-            } else {
-              const cur = villainMap.get(key)!;
-              const aliasSet = new Set([...(cur.aliases || []), ...(v.aliases || [])]);
-              cur.aliases = Array.from(aliasSet);
-              const appearSet = new Set([...(cur.appearances || []), ...(v.appearances || [])]);
-              cur.appearances = Array.from(appearSet).sort((a, b) => a - b);
-              // Defer accurate firstAppearance computation until after timeline merge
-            }
-          }
-
-          const groups: SerializedGroup[] = Array.isArray(ds?.groups) ? ds.groups : [];
-          for (const g of groups) {
-            const gkey = g.name || g.id;
-            if (!groupMap.has(gkey)) {
-              groupMap.set(gkey, {
-                id: g.id,
-                name: g.name,
-                url: g.url,
-                appearances: [...(g.appearances || [])],
-                frequency: 0
-              });
-            } else {
-              const curg = groupMap.get(gkey)!;
-              const appearSet = new Set([...(curg.appearances || []), ...(g.appearances || [])]);
-              curg.appearances = Array.from(appearSet).sort((a, b) => a - b);
-            }
-          }
-        }
-
-        for (const v of villainMap.values()) {
-          v.frequency = (v.appearances || []).length;
-        }
-        for (const g of groupMap.values()) {
-          g.frequency = (g.appearances || []).length;
-        }
-
-        // Merge and sort timelines chronologically
-        type TimelineEntry = {
-          issue: number;
-          releaseDate?: string;
-          series?: string;
-          villains: any[];
-        };
-        
-        const allTimelines: TimelineEntry[] = [];
-        for (const ds of datasets) {
-          const timeline: TimelineEntry[] = Array.isArray(ds?.timeline) ? ds.timeline : [];
-          const seriesName = ds?.series || 'Unknown';
-          for (const entry of timeline) {
-            allTimelines.push({
-              ...entry,
-              series: seriesName
-            });
-          }
-        }
-        
-        // Sort by release date (chronological order)
-        const sortedTimeline = allTimelines.sort((a, b) => {
-          if (!a.releaseDate && !b.releaseDate) return 0;
-          if (!a.releaseDate) return 1;
-          if (!b.releaseDate) return -1;
-          return new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime();
-        });
-
-        // Add chronological position to each entry
-        sortedTimeline.forEach((entry, index) => {
-          (entry as any).chronologicalPosition = index + 1;
-        });
-
-        const combinedVillains = Array.from(villainMap.values());
-
-        // Compute firstAppearance/series and rebuild appearances in chronological order
-        for (const vill of combinedVillains) {
-          const names = new Set<string>([vill.name, ...vill.aliases]);
-
-          const chronologicalAppearances: number[] = [];
-          let earliestIssue: number | undefined;
-          let earliestSeries: string | undefined;
-
-          for (const entry of sortedTimeline) {
-            const entryVillains: string[] = Array.isArray(entry.villains) ? entry.villains : [];
-            if (entryVillains.some(n => names.has(n))) {
-              chronologicalAppearances.push(entry.issue);
-              if (earliestIssue === undefined) {
-                earliestIssue = entry.issue;
-                earliestSeries = entry.series;
-              }
-            }
-          }
-
-          if (chronologicalAppearances.length > 0) {
-            vill.appearances = chronologicalAppearances;
-            vill.frequency = chronologicalAppearances.length;
-          }
-
-          if (earliestIssue !== undefined) {
-            vill.firstAppearance = earliestIssue;
-            vill.firstAppearanceSeries = earliestSeries;
-          } else {
-            const minIssue = (vill.appearances && vill.appearances.length > 0)
-              ? Math.min(...vill.appearances)
-              : vill.firstAppearance;
-            vill.firstAppearance = minIssue;
-          }
-        }
-        const combinedGroups = Array.from(groupMap.values());
-        const totalVillains = combinedVillains.length;
-        const mostFrequent = combinedVillains.reduce((prev, curr) => (curr.frequency > prev.frequency ? curr : prev),
-          { id: '', name: '', aliases: [], url: undefined, firstAppearance: 0, appearances: [], frequency: 0 } as any);
-        const averageFrequency = totalVillains > 0
-          ? combinedVillains.reduce((sum, v) => sum + v.frequency, 0) / totalVillains
-          : 0;
+        // Use the separate merge logic to combine datasets
+        const mergedResult = mergeDatasets(datasets);
 
         const combined = {
           series: 'Combined',
           processedAt: new Date().toISOString(),
           stats: {
-            totalVillains,
-            mostFrequent: mostFrequent.name,
-            mostFrequentCount: mostFrequent.frequency,
-            averageFrequency: Math.round(averageFrequency * 100) / 100
+            totalVillains: mergedResult.stats.totalVillains,
+            mostFrequent: mergedResult.stats.mostFrequent,
+            mostFrequentCount: mergedResult.stats.mostFrequentCount,
+            averageFrequency: mergedResult.stats.averageFrequency
           },
-          villains: combinedVillains,
-          timeline: sortedTimeline,
-          groups: combinedGroups
+          villains: mergedResult.villains,
+          timeline: mergedResult.timeline,
+          groups: mergedResult.groups
         };
 
         fs.writeFileSync(VILLAINS_JSON, JSON.stringify(combined, null, 2));

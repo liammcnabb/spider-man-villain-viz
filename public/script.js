@@ -775,36 +775,32 @@ class SpiderManVisualization {
         const tagsDiv = document.createElement('div');
         tagsDiv.className = 'issue-tags';
 
-        // Build a map of (issue, villainName) -> series from timeline
-        const villainIssueToSeries = {};
+        // Collect all timeline entries where this villain appears, preserving series info
+        // This handles cases where the same issue number appears in multiple series (e.g., Vol 1 #3 and Annual #3)
+        const villainAppearances = []; // Array of {issue, series, chronoPos}
         const timeline = this.data.timeline || [];
         for (const entry of timeline) {
-            for (const villainInEntry of entry.villains) {
-                const key = `${entry.issue}|${villainInEntry}`;
-                villainIssueToSeries[key] = entry.series;
+            if (entry.villains && entry.villains.includes(villain.name)) {
+                villainAppearances.push({
+                    issue: entry.issue,
+                    series: entry.series,
+                    chronoPos: entry.chronologicalPosition || Infinity
+                });
             }
         }
 
-        villain.appearances.forEach(issue => {
+        // Render one tag per timeline appearance (including duplicate issue numbers from different series)
+        villainAppearances.forEach(appearance => {
             const tag = document.createElement('span');
             tag.className = 'issue-tag';
             
-            // Get the specific series where THIS villain appears in THIS issue
-            const key = `${issue}|${villain.name}`;
-            const series = villainIssueToSeries[key];
+            tag.textContent = `#${appearance.issue}`;
+            tag.title = appearance.series;
             
-            if (series) {
-                // Show with series info
-                tag.textContent = `#${issue}`;
-                tag.title = series;
-                // Apply series-specific color
-                const color = this.seriesColorMap[series] || '#95a5a6';
-                tag.style.backgroundColor = color;
-                tag.setAttribute('data-series', series);
-            } else {
-                tag.textContent = `#${issue}`;
-                tag.style.backgroundColor = '#95a5a6';
-            }
+            // Apply series-specific color
+            const color = this.seriesColorMap[appearance.series] || '#95a5a6';
+            tag.style.backgroundColor = color;
+            tag.setAttribute('data-series', appearance.series);
             
             tagsDiv.appendChild(tag);
         });

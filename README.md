@@ -70,11 +70,14 @@ npm install
 npm run build
 ```
 
-### Scraping Data
+### Scraping Data (Pull Phase)
 
 ```bash
-# Scrape all issues (default: Amazing Spider-Man Vol 1, issues 1-441)
-npm run scrape
+# Scrape all series
+npm run scrape -- --all-series
+
+# Scrape specific series
+npm run scrape -- --series "Amazing Spider-Man Vol 1" --issues 1-100
 
 # Scrape specific issue range
 npm run scrape -- --issues 1-20
@@ -85,19 +88,33 @@ npm run scrape -- --issues 1,5,10,20
 # Scrape multiple ranges and specific issues
 npm run scrape -- --issues 1-20,50-60,100
 
-# Scrape a different volume
-npm run scrape -- --volume "Amazing Spider-Man Vol 2" --issues 1-58
-
 # Fast dev (avoid long scrapes)
-# - Use a small subset while iterating on code/visuals
 npm run scrape -- --issues 1-20
-
-# - If data/villains.json already exists, skip scraping and just serve
-#   to see UI changes against existing data
-npm run serve
 ```
 
-This creates `data/villains.json` with all extracted antagonist information.
+### Processing Data (Process Phase - No Scraping Needed!)
+
+**⚡ Test the merge logic without scraping:**
+
+```bash
+# Process existing JSON files instantly (< 1 second)
+npx ts-node test-merge-logic.ts
+```
+
+This loads existing series JSON files and tests the data merge logic.
+
+**See docs for more:** [PULL_AND_PROCESS.md](docs/PULL_AND_PROCESS.md)
+
+### View Results
+
+```bash
+npm run serve
+# Opens http://localhost:8000
+```
+
+This creates:
+- `data/villains.json` - Combined data for all series
+- `data/d3-config.json` - Visualization configuration
 
 #### Scraping Options
 
@@ -119,6 +136,59 @@ npm run serve
 
 Then open `http://localhost:8000` in your browser.
 
+## Architecture: Pull → Process → Publish
+
+The data pipeline is separated into three independent phases:
+
+```
+Pull Phase          Process Phase         Publish Phase
+(Scraping)          (Merge & Transform)   (Visualize & Output)
+─────────────────────────────────────────────────────────
+Marvel Fandom  →  mergeDatasets()  →  D3.js visualization
+JSON Files     →  (mergeDatasets.ts) → HTML/Browser
+```
+
+### Phase Separation Benefits
+
+**Pull (Scraping)**
+- Fetches data from Marvel Fandom
+- Creates series-specific JSON files
+- Can be run independently
+- Command: `npm run scrape -- --all-series`
+
+**Process (Merge & Transform)**
+- Pure function: `mergeDatasets(datasets)` in `src/utils/mergeDatasets.ts`
+- No I/O dependencies
+- Can be tested without scraping
+- Command: `npx ts-node test-merge-logic.ts`
+
+**Publish (Visualization)**
+- Generates D3 configs and HTML
+- Updates public data directory
+- Can reuse existing data files
+
+### Development Workflow
+
+For **data processing changes** (fast iteration):
+```bash
+# 1. Edit src/utils/mergeDatasets.ts
+# 2. Rebuild
+npm run build
+# 3. Test immediately (no scraping!)
+npx ts-node test-merge-logic.ts
+# Verification: < 1 second ⚡
+```
+
+For **complete pipeline**:
+```bash
+npm run build      # Build TypeScript
+npm test           # Run 93 unit tests
+npm run scrape -- --all-series  # Scrape all data
+npm run serve      # View in browser
+```
+
+**See [docs/PULL_AND_PROCESS.md](docs/PULL_AND_PROCESS.md) for detailed workflow.**
+
 ## Development
 
 ### Project Setup with Context Engineering
@@ -139,10 +209,23 @@ Follow the standards in [GUIDELINES.md](docs/GUIDELINES.md):
 - Max 80 lines per function
 - TypeScript strict mode enabled
 
+### Testing Strategy
+
+```bash
+# Fast data processing tests (< 1 second)
+npx ts-node test-merge-logic.ts
+
+# Full unit test suite (93 tests)
+npm test
+
+# With coverage
+npm test -- --coverage
+```
+
 ### Workflow
 
-1. **Data Scraping**: `src/scraper/` handles Marvel Fandom extraction
-2. **Data Processing**: `src/utils/` normalizes and structures data
+1. **Pull (Scraping)**: `src/scraper/` handles Marvel Fandom extraction
+2. **Process (Merging)**: `src/utils/mergeDatasets.ts` normalizes and deduplicates data
 3. **Visualization**: `src/visualization/` generates D3.js logic
 4. **Frontend**: `public/` contains the interactive interface
 
@@ -151,8 +234,9 @@ Follow the standards in [GUIDELINES.md](docs/GUIDELINES.md):
 ### Short Term
 - [x] Complete scraper for issues 1-20
 - [x] Create basic D3 timeline visualization
+- [x] Separate pull and process logic
 - [ ] Add interactive filtering by villain
-- [ ] Create specific D3 gantt plot to explore as one chart
+- [x] Create specific D3 gantt plot to explore as one chart
 
 ### Medium Term
 - [ ] Extend scraper to all 800+ issues
