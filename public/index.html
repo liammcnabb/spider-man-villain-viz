@@ -17,6 +17,24 @@
         </header>
 
         <main class="main-content">
+            <!-- Grid Timeline Visualization Section -->
+            <section class="visualization-section">
+                <h2>Villain Appearance Grid</h2>
+                <p class="chart-description">
+                    Grid visualization where X = Issues, Y = Villains. Colored cells indicate villain appearances.
+                    Use mouse to pan and scroll to zoom.
+                </p>
+                <div class="filters">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="showTrailingGrids" checked>
+                        Show trailing empty cells
+                    </label>
+                </div>
+                <div class="chart-container">
+                    <div id="grid-timeline"></div>
+                </div>
+            </section>
+
             <!-- Statistics Panel -->
             <section class="stats-panel">
                 <h2>Statistics</h2>
@@ -50,18 +68,6 @@
                     This chart shows the number of distinct villains appearing 
                     in each issue. Hover over data points to see villain names.
                 </p>
-            </section>
-
-            <!-- Grid Timeline Visualization Section -->
-            <section class="visualization-section">
-                <h2>Villain Appearance Grid</h2>
-                <p class="chart-description">
-                    Grid visualization where X = Issues, Y = Villains. Colored cells indicate villain appearances.
-                    Use mouse to pan and scroll to zoom.
-                </p>
-                <div class="chart-container">
-                    <div id="grid-timeline"></div>
-                </div>
             </section>
 
             <!-- Villain List Section -->

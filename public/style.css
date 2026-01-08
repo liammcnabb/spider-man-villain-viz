@@ -282,6 +282,20 @@ body {
     box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
 }
 
+.toggle-label {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing-unit) * 1);
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.toggle-label input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
 .villain-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

@@ -21,6 +21,7 @@ class SpiderManVisualization {
         this.villains = [];
         this.groups = [];
         this.seriesData = [];  // Store separate series data for grid display
+        this.showTrailingGrids = true; // Toggle state for trailing empty cells
         this.seriesColorMap = {
             'Amazing Spider-Man Vol 1': '#e74c3c',
             'Amazing Spider-Man Annual Vol 1': '#9b59b6',
@@ -79,6 +80,9 @@ class SpiderManVisualization {
             this.renderTimeline();
             this.renderVillainList();
             this.renderGroupList();
+
+            // Setup toggle listener
+            this.setupGridToggle();
 
             console.log('✅ Visualization loaded successfully');
         } catch (error) {
@@ -178,6 +182,19 @@ class SpiderManVisualization {
     }
 
     /**
+     * Setup toggle listener for trailing grids
+     */
+    setupGridToggle() {
+        const toggle = document.getElementById('showTrailingGrids');
+        if (toggle) {
+            toggle.addEventListener('change', (e) => {
+                this.showTrailingGrids = e.target.checked;
+                this.renderGridTimeline();
+            });
+        }
+    }
+
+    /**
      * Render statistics panel
      */
     renderStats() {
@@ -194,7 +211,7 @@ class SpiderManVisualization {
     }
 
     /**
-     * Render grid timeline visualization with separate grids per series
+     * Render unified grid timeline visualization using chronological order across all series
      */
     renderGridTimeline() {
         const gridContainer = document.getElementById('grid-timeline');
@@ -203,82 +220,67 @@ class SpiderManVisualization {
         // Clear previous content
         gridContainer.innerHTML = '';
 
-        // Create a grid for each series
-        for (const series of this.seriesData) {
-            // Create section header
-            const header = document.createElement('div');
-            header.style.marginTop = '30px';
-            header.style.marginBottom = '15px';
-            
-            const { title: seriesTitle, volume } = this.getSeriesDisplay(series.name);
+        // Use the combined timeline from main data
+        const allIssues = this.data.timeline || [];
 
-            const title = document.createElement('h3');
-            title.textContent = seriesTitle;
-            if (volume) {
-                const badge = this.createVolumeBadge(volume);
-                if (badge) {
-                    title.appendChild(badge);
-                }
-            }
-            title.style.marginBottom = '10px';
-            title.style.color = series.color;
-            title.style.fontWeight = 'bold';
-            
-            header.appendChild(title);
-            gridContainer.appendChild(header);
+        // Create SVG container
+        const svgContainer = document.createElement('div');
+        svgContainer.style.marginBottom = '20px';
+        svgContainer.style.overflowX = 'auto';
+        svgContainer.style.borderRadius = '4px';
+        svgContainer.style.padding = '10px';
+        
+        gridContainer.appendChild(svgContainer);
 
-            // Create SVG container for this series' grid
-            const svgContainer = document.createElement('div');
-            svgContainer.style.marginBottom = '20px';
-            svgContainer.style.overflowX = 'auto';
-            svgContainer.style.border = `2px solid ${series.color}`;
-            svgContainer.style.borderRadius = '4px';
-            svgContainer.style.padding = '10px';
-            
-            gridContainer.appendChild(svgContainer);
-
-            // Render grid for this series
-            this.renderSeriesGrid(series, svgContainer);
-        }
+        // Render merged grid
+        this.renderUnifiedGrid(allIssues, svgContainer);
     }
 
     /**
-     * Render a single series grid with color coding
+     * Render a unified grid with all series combined, sorted by chronological position
      */
-    renderSeriesGrid(series, containerDiv) {
-        const timeline = series.data.timeline || [];
-        
-        // Extract unique issues and villains in order, including chronological data
-        const issueMap = new Map(); // Map issue number to full timeline entry
-        const villainFirstAppearance = {};
+    renderUnifiedGrid(allIssues, containerDiv) {
+        // Track all unique issues and villains
+        const issueMap = new Map(); // Map chronoPos to issue entry
+        const villainFirstChrono = {};
+        const villainLastChrono = {};
         const appearances = {};
 
-        timeline.forEach(entry => {
-            issueMap.set(entry.issue, entry);
-            if (!appearances[entry.issue]) {
-                appearances[entry.issue] = new Set();
+        allIssues.forEach(entry => {
+            const chronoPos = entry.chronologicalPosition || 0;
+            issueMap.set(chronoPos, entry);
+            
+            if (!appearances[chronoPos]) {
+                appearances[chronoPos] = new Set();
             }
+            
             if (entry.villains) {
                 entry.villains.forEach(villain => {
-                    // Track first appearance for each villain
-                    if (!villainFirstAppearance[villain]) {
-                        villainFirstAppearance[villain] = entry.issue;
+                    // Track first chronological appearance
+                    if (!villainFirstChrono[villain]) {
+                        villainFirstChrono[villain] = chronoPos;
                     }
-                    appearances[entry.issue].add(villain);
+                    // Track last chronological appearance
+                    villainLastChrono[villain] = chronoPos;
+                    appearances[chronoPos].add(villain);
                 });
             }
         });
 
-        // Sort by chronologicalPosition instead of issue number
-        const issues = Array.from(issueMap.entries())
-            .sort((a, b) => (a[1].chronologicalPosition || 0) - (b[1].chronologicalPosition || 0))
-            .map(([issueNum, entry]) => ({
-                number: issueNum,
-                label: `#${issueNum}`,
+        // Sort issues by chronological position
+        const issues = Array.from(issueMap.values())
+            .sort((a, b) => (a.chronologicalPosition || 0) - (b.chronologicalPosition || 0))
+            .map((entry) => ({
+                number: entry.issue,
+                label: `#${entry.issue}`,
+                chronologicalPosition: entry.chronologicalPosition,
                 series: entry.series,
-                chronologicalPosition: entry.chronologicalPosition
+                seriesColor: this.seriesColorMap[entry.series] || '#999'
             }));
-        const villains = Object.keys(villainFirstAppearance).sort((a, b) => villainFirstAppearance[a] - villainFirstAppearance[b]);
+
+        // Sort villains by their first chronological appearance
+        const villains = Object.keys(villainFirstChrono)
+            .sort((a, b) => villainFirstChrono[a] - villainFirstChrono[b]);
 
         const cellSize = 20;
         const marginLeft = 150;
@@ -316,13 +318,22 @@ class SpiderManVisualization {
         const cellData = [];
         issues.forEach((issue, xIdx) => {
             villains.forEach((villain, yIdx) => {
-                const issueNum = issue.number;
-                if (issueNum >= villainFirstAppearance[villain]) {
-                    const isPresent = appearances[issueNum]?.has(villain) ?? false;
+                const chronoPos = issue.chronologicalPosition;
+                let shouldShowCell = chronoPos >= villainFirstChrono[villain];
+                
+                // Only filter trailing cells if toggle is OFF
+                if (!this.showTrailingGrids) {
+                    shouldShowCell = shouldShowCell && chronoPos <= villainLastChrono[villain];
+                }
+                
+                if (shouldShowCell) {
+                    const isPresent = appearances[chronoPos]?.has(villain) ?? false;
                     cellData.push({
                         issue: issue.label,
-                        issueNum,
+                        issueNum: issue.number,
+                        chronoPos: chronoPos,
                         series: issue.series,
+                        seriesColor: issue.seriesColor,
                         villain,
                         x: xIdx,
                         y: yIdx,
@@ -341,11 +352,13 @@ class SpiderManVisualization {
             .attr('y', (d) => d.y * cellSize)
             .attr('width', cellSize)
             .attr('height', cellSize)
-            .attr('fill', (d) => d.present ? series.color : '#ecf0f1')
+            .attr('fill', (d) => d.present ? d.seriesColor : '#ecf0f1')
             .attr('stroke', '#bdc3c7')
             .attr('stroke-width', 0.5)
             .on('mouseenter', (event, d) => {
-                this.showGridTooltip(event, d);
+                if (d.present) {
+                    this.showGridTooltip(event, d);
+                }
             })
             .on('mouseleave', () => {
                 this.hideGridTooltip();
@@ -364,7 +377,7 @@ class SpiderManVisualization {
             .attr('font-weight', 'bold')
             .text((d) => d.label)
             .append('title')
-            .text((d) => d.series);
+            .text((d) => `${d.series} (Chrono: ${d.chronologicalPosition})`);
 
         // Villain labels (Y-axis)
         g.selectAll('text.villain-label')
@@ -373,8 +386,8 @@ class SpiderManVisualization {
             .append('text')
             .attr('class', 'villain-label')
             .attr('x', (d) => {
-                const firstAppearanceIssue = villainFirstAppearance[d];
-                const issueIndex = issues.findIndex(issue => issue.number === firstAppearanceIssue);
+                const firstChrono = villainFirstChrono[d];
+                const issueIndex = issues.findIndex(issue => issue.chronologicalPosition === firstChrono);
                 return issueIndex * cellSize - 8;
             })
             .attr('y', (d, i) => i * cellSize + cellSize / 2 + 4)
@@ -775,32 +788,47 @@ class SpiderManVisualization {
         const tagsDiv = document.createElement('div');
         tagsDiv.className = 'issue-tags';
 
-        // Collect all timeline entries where this villain appears, preserving series info
-        // This handles cases where the same issue number appears in multiple series (e.g., Vol 1 #3 and Annual #3)
-        const villainAppearances = []; // Array of {issue, series, chronoPos}
+        // Build a map of (issue, villainName) -> series from timeline
+        // When a villain appears in the same issue number in multiple series (e.g., Vol 1 #3 and Annual #3),
+        // prefer the earlier chronological appearance (lower chronologicalPosition)
+        const villainIssueToSeries = {};
         const timeline = this.data.timeline || [];
         for (const entry of timeline) {
-            if (entry.villains && entry.villains.includes(villain.name)) {
-                villainAppearances.push({
-                    issue: entry.issue,
-                    series: entry.series,
-                    chronoPos: entry.chronologicalPosition || Infinity
-                });
+            for (const villainInEntry of entry.villains) {
+                const key = `${entry.issue}|${villainInEntry}`;
+                const existing = villainIssueToSeries[key];
+                
+                // Only set if not already set, or if this entry comes chronologically earlier
+                if (!existing || (entry.chronologicalPosition < existing.chronoPos)) {
+                    villainIssueToSeries[key] = {
+                        series: entry.series,
+                        chronoPos: entry.chronologicalPosition || Infinity
+                    };
+                }
             }
         }
 
-        // Render one tag per timeline appearance (including duplicate issue numbers from different series)
-        villainAppearances.forEach(appearance => {
+        villain.appearances.forEach(issue => {
             const tag = document.createElement('span');
             tag.className = 'issue-tag';
             
-            tag.textContent = `#${appearance.issue}`;
-            tag.title = appearance.series;
+            // Get the specific series where THIS villain appears in THIS issue
+            const key = `${issue}|${villain.name}`;
+            const seriesData = villainIssueToSeries[key];
+            const series = seriesData?.series || null;
             
-            // Apply series-specific color
-            const color = this.seriesColorMap[appearance.series] || '#95a5a6';
-            tag.style.backgroundColor = color;
-            tag.setAttribute('data-series', appearance.series);
+            if (series) {
+                // Show with series info
+                tag.textContent = `#${issue}`;
+                tag.title = series;
+                // Apply series-specific color
+                const color = this.seriesColorMap[series] || '#95a5a6';
+                tag.style.backgroundColor = color;
+                tag.setAttribute('data-series', series);
+            } else {
+                tag.textContent = `#${issue}`;
+                tag.style.backgroundColor = '#95a5a6';
+            }
             
             tagsDiv.appendChild(tag);
         });
