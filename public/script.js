@@ -432,7 +432,9 @@ class SpiderManVisualization {
             .attr('y', 35)
             .attr('fill', '#333')
             .attr('text-anchor', 'middle')
-            .text('Issue Number');
+            .text(data.some(d => d.chronologicalPosition !== undefined) 
+                ? 'Chronological Position' 
+                : 'Issue Number');
 
         g.append('g')
             .attr('class', 'axis')
@@ -446,9 +448,9 @@ class SpiderManVisualization {
             .attr('text-anchor', 'middle')
             .text('Villain Count');
 
-        // Create line generator
+        // Create line generator - use chronologicalPosition if available
         const line = d3.line()
-            .x(d => xScale(d.issueNumber))
+            .x(d => xScale(d.chronologicalPosition !== undefined ? d.chronologicalPosition : d.issueNumber))
             .y(d => yScale(d.villainCount));
 
         // Add line path
@@ -466,7 +468,7 @@ class SpiderManVisualization {
             .enter()
             .append('circle')
             .attr('class', 'data-point')
-            .attr('cx', d => xScale(d.issueNumber))
+            .attr('cx', d => xScale(d.chronologicalPosition !== undefined ? d.chronologicalPosition : d.issueNumber))
             .attr('cy', d => yScale(d.villainCount))
             .attr('r', 5)
             .attr('fill', '#e74c3c')
@@ -493,11 +495,23 @@ class SpiderManVisualization {
             ? d.villainsInIssue.join(', ')
             : 'None listed';
 
-        tooltip.innerHTML = `
-            <strong>Issue ${d.issueNumber}</strong><br>
-            Villains: ${d.villainCount}<br>
-            <small>${villainList}</small>
-        `;
+        // Build tooltip content with series and issue info
+        let content = '';
+        if (d.series && d.series !== 'Combined') {
+            content += `<strong>${d.series} #${d.issueNumber}</strong><br>`;
+        } else {
+            content += `<strong>Issue ${d.issueNumber}</strong><br>`;
+        }
+        if (d.releaseDate) {
+            content += `Release: ${d.releaseDate}<br>`;
+        }
+        if (d.chronologicalPosition !== undefined) {
+            content += `Position: ${d.chronologicalPosition}<br>`;
+        }
+        content += `Villains: ${d.villainCount}<br>`;
+        content += `<small>${villainList}</small>`;
+
+        tooltip.innerHTML = content;
 
         const rect = event.target.getBoundingClientRect();
         tooltip.style.left = (rect.left + 10) + 'px';

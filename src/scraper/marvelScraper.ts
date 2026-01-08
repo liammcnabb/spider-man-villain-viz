@@ -38,6 +38,16 @@ const SERIES_CONFIG: Record<string, SeriesConfig> = {
   'Untold_Tales_of_Spider-Man_Vol_1': {
     slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Untold_Tales_of_Spider-Man_Vol_1_{issue}`,
     titlePrefix: 'Untold Tales of Spider-Man'
+  },
+  // Amazing Spider-Man Annual Vol 1
+  'Amazing Spider-Man Annual Vol 1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Amazing_Spider-Man_Annual_Vol_1_{issue}`,
+    titlePrefix: 'Amazing Spider-Man Annual'
+  },
+  // Alias: wiki-style slug
+  'Amazing_Spider-Man_Annual_Vol_1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Amazing_Spider-Man_Annual_Vol_1_{issue}`,
+    titlePrefix: 'Amazing Spider-Man Annual'
   }
 };
 const DEFAULT_TIMEOUT = 10000;
@@ -182,10 +192,16 @@ export class MarvelScraper {
         response.data,
         issueNumber
       );
+      
+      const releaseDate = this.parseReleaseDate(
+        response.data,
+        issueNumber
+      );
 
       return {
         issueNumber,
         title: `${this.currentSeries.titlePrefix} #${issueNumber}`,
+        releaseDate,
         antagonists
       };
     } catch (error) {
@@ -207,6 +223,54 @@ export class MarvelScraper {
   private getIssueUrl(issueNumber: number): string {
     const tmpl = this.currentSeries.slugTemplate;
     return tmpl.replace('{issue}', issueNumber.toString());
+  }
+
+  /**
+   * Parses the release date from issue HTML
+   * 
+   * Marvel Fandom structure:
+   * - Page contains "Release Date" and "Cover Date" sections in the info area
+   * - Look for h3 with specific text, then get next sibling paragraph
+   * 
+   * @param html - HTML content of the issue page
+   * @param issueNumber - The issue number (for logging)
+   * @returns Release date string (or undefined if not found)
+   */
+  private parseReleaseDate(
+    html: string,
+    issueNumber: number
+  ): string | undefined {
+    try {
+      const $ = cheerio.load(html);
+      
+      // Look for all h3 elements and check their text
+      const h3Elements = $('h3');
+      
+      for (let i = 0; i < h3Elements.length; i++) {
+        const h3 = $(h3Elements[i]);
+        const headingText = h3.text().trim();
+        
+        // Check for "Release Date" (preferred) or "Cover Date" (fallback)
+        if (headingText === 'Release Date' || headingText === 'Cover Date') {
+          // The date is in the next sibling element (could be p, div, or other)
+          const nextElement = h3.next();
+          
+          if (nextElement.length > 0) {
+            const dateText = nextElement.text().trim();
+            if (dateText) {
+              return dateText;
+            }
+          }
+        }
+      }
+      
+      return undefined;
+    } catch (error) {
+      console.warn(
+        `Could not parse release date for issue ${issueNumber}: ${error}`
+      );
+      return undefined;
+    }
   }
 
   /**

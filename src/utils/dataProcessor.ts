@@ -289,6 +289,7 @@ function generateTimeline(
 
     return {
       issue: issueNumber,
+      releaseDate: issue.releaseDate,
       villains: villainsInIssue,
       villainCount: villainsInIssue.length,
       groups: groupAppearances.length > 0 ? groupAppearances : undefined
@@ -370,6 +371,7 @@ export function serializeProcessedData(
     })),
     timeline: data.timeline.map(t => ({
       issue: t.issue,
+      releaseDate: t.releaseDate,
       villainCount: t.villainCount,
       villains: t.villains.map(v => v.name),
       groups: t.groups?.map(g => ({ name: g.name, members: g.members }))

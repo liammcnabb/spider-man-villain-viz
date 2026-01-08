@@ -14,6 +14,7 @@ export interface IssueData {
   issueNumber: number;
   title: string;
   publicationDate?: string;
+  releaseDate?: string; // Publication date from Marvel Fandom for chronology
   antagonists: Antagonist[];
 }
 
@@ -30,6 +31,9 @@ export interface ProcessedVillain {
 
 export interface TimelineData {
   issue: number;
+  releaseDate?: string; // Publication date for chronology
+  series?: string; // Series name for multi-series timelines
+  chronologicalPosition?: number; // Position when sorted by release date
   villains: ProcessedVillain[];
   villainCount: number;
   groups?: GroupAppearance[]; // Optional: group appearances for this issue
@@ -44,6 +48,9 @@ export interface VillainStats {
 
 export interface D3DataPoint {
   issueNumber: number;
+  chronologicalPosition?: number;
+  series?: string;
+  releaseDate?: string;
   villainsInIssue: string[];
   villainCount: number;
 }

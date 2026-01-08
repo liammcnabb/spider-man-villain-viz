@@ -55,6 +55,9 @@ export function formatDataForD3(
 ): D3DataPoint[] {
   return data.timeline.map(timelineItem => ({
     issueNumber: timelineItem.issue,
+    chronologicalPosition: timelineItem.chronologicalPosition,
+    series: timelineItem.series,
+    releaseDate: timelineItem.releaseDate,
     villainsInIssue: timelineItem.villains.map(v => v.names[0]),
     villainCount: timelineItem.villainCount
   }));
@@ -83,7 +86,11 @@ export function generateD3Config(
   }
 
   // Calculate scale domains
-  const maxIssue = Math.max(...d3Data.map(d => d.issueNumber));
+  // If chronologicalPosition exists, use it; otherwise fall back to issueNumber
+  const hasChronological = d3Data.some(d => d.chronologicalPosition !== undefined);
+  const maxX = hasChronological 
+    ? Math.max(...d3Data.map(d => d.chronologicalPosition!))
+    : Math.max(...d3Data.map(d => d.issueNumber));
   const maxVillains = Math.max(...d3Data.map(d => d.villainCount));
 
   const margin = { top: 20, right: 20, bottom: 30, left: 60 };
@@ -92,7 +99,7 @@ export function generateD3Config(
     data: d3Data,
     scales: {
       x: {
-        domain: [1, maxIssue],
+        domain: [1, maxX],
         range: [margin.left, width - margin.right]
       },
       y: {
@@ -156,10 +163,11 @@ export function generateLinePath(
     return minR + ((val - minD) / (maxD - minD)) * (maxR - minR);
   };
 
-  // Build path
-  const pathSegments = data.map(d =>
-    `${scaleX(d.issueNumber)},${scaleY(d.villainCount)}`
-  );
+  // Build path - use chronologicalPosition if available, otherwise issueNumber
+  const pathSegments = data.map(d => {
+    const xValue = d.chronologicalPosition !== undefined ? d.chronologicalPosition : d.issueNumber;
+    return `${scaleX(xValue)},${scaleY(d.villainCount)}`;
+  });
 
   return `M ${pathSegments.join(' L ')}`;
 }

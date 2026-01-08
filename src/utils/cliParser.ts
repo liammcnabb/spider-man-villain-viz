@@ -10,6 +10,7 @@ const DEFAULT_FALLBACK_RANGE = 20; // Default issue count for unknown volumes
 export interface ScrapeOptions {
   volume: string;
   issues: number[];
+  allSeries?: boolean;
 }
 
 /**
@@ -89,7 +90,8 @@ export function parseIssueSpec(issueSpec: string): number[] {
 export function parseScrapeArgs(args: string[]): ScrapeOptions {
   const options: ScrapeOptions = {
     volume: 'Amazing Spider-Man Vol 1',
-    issues: []
+    issues: [],
+    allSeries: false
   };
   
   // Find the scrape command index
@@ -111,14 +113,16 @@ export function parseScrapeArgs(args: string[]): ScrapeOptions {
       } else {
         throw new Error('--issues flag requires an argument');
       }
-    } else if (arg === '--volume' || arg === '-v') {
+    } else if (arg === '--volume' || arg === '-v' || arg === '--series' || arg === '-s') {
       // Get the next argument as the volume name
       if (i + 1 < args.length) {
         options.volume = args[i + 1];
         i++; // Skip next argument since we consumed it
       } else {
-        throw new Error('--volume flag requires an argument');
+        throw new Error('--volume/--series flag requires an argument');
       }
+    } else if (arg === '--all-series' || arg === '-a') {
+      options.allSeries = true;
     }
   }
   
@@ -139,7 +143,9 @@ export function getDefaultIssuesForVolume(volume: string): number[] {
     'Amazing Spider-Man Vol 4': [1, 32],
     'Amazing Spider-Man Vol 5': [1, 93],
     // Added support for Untold Tales of Spider-Man Vol 1
-    'Untold Tales of Spider-Man Vol 1': [1, 25]
+    'Untold Tales of Spider-Man Vol 1': [1, 25],
+    // Added support for Amazing Spider-Man Annual Vol 1
+    'Amazing Spider-Man Annual Vol 1': [1, 28]
   };
   
   const range = volumeRanges[volume];
