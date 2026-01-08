@@ -348,11 +348,36 @@ body {
 .issue-tag {
     display: inline-block;
     padding: calc(var(--spacing-unit) * 0.5) var(--spacing-unit);
-    background-color: var(--color-primary);
+    background-color: #95a5a6;
     color: white;
     border-radius: 12px;
     font-size: 0.8rem;
     font-weight: 500;
+    transition: all var(--transition-speed);
+    cursor: pointer;
+}
+
+.issue-tag:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.volume-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 6px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: var(--color-text);
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.issue-tag .volume-badge {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #2c3e50;
 }
 
 /* =========================== Groups List Section ========================== */
