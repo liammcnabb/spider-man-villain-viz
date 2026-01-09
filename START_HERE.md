@@ -1,5 +1,17 @@
 # 🎉 Spider-Man Villain Timeline - PROJECT COMPLETE!
 
+## 🚨 FOR AI AGENTS - CRITICAL RULES
+
+**Before doing ANYTHING, read:** [AGENT_WORKFLOW_RULES.md](AGENT_WORKFLOW_RULES.md)
+
+### Two Non-Negotiable Rules:
+1. **After editing TypeScript** → Build → **Verify public/script.js** → Test → Then claim success
+2. **Before scraping** → Check existing data → Test logic → Fix processing → Don't scrape
+
+**Full details:** [AGENT_WORKFLOW_RULES.md](AGENT_WORKFLOW_RULES.md)
+
+---
+
 ## What Has Been Created
 
 Your complete Spider-Man Villain Timeline project is ready to use!

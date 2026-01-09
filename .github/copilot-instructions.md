@@ -1,5 +1,22 @@
 ﻿# GitHub Copilot Instructions
 
+## 🚨 CRITICAL WORKFLOW REQUIREMENTS
+
+### ALWAYS Verify Compiled Output
+1. After editing TypeScript source files, run `npm run build`
+2. **READ public/script.js** to verify your changes appear in compiled output
+3. Search for your specific function/logic change in the compiled code
+4. Do NOT claim success until you've verified the output JavaScript
+5. Test in browser with `npm run serve` for UI changes
+
+### MINIMIZE Scraping - Only When Absolutely Necessary
+- **DON'T scrape** unless data files are missing/corrupted
+- **DO use** existing data in `data/` directory
+- **DO test** processing logic with `npx ts-node test-merge-logic.ts` (fast)
+- **DON'T scrape** to "verify" or "refresh" data
+- Most issues are in processing/merge logic, NOT source data
+- Scraping takes 10-30 minutes; testing takes < 1 second
+
 ## Project Context
 Spider-Man Villain Timeline - TypeScript project that scrapes Marvel Comics data and creates D3.js visualizations of villain appearances.
 

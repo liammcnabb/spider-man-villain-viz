@@ -1054,46 +1054,32 @@ class SpiderManVisualization {
         const tagsDiv = document.createElement('div');
         tagsDiv.className = 'issue-tags';
 
-        // Build a map of (villainUrl, issue) -> series from timeline
-        // This uses URL-based matching to handle villain name variations
-        const villainUrlIssueToSeries = {};
+        // Build a map of (issue, villainName) -> ALL series appearances from timeline
+        // Store all series where a villain appears in a given issue number
+        const villainIssueToSeriesMap = {};
         const timeline = this.data.timeline || [];
         for (const entry of timeline) {
-            if (!entry.villainUrls) continue;
-            entry.villainUrls.forEach((url, idx) => {
-                const key = `${url}|${entry.issue}`;
-                if (!villainUrlIssueToSeries[key]) {
-                    villainUrlIssueToSeries[key] = [];
+            if (!entry.villains) continue;
+            for (const villainInEntry of entry.villains) {
+                const key = `${entry.issue}|${villainInEntry}`;
+                if (!villainIssueToSeriesMap[key]) {
+                    villainIssueToSeriesMap[key] = [];
                 }
-                villainUrlIssueToSeries[key].push({
+                villainIssueToSeriesMap[key].push({
                     series: entry.series,
                     chronoPos: entry.chronologicalPosition || Infinity
                 });
-            });
+            }
         }
         
-        // Sort each series list by chronological position
-        for (const key in villainUrlIssueToSeries) {
-            villainUrlIssueToSeries[key].sort((a, b) => a.chronoPos - b.chronoPos);
-        }
-
-        // DEBUG: Log this villain's data
-        if (villain.name.includes('Alistair')) {
-            console.log(`DEBUG ${villain.name}:`, {
-                url: villain.url,
-                appearances: villain.appearances,
-                mapSize: Object.keys(villainUrlIssueToSeries).length,
-                sampleKeys: Object.keys(villainUrlIssueToSeries).slice(0, 5)
-            });
+        // Sort each series list by chronological position to get the first appearance
+        for (const key in villainIssueToSeriesMap) {
+            villainIssueToSeriesMap[key].sort((a, b) => a.chronoPos - b.chronoPos);
         }
 
         villain.appearances.forEach(issue => {
-            const key = `${villain.url}|${issue}`;
-            const seriesList = villainUrlIssueToSeries[key];
-            
-            if (villain.name.includes('Alistair')) {
-                console.log(`  Issue ${issue}: key="${key}", found=${!!seriesList}`);
-            }
+            const key = `${issue}|${villain.name}`;
+            const seriesList = villainIssueToSeriesMap[key];
             
             if (seriesList && seriesList.length > 0) {
                 // Use the earliest chronological appearance for coloring

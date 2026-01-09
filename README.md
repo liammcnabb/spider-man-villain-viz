@@ -4,6 +4,13 @@
 
 A visualization of Spider-Man villain appearances across the Amazing Spider-Man Vol. 1 comic book series (first 20 issues).
 
+## 🚨 For AI Agents
+
+**MUST READ FIRST:** [AGENT_WORKFLOW_RULES.md](AGENT_WORKFLOW_RULES.md)
+- Verification requirements (always check compiled output)
+- Scraping guidelines (almost never necessary)
+- Common failure patterns to avoid
+
 ## Project Overview
 
 This project visualizes the chronological appearances of villains in the Spider-Man comics using data scraped from the Marvel Fandom website. The visualization is built with D3.js and displays which antagonists appear in each issue, allowing exploration of villain frequency and appearance patterns.
