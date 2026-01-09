@@ -235,7 +235,8 @@ export function processVillainData(
   const { timeline } = generateTimeline(
     rawData.issues,
     allVillains,
-    groupMapByKey
+    groupMapByKey,
+    rawData.series
   );
 
   // Generate statistics
@@ -256,16 +257,19 @@ export function processVillainData(
  * 
  * @param issues - Original issue data
  * @param villainMap - Normalized villain map
+ * @param groupMap - Normalized group map
+ * @param seriesName - Name of the series (for series field in timeline)
  * @returns Timeline array
  */
 function generateTimeline(
   issues: IssueData[],
   villainMap: Map<string, ProcessedVillain>,
-  groupMap: Map<string, ProcessedGroup>
+  groupMap: Map<string, ProcessedGroup>,
+  seriesName: string = ''
 ): { timeline: TimelineData[]; groupsByIssue: Map<number, GroupAppearance[]> } {
   const groupsByIssue = new Map<number, GroupAppearance[]>();
 
-  const timeline = issues.map(issue => {
+  const timeline = issues.map((issue, index) => {
     const issueNumber = issue.issueNumber;
 
     // Individuals in this issue
@@ -298,6 +302,8 @@ function generateTimeline(
     return {
       issue: issueNumber,
       releaseDate: issue.releaseDate,
+      series: seriesName,
+      chronologicalPosition: index + 1,
       villains: villainsInIssue,
       villainCount: villainsInIssue.length,
       groups: groupAppearances.length > 0 ? groupAppearances : undefined

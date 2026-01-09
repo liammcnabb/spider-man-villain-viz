@@ -2,6 +2,76 @@
 
 This project implements modern context engineering patterns (2026) for AI-assisted development.
 
+## 🚨 CRITICAL AGENT WORKFLOW RULES
+
+### Rule 1: ALWAYS VERIFY OUTPUT FILES
+
+**❌ NEVER:**
+- Claim a fix is correct without verification
+- Stop after editing source files only
+- Assume compilation means the output is correct
+
+**✅ ALWAYS:**
+- After fixing source TypeScript, run `npm run build`
+- Read the actual output file [public/script.js](../public/script.js)
+- Verify the fix appears in the compiled JavaScript
+- Test the visualization in browser if UI-related
+
+**Verification Checklist:**
+```bash
+# 1. Build the project
+npm run build
+
+# 2. Check output exists and has your changes
+# Read public/script.js and search for your fix
+
+# 3. Verify data files are in sync
+# Check that data/ and public/data/ match if data changed
+
+# 4. Run tests
+npm test
+
+# 5. Serve and test in browser for UI changes
+npm run serve
+```
+
+### Rule 2: MINIMIZE SCRAPING - ONLY WHEN NECESSARY
+
+**❌ NEVER scrape unless:**
+- Data files are missing entirely
+- Data files are corrupted/malformed
+- Data is provably incomplete (missing series/issues)
+- Data structure changed and old data incompatible
+
+**✅ ALWAYS try these FIRST:**
+- Check if data files exist in `data/` and `public/data/`
+- Read existing JSON to understand current state
+- Test processing logic with existing data
+- Use `npx ts-node test-merge-logic.ts` for fast verification
+- Fix processing/merge logic rather than re-scraping
+
+**Scraping Guidelines:**
+```bash
+# ❌ DON'T: Scrape to "verify" or "refresh" data
+# Data is already fresh and complete
+
+# ✅ DO: Use existing data files
+cat data/villains.json | head -50
+cat data/villains.Amazing_Spider-Man_Vol_1.json
+
+# ✅ DO: Test processing logic without scraping
+npx ts-node test-merge-logic.ts
+
+# ❌ ONLY scrape if data is provably broken:
+npm run scrape -- --series "Amazing Spider-Man Vol 1"
+```
+
+**Why Minimize Scraping:**
+- Scraping takes 10-30 minutes per series
+- Data is already complete and validated
+- Most issues are in processing/merge logic, not source data
+- Unnecessary scraping wastes time and API rate limits
+
 ## Quick Reference
 
 ### Project Structure
@@ -160,6 +230,20 @@ npm run validate   # Type-check + tests (used in CI)
 ### 4. Iterate with Feedback
  **Don't**: Give up after first attempt
  **Do**: Use errors to guide progressive refinement
+
+### 5. ALWAYS Verify Compiled Output
+ **Don't**: Stop after editing source files
+ **Don't**: Assume `npm run build` success means output is correct
+ **Do**: Read [public/script.js](../public/script.js) after building
+ **Do**: Verify your changes appear in compiled JavaScript
+ **Do**: Check the exact lines where your fix should be
+
+### 6. NEVER Scrape Unless Absolutely Necessary
+ **Don't**: Scrape to "verify" or "refresh" existing data
+ **Don't**: Scrape when processing/merge logic is the issue
+ **Do**: Use existing data files in `data/` directory
+ **Do**: Test with `npx ts-node test-merge-logic.ts` (< 1 second)
+ **Do**: Fix processing logic, not data sources
 
 ## See Also
 

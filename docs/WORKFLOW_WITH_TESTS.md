@@ -2,7 +2,84 @@
 
 This guide describes how to apply the Context Engineering workflow to the Spider-Man Villain Timeline project with **tests as proof steps**.
 
-## 📋 The Workflow
+## � MANDATORY VERIFICATION STEPS
+
+### After Every Source Code Change
+
+**NEVER stop after editing TypeScript files.** Always complete the full verification cycle:
+
+```bash
+# Step 1: Build the project
+npm run build
+
+# Step 2: Verify compiled output contains your changes
+# CRITICAL: Read public/script.js and find your fix
+# Don't just trust compilation - verify the actual output
+
+# Step 3: Run tests
+npm test
+
+# Step 4: For data processing changes, test merge logic
+npx ts-node test-merge-logic.ts
+
+# Step 5: For UI changes, test in browser
+npm run serve
+# Then open http://localhost:8000
+```
+
+### Verification Checklist
+
+- [ ] Source files edited
+- [ ] `npm run build` executed successfully
+- [ ] **[public/script.js](../public/script.js) read and verified**
+- [ ] Changes found in compiled JavaScript
+- [ ] Tests executed and passed
+- [ ] Browser tested (if UI change)
+
+**Example Verification:**
+```bash
+# After fixing a bug in src/visualization/d3Graph.ts:
+
+# 1. Build
+npm run build
+
+# 2. Search for your fix in output
+# Read public/script.js lines 1-100, then search for your function
+# Verify the logic change is present
+
+# 3. Test
+npm test -- d3Graph
+
+# 4. Visual check
+npm run serve
+# Open browser, verify fix works visually
+```
+
+### When to Skip Scraping
+
+**NEVER scrape unless data is provably missing or corrupted.**
+
+Most issues are in processing/merge logic, NOT in source data.
+
+```bash
+# ❌ DON'T scrape for these issues:
+# - Villain appears in wrong position
+# - First appearance is incorrect
+# - Deduplication not working
+# - Missing villain in combined data
+# These are PROCESSING issues, not DATA issues
+
+# ✅ DO this instead:
+# Check existing data
+cat data/villains.Amazing_Spider-Man_Vol_1.json | grep -A5 "Mysterio"
+
+# Test processing logic
+npx ts-node test-merge-logic.ts
+
+# Fix merge/processing logic in src/utils/
+```
+
+## �📋 The Workflow
 
 When you ask for help solving an issue or adding a feature, follow this pattern:
 
@@ -21,16 +98,24 @@ When you ask for help solving an issue or adding a feature, follow this pattern:
    - Follow GUIDELINES.md standards
    - Add JSDoc comments
 
-### 4. **Proof Steps (Tests)**
+### 4. **Build & Verify Output**
+   - Run `npm run build`
+   - **CRITICAL:** Read [public/script.js](../public/script.js)
+   - Verify changes appear in compiled JavaScript
+   - Search for specific function/logic changes
+   - Do NOT proceed until output is verified
+
+### 5. **Proof Steps (Tests)**
    - For data processing: run `npx ts-node test-merge-logic.ts` (fast, no scraping)
    - For scraper/general: write Jest tests in `src/__tests__/`
    - Each test should verify one behavior
    - All tests must pass
 
-### 5. **Feedback & Metrics**
+### 6. **Feedback & Metrics**
    - Verify test coverage
    - Check for edge cases
    - Document results
+   - Confirm browser behavior for UI changes
 
 ## 🧪 Testing Strategies
 
