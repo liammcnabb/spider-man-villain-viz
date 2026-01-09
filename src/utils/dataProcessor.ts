@@ -302,6 +302,7 @@ function generateTimeline(
     return {
       issue: issueNumber,
       releaseDate: issue.releaseDate,
+      chronologicalPlacementHint: issue.chronologicalPlacementHint,
       series: seriesName,
       chronologicalPosition: index + 1,
       villains: villainsInIssue,
@@ -386,6 +387,7 @@ export function serializeProcessedData(
     timeline: data.timeline.map(t => ({
       issue: t.issue,
       releaseDate: t.releaseDate,
+      chronologicalPlacementHint: t.chronologicalPlacementHint,
       villainCount: t.villainCount,
       villains: t.villains.map(v => v.name),
       villainUrls: t.villains.map(v => v.url), // Track villain URLs for proper mantle identification during merge

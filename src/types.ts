@@ -15,6 +15,7 @@ export interface IssueData {
   title: string;
   publicationDate?: string;
   releaseDate?: string; // Publication date from Marvel Fandom for chronology
+  chronologicalPlacementHint?: string; // e.g., "between Amazing Spider-Man #6 and #7"
   antagonists: Antagonist[];
 }
 
@@ -34,6 +35,7 @@ export interface TimelineData {
   releaseDate?: string; // Publication date for chronology
   series?: string; // Series name for multi-series timelines
   chronologicalPosition?: number; // Position when sorted by release date
+  chronologicalPlacementHint?: string; // e.g., "between Amazing Spider-Man Vol 1 #6 and #7"
   villains: ProcessedVillain[];
   villainCount: number;
   groups?: GroupAppearance[]; // Optional: group appearances for this issue
