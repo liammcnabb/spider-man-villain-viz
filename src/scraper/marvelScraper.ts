@@ -198,10 +198,16 @@ export class MarvelScraper {
         issueNumber
       );
 
+      const chronologicalPlacementHint = this.parseChronologicalPlacement(
+        response.data,
+        issueNumber
+      );
+
       return {
         issueNumber,
         title: `${this.currentSeries.titlePrefix} #${issueNumber}`,
         releaseDate,
+        chronologicalPlacementHint,
         antagonists
       };
     } catch (error) {
@@ -401,6 +407,73 @@ export class MarvelScraper {
         `Error parsing HTML for issue ${issueNumber}: ${error}`
       );
       return [];
+    }
+  }
+
+  /**
+   * Parses chronological placement hints from issue's Notes section
+   * 
+   * Marvel Fandom often includes notes like:
+   * "Chronologically speaking, this story takes place between Amazing Spider-Man #6 and #7"
+   * 
+   * @param html - HTML content of the issue page
+   * @param issueNumber - The issue number (for logging)
+   * @returns Placement hint string if found (e.g., "between Amazing Spider-Man Vol 1 #6 and #7")
+   */
+  private parseChronologicalPlacement(
+    html: string,
+    issueNumber: number
+  ): string | undefined {
+    try {
+      const $ = cheerio.load(html);
+      
+      // Look for "Notes" section which typically contains chronological info
+      // The structure is usually: <h2>Notes</h2> followed by content
+      const h2Elements = $('h2');
+      
+      for (let i = 0; i < h2Elements.length; i++) {
+        const h2 = $(h2Elements[i]);
+        const headingText = h2.text().trim();
+        
+        if (headingText === 'Notes' || headingText.includes('Notes')) {
+          // Get all text content after this heading until the next h2
+          let currentElement = h2.next();
+          const textSegments: string[] = [];
+          
+          // Traverse siblings until we hit another h2 or run out of elements
+          while (currentElement.length > 0 && currentElement.prop('tagName') !== 'H2') {
+            const text = currentElement.text().trim();
+            if (text) {
+              textSegments.push(text);
+            }
+            currentElement = currentElement.next();
+          }
+          
+          const notesText = textSegments.join(' ');
+          
+          // Look for chronological placement patterns
+          // Pattern: "Chronologically speaking, this story takes place between [Series] #X and #Y"
+          // Also handle: "takes place between [Series] #X and [Series] #Y"
+          const betweenPattern = /(?:chronologically|this story takes place).*?between\s+([^#]+?)\s*#(\d+)\s+and\s+(?:#)?(\d+)/i;
+          const match = notesText.match(betweenPattern);
+          
+          if (match) {
+            const seriesName = match[1].trim();
+            const issue1 = match[2];
+            const issue2 = match[3];
+            return `between ${seriesName} #${issue1} and #${issue2}`;
+          }
+          
+          break; // Found Notes section, don't look further
+        }
+      }
+      
+      return undefined;
+    } catch (error) {
+      console.warn(
+        `Could not parse chronological placement for issue ${issueNumber}: ${error}`
+      );
+      return undefined;
     }
   }
 

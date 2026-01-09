@@ -32,6 +32,7 @@ export interface TimelineEntry {
   villainUrls?: string[];
   villainCount?: number;
   chronologicalPosition?: number;
+  chronologicalPlacementHint?: string; // e.g., "between Amazing Spider-Man Vol 1 #6 and #7"
   groups?: any[];
 }
 
@@ -45,6 +46,118 @@ export interface MergedDataset {
     mostFrequentCount: number;
     averageFrequency: number;
   };
+}
+
+/**
+ * Applies chronological placement hints to adjust issue ordering
+ * 
+ * Issues with hints like "between Amazing Spider-Man Vol 1 #6 and #7" will be
+ * positioned appropriately between those issues, overriding release date sorting.
+ * 
+ * @param timeline - Timeline sorted by release date
+ * @returns Timeline with placement hints applied
+ */
+function applyChronologicalPlacementHints(timeline: TimelineEntry[]): TimelineEntry[] {
+  // Separate entries with and without placement hints
+  const withHints: TimelineEntry[] = [];
+  const withoutHints: TimelineEntry[] = [];
+  
+  for (const entry of timeline) {
+    if (entry.chronologicalPlacementHint) {
+      withHints.push(entry);
+    } else {
+      withoutHints.push(entry);
+    }
+  }
+  
+  // If no hints, return original timeline
+  if (withHints.length === 0) {
+    return timeline;
+  }
+  
+  // Build result starting with entries without hints
+  const result: TimelineEntry[] = [...withoutHints];
+  
+  // Process each entry with a placement hint
+  for (const hintEntry of withHints) {
+    const hint = hintEntry.chronologicalPlacementHint!;
+    
+    // Parse hint: "between [Series] #X and #Y"
+    const betweenPattern = /between\s+(.+?)\s*#(\d+)\s+and\s+#?(\d+)/i;
+    const match = hint.match(betweenPattern);
+    
+    if (match) {
+      const targetSeries = match[1].trim();
+      const issue1 = parseInt(match[2], 10);
+      const issue2 = parseInt(match[3], 10);
+      
+      // Find positions of issue1 and issue2 in result array
+      let pos1 = -1;
+      let pos2 = -1;
+      
+      for (let i = 0; i < result.length; i++) {
+        const entry = result[i];
+        // Normalize series names for comparison
+        const entrySeries = (entry.series || '').toLowerCase();
+        const hintSeries = targetSeries.toLowerCase();
+        
+        // Strategy: Try exact match first, then substring match
+        // Remove version numbers and common suffixes for matching
+        const normalizedEntry = entrySeries
+          .replace(/vol\s+\d+/gi, '')
+          .replace(/\(\d+\)/g, '')
+          .trim();
+        const normalizedTarget = hintSeries
+          .replace(/vol\s+\d+/gi, '')
+          .replace(/\(\d+\)/g, '')
+          .trim();
+        
+        // Only match if the hint series description matches the entry series
+        // e.g., "Amazing Spider-Man" should match "Amazing Spider-Man Vol 1" 
+        // but NOT match "Amazing Spider-Man Annual Vol 1"
+        const seriesMatch = 
+          // Exact match (after normalization)
+          normalizedEntry === normalizedTarget ||
+          // Prefix match for specific patterns
+          (normalizedEntry.startsWith(normalizedTarget + ' ') && !normalizedEntry.includes('annual'));
+        
+        if (seriesMatch) {
+          if (entry.issue === issue1) {
+            pos1 = i;
+          }
+          if (entry.issue === issue2) {
+            pos2 = i;
+          }
+        }
+      }
+      
+      // Insert between the two issues if we found both
+      if (pos1 >= 0 && pos2 >= 0) {
+        const insertPos = Math.max(pos1, pos2); // Insert after the first issue
+        result.splice(insertPos, 0, hintEntry);
+      } else if (pos1 >= 0) {
+        // If we only found issue1, insert right after it
+        result.splice(pos1 + 1, 0, hintEntry);
+      } else if (pos2 >= 0) {
+        // If we only found issue2, insert before it
+        result.splice(pos2, 0, hintEntry);
+      } else {
+        // If we can't find either target issue, append at the end
+        console.warn(
+          `Could not find placement targets for hint: "${hint}" (series: ${hintEntry.series}, issue: ${hintEntry.issue}). Appending at end.`
+        );
+        result.push(hintEntry);
+      }
+    } else {
+      // Couldn't parse hint, append at the end
+      console.warn(
+        `Could not parse chronological placement hint: "${hint}" (series: ${hintEntry.series}, issue: ${hintEntry.issue})`
+      );
+      result.push(hintEntry);
+    }
+  }
+  
+  return result;
 }
 
 /**
@@ -123,7 +236,7 @@ export function mergeDatasets(datasets: any[]): MergedDataset {
     }
   }
 
-  // Sort by release date (chronological order)
+  // Sort by release date (chronological order) - initial sort
   const sortedTimeline = allTimelines.sort((a, b) => {
     if (!a.releaseDate && !b.releaseDate) return 0;
     if (!a.releaseDate) return 1;
@@ -131,8 +244,13 @@ export function mergeDatasets(datasets: any[]): MergedDataset {
     return new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime();
   });
 
+  // Process chronological placement hints to adjust ordering
+  // Issues with placement hints like "between X #6 and #7" should be inserted
+  // at the appropriate position, not just sorted by release date
+  const finalTimeline = applyChronologicalPlacementHints(sortedTimeline);
+
   // Add chronological position to each entry
-  sortedTimeline.forEach((entry, index) => {
+  finalTimeline.forEach((entry, index) => {
     entry.chronologicalPosition = index + 1;
   });
 
@@ -147,7 +265,7 @@ export function mergeDatasets(datasets: any[]): MergedDataset {
     let earliestIssue: number | undefined;
     let earliestSeries: string | undefined;
 
-    for (const entry of sortedTimeline) {
+    for (const entry of finalTimeline) {
       const entryVillainUrls: string[] = Array.isArray((entry as any).villainUrls) ? (entry as any).villainUrls : [];
       // Match by URL to properly attribute appearances to the correct villain mantle
       const isMatch = villainUrl && entryVillainUrls.includes(villainUrl);
@@ -191,7 +309,7 @@ export function mergeDatasets(datasets: any[]): MergedDataset {
   return {
     villains: combinedVillains,
     groups: combinedGroups,
-    timeline: sortedTimeline,
+    timeline: finalTimeline,
     stats: {
       totalVillains: combinedVillains.length,
       mostFrequent: mostFrequent.name,
