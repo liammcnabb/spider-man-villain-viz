@@ -22,6 +22,11 @@ class SpiderManVisualization {
         this.groups = [];
         this.seriesData = [];  // Store separate series data for grid display
         this.showTrailingGrids = true; // Toggle state for trailing empty cells
+        this.minAppearancesFilter = 3; // Minimum number of appearances to display
+        this.yAxisSort = 'default'; // Sorting method: 'default' or 'span'
+        this.gridSvg = null; // Reference to current grid SVG
+        this.gridZoom = null; // Reference to current zoom behavior
+        this.gridGroup = null; // Reference to zoomed group
         this.seriesColorMap = {
             'Amazing Spider-Man Vol 1': '#e74c3c',
             'Amazing Spider-Man Annual Vol 1': '#9b59b6',
@@ -74,6 +79,9 @@ class SpiderManVisualization {
             // Load series-specific data for grid visualization
             this.seriesData = await this.loadSeriesData();
 
+            // Initialize theme
+            this.initializeTheme();
+
             // Render all components
             this.renderStats();
             this.renderGridTimeline();
@@ -81,7 +89,7 @@ class SpiderManVisualization {
             this.renderVillainList();
             this.renderGroupList();
 
-            // Setup toggle listener
+            // Setup toggle listeners
             this.setupGridToggle();
 
             console.log('✅ Visualization loaded successfully');
@@ -92,6 +100,92 @@ class SpiderManVisualization {
                 'Please run "npm run scrape" first.'
             );
         }
+    }
+
+    /**
+     * Initialize theme from localStorage or system preference
+     */
+    initializeTheme() {
+        // Check for saved preference
+        const savedTheme = localStorage.getItem('villainTimelineTheme');
+        
+        if (savedTheme) {
+            // Use saved preference
+            if (savedTheme === 'dark') {
+                this.setDarkTheme();
+            }
+        } else {
+            // Check system preference
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                this.setDarkTheme();
+            }
+        }
+        
+        // Setup theme toggle listener
+        this.setupThemeToggle();
+    }
+
+    /**
+     * Setup theme toggle button listener
+     */
+    setupThemeToggle() {
+        const themeToggle = document.getElementById('themeToggle');
+        if (!themeToggle) return;
+
+        themeToggle.addEventListener('click', () => {
+            if (document.body.classList.contains('dark-theme')) {
+                this.setLightTheme();
+            } else {
+                this.setDarkTheme();
+            }
+        });
+    }
+
+    /**
+     * Enable dark theme
+     */
+    setDarkTheme() {
+        document.body.classList.add('dark-theme');
+        localStorage.setItem('villainTimelineTheme', 'dark');
+        this.updateThemeIcon();
+        // Re-render grids with new SVG background
+        this.rerenderCharts();
+    }
+
+    /**
+     * Enable light theme
+     */
+    setLightTheme() {
+        document.body.classList.remove('dark-theme');
+        localStorage.setItem('villainTimelineTheme', 'light');
+        this.updateThemeIcon();
+        // Re-render grids with new SVG background
+        this.rerenderCharts();
+    }
+
+    /**
+     * Update theme toggle icon
+     */
+    updateThemeIcon() {
+        const themeToggle = document.getElementById('themeToggle');
+        if (!themeToggle) return;
+        
+        const icon = themeToggle.querySelector('.theme-icon');
+        if (document.body.classList.contains('dark-theme')) {
+            icon.textContent = '☀️';
+            themeToggle.title = 'Switch to Light Theme';
+        } else {
+            icon.textContent = '🌙';
+            themeToggle.title = 'Switch to Dark Theme';
+        }
+    }
+
+    /**
+     * Re-render charts when theme changes
+     */
+    rerenderCharts() {
+        this.renderGridTimeline();
+        this.renderTimeline();
     }
 
     /**
@@ -192,6 +286,152 @@ class SpiderManVisualization {
                 this.renderGridTimeline();
             });
         }
+
+        // Setup minimum appearances filter
+        const minAppearances = document.getElementById('minAppearancesFilter');
+        if (minAppearances) {
+            minAppearances.addEventListener('change', (e) => {
+                this.minAppearancesFilter = parseInt(e.target.value) || 3;
+                this.renderGridTimeline();
+            });
+        }
+
+        // Setup Y-axis sort selector
+        const yAxisSort = document.getElementById('yAxisSort');
+        if (yAxisSort) {
+            yAxisSort.addEventListener('change', (e) => {
+                this.yAxisSort = e.target.value;
+                this.renderGridTimeline();
+            });
+        }
+
+        // Setup zoom controls
+        this.setupZoomControls();
+
+        // Setup fullscreen
+        this.setupFullscreen();
+    }
+
+    /**
+     * Setup zoom control buttons
+     */
+    setupZoomControls() {
+        const zoomIn = document.getElementById('zoomIn');
+        const zoomOut = document.getElementById('zoomOut');
+        const zoomReset = document.getElementById('zoomReset');
+
+        if (zoomIn) {
+            zoomIn.addEventListener('click', () => this.zoomGridIn());
+        }
+        if (zoomOut) {
+            zoomOut.addEventListener('click', () => this.zoomGridOut());
+        }
+        if (zoomReset) {
+            zoomReset.addEventListener('click', () => this.zoomGridReset());
+        }
+    }
+
+    /**
+     * Zoom in on the grid
+     */
+    zoomGridIn() {
+        if (!this.gridSvg || !this.gridZoom) return;
+        this.gridSvg.transition().duration(300).call(
+            this.gridZoom.scaleBy,
+            1.3
+        );
+    }
+
+    /**
+     * Zoom out on the grid
+     */
+    zoomGridOut() {
+        if (!this.gridSvg || !this.gridZoom) return;
+        this.gridSvg.transition().duration(300).call(
+            this.gridZoom.scaleBy,
+            0.77
+        );
+    }
+
+    /**
+     * Reset zoom on the grid
+     */
+    zoomGridReset() {
+        if (!this.gridSvg || !this.gridZoom) return;
+        this.gridSvg.transition().duration(300).call(
+            this.gridZoom.transform,
+            d3.zoomIdentity
+        );
+    }
+
+    /**
+     * Setup fullscreen functionality
+     */
+    setupFullscreen() {
+        const fullscreenBtn = document.getElementById('fullscreenBtn');
+        if (!fullscreenBtn) return;
+
+        fullscreenBtn.addEventListener('click', () => {
+            const container = document.getElementById('gridContainer');
+            if (!container) return;
+
+            if (!document.fullscreenElement) {
+                // Enter fullscreen
+                if (container.requestFullscreen) {
+                    container.requestFullscreen();
+                } else if (container.webkitRequestFullscreen) {
+                    container.webkitRequestFullscreen();
+                } else if (container.msRequestFullscreen) {
+                    container.msRequestFullscreen();
+                }
+            } else {
+                // Exit fullscreen
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        });
+
+        // Update button text when fullscreen changes
+        document.addEventListener('fullscreenchange', () => {
+            this.updateFullscreenButtonText();
+        });
+        document.addEventListener('webkitfullscreenchange', () => {
+            this.updateFullscreenButtonText();
+        });
+        document.addEventListener('msfullscreenchange', () => {
+            this.updateFullscreenButtonText();
+        });
+    }
+
+    /**
+     * Update fullscreen button text based on state
+     */
+    updateFullscreenButtonText() {
+        const btn = document.getElementById('fullscreenBtn');
+        if (!btn) return;
+        
+        if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
+            btn.textContent = '⛶';
+            btn.title = 'Exit Fullscreen';
+        } else {
+            btn.textContent = '⛶';
+            btn.title = 'Fullscreen';
+        }
+    }
+
+    /**
+     * Get SVG background color based on current theme
+     */
+    getSvgBackground() {
+        if (document.body.classList.contains('dark-theme')) {
+            return '#2d2d2d';
+        }
+        return '#ffffff';
     }
 
     /**
@@ -244,6 +484,7 @@ class SpiderManVisualization {
         const issueMap = new Map(); // Map chronoPos to issue entry
         const villainFirstChrono = {};
         const villainLastChrono = {};
+        const villainAppearanceCount = {};
         const appearances = {};
 
         allIssues.forEach(entry => {
@@ -259,13 +500,34 @@ class SpiderManVisualization {
                     // Track first chronological appearance
                     if (!villainFirstChrono[villain]) {
                         villainFirstChrono[villain] = chronoPos;
+                        villainAppearanceCount[villain] = 0;
                     }
                     // Track last chronological appearance
                     villainLastChrono[villain] = chronoPos;
+                    // Count appearances
+                    villainAppearanceCount[villain]++;
                     appearances[chronoPos].add(villain);
                 });
             }
         });
+
+        // Filter villains by minimum appearances
+        let filteredVillains = Object.keys(villainFirstChrono)
+            .filter(villain => villainAppearanceCount[villain] >= this.minAppearancesFilter);
+
+        // Sort villains based on selected sort method
+        if (this.yAxisSort === 'span') {
+            // Sort by chronological span (longest first)
+            filteredVillains.sort((a, b) => {
+                const spanA = villainLastChrono[a] - villainFirstChrono[a];
+                const spanB = villainLastChrono[b] - villainFirstChrono[b];
+                // Reverse sort to get longest span first
+                return spanB - spanA;
+            });
+        } else {
+            // Default: sort by first chronological appearance
+            filteredVillains.sort((a, b) => villainFirstChrono[a] - villainFirstChrono[b]);
+        }
 
         // Sort issues by chronological position
         const issues = Array.from(issueMap.values())
@@ -278,9 +540,8 @@ class SpiderManVisualization {
                 seriesColor: this.seriesColorMap[entry.series] || '#999'
             }));
 
-        // Sort villains by their first chronological appearance
-        const villains = Object.keys(villainFirstChrono)
-            .sort((a, b) => villainFirstChrono[a] - villainFirstChrono[b]);
+        // Use filtered villains list
+        const villains = filteredVillains;
 
         const cellSize = 20;
         const marginLeft = 150;
@@ -299,20 +560,25 @@ class SpiderManVisualization {
             .attr('width', Math.max(800, totalWidth))
             .attr('height', totalHeight)
             .attr('viewBox', `0 0 ${totalWidth} ${totalHeight}`)
-            .style('background', '#fff');
+            .style('background', this.getSvgBackground());
 
         // Pan and zoom group
         const g = svg.append('g')
             .attr('transform', `translate(${marginLeft},${marginTop})`);
 
         // Pan and zoom behavior
-        svg.call(
-            d3.zoom()
-                .scaleExtent([0.5, 16])
-                .on('zoom', (event) => {
-                    g.attr('transform', event.transform.translate(marginLeft, marginTop));
-                })
-        );
+        const zoom = d3.zoom()
+            .scaleExtent([0.5, 16])
+            .on('zoom', (event) => {
+                g.attr('transform', event.transform.translate(marginLeft, marginTop));
+            });
+
+        svg.call(zoom);
+
+        // Store references for external zoom control
+        this.gridSvg = svg;
+        this.gridZoom = zoom;
+        this.gridGroup = g;
 
         // Draw grid cells
         const cellData = [];

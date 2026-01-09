@@ -10,10 +10,17 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1>🕷️ Spider-Man Villain Timeline</h1>
-            <p class="subtitle">
-                Antagonist appearances in Amazing Spider-Man Vol. 1 (Issues 1-20)
-            </p>
+            <div class="header-content">
+                <div>
+                    <h1>🕷️ Spider-Man Villain Timeline</h1>
+                    <p class="subtitle">
+                        Antagonist appearances in Amazing Spider-Man Vol. 1 (Issues 1-20)
+                    </p>
+                </div>
+                <button id="themeToggle" class="theme-toggle" title="Toggle Dark/Light Theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
         </header>
 
         <main class="main-content">
@@ -29,8 +36,25 @@
                         <input type="checkbox" id="showTrailingGrids" checked>
                         Show trailing empty cells
                     </label>
+                    <label class="filter-label">
+                        Min appearances:
+                        <input type="number" id="minAppearancesFilter" min="1" max="50" value="3" class="filter-input">
+                    </label>
+                    <label class="filter-label">
+                        Sort Y-axis:
+                        <select id="yAxisSort" class="filter-input">
+                            <option value="default">Default (First appearance)</option>
+                            <option value="span">Longest span</option>
+                        </select>
+                    </label>
+                    <div class="zoom-controls">
+                        <button id="zoomIn" class="zoom-button" title="Zoom In (Ctrl+Plus)">+</button>
+                        <button id="zoomOut" class="zoom-button" title="Zoom Out (Ctrl+Minus)">−</button>
+                        <button id="zoomReset" class="zoom-button" title="Reset Zoom">Reset</button>
+                        <button id="fullscreenBtn" class="zoom-button" title="Fullscreen">⛶</button>
+                    </div>
                 </div>
-                <div class="chart-container">
+                <div class="chart-container" id="gridContainer">
                     <div id="grid-timeline"></div>
                 </div>
             </section>

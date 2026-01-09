@@ -10,10 +10,25 @@ This project visualizes the chronological appearances of villains in the Spider-
 
 ## Features
 
+### Core Features
 - **Web Scraper**: Automatically extracts antagonist information from Marvel Fandom pages
 - **Data Processing**: Normalizes and structures villain data from comic issues
 - **Interactive Visualization**: D3.js-based timeline graph showing villain appearances
 - **Context Engineering**: Follows the context engineering protocol for maintainability and clarity
+
+### Grid Visualization Features ✨ NEW
+- **Data Filtering**: Hide villains with fewer than X appearances (default: 3)
+- **Flexible Sorting**: Sort Y-axis by first appearance or longest chronological span
+- **Magnification Controls**: Zoom from 0.5x to 16x with smooth 300ms transitions
+- **Fullscreen Mode**: Present data on large screens with ESC to exit
+- **Dark Theme**: Professional dark mode with automatic OS detection and persistent preferences
+  - Light theme: Light gray background (#f5f5f5) with dark text
+  - Dark theme: Dark background (#1a1a1a) with light text
+  - Theme toggle button (🌙/☀️) in top-right corner
+  - System preference auto-detection on first visit
+  - Preference saved to localStorage
+
+See [COMPLETE_FEATURE_SET.md](COMPLETE_FEATURE_SET.md) for comprehensive feature documentation.
 
 ## Tech Stack
 

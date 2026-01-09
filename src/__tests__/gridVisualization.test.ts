@@ -57,8 +57,8 @@ describe('Grid Visualization - Proof Steps', () => {
 
     it('should filter trailing empty cells when toggle is off', () => {
       // Given: Villain appearances and toggle state
-      const villainFirstChrono = { 'Vulture': 2, 'Doctor Octopus': 3 };
-      const villainLastChrono = { 'Vulture': 7, 'Doctor Octopus': 5 };
+      const villainFirstChrono: Record<string, number> = { 'Vulture': 2, 'Doctor Octopus': 3 };
+      const villainLastChrono: Record<string, number> = { 'Vulture': 7, 'Doctor Octopus': 5 };
       const showTrailingGrids = false;
 
       // When: Determining if cell should be shown
@@ -79,8 +79,7 @@ describe('Grid Visualization - Proof Steps', () => {
 
     it('should show all cells when toggle is on', () => {
       // Given: Toggle is on
-      const showTrailingGrids = true;
-      const villainFirstChrono = { 'Green Goblin': 14 };
+      const villainFirstChrono: Record<string, number> = { 'Green Goblin': 14 };
 
       // When: Determining if cells should be shown
       const checkCell = (villain: string, chronoPos: number): boolean => {
