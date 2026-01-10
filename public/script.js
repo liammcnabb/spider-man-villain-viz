@@ -41,6 +41,15 @@ class SpiderManVisualization {
     }
 
     /**
+     * Normalize image URLs so they work when the site is hosted in a sub-path (e.g., GitHub Pages)
+     */
+    normalizeImageUrl(url) {
+        if (!url) return '';
+        if (/^https?:\/\//i.test(url)) return url;
+        return url.replace(/^\//, '');
+    }
+
+    /**
      * Normalize a series name into a display title and volume label
      */
     getSeriesDisplay(seriesName) {
@@ -1467,10 +1476,12 @@ class SpiderManVisualization {
             const img = document.createElement('img');
             img.className = 'villain-image';
             // Try original URL first; if it 404s, fall back to a de-scaled variant.
-            const variants = [villain.imageUrl];
+            const variants = [this.normalizeImageUrl(villain.imageUrl)];
             if (villain.imageUrl.includes('/scale-to-width-down/')) {
                 variants.push(
-                    villain.imageUrl.replace(/\/scale-to-width-down\/\d+/i, '')
+                    this.normalizeImageUrl(
+                        villain.imageUrl.replace(/\/scale-to-width-down\/\d+/i, '')
+                    )
                 );
             }
 
