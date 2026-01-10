@@ -7,9 +7,15 @@
 }
 
 :root {
+    /* Spider-Man Brand Colors */
+    --spidey-red: #e74c3c;
+    --spidey-blue: #3498db;
+    --web-silver: #ecf0f1;
+    --shadow-black: #2c3e50;
+    
     /* Light theme colors */
-    --color-primary: #e74c3c;
-    --color-secondary: #3498db;
+    --color-primary: var(--spidey-red);
+    --color-secondary: var(--spidey-blue);
     --color-background: #f5f5f5;
     --color-surface: #ffffff;
     --color-text: #333333;
@@ -17,10 +23,40 @@
     --color-border: #e0e0e0;
     --color-grid: #eeeeee;
     --color-card-shadow: rgba(0, 0, 0, 0.1);
-    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 
+    
+    /* Typography */
+    --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 
                    'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    --font-mono: 'Courier New', Courier, monospace;
+    
+    /* Spacing Scale */
     --spacing-unit: 8px;
-    --transition-speed: 0.3s ease;
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+    --space-5: 40px;
+    --space-6: 48px;
+    --space-8: 64px;
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-full: 9999px;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 8px 12px rgba(0, 0, 0, 0.15);
+    --shadow-comic: 4px 4px 0 rgba(0, 0, 0, 0.3);
+    
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 350ms ease;
 }
 
 body.dark-theme {
@@ -41,11 +77,11 @@ html {
 }
 
 body {
-    font-family: var(--font-family);
+    font-family: var(--font-primary);
     background-color: var(--color-background);
     color: var(--color-text);
     line-height: 1.6;
-    transition: background-color var(--transition-speed), color var(--transition-speed);
+    transition: background-color var(--transition-base), color var(--transition-base);
 }
 
 .container {
@@ -56,22 +92,8 @@ body {
 
 /* =========================== Header Styles ========================== */
 
-.header {
-    margin-bottom: calc(var(--spacing-unit) * 5);
-    padding: calc(var(--spacing-unit) * 3);
-    background: linear-gradient(135deg, var(--color-primary), 
-                                var(--color-secondary));
-    color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px var(--color-card-shadow);
-    transition: all var(--transition-speed);
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: calc(var(--spacing-unit) * 2);
+.header {\n    margin-bottom: var(--space-5);\n    padding: var(--space-4);\n    background: linear-gradient(135deg, var(--spidey-red), var(--spidey-blue));\n    color: white;\n    border: 4px solid var(--shadow-black);\n    border-radius: var(--radius-md);\n    box-shadow: var(--shadow-comic);\n    transition: all var(--transition-base);\n    position: relative;\n}\n\n/* Comic book halftone effect overlay */\n.header::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);\n    background-size: 4px 4px;\n    opacity: 0.3;\n    pointer-events: none;\n    border-radius: var(--radius-md);\n}\n\n.header-content {
+    position: relative;
 }
 
 .header h1 {
@@ -86,10 +108,13 @@ body {
 }
 
 .theme-toggle {
-    padding: calc(var(--spacing-unit) * 1.5);
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 2px solid white;
-    border-radius: 50%;
+    position: fixed;
+    top: var(--space-3);
+    right: max(var(--space-3), calc((100vw - 1400px) / 2));
+    padding: var(--space-2);
+    background-color: var(--color-surface);
+    border: 3px solid var(--color-primary);
+    border-radius: var(--radius-full);
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -97,18 +122,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all var(--transition-speed);
-    color: white;
-    flex-shrink: 0;
+    transition: all var(--transition-base);
+    color: var(--color-text);
+    z-index: 1000;
+    box-shadow: var(--shadow-lg);
 }
 
 .theme-toggle:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    transform: scale(1.1);
+    background-color: var(--color-primary);
+    color: white;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: var(--shadow-xl);
 }
 
 .theme-toggle:active {
-    transform: scale(0.95);
+    transform: translateY(0);
+}
+
+.theme-toggle:focus-visible {
+    outline: 3px solid var(--spidey-blue);
+    outline-offset: 2px;
 }
 
 /* =========================== Main Content ========================== */
@@ -166,9 +199,11 @@ body {
 
 .visualization-section {
     background-color: var(--color-surface);
-    padding: calc(var(--spacing-unit) * 3);
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: var(--space-4);
+    border: 3px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    position: relative;
 }
 
 .visualization-section h2 {
@@ -236,15 +271,22 @@ body {
 
 .tooltip {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    padding: calc(var(--spacing-unit));
-    border-radius: 4px;
+    background-color: white;
+    color: var(--color-text);
+    padding: var(--space-2);
+    border: 3px solid black;
+    border-radius: var(--radius-lg);
     font-size: 0.9rem;
     pointer-events: none;
     z-index: 100;
     max-width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow-comic);
+}
+
+body.dark-theme .tooltip {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    border-color: var(--color-border);
 }
 
 /* Grid Timeline Styles */
@@ -286,15 +328,22 @@ body {
 
 #grid-tooltip {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.95);
-    color: white;
-    padding: calc(var(--spacing-unit) * 1.5);
-    border-radius: 4px;
+    background-color: white;
+    color: var(--color-text);
+    padding: var(--space-2);
+    border: 3px solid black;
+    border-radius: var(--radius-lg);
     font-size: 0.9rem;
     pointer-events: none;
     z-index: 101;
     max-width: 250px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--shadow-comic);
+}
+
+body.dark-theme #grid-tooltip {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    border-color: var(--color-border);
 }
 
 /* =========================== Villain List Section ========================== */
@@ -435,15 +484,15 @@ body {
 }
 
 .zoom-button {
-    padding: calc(var(--spacing-unit) * 0.75) calc(var(--spacing-unit) * 1.25);
+    padding: 10px 16px;
     font-size: 1rem;
-    font-weight: bold;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    background-color: var(--color-background);
+    font-weight: 700;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-surface);
     color: var(--color-text);
     cursor: pointer;
-    transition: all var(--transition-speed);
+    transition: all var(--transition-fast);
     min-width: 40px;
     height: 40px;
     display: flex;
@@ -455,16 +504,18 @@ body {
     background-color: var(--color-primary);
     color: white;
     border-color: var(--color-primary);
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
 .zoom-button:active {
-    transform: scale(0.95);
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
 }
 
-.zoom-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
+.zoom-button:focus-visible {
+    outline: 3px solid var(--spidey-blue);
+    outline-offset: 2px;
 }
 
 #gridContainer {
@@ -517,19 +568,20 @@ body {
 }
 
 .villain-card {
-    padding: calc(var(--spacing-unit) * 2);
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
+    padding: var(--space-3);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-md);
     background-color: var(--color-background);
-    transition: all var(--transition-speed);
+    transition: all var(--transition-base);
     cursor: pointer;
     position: relative;
 }
 
 .villain-card:hover {
     border-color: var(--color-primary);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
+    border-width: 3px;
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
 }
 
 .villain-wiki-link {
@@ -624,19 +676,21 @@ body {
 
 .issue-tag {
     display: inline-block;
-    padding: calc(var(--spacing-unit) * 0.5) var(--spacing-unit);
+    padding: 6px 12px;
     background-color: #95a5a6;
     color: white;
-    border-radius: 12px;
+    border-radius: var(--radius-lg);
     font-size: 0.8rem;
-    font-weight: 500;
-    transition: all var(--transition-speed);
+    font-weight: 600;
+    transition: all var(--transition-fast);
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .issue-tag:hover {
-    transform: scale(1.05);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 .villain-trend {
