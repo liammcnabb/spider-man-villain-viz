@@ -1,0 +1,463 @@
+{
+  "series": "Untold Tales of Spider-Man Vol 1",
+  "baseUrl": "https://marvel.fandom.com/wiki/Untold_Tales_of_Spider-Man_Vol_1_{issue}",
+  "issues": [
+    {
+      "issueNumber": 1,
+      "title": "Untold Tales of Spider-Man #1",
+      "releaseDate": "July 18, 1995",
+      "chronologicalPlacementHint": "between Amazing Spider-Man #6 and #7",
+      "antagonists": [
+        {
+          "name": "Scorcher (Steven Hudak)",
+          "url": "https://marvel.fandom.com/wiki/Steven_Hudak_(Earth-616)",
+          "imageUrl": "/images/steven-hudak-earth-616.jpg"
+        },
+        {
+          "name": "Marc",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Marc"
+        },
+        {
+          "name": "Marc",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Marc"
+        },
+        {
+          "name": "Carl",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Carl"
+        }
+      ]
+    },
+    {
+      "issueNumber": 2,
+      "title": "Untold Tales of Spider-Man #2",
+      "releaseDate": "August 17, 1995",
+      "antagonists": [
+        {
+          "name": "Batwing (Jimmy Santini)",
+          "url": "https://marvel.fandom.com/wiki/James_Santini_(Earth-616)",
+          "imageUrl": "/images/james-santini-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 3,
+      "title": "Untold Tales of Spider-Man #3",
+      "releaseDate": "September 28, 1995",
+      "antagonists": [
+        {
+          "name": "Sandman (Flint Marko)",
+          "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+          "imageUrl": "/images/william-baker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 4,
+      "title": "Untold Tales of Spider-Man #4",
+      "releaseDate": "October 26, 1995",
+      "antagonists": [
+        {
+          "name": "Spacemen",
+          "url": "https://marvel.fandom.com/wiki/Spacemen_(Earth-616)",
+          "imageUrl": "/images/spacemen-earth-616.jpg"
+        },
+        {
+          "name": "Gantry",
+          "url": "https://marvel.fandom.com/wiki/Gantry_(Earth-616)",
+          "imageUrl": "/images/gantry-earth-616.jpg"
+        },
+        {
+          "name": "Orbit",
+          "url": "https://marvel.fandom.com/wiki/Orbit_(Spacemen)_(Earth-616)",
+          "imageUrl": "/images/orbit-spacemen-earth-616.jpg"
+        },
+        {
+          "name": "Vacuum",
+          "url": "https://marvel.fandom.com/wiki/Vacuum_(Earth-616)",
+          "imageUrl": "/images/vacuum-earth-616.jpg"
+        },
+        {
+          "name": "Satellite",
+          "url": "https://marvel.fandom.com/wiki/Satellite_(Earth-616)",
+          "imageUrl": "/images/satellite-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 5,
+      "title": "Untold Tales of Spider-Man #5",
+      "releaseDate": "November 16, 1995",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 6,
+      "title": "Untold Tales of Spider-Man #6",
+      "releaseDate": "December 14, 1995",
+      "antagonists": [
+        {
+          "name": "The Wizard (Bentley Wittman)",
+          "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
+          "imageUrl": "/images/bentley-wittman-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 7,
+      "title": "Untold Tales of Spider-Man #7",
+      "releaseDate": "January 11, 1996",
+      "antagonists": [
+        {
+          "name": "Dr. Gerhard Winkler",
+          "url": "https://marvel.fandom.com/wiki/Gerhard_Winkler_(Earth-616)",
+          "imageUrl": "/images/gerhard-winkler-earth-616.jpg"
+        },
+        {
+          "name": "Electro (Max Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 8,
+      "title": "Untold Tales of Spider-Man #8",
+      "releaseDate": "February 15, 1996",
+      "antagonists": [
+        {
+          "name": "Enforcers",
+          "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
+          "imageUrl": "/images/enforcers-earth-616.jpg"
+        },
+        {
+          "name": "Montana (Jackson Brice)",
+          "url": "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
+          "imageUrl": "/images/jackson-brice-earth-616.jpg"
+        },
+        {
+          "name": "Ox (Raymond Bloch)",
+          "url": "https://marvel.fandom.com/wiki/Raymond_Bloch_(Earth-616)",
+          "imageUrl": "/images/raymond-bloch-earth-616.jpg"
+        },
+        {
+          "name": "Fancy Dan (Dan Brito)",
+          "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+          "imageUrl": "/images/daniel-brito-earth-616.jpg"
+        },
+        {
+          "name": "Headsman",
+          "url": "https://marvel.fandom.com/wiki/Cleavon_Twain_(Earth-616)",
+          "imageUrl": "/images/cleavon-twain-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 9,
+      "title": "Untold Tales of Spider-Man #9",
+      "releaseDate": "March 14, 1996",
+      "antagonists": [
+        {
+          "name": "Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 10,
+      "title": "Untold Tales of Spider-Man #10",
+      "releaseDate": "April 10, 1996",
+      "antagonists": [
+        {
+          "name": "Commanda (Lady Catherine)",
+          "url": "https://marvel.fandom.com/wiki/Catherine_D%27Antan_(Earth-616)",
+          "imageUrl": "/images/catherine-d-27antan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 11,
+      "title": "Untold Tales of Spider-Man #11",
+      "releaseDate": "May 15, 1996",
+      "antagonists": [
+        {
+          "name": "Electro (Max Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Eel (Leo Stryke)",
+          "url": "https://marvel.fandom.com/wiki/Leopold_Stryke_(Earth-616)",
+          "imageUrl": "/images/leopold-stryke-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 12,
+      "title": "Untold Tales of Spider-Man #12",
+      "releaseDate": "June 19, 1996",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Scarlet Beetle",
+          "url": "https://marvel.fandom.com/wiki/Scarlet_Beetle_(Earth-616)",
+          "imageUrl": "/images/scarlet-beetle-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 13,
+      "title": "Untold Tales of Spider-Man #13",
+      "releaseDate": "July 10, 1996",
+      "antagonists": [
+        {
+          "name": "Black Knight (Nathan Garrett)",
+          "url": "https://marvel.fandom.com/wiki/Nathan_Garrett_(Earth-616)",
+          "imageUrl": "/images/nathan-garrett-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 14,
+      "title": "Untold Tales of Spider-Man #14",
+      "releaseDate": "August 14, 1996",
+      "antagonists": [
+        {
+          "name": "Scorcher (Steven Hudak)",
+          "url": "https://marvel.fandom.com/wiki/Steven_Hudak_(Earth-616)",
+          "imageUrl": "/images/steven-hudak-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 15,
+      "title": "Untold Tales of Spider-Man #15",
+      "releaseDate": "September 11, 1996",
+      "antagonists": [
+        {
+          "name": "Mick",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Mick"
+        },
+        {
+          "name": "The Terrier (Gordon Savinski)",
+          "url": "https://marvel.fandom.com/wiki/Gordon_Savinski_(Earth-616)",
+          "imageUrl": "/images/gordon-savinski-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 16,
+      "title": "Untold Tales of Spider-Man #16",
+      "releaseDate": "October 9, 1996",
+      "antagonists": [
+        {
+          "name": "Radioactive Man (Chen Lu)",
+          "url": "https://marvel.fandom.com/wiki/Chen_Lu_(Earth-616)",
+          "imageUrl": "/images/chen-lu-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 17,
+      "title": "Untold Tales of Spider-Man #17",
+      "releaseDate": "November 13, 1996",
+      "antagonists": [
+        {
+          "name": "Liz Allan",
+          "url": "https://marvel.fandom.com/wiki/Elizabeth_Allan_(Earth-616)",
+          "imageUrl": "/images/elizabeth-allan-earth-616.jpg"
+        },
+        {
+          "name": "Hawkeye (Clint Barton)",
+          "url": "https://marvel.fandom.com/wiki/Clinton_Barton_(Earth-616)",
+          "imageUrl": "/images/clinton-barton-earth-616.jpg"
+        },
+        {
+          "name": "Black Widow (Natasha Romanoff)",
+          "url": "https://marvel.fandom.com/wiki/Natalia_Romanova_(Earth-616)",
+          "imageUrl": "/images/natalia-romanova-earth-616.jpg"
+        },
+        {
+          "name": "Commander Kulov",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/K#Kulov"
+        },
+        {
+          "name": "Gennady",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/G#Gennady"
+        }
+      ]
+    },
+    {
+      "issueNumber": 18,
+      "title": "Untold Tales of Spider-Man #18",
+      "releaseDate": "December 26, 1996",
+      "antagonists": [
+        {
+          "name": "Headsman",
+          "url": "https://marvel.fandom.com/wiki/Cleavon_Twain_(Earth-616)",
+          "imageUrl": "/images/cleavon-twain-earth-616.jpg"
+        },
+        {
+          "name": "Lucky Lobo",
+          "url": "https://marvel.fandom.com/wiki/Francisco_Lobo_(Earth-616)",
+          "imageUrl": "/images/francisco-lobo-earth-616.jpg"
+        },
+        {
+          "name": "\"Bullet-Hole\" Pete",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/P#Pete"
+        },
+        {
+          "name": "\"Bullet-Hole\" Pete",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/P#Pete"
+        },
+        {
+          "name": "Trench",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/T#Trench"
+        },
+        {
+          "name": "Green Goblin (Norman Osborn)",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 19,
+      "title": "Untold Tales of Spider-Man #19",
+      "releaseDate": "January 22, 1997",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 20,
+      "title": "Untold Tales of Spider-Man #20",
+      "releaseDate": "December 20, 1997",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Nick Lewis",
+          "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+          "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin's Henchmen",
+          "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen"
+        },
+        {
+          "name": "Flint",
+          "url": "https://marvel.fandom.com/wiki/Flint_(Goon)_(Earth-616)",
+          "imageUrl": "/images/flint-goon-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 21,
+      "title": "Untold Tales of Spider-Man #21",
+      "releaseDate": "March 26, 1997",
+      "antagonists": [
+        {
+          "name": "Menace",
+          "url": "https://marvel.fandom.com/wiki/Menace_(Team_Alpha)_(Earth-616)",
+          "imageUrl": "/images/menace-team-alpha-earth-616.jpg"
+        },
+        {
+          "name": "Mutantmen",
+          "url": "https://marvel.fandom.com/wiki/Mutantmen_(Earth-616)",
+          "imageUrl": "/images/mutantmen-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 22,
+      "title": "Untold Tales of Spider-Man #22",
+      "releaseDate": "April 23, 1997",
+      "antagonists": [
+        {
+          "name": "Scarecrow (Ebenezer Laughton)",
+          "url": "https://marvel.fandom.com/wiki/Ebenezer_Laughton_(Earth-616)",
+          "imageUrl": "/images/ebenezer-laughton-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 23,
+      "title": "Untold Tales of Spider-Man #23",
+      "releaseDate": "June 11, 1997",
+      "antagonists": [
+        {
+          "name": "Crime Master (Nick Lewis Sr.)",
+          "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+          "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 24,
+      "title": "Untold Tales of Spider-Man #24",
+      "releaseDate": "July 9, 1997",
+      "antagonists": [
+        {
+          "name": "Jason Ionello",
+          "url": "https://marvel.fandom.com/wiki/Jason_Ionello_(Earth-616)",
+          "imageUrl": "/images/jason-ionello-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 25,
+      "title": "Untold Tales of Spider-Man #25",
+      "releaseDate": "September 10, 1997",
+      "antagonists": [
+        {
+          "name": "Green Goblin (Norman Osborn)",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Crime-Master (Nick Lewis)",
+          "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+          "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
+        },
+        {
+          "name": "Straker",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Straker"
+        },
+        {
+          "name": "Straker",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Straker"
+        },
+        {
+          "name": "Michaelson",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Michaelson"
+        },
+        {
+          "name": "Jonson",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jonson"
+        }
+      ]
+    }
+  ]
+}

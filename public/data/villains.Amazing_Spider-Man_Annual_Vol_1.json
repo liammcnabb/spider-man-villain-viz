@@ -1,6 +1,6 @@
 {
   "series": "Amazing Spider-Man Annual Vol 1",
-  "processedAt": "2026-01-10T13:48:38.823Z",
+  "processedAt": "2026-01-10T18:31:22.821Z",
   "stats": {
     "totalVillains": 114,
     "mostFrequent": "Kingpin",
@@ -14,6 +14,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
       "imageUrl": "/images/adrian-toomes-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -29,6 +30,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
       "imageUrl": "/images/maxwell-dillon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -44,6 +46,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
       "imageUrl": "/images/otto-octavius-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -63,6 +66,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
       "imageUrl": "/images/quentin-beck-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -79,6 +83,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
       "imageUrl": "/images/sergei-kravinoff-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -93,6 +98,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
       "imageUrl": "/images/william-baker-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -107,6 +113,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/X-Men_(Mysterio%27s_Androids)_(Earth-616)",
       "imageUrl": "/images/x-men-mysterio-27s-androids-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -120,6 +127,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
       "imageUrl": "/images/cyclops-mysterio-27s-androids-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -133,6 +141,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Angel_(Mysterio%27s_Androids)_(Earth-616)",
       "imageUrl": "/images/angel-mysterio-27s-androids-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -146,6 +155,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Beast_(Mysterio%27s_Androids)_(Earth-616)",
       "imageUrl": "/images/beast-mysterio-27s-androids-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -159,6 +169,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Xandu_(Sorcerer)_(Earth-616)",
       "imageUrl": "/images/xandu-sorcerer-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2
@@ -173,6 +184,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
       "imageUrl": "/images/carradine-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2,
@@ -187,6 +199,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
       "imageUrl": "/images/phineas-mason-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2
@@ -198,6 +211,7 @@
       "name": "Charlie",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/C",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2,
@@ -211,6 +225,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
       "imageUrl": "/images/victor-von-doom-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2,
@@ -225,6 +240,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Doombot",
       "imageUrl": "/images/doombot.jpg",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2
@@ -237,6 +253,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
       "imageUrl": "/images/bruce-banner-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 3,
       "appearances": [
         3,
@@ -250,6 +267,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)",
       "imageUrl": "/images/blackie-gaxton-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 3,
       "appearances": [
         3
@@ -262,6 +280,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
       "imageUrl": "/images/bentley-wittman-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 4,
       "appearances": [
         4,
@@ -275,6 +294,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Albert_Malik_(Earth-616)",
       "imageUrl": "/images/albert-malik-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 5,
       "appearances": [
         5,
@@ -288,6 +308,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sandor_(Earth-616)",
       "imageUrl": "/images/sandor-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 5,
       "appearances": [
         5
@@ -300,6 +321,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Karl_Fiers_(Earth-616)",
       "imageUrl": "/images/karl-fiers-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 5,
       "appearances": [
         5
@@ -315,6 +337,7 @@
         "Ace"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/A",
+      "identitySource": "url",
       "firstAppearance": 5,
       "appearances": [
         5,
@@ -329,6 +352,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)",
       "imageUrl": "/images/peter-parker-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 6,
       "appearances": [
         6,
@@ -342,6 +366,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
       "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 7,
       "appearances": [
         7,
@@ -355,6 +380,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Joseph_Smith_(Earth-616)",
       "imageUrl": "/images/joseph-smith-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 7,
       "appearances": [
         7
@@ -367,6 +393,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
       "imageUrl": "/images/herman-schultz-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 8,
       "appearances": [
         8,
@@ -381,6 +408,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Elihas_Starr_(Earth-616)",
       "imageUrl": "/images/elihas-starr-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 8,
       "appearances": [
         8
@@ -393,6 +421,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
       "imageUrl": "/images/wilson-fisk-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 8,
       "appearances": [
         8,
@@ -411,6 +440,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Flint_(Goon)_(Earth-616)",
       "imageUrl": "/images/flint-goon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 8,
       "appearances": [
         8
@@ -422,6 +452,7 @@
       "name": "Blackie",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/B",
+      "identitySource": "url",
       "firstAppearance": 8,
       "appearances": [
         8
@@ -439,6 +470,7 @@
         "Mr. Schott"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/S",
+      "identitySource": "url",
       "firstAppearance": 8,
       "appearances": [
         8,
@@ -454,6 +486,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
       "imageUrl": "/images/norman-osborn-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 9,
       "appearances": [
         9,
@@ -467,6 +500,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
       "imageUrl": "/images/richard-deacon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 10,
       "appearances": [
         10,
@@ -480,6 +514,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Anton_DeLionatus_(Earth-616)",
       "imageUrl": "/images/anton-delionatus-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 11,
       "appearances": [
         11
@@ -492,6 +527,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Strongman_(Spider-Squad)_(Earth-616)",
       "imageUrl": "/images/strongman-spider-squad-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 11,
       "appearances": [
         11
@@ -504,6 +540,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Tumbler_(Spider-Squad)_(Earth-616)",
       "imageUrl": "/images/tumbler-spider-squad-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 11,
       "appearances": [
         11
@@ -516,6 +553,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Acrobat_(Spider-Squad)_(Earth-616)",
       "imageUrl": "/images/acrobat-spider-squad-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 11,
       "appearances": [
         11
@@ -528,6 +566,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Paul_Cassidy_(Earth-616)",
       "imageUrl": "/images/paul-cassidy-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 11,
       "appearances": [
         11
@@ -540,6 +579,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
       "imageUrl": "/images/mark-raxton-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 13,
       "appearances": [
         13,
@@ -553,6 +593,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
       "imageUrl": "/images/norton-fester-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 13,
       "appearances": [
         13,
@@ -566,6 +607,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
       "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 13,
       "appearances": [
         13,
@@ -579,6 +621,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
       "imageUrl": "/images/silvio-manfredi-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 13,
       "appearances": [
         13,
@@ -592,6 +635,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Michael_Marko_(Earth-616)",
       "imageUrl": "/images/michael-marko-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 13,
       "appearances": [
         13
@@ -604,6 +648,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hobart_Brown_(Earth-616)",
       "imageUrl": "/images/hobart-brown-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 13,
       "appearances": [
         13
@@ -616,6 +661,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Frank_Oliver_(Earth-616)",
       "imageUrl": "/images/frank-oliver-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 13,
       "appearances": [
         13
@@ -628,6 +674,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Dormammu_(Earth-616)",
       "imageUrl": "/images/dormammu-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 14,
       "appearances": [
         14
@@ -640,6 +687,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Lucius_Dilby_(Earth-616)",
       "imageUrl": "/images/lucius-dilby-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 14,
       "appearances": [
         14
@@ -651,6 +699,7 @@
       "name": "Mojo",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/M",
+      "identitySource": "url",
       "firstAppearance": 16,
       "appearances": [
         16
@@ -665,6 +714,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
       "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 16,
       "appearances": [
         16,
@@ -678,6 +728,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Felipe_Picaro_(Earth-616)",
       "imageUrl": "/images/felipe-picaro-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 16,
       "appearances": [
         16
@@ -689,6 +740,7 @@
       "name": "Mr. Gilbert",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/G",
+      "identitySource": "url",
       "firstAppearance": 17,
       "appearances": [
         17
@@ -701,6 +753,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Louie_Minelli_(Earth-616)",
       "imageUrl": "/images/louie-minelli-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 17,
       "appearances": [
         17
@@ -714,6 +767,7 @@
         "Jake"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/J",
+      "identitySource": "url",
       "firstAppearance": 17,
       "appearances": [
         17,
@@ -727,6 +781,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
       "imageUrl": "/images/macdonald-gargan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 18,
       "appearances": [
         18,
@@ -740,6 +795,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)",
       "imageUrl": "/images/alistaire-smythe-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 19,
       "appearances": [
         19
@@ -752,6 +808,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Robert_Saunders_(Earth-8410)",
       "imageUrl": "/images/robert-saunders-earth-8410.jpg",
+      "identitySource": "url",
       "firstAppearance": 20,
       "appearances": [
         20
@@ -764,6 +821,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Gregor_Shapanka_(Earth-616)",
       "imageUrl": "/images/gregor-shapanka-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 20,
       "appearances": [
         20
@@ -776,6 +834,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Eddie_Muerte_(Earth-616)",
       "imageUrl": "/images/eddie-muerte-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 21,
       "appearances": [
         21
@@ -788,6 +847,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
       "imageUrl": "/images/oswald-silkworth-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 22,
       "appearances": [
         22
@@ -800,6 +860,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Dylan_Thomas_(Earth-616)",
       "imageUrl": "/images/dylan-thomas-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 22,
       "appearances": [
         22
@@ -812,6 +873,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Splitface_Flanagan_(Earth-616)",
       "imageUrl": "/images/splitface-flanagan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 22,
       "appearances": [
         22
@@ -824,6 +886,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Chthon_(Earth-616)",
       "imageUrl": "/images/chthon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 22,
       "appearances": [
         22
@@ -836,6 +899,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Romulus_Augustulus_(Earth-616)",
       "imageUrl": "/images/romulus-augustulus-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -850,6 +914,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Emil_Blonsky_(Earth-616)",
       "imageUrl": "/images/emil-blonsky-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -862,6 +927,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ghaur_(Earth-616)",
       "imageUrl": "/images/ghaur-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -874,6 +940,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Llyra_Morris_(Earth-616)",
       "imageUrl": "/images/llyra-morris-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -886,6 +953,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ophelia_Sarkissian_(Earth-616)",
       "imageUrl": "/images/ophelia-sarkissian-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -898,6 +966,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Set_(Earth-616)",
       "imageUrl": "/images/set-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -909,6 +978,7 @@
       "name": "Hobgoblin",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hobgoblin",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -921,6 +991,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Nicholas_Katzenberg_(Earth-616)",
       "imageUrl": "/images/nicholas-katzenberg-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -933,6 +1004,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
       "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -945,6 +1017,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
       "imageUrl": "/images/stanley-carter-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -957,6 +1030,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
       "imageUrl": "/images/hammerhead-joseph-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -969,6 +1043,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)",
       "imageUrl": "/images/morris-bench-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -981,6 +1056,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Cain_Marko_(Earth-616)",
       "imageUrl": "/images/cain-marko-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -993,6 +1069,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
       "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1005,6 +1082,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
       "imageUrl": "/images/miles-warren-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1017,6 +1095,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Luis_Alvarez_(Earth-616)",
       "imageUrl": "/images/luis-alvarez-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1029,6 +1108,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Thomas_Fireheart_(Earth-616)",
       "imageUrl": "/images/thomas-fireheart-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1043,6 +1123,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
       "imageUrl": "/images/curtis-connors-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23,
@@ -1056,6 +1137,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
       "imageUrl": "/images/edward-brock-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1068,6 +1150,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)",
       "imageUrl": "/images/roderick-kingsley-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1080,6 +1163,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/John_Jonah_Jameson_III_(Earth-616)",
       "imageUrl": "/images/john-jonah-jameson-iii-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1092,6 +1176,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Phraug_(Earth-616)",
       "imageUrl": "/images/phraug-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1104,6 +1189,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Nolem_(Earth-616)",
       "imageUrl": "/images/nolem-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1116,6 +1202,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Atra_(Earth-616)",
       "imageUrl": "/images/atra-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -1128,6 +1215,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
       "imageUrl": "/images/peter-petruski-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 24,
       "appearances": [
         24
@@ -1140,6 +1228,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Scarlet_Beetle_(Earth-616)",
       "imageUrl": "/images/scarlet-beetle-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 24,
       "appearances": [
         24
@@ -1152,6 +1241,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ghost_(Earth-616)",
       "imageUrl": "/images/ghost-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 25,
       "appearances": [
         25
@@ -1164,6 +1254,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ultron_(Earth-616)",
       "imageUrl": "/images/ultron-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 25,
       "appearances": [
         25
@@ -1175,6 +1266,7 @@
       "name": "Pablo",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/P",
+      "identitySource": "url",
       "firstAppearance": 25,
       "appearances": [
         25
@@ -1187,6 +1279,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Raymond_Trask_(Earth-616)",
       "imageUrl": "/images/raymond-trask-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 25,
       "appearances": [
         25
@@ -1199,6 +1292,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Anath-Na_Mut_(Earth-616)",
       "imageUrl": "/images/anath-na-mut-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1211,6 +1305,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hammer_Industries_(Earth-616)",
       "imageUrl": "/images/hammer-industries-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1223,6 +1318,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Justin_Hammer_(Earth-616)",
       "imageUrl": "/images/justin-hammer-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1235,6 +1331,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jonas_Hale_(Earth-616)",
       "imageUrl": "/images/jonas-hale-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1247,6 +1344,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Life_Foundation_(Earth-616)",
       "imageUrl": "/images/life-foundation-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1259,6 +1357,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Carlton_Drake_(Earth-616)",
       "imageUrl": "/images/carlton-drake-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1270,6 +1369,7 @@
       "name": "Stane International",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Stane_International_(Earth-616)",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1282,6 +1382,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Brand_Corporation_(Earth-616)",
       "imageUrl": "/images/brand-corporation-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1294,6 +1395,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Target_Technologies_(Earth-616)",
       "imageUrl": "/images/target-technologies-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1307,6 +1409,7 @@
         "Louie"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/L",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1319,6 +1422,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jerome_Caldwell_(Earth-616)",
       "imageUrl": "/images/jerome-caldwell-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1331,6 +1435,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Dreadnought_(Robot)",
       "imageUrl": "/images/dreadnought-robot.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1343,6 +1448,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Dreadnought_2000",
       "imageUrl": "/images/dreadnought-2000.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1355,6 +1461,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Bruno_Markham_(Earth-616)",
       "imageUrl": "/images/bruno-markham-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1368,6 +1475,7 @@
         "Kreuger"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/K",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1380,6 +1488,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Giancarlo_Gelberto_(Earth-616)",
       "imageUrl": "/images/giancarlo-gelberto-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1392,6 +1501,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
       "imageUrl": "/images/edward-lansky-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26
@@ -1404,6 +1514,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Abner_Dunson_(Earth-616)",
       "imageUrl": "/images/abner-dunson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 27,
       "appearances": [
         27
@@ -1416,6 +1527,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Gabriel_Gant_(Earth-616)",
       "imageUrl": "/images/gabriel-gant-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 27,
       "appearances": [
         27
@@ -1428,6 +1540,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Samson_Rourke_(Earth-616)",
       "imageUrl": "/images/samson-rourke-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 27,
       "appearances": [
         27
@@ -1440,6 +1553,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
       "imageUrl": "/images/cletus-kasady-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 28,
       "appearances": [
         28

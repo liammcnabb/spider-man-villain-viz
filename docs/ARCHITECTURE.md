@@ -1,6 +1,194 @@
 # Spider-Man Villain Timeline - Architecture
 
-## System Overview
+## CHECKPOINT 2: Workflow Separation Architecture
+
+The system now uses a **runner-based architecture** with clean separation between scraping, processing, merging, and publishing workflows. Each step can be run independently or composed into a complete pipeline.
+
+### Architecture Overview
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ CLI Layer (src/index.ts + src/pipeline.ts)                      │
+│ - parseCommandArgs() parses 6 commands                          │
+│ - Delegates to appropriate runner                               │
+│ - Handles user-facing IO and formatting                         │
+└──────────────────────┬──────────────────────────────────────────┘
+                       │
+        ┌──────────────┼──────────────┬──────────────┐
+        ▼              ▼              ▼              ▼
+   ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐
+   │ Scrape  │   │ Process │   │  Merge  │   │Publish  │
+   │ Runner  │   │ Runner  │   │ Runner  │   │         │
+   └────┬────┘   └────┬────┘   └────┬────┘   └────┬────┘
+        │             │             │             │
+        ▼             ▼             ▼             ▼
+   ┌─────────────────────────────────────────────────────┐
+   │ Data Layer                                          │
+   │ raw.{Series}.json → villains.{Series}.json ─────┐  │
+   │                  → d3-config.{Series}.json ─────┼──┤
+   │                                                  │  │
+   │ villains.*.json ──→ villains.json ──────────────┼──┤
+   │                  → d3-config.json ──────────────┘  │
+   │                                                     │
+   │ public/data/ ←── (Published Files)                  │
+   └─────────────────────────────────────────────────────┘
+        │
+        ▼
+   ┌─────────────────────────────────────────────────────┐
+   │ Presentation Layer (Frontend)                       │
+   │ - D3.js visualization                               │
+   │ - Interactive timeline graph                        │
+   │ - HTML5/CSS3 interface                              │
+   └─────────────────────────────────────────────────────┘
+```
+
+## Workflow Runners
+
+### 1. ScrapeRunner (`src/utils/ScrapeRunner.ts`)
+
+**Responsibility**: Extract raw data from Marvel Fandom
+
+**Input**: 
+- Series name: `"Amazing Spider-Man Vol 1"`
+- Issue numbers: `[1, 2, 3, ..., 20]`
+
+**Output**: 
+- File: `data/raw.{Series}.json`
+
+**Process**:
+1. Validates issue numbers
+2. Uses MarvelScraper to fetch HTML for each issue
+3. Respects 1-second delay between requests (rate limiting)
+4. Saves raw issue data including:
+   - Issue number and title
+   - Release date
+   - Antagonists (name, URL, image URL)
+
+**Methods**:
+```typescript
+async run(options: ScrapeOptions): Promise<RawVillainData>
+async runMultipleSeries(seriesConfigs: Array<...>): Promise<void>
+```
+
+### 2. ProcessRunner (`src/utils/ProcessRunner.ts`)
+
+**Responsibility**: Process raw data into villain datasets
+
+**Input**: 
+- File: `data/raw.{Series}.json`
+- Optional: Series name (derives input path)
+
+**Output**:
+- File: `data/villains.{Series}.json` (processed villain data)
+- File: `data/d3-config.{Series}.json` (D3 visualization config)
+
+**Process**:
+1. Reads raw.{Series}.json
+2. Normalizes villain names and aliases
+3. Tracks appearances and frequencies
+4. Validates data (optional)
+5. Generates D3 configuration
+
+**Methods**:
+```typescript
+async run(options: ProcessOptions): Promise<SerializedProcessedData>
+async runMultipleSeries(seriesNames: string[]): Promise<void>
+```
+
+### 3. MergeRunner (`src/utils/MergeRunner.ts`)
+
+**Responsibility**: Combine series datasets into unified output
+
+**Input**: 
+- Files: `data/villains.*.json` (all series-specific files)
+
+**Output**:
+- File: `data/villains.json` (combined)
+- File: `data/d3-config.json` (combined D3 config)
+
+**Process**:
+1. Discovers all `villains.{Series}.json` files
+2. Loads each dataset
+3. Merges villains (combines appearances, deduplicates)
+4. Reconciles duplicate identities
+5. Generates combined D3 config
+
+**Methods**:
+```typescript
+async run(options: MergeOptions): Promise<SerializedProcessedData>
+```
+
+### 4. Publisher (`src/utils/Publisher.ts`)
+
+**Responsibility**: Copy processed files to public directory
+
+**Input**: 
+- Source directory: `data/`
+- Destination: `public/data/`
+
+**Output**:
+- Copies all `.json` files to public directory
+
+**Process**:
+1. Discovers all data files
+2. Copies to `public/data/`
+3. Handles directory creation
+4. Logs success/failures
+
+**Methods**:
+```typescript
+async run(options: PublishOptions): Promise<void>
+async publishFiles(filenames: string[], ...): Promise<void>
+```
+
+## Data Flow
+
+### Complete Pipeline
+
+```
+Step 1: SCRAPE
+   npm run scrape -- --series "ASM Vol 1" --issues 1-20
+   
+   MarvelFandom → HTML → Parser → raw.Amazing_Spider-Man_Vol_1.json
+   
+Step 2: PROCESS
+   npm run process -- --series "ASM Vol 1" --validate
+   
+   raw.{Series}.json → Normalize → Process → Validate
+   ├─ villains.{Series}.json
+   └─ d3-config.{Series}.json
+   
+Step 3: MERGE
+   npm run merge
+   
+   villains.*.json → Deduplicate → Merge → Combine
+   ├─ villains.json
+   └─ d3-config.json
+   
+Step 4: PUBLISH
+   npm run publish
+   
+   data/*.json → Copy → public/data/
+   
+Step 5: SERVE
+   npm run serve
+   
+   Browser ← public/ ← HTTP Server (port 8000)
+```
+
+### One-Command Pipeline
+
+```bash
+npm run pipeline -- --series "ASM Vol 1" --issues 1-20
+
+# Internally executes:
+1. ScrapeRunner.run()
+2. ProcessRunner.run()
+3. MergeRunner.run()
+4. Publisher.run()
+```
+
+## System Overview (Original)
 
 The Spider-Man Villain Timeline project follows the Context Engineering Protocol and is structured as a three-layer system:
 

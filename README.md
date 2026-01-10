@@ -48,24 +48,34 @@ See [COMPLETE_FEATURE_SET.md](COMPLETE_FEATURE_SET.md) for comprehensive feature
 ```
 spider-man-villain-timeline/
 ├── src/
-│   ├── index.ts              # Main entry point
+│   ├── index.ts              # Main CLI entry point (6 commands)
+│   ├── pipeline.ts           # Complete pipeline runner
 │   ├── scraper/
-│   │   ├── marvelScraper.ts  # Marvel Fandom web scraper
-│   │   └── parser.ts         # Parses HTML to extract villain data
+│   │   └── marvelScraper.ts  # Marvel Fandom web scraper
 │   ├── visualization/
 │   │   └── d3Graph.ts        # D3.js visualization logic
 │   └── utils/
-│       └── dataProcessor.ts  # Processes and normalizes data
+│       ├── ScrapeRunner.ts      # Scraping orchestration
+│       ├── ProcessRunner.ts     # Processing orchestration
+│       ├── MergeRunner.ts       # Merging orchestration
+│       ├── Publisher.ts         # Publishing orchestration
+│       ├── commandParser.ts     # CLI argument parser
+│       └── dataProcessor.ts     # Data normalization
 ├── data/
-│   └── villains.json         # Extracted villain data
+│   ├── raw.{Series}.json                 # Raw scraped data
+│   ├── villains.{Series}.json            # Processed per-series data
+│   ├── d3-config.{Series}.json           # D3 config per-series
+│   ├── villains.json                     # Combined merged data
+│   └── d3-config.json                    # Combined D3 config
 ├── public/
 │   ├── index.html            # Main HTML page
 │   ├── style.css             # Styling
-│   └── script.js             # Client-side D3 rendering
+│   ├── script.js             # Client-side D3 rendering
+│   └── data/                 # Published data files
 ├── docs/
 │   ├── ARCHITECTURE.md       # System architecture
-│   ├── SETUP.md              # Setup instructions
-│   └── GUIDELINES.md         # Code guidelines
+│   ├── CHECKPOINT_2_COMPLETION.md  # CHECKPOINT 2 report
+│   └── REFACTOR_CHECKLIST.md # Refactoring progress
 ├── package.json
 ├── tsconfig.json
 └── README.md
@@ -92,8 +102,23 @@ npm install
 npm run build
 ```
 
-### Scraping Data (Pull Phase)
+### Running the Complete Pipeline
 
+The easiest way to run everything is the **complete pipeline** command:
+
+```bash
+# Run all steps: scrape → process → merge → publish
+npm run pipeline -- --series "Amazing Spider-Man Vol 1" --issues 1-50
+
+# Or use full series
+npm run pipeline -- --series "Untold Tales of Spider-Man Vol 1"
+```
+
+### Individual Commands
+
+You can also run each step separately:
+
+#### 1. Scrape Raw Data
 ```bash
 # Scrape all series
 npm run scrape -- --all-series

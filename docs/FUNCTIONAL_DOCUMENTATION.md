@@ -7,7 +7,9 @@ This document describes the functional behavior of the system: how scraping, pro
 - **Goal:** Scrape Marvel Fandom issues for Spider‑Man series, normalize antagonist data, compute timeline statistics, and render interactive D3 visualizations.
 - **Core Stages:** Scrape → Process → Serialize → Merge → Generate D3 Config → Publish → Visualize.
 - **Primary Modules:**
-  - [src/index.ts](src/index.ts) — CLI entry, orchestration, file IO, public export.
+  - [src/index.ts](src/index.ts) — CLI entry point and command router.
+  - [src/utils/ProcessRunner.ts](src/utils/ProcessRunner.ts) — Orchestrates scrape → process → serialize workflow for single series.
+  - [src/utils/MergeRunner.ts](src/utils/MergeRunner.ts) — Orchestrates merging of series-specific files into combined outputs.
   - [src/scraper/marvelScraper.ts](src/scraper/marvelScraper.ts) — HTTP requests and HTML parsing (Axios + Cheerio).
   - [src/utils/dataProcessor.ts](src/utils/dataProcessor.ts) — Normalization, deduplication, stats, timeline.
   - [src/utils/mergeDatasets.ts](src/utils/mergeDatasets.ts) — Combine series datasets into a unified timeline.
@@ -19,41 +21,53 @@ This document describes the functional behavior of the system: how scraping, pro
 ## Functional Flow
 
 ```mermaid
-flowchart LR
-  A[CLI Command<br/>npm run scrape] --> B(parseScrapeArgs)
-    B --> C{Single series?}
-  C -->|Yes| D[MarvelScraper.scrapeIssues]
-    C -->|All series| D1[Loop: scrape each supported series]
-
-    D --> E[processVillainData]
-    E --> F[serializeProcessedData]
-    F --> G[Write series villains JSON]
-    E --> H[generateD3Config]
-    H --> I[exportD3ConfigJSON]
-    I --> J[Write series d3 config JSON]
-
-    subgraph Combination
-    K[Read series villains JSON files] --> L[mergeDatasets]
-    L --> M[Write combined villains JSON]
-    M --> N[generateD3ConfigFromCombined]
-    N --> O[Write combined d3 config JSON]
-    end
-
-    J --> P[Copy series files to public data]
-    O --> P
-    P --> Q[Static Server<br/>npm run serve]
-    Q --> R[D3 Visualization in browser]
+flowchart TD
+  A[npm run scrape] --> B[ProcessRunner]
+  B --> C[Scrape Issues]
+  C --> D[raw.Series.json]
+  
+  C --> E[Process Data]
+  E --> F[villains.Series.json]
+  E --> G[d3-config.Series.json]
+  
+  F --> H[npm run merge]
+  G --> H
+  H --> I[MergeRunner]
+  I --> J[Merge Datasets]
+  
+  J --> K[villains.json]
+  J --> L[d3-config.json]
+  
+  K --> M[npm run publish]
+  L --> M
+  M --> N[public/data/]
+  
+  N --> O[npm run serve]
+  O --> P[Browser Visualization]
 ```
 
 ## Module Responsibilities
 
 - **CLI Orchestration:**
   - Reads args and decides single vs multi‑series runs. See [src/index.ts](src/index.ts).
-  - Ensures data directories, writes JSON outputs, and copies assets to [public/data](public/data).
+  - EnsuEntry Point:**
+  - Routes commands (`scrape`, `merge`, `publish`) to appropriate runners. See [src/index.ts](src/index.ts).
+  - Ensures data directories exist.
+
+- **ProcessRunner:**
+  - Orchestrates single-series scraping and processing workflow. See [src/utils/ProcessRunner.ts](src/utils/ProcessRunner.ts).
+  - Writes three files per series: `raw.Series.json`, `villains.Series.json`, `d3-config.Series.json`.
+  - Supports scraping all configured series or a single series with issue range.
+
+- **MergeRunner:**
+  - Merges series-specific `villains.*.json` files into combined outputs. See [src/utils/MergeRunner.ts](src/utils/MergeRunner.ts).
+  - Applies chronological placement hints for proper issue ordering.
+  - Writes two files: `villains.json` and `d3-config.json`.
 
 - **Scraper:**
   - Fetches issue pages and extracts antagonists lists and metadata (title, dates). See [src/scraper/marvelScraper.ts](src/scraper/marvelScraper.ts).
   - Expected behavior: rate‑limit to ~1 req/sec, cache, and validate data before emission.
+  - Saves raw scraped data to `raw.Series.json` for reproducibility.
 
 - **Processor:**
   - Normalizes names, removes aliases, and standardizes spacing via `normalizeVillainName()`.
@@ -64,18 +78,24 @@ flowchart LR
   - Computes `stats`: `totalVillains`, `mostFrequent`, `averageFrequency`, `firstAppearances` map.
   - Serializes into UI‑ready JSON via `serializeProcessedData()`. See [src/utils/dataProcessor.ts](src/utils/dataProcessor.ts).
 
-- **Merger:**
-  - Reads series‑specific `villains.*.json` and produces a `Combined` dataset. See [src/utils/mergeDatasets.ts](src/utils/mergeDatasets.ts).
-  - Keeps cross‑series identity using villain `id`, `url`, and names.
-
+- **Merger:** (saved to `raw.Series.json`).
+- `ProcessedData` → normalized output (villains, timeline, groups, stats).
+- `SerializedProcessedData` → JSON-serializable format with `identitySource` field.
+- `D3Config` → visualization config consumed by [public/script.js](public/script.js).
+- **Series outputs:** 
+  - `raw.Series.json` - Original scraped HTML data
+  - `villains.Series.json` - Processed villain data
+  - `d3-config.Series.json` - D3 visualization config
+- **Combined outputs:**
+  - `villains.json` - Merged data from all series
+  - `d3-config.json` - Combined D3 visualization config
 - **Visualization Config:**
   - Translates processed or combined timeline into D3 `data`, `scales`, and `colors`. See [src/visualization/d3Graph.ts](src/visualization/d3Graph.ts) and [src/utils/generateD3FromCombined.ts](src/utils/generateD3FromCombined.ts).
 
 - **Publishing:**
-  - Copies both combined and series‑specific files to [public/data](public/data) for browser use. See `copyDataToPublic()` in [src/index.ts](src/index.ts).
-  - Serves with Python simple server via `npm run serve` (or use a Node static server alternative).
-
-## Key Data Contracts
+  - Copies all data files to [public/data](public/data) for browser use.
+  - Uses glob pattern to copy all `*.json` files from `data/` directory.
+  - Serves with Python simple server via `npm run serve`
 
 - `RawVillainData` → scraped input per series.
 - `ProcessedData` → normalized output (villains, timeline, groups, stats).
@@ -125,13 +145,20 @@ classDiagram
 ## Operational Notes
 
 - **Build TypeScript and verify compiled output:**
-  - Run `npm run build` and confirm changes propagate to [public/script.js](../public/script.js).
-- **Identity policy:**
-  - All `ProcessedVillain` records have `identitySource: 'url' | 'name'` to track identity basis. Entities identified by URL remain separate from those identified by name only, even if names match. No retroactive reconciliation.
+  - Run `npcheck series‑specific **source files** (`villains.Series.json`, `d3-config.Series.json`) to determine scrape progress.
+  - **NEVER** use merged files (`villains.json`, `d3-config.json`) to assess what's been scraped - they are derivatives.
+- **Image caching:**
+  - Key filenames by character page URL slug (e.g., `the-rose-kingpin`), not display names, to avoid collisions.
+- **Data file pattern:**
+  - MergeRunner uses glob pattern `villains.*.json` to find series files.
+  - Ensure test files don't match this pattern or are excluded from the data directory.
+- **Raw data preservation:**
+  - `raw.*.json` files store original scraped data for reproducibility and debugging.
+  - These files are not used in the merge process but provide an audit trail basis. Entities identified by URL remain separate from those identified by name only, even if names match. No retroactive reconciliation.
 - **Prefer fast validation over scraping:**
   - Use `npx ts-node test-merge-logic.ts` to validate merging logic quickly.
 - **Scraping resumption:**
-  - Always use series‑specific files in [data](../data) to check progress (not the merged defaults).
+  - ✅ COMPLETE: Separated into `ProcessRunner` and `MergeRunner` classes. [src/index.ts](src/index.ts) now only handles CLI routing
 - **Image caching:**
   - Key filenames by character page URL slug (e.g., `the-rose-kingpin`), not display names.
 
@@ -173,7 +200,23 @@ npm run type-check
 ```
 - Run tests:
 ```bash
-npm test
+npmcrape all configured series:
+```bash
+npm run scrape
+```
+- Merge series data into combined files:
+```bash
+npm run merge
+```
+- Publish data to public directory:
+```bash
+npm run publish
+```
+- Full pipeline (scrape → merge → publish):
+```bash
+npm run scrape && npm run merge && npm run publish
+```
+- S test
 ```
 - Scrape a single series:
 ```bash

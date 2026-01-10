@@ -6,7 +6,12 @@
     "scripts": {
         "start": "node dist/src/index.js",
         "scrape": "ts-node src/index.ts scrape",
-        "serve": "python -m http.server 8000 --directory public",
+        "process": "ts-node src/index.ts process",
+        "merge": "ts-node src/index.ts merge",
+        "publish": "ts-node src/index.ts publish",
+        "serve": "ts-node src/index.ts serve",
+        "pipeline": "ts-node src/pipeline.ts",
+        "pipeline-all": "ts-node src/pipelineAll.ts",
         "build": "tsc",
         "dev": "ts-node src/index.ts",
         "test": "jest",

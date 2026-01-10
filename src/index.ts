@@ -2,272 +2,268 @@
  * Main entry point for Spider-Man Villain Timeline
  * 
  * Handles CLI commands:
- * - scrape: Extract data from Marvel Fandom
+ * - scrape: Extract raw data from Marvel Fandom
+ * - process: Process raw data into villain datasets
+ * - merge: Merge series-specific datasets into combined output
+ * - publish: Copy data files to public directory
  * - serve: Start visualization server
+ * - help: Show help information
  */
 
-import * as fs from 'fs';
-import * as path from 'path';
-
-import { MarvelScraper } from './scraper/marvelScraper';
-import {
-  processVillainData,
-  serializeProcessedData
-} from './utils/dataProcessor';
-import {
-  generateD3Config,
-  exportD3ConfigJSON
-} from './visualization/d3Graph';
-import { generateD3ConfigFromCombined } from './utils/generateD3FromCombined';
-import {
-  parseScrapeArgs,
-  getDefaultIssuesForVolume
-} from './utils/cliParser';
-import { mergeDatasets } from './utils/mergeDatasets';
-
-// Configuration
-const DATA_DIR = path.join(__dirname, '..', 'data');
-// Use process.cwd() to ensure correct path when running via ts-node
-const PUBLIC_DATA_DIR = path.join(process.cwd(), 'public', 'data');
-const VILLAINS_JSON = path.join(DATA_DIR, 'villains.json');
-const PUBLIC_VILLAINS_JSON = path.join(PUBLIC_DATA_DIR, 'villains.json');
-const MAX_ISSUES_TO_DISPLAY = 5; // Maximum number of issues to list individually in output
+import { ScrapeRunner } from './utils/ScrapeRunner';
+import { ProcessRunner } from './utils/ProcessRunner';
+import { MergeRunner } from './utils/MergeRunner';
+import { Publisher } from './utils/Publisher';
+import { parseCommandArgs, CommandOptions } from './utils/commandParser';
+import { getDefaultIssuesForVolume } from './utils/cliParser';
 
 /**
- * Ensures data directory exists
+ * Display help information
  */
-function ensureDataDir(): void {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-    console.log(`Created data directory: ${DATA_DIR}`);
-  }
-  if (!fs.existsSync(PUBLIC_DATA_DIR)) {
-    fs.mkdirSync(PUBLIC_DATA_DIR, { recursive: true });
-    console.log(`Created public data directory: ${PUBLIC_DATA_DIR}`);
-  }
+function showHelp(): void {
+  console.log(`
+Spider-Man Villain Timeline - CLI Tool
+
+USAGE:
+  npm run <command> [options]
+
+COMMANDS:
+  scrape      Extract raw data from Marvel Fandom
+  process     Process raw data into villain datasets
+  merge       Merge series-specific datasets into combined output
+  publish     Copy data files to public directory
+  serve       Start HTTP server for visualization
+  help        Show this help message
+
+SCRAPE COMMAND:
+  npm run scrape -- [options]
+
+  Options:
+    --series, -s <name>     Series to scrape (default: "Amazing Spider-Man Vol 1")
+    --issues, -i <spec>     Issues to scrape (ranges, specific issues, or both)
+                            Examples:
+                              1-20              Issues 1 through 20
+                              1,5,10,20         Specific issues
+                              1-20,50-60        Multiple ranges
+    --out, -o <path>        Output path for raw data (default: data/raw.{Series}.json)
+    --all-series, -a        Scrape all supported series sequentially
+
+  Examples:
+    npm run scrape -- --issues 1-20
+    npm run scrape -- --series "Untold Tales of Spider-Man Vol 1" --issues 1-25
+    npm run scrape -- --all-series
+
+PROCESS COMMAND:
+  npm run process -- [options]
+
+  Options:
+    --series, -s <name>     Series to process (derives input path)
+    --in <path>             Input raw data path (alternative to --series)
+    --out, -o <path>        Output path for processed data
+    --validate              Run validation checks on processed data
+
+  Examples:
+    npm run process -- --series "Amazing Spider-Man Vol 1"
+    npm run process -- --in data/raw.Amazing_Spider-Man_Vol_1.json --validate
+
+MERGE COMMAND:
+  npm run merge -- [options]
+
+  Options:
+    --inputs, -i <pattern>  Glob pattern for input files (default: "villains.*.json")
+    --out, -o <path>        Output path (default: data/villains.json)
+
+  Examples:
+    npm run merge
+    npm run merge -- --inputs "villains.Amazing*.json"
+
+PUBLISH COMMAND:
+  npm run publish -- [options]
+
+  Options:
+    --src, -s <path>        Source directory (default: data/)
+    --dest, -d <path>       Destination directory (default: public/data/)
+
+  Examples:
+    npm run publish
+    npm run publish -- --src data --dest public/data
+
+SERVE COMMAND:
+  npm run serve -- [options]
+
+  Options:
+    --port, -p <number>     Port number (default: 8000)
+
+  Examples:
+    npm run serve
+    npm run serve -- --port 3000
+
+SUPPORTED SERIES:
+  - Amazing Spider-Man Vol 1 (issues 1-441)
+  - Amazing Spider-Man Annual Vol 1 (issues 1-28)
+  - Untold Tales of Spider-Man Vol 1 (issues 1-25)
+  `);
 }
 
 /**
- * Copies data files to public directory for HTTP server
+ * Handle scrape command
  */
-function copyDataToPublic(): void {
-  try {
-    fs.copyFileSync(VILLAINS_JSON, PUBLIC_VILLAINS_JSON);
-    const configPath = path.join(DATA_DIR, 'd3-config.json');
-    const publicConfigPath = path.join(PUBLIC_DATA_DIR, 'd3-config.json');
-    fs.copyFileSync(configPath, publicConfigPath);
-    console.log('✓ Copied data files to public directory');
-  } catch (error) {
-    console.error('Warning: Failed to copy data to public directory:', error);
-  }
-}
+async function handleScrape(options: CommandOptions): Promise<void> {
+  if (options.command !== 'scrape') return;
 
-/**
- * Runs the scraper and saves results
- */
-async function runScraper(): Promise<void> {
-  try {
-    ensureDataDir();
-    
-    // Parse command-line arguments
-    const options = parseScrapeArgs(process.argv);
-    
-    // Helper to process one series end-to-end
-    const processOneSeries = async (seriesName: string, issues: number[]) => {
-      const scraper = new MarvelScraper();
-      console.log(`🕷️  Starting Marvel Fandom scraper for ${seriesName}...`);
-      if (issues.length > 0) {
-        console.log(`   Scraping ${issues.length} issue(s): ${formatIssueList(issues)}`);
-      }
-      const rawData = await scraper.scrapeIssues(issues, seriesName);
-      console.log(`✓ Scraped ${rawData.issues.length} issues`);
-      
-      console.log('Processing data...');
-      const processedData = processVillainData(rawData);
-      const serialized = serializeProcessedData(processedData);
-      
-      const baseUrl = typeof (rawData as any).baseUrl === 'string' ? (rawData as any).baseUrl as string : '';
-      const slugFromBase = baseUrl.includes('/wiki/')
-        ? baseUrl.split('/wiki/')[1].replace('_{issue}', '')
-        : seriesName.replace(/\s+/g, '_').replace(/Vol\s+/i, 'Vol_');
-      const seriesSlug = slugFromBase || 'series';
+  const scraper = new ScrapeRunner();
 
-      const SERIES_VILLAINS_JSON = path.join(DATA_DIR, `villains.${seriesSlug}.json`);
-      const SERIES_PUBLIC_VILLAINS_JSON = path.join(PUBLIC_DATA_DIR, `villains.${seriesSlug}.json`);
-      const SERIES_CONFIG_JSON = path.join(DATA_DIR, `d3-config.${seriesSlug}.json`);
-      const SERIES_PUBLIC_CONFIG_JSON = path.join(PUBLIC_DATA_DIR, `d3-config.${seriesSlug}.json`);
-
-      // Save default files (legacy) and series-specific files
-      fs.writeFileSync(
-        VILLAINS_JSON,
-        JSON.stringify(serialized, null, 2)
-      );
-      fs.writeFileSync(
-        SERIES_VILLAINS_JSON,
-        JSON.stringify(serialized, null, 2)
-      );
-      console.log(`✓ Saved to ${VILLAINS_JSON}`);
-      console.log(`✓ Saved to ${SERIES_VILLAINS_JSON}`);
-
-      console.log('Generating D3 visualization config...');
-      const d3Config = generateD3Config(processedData);
-      const d3ConfigJSON = exportD3ConfigJSON(d3Config);
-      const configPath = path.join(DATA_DIR, 'd3-config.json');
-      fs.writeFileSync(
-        configPath,
-        JSON.stringify(d3ConfigJSON, null, 2)
-      );
-      fs.writeFileSync(
-        SERIES_CONFIG_JSON,
-        JSON.stringify(d3ConfigJSON, null, 2)
-      );
-      console.log(`✓ Saved D3 config to ${configPath}`);
-      console.log(`✓ Saved D3 config to ${SERIES_CONFIG_JSON}`);
-
-      // Build combined villains dataset across all series-specific files
-      try {
-        const files = fs.readdirSync(DATA_DIR)
-          .filter(f => f.startsWith('villains.') && f.endsWith('.json') && !f.includes('villains.json'));
-
-        const datasets: any[] = [];
-        for (const f of files) {
-          try {
-            const content = fs.readFileSync(path.join(DATA_DIR, f), 'utf-8');
-            datasets.push(JSON.parse(content));
-          } catch {}
-        }
-
-        // Use the separate merge logic to combine datasets
-        const mergedResult = mergeDatasets(datasets);
-
-        const combined = {
-          series: 'Combined',
-          processedAt: new Date().toISOString(),
-          stats: {
-            totalVillains: mergedResult.stats.totalVillains,
-            mostFrequent: mergedResult.stats.mostFrequent,
-            mostFrequentCount: mergedResult.stats.mostFrequentCount,
-            averageFrequency: mergedResult.stats.averageFrequency
-          },
-          villains: mergedResult.villains,
-          timeline: mergedResult.timeline,
-          groups: mergedResult.groups
-        };
-
-        fs.writeFileSync(VILLAINS_JSON, JSON.stringify(combined, null, 2));
-        console.log(`✓ Wrote combined default to ${VILLAINS_JSON}`);
-
-        // Generate D3 config from combined timeline
-        try {
-          generateD3ConfigFromCombined(VILLAINS_JSON, path.join(DATA_DIR, 'd3-config.json'));
-        } catch (d3Err) {
-          console.error('Warning: Failed to generate D3 config from combined data:', d3Err);
-        }
-      } catch (combineErr) {
-        console.error('Warning: Failed to generate combined default dataset:', combineErr);
-      }
-
-      copyDataToPublic();
-      try {
-        fs.copyFileSync(SERIES_VILLAINS_JSON, SERIES_PUBLIC_VILLAINS_JSON);
-        fs.copyFileSync(SERIES_CONFIG_JSON, SERIES_PUBLIC_CONFIG_JSON);
-        console.log('✓ Copied series-specific data files to public directory');
-      } catch (err) {
-        console.error('Warning: Failed to copy series-specific files to public directory:', err);
-      }
-    };
-    
-    // If --all-series is provided, run across supported series
-    if (options.allSeries) {
-      const supportedSeries = [
-        'Amazing Spider-Man Vol 1',
-        'Amazing Spider-Man Annual Vol 1',
-        'Untold Tales of Spider-Man Vol 1'
-      ];
-      for (const seriesName of supportedSeries) {
-        const issues = getDefaultIssuesForVolume(seriesName);
-        console.log(`\n=== Scraping ${seriesName} (${issues[0]}-${issues[issues.length - 1]}) ===`);
-        await processOneSeries(seriesName, issues);
-      }
-      console.log('\n✅ Scraping complete!');
-      return;
-    }
-
-    // Single-series path
+  if (options.allSeries) {
+    // Scrape all supported series
+    const supportedSeries = [
+      { series: 'Amazing Spider-Man Vol 1', issues: getDefaultIssuesForVolume('Amazing Spider-Man Vol 1') },
+      { series: 'Amazing Spider-Man Annual Vol 1', issues: getDefaultIssuesForVolume('Amazing Spider-Man Annual Vol 1') },
+      { series: 'Untold Tales of Spider-Man Vol 1', issues: getDefaultIssuesForVolume('Untold Tales of Spider-Man Vol 1') }
+    ];
+    await scraper.runMultipleSeries(supportedSeries);
+  } else {
+    // Determine issues to scrape
     let issues: number[];
     if (options.issues.length > 0) {
       issues = options.issues;
     } else {
-      issues = getDefaultIssuesForVolume(options.volume);
+      issues = getDefaultIssuesForVolume(options.series);
     }
-    await processOneSeries(options.volume, issues);
-    console.log('\n✅ Scraping complete!');
-    
-  } catch (error) {
-    console.error('❌ Scraping failed:', error);
-    process.exit(1);
+
+    await scraper.run({
+      series: options.series,
+      issues: issues,
+      outputPath: options.out
+    });
   }
+
+  console.log('\n✅ Scrape complete!');
 }
 
 /**
- * Formats issue list for display
+ * Handle process command
  */
-function formatIssueList(issues: number[]): string {
-  if (issues.length <= MAX_ISSUES_TO_DISPLAY) {
-    return issues.join(', ');
-  }
-  return `${issues[0]}-${issues[issues.length - 1]} (${issues.length} total)`;
+async function handleProcess(options: CommandOptions): Promise<void> {
+  if (options.command !== 'process') return;
+
+  const processor = new ProcessRunner();
+
+  await processor.run({
+    series: options.series,
+    inputPath: options.in,
+    outputPath: options.out,
+    validate: options.validate
+  });
+
+  console.log('\n✅ Processing complete!');
+}
+
+/**
+ * Handle merge command
+ */
+async function handleMerge(options: CommandOptions): Promise<void> {
+  if (options.command !== 'merge') return;
+
+  const merger = new MergeRunner();
+
+  await merger.run({
+    inputsPattern: options.inputs,
+    outputPath: options.out
+  });
+
+  console.log('\n✅ Merge complete!');
+}
+
+/**
+ * Handle publish command
+ */
+async function handlePublish(options: CommandOptions): Promise<void> {
+  if (options.command !== 'publish') return;
+
+  const publisher = new Publisher();
+
+  await publisher.run({
+    srcDir: options.src,
+    destDir: options.dest
+  });
+
+  console.log('\n✅ Publish complete!');
+}
+
+/**
+ * Handle serve command
+ */
+async function handleServe(options: CommandOptions): Promise<void> {
+  if (options.command !== 'serve') return;
+
+  console.log(`
+🕷️  Starting HTTP server...
+
+  URL: http://localhost:${options.port}
+  Directory: public/
+
+Press Ctrl+C to stop the server.
+  `);
+
+  // Use Python's http.server as a simple static file server
+  // This matches the existing package.json script behavior
+  const { spawn } = await import('child_process');
+  const server = spawn('python', ['-m', 'http.server', options.port?.toString() || '8000', '--directory', 'public'], {
+    stdio: 'inherit'
+  });
+
+  server.on('error', (error) => {
+    console.error('Failed to start server:', error);
+    console.error('\nMake sure Python is installed and available in your PATH.');
+    process.exit(1);
+  });
+
+  // Handle graceful shutdown
+  process.on('SIGINT', () => {
+    console.log('\n\nShutting down server...');
+    server.kill();
+    process.exit(0);
+  });
 }
 
 /**
  * Main function - handles CLI commands
  */
 async function main(): Promise<void> {
-  const command = process.argv[2] || 'scrape';
-  
-  switch (command) {
-    case 'scrape':
-      await runScraper();
-      break;
-      
-    case 'help':
-      console.log(`
-Spider-Man Villain Timeline
+  try {
+    const options = parseCommandArgs(process.argv);
 
-Usage: npm run scrape [options]
-
-Options:
-  --issues, -i <spec>    Issues to scrape (ranges, specific issues, or both)
-                         Examples:
-                           1-20              Scrape issues 1 through 20
-                           1,5,10,20         Scrape specific issues
-                           1-20,50-60        Scrape multiple ranges
-                           1-20,50,60-70     Combine ranges and specific issues
-  
-  --volume, -v <name>    Volume to scrape (default: "Amazing Spider-Man Vol 1")
-  --series, -s <name>    Alias for --volume
-  --all-series, -a       Scrape all supported series sequentially
-                         Examples:
-                           "Amazing Spider-Man Vol 1"
-                           "Amazing Spider-Man Vol 2"
-  
-  help                   Show this help message
-
-Examples:
-  npm run scrape                                    # Scrape all issues (1-441)
-  npm run scrape -- --issues 1-20                   # Scrape issues 1-20
-  npm run scrape -- --issues 1,5,10,20              # Scrape specific issues
-  npm run scrape -- --issues 1-20,50-60             # Scrape multiple ranges
-  npm run scrape -- --volume "Amazing Spider-Man Vol 2" --issues 1-58
-  npm run scrape -- --series "Amazing Spider-Man Annual Vol 1"  # Alias usage
-  npm run scrape -- --all-series                                # Scrape all series
-      `);
-      break;
-      
-    default:
-      console.error(`Unknown command: ${command}`);
-      console.error('Run "npm run dev help" for usage information');
-      process.exit(1);
+    switch (options.command) {
+      case 'scrape':
+        await handleScrape(options);
+        break;
+      case 'process':
+        await handleProcess(options);
+        break;
+      case 'merge':
+        await handleMerge(options);
+        break;
+      case 'publish':
+        await handlePublish(options);
+        break;
+      case 'serve':
+        await handleServe(options);
+        break;
+      case 'help':
+        showHelp();
+        break;
+      default:
+        console.error(`Unknown command: ${(options as any).command}`);
+        console.error('Run with "help" for usage information');
+        process.exit(1);
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error('❌ Error:', error.message);
+    } else {
+      console.error('❌ Unknown error:', error);
+    }
+    process.exit(1);
   }
 }
 
@@ -276,3 +272,4 @@ main().catch(error => {
   console.error('Fatal error:', error);
   process.exit(1);
 });
+
