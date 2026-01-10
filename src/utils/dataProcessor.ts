@@ -2,6 +2,14 @@
  * Data processing and normalization for Spider-Man villain data
  * 
  * Handles deduplication, normalization, and structuring of villain information.
+ * 
+ * IDENTITY POLICY:
+ * - Entities are keyed by URL (when available) or normalized name (fallback)
+ * - NO retroactive reconciliation: entities created with name-only keys remain separate
+ *   from entities created with URL keys, even if names match
+ * - This preserves historical identity: early name-only appearances stay distinct from
+ *   later URL-identified appearances
+ * - identitySource field tracks the basis of each entity's identity ('url' or 'name')
  */
 
 import type {
@@ -12,7 +20,8 @@ import type {
   ProcessedData,
   RawVillainData,
   GroupAppearance,
-  ProcessedGroup
+  ProcessedGroup,
+  SerializedProcessedData
 } from '../types';
 import { classifyKind } from './groupClassifier';
 
@@ -180,6 +189,7 @@ export function processVillainData(
           names: [normalized],
           url: url,
           imageUrl: imageUrl,
+          identitySource: useUrlKey ? 'url' : 'name', // Track identity basis
           firstAppearance: issue.issueNumber,
           appearances: [issue.issueNumber],
           frequency: 1,
@@ -337,7 +347,7 @@ function generateStats(
     ? villainArray.reduce((prev, current) =>
         (current.frequency > prev.frequency) ? current : prev
       )
-    : { id: '', name: '', names: [], frequency: 0, firstAppearance: 0, appearances: [] };
+    : { id: '', name: '', names: [], identitySource: 'name' as const, frequency: 0, firstAppearance: 0, appearances: [] };
 
   // Calculate average
   const averageFrequency = villainArray.length > 0
@@ -370,7 +380,7 @@ function generateStats(
  */
 export function serializeProcessedData(
   data: ProcessedData
-): object {
+): SerializedProcessedData {
   return {
     series: data.series,
     processedAt: data.processedAt,
@@ -388,6 +398,7 @@ export function serializeProcessedData(
       aliases: v.names.filter(n => n !== v.name), // Exclude primary name from aliases
       url: v.url,
       imageUrl: v.imageUrl,
+      identitySource: v.identitySource,
       firstAppearance: v.firstAppearance,
       appearances: v.appearances,
       frequency: v.frequency

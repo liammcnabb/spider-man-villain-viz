@@ -31,6 +31,35 @@ The Spider-Man Villain Timeline project follows the Context Engineering Protocol
 └─────────────────────────────────────────────────────────┘
 ```
 
+## Identity Policy
+
+**Historical Entity Separation** (No Retroactive Reconciliation)
+
+The system maintains distinct identities for the same entity when its identity basis changes:
+
+- **URL-sourced identity**: Villain identified by Marvel Fandom URL (canonical, always preferred)
+- **Name-sourced identity**: Villain identified only by name (fallback when no URL available)
+
+**Key Principle**: Once an entity is stored as name-only, adding a URL in a later issue does **NOT** retroactively merge them. They remain separate historical records.
+
+**Example**:
+```
+Issue 1: "The Rose" (name-only) → identitySource: 'name'
+Issue 2: "The Rose" with URL → identitySource: 'url'
+
+Result: TWO separate villain entries (not merged)
+- Rose #1 (name-only): appears only in issue 1
+- Rose #2 (URL-identified): appears only in issue 2
+```
+
+This preserves historical accuracy and prevents data conflicts when same names refer to different entities across different eras.
+
+### Entity Identity Strategy
+- **Primary key**: Marvel Fandom URL slug (when available)
+- **Fallback key**: Normalized villain name (when no URL)
+- **Identity immutability**: Once set, identity source never changes (no reconciliation)
+- **Field tracking**: `identitySource: 'url' | 'name'` transparently shows basis of identity
+
 ## Component Architecture
 
 ### 1. Scraper Module (`src/scraper/`)
@@ -150,38 +179,85 @@ interface IssueData {
 
 ```typescript
 interface ProcessedVillain {
-  id: string;                    // Unique identifier
-  names: string[];               // Primary name + aliases
-  firstAppearance: number;       // Issue number
-  appearances: number[];         // All issues where appears
-  frequency: number;             // Times appeared
+  id: string;                           // Unique identifier
+  name: string;                         // Primary name (most frequent alias)
+  names: string[];                      // All name variants/aliases
+  url?: string;                         // Marvel Fandom URL (canonical identifier)
+  imageUrl?: string;                    // Character portrait from Marvel Fandom
+  identitySource: 'url' | 'name';       // Basis of identity (see Identity Policy)
+  firstAppearance: number;              // Issue number of first appearance
+  appearances: number[];                // All issues where villain appears
+  frequency: number;                    // Total number of appearances
+  kind?: EntityKind;                    // Classification: 'individual' or 'group'
 }
 
 interface TimelineData {
   issue: number;
+  releaseDate?: string;                 // Publication date for chronology
   villains: ProcessedVillain[];
   villainCount: number;
+  groups?: GroupAppearance[];           // Group appearances in this issue
 }
 ```
+
+**Identity Tracking**:
+- `identitySource = 'url'`: Entity keyed by Marvel Fandom URL (primary key)
+- `identitySource = 'name'`: Entity keyed by normalized name (fallback key)
+- Entities with different `identitySource` values remain separate even if names match
+
+### Serialized Data Structure
+
+```typescript
+interface SerializedProcessedData {
+  series: string;
+  processedAt: string;
+  stats: {
+    totalVillains: number;
+    mostFrequent: string;
+    mostFrequentCount: number;
+    averageFrequency: number;
+  };
+  villains: Array<{
+    id: string;
+    name: string;
+    aliases: string[];
+    url?: string;
+    imageUrl?: string;
+    identitySource: 'url' | 'name';     // Preserved in serialization
+    firstAppearance: number;
+    appearances: number[];
+    frequency: number;
+  }>;
+  timeline: Array<{...}>;
+  groups?: Array<{...}>;
+}
+```
+
+This is the JSON structure written to `villains.{Series}.json` files.
 
 ### D3 Visualization Data
 
 ```typescript
 interface D3DataPoint {
   issueNumber: number;
-  villainsInIssue: string[];
-  coordinates?: [number, number];
+  chronologicalPosition?: number;
+  series?: string;
+  releaseDate?: string;
+  villainsInIssue: string[];          // Names of villains in this issue
+  villainCount: number;
 }
 
 interface D3Config {
   data: D3DataPoint[];
   scales: {
-    x: D3Scale;
-    y: D3Scale;
+    x: D3Scale;                        // Issue number scale
+    y: D3Scale;                        // Villain frequency scale
   };
-  colors: Map<string, string>;  // Villain → color mapping
+  colors: Map<string, string>;         // Villain ID -> color mapping
 }
 ```
+
+**Note**: D3 visualization receives `identitySource` information through villain IDs and URLs, allowing proper filtering and display of distinct entities even when names match.
 
 ## Data Flow Pipeline
 
@@ -195,32 +271,43 @@ interface D3Config {
         ↓
    Cheerio Parsing
         ↓
-   Extracted Antagonists List
+   Extracted Antagonists List (name + optional URL)
 
-2. PROCESSING PHASE
+2. PROCESSING PHASE (IDENTITY POLICY APPLIED HERE)
    Raw Villain Lists
         ↓
-   Normalization
-   (deduplicate, standardize names)
+   Keying Decision:
+   - Use URL if available? → identitySource = 'url'
+   - Use name only? → identitySource = 'name'
         ↓
-   Structure Building
-   (create villain records, track appearances)
+   Normalization (deduplicate, standardize names)
         ↓
-   Validation
-   (ensure data consistency)
+   Structure Building (create villain records, track appearances)
+   [Separate entries created for URL vs name keys]
+        ↓
+   Validation (ensure data consistency)
         ↓
    Statistics Generation
 
 3. OUTPUT PHASE
-   ProcessedData
+   ProcessedData (with identitySource field)
         ↓
-   JSON Serialization
+   JSON Serialization (SerializedProcessedData)
         ↓
-   villains.json (saved to disk)
+   villains.{Series}.json (saved to disk)
+   [Each villain includes identitySource for transparency]
         ↓
-   Read by Frontend
+   Read by Merge & Frontend
 
-4. VISUALIZATION PHASE
+4. MERGE PHASE
+   Multiple series villains.{Series}.json files
+        ↓
+   Combine while respecting identity boundaries
+   [name-only entities stay separate from URL entities]
+        ↓
+   villains.json (combined dataset)
+
+5. VISUALIZATION PHASE
    villains.json
         ↓
    D3 Data Transform

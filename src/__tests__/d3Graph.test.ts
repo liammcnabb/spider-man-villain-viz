@@ -23,6 +23,7 @@ describe('D3 Graph - Proof Steps', () => {
         id: 'green-goblin',
         name: 'Green Goblin',
         names: ['Green Goblin'],
+        identitySource: 'name',
         firstAppearance: 1,
         appearances: [1, 2, 3],
         frequency: 3
@@ -31,6 +32,7 @@ describe('D3 Graph - Proof Steps', () => {
         id: 'doctor-octopus',
         name: 'Doctor Octopus',
         names: ['Doctor Octopus'],
+        identitySource: 'name',
         firstAppearance: 3,
         appearances: [3, 5],
         frequency: 2
@@ -47,6 +49,7 @@ describe('D3 Graph - Proof Steps', () => {
         id: 'green-goblin',
         name: 'Green Goblin',
         names: ['Green Goblin'],
+        identitySource: 'name',
         firstAppearance: 1,
         appearances: [1, 2, 3],
         frequency: 3

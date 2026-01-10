@@ -926,4 +926,136 @@ describe('Data Processor - Proof Steps', () => {
       expect(constructCounts).not.toEqual(normanCounts);
     });
   });
+
+  describe('Identity Source Tracking', () => {
+    /**
+     * PROOF: Entities created with URLs have identitySource='url'
+     */
+    it('should mark villains with URLs as url-sourced', () => {
+      const rawData: RawVillainData = {
+        series: 'Test Series',
+        baseUrl: 'https://marvel.fandom.com',
+        issues: [
+          {
+            issueNumber: 1,
+            title: 'Test Issue',
+            antagonists: [
+              {
+                name: 'Green Goblin',
+                url: 'https://marvel.fandom.com/wiki/Green_Goblin_(Earth-616)'
+              }
+            ]
+          }
+        ]
+      };
+
+      const processed = processVillainData(rawData);
+      const villain = processed.villains.find(v => v.name === 'Green Goblin');
+      
+      expect(villain).toBeDefined();
+      expect(villain!.identitySource).toBe('url');
+      expect(villain!.url).toBe('https://marvel.fandom.com/wiki/Green_Goblin_(Earth-616)');
+    });
+
+    /**
+     * PROOF: Entities created without URLs have identitySource='name'
+     */
+    it('should mark villains without URLs as name-sourced', () => {
+      const rawData: RawVillainData = {
+        series: 'Test Series',
+        baseUrl: 'https://marvel.fandom.com',
+        issues: [
+          {
+            issueNumber: 1,
+            title: 'Test Issue',
+            antagonists: [
+              { name: 'Mysterious Villain' } // No URL
+            ]
+          }
+        ]
+      };
+
+      const processed = processVillainData(rawData);
+      const villain = processed.villains.find(v => v.name === 'Mysterious Villain');
+      
+      expect(villain).toBeDefined();
+      expect(villain!.identitySource).toBe('name');
+      expect(villain!.url).toBeUndefined();
+    });
+
+    /**
+     * PROOF: Name-only and URL-sourced entities remain separate historically
+     * Even if they have the same name, they are distinct identities
+     */
+    it('should keep name-only and url-sourced entities separate', () => {
+      const rawData: RawVillainData = {
+        series: 'Test Series',
+        baseUrl: 'https://marvel.fandom.com',
+        issues: [
+          {
+            issueNumber: 1,
+            title: 'Early Appearance',
+            antagonists: [
+              { name: 'The Rose' } // Name-only (first appearance)
+            ]
+          },
+          {
+            issueNumber: 2,
+            title: 'Later Appearance',
+            antagonists: [
+              {
+                name: 'The Rose',
+                url: 'https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)' // URL added later
+              }
+            ]
+          }
+        ]
+      };
+
+      const processed = processVillainData(rawData);
+      
+      // Should have TWO separate villain entries
+      const roseVillains = processed.villains.filter(v => v.name === 'The Rose');
+      expect(roseVillains).toHaveLength(2);
+
+      // One name-sourced, one URL-sourced
+      const nameSourced = roseVillains.find(v => v.identitySource === 'name');
+      const urlSourced = roseVillains.find(v => v.identitySource === 'url');
+
+      expect(nameSourced).toBeDefined();
+      expect(nameSourced!.appearances).toEqual([1]);
+      expect(nameSourced!.url).toBeUndefined();
+
+      expect(urlSourced).toBeDefined();
+      expect(urlSourced!.appearances).toEqual([2]);
+      expect(urlSourced!.url).toBe('https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)');
+    });
+
+    /**
+     * PROOF: Identity source persists through processing and serialization
+     */
+    it('should preserve identitySource through serialization', () => {
+      const rawData: RawVillainData = {
+        series: 'Test Series',
+        baseUrl: 'https://marvel.fandom.com',
+        issues: [
+          {
+            issueNumber: 1,
+            title: 'Test',
+            antagonists: [
+              { name: 'Villain A', url: 'https://marvel.fandom.com/wiki/A' },
+              { name: 'Villain B' }
+            ]
+          }
+        ]
+      };
+
+      const processed = processVillainData(rawData);
+      
+      // Check processed data has identitySource
+      expect(processed.villains.every(v => v.identitySource)).toBe(true);
+      expect(processed.villains.some(v => v.identitySource === 'url')).toBe(true);
+      expect(processed.villains.some(v => v.identitySource === 'name')).toBe(true);
+    });
+  });
 });

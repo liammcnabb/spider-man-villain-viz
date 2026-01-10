@@ -105,6 +105,8 @@ Learn about filtering, sorting, zoom, and fullscreen:
 - **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** - System Architecture
 - **[docs/CODE_GUIDELINES.md](docs/CODE_GUIDELINES.md)** - Development Standards
 - **[docs/SETUP.md](docs/SETUP.md)** - Development Setup
+- **[docs/FUNCTIONAL_DOCUMENTATION.md](docs/FUNCTIONAL_DOCUMENTATION.md)** - Functional Documentation & Flow
+- **[docs/REFACTOR_CHECKLIST.md](docs/REFACTOR_CHECKLIST.md)** - Refactor & Redesign Checklist
 
 ### Implementation Notes
 - **[GRID_FEATURES_ADDED.md](GRID_FEATURES_ADDED.md)** - Grid Implementation Details

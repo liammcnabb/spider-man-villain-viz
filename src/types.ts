@@ -20,12 +20,20 @@ export interface IssueData {
   antagonists: Antagonist[];
 }
 
+/**
+ * Identity Policy:
+ * - Entities keyed by URL (when available) vs name (fallback) remain separate historically
+ * - No retroactive reconciliation: name-only entities from early issues stay distinct
+ *   from URL-identified entities added in later issues, even if names match
+ * - identitySource tracks the basis of identity for transparency
+ */
 export interface ProcessedVillain {
   id: string;
   name: string; // Primary name (most frequently used alias)
   names: string[]; // All name variants/aliases
   url?: string; // Canonical Marvel Fandom URL
   imageUrl?: string; // Character portrait/image from Marvel Fandom
+  identitySource: 'url' | 'name'; // Basis of entity identity: URL-keyed or name-keyed
   firstAppearance: number;
   appearances: number[];
   frequency: number;
@@ -105,4 +113,49 @@ export interface ProcessedGroup {
   url?: string;
   appearances: number[];
   frequency: number;
+}
+
+/**
+ * Type for serialized processed data output
+ * Represents the JSON structure written to files by serializeProcessedData()
+ */
+export interface SerializedProcessedData {
+  series: string;
+  processedAt: string;
+  stats: {
+    totalVillains: number;
+    mostFrequent: string;
+    mostFrequentCount: number;
+    averageFrequency: number;
+  };
+  villains: Array<{
+    id: string;
+    name: string;
+    aliases: string[];
+    url?: string;
+    imageUrl?: string;
+    identitySource: 'url' | 'name';
+    firstAppearance: number;
+    appearances: number[];
+    frequency: number;
+  }>;
+  timeline: Array<{
+    issue: number;
+    releaseDate?: string;
+    chronologicalPlacementHint?: string;
+    villainCount: number;
+    villains: string[];
+    villainUrls: (string | undefined)[];
+    villainIds: string[];
+    series?: string;
+    chronologicalPosition?: number;
+    groups?: Array<{ name: string; members: string[] }>;
+  }>;
+  groups?: Array<{
+    id: string;
+    name: string;
+    url?: string;
+    appearances: number[];
+    frequency: number;
+  }>;
 }
