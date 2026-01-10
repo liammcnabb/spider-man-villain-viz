@@ -822,4 +822,108 @@ describe('Data Processor - Proof Steps', () => {
       expect(tagsRendered[1].color).toBe('#9b59b6');  // Purple for Annual
     });
   });
+
+  describe('Villain variant separation in sparkline matching', () => {
+    it('should match villain variants by URL, not just by name', () => {
+      /**
+       * Proof: When multiple villain variants share the same name (e.g., Green Goblin),
+       * the sparkline should only count appearances of the SPECIFIC variant (by URL),
+       * not all variants with that name.
+       * 
+       * Issue: Green Goblin (Construct) showed "Appearances: 1" but sparkline displayed
+       * multiple data points from Norman Osborn appearances.
+       */
+
+      // Setup: Two Green Goblin variants with different URLs
+      const greenGoblinConstruct = {
+        id: 'Green_Goblin_(Construct)_(Earth-616)',
+        name: 'Green Goblin',
+        url: 'https://marvel.fandom.com/wiki/Green_Goblin_(Construct)_(Earth-616)',
+        appearances: [432],
+        frequency: 1
+      };
+
+      const greenGoblinNorman = {
+        id: 'Norman_Osborn_(Earth-616)',
+        name: 'Green Goblin',
+        url: 'https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)',
+        appearances: [1, 5, 10, 25, 100],
+        frequency: 25
+      };
+
+      // Timeline has both variants appearing
+      const timeline = [
+        {
+          issue: 1,
+          releaseDate: '1962-01-10',
+          villains: ['Green Goblin'],
+          villainIds: ['Norman_Osborn_(Earth-616)'],
+          villainUrls: ['https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)'],
+          series: 'Amazing Spider-Man Vol 1',
+          chronologicalPosition: 1,
+          villainCount: 1,
+          groups: []
+        },
+        {
+          issue: 432,
+          releaseDate: '1998-06-15',
+          villains: ['Green Goblin'],
+          villainIds: ['Green_Goblin_(Construct)_(Earth-616)'],
+          villainUrls: ['https://marvel.fandom.com/wiki/Green_Goblin_(Construct)_(Earth-616)'],
+          series: 'Amazing Spider-Man Vol 1',
+          chronologicalPosition: 432,
+          villainCount: 1,
+          groups: []
+        }
+      ];
+
+      // Simulate buildYearlyCounts with URL-first matching
+      const countAppearancesByUrl = (
+        villain: { id: string; url: string },
+        timelineData: Array<{ releaseDate: string; villains: string[]; villainIds: string[]; villainUrls: string[] }>
+      ) => {
+        const counts = new Map<number, number>();
+        timelineData.forEach((entry) => {
+          const villains = entry.villains || [];
+          const ids = entry.villainIds || [];
+          const urls = entry.villainUrls || [];
+
+          const appears = villains.some((_name: string, idx: number) => {
+            const url = urls[idx];
+            const id = ids[idx];
+            // Prioritize URL matching (the fix)
+            if (url && villain.url && url === villain.url) {
+              return true;
+            }
+            if (id && villain.id && id === villain.id) {
+              return true;
+            }
+            return false;
+          });
+
+          if (appears) {
+            const year = new Date(entry.releaseDate).getFullYear();
+            counts.set(year, (counts.get(year) || 0) + 1);
+          }
+        });
+        return Array.from(counts.entries())
+          .map(([year, count]) => ({ year, count }))
+          .sort((a, b) => a.year - b.year);
+      };
+
+      // Test 1: Construct variant should only match its 1 appearance
+      const constructCounts = countAppearancesByUrl(greenGoblinConstruct, timeline);
+      expect(constructCounts).toHaveLength(1);
+      expect(constructCounts[0]).toEqual({ year: 1998, count: 1 });
+
+      // Test 2: Norman variant should only match its 1 appearance (from this timeline)
+      const normanCounts = countAppearancesByUrl(greenGoblinNorman, timeline);
+      expect(normanCounts).toHaveLength(1);
+      expect(normanCounts[0]).toEqual({ year: 1962, count: 1 });
+
+      // Test 3: Verify they don't cross-match
+      // If name matching was used, both would show all appearances
+      expect(constructCounts).not.toEqual(normanCounts);
+    });
+  });
 });

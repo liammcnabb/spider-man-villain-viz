@@ -27,6 +27,12 @@ class SpiderManVisualization {
         this.gridSvg = null; // Reference to current grid SVG
         this.gridZoom = null; // Reference to current zoom behavior
         this.gridGroup = null; // Reference to zoomed group
+        this.activeVillainIds = new Set(); // Filter: selected villains
+        this.activeVillainNames = new Set(); // Lowercased names for fallback matching
+        this.activeGroupNames = new Set(); // Filter: selected groups
+        this.villainById = new Map();
+        this.villainByName = new Map();
+        this.groupMembers = new Map();
         this.seriesColorMap = {
             'Amazing Spider-Man Vol 1': '#e74c3c',
             'Amazing Spider-Man Annual Vol 1': '#9b59b6',
@@ -75,12 +81,20 @@ class SpiderManVisualization {
             this.config = d3Config;
             this.villains = villainData.villains || [];
             this.groups = this.resolveGroups(villainData);
+            this.villains.forEach(v => {
+                this.villainById.set(v.id, v);
+                this.villainByName.set((v.name || '').toLowerCase(), v);
+            });
+            this.buildGroupMembersLookup();
 
             // Load series-specific data for grid visualization
             this.seriesData = await this.loadSeriesData();
 
             // Initialize theme
             this.initializeTheme();
+
+            // Setup filters
+            this.setupFilterControls();
 
             // Render all components
             this.renderStats();
@@ -248,6 +262,185 @@ class SpiderManVisualization {
             }
         }
         return Array.from(map.values());
+    }
+
+    /**
+     * Build lookup of group members aggregated across timeline appearances
+     */
+    buildGroupMembersLookup() {
+        this.groupMembers.clear();
+        const timeline = this.data?.timeline || [];
+        for (const entry of timeline) {
+            const groups = entry.groups || [];
+            for (const g of groups) {
+                if (!this.groupMembers.has(g.name)) {
+                    this.groupMembers.set(g.name, new Set());
+                }
+                const bucket = this.groupMembers.get(g.name);
+                (g.members || []).forEach(m => bucket.add(m));
+            }
+        }
+    }
+
+    /**
+     * Setup villain/group filter controls
+     */
+    setupFilterControls() {
+        const villainInput = document.getElementById('villainFilterInput');
+        const villainOptions = document.getElementById('villainOptions');
+        const addVillainBtn = document.getElementById('addVillainFilter');
+        const groupInput = document.getElementById('groupFilterInput');
+        const groupOptions = document.getElementById('groupOptions');
+        const addGroupBtn = document.getElementById('addGroupFilter');
+        const clearBtn = document.getElementById('clearFiltersBtn');
+
+        // Populate datalists
+        if (villainOptions) {
+            villainOptions.innerHTML = '';
+            this.villains.forEach(v => {
+                const opt = document.createElement('option');
+                opt.value = v.name;
+                opt.label = v.name;
+                villainOptions.appendChild(opt);
+            });
+        }
+        if (groupOptions) {
+            groupOptions.innerHTML = '';
+            this.groups.forEach(g => {
+                const opt = document.createElement('option');
+                opt.value = g.name;
+                opt.label = g.name;
+                groupOptions.appendChild(opt);
+            });
+        }
+
+        const addVillain = () => {
+            if (!villainInput) return;
+            const name = (villainInput.value || '').trim();
+            if (!name) return;
+            const villain = this.villainByName.get(name.toLowerCase());
+            if (villain) {
+                this.activeVillainIds.add(villain.id);
+                this.activeVillainNames.add(villain.name.toLowerCase());
+            } else {
+                this.activeVillainNames.add(name.toLowerCase());
+            }
+            villainInput.value = '';
+            this.renderActiveFilters();
+            this.rerenderCharts();
+        };
+
+        const addGroup = () => {
+            if (!groupInput) return;
+            const name = (groupInput.value || '').trim();
+            if (!name) return;
+            this.activeGroupNames.add(name);
+            groupInput.value = '';
+            this.renderActiveFilters();
+            this.rerenderCharts();
+        };
+
+        if (addVillainBtn) {
+            addVillainBtn.addEventListener('click', addVillain);
+        }
+        if (villainInput) {
+            villainInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    addVillain();
+                }
+            });
+        }
+        if (addGroupBtn) {
+            addGroupBtn.addEventListener('click', addGroup);
+        }
+        if (groupInput) {
+            groupInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    addGroup();
+                }
+            });
+        }
+        if (clearBtn) {
+            clearBtn.addEventListener('click', () => {
+                this.activeVillainIds.clear();
+                this.activeVillainNames.clear();
+                this.activeGroupNames.clear();
+                this.renderActiveFilters();
+                this.rerenderCharts();
+            });
+        }
+
+        this.renderActiveFilters();
+    }
+
+    /**
+     * Render active filter chips
+     */
+    renderActiveFilters() {
+        const villainChipRow = document.getElementById('activeVillainFilters');
+        const groupChipRow = document.getElementById('activeGroupFilters');
+
+        if (villainChipRow) {
+            villainChipRow.innerHTML = '';
+            const villainIds = Array.from(this.activeVillainIds);
+            const villainNames = Array.from(this.activeVillainNames);
+
+            villainIds.forEach(id => {
+                const v = this.villainById.get(id);
+                if (!v) return;
+                villainChipRow.appendChild(this.createChip(v.name, () => {
+                    this.activeVillainIds.delete(id);
+                    this.activeVillainNames.delete(v.name.toLowerCase());
+                    this.renderActiveFilters();
+                    this.rerenderCharts();
+                }));
+            });
+
+            // Names added without a matching record (fallback)
+            villainNames
+                .filter(name => !villainIds.some(id => {
+                    const v = this.villainById.get(id);
+                    return v && v.name.toLowerCase() === name;
+                }))
+                .forEach(name => {
+                    villainChipRow.appendChild(this.createChip(name, () => {
+                        this.activeVillainNames.delete(name);
+                        this.renderActiveFilters();
+                        this.rerenderCharts();
+                    }));
+                });
+        }
+
+        if (groupChipRow) {
+            groupChipRow.innerHTML = '';
+            this.activeGroupNames.forEach(name => {
+                groupChipRow.appendChild(this.createChip(name, () => {
+                    this.activeGroupNames.delete(name);
+                    this.renderActiveFilters();
+                    this.rerenderCharts();
+                }));
+            });
+        }
+    }
+
+    /**
+     * Create a removable chip element
+     */
+    createChip(label, onRemove) {
+        const chip = document.createElement('span');
+        chip.className = 'filter-chip';
+        chip.textContent = label;
+
+        const removeBtn = document.createElement('button');
+        removeBtn.className = 'chip-remove';
+        removeBtn.type = 'button';
+        removeBtn.textContent = '×';
+        removeBtn.addEventListener('click', onRemove);
+
+        chip.appendChild(removeBtn);
+        return chip;
     }
 
     /**
@@ -450,6 +643,66 @@ class SpiderManVisualization {
             stats.averageFrequency.toFixed(2);
     }
 
+    matchesActiveFilters(villainName, villainId) {
+        const record = this.villainByName.get((villainName || '').toLowerCase());
+        const id = villainId || record?.id;
+
+        // Villain filter
+        const villainMatch = this.activeVillainIds.size === 0 && this.activeVillainNames.size === 0
+            ? true
+            : (id && this.activeVillainIds.has(id)) || this.activeVillainNames.has((villainName || '').toLowerCase());
+
+        // Group filter
+        const groupMatch = this.activeGroupNames.size === 0
+            ? true
+            : this.isVillainInSelectedGroups(villainName);
+
+        return villainMatch && groupMatch;
+    }
+
+    isVillainInSelectedGroups(villainName) {
+        if (this.activeGroupNames.size === 0) return true;
+        const name = (villainName || '').toLowerCase();
+        for (const groupName of this.activeGroupNames) {
+            const members = this.groupMembers.get(groupName) || new Set();
+            if (Array.from(members).some(m => (m || '').toLowerCase() === name)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Build timeline series applying active filters
+     */
+    buildTimelineSeries() {
+        const timeline = this.data?.timeline || [];
+
+        return timeline.map(entry => {
+            const villains = entry.villains || [];
+            const urls = entry.villainUrls || [];
+            const ids = entry.villainIds || [];
+
+            const filteredVillains = villains.filter((name, idx) => {
+                const id = ids[idx];
+                const match = this.matchesActiveFilters(name, id);
+                if (!match && this.activeGroupNames.size > 0) {
+                    return this.isVillainInSelectedGroups(name);
+                }
+                return match;
+            });
+
+            return {
+                issueNumber: entry.issue,
+                chronologicalPosition: entry.chronologicalPosition,
+                series: entry.series,
+                releaseDate: entry.releaseDate,
+                villainsInIssue: filteredVillains,
+                villainCount: filteredVillains.length
+            };
+        });
+    }
+
     /**
      * Render unified grid timeline visualization using chronological order across all series
      */
@@ -515,6 +768,9 @@ class SpiderManVisualization {
         let filteredVillains = Object.keys(villainFirstChrono)
             .filter(villain => villainAppearanceCount[villain] >= this.minAppearancesFilter);
 
+        // Apply active villain/group filters
+        filteredVillains = filteredVillains.filter(name => this.matchesActiveFilters(name));
+
         // Sort villains based on selected sort method
         if (this.yAxisSort === 'span') {
             // Sort by chronological span (longest first)
@@ -542,6 +798,11 @@ class SpiderManVisualization {
 
         // Use filtered villains list
         const villains = filteredVillains;
+
+        if (villains.length === 0) {
+            containerDiv.innerHTML = '<p class="chart-description">No villains match the current filters.</p>';
+            return;
+        }
 
         const cellSize = 20;
         const marginLeft = 150;
@@ -702,13 +963,11 @@ class SpiderManVisualization {
      * Render D3 timeline visualization
      */
     renderTimeline() {
-        const data = this.config.data;
-        const scales = this.config.scales;
-        const colors = this.config.colors;
+        const data = this.buildTimelineSeries();
+        const baseScales = this.config.scales;
 
         // Dimensions
-        const chartContainer = 
-            document.getElementById('timeline-chart');
+        const chartContainer = document.getElementById('timeline-chart');
         const containerRect = chartContainer.parentElement.getBoundingClientRect();
         const width = containerRect.width;
         const height = containerRect.height;
@@ -723,22 +982,20 @@ class SpiderManVisualization {
 
         // Create group for margin offset
         const g = svg.append('g')
-            .attr('transform', 
-                  `translate(${VIZ_CONFIG.margin.left},` +
-                  `${VIZ_CONFIG.margin.top})`);
+            .attr('transform', `translate(${VIZ_CONFIG.margin.left},${VIZ_CONFIG.margin.top})`);
 
-        const plotWidth = 
-            width - VIZ_CONFIG.margin.left - VIZ_CONFIG.margin.right;
-        const plotHeight = 
-            height - VIZ_CONFIG.margin.top - VIZ_CONFIG.margin.bottom;
+        const plotWidth = width - VIZ_CONFIG.margin.left - VIZ_CONFIG.margin.right;
+        const plotHeight = height - VIZ_CONFIG.margin.top - VIZ_CONFIG.margin.bottom;
 
-        // Create scales
+        // Create scales (reuse X domain to keep alignment)
         const xScale = d3.scaleLinear()
-            .domain(scales.x.domain)
+            .domain(baseScales.x.domain)
             .range([0, plotWidth]);
 
+        const maxVillains = data.length > 0 ? Math.max(...data.map(d => d.villainCount)) : 0;
+        const yMax = Math.max(baseScales.y.domain[1] || 0, maxVillains);
         const yScale = d3.scaleLinear()
-            .domain(scales.y.domain)
+            .domain([0, yMax])
             .range([plotHeight, 0]);
 
         // Add grid
@@ -761,9 +1018,7 @@ class SpiderManVisualization {
             .attr('y', 35)
             .attr('fill', '#333')
             .attr('text-anchor', 'middle')
-            .text(data.some(d => d.chronologicalPosition !== undefined) 
-                ? 'Chronological Position' 
-                : 'Issue Number');
+            .text(data.some(d => d.chronologicalPosition !== undefined) ? 'Chronological Position' : 'Issue Number');
 
         g.append('g')
             .attr('class', 'axis')
@@ -801,10 +1056,8 @@ class SpiderManVisualization {
             .attr('cy', d => yScale(d.villainCount))
             .attr('r', 5)
             .attr('fill', '#e74c3c')
-            .on('mouseenter', (event, d) => 
-                this.showTooltip(event, d))
-            .on('mouseleave', () => 
-                this.hideTooltip());
+            .on('mouseenter', (event, d) => this.showTooltip(event, d))
+            .on('mouseleave', () => this.hideTooltip());
     }
 
     /**
@@ -1018,6 +1271,160 @@ class SpiderManVisualization {
     }
 
     /**
+     * Extract year from various date formats
+     */
+    extractYear(dateStr) {
+        if (!dateStr) return null;
+        
+        // Try ISO format (YYYY-MM-DD)
+        const isoMatch = dateStr.match(/^(\d{4})-/);
+        if (isoMatch) return Number(isoMatch[1]);
+        
+        // Try text format (Month Day, Year)
+        const textMatch = dateStr.match(/(\d{4})$/);
+        if (textMatch) return Number(textMatch[1]);
+        
+        // Try Year at start
+        const startMatch = dateStr.match(/^(\d{4})/);
+        if (startMatch) return Number(startMatch[1]);
+        
+        return null;
+    }
+
+    /**
+     * Build yearly appearance counts for a villain
+     */
+    buildYearlyCounts(villain) {
+        const counts = new Map();
+        const timeline = this.data?.timeline || [];
+
+        timeline.forEach(entry => {
+            if (!entry.releaseDate) return;
+            const year = this.extractYear(entry.releaseDate);
+            if (!year || Number.isNaN(year)) return;
+
+            const villains = entry.villains || [];
+            const ids = entry.villainIds || [];
+            const urls = entry.villainUrls || [];
+
+            const appears = villains.some((name, idx) => {
+                const id = ids[idx];
+                const url = urls[idx];
+                // Prioritize URL matching for variant-specific accuracy
+                if (url && villain.url && url === villain.url) {
+                    return true;
+                }
+                // Fall back to ID matching
+                if (id && villain.id && id === villain.id) {
+                    return true;
+                }
+                // Only use name as last resort if no URL/ID available
+                return false;
+            });
+
+            if (appears) {
+                counts.set(year, (counts.get(year) || 0) + 1);
+            }
+        });
+
+        return Array.from(counts.entries())
+            .map(([year, count]) => ({ year, count }))
+            .sort((a, b) => a.year - b.year);
+    }
+
+    /**
+     * Render compact sparkline for yearly counts
+     */
+    renderSparkline(container, series) {
+        if (!container) return;
+        container.innerHTML = '';
+
+        if (!series || series.length === 0) {
+            container.textContent = 'No dated appearances';
+            return;
+        }
+
+        if (series.length < 2) {
+            container.textContent = 'Not enough data points';
+            return;
+        }
+
+        const height = 60;
+        const margin = { top: 6, right: 6, bottom: 18, left: 6 };
+
+        const minYear = series[0].year;
+        const maxYear = series[series.length - 1].year;
+        const maxCount = Math.max(...series.map(s => s.count));
+
+        // Use a reasonable default width for layout, will scale via CSS
+        // Calculate actual width after SVG is inserted into DOM
+        const defaultWidth = 400;
+        
+        const scaleX = d3.scaleLinear()
+            .domain([minYear, maxYear])
+            .range([margin.left, defaultWidth - margin.right]);
+
+        const scaleY = d3.scaleLinear()
+            .domain([0, maxCount])
+            .range([height - margin.bottom, margin.top]);
+
+        const line = d3.line()
+            .x(d => scaleX(d.year))
+            .y(d => scaleY(d.count));
+
+        const svg = d3.select(container)
+            .append('svg')
+            .attr('class', 'sparkline')
+            .attr('width', '100%')
+            .attr('height', height)
+            .style('display', 'block')
+            .attr('preserveAspectRatio', 'none')
+            .attr('viewBox', `0 0 ${defaultWidth} ${height}`);
+
+        // Baseline axis
+        svg.append('line')
+            .attr('x1', margin.left)
+            .attr('x2', defaultWidth - margin.right)
+            .attr('y1', height - margin.bottom)
+            .attr('y2', height - margin.bottom)
+            .attr('stroke', 'var(--color-border)');
+
+        // Path
+        svg.append('path')
+            .datum(series)
+            .attr('class', 'sparkline-path')
+            .attr('d', line)
+            .attr('stroke', '#9b59b6');
+
+        // Points
+        svg.selectAll('.sparkline-point')
+            .data(series)
+            .enter()
+            .append('circle')
+            .attr('class', 'sparkline-point')
+            .attr('cx', d => scaleX(d.year))
+            .attr('cy', d => scaleY(d.count))
+            .attr('r', 3)
+            .attr('fill', '#9b59b6')
+            .append('title')
+            .text(d => `${d.year}: ${d.count}`);
+
+        // Labels
+        svg.append('text')
+            .attr('class', 'sparkline-label')
+            .attr('x', margin.left)
+            .attr('y', height - 2)
+            .text(minYear);
+
+        svg.append('text')
+            .attr('class', 'sparkline-label')
+            .attr('x', defaultWidth - margin.right)
+            .attr('y', height - 2)
+            .attr('text-anchor', 'end')
+            .text(maxYear);
+    }
+
+    /**
      * Create a villain card element
      */
     createVillainCard(villain) {
@@ -1027,6 +1434,7 @@ class SpiderManVisualization {
         const name = document.createElement('div');
         name.className = 'villain-name';
         name.textContent = villain.name;
+        name.title = `ID: ${villain.id}`;
 
         const statsDiv = document.createElement('div');
         
@@ -1126,6 +1534,19 @@ class SpiderManVisualization {
         card.appendChild(name);
         card.appendChild(statsDiv);
         card.appendChild(appearancesDiv);
+
+        const trendDiv = document.createElement('div');
+        trendDiv.className = 'villain-trend';
+        const trendLabel = document.createElement('div');
+        trendLabel.className = 'villain-trend-label';
+        trendLabel.textContent = 'Appearances per year';
+        const sparklineHost = document.createElement('div');
+        sparklineHost.className = 'villain-sparkline';
+        const yearlySeries = this.buildYearlyCounts(villain);
+        this.renderSparkline(sparklineHost, yearlySeries);
+        trendDiv.appendChild(trendLabel);
+        trendDiv.appendChild(sparklineHost);
+        card.appendChild(trendDiv);
 
         return card;
     }

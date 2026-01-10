@@ -319,6 +319,44 @@ body {
     align-items: center;
 }
 
+.filter-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(var(--spacing-unit));
+    align-items: center;
+}
+
+.filter-chip-input {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing-unit));
+    flex-wrap: wrap;
+}
+
+.filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border);
+    font-size: 0.9rem;
+}
+
+.chip-remove {
+    background: none;
+    border: none;
+    color: var(--color-text-light);
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.chip-remove:hover {
+    color: var(--color-primary);
+}
+
 .search-input {
     width: 100%;
     max-width: 400px;
@@ -550,6 +588,48 @@ body {
 .issue-tag:hover {
     transform: scale(1.05);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.villain-trend {
+    margin-top: calc(var(--spacing-unit) * 2);
+    margin-left: calc(var(--spacing-unit) * -2);
+    margin-right: calc(var(--spacing-unit) * -2);
+    padding: calc(var(--spacing-unit) * 2);
+    background-color: var(--color-background);
+    border-radius: 4px;
+}
+
+.villain-trend-label {
+    font-weight: 600;
+    margin-bottom: calc(var(--spacing-unit));
+}
+
+.villain-sparkline {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sparkline {
+    width: 100%;
+    display: block;
+}
+
+.sparkline-path {
+    fill: none;
+    stroke: #9b59b6;
+    stroke-width: 2;
+}
+
+.sparkline-point {
+    fill: #9b59b6;
+    stroke: var(--color-surface);
+    stroke-width: 1.5;
+}
+
+.sparkline-label {
+    fill: var(--color-text-light);
+    font-size: 10px;
 }
 
 .volume-badge {

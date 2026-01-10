@@ -47,11 +47,30 @@
                             <option value="span">Longest span</option>
                         </select>
                     </label>
+                    <div class="filter-chip-input">
+                        <label class="filter-label">
+                            Villains:
+                            <input list="villainOptions" id="villainFilterInput" class="filter-input" placeholder="Add villain">
+                        </label>
+                        <button id="addVillainFilter" class="zoom-button" title="Add villain filter">Add</button>
+                        <datalist id="villainOptions"></datalist>
+                        <div id="activeVillainFilters" class="filter-chip-row"></div>
+                    </div>
+                    <div class="filter-chip-input">
+                        <label class="filter-label">
+                            Groups:
+                            <input list="groupOptions" id="groupFilterInput" class="filter-input" placeholder="Add group">
+                        </label>
+                        <button id="addGroupFilter" class="zoom-button" title="Add group filter">Add</button>
+                        <datalist id="groupOptions"></datalist>
+                        <div id="activeGroupFilters" class="filter-chip-row"></div>
+                    </div>
                     <div class="zoom-controls">
                         <button id="zoomIn" class="zoom-button" title="Zoom In (Ctrl+Plus)">+</button>
                         <button id="zoomOut" class="zoom-button" title="Zoom Out (Ctrl+Minus)">−</button>
                         <button id="zoomReset" class="zoom-button" title="Reset Zoom">Reset</button>
                         <button id="fullscreenBtn" class="zoom-button" title="Fullscreen">⛶</button>
+                        <button id="clearFiltersBtn" class="zoom-button" title="Clear villain/group filters">Clear</button>
                     </div>
                 </div>
                 <div class="chart-container" id="gridContainer">
@@ -145,6 +164,6 @@
     </div>
 
     <!-- Cache-bust to ensure latest script loads -->
-    <script src="script.js?v=20260108-fix2"></script>
+    <script src="script.js?v=20260110-align"></script>
 </body>
 </html>

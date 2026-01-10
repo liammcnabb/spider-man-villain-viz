@@ -391,6 +391,7 @@ export function serializeProcessedData(
       villainCount: t.villainCount,
       villains: t.villains.map(v => v.name),
       villainUrls: t.villains.map(v => v.url), // Track villain URLs for proper mantle identification during merge
+      villainIds: t.villains.map(v => v.id),
       series: t.series,
       chronologicalPosition: t.chronologicalPosition,
       groups: t.groups?.map(g => ({ name: g.name, members: g.members }))
