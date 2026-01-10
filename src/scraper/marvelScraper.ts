@@ -6,6 +6,8 @@
 
 import axios, { AxiosInstance } from 'axios';
 import * as cheerio from 'cheerio';
+import * as fs from 'fs';
+import * as path from 'path';
 
 import type { IssueData, RawVillainData, Antagonist } from '../types';
 
@@ -52,6 +54,7 @@ const SERIES_CONFIG: Record<string, SeriesConfig> = {
 };
 const DEFAULT_TIMEOUT = 10000;
 const REQUEST_DELAY_MS = 1000; // Respectful scraping
+const IMAGE_DIR = path.join(process.cwd(), 'public', 'images');
 
 /**
  * Scrapes Marvel Fandom for Spider-Man villain data
@@ -202,6 +205,9 @@ export class MarvelScraper {
         response.data,
         issueNumber
       );
+
+      // Scrape images for new villains
+      await this.scrapeVillainImages(antagonists);
 
       return {
         issueNumber,
@@ -484,6 +490,144 @@ export class MarvelScraper {
    */
   private delay(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  /**
+   * Scrapes character images from villain wiki pages
+   * Updates antagonist objects with imageUrl if found
+   * 
+   * @param antagonists - Array of antagonists to scrape images for
+   */
+  private async scrapeVillainImages(antagonists: Antagonist[]): Promise<void> {
+    if (!fs.existsSync(IMAGE_DIR)) {
+      fs.mkdirSync(IMAGE_DIR, { recursive: true });
+    }
+
+    for (const antagonist of antagonists) {
+      // Only scrape if villain has a URL and doesn't already have an image
+      if (!antagonist.url || antagonist.imageUrl) {
+        continue;
+      }
+
+      try {
+        const response = await this.axiosClient.get(antagonist.url);
+        
+        if (response.data) {
+          const imageUrl = this.parseCharacterImage(response.data);
+          if (imageUrl) {
+            // Use page URL slug to disambiguate characters with the same display name
+            const filename = this.buildImageFilename(antagonist.name, imageUrl, antagonist.url);
+            const targetPath = path.join(IMAGE_DIR, filename);
+            const savedPath = `/images/${filename}`;
+
+            if (fs.existsSync(targetPath)) {
+              antagonist.imageUrl = savedPath; // reuse cached image without logging
+            } else {
+              console.log(`  Scraping image for ${antagonist.name}...`);
+              const downloadedPath = await this.saveImageLocally(imageUrl, filename);
+              antagonist.imageUrl = downloadedPath; // use local path for reliable loading
+            }
+          }
+        }
+        
+        // Respectful delay between image scrapes
+        await this.delay(REQUEST_DELAY_MS);
+      } catch (error) {
+        console.warn(`    Failed to scrape image for ${antagonist.name}: ${error}`);
+        // Continue with other villains even if one fails
+      }
+    }
+  }
+
+  /**
+   * Parses character portrait image from character wiki page
+   * 
+   * Marvel Fandom structure:
+   * - Main character image is typically in an 'infobox' or 'pi-item' section
+   * - Look for <figure> or <img> with class 'pi-image' or in 'infobox' area
+   * 
+   * @param html - HTML content of the character page
+   * @returns Image URL or undefined if not found
+   */
+  private parseCharacterImage(html: string): string | undefined {
+    try {
+      const $ = cheerio.load(html);
+      
+      // Strategy 1: Look for infobox image (most common)
+      const infoboxImg = $('.pi-image-thumbnail, .pi-image img, figure.pi-item img').first();
+      if (infoboxImg.length > 0) {
+        const src = infoboxImg.attr('src');
+        if (src) {
+          // Convert thumbnail URLs to larger versions
+          // Marvel Fandom uses /revision/latest/scale-to-width-down/{width}
+          // We want a reasonable size, not the huge original
+          return src.replace(/\/scale-to-width-down\/\d+/, '/scale-to-width-down/300');
+        }
+      }
+      
+      // Strategy 2: Look for any image in an 'infobox' class element
+      const infoboxImage = $('.infobox img, .portable-infobox img').first();
+      if (infoboxImage.length > 0) {
+        const src = infoboxImage.attr('src');
+        if (src) {
+          return src.replace(/\/scale-to-width-down\/\d+/, '/scale-to-width-down/300');
+        }
+      }
+      
+      // Strategy 3: Look for image with 'data-src' attribute (lazy loaded)
+      const lazyImg = $('img[data-src*="marvel.fandom.com"]').first();
+      if (lazyImg.length > 0) {
+        const dataSrc = lazyImg.attr('data-src');
+        if (dataSrc) {
+          return dataSrc.replace(/\/scale-to-width-down\/\d+/, '/scale-to-width-down/300');
+        }
+      }
+      
+      return undefined;
+    } catch (error) {
+      console.warn(`Error parsing character image: ${error}`);
+      return undefined;
+    }
+  }
+
+  /**
+   * Builds a safe filename for the villain image
+   */
+  private buildImageFilename(name: string, imageUrl: string, sourceUrl?: string): string {
+    const slugFromUrl = imageUrl.split('/').pop() || 'image';
+    const extMatch = slugFromUrl.match(/\.([a-zA-Z0-9]+)(?:\?|$)/);
+    const ext = extMatch ? extMatch[1] : 'jpg';
+
+    // Prefer the wiki page slug to disambiguate same-name characters (e.g., multiple Roses)
+    const sourceSlug = sourceUrl
+      ? sourceUrl.split('/').pop()?.split('#')[0]?.split('?')[0]
+      : undefined;
+
+    const baseSlug = (sourceSlug || name)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      || 'villain';
+
+    return `${baseSlug}.${ext}`;
+  }
+
+  /**
+   * Downloads the image and saves it locally, returning the public path
+   */
+  private async saveImageLocally(imageUrl: string, filename: string): Promise<string> {
+    const targetPath = path.join(IMAGE_DIR, filename);
+    if (fs.existsSync(targetPath)) {
+      return `/images/${filename}`;
+    }
+
+    const response = await this.axiosClient.get<ArrayBuffer>(imageUrl, {
+      responseType: 'arraybuffer',
+      timeout: DEFAULT_TIMEOUT
+    });
+
+    fs.writeFileSync(targetPath, Buffer.from(response.data));
+    return `/images/${filename}`;
   }
 
   /**

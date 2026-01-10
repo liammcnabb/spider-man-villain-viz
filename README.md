@@ -273,6 +273,101 @@ npm test -- --coverage
 - [ ] Historical analysis of villain popularity trends
 
 
+## Coverage Checklist
+
+Maintenance note: Keep this checklist up to date after scrapes; tick items once series/annuals appear in `data/` and `public/data/`.
+
+- Amazing Spider-Man (Primary canon)
+  - [x] Vol. 1 (1963–1998) #1–441
+  - [ ] Vol. 2 (1999–2003) #1–58
+  - [ ] Vol. 1 resumed #500–545
+  - [ ] Vol. 3 (2014–2015) #1–18
+  - [ ] Vol. 4 (2015–2018) #1–32, #789–801
+  - [ ] Vol. 5 (2018–2022) #1–93
+  - [ ] Vol. 6 (2022–2024) #1–60
+  - [ ] Vol. 7 (2024–present)
+
+- Peter Parker, The Spectacular Spider-Man
+  - [ ] Vol. 1 (1976–1998)
+  - [ ] Vol. 2 (1999–2003)
+  - [ ] Vol. 3 (2017–2018)
+
+- Web of Spider-Man
+  - [ ] Vol. 1 (1985–1995)
+
+- Spider-Man (Adjectiveless)
+  - [ ] Vol. 1 (1990–1998)
+  - [ ] Vol. 2 (2004–2006)
+
+- Sensational Spider-Man
+  - [ ] Vol. 1 (1996–1998)
+
+- Parallel Ongoings
+  - [ ] Friendly Neighborhood Spider-Man Vol. 1 (2005–2007)
+  - [ ] Friendly Neighborhood Spider-Man Vol. 2 (2019)
+  - [ ] Spider-Man Unlimited Vol. 1 (1993–1998)
+  - [x] Untold Tales of Spider-Man Vol. 1 (1995–1997)
+  - [ ] Superior Spider-Man Vol. 1 (2013–2014)
+  - [ ] Superior Spider-Man Vol. 2 (2018–2019)
+  - [ ] The Lost Years
+
+- Canon Minis & Events
+  - [ ] Spider-Man: The Other
+  - [ ] Back in Black
+  - [ ] One More Day (2007)
+  - [ ] Spider-Man: Blue
+
+- Clone Saga
+  - [ ] Clone Saga material (retained with revisions)
+
+- Full Retcons
+  - [ ] Sins Past (retconned 2021)
+
+- Annuals
+  - [x] Amazing Spider-Man Annual (#1–present)
+  - [ ] Spectacular Spider-Man Annual
+  - [ ] Web of Spider-Man Annual
+  - [ ] Sensational Spider-Man Annual
+  - [ ] Spider-Man (Adjectiveless) Annual
+
+- Team-Up Books
+  Note: Requires additional work to select only volumes/issues where Spider-Man is a Featured Character.
+  Status: Blocked until Featured Character filtering exists.
+  - [ ] Marvel Team-Up
+  - [ ] Spider-Man Team-Up
+  - [ ] Avenging Spider-Man
+  - [ ] Spider-Man & Deadpool
+  
+- Extended Scope (616 Canon Spiders)
+  Note: Explicitly build on separation and union — own pages, shared data, and unified form if requested.
+  Status: Blocked until separation/union feature exists.
+
+  - Miles Morales
+    - [ ] Spider-Man (Miles Morales) Vol. 2 (2016–2018)
+    - [ ] Miles Morales: Spider-Man Vol. 1 (2018–2022)
+    - [ ] Miles Morales: Spider-Man Vol. 2 (2022–present)
+    - [ ] Spider-Men (2012)
+    - [ ] Spider-Men II (2017)
+
+  - Ben Reilly (Clone Legacy)
+    - [ ] Sensational Spider-Man (1996–1998)
+    - [ ] Scarlet Spider Vol. 1 (1995–1996)
+    - [ ] Scarlet Spider Vol. 2 (2012–2014)
+    - [ ] Scarlet Spider Vol. 3 (2017)
+
+  - Kaine Parker
+    - [ ] Scarlet Spider (2012–2014)
+
+  - Cindy Moon (Silk)
+    - [ ] Silk Vol. 1 (2015)
+    - [ ] Silk Vol. 2 (2015–2016)
+    - [ ] Silk Vol. 3 (2021–2022)
+
+  - Jessica Drew (Spider-Woman)
+    - [ ] Spider-Woman Vol. 5 (2014–2017)
+    - [ ] Spider-Woman Vol. 7 (2020–2021)
+
+
 ## Resources
 
 - [Marvel Fandom - Amazing Spider-Man Vol 1](https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_1)

@@ -1,0 +1,351 @@
+{
+  "data": [
+    {
+      "issueNumber": 1,
+      "chronologicalPosition": 1,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "July 18, 1995",
+      "villainsInIssue": [
+        "Scorcher",
+        "Marc",
+        "Carl"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 2,
+      "chronologicalPosition": 2,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "August 17, 1995",
+      "villainsInIssue": [
+        "Batwing"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 3,
+      "chronologicalPosition": 3,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "September 28, 1995",
+      "villainsInIssue": [
+        "Sandman"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 4,
+      "chronologicalPosition": 4,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "October 26, 1995",
+      "villainsInIssue": [
+        "Spacemen",
+        "Gantry",
+        "Orbit",
+        "Vacuum",
+        "Satellite"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 5,
+      "chronologicalPosition": 5,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "November 16, 1995",
+      "villainsInIssue": [
+        "Vulture"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 6,
+      "chronologicalPosition": 6,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "December 14, 1995",
+      "villainsInIssue": [
+        "The Wizard"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 7,
+      "chronologicalPosition": 7,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "January 11, 1996",
+      "villainsInIssue": [
+        "Dr. Gerhard Winkler",
+        "Electro"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 8,
+      "chronologicalPosition": 8,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "February 15, 1996",
+      "villainsInIssue": [
+        "Montana",
+        "Ox",
+        "Fancy Dan",
+        "Headsman"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 9,
+      "chronologicalPosition": 9,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "March 14, 1996",
+      "villainsInIssue": [
+        "Lizard"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 10,
+      "chronologicalPosition": 10,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "April 10, 1996",
+      "villainsInIssue": [
+        "Commanda"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 11,
+      "chronologicalPosition": 11,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "May 15, 1996",
+      "villainsInIssue": [
+        "Electro",
+        "Eel"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 12,
+      "chronologicalPosition": 12,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "June 19, 1996",
+      "villainsInIssue": [
+        "Vulture",
+        "Scarlet Beetle"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 13,
+      "chronologicalPosition": 13,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "July 10, 1996",
+      "villainsInIssue": [
+        "Black Knight"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 14,
+      "chronologicalPosition": 14,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "August 14, 1996",
+      "villainsInIssue": [
+        "Scorcher"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 15,
+      "chronologicalPosition": 15,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "September 11, 1996",
+      "villainsInIssue": [
+        "Marc",
+        "The Terrier"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 16,
+      "chronologicalPosition": 16,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "October 9, 1996",
+      "villainsInIssue": [
+        "Radioactive Man"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 17,
+      "chronologicalPosition": 17,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "November 13, 1996",
+      "villainsInIssue": [
+        "Liz Allan",
+        "Hawkeye",
+        "Black Widow",
+        "Commander Kulov",
+        "Gennady"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 18,
+      "chronologicalPosition": 18,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "December 26, 1996",
+      "villainsInIssue": [
+        "Headsman",
+        "Lucky Lobo",
+        "\"Bullet-Hole\" Pete",
+        "Trench",
+        "Green Goblin"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 19,
+      "chronologicalPosition": 19,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "January 22, 1997",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 20,
+      "chronologicalPosition": 20,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "December 20, 1997",
+      "villainsInIssue": [
+        "Vulture",
+        "Nick Lewis",
+        "Kingpin",
+        "Flint"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 21,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "March 26, 1997",
+      "villainsInIssue": [
+        "Menace",
+        "Mutantmen"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 22,
+      "chronologicalPosition": 22,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "April 23, 1997",
+      "villainsInIssue": [
+        "Scarecrow"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 23,
+      "chronologicalPosition": 23,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "June 11, 1997",
+      "villainsInIssue": [
+        "Nick Lewis"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 24,
+      "chronologicalPosition": 24,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "July 9, 1997",
+      "villainsInIssue": [
+        "Jason Ionello"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 25,
+      "chronologicalPosition": 25,
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "releaseDate": "September 10, 1997",
+      "villainsInIssue": [
+        "Marc",
+        "Green Goblin",
+        "Nick Lewis",
+        "Straker",
+        "Jonson"
+      ],
+      "villainCount": 5
+    }
+  ],
+  "scales": {
+    "x": {
+      "domain": [
+        1,
+        25
+      ],
+      "range": [
+        60,
+        1180
+      ]
+    },
+    "y": {
+      "domain": [
+        0,
+        5
+      ],
+      "range": [
+        570,
+        20
+      ]
+    }
+  },
+  "colors": {
+    "Scorcher": "#2980b9",
+    "Marc": "#27ae60",
+    "Carl": "#8e44ad",
+    "Batwing": "#27ae60",
+    "Sandman": "#2ecc71",
+    "Spacemen": "#2ecc71",
+    "Gantry": "#f1c40f",
+    "Orbit": "#2ecc71",
+    "Vacuum": "#e67e22",
+    "Satellite": "#34495e",
+    "Vulture": "#c0392b",
+    "The Wizard": "#8e44ad",
+    "Dr. Gerhard Winkler": "#e67e22",
+    "Electro": "#2980b9",
+    "Montana": "#9b59b6",
+    "Ox": "#9b59b6",
+    "Fancy Dan": "#f1c40f",
+    "Headsman": "#27ae60",
+    "Lizard": "#2ecc71",
+    "Commanda": "#2980b9",
+    "Eel": "#16a085",
+    "Scarlet Beetle": "#e67e22",
+    "Black Knight": "#d35400",
+    "The Terrier": "#c0392b",
+    "Radioactive Man": "#d35400",
+    "Liz Allan": "#f39c12",
+    "Hawkeye": "#f39c12",
+    "Black Widow": "#27ae60",
+    "Commander Kulov": "#e74c3c",
+    "Gennady": "#1abc9c",
+    "Lucky Lobo": "#1abc9c",
+    "\"Bullet-Hole\" Pete": "#e74c3c",
+    "Trench": "#9b59b6",
+    "Green Goblin": "#8e44ad",
+    "Doctor Octopus": "#f1c40f",
+    "Nick Lewis": "#1abc9c",
+    "Kingpin": "#f1c40f",
+    "Flint": "#f1c40f",
+    "Menace": "#3498db",
+    "Mutantmen": "#34495e",
+    "Scarecrow": "#e74c3c",
+    "Jason Ionello": "#1abc9c",
+    "Straker": "#e67e22",
+    "Jonson": "#e74c3c"
+  }
+}

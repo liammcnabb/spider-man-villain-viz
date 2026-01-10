@@ -20,13 +20,6 @@ __pycache__/
 .next/
 out/
 build/
-docs/
-villains*.json
-d3-config*.json
-data/villains*.json
-data/d3-config*.json
-*.md
-!README.md
 .cursorrules
-public/data/d3-config*.json
-public/data/villains*.json
+docs/generated/issues/*.md
+docs/archive/*.md

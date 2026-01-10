@@ -1,0 +1,1079 @@
+{
+  "series": "Untold Tales of Spider-Man Vol 1",
+  "processedAt": "2026-01-10T13:51:00.197Z",
+  "stats": {
+    "totalVillains": 44,
+    "mostFrequent": "Marc",
+    "mostFrequentCount": 3,
+    "averageFrequency": 1.23
+  },
+  "villains": [
+    {
+      "id": "Steven_Hudak_(Earth-616)",
+      "name": "Scorcher",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Steven_Hudak_(Earth-616)",
+      "imageUrl": "/images/steven-hudak-earth-616.jpg",
+      "firstAppearance": 1,
+      "appearances": [
+        1,
+        14
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Character_Index/M",
+      "name": "Marc",
+      "aliases": [
+        "Mick",
+        "Michaelson"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/M",
+      "firstAppearance": 1,
+      "appearances": [
+        1,
+        15,
+        25
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Character_Index/C",
+      "name": "Carl",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/C",
+      "firstAppearance": 1,
+      "appearances": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "James_Santini_(Earth-616)",
+      "name": "Batwing",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/James_Santini_(Earth-616)",
+      "firstAppearance": 2,
+      "appearances": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "William_Baker_(Earth-616)",
+      "name": "Sandman",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+      "imageUrl": "/images/william-baker-earth-616.jpg",
+      "firstAppearance": 3,
+      "appearances": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Spacemen_(Earth-616)",
+      "name": "Spacemen",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Spacemen_(Earth-616)",
+      "imageUrl": "/images/spacemen-earth-616.jpg",
+      "firstAppearance": 4,
+      "appearances": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Gantry_(Earth-616)",
+      "name": "Gantry",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Gantry_(Earth-616)",
+      "imageUrl": "/images/gantry-earth-616.jpg",
+      "firstAppearance": 4,
+      "appearances": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Orbit_(Spacemen)_(Earth-616)",
+      "name": "Orbit",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Orbit_(Spacemen)_(Earth-616)",
+      "imageUrl": "/images/orbit-spacemen-earth-616.jpg",
+      "firstAppearance": 4,
+      "appearances": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Vacuum_(Earth-616)",
+      "name": "Vacuum",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Vacuum_(Earth-616)",
+      "imageUrl": "/images/vacuum-earth-616.jpg",
+      "firstAppearance": 4,
+      "appearances": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Satellite_(Earth-616)",
+      "name": "Satellite",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Satellite_(Earth-616)",
+      "imageUrl": "/images/satellite-earth-616.jpg",
+      "firstAppearance": 4,
+      "appearances": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Adrian_Toomes_(Earth-616)",
+      "name": "Vulture",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+      "imageUrl": "/images/adrian-toomes-earth-616.jpg",
+      "firstAppearance": 5,
+      "appearances": [
+        5,
+        12,
+        20
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Bentley_Wittman_(Earth-616)",
+      "name": "The Wizard",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
+      "imageUrl": "/images/bentley-wittman-earth-616.jpg",
+      "firstAppearance": 6,
+      "appearances": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Gerhard_Winkler_(Earth-616)",
+      "name": "Dr. Gerhard Winkler",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Gerhard_Winkler_(Earth-616)",
+      "imageUrl": "/images/gerhard-winkler-earth-616.jpg",
+      "firstAppearance": 7,
+      "appearances": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Maxwell_Dillon_(Earth-616)",
+      "name": "Electro",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+      "imageUrl": "/images/maxwell-dillon-earth-616.jpg",
+      "firstAppearance": 7,
+      "appearances": [
+        7,
+        11
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Jackson_Brice_(Earth-616)",
+      "name": "Montana",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
+      "imageUrl": "/images/jackson-brice-earth-616.jpg",
+      "firstAppearance": 8,
+      "appearances": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Raymond_Bloch_(Earth-616)",
+      "name": "Ox",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Raymond_Bloch_(Earth-616)",
+      "imageUrl": "/images/raymond-bloch-earth-616.jpg",
+      "firstAppearance": 8,
+      "appearances": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Daniel_Brito_(Earth-616)",
+      "name": "Fancy Dan",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+      "imageUrl": "/images/daniel-brito-earth-616.jpg",
+      "firstAppearance": 8,
+      "appearances": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Cleavon_Twain_(Earth-616)",
+      "name": "Headsman",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Cleavon_Twain_(Earth-616)",
+      "imageUrl": "/images/cleavon-twain-earth-616.jpg",
+      "firstAppearance": 8,
+      "appearances": [
+        8,
+        18
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Curtis_Connors_(Earth-616)",
+      "name": "Lizard",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+      "imageUrl": "/images/curtis-connors-earth-616.jpg",
+      "firstAppearance": 9,
+      "appearances": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Catherine_D%27Antan_(Earth-616)",
+      "name": "Commanda",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Catherine_D%27Antan_(Earth-616)",
+      "imageUrl": "/images/catherine-d-27antan-earth-616.jpg",
+      "firstAppearance": 10,
+      "appearances": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Leopold_Stryke_(Earth-616)",
+      "name": "Eel",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Leopold_Stryke_(Earth-616)",
+      "imageUrl": "/images/leopold-stryke-earth-616.jpg",
+      "firstAppearance": 11,
+      "appearances": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Scarlet_Beetle_(Earth-616)",
+      "name": "Scarlet Beetle",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Scarlet_Beetle_(Earth-616)",
+      "imageUrl": "/images/scarlet-beetle-earth-616.jpg",
+      "firstAppearance": 12,
+      "appearances": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Nathan_Garrett_(Earth-616)",
+      "name": "Black Knight",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Nathan_Garrett_(Earth-616)",
+      "imageUrl": "/images/nathan-garrett-earth-616.jpg",
+      "firstAppearance": 13,
+      "appearances": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Gordon_Savinski_(Earth-616)",
+      "name": "The Terrier",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Gordon_Savinski_(Earth-616)",
+      "imageUrl": "/images/gordon-savinski-earth-616.jpg",
+      "firstAppearance": 15,
+      "appearances": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Chen_Lu_(Earth-616)",
+      "name": "Radioactive Man",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Chen_Lu_(Earth-616)",
+      "imageUrl": "/images/chen-lu-earth-616.jpg",
+      "firstAppearance": 16,
+      "appearances": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Elizabeth_Allan_(Earth-616)",
+      "name": "Liz Allan",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Elizabeth_Allan_(Earth-616)",
+      "imageUrl": "/images/elizabeth-allan-earth-616.jpg",
+      "firstAppearance": 17,
+      "appearances": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Clinton_Barton_(Earth-616)",
+      "name": "Hawkeye",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Clinton_Barton_(Earth-616)",
+      "imageUrl": "/images/clinton-barton-earth-616.jpg",
+      "firstAppearance": 17,
+      "appearances": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Natalia_Romanova_(Earth-616)",
+      "name": "Black Widow",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Natalia_Romanova_(Earth-616)",
+      "imageUrl": "/images/natalia-romanova-earth-616.jpg",
+      "firstAppearance": 17,
+      "appearances": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Character_Index/K",
+      "name": "Commander Kulov",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/K",
+      "firstAppearance": 17,
+      "appearances": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Character_Index/G",
+      "name": "Gennady",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/G",
+      "firstAppearance": 17,
+      "appearances": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Francisco_Lobo_(Earth-616)",
+      "name": "Lucky Lobo",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Francisco_Lobo_(Earth-616)",
+      "imageUrl": "/images/francisco-lobo-earth-616.jpg",
+      "firstAppearance": 18,
+      "appearances": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Character_Index/P",
+      "name": "\"Bullet-Hole\" Pete",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/P",
+      "firstAppearance": 18,
+      "appearances": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Character_Index/T",
+      "name": "Trench",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/T",
+      "firstAppearance": 18,
+      "appearances": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Norman_Osborn_(Earth-616)",
+      "name": "Green Goblin",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+      "imageUrl": "/images/norman-osborn-earth-616.jpg",
+      "firstAppearance": 18,
+      "appearances": [
+        18,
+        25
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Otto_Octavius_(Earth-616)",
+      "name": "Doctor Octopus",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+      "imageUrl": "/images/otto-octavius-earth-616.jpg",
+      "firstAppearance": 19,
+      "appearances": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Nicholas_Lewis_Sr._(Earth-616)",
+      "name": "Nick Lewis",
+      "aliases": [
+        "Crime Master",
+        "Crime-Master"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+      "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg",
+      "firstAppearance": 20,
+      "appearances": [
+        20,
+        23,
+        25
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Wilson_Fisk_(Earth-616)",
+      "name": "Kingpin",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+      "imageUrl": "/images/wilson-fisk-earth-616.jpg",
+      "firstAppearance": 20,
+      "appearances": [
+        20
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Flint_(Goon)_(Earth-616)",
+      "name": "Flint",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Flint_(Goon)_(Earth-616)",
+      "imageUrl": "/images/flint-goon-earth-616.jpg",
+      "firstAppearance": 20,
+      "appearances": [
+        20
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Menace_(Team_Alpha)_(Earth-616)",
+      "name": "Menace",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Menace_(Team_Alpha)_(Earth-616)",
+      "imageUrl": "/images/menace-team-alpha-earth-616.jpg",
+      "firstAppearance": 21,
+      "appearances": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Mutantmen_(Earth-616)",
+      "name": "Mutantmen",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Mutantmen_(Earth-616)",
+      "imageUrl": "/images/mutantmen-earth-616.jpg",
+      "firstAppearance": 21,
+      "appearances": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Ebenezer_Laughton_(Earth-616)",
+      "name": "Scarecrow",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Ebenezer_Laughton_(Earth-616)",
+      "imageUrl": "/images/ebenezer-laughton-earth-616.jpg",
+      "firstAppearance": 22,
+      "appearances": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Jason_Ionello_(Earth-616)",
+      "name": "Jason Ionello",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Jason_Ionello_(Earth-616)",
+      "imageUrl": "/images/jason-ionello-earth-616.jpg",
+      "firstAppearance": 24,
+      "appearances": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Character_Index/S",
+      "name": "Straker",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/S",
+      "firstAppearance": 25,
+      "appearances": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Character_Index/J",
+      "name": "Jonson",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/J",
+      "firstAppearance": 25,
+      "appearances": [
+        25
+      ],
+      "frequency": 1
+    }
+  ],
+  "timeline": [
+    {
+      "issue": 1,
+      "releaseDate": "July 18, 1995",
+      "chronologicalPlacementHint": "between Amazing Spider-Man #6 and #7",
+      "villainCount": 3,
+      "villains": [
+        "Scorcher",
+        "Marc",
+        "Carl"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Steven_Hudak_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Character_Index/M",
+        "https://marvel.fandom.com/wiki/Character_Index/C"
+      ],
+      "villainIds": [
+        "Steven_Hudak_(Earth-616)",
+        "Character_Index/M",
+        "Character_Index/C"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 1
+    },
+    {
+      "issue": 2,
+      "releaseDate": "August 17, 1995",
+      "villainCount": 1,
+      "villains": [
+        "Batwing"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/James_Santini_(Earth-616)"
+      ],
+      "villainIds": [
+        "James_Santini_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 2
+    },
+    {
+      "issue": 3,
+      "releaseDate": "September 28, 1995",
+      "villainCount": 1,
+      "villains": [
+        "Sandman"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)"
+      ],
+      "villainIds": [
+        "William_Baker_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 3
+    },
+    {
+      "issue": 4,
+      "releaseDate": "October 26, 1995",
+      "villainCount": 5,
+      "villains": [
+        "Spacemen",
+        "Gantry",
+        "Orbit",
+        "Vacuum",
+        "Satellite"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Spacemen_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Gantry_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Orbit_(Spacemen)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Vacuum_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Satellite_(Earth-616)"
+      ],
+      "villainIds": [
+        "Spacemen_(Earth-616)",
+        "Gantry_(Earth-616)",
+        "Orbit_(Spacemen)_(Earth-616)",
+        "Vacuum_(Earth-616)",
+        "Satellite_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 4
+    },
+    {
+      "issue": 5,
+      "releaseDate": "November 16, 1995",
+      "villainCount": 1,
+      "villains": [
+        "Vulture"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
+      ],
+      "villainIds": [
+        "Adrian_Toomes_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 5
+    },
+    {
+      "issue": 6,
+      "releaseDate": "December 14, 1995",
+      "villainCount": 1,
+      "villains": [
+        "The Wizard"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)"
+      ],
+      "villainIds": [
+        "Bentley_Wittman_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 6
+    },
+    {
+      "issue": 7,
+      "releaseDate": "January 11, 1996",
+      "villainCount": 2,
+      "villains": [
+        "Dr. Gerhard Winkler",
+        "Electro"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Gerhard_Winkler_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)"
+      ],
+      "villainIds": [
+        "Gerhard_Winkler_(Earth-616)",
+        "Maxwell_Dillon_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 7
+    },
+    {
+      "issue": 8,
+      "releaseDate": "February 15, 1996",
+      "villainCount": 4,
+      "villains": [
+        "Montana",
+        "Ox",
+        "Fancy Dan",
+        "Headsman"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Raymond_Bloch_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Cleavon_Twain_(Earth-616)"
+      ],
+      "villainIds": [
+        "Jackson_Brice_(Earth-616)",
+        "Raymond_Bloch_(Earth-616)",
+        "Daniel_Brito_(Earth-616)",
+        "Cleavon_Twain_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 8,
+      "groups": [
+        {
+          "name": "Enforcers",
+          "members": [
+            "Montana",
+            "Ox",
+            "Fancy Dan",
+            "Headsman"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 9,
+      "releaseDate": "March 14, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Lizard"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)"
+      ],
+      "villainIds": [
+        "Curtis_Connors_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 9
+    },
+    {
+      "issue": 10,
+      "releaseDate": "April 10, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Commanda"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Catherine_D%27Antan_(Earth-616)"
+      ],
+      "villainIds": [
+        "Catherine_D%27Antan_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 10
+    },
+    {
+      "issue": 11,
+      "releaseDate": "May 15, 1996",
+      "villainCount": 2,
+      "villains": [
+        "Electro",
+        "Eel"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Leopold_Stryke_(Earth-616)"
+      ],
+      "villainIds": [
+        "Maxwell_Dillon_(Earth-616)",
+        "Leopold_Stryke_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 11
+    },
+    {
+      "issue": 12,
+      "releaseDate": "June 19, 1996",
+      "villainCount": 2,
+      "villains": [
+        "Vulture",
+        "Scarlet Beetle"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Scarlet_Beetle_(Earth-616)"
+      ],
+      "villainIds": [
+        "Adrian_Toomes_(Earth-616)",
+        "Scarlet_Beetle_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 12
+    },
+    {
+      "issue": 13,
+      "releaseDate": "July 10, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Black Knight"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Nathan_Garrett_(Earth-616)"
+      ],
+      "villainIds": [
+        "Nathan_Garrett_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 13
+    },
+    {
+      "issue": 14,
+      "releaseDate": "August 14, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Scorcher"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Steven_Hudak_(Earth-616)"
+      ],
+      "villainIds": [
+        "Steven_Hudak_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 14
+    },
+    {
+      "issue": 15,
+      "releaseDate": "September 11, 1996",
+      "villainCount": 2,
+      "villains": [
+        "Marc",
+        "The Terrier"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Character_Index/M",
+        "https://marvel.fandom.com/wiki/Gordon_Savinski_(Earth-616)"
+      ],
+      "villainIds": [
+        "Character_Index/M",
+        "Gordon_Savinski_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 15
+    },
+    {
+      "issue": 16,
+      "releaseDate": "October 9, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Radioactive Man"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Chen_Lu_(Earth-616)"
+      ],
+      "villainIds": [
+        "Chen_Lu_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 16
+    },
+    {
+      "issue": 17,
+      "releaseDate": "November 13, 1996",
+      "villainCount": 5,
+      "villains": [
+        "Liz Allan",
+        "Hawkeye",
+        "Black Widow",
+        "Commander Kulov",
+        "Gennady"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Elizabeth_Allan_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Clinton_Barton_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Natalia_Romanova_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Character_Index/K",
+        "https://marvel.fandom.com/wiki/Character_Index/G"
+      ],
+      "villainIds": [
+        "Elizabeth_Allan_(Earth-616)",
+        "Clinton_Barton_(Earth-616)",
+        "Natalia_Romanova_(Earth-616)",
+        "Character_Index/K",
+        "Character_Index/G"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 17
+    },
+    {
+      "issue": 18,
+      "releaseDate": "December 26, 1996",
+      "villainCount": 5,
+      "villains": [
+        "Headsman",
+        "Lucky Lobo",
+        "\"Bullet-Hole\" Pete",
+        "Trench",
+        "Green Goblin"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Cleavon_Twain_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Francisco_Lobo_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Character_Index/P",
+        "https://marvel.fandom.com/wiki/Character_Index/T",
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
+      ],
+      "villainIds": [
+        "Cleavon_Twain_(Earth-616)",
+        "Francisco_Lobo_(Earth-616)",
+        "Character_Index/P",
+        "Character_Index/T",
+        "Norman_Osborn_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 18
+    },
+    {
+      "issue": 19,
+      "releaseDate": "January 22, 1997",
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
+      ],
+      "villainIds": [
+        "Otto_Octavius_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 19
+    },
+    {
+      "issue": 20,
+      "releaseDate": "December 20, 1997",
+      "villainCount": 4,
+      "villains": [
+        "Vulture",
+        "Nick Lewis",
+        "Kingpin",
+        "Flint"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+        "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Flint_(Goon)_(Earth-616)"
+      ],
+      "villainIds": [
+        "Adrian_Toomes_(Earth-616)",
+        "Nicholas_Lewis_Sr._(Earth-616)",
+        "Wilson_Fisk_(Earth-616)",
+        "Flint_(Goon)_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 20,
+      "groups": [
+        {
+          "name": "Kingpin's Henchmen",
+          "members": [
+            "Vulture",
+            "Nick Lewis",
+            "Kingpin",
+            "Flint"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 21,
+      "releaseDate": "March 26, 1997",
+      "villainCount": 2,
+      "villains": [
+        "Menace",
+        "Mutantmen"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Menace_(Team_Alpha)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Mutantmen_(Earth-616)"
+      ],
+      "villainIds": [
+        "Menace_(Team_Alpha)_(Earth-616)",
+        "Mutantmen_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 21
+    },
+    {
+      "issue": 22,
+      "releaseDate": "April 23, 1997",
+      "villainCount": 1,
+      "villains": [
+        "Scarecrow"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Ebenezer_Laughton_(Earth-616)"
+      ],
+      "villainIds": [
+        "Ebenezer_Laughton_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 22
+    },
+    {
+      "issue": 23,
+      "releaseDate": "June 11, 1997",
+      "villainCount": 1,
+      "villains": [
+        "Nick Lewis"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)"
+      ],
+      "villainIds": [
+        "Nicholas_Lewis_Sr._(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 23
+    },
+    {
+      "issue": 24,
+      "releaseDate": "July 9, 1997",
+      "villainCount": 1,
+      "villains": [
+        "Jason Ionello"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Jason_Ionello_(Earth-616)"
+      ],
+      "villainIds": [
+        "Jason_Ionello_(Earth-616)"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 24
+    },
+    {
+      "issue": 25,
+      "releaseDate": "September 10, 1997",
+      "villainCount": 5,
+      "villains": [
+        "Marc",
+        "Green Goblin",
+        "Nick Lewis",
+        "Straker",
+        "Jonson"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Character_Index/M",
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+        "https://marvel.fandom.com/wiki/Character_Index/S",
+        "https://marvel.fandom.com/wiki/Character_Index/J"
+      ],
+      "villainIds": [
+        "Character_Index/M",
+        "Norman_Osborn_(Earth-616)",
+        "Nicholas_Lewis_Sr._(Earth-616)",
+        "Character_Index/S",
+        "Character_Index/J"
+      ],
+      "series": "Untold Tales of Spider-Man Vol 1",
+      "chronologicalPosition": 25
+    }
+  ],
+  "groups": [
+    {
+      "id": "Enforcers_(Earth-616)",
+      "name": "Enforcers",
+      "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
+      "appearances": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Kingpin%27s_Henchmen",
+      "name": "Kingpin's Henchmen",
+      "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen",
+      "appearances": [
+        20
+      ],
+      "frequency": 1
+    }
+  ]
+}

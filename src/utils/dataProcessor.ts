@@ -130,6 +130,7 @@ export function processVillainData(
     for (const antagonist of issue.antagonists) {
       const rawName: string = typeof antagonist === 'string' ? antagonist : antagonist.name;
       const url: string | undefined = typeof antagonist === 'object' ? getCanonicalUrl(antagonist.url) : undefined;
+      const imageUrl: string | undefined = typeof antagonist === 'object' ? antagonist.imageUrl : undefined;
       
       if (!rawName || rawName.trim().length === 0) {
         continue; // Skip empty names
@@ -178,6 +179,7 @@ export function processVillainData(
           name: normalized, // Will be updated to most prominent name later
           names: [normalized],
           url: url,
+          imageUrl: imageUrl,
           firstAppearance: issue.issueNumber,
           appearances: [issue.issueNumber],
           frequency: 1,
@@ -187,6 +189,11 @@ export function processVillainData(
         // Existing villain - add appearance and track name variant
         const villain = map.get(key)!;
         const nameFrequency = nameFrequencyByKey.get(key)!;
+        
+        // Preserve imageUrl if this appearance has one and villain doesn't yet
+        if (imageUrl && !villain.imageUrl) {
+          villain.imageUrl = imageUrl;
+        }
         
         // Track how many times this specific name variant appears
         nameFrequency.set(normalized, (nameFrequency.get(normalized) || 0) + 1);
@@ -380,6 +387,7 @@ export function serializeProcessedData(
       name: v.name,
       aliases: v.names.filter(n => n !== v.name), // Exclude primary name from aliases
       url: v.url,
+      imageUrl: v.imageUrl,
       firstAppearance: v.firstAppearance,
       appearances: v.appearances,
       frequency: v.frequency

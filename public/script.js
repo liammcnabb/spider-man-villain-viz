@@ -1431,6 +1431,14 @@ class SpiderManVisualization {
         const card = document.createElement('div');
         card.className = 'villain-card';
 
+        // Create header section with name/stats and image
+        const header = document.createElement('div');
+        header.className = 'villain-card-header';
+
+        // Name and stats container (left side)
+        const infoContainer = document.createElement('div');
+        infoContainer.className = 'villain-info-container';
+
         const name = document.createElement('div');
         name.className = 'villain-name';
         name.textContent = villain.name;
@@ -1449,6 +1457,52 @@ class SpiderManVisualization {
 
         statsDiv.appendChild(frequencyStat);
         statsDiv.appendChild(firstAppearanceStat);
+
+        infoContainer.appendChild(name);
+        infoContainer.appendChild(statsDiv);
+        header.appendChild(infoContainer);
+
+        // Add villain image if available (right side)
+        if (villain.imageUrl) {
+            const img = document.createElement('img');
+            img.className = 'villain-image';
+            // Try original URL first; if it 404s, fall back to a de-scaled variant.
+            const variants = [villain.imageUrl];
+            if (villain.imageUrl.includes('/scale-to-width-down/')) {
+                variants.push(
+                    villain.imageUrl.replace(/\/scale-to-width-down\/\d+/i, '')
+                );
+            }
+
+            let attempt = 0;
+            const tryLoad = () => {
+                const url = variants[attempt];
+                console.log(`Loading image for ${villain.name}: ${url}`);
+                img.src = url;
+            };
+
+            tryLoad();
+            img.alt = villain.name;
+            img.title = villain.name;
+            img.loading = 'lazy';
+            img.referrerPolicy = 'no-referrer'; // mitigate hotlinking blocks
+            img.onerror = () => {
+                console.error(`Failed to load image for ${villain.name}:`, img.src);
+                attempt += 1;
+                if (attempt < variants.length) {
+                    console.log(`Retrying ${villain.name} with fallback URL: ${variants[attempt]}`);
+                    tryLoad();
+                } else {
+                    img.style.display = 'none';
+                }
+            };
+            img.onload = () => {
+                console.log(`✓ Image loaded successfully for ${villain.name}`);
+            };
+            header.appendChild(img);
+        }
+
+        card.appendChild(header);
 
         const appearancesDiv = document.createElement('div');
         appearancesDiv.className = 'villain-appearances';
@@ -1531,8 +1585,6 @@ class SpiderManVisualization {
         appearancesDiv.appendChild(appearancesLabel);
         appearancesDiv.appendChild(tagsDiv);
 
-        card.appendChild(name);
-        card.appendChild(statsDiv);
         card.appendChild(appearancesDiv);
 
         const trendDiv = document.createElement('div');
@@ -1547,6 +1599,18 @@ class SpiderManVisualization {
         trendDiv.appendChild(trendLabel);
         trendDiv.appendChild(sparklineHost);
         card.appendChild(trendDiv);
+
+        // Add wiki link in bottom-right
+        if (villain.url) {
+            const wikiLink = document.createElement('a');
+            wikiLink.href = villain.url;
+            wikiLink.className = 'villain-wiki-link';
+            wikiLink.target = '_blank';
+            wikiLink.rel = 'noopener noreferrer';
+            wikiLink.textContent = 'Wiki →';
+            wikiLink.title = `View ${villain.name} on Marvel Wiki`;
+            card.appendChild(wikiLink);
+        }
 
         return card;
     }

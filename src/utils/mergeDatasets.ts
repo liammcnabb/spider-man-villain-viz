@@ -10,6 +10,7 @@ export interface SerializedVillain {
   name: string;
   aliases?: string[];
   url?: string;
+  imageUrl?: string;
   firstAppearance: number;
   firstAppearanceSeries?: string;
   appearances: number[];
@@ -182,6 +183,7 @@ export function mergeDatasets(datasets: any[]): MergedDataset {
           name: v.name,
           aliases: [...(v.aliases || [])],
           url: v.url,
+          imageUrl: v.imageUrl,
           firstAppearance: v.firstAppearance,
           firstAppearanceSeries: undefined,
           appearances: [...(v.appearances || [])],
@@ -189,6 +191,10 @@ export function mergeDatasets(datasets: any[]): MergedDataset {
         });
       } else {
         const cur = villainMap.get(key)!;
+        // Preserve imageUrl if this entry has one and current doesn't
+        if (v.imageUrl && !cur.imageUrl) {
+          cur.imageUrl = v.imageUrl;
+        }
         const aliasSet = new Set([...(cur.aliases || []), ...(v.aliases || [])]);
         cur.aliases = Array.from(aliasSet);
         const appearSet = new Set([...(cur.appearances || []), ...(v.appearances || [])]);

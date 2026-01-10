@@ -7,6 +7,7 @@ export type EntityKind = 'individual' | 'group';
 export interface Antagonist {
   name: string;
   url?: string; // Marvel Fandom URL to uniquely identify character
+  imageUrl?: string; // Character portrait/image from Marvel Fandom
   kind?: EntityKind; // Optional classification; defaults to 'individual' if omitted
 }
 
@@ -24,6 +25,7 @@ export interface ProcessedVillain {
   name: string; // Primary name (most frequently used alias)
   names: string[]; // All name variants/aliases
   url?: string; // Canonical Marvel Fandom URL
+  imageUrl?: string; // Character portrait/image from Marvel Fandom
   firstAppearance: number;
   appearances: number[];
   frequency: number;

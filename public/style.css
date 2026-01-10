@@ -523,12 +523,61 @@ body {
     background-color: var(--color-background);
     transition: all var(--transition-speed);
     cursor: pointer;
+    position: relative;
 }
 
 .villain-card:hover {
     border-color: var(--color-primary);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
+}
+
+.villain-wiki-link {
+    position: absolute;
+    bottom: calc(var(--spacing-unit) * 1.5);
+    right: calc(var(--spacing-unit) * 2);
+    font-size: 0.85rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all var(--transition-speed);
+    opacity: 0.7;
+    padding: calc(var(--spacing-unit) * 0.5) var(--spacing-unit);
+    border-radius: 4px;
+    background-color: var(--color-background);
+}
+
+.villain-wiki-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+    background-color: var(--color-border);
+}
+
+
+.villain-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: calc(var(--spacing-unit) * 2);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.villain-info-container {
+    flex: 1;
+    min-width: 0;
+}
+
+.villain-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 2px solid var(--color-border);
+    flex-shrink: 0;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(45deg, #f0f0f0 25%, #e0e0e0 25%, #e0e0e0 50%, #f0f0f0 50%, #f0f0f0 75%, #e0e0e0 75%, #e0e0e0);
+    background-size: 20px 20px;
+    order: 2;
+    display: block;
 }
 
 .villain-name {
@@ -594,7 +643,9 @@ body {
     margin-top: calc(var(--spacing-unit) * 2);
     margin-left: calc(var(--spacing-unit) * -2);
     margin-right: calc(var(--spacing-unit) * -2);
+    margin-bottom: calc(var(--spacing-unit) * -2);
     padding: calc(var(--spacing-unit) * 2);
+    padding-bottom: calc(var(--spacing-unit) * 4);
     background-color: var(--color-background);
     border-radius: 4px;
 }

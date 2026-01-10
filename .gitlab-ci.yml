@@ -1,0 +1,28 @@
+image: node:20
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+stages:
+  - test
+  - build
+
+before_script:
+  - npm ci
+
+test:
+  stage: test
+  script:
+    - npm test
+    - npx ts-node test-merge-logic.ts
+
+build:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - public/
+    expire_in: 1 week

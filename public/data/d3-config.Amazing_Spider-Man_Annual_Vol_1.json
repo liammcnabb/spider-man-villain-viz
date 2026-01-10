@@ -1,0 +1,563 @@
+{
+  "data": [
+    {
+      "issueNumber": 1,
+      "chronologicalPosition": 1,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 11, 1964",
+      "villainsInIssue": [
+        "Vulture",
+        "Electro",
+        "Doctor Octopus",
+        "Mysterio",
+        "Kraven the Hunter",
+        "Sandman",
+        "Mysterio's X-Men",
+        "Cyclops",
+        "Angel",
+        "Beast"
+      ],
+      "villainCount": 10
+    },
+    {
+      "issueNumber": 2,
+      "chronologicalPosition": 2,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 1, 1965",
+      "villainsInIssue": [
+        "Mysterio",
+        "Xandu",
+        "Burglar",
+        "Tinkerer",
+        "Charlie",
+        "Doctor Doom",
+        "Doombot"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 3,
+      "chronologicalPosition": 3,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 2, 1966",
+      "villainsInIssue": [
+        "Doctor Octopus",
+        "Hulk",
+        "Blackie Gaxton"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 4,
+      "chronologicalPosition": 4,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 1, 1967",
+      "villainsInIssue": [
+        "Mysterio",
+        "The Wizard"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 5,
+      "chronologicalPosition": 5,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 13, 1968",
+      "villainsInIssue": [
+        "Red Skull",
+        "Sandor",
+        "Finisher",
+        "Ahab"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 6,
+      "chronologicalPosition": 6,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 5, 1969",
+      "villainsInIssue": [
+        "Vulture",
+        "Electro",
+        "Doctor Octopus",
+        "Mysterio",
+        "Kraven the Hunter",
+        "Sandman",
+        "Mysterio's X-Men",
+        "Cyclops",
+        "Angel",
+        "Beast",
+        "Spider-Man"
+      ],
+      "villainCount": 11
+    },
+    {
+      "issueNumber": 7,
+      "chronologicalPosition": 7,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "September 15, 1970",
+      "villainsInIssue": [
+        "Vulture",
+        "Chameleon",
+        "Joe Smith"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 8,
+      "chronologicalPosition": 8,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "July 13, 1971",
+      "villainsInIssue": [
+        "Shocker",
+        "Egghead",
+        "Kingpin",
+        "Flint",
+        "Blackie",
+        "Shorty"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 9,
+      "chronologicalPosition": 9,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 19, 1973",
+      "villainsInIssue": [
+        "Green Goblin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 10,
+      "chronologicalPosition": 10,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 22, 1976",
+      "villainsInIssue": [
+        "Human Fly"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 11,
+      "chronologicalPosition": 11,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 22, 1977",
+      "villainsInIssue": [
+        "Anton DeLionatus",
+        "Strongman",
+        "Tumbler",
+        "Acrobat",
+        "Paul Cassidy"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 12,
+      "chronologicalPosition": 12,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "May 2, 1978",
+      "villainsInIssue": [
+        "Hulk"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 13,
+      "chronologicalPosition": 13,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 14, 1979",
+      "villainsInIssue": [
+        "Doctor Octopus",
+        "Shocker",
+        "Kingpin",
+        "Molten Man",
+        "Looter",
+        "Rhino",
+        "Silvermane",
+        "Man-Mountain Marko",
+        "Prowler",
+        "Kangaroo"
+      ],
+      "villainCount": 10
+    },
+    {
+      "issueNumber": 14,
+      "chronologicalPosition": 14,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "September 16, 1980",
+      "villainsInIssue": [
+        "Doctor Doom",
+        "Dormammu",
+        "Lucius Dilby"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 15,
+      "chronologicalPosition": 15,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "September 1, 1981",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 16,
+      "chronologicalPosition": 16,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 31, 1982",
+      "villainsInIssue": [
+        "Shorty",
+        "Mojo",
+        "Roxxon Oil",
+        "Felipe Picaro"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 17,
+      "chronologicalPosition": 17,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "September 6, 1983",
+      "villainsInIssue": [
+        "Kingpin",
+        "Mr. Gilbert",
+        "Louie Minelli",
+        "Jerry"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 18,
+      "chronologicalPosition": 18,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 28, 1984",
+      "villainsInIssue": [
+        "Scorpion"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 19,
+      "chronologicalPosition": 19,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 13, 1985",
+      "villainsInIssue": [
+        "Kingpin",
+        "Alistaire Smythe"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 20,
+      "chronologicalPosition": 20,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "August 5, 1986",
+      "villainsInIssue": [
+        "Robert Saunders",
+        "Blizzard"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 21,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 9, 1987",
+      "villainsInIssue": [
+        "Electro",
+        "Ahab",
+        "Eddie"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 22,
+      "chronologicalPosition": 22,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "May 31, 1988",
+      "villainsInIssue": [
+        "Kingpin",
+        "Arranger",
+        "Dylan Thomas",
+        "Splitface Flanagan",
+        "Chthon"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 23,
+      "chronologicalPosition": 23,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "May 2, 1989",
+      "villainsInIssue": [
+        "Vulture",
+        "Electro",
+        "Doctor Octopus",
+        "Mysterio",
+        "Kraven the Hunter",
+        "Sandman",
+        "Burglar",
+        "Doctor Doom",
+        "Red Skull",
+        "Chameleon",
+        "Shocker",
+        "Kingpin",
+        "Green Goblin",
+        "Human Fly",
+        "Molten Man",
+        "Rhino",
+        "Silvermane",
+        "Scorpion",
+        "Tyrannus",
+        "Abomination's Body",
+        "Ghaur",
+        "Llyra",
+        "Viper",
+        "Set",
+        "Hobgoblin",
+        "Nick Katzenberg",
+        "Crimemaster",
+        "Sin-Eater",
+        "Hammerhead",
+        "Hydro-Man",
+        "Juggernaut",
+        "Carrion",
+        "Jackal",
+        "Tarantula",
+        "Puma",
+        "Lizard",
+        "Venom",
+        "Hobgoblin",
+        "Man-Wolf",
+        "Emperor Phraug",
+        "Nolem",
+        "Atra"
+      ],
+      "villainCount": 42
+    },
+    {
+      "issueNumber": 24,
+      "chronologicalPosition": 24,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 5, 1990",
+      "villainsInIssue": [
+        "The Wizard",
+        "The Trapster",
+        "Scarlet Beetle"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 25,
+      "chronologicalPosition": 25,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 18, 1991",
+      "villainsInIssue": [
+        "Burglar",
+        "Spider-Man",
+        "Kingpin",
+        "Shorty",
+        "Jerry",
+        "Ghost",
+        "Ultron-13",
+        "Pablo",
+        "Raymond Trask"
+      ],
+      "villainCount": 9
+    },
+    {
+      "issueNumber": 26,
+      "chronologicalPosition": 26,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "June 16, 1992",
+      "villainsInIssue": [
+        "Ahab",
+        "Shorty",
+        "Looter",
+        "Roxxon Oil",
+        "Sphinx",
+        "Hammer Industries",
+        "Justin Hammer",
+        "Jonas Hale",
+        "Life Foundation",
+        "Carlton Drake",
+        "Stane International",
+        "Brand Corporation",
+        "Target Technologies",
+        "Lorna",
+        "Jerome Caldwell",
+        "Dreadnoughts",
+        "Dreadnoughts 2000",
+        "Bruno Markham",
+        "Keith",
+        "Giancarlo Gelberto",
+        "Lightmaster"
+      ],
+      "villainCount": 21
+    },
+    {
+      "issueNumber": 27,
+      "chronologicalPosition": 27,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "March 2, 1993",
+      "villainsInIssue": [
+        "Lizard",
+        "Abner Dunson",
+        "Deathstorm",
+        "Samson Rourke"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 28,
+      "chronologicalPosition": 28,
+      "series": "Amazing Spider-Man Annual Vol 1",
+      "releaseDate": "March 8, 1994",
+      "villainsInIssue": [
+        "Charlie",
+        "Carnage"
+      ],
+      "villainCount": 2
+    }
+  ],
+  "scales": {
+    "x": {
+      "domain": [
+        1,
+        28
+      ],
+      "range": [
+        60,
+        1180
+      ]
+    },
+    "y": {
+      "domain": [
+        0,
+        42
+      ],
+      "range": [
+        570,
+        20
+      ]
+    }
+  },
+  "colors": {
+    "Vulture": "#c0392b",
+    "Electro": "#2980b9",
+    "Doctor Octopus": "#f1c40f",
+    "Mysterio": "#8e44ad",
+    "Kraven the Hunter": "#16a085",
+    "Sandman": "#2ecc71",
+    "Mysterio's X-Men": "#1abc9c",
+    "Cyclops": "#2ecc71",
+    "Angel": "#34495e",
+    "Beast": "#e74c3c",
+    "Xandu": "#2ecc71",
+    "Burglar": "#e74c3c",
+    "Tinkerer": "#c0392b",
+    "Charlie": "#d35400",
+    "Doctor Doom": "#d35400",
+    "Doombot": "#8e44ad",
+    "Hulk": "#f1c40f",
+    "Blackie Gaxton": "#16a085",
+    "The Wizard": "#8e44ad",
+    "Red Skull": "#27ae60",
+    "Sandor": "#3498db",
+    "Finisher": "#34495e",
+    "Ahab": "#9b59b6",
+    "Spider-Man": "#e74c3c",
+    "Chameleon": "#9b59b6",
+    "Joe Smith": "#f39c12",
+    "Shocker": "#9b59b6",
+    "Egghead": "#2980b9",
+    "Kingpin": "#f1c40f",
+    "Flint": "#f1c40f",
+    "Blackie": "#d35400",
+    "Shorty": "#27ae60",
+    "Green Goblin": "#8e44ad",
+    "Human Fly": "#3498db",
+    "Anton DeLionatus": "#e67e22",
+    "Strongman": "#d35400",
+    "Tumbler": "#16a085",
+    "Acrobat": "#8e44ad",
+    "Paul Cassidy": "#3498db",
+    "Molten Man": "#27ae60",
+    "Looter": "#2ecc71",
+    "Rhino": "#2ecc71",
+    "Silvermane": "#3498db",
+    "Man-Mountain Marko": "#e74c3c",
+    "Prowler": "#c0392b",
+    "Kangaroo": "#2ecc71",
+    "Dormammu": "#e74c3c",
+    "Lucius Dilby": "#2ecc71",
+    "Mojo": "#e74c3c",
+    "Roxxon Oil": "#27ae60",
+    "Felipe Picaro": "#e74c3c",
+    "Mr. Gilbert": "#e74c3c",
+    "Louie Minelli": "#27ae60",
+    "Jerry": "#f1c40f",
+    "Scorpion": "#16a085",
+    "Alistaire Smythe": "#f1c40f",
+    "Robert Saunders": "#16a085",
+    "Blizzard": "#2ecc71",
+    "Eddie": "#c0392b",
+    "Arranger": "#2980b9",
+    "Dylan Thomas": "#27ae60",
+    "Splitface Flanagan": "#d35400",
+    "Chthon": "#27ae60",
+    "Tyrannus": "#8e44ad",
+    "Abomination's Body": "#f39c12",
+    "Ghaur": "#16a085",
+    "Llyra": "#e67e22",
+    "Viper": "#16a085",
+    "Set": "#e74c3c",
+    "Hobgoblin": "#f1c40f",
+    "Nick Katzenberg": "#c0392b",
+    "Crimemaster": "#27ae60",
+    "Sin-Eater": "#f39c12",
+    "Hammerhead": "#2ecc71",
+    "Hydro-Man": "#f39c12",
+    "Juggernaut": "#e67e22",
+    "Carrion": "#2ecc71",
+    "Jackal": "#9b59b6",
+    "Tarantula": "#d35400",
+    "Puma": "#2980b9",
+    "Lizard": "#2ecc71",
+    "Venom": "#34495e",
+    "Man-Wolf": "#2980b9",
+    "Emperor Phraug": "#2980b9",
+    "Nolem": "#27ae60",
+    "Atra": "#2ecc71",
+    "The Trapster": "#f1c40f",
+    "Scarlet Beetle": "#e67e22",
+    "Ghost": "#34495e",
+    "Ultron-13": "#34495e",
+    "Pablo": "#f1c40f",
+    "Raymond Trask": "#c0392b",
+    "Sphinx": "#27ae60",
+    "Hammer Industries": "#8e44ad",
+    "Justin Hammer": "#f1c40f",
+    "Jonas Hale": "#f1c40f",
+    "Life Foundation": "#e67e22",
+    "Carlton Drake": "#e67e22",
+    "Stane International": "#c0392b",
+    "Brand Corporation": "#27ae60",
+    "Target Technologies": "#9b59b6",
+    "Lorna": "#2980b9",
+    "Jerome Caldwell": "#2980b9",
+    "Dreadnoughts": "#34495e",
+    "Dreadnoughts 2000": "#e67e22",
+    "Bruno Markham": "#1abc9c",
+    "Keith": "#e67e22",
+    "Giancarlo Gelberto": "#e74c3c",
+    "Lightmaster": "#34495e",
+    "Abner Dunson": "#d35400",
+    "Deathstorm": "#f1c40f",
+    "Samson Rourke": "#8e44ad",
+    "Carnage": "#3498db"
+  }
+}
