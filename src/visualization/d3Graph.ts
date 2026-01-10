@@ -171,3 +171,76 @@ export function generateLinePath(
 
   return `M ${pathSegments.join(' L ')}`;
 }
+
+/**
+ * Histogram data point for new villains per year
+ */
+export interface HistogramDataPoint {
+  year: number;
+  count: number;
+  villains: string[];
+}
+
+/**
+ * Generates histogram data showing new villain debuts per year
+ * 
+ * @param data - Processed villain data with timeline
+ * @returns Array of histogram data points grouped by year
+ */
+export function generateNewVillainsPerYear(
+  data: ProcessedData
+): HistogramDataPoint[] {
+  // Map to track first appearance of each villain (by ID)
+  const villainFirstAppearance = new Map<string, { year: number; name: string }>();
+  
+  // Build lookup of villain IDs to their first appearance year
+  for (const villain of data.villains) {
+    // Find the timeline entry for this villain's first appearance
+    // Need to match the issue number AND the series (if specified)
+    const firstIssue = data.timeline.find(t => {
+      // Check if this issue contains the villain (by checking villain objects)
+      const hasVillain = t.villains.some(v => v.id === villain.id);
+      if (!hasVillain) {
+        return false;
+      }
+      
+      // Match issue number (firstAppearance is within the villain's series)
+      return t.issue === villain.firstAppearance && 
+             (!t.series || t.series === data.series || t.series === 'Combined');
+    });
+    
+    if (firstIssue && firstIssue.releaseDate) {
+      // Parse year from release date (format: "Month DD, YYYY")
+      const yearMatch = firstIssue.releaseDate.match(/\d{4}$/);
+      if (yearMatch) {
+        const year = parseInt(yearMatch[0], 10);
+        villainFirstAppearance.set(villain.id, {
+          year,
+          name: villain.name
+        });
+      }
+    }
+  }
+  
+  // Group by year
+  const yearMap = new Map<number, string[]>();
+  
+  for (const [_, info] of villainFirstAppearance) {
+    if (!yearMap.has(info.year)) {
+      yearMap.set(info.year, []);
+    }
+    yearMap.get(info.year)!.push(info.name);
+  }
+  
+  // Convert to array and sort by year
+  const histogram: HistogramDataPoint[] = [];
+  for (const [year, villains] of yearMap) {
+    histogram.push({
+      year,
+      count: villains.length,
+      villains: villains.sort()
+    });
+  }
+  
+  return histogram.sort((a, b) => a.year - b.year);
+}

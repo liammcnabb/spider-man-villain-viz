@@ -108,6 +108,7 @@ class SpiderManVisualization {
             // Render all components
             this.renderStats();
             this.renderGridTimeline();
+            this.renderHistogram();
             this.renderTimeline();
             this.renderVillainList();
             this.renderGroupList();
@@ -208,6 +209,7 @@ class SpiderManVisualization {
      */
     rerenderCharts() {
         this.renderGridTimeline();
+        this.renderHistogram();
         this.renderTimeline();
     }
 
@@ -951,9 +953,9 @@ class SpiderManVisualization {
             Status: ${d.present ? 'Appears' : 'Absent'}
         `;
 
-        const rect = event.target.getBoundingClientRect();
-        tooltip.style.left = (rect.left + 10) + 'px';
-        tooltip.style.top = (rect.top - 40) + 'px';
+        // Position tooltip near mouse cursor
+        tooltip.style.left = (event.pageX + 10) + 'px';
+        tooltip.style.top = (event.pageY - 10) + 'px';
         tooltip.style.display = 'block';
     }
 
@@ -1070,6 +1072,190 @@ class SpiderManVisualization {
     }
 
     /**
+     * Build histogram data showing new villains per year
+     */
+    buildHistogramData() {
+        // Map to track first appearance of each villain (by ID)
+        const villainFirstAppearance = new Map();
+        
+        // Build lookup of villain IDs to their first appearance year
+        for (const villain of this.villains) {
+            // Find the timeline entry for this villain's first appearance
+            // Need to match the issue number AND the series (if specified)
+            const firstIssue = this.data.timeline.find(t => {
+                // Check if this issue contains the villain
+                if (!t.villainIds || !t.villainIds.includes(villain.id)) {
+                    return false;
+                }
+                
+                // If villain has a firstAppearanceSeries, match it
+                if (villain.firstAppearanceSeries) {
+                    return t.issue === villain.firstAppearance && 
+                           t.series === villain.firstAppearanceSeries;
+                }
+                
+                // Otherwise just match issue number
+                return t.issue === villain.firstAppearance;
+            });
+            
+            if (firstIssue && firstIssue.releaseDate) {
+                // Parse year from release date (format: "Month DD, YYYY")
+                const yearMatch = firstIssue.releaseDate.match(/\d{4}$/);
+                if (yearMatch) {
+                    const year = parseInt(yearMatch[0], 10);
+                    villainFirstAppearance.set(villain.id, {
+                        year,
+                        name: villain.name
+                    });
+                }
+            }
+        }
+        
+        // Group by year
+        const yearMap = new Map();
+        
+        for (const [_, info] of villainFirstAppearance) {
+            if (!yearMap.has(info.year)) {
+                yearMap.set(info.year, []);
+            }
+            yearMap.get(info.year).push(info.name);
+        }
+        
+        // Convert to array and sort by year
+        const histogram = [];
+        for (const [year, villains] of yearMap) {
+            histogram.push({
+                year,
+                count: villains.length,
+                villains: villains.sort()
+            });
+        }
+        
+        return histogram.sort((a, b) => a.year - b.year);
+    }
+
+    /**
+     * Render histogram of new villains per year
+     */
+    renderHistogram() {
+        const histogramData = this.buildHistogramData();
+        
+        if (!histogramData || histogramData.length === 0) {
+            console.warn('No histogram data available');
+            return;
+        }
+
+        // Dimensions
+        const chartContainer = document.getElementById('histogram-chart');
+        const containerRect = chartContainer.parentElement.getBoundingClientRect();
+        const width = containerRect.width;
+        const height = containerRect.height;
+
+        // Create SVG
+        const svg = d3.select('#histogram-chart')
+            .attr('width', width)
+            .attr('height', height);
+
+        // Clear previous content
+        svg.selectAll('*').remove();
+
+        // Create group for margin offset
+        const g = svg.append('g')
+            .attr('transform', `translate(${VIZ_CONFIG.margin.left},${VIZ_CONFIG.margin.top})`);
+
+        const plotWidth = width - VIZ_CONFIG.margin.left - VIZ_CONFIG.margin.right;
+        const plotHeight = height - VIZ_CONFIG.margin.top - VIZ_CONFIG.margin.bottom;
+
+        // Create scales
+        const xScale = d3.scaleBand()
+            .domain(histogramData.map(d => d.year.toString()))
+            .range([0, plotWidth])
+            .padding(0.2);
+
+        const maxCount = Math.max(...histogramData.map(d => d.count));
+        const yScale = d3.scaleLinear()
+            .domain([0, maxCount])
+            .range([plotHeight, 0]);
+
+        // Add grid
+        g.append('g')
+            .attr('class', 'grid')
+            .attr('stroke', '#e0e0e0')
+            .attr('stroke-dasharray', '4,4')
+            .call(d3.axisLeft(yScale)
+                .tickSize(-plotWidth)
+                .tickFormat(''));
+
+        // Add axes
+        g.append('g')
+            .attr('class', 'axis')
+            .attr('transform', `translate(0,${plotHeight})`)
+            .call(d3.axisBottom(xScale))
+            .append('text')
+            .attr('class', 'axis-label')
+            .attr('x', plotWidth / 2)
+            .attr('y', 35)
+            .attr('fill', '#333')
+            .attr('text-anchor', 'middle')
+            .text('Year');
+
+        g.append('g')
+            .attr('class', 'axis')
+            .call(d3.axisLeft(yScale))
+            .append('text')
+            .attr('class', 'axis-label')
+            .attr('transform', 'rotate(-90)')
+            .attr('x', -plotHeight / 2)
+            .attr('y', -50)
+            .attr('fill', '#333')
+            .attr('text-anchor', 'middle')
+            .text('New Villains');
+
+        // Add bars with indigo color
+        g.selectAll('.bar')
+            .data(histogramData)
+            .enter()
+            .append('rect')
+            .attr('class', 'bar')
+            .attr('x', d => xScale(d.year.toString()))
+            .attr('y', d => yScale(d.count))
+            .attr('width', xScale.bandwidth())
+            .attr('height', d => plotHeight - yScale(d.count))
+            .attr('fill', '#4A90E2') // Medium blue
+            .on('mouseenter', (event, d) => this.showHistogramTooltip(event, d))
+            .on('mouseleave', () => this.hideTooltip());
+    }
+
+    /**
+     * Show tooltip for histogram bar
+     */
+    showHistogramTooltip(event, d) {
+        let tooltip = document.getElementById('tooltip');
+        
+        if (!tooltip) {
+            tooltip = document.createElement('div');
+            tooltip.id = 'tooltip';
+            tooltip.className = 'tooltip';
+            document.body.appendChild(tooltip);
+        }
+
+        const villainList = d.villains.length > 0
+            ? d.villains.join(', ')
+            : 'None';
+
+        let content = `<strong>${d.year}</strong><br>`;
+        content += `New Villains: ${d.count}<br>`;
+        content += `<small>${villainList}</small>`;
+
+        tooltip.innerHTML = content;
+
+        // Position tooltip near mouse cursor
+        tooltip.style.left = (event.pageX + 10) + 'px';
+        tooltip.style.top = (event.pageY - 10) + 'px';
+        tooltip.style.display = 'block';
+    }
+
+    /**
      * Show tooltip on hover
      */
     showTooltip(event, d) {
@@ -1104,9 +1290,9 @@ class SpiderManVisualization {
 
         tooltip.innerHTML = content;
 
-        const rect = event.target.getBoundingClientRect();
-        tooltip.style.left = (rect.left + 10) + 'px';
-        tooltip.style.top = (rect.top - 40) + 'px';
+        // Position tooltip near mouse cursor
+        tooltip.style.left = (event.pageX + 10) + 'px';
+        tooltip.style.top = (event.pageY - 10) + 'px';
         tooltip.style.display = 'block';
     }
 
