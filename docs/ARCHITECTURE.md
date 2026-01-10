@@ -504,6 +504,99 @@ interface D3Config {
 
 **Note**: D3 visualization receives `identitySource` information through villain IDs and URLs, allowing proper filtering and display of distinct entities even when names match.
 
+## Group Classification & Registry
+
+### GroupRegistry (`src/utils/groupRegistry.ts`)
+
+**Purpose**: Single source of truth for identifying antagonist groups vs individuals
+
+**Pattern**: Singleton registry with curated group definitions
+
+**Architecture**:
+```typescript
+class GroupRegistry {
+  private static instance: GroupRegistry;
+  private groupMap: Map<string, GroupRegistryEntry>;
+  private auditLog: AuditEntry[];
+
+  // Methods:
+  resolveGroup(name: string): { id, canonicalName } | null
+  isKnownGroup(name: string): boolean
+  getCanonicalName(name: string): string
+  getAllGroups(): GroupRegistryEntry[]
+  getAuditLog(eventType?): AuditEntry[]
+}
+```
+
+**Registered Groups** (16 curated groups):
+- Sinister Six (aliases: "The Sinister Six", "Sinister 6")
+- Enforcers, Masters of Evil, Emissaries of Evil
+- Nasty Boys, Kingpin's Henchmen, Maggia
+- The Syndicate, Wild Pack, Thieves Guild
+- Hydra, AIM, Roxxon Security
+- Hammerhead Gang, Scorpion Gang
+- Savage Land Mutates, Circus of Crime
+
+**Features**:
+- ✅ Case-insensitive alias resolution
+- ✅ Whitespace normalization (single spaces, trimmed)
+- ✅ Deterministic ID generation (lowercase, hyphens)
+- ✅ Audit trail of all lookups and registrations
+- ✅ Enable/disable audit logging for performance
+
+### Classification Process (`src/utils/groupClassifier.ts`)
+
+**Flow**:
+```
+classifyKind(name) 
+  ├─ Check GroupRegistry.isKnownGroup(name)
+  │  └─ If found → return 'group'
+  │
+  └─ Check fallback keyword patterns (Henchmen, Gang, Crew, Squad, etc.)
+     └─ If matched → return 'group'
+     └─ Else → return 'individual'
+```
+
+**Fallback Patterns** (dynamic group detection):
+- Keyword-based: "Henchmen", "Gang", "Crew", "Squad", "Syndicate", "Enforcers", "Six"
+- Structural: "Team", "Brigade", "Guard", "Force"
+- Organization: "Thieves", "Association", "Society", "League", "Alliance"
+- Plural groups: "Thugs", "Mercenaries", "Soldiers", "Minions"
+
+### Member Derivation (Issue-Based)
+
+**Principle**: Group members are derived from same-issue villains only
+
+**Implementation** in `dataProcessor.ts` `generateTimeline()`:
+```typescript
+for each issue {
+  villainsInIssue = villains appearing in this issue
+  for each group appearing in this issue {
+    members = villainsInIssue.map(v => v.name)
+    
+    // This creates a GroupAppearance with issue-specific roster
+    groupAppearances.push({
+      id: group.id,
+      name: group.name,
+      issue: issueNumber,
+      members: members  // ISSUE-SPECIFIC ONLY
+    })
+  }
+}
+```
+
+**Example**:
+```
+Issue 5: Sinister Six appears with [Electro, Kraven, Vulture]
+Issue 50: Sinister Six appears with [Doctor Octopus, Mysterio, Sandman]
+
+These are stored as TWO separate GroupAppearance objects:
+- GroupAppearance { issue: 5, members: [...] }
+- GroupAppearance { issue: 50, members: [...] }
+
+Not reconciled into a combined roster!
+```
+
 ## Data Flow Pipeline
 
 ```
@@ -518,36 +611,41 @@ interface D3Config {
         ↓
    Extracted Antagonists List (name + optional URL)
 
-2. PROCESSING PHASE (IDENTITY POLICY APPLIED HERE)
+2. PROCESSING PHASE (IDENTITY & GROUP CLASSIFICATION APPLIED HERE)
    Raw Villain Lists
         ↓
-   Keying Decision:
-   - Use URL if available? → identitySource = 'url'
-   - Use name only? → identitySource = 'name'
+   For each antagonist:
+   - Classify: classifyKind(name) → 'individual' or 'group'
+   - If group: GroupRegistry.isKnownGroup(name) for canonical name
+   - If individual: Key by URL (if available) or name
         ↓
    Normalization (deduplicate, standardize names)
         ↓
    Structure Building (create villain records, track appearances)
-   [Separate entries created for URL vs name keys]
+   [Individuals: separate entries for URL vs name keys]
+   [Groups: tracked in groupMap with per-issue member lists]
+        ↓
+   Timeline Generation
+   [Group appearances include issue-specific member rosters]
         ↓
    Validation (ensure data consistency)
         ↓
    Statistics Generation
 
 3. OUTPUT PHASE
-   ProcessedData (with identitySource field)
+   ProcessedData (with identitySource field and groups array)
         ↓
    JSON Serialization (SerializedProcessedData)
         ↓
-   villains.{Series}.json (saved to disk)
-   [Each villain includes identitySource for transparency]
+   villains.{Series}.json (includes group definitions)
+   d3-config.{Series}.json (includes group timeline data)
         ↓
    Read by Merge & Frontend
 
 4. MERGE PHASE
    Multiple series villains.{Series}.json files
         ↓
-   Combine while respecting identity boundaries
+   Combine while respecting identity boundaries AND group separation
    [name-only entities stay separate from URL entities]
         ↓
    villains.json (combined dataset)

@@ -35,14 +35,21 @@ This project visualizes the chronological appearances of villains in the Spider-
   - System preference auto-detection on first visit
   - Preference saved to localStorage
 
+### Data Processing Features
+- **Group Classification**: Automatically identifies and separates villain groups from individuals
+- **GroupRegistry**: Curated registry of 16+ known Spider-Man villain groups with alias resolution
+- **Identity Tracking**: Tracks whether villains are identified by URL or by name (with `identitySource` field)
+- **Group Member Tracking**: Issue-specific member rosters for groups (no cross-issue reconciliation)
+- **Deterministic Processing**: Auditable group classification with fallback pattern matching
+
 See [COMPLETE_FEATURE_SET.md](COMPLETE_FEATURE_SET.md) for comprehensive feature documentation.
 
 ## Tech Stack
 
 - **Frontend**: D3.js, HTML5, CSS3
 - **Backend/Scraping**: Node.js + TypeScript, Cheerio, Axios
-- **Data Processing**: Zod (runtime validation), SeriesName utility (format-agnostic names)
-- **Testing**: Jest (307 tests across 13 suites)
+- **Data Processing**: Zod (runtime validation), SeriesName utility (format-agnostic names), GroupRegistry (deterministic classification)
+- **Testing**: Jest (337 tests across 14 suites)
 - **Build Tool**: TypeScript, npm
 
 ## Project Structure
@@ -62,10 +69,12 @@ spider-man-villain-timeline/
 │       ├── MergeRunner.ts       # Merging orchestration
 │       ├── Publisher.ts         # Publishing orchestration
 │       ├── seriesName.ts        # Format-agnostic series names (NEW)
+│       ├── groupRegistry.ts     # Group classification registry (NEW)
+│       ├── groupClassifier.ts   # Group classification logic (UPDATED)
 │       ├── schemas.ts           # Zod validation schemas
 │       ├── errors.ts            # Typed error classes
 │       ├── commandParser.ts     # CLI argument parser
-│       └── dataProcessor.ts     # Data normalization
+│       └── dataProcessor.ts     # Data normalization (UPDATED)
 ├── data/
 │   ├── raw.{Series}.json                 # Raw scraped data
 │   ├── villains.{Series}.json            # Processed per-series data
@@ -78,10 +87,11 @@ spider-man-villain-timeline/
 │   ├── script.js             # Client-side D3 rendering
 │   └── data/                 # Published data files
 ├── docs/
-│   ├── ARCHITECTURE.md       # System architecture
-│   ├── SERIES_NAME_UTILITY.md  # SeriesName utility API (NEW)
+│   ├── ARCHITECTURE.md       # System architecture (UPDATED with GroupRegistry)
+│   ├── CODE_GUIDELINES.md    # Code guidelines (UPDATED with group classification)
+│   ├── SERIES_NAME_UTILITY.md  # SeriesName utility API
 │   ├── CHECKPOINT_2_COMPLETION.md  # CHECKPOINT 2 report
-│   └── REFACTOR_CHECKLIST.md # Refactoring progress
+│   └── REFACTOR_CHECKLIST.md # Refactoring progress (CHECKPOINT 3 complete)
 ├── package.json
 ├── tsconfig.json
 └── README.md

@@ -1,6 +1,6 @@
 {
-  "series": "Amazing Spider-Man Vol 1",
-  "processedAt": "2026-01-10T13:42:57.724Z",
+  "series": "Amazing",
+  "processedAt": "2026-01-10T21:46:59.959Z",
   "stats": {
     "totalVillains": 346,
     "mostFrequent": "Doctor Octopus",
@@ -16,6 +16,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
       "imageUrl": "/images/carradine-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -39,6 +40,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
       "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 1,
       "appearances": [
         1,
@@ -67,6 +69,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
       "imageUrl": "/images/adrian-toomes-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2,
@@ -98,6 +101,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
       "imageUrl": "/images/phineas-mason-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2,
@@ -116,6 +120,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
       "imageUrl": "/images/quentin-beck-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2,
@@ -148,6 +153,7 @@
         "Cheo"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/C",
+      "identitySource": "url",
       "firstAppearance": 2,
       "appearances": [
         2,
@@ -168,6 +174,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
       "imageUrl": "/images/otto-octavius-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 3,
       "appearances": [
         3,
@@ -218,6 +225,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Charles_Buchanan_(Earth-616)",
       "imageUrl": "/images/charles-buchanan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 3,
       "appearances": [
         3
@@ -232,6 +240,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
       "imageUrl": "/images/william-baker-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 4,
       "appearances": [
         4,
@@ -258,6 +267,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
       "imageUrl": "/images/victor-von-doom-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 5,
       "appearances": [
         5,
@@ -273,6 +283,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Doombot",
       "imageUrl": "/images/doombot.jpg",
+      "identitySource": "url",
       "firstAppearance": 5,
       "appearances": [
         5
@@ -287,6 +298,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
       "imageUrl": "/images/curtis-connors-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 6,
       "appearances": [
         6,
@@ -309,6 +321,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Living_Brain_(Earth-616)",
       "imageUrl": "/images/living-brain-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 8,
       "appearances": [
         8
@@ -321,6 +334,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
       "imageUrl": "/images/maxwell-dillon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 9,
       "appearances": [
         9,
@@ -345,6 +359,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Frederick_Foswell_(Earth-616)",
       "imageUrl": "/images/frederick-foswell-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 10,
       "appearances": [
         10,
@@ -358,6 +373,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
       "imageUrl": "/images/jackson-brice-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 10,
       "appearances": [
         10,
@@ -373,6 +389,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
       "imageUrl": "/images/daniel-brito-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 10,
       "appearances": [
         10,
@@ -388,6 +405,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Raymond_Bloch_(Earth-616)",
       "imageUrl": "/images/raymond-bloch-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 10,
       "appearances": [
         10,
@@ -403,6 +421,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)",
       "imageUrl": "/images/blackie-gaxton-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 11,
       "appearances": [
         11
@@ -418,6 +437,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
       "imageUrl": "/images/norman-osborn-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 14,
       "appearances": [
         14,
@@ -450,6 +470,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
       "imageUrl": "/images/sergei-kravinoff-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 15,
       "appearances": [
         15,
@@ -467,26 +488,12 @@
       "frequency": 11
     },
     {
-      "id": "Circus_of_Crime_(Earth-616)",
-      "name": "Circus of Crime",
-      "aliases": [
-        "Masters of Menace"
-      ],
-      "url": "https://marvel.fandom.com/wiki/Circus_of_Crime_(Earth-616)",
-      "imageUrl": "/images/circus-of-crime-earth-616.jpg",
-      "firstAppearance": 16,
-      "appearances": [
-        16,
-        22
-      ],
-      "frequency": 2
-    },
-    {
       "id": "Maynard_Tiboldt_(Earth-616)",
       "name": "Ringmaster",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Maynard_Tiboldt_(Earth-616)",
       "imageUrl": "/images/maynard-tiboldt-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 16,
       "appearances": [
         16,
@@ -500,6 +507,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jack_Pulver_(Earth-616)",
       "imageUrl": "/images/jack-pulver-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 16,
       "appearances": [
         16,
@@ -513,6 +521,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ernesto_%26_Luigi_Gambonno_(Earth-616)",
       "imageUrl": "/images/ernesto-26-luigi-gambonno-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 16,
       "appearances": [
         16,
@@ -526,6 +535,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Eliot_Franklin_(Clown)_(Earth-616)",
       "imageUrl": "/images/eliot-franklin-clown-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 16,
       "appearances": [
         16,
@@ -539,6 +549,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Bruce_Olafsen_(Earth-616)",
       "imageUrl": "/images/bruce-olafsen-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 16,
       "appearances": [
         16
@@ -551,6 +562,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Rocky_Roberts_(Earth-616)",
       "imageUrl": "/images/rocky-roberts-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 18,
       "appearances": [
         18
@@ -563,6 +575,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Rock_Gimpy_(Earth-616)",
       "imageUrl": "/images/rock-gimpy-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 19,
       "appearances": [
         19,
@@ -576,6 +589,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
       "imageUrl": "/images/macdonald-gargan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 20,
       "appearances": [
         20,
@@ -597,6 +611,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
       "imageUrl": "/images/abner-jenkins-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 21,
       "appearances": [
         21,
@@ -608,11 +623,25 @@
       "frequency": 5
     },
     {
+      "id": "Circus_of_Crime_(Earth-616)",
+      "name": "Masters of Menace",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Circus_of_Crime_(Earth-616)",
+      "imageUrl": "/images/circus-of-crime-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 22,
+      "appearances": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
       "id": "Zelda_DuBois_(Earth-616)",
       "name": "Princess Python",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Zelda_DuBois_(Earth-616)",
       "imageUrl": "/images/zelda-dubois-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 22,
       "appearances": [
         22
@@ -625,6 +654,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Precious_(Earth-616)",
       "imageUrl": "/images/precious-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 22,
       "appearances": [
         22
@@ -637,6 +667,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Francisco_Lobo_(Earth-616)",
       "imageUrl": "/images/francisco-lobo-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23
@@ -652,6 +683,7 @@
         "Max"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/M",
+      "identitySource": "url",
       "firstAppearance": 23,
       "appearances": [
         23,
@@ -667,6 +699,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Spencer_Smythe_(Earth-616)",
       "imageUrl": "/images/spencer-smythe-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 25,
       "appearances": [
         25,
@@ -689,6 +722,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Spider-Slayer_Mark_I",
       "imageUrl": "/images/spider-slayer-mark-i.jpg",
+      "identitySource": "url",
       "firstAppearance": 25,
       "appearances": [
         25
@@ -703,6 +737,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
       "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 26,
       "appearances": [
         26,
@@ -716,6 +751,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
       "imageUrl": "/images/mark-raxton-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 28,
       "appearances": [
         28,
@@ -736,6 +772,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)",
       "imageUrl": "/images/cat-burglar-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 30,
       "appearances": [
         30
@@ -748,6 +785,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Foxy_Briggs_(Earth-616)",
       "imageUrl": "/images/foxy-briggs-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 31,
       "appearances": [
         31
@@ -760,6 +798,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
       "imageUrl": "/images/norton-fester-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 36,
       "appearances": [
         36
@@ -774,6 +813,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
       "imageUrl": "/images/mendel-stromm-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 37,
       "appearances": [
         37,
@@ -791,6 +831,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Joseph_Smith_(Earth-616)",
       "imageUrl": "/images/joseph-smith-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 38,
       "appearances": [
         38
@@ -808,6 +849,7 @@
         "Col. Buchinsky"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/B",
+      "identitySource": "url",
       "firstAppearance": 39,
       "appearances": [
         39,
@@ -825,6 +867,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
       "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 41,
       "appearances": [
         41,
@@ -846,6 +889,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/John_Jonah_Jameson_III_(Earth-616)",
       "imageUrl": "/images/john-jonah-jameson-iii-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 42,
       "appearances": [
         42,
@@ -863,6 +907,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
       "imageUrl": "/images/herman-schultz-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 46,
       "appearances": [
         46,
@@ -881,6 +926,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Raniero_Drago_(Earth-616)",
       "imageUrl": "/images/raniero-drago-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 48,
       "appearances": [
         48,
@@ -897,6 +943,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
       "imageUrl": "/images/wilson-fisk-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 50,
       "appearances": [
         50,
@@ -939,6 +986,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Flint_(Goon)_(Earth-616)",
       "imageUrl": "/images/flint-goon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 50,
       "appearances": [
         50,
@@ -954,6 +1002,7 @@
         "Seaman"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/S",
+      "identitySource": "url",
       "firstAppearance": 50,
       "appearances": [
         50,
@@ -974,6 +1023,7 @@
         "Paine"
       ],
       "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen",
+      "identitySource": "url",
       "firstAppearance": 51,
       "appearances": [
         51,
@@ -989,6 +1039,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/John_Jonah_Jameson_(Earth-616)",
       "imageUrl": "/images/john-jonah-jameson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 58,
       "appearances": [
         58,
@@ -1004,6 +1055,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Spider-Slayer_Mark_II",
       "imageUrl": "/images/spider-slayer-mark-ii.jpg",
+      "identitySource": "url",
       "firstAppearance": 58,
       "appearances": [
         58
@@ -1016,6 +1068,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Gerhard_Winkler_(Earth-616)",
       "imageUrl": "/images/gerhard-winkler-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 59,
       "appearances": [
         59,
@@ -1030,6 +1083,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Medusalith_Amaquelin_(Earth-616)",
       "imageUrl": "/images/medusalith-amaquelin-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 62,
       "appearances": [
         62
@@ -1041,6 +1095,7 @@
       "name": "Duke",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/D",
+      "identitySource": "url",
       "firstAppearance": 65,
       "appearances": [
         65
@@ -1055,6 +1110,7 @@
         "Reis"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/R",
+      "identitySource": "url",
       "firstAppearance": 65,
       "appearances": [
         65,
@@ -1069,6 +1125,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Louis_Wilson_(Earth-616)",
       "imageUrl": "/images/louis-wilson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 68,
       "appearances": [
         68,
@@ -1082,6 +1139,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Pietro_Maximoff_(Earth-616)",
       "imageUrl": "/images/pietro-maximoff-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 71,
       "appearances": [
         71
@@ -1094,6 +1152,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Manfredi_Family_(Earth-616)",
       "imageUrl": "/images/manfredi-family-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 73,
       "appearances": [
         73,
@@ -1110,6 +1169,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Michael_Marko_(Earth-616)",
       "imageUrl": "/images/michael-marko-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 73,
       "appearances": [
         73,
@@ -1124,6 +1184,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Caesar_Cicero_(Earth-616)",
       "imageUrl": "/images/caesar-cicero-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 73,
       "appearances": [
         73,
@@ -1138,6 +1199,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
       "imageUrl": "/images/silvio-manfredi-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 73,
       "appearances": [
         73,
@@ -1156,6 +1218,7 @@
       "name": "Blackie",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)/Members",
+      "identitySource": "url",
       "firstAppearance": 75,
       "appearances": [
         75
@@ -1168,6 +1231,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hobart_Brown_(Earth-616)",
       "imageUrl": "/images/hobart-brown-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 78,
       "appearances": [
         78,
@@ -1182,6 +1246,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Frank_Oliver_(Earth-616)",
       "imageUrl": "/images/frank-oliver-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 81,
       "appearances": [
         81,
@@ -1198,6 +1263,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
       "imageUrl": "/images/richard-fisk-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 83,
       "appearances": [
         83,
@@ -1230,6 +1296,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Natalia_Romanova_(Earth-616)",
       "imageUrl": "/images/natalia-romanova-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 86,
       "appearances": [
         86
@@ -1242,6 +1309,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sam_Bullit_(Earth-616)",
       "imageUrl": "/images/sam-bullit-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 91,
       "appearances": [
         91,
@@ -1257,6 +1325,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
       "imageUrl": "/images/michael-morbius-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 101,
       "appearances": [
         101,
@@ -1271,6 +1340,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Gog_(Tsiln)_(Earth-616)",
       "imageUrl": "/images/gog-tsiln-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 103,
       "appearances": [
         103,
@@ -1284,6 +1354,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Giant_One_(Earth-616)",
       "imageUrl": "/images/giant-one-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 108,
       "appearances": [
         108,
@@ -1297,6 +1368,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Martin_Blank_(Earth-616)",
       "imageUrl": "/images/martin-blank-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 110,
       "appearances": [
         110,
@@ -1310,6 +1382,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
       "imageUrl": "/images/hammerhead-joseph-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 113,
       "appearances": [
         113,
@@ -1333,6 +1406,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Man-Monster_(Earth-616)",
       "imageUrl": "/images/man-monster-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 116,
       "appearances": [
         116,
@@ -1347,6 +1421,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Richard_Raleigh_(Earth-616)",
       "imageUrl": "/images/richard-raleigh-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 117,
       "appearances": [
         117,
@@ -1360,6 +1435,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Doctor_Thaxton_(Earth-616)",
       "imageUrl": "/images/doctor-thaxton-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 117,
       "appearances": [
         117,
@@ -1373,6 +1449,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
       "imageUrl": "/images/bruce-banner-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 119,
       "appearances": [
         119,
@@ -1388,6 +1465,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Lucas_Cage_(Earth-616)",
       "imageUrl": "/images/lucas-cage-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 123,
       "appearances": [
         123
@@ -1400,6 +1478,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jonas_Harrow_(Earth-616)",
       "imageUrl": "/images/jonas-harrow-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 126,
       "appearances": [
         126,
@@ -1415,6 +1494,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Clifton_Shallot_(Earth-616)",
       "imageUrl": "/images/clifton-shallot-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 127,
       "appearances": [
         127,
@@ -1428,6 +1508,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Francis_Castle_(Earth-616)",
       "imageUrl": "/images/francis-castle-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 129,
       "appearances": [
         129
@@ -1440,6 +1521,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
       "imageUrl": "/images/miles-warren-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 129,
       "appearances": [
         129,
@@ -1460,6 +1542,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Juan_(Tarantula%27s_Henchman)_(Earth-616)",
       "imageUrl": "/images/juan-tarantula-27s-henchman-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 134,
       "appearances": [
         134,
@@ -1473,6 +1556,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hidalgo_Rodriquez_(Earth-616)",
       "imageUrl": "/images/hidalgo-rodriquez-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 134,
       "appearances": [
         134,
@@ -1486,6 +1570,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)",
       "imageUrl": "/images/anton-miguel-rodriquez-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 134,
       "appearances": [
         134,
@@ -1506,6 +1591,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Harold_Osborn_(Earth-616)",
       "imageUrl": "/images/harold-osborn-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 136,
       "appearances": [
         136,
@@ -1520,6 +1606,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/William_Turner_(Earth-616)",
       "imageUrl": "/images/william-turner-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 138,
       "appearances": [
         138
@@ -1532,6 +1619,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Maxwell_Markham_(Earth-616)",
       "imageUrl": "/images/maxwell-markham-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 139,
       "appearances": [
         139,
@@ -1545,6 +1633,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Daniel_Berkhart_(Earth-616)",
       "imageUrl": "/images/daniel-berkhart-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 141,
       "appearances": [
         141,
@@ -1558,6 +1647,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Andr%C3%A9_Gerard_(Earth-616)",
       "imageUrl": "/images/andr-c3-a9-gerard-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 143,
       "appearances": [
         143,
@@ -1571,6 +1661,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
       "imageUrl": "/images/miles-warren-shea-stadium-clone-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 149,
       "appearances": [
         149
@@ -1583,6 +1674,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Benjamin_Reilly_(Earth-616)",
       "imageUrl": "/images/benjamin-reilly-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 149,
       "appearances": [
         149
@@ -1595,6 +1687,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Worldwide_Habitual_Offender_Computer_(Earth-616)",
       "imageUrl": "/images/worldwide-habitual-offender-computer-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 155,
       "appearances": [
         155
@@ -1607,6 +1700,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Leroy_Tallon_(Earth-616)",
       "imageUrl": "/images/leroy-tallon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 155,
       "appearances": [
         155
@@ -1619,6 +1713,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Desmond_Charne_(Earth-616)",
       "imageUrl": "/images/desmond-charne-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 156,
       "appearances": [
         156,
@@ -1632,6 +1727,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ron_Rainey_(Earth-51914)",
       "imageUrl": "/images/ron-rainey-earth-51914.jpg",
+      "identitySource": "url",
       "firstAppearance": 156,
       "appearances": [
         156
@@ -1644,6 +1740,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Toy_(Earth-616)",
       "imageUrl": "/images/toy-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 160,
       "appearances": [
         160,
@@ -1657,6 +1754,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/William_Russo_(Earth-616)",
       "imageUrl": "/images/william-russo-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 161,
       "appearances": [
         161,
@@ -1671,6 +1769,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Snake-Eyes_(Thug)_(Earth-616)",
       "imageUrl": "/images/snake-eyes-thug-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 161,
       "appearances": [
         161
@@ -1685,6 +1784,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Vincent_Stegron_(Earth-616)",
       "imageUrl": "/images/vincent-stegron-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 165,
       "appearances": [
         165,
@@ -1701,6 +1801,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Jackson_Arvad_(Earth-616)",
       "imageUrl": "/images/jackson-arvad-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 167,
       "appearances": [
         167,
@@ -1719,6 +1820,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Johann_Fennhoff_(Earth-616)",
       "imageUrl": "/images/johann-fennhoff-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 169,
       "appearances": [
         169,
@@ -1732,6 +1834,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jason_Dean_(Earth-616)",
       "imageUrl": "/images/jason-dean-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 171,
       "appearances": [
         171
@@ -1744,6 +1847,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Advanced_Idea_Mechanics_(Earth-616)",
       "imageUrl": "/images/advanced-idea-mechanics-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 171,
       "appearances": [
         171
@@ -1756,6 +1860,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Harry_Daze_(Earth-616)",
       "imageUrl": "/images/harry-daze-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 171,
       "appearances": [
         171
@@ -1768,6 +1873,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Robert_Farrell_(Earth-616)",
       "imageUrl": "/images/robert-farrell-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 172,
       "appearances": [
         172,
@@ -1781,6 +1887,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Burt_Kenyon_(Earth-616)",
       "imageUrl": "/images/burt-kenyon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 174,
       "appearances": [
         174,
@@ -1794,6 +1901,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Barton_Hamilton_(Earth-616)",
       "imageUrl": "/images/barton-hamilton-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 176,
       "appearances": [
         176,
@@ -1813,6 +1921,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
       "imageUrl": "/images/richard-deacon-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 181,
       "appearances": [
         181,
@@ -1830,6 +1939,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Jackson_Weele_(Earth-616)",
       "imageUrl": "/images/jackson-weele-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 182,
       "appearances": [
         182,
@@ -1843,6 +1953,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Dragon_Lords_(White_Dragon%27s_Gang)_(Earth-616)",
       "imageUrl": "/images/dragon-lords-white-dragon-27s-gang-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 184,
       "appearances": [
         184,
@@ -1856,6 +1967,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/White_Dragon_(Chinatown)_(Earth-616)",
       "imageUrl": "/images/white-dragon-chinatown-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 184,
       "appearances": [
         184,
@@ -1869,6 +1981,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Felicia_Hardy_(Earth-616)",
       "imageUrl": "/images/felicia-hardy-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 194,
       "appearances": [
         194,
@@ -1886,6 +1999,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Boris_Korpse_(Earth-616)",
       "imageUrl": "/images/boris-korpse-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 194,
       "appearances": [
         194,
@@ -1900,6 +2014,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Bruno_Grainger_(Earth-616)",
       "imageUrl": "/images/bruno-grainger-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 194,
       "appearances": [
         194,
@@ -1914,6 +2029,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Emil_Greco_(Earth-616)",
       "imageUrl": "/images/emil-greco-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 194,
       "appearances": [
         194
@@ -1926,6 +2042,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Lorenzo_Jacobi_(Earth-616)",
       "imageUrl": "/images/lorenzo-jacobi-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 201,
       "appearances": [
         201,
@@ -1940,6 +2057,7 @@
         "Arnie"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/A",
+      "identitySource": "url",
       "firstAppearance": 202,
       "appearances": [
         202
@@ -1952,6 +2070,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hatay_(Earth-616)",
       "imageUrl": "/images/hatay-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 202,
       "appearances": [
         202
@@ -1964,6 +2083,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
       "imageUrl": "/images/edward-lansky-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 203,
       "appearances": [
         203
@@ -1976,6 +2096,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Mesmero_(Vincent)_(Earth-616)",
       "imageUrl": "/images/mesmero-vincent-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 207,
       "appearances": [
         207
@@ -1988,6 +2109,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hubert_%26_Pinky_Fusser_(Earth-616)",
       "imageUrl": "/images/hubert-26-pinky-fusser-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 208,
       "appearances": [
         208
@@ -2000,6 +2122,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)",
       "imageUrl": "/images/calypso-ezili-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 209,
       "appearances": [
         209
@@ -2012,6 +2135,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Rupert_Dockery_(Earth-616)",
       "imageUrl": "/images/rupert-dockery-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 210,
       "appearances": [
         210
@@ -2024,6 +2148,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Namor_McKenzie_(Earth-616)",
       "imageUrl": "/images/namor-mckenzie-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 211,
       "appearances": [
         211
@@ -2038,6 +2163,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)",
       "imageUrl": "/images/morris-bench-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 212,
       "appearances": [
         212,
@@ -2056,6 +2182,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
       "imageUrl": "/images/bentley-wittman-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 213,
       "appearances": [
         213,
@@ -2071,6 +2198,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Llyra_Morris_(Earth-616)",
       "imageUrl": "/images/llyra-morris-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 213,
       "appearances": [
         213,
@@ -2085,6 +2213,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Frightful_Four_(Earth-616)",
       "imageUrl": "/images/frightful-four-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 214,
       "appearances": [
         214,
@@ -2100,6 +2229,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
       "imageUrl": "/images/peter-petruski-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 214,
       "appearances": [
         214,
@@ -2113,6 +2243,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Mud-Thing_(Earth-616)",
       "imageUrl": "/images/mud-thing-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 217,
       "appearances": [
         217,
@@ -2126,6 +2257,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Paul_Duval_(Earth-616)",
       "imageUrl": "/images/paul-duval-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 219,
       "appearances": [
         219
@@ -2138,6 +2270,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Armand_DuBroth_(Earth-616)",
       "imageUrl": "/images/armand-dubroth-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 219,
       "appearances": [
         219
@@ -2150,6 +2283,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Rat_Pack_(Criminal_Gang)_(Earth-616)",
       "imageUrl": "/images/rat-pack-criminal-gang-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 220,
       "appearances": [
         220
@@ -2162,6 +2296,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Louie_Frenchetti_(Earth-616)",
       "imageUrl": "/images/louie-frenchetti-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 220,
       "appearances": [
         220
@@ -2174,6 +2309,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Weasel_(National_Crime_Syndicate)_(Earth-616)",
       "imageUrl": "/images/weasel-national-crime-syndicate-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 220,
       "appearances": [
         220
@@ -2186,6 +2322,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ramrod_(Cyborg)_(Earth-616)",
       "imageUrl": "/images/ramrod-cyborg-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 221,
       "appearances": [
         221
@@ -2198,6 +2335,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/James_Sanders_(Earth-616)",
       "imageUrl": "/images/james-sanders-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 222,
       "appearances": [
         222,
@@ -2212,6 +2350,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ivan_Kragoff_(Earth-616)",
       "imageUrl": "/images/ivan-kragoff-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 223,
       "appearances": [
         223,
@@ -2225,6 +2364,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Super-Apes_(Earth-616)",
       "imageUrl": "/images/super-apes-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 223,
       "appearances": [
         223,
@@ -2238,6 +2378,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Miklho_(Earth-616)",
       "imageUrl": "/images/miklho-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 223,
       "appearances": [
         223,
@@ -2251,6 +2392,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Peotor_(Earth-616)",
       "imageUrl": "/images/peotor-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 223,
       "appearances": [
         223,
@@ -2264,6 +2406,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Igor_(Earth-616)",
       "imageUrl": "/images/igor-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 223,
       "appearances": [
         223,
@@ -2277,6 +2420,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Gregory_Salinger_(Earth-616)",
       "imageUrl": "/images/gregory-salinger-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 225,
       "appearances": [
         225
@@ -2289,6 +2433,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Phil_Bradshaw_(Earth-616)",
       "imageUrl": "/images/phil-bradshaw-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 226,
       "appearances": [
         226
@@ -2301,6 +2446,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sam_Galvagno_(Earth-616)",
       "imageUrl": "/images/sam-galvagno-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 227,
       "appearances": [
         227
@@ -2313,6 +2459,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Murderer_by_Spider_(Earth-616)",
       "imageUrl": "/images/murderer-by-spider-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 228,
       "appearances": [
         228
@@ -2325,6 +2472,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Cain_Marko_(Earth-616)",
       "imageUrl": "/images/cain-marko-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 229,
       "appearances": [
         229,
@@ -2338,6 +2486,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Thomas_Cassidy_(Earth-616)",
       "imageUrl": "/images/thomas-cassidy-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 229,
       "appearances": [
         229,
@@ -2351,6 +2500,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Klaus_Voorhees_(Earth-616)",
       "imageUrl": "/images/klaus-voorhees-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 231,
       "appearances": [
         231,
@@ -2364,6 +2514,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Calvin_Zabo_(Earth-616)",
       "imageUrl": "/images/calvin-zabo-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 231,
       "appearances": [
         231,
@@ -2377,6 +2528,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Brand_Corporation_(Earth-616)",
       "imageUrl": "/images/brand-corporation-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 233,
       "appearances": [
         233,
@@ -2397,6 +2549,7 @@
         "Thorpe"
       ],
       "url": "https://marvel.fandom.com/wiki/Brand_Corporation_(Earth-616)/Members",
+      "identitySource": "url",
       "firstAppearance": 233,
       "appearances": [
         233,
@@ -2411,6 +2564,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/James_Melvin_(Earth-616)",
       "imageUrl": "/images/james-melvin-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 234,
       "appearances": [
         234,
@@ -2425,6 +2579,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
       "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 235,
       "appearances": [
         235,
@@ -2438,6 +2593,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Harv_Carson_(Earth-616)",
       "imageUrl": "/images/harv-carson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 235,
       "appearances": [
         235
@@ -2450,6 +2606,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/John_Gamelin_(Earth-616)",
       "imageUrl": "/images/john-gamelin-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 235,
       "appearances": [
         235,
@@ -2463,6 +2620,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Roxxon_Corporation_Board_of_Directors_(Earth-616)",
       "imageUrl": "/images/roxxon-corporation-board-of-directors-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 236,
       "appearances": [
         236
@@ -2475,6 +2633,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/August_D%27Angelo_(Earth-616)",
       "imageUrl": "/images/august-d-27angelo-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 236,
       "appearances": [
         236
@@ -2487,6 +2646,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Wilbur_Day_(Earth-616)",
       "imageUrl": "/images/wilbur-day-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 237,
       "appearances": [
         237
@@ -2499,6 +2659,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/George_Hill_(Criminal)_(Earth-616)",
       "imageUrl": "/images/george-hill-criminal-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 238,
       "appearances": [
         238
@@ -2511,6 +2672,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)",
       "imageUrl": "/images/roderick-kingsley-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 238,
       "appearances": [
         238,
@@ -2539,6 +2701,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Mad_Thinker_(Julius)_(Earth-616)",
       "imageUrl": "/images/mad-thinker-julius-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 242,
       "appearances": [
         242
@@ -2551,6 +2714,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Monster_Android_(Earth-616)",
       "imageUrl": "/images/monster-android-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 242,
       "appearances": [
         242
@@ -2563,6 +2727,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Universal_Liberation_Army_(Earth-616)",
       "imageUrl": "/images/universal-liberation-army-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 243,
       "appearances": [
         243
@@ -2577,6 +2742,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Arnold_Donovan_(Earth-616)",
       "imageUrl": "/images/arnold-donovan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 244,
       "appearances": [
         244,
@@ -2593,6 +2759,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Eliot_Franklin_(Thunderball)_(Earth-616)",
       "imageUrl": "/images/eliot-franklin-thunderball-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 247,
       "appearances": [
         247,
@@ -2614,6 +2781,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
       "imageUrl": "/images/jason-macendale-jr-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 254,
       "appearances": [
         254,
@@ -2640,6 +2808,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Frankie_Silvera_(Earth-616)",
       "imageUrl": "/images/frankie-silvera-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 256,
       "appearances": [
         256
@@ -2652,6 +2821,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ralph_Mac_(Earth-616)",
       "imageUrl": "/images/ralph-mac-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 256,
       "appearances": [
         256
@@ -2664,6 +2834,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Thomas_Fireheart_(Earth-616)",
       "imageUrl": "/images/thomas-fireheart-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 256,
       "appearances": [
         256,
@@ -2678,6 +2849,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Edward_Leeds_(Earth-616)",
       "imageUrl": "/images/edward-leeds-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 257,
       "appearances": [
         257,
@@ -2700,6 +2872,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
       "imageUrl": "/images/venom-symbiote-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 258,
       "appearances": [
         258,
@@ -2718,6 +2891,7 @@
       "name": "Harry",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/H",
+      "identitySource": "url",
       "firstAppearance": 258,
       "appearances": [
         258
@@ -2730,6 +2904,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Roberto_DeNatale_(Earth-616)",
       "imageUrl": "/images/roberto-denatale-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 262,
       "appearances": [
         262
@@ -2742,6 +2917,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jake_Jones_(Earth-616)",
       "imageUrl": "/images/jake-jones-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 262,
       "appearances": [
         262
@@ -2755,6 +2931,7 @@
         "Errol"
       ],
       "url": "https://marvel.fandom.com/wiki/Character_Index/E",
+      "identitySource": "url",
       "firstAppearance": 263,
       "appearances": [
         263,
@@ -2768,6 +2945,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Wallace_Jackson_(Earth-616)",
       "imageUrl": "/images/wallace-jackson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 264,
       "appearances": [
         264
@@ -2780,6 +2958,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Black_Fox_(Thief)_(Earth-616)",
       "imageUrl": "/images/black-fox-thief-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 265,
       "appearances": [
         265,
@@ -2796,6 +2975,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Commuter_(Ron)_(Earth-616)",
       "imageUrl": "/images/commuter-ron-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 267,
       "appearances": [
         267
@@ -2808,6 +2988,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
       "imageUrl": "/images/oswald-silkworth-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 268,
       "appearances": [
         268,
@@ -2825,6 +3006,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Pyreus_Kril_(Earth-616)",
       "imageUrl": "/images/pyreus-kril-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 269,
       "appearances": [
         269,
@@ -2838,6 +3020,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Manslaughter_Marsdale_(Earth-616)",
       "imageUrl": "/images/manslaughter-marsdale-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 271,
       "appearances": [
         271,
@@ -2851,6 +3034,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jalome_Beacher_(Earth-616)",
       "imageUrl": "/images/jalome-beacher-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 272,
       "appearances": [
         272
@@ -2863,6 +3047,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Beyonder_(Earth-616)",
       "imageUrl": "/images/beyonder-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 273,
       "appearances": [
         273,
@@ -2876,6 +3061,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Mephisto_(Earth-616)",
       "imageUrl": "/images/mephisto-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 274,
       "appearances": [
         274
@@ -2888,6 +3074,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Zarathos_(Earth-616)",
       "imageUrl": "/images/zarathos-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 274,
       "appearances": [
         274
@@ -2900,6 +3087,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Scourge_(Delazny)_(Earth-616)",
       "imageUrl": "/images/scourge-delazny-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 276,
       "appearances": [
         276
@@ -2912,6 +3100,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Scourge_II_(Earth-616)",
       "imageUrl": "/images/scourge-ii-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 278,
       "appearances": [
         278
@@ -2924,6 +3113,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Brian_DeWolff_(Earth-616)",
       "imageUrl": "/images/brian-dewolff-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 278,
       "appearances": [
         278
@@ -2936,6 +3126,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)",
       "imageUrl": "/images/frederick-myers-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 280,
       "appearances": [
         280,
@@ -2950,6 +3141,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/X-Factor_(Earth-616)",
       "imageUrl": "/images/x-factor-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 282,
       "appearances": [
         282
@@ -2962,6 +3154,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Scott_Summers_(Earth-616)",
       "imageUrl": "/images/scott-summers-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 282,
       "appearances": [
         282
@@ -2974,6 +3167,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jean_Grey_(Earth-616)",
       "imageUrl": "/images/jean-grey-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 282,
       "appearances": [
         282
@@ -2986,6 +3180,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Robert_Drake_(Earth-616)",
       "imageUrl": "/images/robert-drake-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 282,
       "appearances": [
         282
@@ -2998,6 +3193,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Warren_Worthington_III_(Earth-616)",
       "imageUrl": "/images/warren-worthington-iii-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 282,
       "appearances": [
         282
@@ -3010,6 +3206,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Henry_McCoy_(Earth-616)",
       "imageUrl": "/images/henry-mccoy-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 282,
       "appearances": [
         282
@@ -3024,6 +3221,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Mary_MacPherran_(Earth-616)",
       "imageUrl": "/images/mary-macpherran-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 283,
       "appearances": [
         283,
@@ -3039,6 +3237,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Carl_Creel_(Earth-616)",
       "imageUrl": "/images/carl-creel-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 283,
       "appearances": [
         283,
@@ -3054,6 +3253,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Blue_Boys_(Earth-616)",
       "imageUrl": "/images/blue-boys-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 284,
       "appearances": [
         284,
@@ -3068,6 +3268,7 @@
       "name": "1400 Club",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)",
+      "identitySource": "url",
       "firstAppearance": 289,
       "appearances": [
         289
@@ -3080,6 +3281,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
       "imageUrl": "/images/foreigner-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 289,
       "appearances": [
         289
@@ -3092,6 +3294,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Preserver_(Earth-616)",
       "imageUrl": "/images/preserver-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 290,
       "appearances": [
         290
@@ -3107,6 +3310,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)",
       "imageUrl": "/images/alistaire-smythe-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 291,
       "appearances": [
         291,
@@ -3124,6 +3328,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Philip_Watson_(Earth-616)",
       "imageUrl": "/images/philip-watson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 292,
       "appearances": [
         292,
@@ -3137,6 +3342,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Edward_Whelan_(Earth-616)",
       "imageUrl": "/images/edward-whelan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 293,
       "appearances": [
         293,
@@ -3150,6 +3356,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Doctor_Hope_(Earth-616)",
       "imageUrl": "/images/doctor-hope-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 295,
       "appearances": [
         295
@@ -3162,6 +3369,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Nicholas_Powell_(Earth-616)",
       "imageUrl": "/images/nicholas-powell-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 298,
       "appearances": [
         298,
@@ -3176,6 +3384,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Life_Foundation_(Earth-616)",
       "imageUrl": "/images/life-foundation-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 298,
       "appearances": [
         298,
@@ -3194,6 +3403,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Carlton_Drake_(Earth-616)",
       "imageUrl": "/images/carlton-drake-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 298,
       "appearances": [
         298,
@@ -3213,6 +3423,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Franz_Kraus_(Earth-616)",
       "imageUrl": "/images/franz-kraus-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 301,
       "appearances": [
         301,
@@ -3226,6 +3437,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Royce_Nero_(Earth-616)",
       "imageUrl": "/images/royce-nero-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 302,
       "appearances": [
         302
@@ -3238,6 +3450,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Transcorp_(Earth-616)",
       "imageUrl": "/images/transcorp-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 305,
       "appearances": [
         305
@@ -3250,6 +3463,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Troy_Fishburne_(Earth-616)",
       "imageUrl": "/images/troy-fishburne-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 305,
       "appearances": [
         305
@@ -3262,6 +3476,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Buchanan_Mitty_(Earth-616)",
       "imageUrl": "/images/buchanan-mitty-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 306,
       "appearances": [
         306
@@ -3274,6 +3489,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jonathan_Caesar_(Earth-616)",
       "imageUrl": "/images/jonathan-caesar-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 306,
       "appearances": [
         306,
@@ -3295,6 +3511,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Anthony_Masters_(Earth-616)",
       "imageUrl": "/images/anthony-masters-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 308,
       "appearances": [
         308,
@@ -3309,6 +3526,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jacob_Eichorn_(Earth-616)",
       "imageUrl": "/images/jacob-eichorn-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 309,
       "appearances": [
         309,
@@ -3325,6 +3543,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Gerald_Stone_(Earth-616)",
       "imageUrl": "/images/gerald-stone-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 309,
       "appearances": [
         309,
@@ -3341,6 +3560,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Simon_Maddicks_(Earth-616)",
       "imageUrl": "/images/simon-maddicks-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 310,
       "appearances": [
         310
@@ -3353,6 +3573,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Malcolm_Kinderman_(Earth-616)",
       "imageUrl": "/images/malcolm-kinderman-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 314,
       "appearances": [
         314
@@ -3367,6 +3588,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
       "imageUrl": "/images/edward-brock-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 315,
       "appearances": [
         315,
@@ -3391,6 +3613,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Justin_Hammer_(Earth-616)",
       "imageUrl": "/images/justin-hammer-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 318,
       "appearances": [
         318,
@@ -3406,6 +3629,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Marco_Scarlotti_(Earth-616)",
       "imageUrl": "/images/marco-scarlotti-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 319,
       "appearances": [
         319
@@ -3418,6 +3642,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Protectors_(Life_Foundation)_(Earth-616)",
       "imageUrl": "/images/protectors-life-foundation-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 321,
       "appearances": [
         321
@@ -3430,6 +3655,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Victor_Creed_(Earth-616)",
       "imageUrl": "/images/victor-creed-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 322,
       "appearances": [
         322,
@@ -3446,6 +3672,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Underground_Liberated_Totally_Integrated_Mobile_Army_To_Unite_Mankind_(Earth-616)",
       "imageUrl": "/images/underground-liberated-totally-integrated-mobile-army-to-unite-mankind-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 322,
       "appearances": [
         322,
@@ -3462,6 +3689,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Toler_Weil_(Earth-616)",
       "imageUrl": "/images/toler-weil-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 322,
       "appearances": [
         322,
@@ -3477,6 +3705,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Klaus_Limka_(Earth-616)",
       "imageUrl": "/images/klaus-limka-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 322,
       "appearances": [
         322
@@ -3489,6 +3718,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Johann_Shmidt_(Earth-616)",
       "imageUrl": "/images/johann-shmidt-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 325,
       "appearances": [
         325,
@@ -3503,6 +3733,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Mutant_Force_(Earth-616)",
       "imageUrl": "/images/mutant-force-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 325,
       "appearances": [
         325
@@ -3515,6 +3746,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Watchdogs_(Earth-616)",
       "imageUrl": "/images/watchdogs-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 325,
       "appearances": [
         325
@@ -3527,6 +3759,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Franklin_Hall_(Earth-616)",
       "imageUrl": "/images/franklin-hall-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 326,
       "appearances": [
         326,
@@ -3540,6 +3773,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Max_Eisenhardt_(Earth-616)",
       "imageUrl": "/images/max-eisenhardt-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 327,
       "appearances": [
         327
@@ -3552,6 +3786,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sebastian_Shaw_(Earth-616)",
       "imageUrl": "/images/sebastian-shaw-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 328,
       "appearances": [
         328,
@@ -3565,6 +3800,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Tri-Sentinel_(Earth-616)",
       "imageUrl": "/images/tri-sentinel-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 329,
       "appearances": [
         329,
@@ -3579,6 +3815,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sentinel_MK_IV",
       "imageUrl": "/images/sentinel-mk-iv.jpg",
+      "identitySource": "url",
       "firstAppearance": 329,
       "appearances": [
         329
@@ -3591,6 +3828,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sentinels_MK_V",
       "imageUrl": "/images/sentinels-mk-v.jpg",
+      "identitySource": "url",
       "firstAppearance": 329,
       "appearances": [
         329
@@ -3603,6 +3841,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sentinels_MK_VI",
       "imageUrl": "/images/sentinels-mk-vi.jpg",
+      "identitySource": "url",
       "firstAppearance": 329,
       "appearances": [
         329
@@ -3615,6 +3854,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Loki_Laufeyson_(Earth-616)",
       "imageUrl": "/images/loki-laufeyson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 329,
       "appearances": [
         329
@@ -3627,6 +3867,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Avengers_(Earth-616)",
       "imageUrl": "/images/avengers-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 329,
       "appearances": [
         329
@@ -3639,6 +3880,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Galan_(Earth-616)",
       "imageUrl": "/images/galan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 329,
       "appearances": [
         329
@@ -3651,6 +3893,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Femme_Fatales_(Earth-616)",
       "imageUrl": "/images/femme-fatales-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 340,
       "appearances": [
         340,
@@ -3664,6 +3907,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Beatta_Dubiel_(Earth-616)",
       "imageUrl": "/images/beatta-dubiel-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 340,
       "appearances": [
         340,
@@ -3677,6 +3921,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Leeann_Foreman_(Earth-616)",
       "imageUrl": "/images/leeann-foreman-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 340,
       "appearances": [
         340,
@@ -3690,6 +3935,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Elizabeth_Rawson_(Earth-616)",
       "imageUrl": "/images/elizabeth-rawson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 340,
       "appearances": [
         340,
@@ -3703,6 +3949,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Danielle_Forte_(Earth-616)",
       "imageUrl": "/images/danielle-forte-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 340,
       "appearances": [
         340,
@@ -3716,6 +3963,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Luis_Alvarez_(Earth-616)",
       "imageUrl": "/images/luis-alvarez-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 341,
       "appearances": [
         341,
@@ -3729,6 +3977,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Elias_Wirtham_(Earth-616)",
       "imageUrl": "/images/elias-wirtham-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 344,
       "appearances": [
         344,
@@ -3746,6 +3995,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Hammer_Industries_(Earth-616)",
       "imageUrl": "/images/hammer-industries-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 344,
       "appearances": [
         344,
@@ -3759,6 +4009,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Phillip_Barnett_(Earth-616)",
       "imageUrl": "/images/phillip-barnett-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 344,
       "appearances": [
         344,
@@ -3772,6 +4023,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Arcane_Order_of_the_Night_(Earth-616)",
       "imageUrl": "/images/arcane-order-of-the-night-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 350,
       "appearances": [
         350
@@ -3784,6 +4036,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Andrew_Carpathian_(Earth-616)",
       "imageUrl": "/images/andrew-carpathian-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 350,
       "appearances": [
         350
@@ -3796,6 +4049,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Secret_Empire_(Earth-616)",
       "imageUrl": "/images/secret-empire-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 353,
       "appearances": [
         353,
@@ -3822,6 +4076,7 @@
         "Number Twenty-One"
       ],
       "url": "https://marvel.fandom.com/wiki/Secret_Empire_(Earth-616)/Members",
+      "identitySource": "url",
       "firstAppearance": 353,
       "appearances": [
         353,
@@ -3838,6 +4093,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jeffrey_Wilde_(Earth-616)",
       "imageUrl": "/images/jeffrey-wilde-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 353,
       "appearances": [
         353,
@@ -3855,6 +4111,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Lynn_Church_(Earth-616)",
       "imageUrl": "/images/lynn-church-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 354,
       "appearances": [
         354,
@@ -3871,6 +4128,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Daniel_Bannion_(Earth-616)",
       "imageUrl": "/images/daniel-bannion-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 355,
       "appearances": [
         355,
@@ -3884,6 +4142,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Thomas_Bannion_(Earth-616)",
       "imageUrl": "/images/thomas-bannion-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 355,
       "appearances": [
         355,
@@ -3897,6 +4156,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Herb_Bannion_(Earth-616)",
       "imageUrl": "/images/herb-bannion-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 355,
       "appearances": [
         355,
@@ -3909,6 +4169,7 @@
       "name": "Stane International",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Stane_International_(Earth-616)",
+      "identitySource": "url",
       "firstAppearance": 360,
       "appearances": [
         360
@@ -3921,6 +4182,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Joe_Faulkner_(Earth-616)",
       "imageUrl": "/images/joe-faulkner-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 360,
       "appearances": [
         360
@@ -3935,6 +4197,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
       "imageUrl": "/images/cletus-kasady-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 361,
       "appearances": [
         361,
@@ -3957,6 +4220,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
       "imageUrl": "/images/carnage-symbiote-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 361,
       "appearances": [
         361,
@@ -3974,6 +4238,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Ophelia_Sarkissian_(Earth-616)",
       "imageUrl": "/images/ophelia-sarkissian-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 366,
       "appearances": [
         366,
@@ -3987,6 +4252,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sweat_Shop_(Earth-616)",
       "imageUrl": "/images/sweat-shop-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 366,
       "appearances": [
         366
@@ -3999,6 +4265,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Timothy_Karlskin_(Earth-616)",
       "imageUrl": "/images/timothy-karlskin-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 367,
       "appearances": [
         367
@@ -4011,6 +4278,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Joe_Emberlin_(Earth-616)",
       "imageUrl": "/images/joe-emberlin-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 367,
       "appearances": [
         367
@@ -4023,6 +4291,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Michael_Bingham_(Earth-616)",
       "imageUrl": "/images/michael-bingham-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 367,
       "appearances": [
         367
@@ -4035,6 +4304,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Max_Young_(Earth-616)",
       "imageUrl": "/images/max-young-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 371,
       "appearances": [
         371,
@@ -4050,6 +4320,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Charles_Shaddock_(Earth-616)",
       "imageUrl": "/images/charles-shaddock-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 372,
       "appearances": [
         372,
@@ -4063,6 +4334,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Spider-Slayer_Mark_XV",
       "imageUrl": "/images/spider-slayer-mark-xv.jpg",
+      "identitySource": "url",
       "firstAppearance": 372,
       "appearances": [
         372
@@ -4075,6 +4347,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Spider-Slayer_Mark_XVI",
       "imageUrl": "/images/spider-slayer-mark-xvi.jpg",
+      "identitySource": "url",
       "firstAppearance": 372,
       "appearances": [
         372
@@ -4087,6 +4360,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Spider-Slayer_Mark_XVII",
       "imageUrl": "/images/spider-slayer-mark-xvii.jpg",
+      "identitySource": "url",
       "firstAppearance": 372,
       "appearances": [
         372
@@ -4098,6 +4372,7 @@
       "name": "Perkins",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/P",
+      "identitySource": "url",
       "firstAppearance": 373,
       "appearances": [
         373
@@ -4110,6 +4385,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Amy_Chen_(Earth-616)",
       "imageUrl": "/images/amy-chen-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 375,
       "appearances": [
         375
@@ -4122,6 +4398,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Lemar_Hoskins_(Earth-616)",
       "imageUrl": "/images/lemar-hoskins-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 375,
       "appearances": [
         375
@@ -4134,6 +4411,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Raul_Quentino_(Earth-616)",
       "imageUrl": "/images/raul-quentino-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 375,
       "appearances": [
         375
@@ -4146,6 +4424,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Douglas_Powell_(Earth-616)",
       "imageUrl": "/images/douglas-powell-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 375,
       "appearances": [
         375
@@ -4158,6 +4437,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Carl_Striklan_(Earth-616)",
       "imageUrl": "/images/carl-striklan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 375,
       "appearances": [
         375
@@ -4170,6 +4450,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jake_Austin_(Earth-616)",
       "imageUrl": "/images/jake-austin-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 375,
       "appearances": [
         375
@@ -4182,6 +4463,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Frances_Barrison_(Earth-616)",
       "imageUrl": "/images/frances-barrison-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 378,
       "appearances": [
         378,
@@ -4200,6 +4482,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
       "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 378,
       "appearances": [
         378,
@@ -4214,6 +4497,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
       "imageUrl": "/images/demogoblin-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 378,
       "appearances": [
         378,
@@ -4228,6 +4512,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)",
       "imageUrl": "/images/malcolm-mcbride-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 379,
       "appearances": [
         379,
@@ -4244,6 +4529,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Leonard_Samson_(Earth-616)",
       "imageUrl": "/images/leonard-samson-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 381,
       "appearances": [
         381
@@ -4256,6 +4542,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Orwell_Taylor_(Earth-616)",
       "imageUrl": "/images/orwell-taylor-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 383,
       "appearances": [
         383,
@@ -4270,6 +4557,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jury_(Earth-616)",
       "imageUrl": "/images/jury-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 383,
       "appearances": [
         383,
@@ -4284,6 +4572,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Curtis_Elkins_(Earth-616)",
       "imageUrl": "/images/curtis-elkins-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 383,
       "appearances": [
         383,
@@ -4298,6 +4587,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Samuel_Caulkin_(Earth-616)",
       "imageUrl": "/images/samuel-caulkin-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 383,
       "appearances": [
         383,
@@ -4312,6 +4602,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Firearm_(Earth-616)",
       "imageUrl": "/images/firearm-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 383,
       "appearances": [
         383,
@@ -4326,6 +4617,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Maxwell_Taylor_(Earth-616)",
       "imageUrl": "/images/maxwell-taylor-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 383,
       "appearances": [
         383,
@@ -4340,6 +4632,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Kenneth_Parmenter_(Earth-616)",
       "imageUrl": "/images/kenneth-parmenter-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 383,
       "appearances": [
         383,
@@ -4354,6 +4647,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Richard_Parker_(Simulacrum)_(Earth-616)",
       "imageUrl": "/images/richard-parker-simulacrum-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 388,
       "appearances": [
         388
@@ -4366,6 +4660,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)",
       "imageUrl": "/images/peter-parker-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 388,
       "appearances": [
         388
@@ -4378,6 +4673,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Enos_Warwick_(Earth-616)",
       "imageUrl": "/images/enos-warwick-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 388,
       "appearances": [
         388
@@ -4392,6 +4688,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
       "imageUrl": "/images/judas-traveller-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 394,
       "appearances": [
         394,
@@ -4409,6 +4706,7 @@
       "name": "The Host",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)",
+      "identitySource": "url",
       "firstAppearance": 394,
       "appearances": [
         394,
@@ -4425,6 +4723,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
       "imageUrl": "/images/walther-nacht-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 394,
       "appearances": [
         394,
@@ -4440,6 +4739,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Anjali_Sridhara_(Earth-616)",
       "imageUrl": "/images/anjali-sridhara-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 394,
       "appearances": [
         394,
@@ -4454,6 +4754,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Charles_Bates_(Earth-616)",
       "imageUrl": "/images/charles-bates-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 394,
       "appearances": [
         394,
@@ -4469,6 +4770,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Leland_Owlsley_(Earth-616)",
       "imageUrl": "/images/leland-owlsley-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 396,
       "appearances": [
         396
@@ -4481,6 +4783,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
       "imageUrl": "/images/kaine-parker-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 397,
       "appearances": [
         397,
@@ -4495,6 +4798,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Angelina_Brancale_(Earth-616)",
       "imageUrl": "/images/angelina-brancale-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 397,
       "appearances": [
         397,
@@ -4508,6 +4812,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Samuel_Fox_(Earth-616)",
       "imageUrl": "/images/samuel-fox-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 399,
       "appearances": [
         399
@@ -4520,6 +4825,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
       "imageUrl": "/images/miles-warren-catskill-mountains-clone-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 399,
       "appearances": [
         399,
@@ -4534,6 +4840,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
       "imageUrl": "/images/medea-kovack-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 400,
       "appearances": [
         400,
@@ -4550,6 +4857,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Spidercide_(Earth-616)",
       "imageUrl": "/images/spidercide-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 401,
       "appearances": [
         401,
@@ -4563,6 +4871,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)",
       "imageUrl": "/images/carolyn-trainer-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 405,
       "appearances": [
         405,
@@ -4578,6 +4887,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/David_Breyer_(Earth-616)",
       "imageUrl": "/images/david-breyer-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 408,
       "appearances": [
         408,
@@ -4593,6 +4903,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Great_Game_(Earth-616)",
       "imageUrl": "/images/great-game-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 409,
       "appearances": [
         409
@@ -4605,6 +4916,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/James_Johnsmeyer_(Earth-616)",
       "imageUrl": "/images/james-johnsmeyer-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 409,
       "appearances": [
         409
@@ -4616,6 +4928,7 @@
       "name": "Yassaf",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/Y",
+      "identitySource": "url",
       "firstAppearance": 409,
       "appearances": [
         409
@@ -4627,6 +4940,7 @@
       "name": "Nicolas",
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Character_Index/N",
+      "identitySource": "url",
       "firstAppearance": 409,
       "appearances": [
         409
@@ -4639,6 +4953,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Chu_Chi-Huan_(Earth-616)",
       "imageUrl": "/images/chu-chi-huan-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 409,
       "appearances": [
         409
@@ -4651,6 +4966,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Janice_Yanizeski_(Earth-616)",
       "imageUrl": "/images/janice-yanizeski-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 409,
       "appearances": [
         409
@@ -4663,6 +4979,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Thomas_Duffy_(Earth-616)",
       "imageUrl": "/images/thomas-duffy-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 409,
       "appearances": [
         409
@@ -4675,6 +4992,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Multivex_Corporation_(Earth-616)",
       "imageUrl": "/images/multivex-corporation-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 411,
       "appearances": [
         411,
@@ -4688,6 +5006,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Cell-12_(Earth-616)",
       "imageUrl": "/images/cell-12-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 411,
       "appearances": [
         411
@@ -4700,6 +5019,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Bramer_(Earth-616)",
       "imageUrl": "/images/bramer-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 411,
       "appearances": [
         411
@@ -4712,6 +5032,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Nardi_(Earth-616)",
       "imageUrl": "/images/nardi-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 411,
       "appearances": [
         411
@@ -4724,6 +5045,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Andros_(Earth-616)",
       "imageUrl": "/images/andros-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 411,
       "appearances": [
         411
@@ -4736,6 +5058,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Lasher_(Cell-12)_(Earth-616)",
       "imageUrl": "/images/lasher-cell-12-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 411,
       "appearances": [
         411
@@ -4748,6 +5071,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Delilah_(Earth-616)",
       "imageUrl": "/images/delilah-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 414,
       "appearances": [
         414,
@@ -4773,6 +5097,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Jacob_Conover_(Earth-616)",
       "imageUrl": "/images/jacob-conover-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 414,
       "appearances": [
         414,
@@ -4797,6 +5122,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Sentinels",
       "imageUrl": "/images/sentinels.jpg",
+      "identitySource": "url",
       "firstAppearance": 415,
       "appearances": [
         415
@@ -4809,6 +5135,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
       "imageUrl": "/images/morgan-boone-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 416,
       "appearances": [
         416,
@@ -4824,6 +5151,7 @@
       ],
       "url": "https://marvel.fandom.com/wiki/Cabal_of_Scrier_(Earth-616)",
       "imageUrl": "/images/cabal-of-scrier-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 417,
       "appearances": [
         417,
@@ -4838,6 +5166,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Carlos_LaMuerto_(Earth-616)",
       "imageUrl": "/images/carlos-lamuerto-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 419,
       "appearances": [
         419,
@@ -4856,6 +5185,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Tarantula%27s_Organization_(Earth-616)",
       "imageUrl": "/images/tarantula-27s-organization-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 420,
       "appearances": [
         420,
@@ -4870,6 +5200,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/El_Uno_(Earth-616)",
       "imageUrl": "/images/el-uno-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 420,
       "appearances": [
         420
@@ -4882,6 +5213,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/True_Believers_(Cult)_(Earth-616)",
       "imageUrl": "/images/true-believers-cult-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 421,
       "appearances": [
         421,
@@ -4895,6 +5227,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Madam_Qwa_(Earth-616)",
       "imageUrl": "/images/madam-qwa-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 421,
       "appearances": [
         421,
@@ -4908,6 +5241,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Karsano_(Earth-616)",
       "imageUrl": "/images/karsano-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 421,
       "appearances": [
         421
@@ -4920,6 +5254,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
       "imageUrl": "/images/vincente-fortunato-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 422,
       "appearances": [
         422,
@@ -4934,6 +5269,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Yano_(Earth-616)",
       "imageUrl": "/images/yano-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 424,
       "appearances": [
         424
@@ -4946,6 +5282,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Norrin_Radd_(Earth-616)",
       "imageUrl": "/images/norrin-radd-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 430,
       "appearances": [
         430,
@@ -4959,6 +5296,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Green_Goblin_(Construct)_(Earth-616)",
       "imageUrl": "/images/green-goblin-construct-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 432,
       "appearances": [
         432
@@ -4971,6 +5309,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Jensen_Walker_(Earth-616)",
       "imageUrl": "/images/jensen-walker-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 432,
       "appearances": [
         432
@@ -4983,6 +5322,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Bloodscream_(Earth-616)",
       "imageUrl": "/images/bloodscream-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 435,
       "appearances": [
         435
@@ -4995,6 +5335,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Roughouse_(Earth-616)",
       "imageUrl": "/images/roughouse-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 435,
       "appearances": [
         435
@@ -5007,6 +5348,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Samuel_Smithers_(Earth-616)",
       "imageUrl": "/images/samuel-smithers-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 437,
       "appearances": [
         437
@@ -5019,6 +5361,7 @@
       "aliases": [],
       "url": "https://marvel.fandom.com/wiki/Angela_Bradford_(Earth-616)",
       "imageUrl": "/images/angela-bradford-earth-616.jpg",
+      "identitySource": "url",
       "firstAppearance": 438,
       "appearances": [
         438
@@ -5043,7 +5386,7 @@
         "Carradine_(Earth-616)",
         "Dmitri_Smerdyakov_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 1
     },
     {
@@ -5068,7 +5411,7 @@
         "Quentin_Beck_(Earth-616)",
         "Character_Index/C"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 2
     },
     {
@@ -5087,7 +5430,7 @@
         "Otto_Octavius_(Earth-616)",
         "Charles_Buchanan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 3
     },
     {
@@ -5106,7 +5449,7 @@
         "Character_Index/C",
         "William_Baker_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 4
     },
     {
@@ -5125,7 +5468,7 @@
         "Victor_von_Doom_(Earth-616)",
         "Doombot"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 5
     },
     {
@@ -5141,7 +5484,7 @@
       "villainIds": [
         "Curtis_Connors_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 6
     },
     {
@@ -5157,7 +5500,7 @@
       "villainIds": [
         "Adrian_Toomes_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 7
     },
     {
@@ -5173,7 +5516,7 @@
       "villainIds": [
         "Living_Brain_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 8
     },
     {
@@ -5189,7 +5532,7 @@
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 9
     },
     {
@@ -5214,7 +5557,7 @@
         "Daniel_Brito_(Earth-616)",
         "Raymond_Bloch_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 10,
       "groups": [
         {
@@ -5244,7 +5587,7 @@
         "Otto_Octavius_(Earth-616)",
         "Blackie_Gaxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 11
     },
     {
@@ -5260,7 +5603,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 12
     },
     {
@@ -5276,7 +5619,7 @@
       "villainIds": [
         "Quentin_Beck_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 13
     },
     {
@@ -5301,7 +5644,7 @@
         "Raymond_Bloch_(Earth-616)",
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 14,
       "groups": [
         {
@@ -5331,15 +5674,14 @@
         "Dmitri_Smerdyakov_(Earth-616)",
         "Sergei_Kravinoff_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 15
     },
     {
       "issue": 16,
       "releaseDate": "June 9, 1964",
-      "villainCount": 6,
+      "villainCount": 5,
       "villains": [
-        "Circus of Crime",
         "Ringmaster",
         "Human Cannonball",
         "Great Gambonnos",
@@ -5347,7 +5689,6 @@
         "Bruto the Strongman"
       ],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Circus_of_Crime_(Earth-616)",
         "https://marvel.fandom.com/wiki/Maynard_Tiboldt_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jack_Pulver_(Earth-616)",
         "https://marvel.fandom.com/wiki/Ernesto_%26_Luigi_Gambonno_(Earth-616)",
@@ -5355,15 +5696,26 @@
         "https://marvel.fandom.com/wiki/Bruce_Olafsen_(Earth-616)"
       ],
       "villainIds": [
-        "Circus_of_Crime_(Earth-616)",
         "Maynard_Tiboldt_(Earth-616)",
         "Jack_Pulver_(Earth-616)",
         "Ernesto_%26_Luigi_Gambonno_(Earth-616)",
         "Eliot_Franklin_(Clown)_(Earth-616)",
         "Bruce_Olafsen_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
-      "chronologicalPosition": 16
+      "series": "Amazing",
+      "chronologicalPosition": 16,
+      "groups": [
+        {
+          "name": "Circus of Crime",
+          "members": [
+            "Ringmaster",
+            "Human Cannonball",
+            "Great Gambonnos",
+            "Clown",
+            "Bruto the Strongman"
+          ]
+        }
+      ]
     },
     {
       "issue": 17,
@@ -5378,7 +5730,7 @@
       "villainIds": [
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 17
     },
     {
@@ -5409,7 +5761,7 @@
         "Sergei_Kravinoff_(Earth-616)",
         "Rocky_Roberts_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 18
     },
     {
@@ -5437,7 +5789,7 @@
         "Raymond_Bloch_(Earth-616)",
         "Rock_Gimpy_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 19,
       "groups": [
         {
@@ -5465,7 +5817,7 @@
       "villainIds": [
         "MacDonald_Gargan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 20
     },
     {
@@ -5481,7 +5833,7 @@
       "villainIds": [
         "Abner_Jenkins_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 21
     },
     {
@@ -5489,33 +5841,33 @@
       "releaseDate": "December 10, 1964",
       "villainCount": 7,
       "villains": [
-        "Circus of Crime",
         "Ringmaster",
         "Human Cannonball",
         "Great Gambonnos",
         "Clown",
+        "Masters of Menace",
         "Princess Python",
         "Precious"
       ],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Circus_of_Crime_(Earth-616)",
         "https://marvel.fandom.com/wiki/Maynard_Tiboldt_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jack_Pulver_(Earth-616)",
         "https://marvel.fandom.com/wiki/Ernesto_%26_Luigi_Gambonno_(Earth-616)",
         "https://marvel.fandom.com/wiki/Eliot_Franklin_(Clown)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Circus_of_Crime_(Earth-616)",
         "https://marvel.fandom.com/wiki/Zelda_DuBois_(Earth-616)",
         "https://marvel.fandom.com/wiki/Precious_(Earth-616)"
       ],
       "villainIds": [
-        "Circus_of_Crime_(Earth-616)",
         "Maynard_Tiboldt_(Earth-616)",
         "Jack_Pulver_(Earth-616)",
         "Ernesto_%26_Luigi_Gambonno_(Earth-616)",
         "Eliot_Franklin_(Clown)_(Earth-616)",
+        "Circus_of_Crime_(Earth-616)",
         "Zelda_DuBois_(Earth-616)",
         "Precious_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 22
     },
     {
@@ -5537,7 +5889,7 @@
         "Francisco_Lobo_(Earth-616)",
         "Character_Index/M"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 23
     },
     {
@@ -5553,7 +5905,7 @@
       "villainIds": [
         "Quentin_Beck_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 24
     },
     {
@@ -5572,7 +5924,7 @@
         "Spencer_Smythe_(Earth-616)",
         "Spider-Slayer_Mark_I"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 25
     },
     {
@@ -5591,7 +5943,7 @@
         "Norman_Osborn_(Earth-616)",
         "Nicholas_Lewis_Sr._(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 26
     },
     {
@@ -5610,7 +5962,7 @@
         "Norman_Osborn_(Earth-616)",
         "Nicholas_Lewis_Sr._(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 27
     },
     {
@@ -5626,7 +5978,7 @@
       "villainIds": [
         "Mark_Raxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 28
     },
     {
@@ -5642,7 +5994,7 @@
       "villainIds": [
         "MacDonald_Gargan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 29
     },
     {
@@ -5661,7 +6013,7 @@
         "Otto_Octavius_(Earth-616)",
         "Cat_Burglar_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 30
     },
     {
@@ -5680,7 +6032,7 @@
         "Otto_Octavius_(Earth-616)",
         "Foxy_Briggs_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 31
     },
     {
@@ -5696,7 +6048,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 32
     },
     {
@@ -5706,7 +6058,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 33
     },
     {
@@ -5722,7 +6074,7 @@
       "villainIds": [
         "Sergei_Kravinoff_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 34
     },
     {
@@ -5738,7 +6090,7 @@
       "villainIds": [
         "Mark_Raxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 35
     },
     {
@@ -5754,7 +6106,7 @@
       "villainIds": [
         "Norton_Fester_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 36
     },
     {
@@ -5773,7 +6125,7 @@
         "Norman_Osborn_(Earth-616)",
         "Mendel_Stromm_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 37
     },
     {
@@ -5789,7 +6141,7 @@
       "villainIds": [
         "Joseph_Smith_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 38
     },
     {
@@ -5808,7 +6160,7 @@
         "Norman_Osborn_(Earth-616)",
         "Character_Index/B"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 39
     },
     {
@@ -5824,7 +6176,7 @@
       "villainIds": [
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 40
     },
     {
@@ -5840,7 +6192,7 @@
       "villainIds": [
         "Aleksei_Sytsevich_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 41
     },
     {
@@ -5856,7 +6208,7 @@
       "villainIds": [
         "John_Jonah_Jameson_III_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 42
     },
     {
@@ -5872,7 +6224,7 @@
       "villainIds": [
         "Aleksei_Sytsevich_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 43
     },
     {
@@ -5888,7 +6240,7 @@
       "villainIds": [
         "Curtis_Connors_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 44
     },
     {
@@ -5904,7 +6256,7 @@
       "villainIds": [
         "Curtis_Connors_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 45
     },
     {
@@ -5920,7 +6272,7 @@
       "villainIds": [
         "Herman_Schultz_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 46
     },
     {
@@ -5936,7 +6288,7 @@
       "villainIds": [
         "Sergei_Kravinoff_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 47
     },
     {
@@ -5952,7 +6304,7 @@
       "villainIds": [
         "Raniero_Drago_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 48
     },
     {
@@ -5971,7 +6323,7 @@
         "Sergei_Kravinoff_(Earth-616)",
         "Raniero_Drago_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 49
     },
     {
@@ -5996,7 +6348,7 @@
         "Flint_(Goon)_(Earth-616)",
         "Character_Index/S"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 50
     },
     {
@@ -6018,7 +6370,7 @@
         "Flint_(Goon)_(Earth-616)",
         "Kingpin%27s_Henchmen"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 51,
       "groups": [
         {
@@ -6047,7 +6399,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Flint_(Goon)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 52
     },
     {
@@ -6063,7 +6415,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 53
     },
     {
@@ -6079,7 +6431,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 54
     },
     {
@@ -6095,7 +6447,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 55
     },
     {
@@ -6111,7 +6463,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 56
     },
     {
@@ -6121,7 +6473,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 57
     },
     {
@@ -6143,7 +6495,7 @@
         "John_Jonah_Jameson_(Earth-616)",
         "Spider-Slayer_Mark_II"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 58
     },
     {
@@ -6165,7 +6517,7 @@
         "Kingpin%27s_Henchmen",
         "Gerhard_Winkler_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 59,
       "groups": [
         {
@@ -6194,7 +6546,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Gerhard_Winkler_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 60,
       "groups": [
         {
@@ -6225,7 +6577,7 @@
         "Kingpin%27s_Henchmen",
         "Gerhard_Winkler_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 61,
       "groups": [
         {
@@ -6251,7 +6603,7 @@
       "villainIds": [
         "Medusalith_Amaquelin_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 62
     },
     {
@@ -6270,7 +6622,7 @@
         "Adrian_Toomes_(Earth-616)",
         "Raniero_Drago_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 63
     },
     {
@@ -6286,7 +6638,7 @@
       "villainIds": [
         "Adrian_Toomes_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 64
     },
     {
@@ -6311,7 +6663,7 @@
         "Character_Index/D",
         "Character_Index/R"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 65
     },
     {
@@ -6330,7 +6682,7 @@
         "Quentin_Beck_(Earth-616)",
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 66
     },
     {
@@ -6346,7 +6698,7 @@
       "villainIds": [
         "Quentin_Beck_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 67
     },
     {
@@ -6368,7 +6720,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Louis_Wilson_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 68,
       "groups": [
         {
@@ -6397,7 +6749,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Louis_Wilson_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 69,
       "groups": [
         {
@@ -6422,7 +6774,7 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 70,
       "groups": [
         {
@@ -6446,7 +6798,7 @@
       "villainIds": [
         "Pietro_Maximoff_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 71
     },
     {
@@ -6462,7 +6814,7 @@
       "villainIds": [
         "Herman_Schultz_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 72
     },
     {
@@ -6487,7 +6839,7 @@
         "Caesar_Cicero_(Earth-616)",
         "Silvio_Manfredi_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 73,
       "groups": [
         {
@@ -6523,7 +6875,7 @@
         "Caesar_Cicero_(Earth-616)",
         "Silvio_Manfredi_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 74,
       "groups": [
         {
@@ -6562,7 +6914,7 @@
         "Silvio_Manfredi_(Earth-616)",
         "Maggia_(Earth-616)/Members"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 75,
       "groups": [
         {
@@ -6590,7 +6942,7 @@
       "villainIds": [
         "Curtis_Connors_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 76
     },
     {
@@ -6606,7 +6958,7 @@
       "villainIds": [
         "Curtis_Connors_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 77
     },
     {
@@ -6622,7 +6974,7 @@
       "villainIds": [
         "Hobart_Brown_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 78
     },
     {
@@ -6638,7 +6990,7 @@
       "villainIds": [
         "Hobart_Brown_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 79
     },
     {
@@ -6654,7 +7006,7 @@
       "villainIds": [
         "Dmitri_Smerdyakov_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 80
     },
     {
@@ -6670,7 +7022,7 @@
       "villainIds": [
         "Frank_Oliver_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 81
     },
     {
@@ -6686,7 +7038,7 @@
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 82
     },
     {
@@ -6705,7 +7057,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Richard_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 83
     },
     {
@@ -6724,7 +7076,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Richard_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 84
     },
     {
@@ -6743,7 +7095,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Richard_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 85
     },
     {
@@ -6759,7 +7111,7 @@
       "villainIds": [
         "Natalia_Romanova_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 86
     },
     {
@@ -6769,7 +7121,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 87
     },
     {
@@ -6785,7 +7137,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 88
     },
     {
@@ -6801,7 +7153,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 89
     },
     {
@@ -6817,7 +7169,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 90
     },
     {
@@ -6836,7 +7188,7 @@
         "Character_Index/C",
         "Sam_Bullit_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 91
     },
     {
@@ -6855,7 +7207,7 @@
         "Character_Index/C",
         "Sam_Bullit_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 92
     },
     {
@@ -6871,7 +7223,7 @@
       "villainIds": [
         "Hobart_Brown_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 93
     },
     {
@@ -6887,7 +7239,7 @@
       "villainIds": [
         "Abner_Jenkins_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 94
     },
     {
@@ -6897,7 +7249,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 95
     },
     {
@@ -6913,7 +7265,7 @@
       "villainIds": [
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 96
     },
     {
@@ -6929,7 +7281,7 @@
       "villainIds": [
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 97
     },
     {
@@ -6945,7 +7297,7 @@
       "villainIds": [
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 98
     },
     {
@@ -6955,7 +7307,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 99
     },
     {
@@ -6983,7 +7335,7 @@
         "Norman_Osborn_(Earth-616)",
         "Wilson_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 100
     },
     {
@@ -7002,7 +7354,7 @@
         "Curtis_Connors_(Earth-616)",
         "Michael_Morbius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 101
     },
     {
@@ -7018,7 +7370,7 @@
       "villainIds": [
         "Michael_Morbius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 102
     },
     {
@@ -7037,7 +7389,7 @@
         "Sergei_Kravinoff_(Earth-616)",
         "Gog_(Tsiln)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 103
     },
     {
@@ -7056,7 +7408,7 @@
         "Sergei_Kravinoff_(Earth-616)",
         "Gog_(Tsiln)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 104
     },
     {
@@ -7072,7 +7424,7 @@
       "villainIds": [
         "Spencer_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 105
     },
     {
@@ -7088,7 +7440,7 @@
       "villainIds": [
         "Spencer_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 106
     },
     {
@@ -7104,7 +7456,7 @@
       "villainIds": [
         "Spencer_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 107
     },
     {
@@ -7120,7 +7472,7 @@
       "villainIds": [
         "Giant_One_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 108
     },
     {
@@ -7136,7 +7488,7 @@
       "villainIds": [
         "Giant_One_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 109
     },
     {
@@ -7152,7 +7504,7 @@
       "villainIds": [
         "Martin_Blank_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 110
     },
     {
@@ -7171,7 +7523,7 @@
         "Sergei_Kravinoff_(Earth-616)",
         "Martin_Blank_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 111
     },
     {
@@ -7187,7 +7539,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 112
     },
     {
@@ -7206,7 +7558,7 @@
         "Otto_Octavius_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 113
     },
     {
@@ -7225,7 +7577,7 @@
         "Otto_Octavius_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 114
     },
     {
@@ -7244,7 +7596,7 @@
         "Otto_Octavius_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 115
     },
     {
@@ -7260,7 +7612,7 @@
       "villainIds": [
         "Man-Monster_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 116
     },
     {
@@ -7282,7 +7634,7 @@
         "Richard_Raleigh_(Earth-616)",
         "Doctor_Thaxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 117
     },
     {
@@ -7304,7 +7656,7 @@
         "Richard_Raleigh_(Earth-616)",
         "Doctor_Thaxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 118
     },
     {
@@ -7320,7 +7672,7 @@
       "villainIds": [
         "Bruce_Banner_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 119
     },
     {
@@ -7336,7 +7688,7 @@
       "villainIds": [
         "Bruce_Banner_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 120
     },
     {
@@ -7352,7 +7704,7 @@
       "villainIds": [
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 121
     },
     {
@@ -7368,7 +7720,7 @@
       "villainIds": [
         "Norman_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 122
     },
     {
@@ -7384,7 +7736,7 @@
       "villainIds": [
         "Lucas_Cage_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 123
     },
     {
@@ -7400,7 +7752,7 @@
       "villainIds": [
         "John_Jonah_Jameson_III_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 124
     },
     {
@@ -7416,7 +7768,7 @@
       "villainIds": [
         "John_Jonah_Jameson_III_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 125
     },
     {
@@ -7435,7 +7787,7 @@
         "Frank_Oliver_(Earth-616)",
         "Jonas_Harrow_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 126
     },
     {
@@ -7451,7 +7803,7 @@
       "villainIds": [
         "Clifton_Shallot_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 127
     },
     {
@@ -7467,7 +7819,7 @@
       "villainIds": [
         "Clifton_Shallot_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 128
     },
     {
@@ -7489,7 +7841,7 @@
         "Francis_Castle_(Earth-616)",
         "Miles_Warren_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 129
     },
     {
@@ -7511,7 +7863,7 @@
         "Hammerhead_(Joseph)_(Earth-616)",
         "Miles_Warren_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 130
     },
     {
@@ -7530,7 +7882,7 @@
         "Otto_Octavius_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 131
     },
     {
@@ -7546,7 +7898,7 @@
       "villainIds": [
         "Mark_Raxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 132
     },
     {
@@ -7562,7 +7914,7 @@
       "villainIds": [
         "Mark_Raxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 133
     },
     {
@@ -7584,7 +7936,7 @@
         "Hidalgo_Rodriquez_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 134
     },
     {
@@ -7606,7 +7958,7 @@
         "Hidalgo_Rodriquez_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 135
     },
     {
@@ -7622,7 +7974,7 @@
       "villainIds": [
         "Harold_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 136
     },
     {
@@ -7638,7 +7990,7 @@
       "villainIds": [
         "Harold_Osborn_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 137
     },
     {
@@ -7654,7 +8006,7 @@
       "villainIds": [
         "William_Turner_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 138
     },
     {
@@ -7673,7 +8025,7 @@
         "Miles_Warren_(Earth-616)",
         "Maxwell_Markham_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 139
     },
     {
@@ -7692,7 +8044,7 @@
         "Miles_Warren_(Earth-616)",
         "Maxwell_Markham_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 140
     },
     {
@@ -7708,7 +8060,7 @@
       "villainIds": [
         "Daniel_Berkhart_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 141
     },
     {
@@ -7724,7 +8076,7 @@
       "villainIds": [
         "Daniel_Berkhart_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 142
     },
     {
@@ -7740,7 +8092,7 @@
       "villainIds": [
         "Andr%C3%A9_Gerard_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 143
     },
     {
@@ -7756,7 +8108,7 @@
       "villainIds": [
         "Andr%C3%A9_Gerard_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 144
     },
     {
@@ -7772,7 +8124,7 @@
       "villainIds": [
         "MacDonald_Gargan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 145
     },
     {
@@ -7791,7 +8143,7 @@
         "MacDonald_Gargan_(Earth-616)",
         "Miles_Warren_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 146
     },
     {
@@ -7810,7 +8162,7 @@
         "Miles_Warren_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 147
     },
     {
@@ -7829,7 +8181,7 @@
         "Miles_Warren_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 148
     },
     {
@@ -7851,7 +8203,7 @@
         "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
         "Benjamin_Reilly_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 149
     },
     {
@@ -7867,7 +8219,7 @@
       "villainIds": [
         "Spencer_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 150
     },
     {
@@ -7883,7 +8235,7 @@
       "villainIds": [
         "Herman_Schultz_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 151
     },
     {
@@ -7899,7 +8251,7 @@
       "villainIds": [
         "Herman_Schultz_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 152
     },
     {
@@ -7915,7 +8267,7 @@
       "villainIds": [
         "Kingpin%27s_Henchmen"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 153
     },
     {
@@ -7934,7 +8286,7 @@
         "William_Baker_(Earth-616)",
         "Wilson_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 154
     },
     {
@@ -7953,7 +8305,7 @@
         "Worldwide_Habitual_Offender_Computer_(Earth-616)",
         "Leroy_Tallon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 155
     },
     {
@@ -7972,7 +8324,7 @@
         "Desmond_Charne_(Earth-616)",
         "Ron_Rainey_(Earth-51914)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 156
     },
     {
@@ -7991,7 +8343,7 @@
         "Otto_Octavius_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 157
     },
     {
@@ -8010,7 +8362,7 @@
         "Otto_Octavius_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 158
     },
     {
@@ -8029,7 +8381,7 @@
         "Otto_Octavius_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 159
     },
     {
@@ -8048,7 +8400,7 @@
         "Phineas_Mason_(Earth-616)",
         "Toy_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 160
     },
     {
@@ -8067,7 +8419,7 @@
         "William_Russo_(Earth-616)",
         "Snake-Eyes_(Thug)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 161
     },
     {
@@ -8089,7 +8441,7 @@
         "Character_Index/R",
         "William_Russo_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 162
     },
     {
@@ -8105,7 +8457,7 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 163
     },
     {
@@ -8121,7 +8473,7 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 164
     },
     {
@@ -8137,7 +8489,7 @@
       "villainIds": [
         "Vincent_Stegron_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 165
     },
     {
@@ -8156,7 +8508,7 @@
         "Curtis_Connors_(Earth-616)",
         "Vincent_Stegron_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 166
     },
     {
@@ -8175,7 +8527,7 @@
         "John_Jonah_Jameson_(Earth-616)",
         "Jackson_Arvad_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 167
     },
     {
@@ -8197,7 +8549,7 @@
         "Jonas_Harrow_(Earth-616)",
         "Jackson_Arvad_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 168
     },
     {
@@ -8213,7 +8565,7 @@
       "villainIds": [
         "Johann_Fennhoff_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 169
     },
     {
@@ -8229,7 +8581,7 @@
       "villainIds": [
         "Johann_Fennhoff_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 170
     },
     {
@@ -8251,7 +8603,7 @@
         "Advanced_Idea_Mechanics_(Earth-616)",
         "Harry_Daze_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 171
     },
     {
@@ -8270,7 +8622,7 @@
         "Mark_Raxton_(Earth-616)",
         "Robert_Farrell_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 172
     },
     {
@@ -8286,7 +8638,7 @@
       "villainIds": [
         "Mark_Raxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 173
     },
     {
@@ -8302,7 +8654,7 @@
       "villainIds": [
         "Burt_Kenyon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 174
     },
     {
@@ -8318,7 +8670,7 @@
       "villainIds": [
         "Burt_Kenyon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 175
     },
     {
@@ -8334,7 +8686,7 @@
       "villainIds": [
         "Barton_Hamilton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 176
     },
     {
@@ -8353,7 +8705,7 @@
         "Silvio_Manfredi_(Earth-616)",
         "Barton_Hamilton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 177
     },
     {
@@ -8372,7 +8724,7 @@
         "Silvio_Manfredi_(Earth-616)",
         "Barton_Hamilton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 178
     },
     {
@@ -8391,7 +8743,7 @@
         "Silvio_Manfredi_(Earth-616)",
         "Barton_Hamilton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 179
     },
     {
@@ -8410,7 +8762,7 @@
         "Silvio_Manfredi_(Earth-616)",
         "Barton_Hamilton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 180
     },
     {
@@ -8513,7 +8865,7 @@
         "Jackson_Arvad_(Earth-616)",
         "Richard_Deacon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 181,
       "groups": [
         {
@@ -8569,7 +8921,7 @@
         "Robert_Farrell_(Earth-616)",
         "Jackson_Weele_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 182
     },
     {
@@ -8591,7 +8943,7 @@
         "Toy_(Earth-616)",
         "Jackson_Weele_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 183
     },
     {
@@ -8610,7 +8962,7 @@
         "Dragon_Lords_(White_Dragon%27s_Gang)_(Earth-616)",
         "White_Dragon_(Chinatown)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 184
     },
     {
@@ -8629,7 +8981,7 @@
         "Dragon_Lords_(White_Dragon%27s_Gang)_(Earth-616)",
         "White_Dragon_(Chinatown)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 185
     },
     {
@@ -8648,7 +9000,7 @@
         "Dmitri_Smerdyakov_(Earth-616)",
         "Spencer_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 186
     },
     {
@@ -8664,7 +9016,7 @@
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 187
     },
     {
@@ -8680,7 +9032,7 @@
       "villainIds": [
         "William_Russo_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 188
     },
     {
@@ -8699,7 +9051,7 @@
         "Spencer_Smythe_(Earth-616)",
         "John_Jonah_Jameson_III_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 189
     },
     {
@@ -8718,7 +9070,7 @@
         "Spencer_Smythe_(Earth-616)",
         "John_Jonah_Jameson_III_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 190
     },
     {
@@ -8734,7 +9086,7 @@
       "villainIds": [
         "Spencer_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 191
     },
     {
@@ -8753,7 +9105,7 @@
         "Spencer_Smythe_(Earth-616)",
         "Richard_Deacon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 192
     },
     {
@@ -8772,7 +9124,7 @@
         "Carradine_(Earth-616)",
         "Richard_Deacon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 193
     },
     {
@@ -8800,7 +9152,7 @@
         "Bruno_Grainger_(Earth-616)",
         "Emil_Greco_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 194
     },
     {
@@ -8828,7 +9180,7 @@
         "Boris_Korpse_(Earth-616)",
         "Bruno_Grainger_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 195
     },
     {
@@ -8853,7 +9205,7 @@
         "Boris_Korpse_(Earth-616)",
         "Bruno_Grainger_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 196
     },
     {
@@ -8875,7 +9227,7 @@
         "Quentin_Beck_(Earth-616)",
         "Wilson_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 197
     },
     {
@@ -8894,7 +9246,7 @@
         "Carradine_(Earth-616)",
         "Quentin_Beck_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 198
     },
     {
@@ -8913,7 +9265,7 @@
         "Carradine_(Earth-616)",
         "Quentin_Beck_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 199
     },
     {
@@ -8929,7 +9281,7 @@
       "villainIds": [
         "Carradine_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 200
     },
     {
@@ -8945,7 +9297,7 @@
       "villainIds": [
         "Lorenzo_Jacobi_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 201
     },
     {
@@ -8973,7 +9325,7 @@
         "Character_Index/A",
         "Hatay_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 202
     },
     {
@@ -8989,7 +9341,7 @@
       "villainIds": [
         "Edward_Lansky_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 203
     },
     {
@@ -9005,7 +9357,7 @@
       "villainIds": [
         "Felicia_Hardy_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 204
     },
     {
@@ -9021,7 +9373,7 @@
       "villainIds": [
         "Felicia_Hardy_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 205
     },
     {
@@ -9037,7 +9389,7 @@
       "villainIds": [
         "Jonas_Harrow_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 206
     },
     {
@@ -9053,7 +9405,7 @@
       "villainIds": [
         "Mesmero_(Vincent)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 207
     },
     {
@@ -9069,7 +9421,7 @@
       "villainIds": [
         "Hubert_%26_Pinky_Fusser_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 208
     },
     {
@@ -9088,7 +9440,7 @@
         "Sergei_Kravinoff_(Earth-616)",
         "Calypso_Ezili_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 209
     },
     {
@@ -9104,7 +9456,7 @@
       "villainIds": [
         "Rupert_Dockery_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 210
     },
     {
@@ -9120,7 +9472,7 @@
       "villainIds": [
         "Namor_McKenzie_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 211
     },
     {
@@ -9136,7 +9488,7 @@
       "villainIds": [
         "Morris_Bench_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 212
     },
     {
@@ -9155,7 +9507,7 @@
         "Bentley_Wittman_(Earth-616)",
         "Llyra_Morris_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 213
     },
     {
@@ -9183,7 +9535,7 @@
         "Frightful_Four_(Earth-616)",
         "Peter_Petruski_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 214
     },
     {
@@ -9211,7 +9563,7 @@
         "Frightful_Four_(Earth-616)",
         "Peter_Petruski_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 215
     },
     {
@@ -9221,7 +9573,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 216
     },
     {
@@ -9243,7 +9595,7 @@
         "Morris_Bench_(Earth-616)",
         "Mud-Thing_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 217
     },
     {
@@ -9259,7 +9611,7 @@
       "villainIds": [
         "Mud-Thing_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 218
     },
     {
@@ -9281,7 +9633,7 @@
         "Paul_Duval_(Earth-616)",
         "Armand_DuBroth_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 219
     },
     {
@@ -9303,7 +9655,7 @@
         "Louie_Frenchetti_(Earth-616)",
         "Weasel_(National_Crime_Syndicate)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 220,
       "groups": [
         {
@@ -9329,7 +9681,7 @@
       "villainIds": [
         "Ramrod_(Cyborg)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 221
     },
     {
@@ -9345,7 +9697,7 @@
       "villainIds": [
         "James_Sanders_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 222
     },
     {
@@ -9373,7 +9725,7 @@
         "Peotor_(Earth-616)",
         "Igor_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 223
     },
     {
@@ -9389,7 +9741,7 @@
       "villainIds": [
         "Adrian_Toomes_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 224
     },
     {
@@ -9405,7 +9757,7 @@
       "villainIds": [
         "Gregory_Salinger_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 225
     },
     {
@@ -9421,7 +9773,7 @@
       "villainIds": [
         "Phil_Bradshaw_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 226,
       "groups": [
         {
@@ -9448,7 +9800,7 @@
         "Felicia_Hardy_(Earth-616)",
         "Sam_Galvagno_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 227
     },
     {
@@ -9464,7 +9816,7 @@
       "villainIds": [
         "Murderer_by_Spider_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 228
     },
     {
@@ -9483,7 +9835,7 @@
         "Cain_Marko_(Earth-616)",
         "Thomas_Cassidy_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 229
     },
     {
@@ -9502,7 +9854,7 @@
         "Cain_Marko_(Earth-616)",
         "Thomas_Cassidy_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 230
     },
     {
@@ -9521,7 +9873,7 @@
         "Klaus_Voorhees_(Earth-616)",
         "Calvin_Zabo_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 231
     },
     {
@@ -9540,7 +9892,7 @@
         "Klaus_Voorhees_(Earth-616)",
         "Calvin_Zabo_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 232
     },
     {
@@ -9562,7 +9914,7 @@
         "Brand_Corporation_(Earth-616)",
         "Brand_Corporation_(Earth-616)/Members"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 233
     },
     {
@@ -9590,7 +9942,7 @@
         "Brand_Corporation_(Earth-616)/Members",
         "James_Melvin_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 234
     },
     {
@@ -9627,7 +9979,7 @@
         "Harv_Carson_(Earth-616)",
         "John_Gamelin_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 235
     },
     {
@@ -9661,7 +10013,7 @@
         "Roxxon_Corporation_Board_of_Directors_(Earth-616)",
         "August_D%27Angelo_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 236
     },
     {
@@ -9677,7 +10029,7 @@
       "villainIds": [
         "Wilbur_Day_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 237
     },
     {
@@ -9696,7 +10048,7 @@
         "George_Hill_(Criminal)_(Earth-616)",
         "Roderick_Kingsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 238
     },
     {
@@ -9712,7 +10064,7 @@
       "villainIds": [
         "Roderick_Kingsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 239
     },
     {
@@ -9728,7 +10080,7 @@
       "villainIds": [
         "Adrian_Toomes_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 240
     },
     {
@@ -9744,7 +10096,7 @@
       "villainIds": [
         "Adrian_Toomes_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 241
     },
     {
@@ -9763,7 +10115,7 @@
         "Mad_Thinker_(Julius)_(Earth-616)",
         "Monster_Android_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 242
     },
     {
@@ -9779,7 +10131,7 @@
       "villainIds": [
         "Universal_Liberation_Army_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 243
     },
     {
@@ -9798,7 +10150,7 @@
         "Roderick_Kingsley_(Earth-616)",
         "Arnold_Donovan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 244
     },
     {
@@ -9817,7 +10169,7 @@
         "Roderick_Kingsley_(Earth-616)",
         "Arnold_Donovan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 245
     },
     {
@@ -9827,7 +10179,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 246
     },
     {
@@ -9843,7 +10195,7 @@
       "villainIds": [
         "Eliot_Franklin_(Thunderball)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 247
     },
     {
@@ -9862,7 +10214,7 @@
         "Carradine_(Earth-616)",
         "Eliot_Franklin_(Thunderball)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 248
     },
     {
@@ -9881,7 +10233,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Roderick_Kingsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 249
     },
     {
@@ -9897,7 +10249,7 @@
       "villainIds": [
         "Roderick_Kingsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 250
     },
     {
@@ -9913,7 +10265,7 @@
       "villainIds": [
         "Roderick_Kingsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 251
     },
     {
@@ -9923,7 +10275,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 252
     },
     {
@@ -9939,7 +10291,7 @@
       "villainIds": [
         "Richard_Fisk_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 253
     },
     {
@@ -9955,7 +10307,7 @@
       "villainIds": [
         "Jason_Macendale_Jr._(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 254
     },
     {
@@ -9983,7 +10335,7 @@
         "Peotor_(Earth-616)",
         "Igor_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 255
     },
     {
@@ -10008,7 +10360,7 @@
         "Ralph_Mac_(Earth-616)",
         "Thomas_Fireheart_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 256
     },
     {
@@ -10033,7 +10385,7 @@
         "Thomas_Fireheart_(Earth-616)",
         "Edward_Leeds_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 257
     },
     {
@@ -10058,7 +10410,7 @@
         "Venom_(Symbiote)_(Earth-616)",
         "Character_Index/H"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 258
     },
     {
@@ -10080,7 +10432,7 @@
         "Roderick_Kingsley_(Earth-616)",
         "Venom_(Symbiote)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 259
     },
     {
@@ -10099,7 +10451,7 @@
         "Richard_Fisk_(Earth-616)",
         "Roderick_Kingsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 260
     },
     {
@@ -10118,7 +10470,7 @@
         "Richard_Fisk_(Earth-616)",
         "Roderick_Kingsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 261
     },
     {
@@ -10143,7 +10495,7 @@
         "Roberto_DeNatale_(Earth-616)",
         "Jake_Jones_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 262
     },
     {
@@ -10162,7 +10514,7 @@
         "Character_Index/M",
         "Character_Index/E"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 263,
       "groups": [
         {
@@ -10187,7 +10539,7 @@
       "villainIds": [
         "Wallace_Jackson_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 264
     },
     {
@@ -10203,7 +10555,7 @@
       "villainIds": [
         "Black_Fox_(Thief)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 265
     },
     {
@@ -10213,7 +10565,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 266
     },
     {
@@ -10229,7 +10581,7 @@
       "villainIds": [
         "Commuter_(Ron)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 267
     },
     {
@@ -10248,7 +10600,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Oswald_Silkworth_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 268
     },
     {
@@ -10264,7 +10616,7 @@
       "villainIds": [
         "Pyreus_Kril_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 269
     },
     {
@@ -10280,7 +10632,7 @@
       "villainIds": [
         "Pyreus_Kril_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 270
     },
     {
@@ -10296,7 +10648,7 @@
       "villainIds": [
         "Manslaughter_Marsdale_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 271
     },
     {
@@ -10312,7 +10664,7 @@
       "villainIds": [
         "Jalome_Beacher_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 272
     },
     {
@@ -10328,7 +10680,7 @@
       "villainIds": [
         "Beyonder_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 273
     },
     {
@@ -10350,7 +10702,7 @@
         "Mephisto_(Earth-616)",
         "Zarathos_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 274
     },
     {
@@ -10372,7 +10724,7 @@
         "Richard_Fisk_(Earth-616)",
         "Roderick_Kingsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 275
     },
     {
@@ -10400,7 +10752,7 @@
         "Edward_Leeds_(Earth-616)",
         "Scourge_(Delazny)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 276
     },
     {
@@ -10419,7 +10771,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Oswald_Silkworth_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 277
     },
     {
@@ -10444,7 +10796,7 @@
         "Scourge_II_(Earth-616)",
         "Brian_DeWolff_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 278
     },
     {
@@ -10460,7 +10812,7 @@
       "villainIds": [
         "Jason_Macendale_Jr._(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 279
     },
     {
@@ -10500,7 +10852,7 @@
         "Jason_Macendale_Jr._(Earth-616)",
         "Frederick_Myers_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 280,
       "groups": [
         {
@@ -10553,7 +10905,7 @@
         "Jason_Macendale_Jr._(Earth-616)",
         "Frederick_Myers_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 281,
       "groups": [
         {
@@ -10599,7 +10951,7 @@
         "Warren_Worthington_III_(Earth-616)",
         "Henry_McCoy_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 282
     },
     {
@@ -10621,7 +10973,7 @@
         "Mary_MacPherran_(Earth-616)",
         "Carl_Creel_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 283
     },
     {
@@ -10655,7 +11007,7 @@
         "Oswald_Silkworth_(Earth-616)",
         "Blue_Boys_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 284
     },
     {
@@ -10686,7 +11038,7 @@
         "Oswald_Silkworth_(Earth-616)",
         "Blue_Boys_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 285
     },
     {
@@ -10711,7 +11063,7 @@
         "Edward_Leeds_(Earth-616)",
         "Blue_Boys_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 286
     },
     {
@@ -10736,7 +11088,7 @@
         "Edward_Leeds_(Earth-616)",
         "Oswald_Silkworth_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 287
     },
     {
@@ -10770,7 +11122,7 @@
         "Oswald_Silkworth_(Earth-616)",
         "Blue_Boys_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 288
     },
     {
@@ -10798,7 +11150,7 @@
         "1400_Club_(Earth-616)",
         "Foreigner_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 289
     },
     {
@@ -10817,7 +11169,7 @@
         "Character_Index/M",
         "Preserver_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 290
     },
     {
@@ -10833,7 +11185,7 @@
       "villainIds": [
         "Alistaire_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 291
     },
     {
@@ -10852,7 +11204,7 @@
         "Alistaire_Smythe_(Earth-616)",
         "Philip_Watson_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 292
     },
     {
@@ -10868,7 +11220,7 @@
       "villainIds": [
         "Edward_Whelan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 293
     },
     {
@@ -10887,7 +11239,7 @@
         "Sergei_Kravinoff_(Earth-616)",
         "Edward_Whelan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 294
     },
     {
@@ -10903,7 +11255,7 @@
       "villainIds": [
         "Doctor_Hope_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 295
     },
     {
@@ -10919,7 +11271,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 296
     },
     {
@@ -10935,7 +11287,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 297
     },
     {
@@ -10957,7 +11309,7 @@
         "Life_Foundation_(Earth-616)",
         "Carlton_Drake_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 298
     },
     {
@@ -10979,7 +11331,7 @@
         "Life_Foundation_(Earth-616)",
         "Carlton_Drake_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 299
     },
     {
@@ -10995,7 +11347,7 @@
       "villainIds": [
         "Venom_(Symbiote)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 300
     },
     {
@@ -11011,7 +11363,7 @@
       "villainIds": [
         "Franz_Kraus_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 301
     },
     {
@@ -11027,7 +11379,7 @@
       "villainIds": [
         "Royce_Nero_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 302
     },
     {
@@ -11043,7 +11395,7 @@
       "villainIds": [
         "Franz_Kraus_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 303
     },
     {
@@ -11059,7 +11411,7 @@
       "villainIds": [
         "Black_Fox_(Thief)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 304
     },
     {
@@ -11081,7 +11433,7 @@
         "Transcorp_(Earth-616)",
         "Troy_Fishburne_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 305
     },
     {
@@ -11103,7 +11455,7 @@
         "Buchanan_Mitty_(Earth-616)",
         "Jonathan_Caesar_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 306
     },
     {
@@ -11122,7 +11474,7 @@
         "Dmitri_Smerdyakov_(Earth-616)",
         "Jonathan_Caesar_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 307
     },
     {
@@ -11141,7 +11493,7 @@
         "Jonathan_Caesar_(Earth-616)",
         "Anthony_Masters_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 308
     },
     {
@@ -11166,7 +11518,7 @@
         "Jacob_Eichorn_(Earth-616)",
         "Gerald_Stone_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 309
     },
     {
@@ -11185,7 +11537,7 @@
         "Phineas_Mason_(Earth-616)",
         "Simon_Maddicks_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 310
     },
     {
@@ -11201,7 +11553,7 @@
       "villainIds": [
         "Quentin_Beck_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 311
     },
     {
@@ -11217,7 +11569,7 @@
       "villainIds": [
         "Jason_Macendale_Jr._(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 312
     },
     {
@@ -11236,7 +11588,7 @@
         "Curtis_Connors_(Earth-616)",
         "Jonathan_Caesar_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 313
     },
     {
@@ -11252,7 +11604,7 @@
       "villainIds": [
         "Malcolm_Kinderman_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 314
     },
     {
@@ -11271,7 +11623,7 @@
         "Morris_Bench_(Earth-616)",
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 315
     },
     {
@@ -11287,7 +11639,7 @@
       "villainIds": [
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 316
     },
     {
@@ -11303,7 +11655,7 @@
       "villainIds": [
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 317
     },
     {
@@ -11325,7 +11677,7 @@
         "MacDonald_Gargan_(Earth-616)",
         "Justin_Hammer_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 318
     },
     {
@@ -11350,7 +11702,7 @@
         "Justin_Hammer_(Earth-616)",
         "Marco_Scarlotti_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 319
     },
     {
@@ -11369,7 +11721,7 @@
         "Life_Foundation_(Earth-616)",
         "Carlton_Drake_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 320
     },
     {
@@ -11391,7 +11743,7 @@
         "Carlton_Drake_(Earth-616)",
         "Protectors_(Life_Foundation)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 321
     },
     {
@@ -11416,7 +11768,7 @@
         "Toler_Weil_(Earth-616)",
         "Klaus_Limka_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 322
     },
     {
@@ -11435,7 +11787,7 @@
         "Underground_Liberated_Totally_Integrated_Mobile_Army_To_Unite_Mankind_(Earth-616)",
         "Toler_Weil_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 323
     },
     {
@@ -11460,7 +11812,7 @@
         "Underground_Liberated_Totally_Integrated_Mobile_Army_To_Unite_Mankind_(Earth-616)",
         "Toler_Weil_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 324
     },
     {
@@ -11488,7 +11840,7 @@
         "Mutant_Force_(Earth-616)",
         "Watchdogs_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 325
     },
     {
@@ -11504,7 +11856,7 @@
       "villainIds": [
         "Franklin_Hall_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 326
     },
     {
@@ -11529,7 +11881,7 @@
         "Bentley_Wittman_(Earth-616)",
         "Max_Eisenhardt_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 327
     },
     {
@@ -11548,7 +11900,7 @@
         "Bruce_Banner_(Earth-616)",
         "Sebastian_Shaw_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 328
     },
     {
@@ -11588,7 +11940,7 @@
         "Avengers_(Earth-616)",
         "Galan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 329
     },
     {
@@ -11604,7 +11956,7 @@
       "villainIds": [
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 330
     },
     {
@@ -11626,7 +11978,7 @@
         "Felicia_Hardy_(Earth-616)",
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 331
     },
     {
@@ -11654,7 +12006,7 @@
         "Gerald_Stone_(Earth-616)",
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 332
     },
     {
@@ -11679,7 +12031,7 @@
         "Gerald_Stone_(Earth-616)",
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 333
     },
     {
@@ -11701,7 +12053,7 @@
         "William_Baker_(Earth-616)",
         "Maxwell_Dillon_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 334,
       "groups": [
         {
@@ -11736,7 +12088,7 @@
         "Herman_Schultz_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 335,
       "groups": [
         {
@@ -11772,7 +12124,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Nicholas_Powell_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 336
     },
     {
@@ -11806,7 +12158,7 @@
         "Jason_Macendale_Jr._(Earth-616)",
         "Jonathan_Caesar_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 337,
       "groups": [
         {
@@ -11854,7 +12206,7 @@
         "Jason_Macendale_Jr._(Earth-616)",
         "Jonathan_Caesar_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 338,
       "groups": [
         {
@@ -11902,7 +12254,7 @@
         "Jason_Macendale_Jr._(Earth-616)",
         "Jonathan_Caesar_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 339,
       "groups": [
         {
@@ -11947,7 +12299,7 @@
         "Elizabeth_Rawson_(Earth-616)",
         "Danielle_Forte_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 340
     },
     {
@@ -11966,7 +12318,7 @@
         "Dmitri_Smerdyakov_(Earth-616)",
         "Luis_Alvarez_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 341
     },
     {
@@ -11985,7 +12337,7 @@
         "Dmitri_Smerdyakov_(Earth-616)",
         "MacDonald_Gargan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 342
     },
     {
@@ -12022,7 +12374,7 @@
         "Danielle_Forte_(Earth-616)",
         "Luis_Alvarez_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 343
     },
     {
@@ -12050,7 +12402,7 @@
         "Hammer_Industries_(Earth-616)",
         "Phillip_Barnett_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 344
     },
     {
@@ -12081,7 +12433,7 @@
         "Hammer_Industries_(Earth-616)",
         "Phillip_Barnett_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 345
     },
     {
@@ -12100,7 +12452,7 @@
         "Venom_(Symbiote)_(Earth-616)",
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 346
     },
     {
@@ -12119,7 +12471,7 @@
         "Venom_(Symbiote)_(Earth-616)",
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 347
     },
     {
@@ -12129,7 +12481,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 348
     },
     {
@@ -12145,7 +12497,7 @@
       "villainIds": [
         "Black_Fox_(Thief)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 349
     },
     {
@@ -12170,7 +12522,7 @@
         "Arcane_Order_of_the_Night_(Earth-616)",
         "Andrew_Carpathian_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 350
     },
     {
@@ -12192,7 +12544,7 @@
         "Carlton_Drake_(Earth-616)",
         "Tri-Sentinel_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 351
     },
     {
@@ -12214,7 +12566,7 @@
         "Carlton_Drake_(Earth-616)",
         "Tri-Sentinel_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 352
     },
     {
@@ -12239,7 +12591,7 @@
         "Secret_Empire_(Earth-616)/Members",
         "Jeffrey_Wilde_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 353
     },
     {
@@ -12267,7 +12619,7 @@
         "Jeffrey_Wilde_(Earth-616)",
         "Lynn_Church_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 354
     },
     {
@@ -12304,7 +12656,7 @@
         "Thomas_Bannion_(Earth-616)",
         "Herb_Bannion_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 355
     },
     {
@@ -12332,7 +12684,7 @@
         "Jeffrey_Wilde_(Earth-616)",
         "Lynn_Church_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 356
     },
     {
@@ -12360,7 +12712,7 @@
         "Jeffrey_Wilde_(Earth-616)",
         "Lynn_Church_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 357,
       "groups": [
         {
@@ -12406,7 +12758,7 @@
         "Thomas_Bannion_(Earth-616)",
         "Herb_Bannion_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 358
     },
     {
@@ -12422,7 +12774,7 @@
       "villainIds": [
         "Elias_Wirtham_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 359
     },
     {
@@ -12444,7 +12796,7 @@
         "Stane_International_(Earth-616)",
         "Joe_Faulkner_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 360
     },
     {
@@ -12463,7 +12815,7 @@
         "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 361
     },
     {
@@ -12482,7 +12834,7 @@
         "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 362
     },
     {
@@ -12501,7 +12853,7 @@
         "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 363
     },
     {
@@ -12517,7 +12869,7 @@
       "villainIds": [
         "Herman_Schultz_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 364
     },
     {
@@ -12551,7 +12903,7 @@
         "Norman_Osborn_(Earth-616)",
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 365
     },
     {
@@ -12579,7 +12931,7 @@
         "Ophelia_Sarkissian_(Earth-616)",
         "Sweat_Shop_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 366
     },
     {
@@ -12613,7 +12965,7 @@
         "Joe_Emberlin_(Earth-616)",
         "Michael_Bingham_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 367
     },
     {
@@ -12632,7 +12984,7 @@
         "John_Jonah_Jameson_(Earth-616)",
         "Alistaire_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 368
     },
     {
@@ -12651,7 +13003,7 @@
         "Maxwell_Dillon_(Earth-616)",
         "Alistaire_Smythe_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 369
     },
     {
@@ -12667,7 +13019,7 @@
       "villainIds": [
         "MacDonald_Gargan_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 370
     },
     {
@@ -12686,7 +13038,7 @@
         "Philip_Watson_(Earth-616)",
         "Max_Young_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 371
     },
     {
@@ -12720,7 +13072,7 @@
         "Spider-Slayer_Mark_XVI",
         "Spider-Slayer_Mark_XVII"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 372
     },
     {
@@ -12742,7 +13094,7 @@
         "Charles_Shaddock_(Earth-616)",
         "Character_Index/P"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 373
     },
     {
@@ -12761,7 +13113,7 @@
         "Venom_(Symbiote)_(Earth-616)",
         "Edward_Brock_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 374
     },
     {
@@ -12804,7 +13156,7 @@
         "Carl_Striklan_(Earth-616)",
         "Jake_Austin_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 375,
       "groups": [
         {
@@ -12843,7 +13195,7 @@
         "Gerald_Stone_(Earth-616)",
         "Elias_Wirtham_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 376
     },
     {
@@ -12865,7 +13217,7 @@
         "Gerald_Stone_(Earth-616)",
         "Elias_Wirtham_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 377
     },
     {
@@ -12890,7 +13242,7 @@
         "Doppelganger_(Spider-Man)_(Earth-616)",
         "Demogoblin_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 378
     },
     {
@@ -12918,7 +13270,7 @@
         "Demogoblin_(Earth-616)",
         "Malcolm_McBride_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 379
     },
     {
@@ -12946,7 +13298,7 @@
         "Demogoblin_(Earth-616)",
         "Malcolm_McBride_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 380
     },
     {
@@ -12962,7 +13314,7 @@
       "villainIds": [
         "Leonard_Samson_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 381
     },
     {
@@ -12978,7 +13330,7 @@
       "villainIds": [
         "Bruce_Banner_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 382
     },
     {
@@ -13012,7 +13364,7 @@
         "Maxwell_Taylor_(Earth-616)",
         "Kenneth_Parmenter_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 383
     },
     {
@@ -13046,7 +13398,7 @@
         "Maxwell_Taylor_(Earth-616)",
         "Kenneth_Parmenter_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 384
     },
     {
@@ -13080,7 +13432,7 @@
         "Maxwell_Taylor_(Earth-616)",
         "Kenneth_Parmenter_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 385
     },
     {
@@ -13096,7 +13448,7 @@
       "villainIds": [
         "Adrian_Toomes_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 386
     },
     {
@@ -13115,7 +13467,7 @@
         "Dmitri_Smerdyakov_(Earth-616)",
         "Adrian_Toomes_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 387
     },
     {
@@ -13144,7 +13496,7 @@
         "Peter_Parker_(Earth-616)",
         "Enos_Warwick_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 388
     },
     {
@@ -13160,7 +13512,7 @@
       "villainIds": [
         "Dmitri_Smerdyakov_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 389
     },
     {
@@ -13176,7 +13528,7 @@
       "villainIds": [
         "Frances_Barrison_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 390
     },
     {
@@ -13195,7 +13547,7 @@
         "Frances_Barrison_(Earth-616)",
         "Malcolm_McBride_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 391
     },
     {
@@ -13214,7 +13566,7 @@
         "Frances_Barrison_(Earth-616)",
         "Malcolm_McBride_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 392
     },
     {
@@ -13233,7 +13585,7 @@
         "Frances_Barrison_(Earth-616)",
         "Malcolm_McBride_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 393
     },
     {
@@ -13264,7 +13616,7 @@
         "Anjali_Sridhara_(Earth-616)",
         "Charles_Bates_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 394
     },
     {
@@ -13280,7 +13632,7 @@
       "villainIds": [
         "Thomas_Fireheart_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 395
     },
     {
@@ -13299,7 +13651,7 @@
         "Adrian_Toomes_(Earth-616)",
         "Leland_Owlsley_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 396
     },
     {
@@ -13321,7 +13673,7 @@
         "Kaine_Parker_(Earth-616)",
         "Angelina_Brancale_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 397
     },
     {
@@ -13337,7 +13689,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 398
     },
     {
@@ -13359,7 +13711,7 @@
         "Samuel_Fox_(Earth-616)",
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 399
     },
     {
@@ -13387,7 +13739,7 @@
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
         "Medea_Kovack_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 400
     },
     {
@@ -13412,7 +13764,7 @@
         "Kaine_Parker_(Earth-616)",
         "Spidercide_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 401
     },
     {
@@ -13431,7 +13783,7 @@
         "Judas_Traveller_(Earth-616)",
         "Charles_Bates_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 402
     },
     {
@@ -13450,7 +13802,7 @@
         "Cletus_Kasady_(Earth-616)",
         "Judas_Traveller_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 403
     },
     {
@@ -13469,7 +13821,7 @@
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
         "Spidercide_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 404
     },
     {
@@ -13485,7 +13837,7 @@
       "villainIds": [
         "Carolyn_Trainer_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 405
     },
     {
@@ -13501,7 +13853,7 @@
       "villainIds": [
         "Carolyn_Trainer_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 406
     },
     {
@@ -13517,7 +13869,7 @@
       "villainIds": [
         "Quentin_Beck_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 407
     },
     {
@@ -13536,7 +13888,7 @@
         "Quentin_Beck_(Earth-616)",
         "David_Breyer_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 408,
       "groups": [
         {
@@ -13582,7 +13934,7 @@
         "Janice_Yanizeski_(Earth-616)",
         "Thomas_Duffy_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 409
     },
     {
@@ -13601,7 +13953,7 @@
         "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 410
     },
     {
@@ -13635,7 +13987,7 @@
         "Andros_(Earth-616)",
         "Lasher_(Cell-12)_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 411
     },
     {
@@ -13654,7 +14006,7 @@
         "Mendel_Stromm_(Earth-616)",
         "Multivex_Corporation_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 412
     },
     {
@@ -13673,7 +14025,7 @@
         "Quentin_Beck_(Earth-616)",
         "David_Breyer_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 413
     },
     {
@@ -13692,7 +14044,7 @@
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 414
     },
     {
@@ -13708,7 +14060,7 @@
       "villainIds": [
         "Sentinels"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 415
     },
     {
@@ -13751,7 +14103,7 @@
         "Jacob_Conover_(Earth-616)",
         "Morgan_Boone_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 416
     },
     {
@@ -13788,7 +14140,7 @@
         "Morgan_Boone_(Earth-616)",
         "Cabal_of_Scrier_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 417
     },
     {
@@ -13807,7 +14159,7 @@
         "Norman_Osborn_(Earth-616)",
         "Mendel_Stromm_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 418
     },
     {
@@ -13823,7 +14175,7 @@
       "villainIds": [
         "Carlos_LaMuerto_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 419
     },
     {
@@ -13851,7 +14203,7 @@
         "Tarantula%27s_Organization_(Earth-616)",
         "El_Uno_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 420
     },
     {
@@ -13885,7 +14237,7 @@
         "Madam_Qwa_(Earth-616)",
         "Karsano_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 421
     },
     {
@@ -13913,7 +14265,7 @@
         "Carlos_LaMuerto_(Earth-616)",
         "Vincente_Fortunato_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 422
     },
     {
@@ -13935,7 +14287,7 @@
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 423
     },
     {
@@ -13966,7 +14318,7 @@
         "Madam_Qwa_(Earth-616)",
         "Yano_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 424
     },
     {
@@ -13988,7 +14340,7 @@
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 425
     },
     {
@@ -13998,7 +14350,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 426
     },
     {
@@ -14026,7 +14378,7 @@
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 427
     },
     {
@@ -14054,7 +14406,7 @@
         "Jacob_Conover_(Earth-616)",
         "Carlos_LaMuerto_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 428
     },
     {
@@ -14076,7 +14428,7 @@
         "Mary_MacPherran_(Earth-616)",
         "Carl_Creel_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 429
     },
     {
@@ -14095,7 +14447,7 @@
         "Cletus_Kasady_(Earth-616)",
         "Norrin_Radd_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 430
     },
     {
@@ -14114,7 +14466,7 @@
         "Cletus_Kasady_(Earth-616)",
         "Norrin_Radd_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 431
     },
     {
@@ -14145,7 +14497,7 @@
         "Green_Goblin_(Construct)_(Earth-616)",
         "Jensen_Walker_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 432
     },
     {
@@ -14155,7 +14507,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 433
     },
     {
@@ -14177,7 +14529,7 @@
         "Jacob_Conover_(Earth-616)",
         "Cabal_of_Scrier_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 434
     },
     {
@@ -14211,7 +14563,7 @@
         "Bloodscream_(Earth-616)",
         "Roughouse_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 435
     },
     {
@@ -14221,7 +14573,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 436
     },
     {
@@ -14237,7 +14589,7 @@
       "villainIds": [
         "Samuel_Smithers_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 437
     },
     {
@@ -14253,7 +14605,7 @@
       "villainIds": [
         "Angela_Bradford_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 438
     },
     {
@@ -14263,7 +14615,7 @@
       "villains": [],
       "villainUrls": [],
       "villainIds": [],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 439
     },
     {
@@ -14279,7 +14631,7 @@
       "villainIds": [
         "Mark_Raxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 440
     },
     {
@@ -14295,7 +14647,7 @@
       "villainIds": [
         "Mark_Raxton_(Earth-616)"
       ],
-      "series": "Amazing Spider-Man Vol 1",
+      "series": "Amazing",
       "chronologicalPosition": 441
     }
   ],
@@ -14311,6 +14663,15 @@
         181
       ],
       "frequency": 4
+    },
+    {
+      "id": "Circus_of_Crime_(Earth-616)",
+      "name": "Circus of Crime",
+      "url": "https://marvel.fandom.com/wiki/Circus_of_Crime_(Earth-616)",
+      "appearances": [
+        16
+      ],
+      "frequency": 1
     },
     {
       "id": "Kingpin%27s_Henchmen",

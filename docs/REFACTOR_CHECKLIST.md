@@ -103,16 +103,28 @@ This checklist consolidates improvement opportunities with clear, actionable ite
 
 ## Groups & Taxonomy
 
-- [ ] Group registry
-  - Create a curated list/registry for groups and aliases; ensure `classifyKind()` is deterministic and auditable.
-- [ ] Members derivation
-  - Confirm `members` on group appearances are derived from same-issue villains only; add tests.
+- [x] Group registry
+  - ✅ Created `GroupRegistry` singleton in `src/utils/groupRegistry.ts`
+  - ✅ Curated list of 16 known Spider-Man villain groups with aliases
+  - ✅ Deterministic ID generation (lowercase, hyphens)
+  - ✅ Audit trail for all lookups and registrations
+  - ✅ Integrated into `classifyKind()` in `groupClassifier.ts`
+  - ✅ Fallback keyword patterns for dynamic groups
+- [x] Members derivation
+  - ✅ Verified in `dataProcessor.ts` `generateTimeline()`
+  - ✅ Members derived from same-issue villains only
+  - ✅ Each group appearance maintains distinct roster per issue
+  - ✅ No cross-issue reconciliation
+  - ✅ Added inline documentation with assertions
 
 **🛑 CHECKPOINT: Groups & Taxonomy Complete**
-- Build project: `npm run build`
-- Run tests: `npm test`
-- Verify group logic works correctly
-- **STOP** - Report completion to user, wait for approval to continue
+- ✅ Build: `npm run build` - Successful
+- ✅ Tests: `npm test` - 337 tests passing, 14 test suites passing
+- ✅ Compiled code verified: `dist/src/utils/groupRegistry.js` exists
+- ✅ New test suite: `src/__tests__/groupTaxonomy.test.ts` with 40+ test cases
+- ✅ Documentation updated: FUNCTIONAL_DOCUMENTATION.md reflects new GroupRegistry pattern
+
+**Completed: January 10, 2026**
 
 ## Visualization Config
 

@@ -10,6 +10,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 import type { IssueData, RawVillainData, Antagonist } from '../types';
+import { isUnnamedOrInvalidAntagonist } from '../utils/nameValidation';
 
 // Configuration constants
 const MARVEL_FANDOM_BASE = 'https://marvel.fandom.com';
@@ -392,10 +393,8 @@ export class MarvelScraper {
                   }
                   
                   // Add to antagonists if valid and has a URL (named character)
-                  // Exclude unnamed characters (e.g., "Unnamed Robbers", "Unidentified thugs")
-                  const isUnnamedCharacter = /^(unnamed|unidentified)/i.test(name);
-                  
-                  if (name && name.length > 1 && url && !isUnnamedCharacter) {
+                  // Exclude unnamed/unidentified/unknown characters
+                  if (name && name.length > 1 && url && !isUnnamedOrInvalidAntagonist(name)) {
                     antagonists.push({ name, url });
                   }
                 });

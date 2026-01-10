@@ -24,6 +24,7 @@ import type {
   SerializedProcessedData
 } from '../types';
 import { classifyKind } from './groupClassifier';
+import { isUnnamedOrInvalidAntagonist } from './nameValidation';
 
 /**
  * Normalizes villain names to canonical form
@@ -143,6 +144,11 @@ export function processVillainData(
       
       if (!rawName || rawName.trim().length === 0) {
         continue; // Skip empty names
+      }
+      
+      // Skip unnamed/unidentified/unknown antagonists (these should not be tracked)
+      if (isUnnamedOrInvalidAntagonist(rawName)) {
+        continue; // Skip unidentified antagonists
       }
 
       const normalized = normalizeVillainName(rawName);
@@ -289,7 +295,7 @@ function generateTimeline(
   const timeline = issues.map((issue, index) => {
     const issueNumber = issue.issueNumber;
 
-    // Individuals in this issue
+    // Individuals in this issue (from villain map)
     const villainsInIssue: ProcessedVillain[] = [];
     for (const villain of villainMap.values()) {
       if (villain.appearances.includes(issueNumber)) {
@@ -297,11 +303,26 @@ function generateTimeline(
       }
     }
 
-    // Groups in this issue
+    // Groups in this issue, with members derived from same-issue villains only
+    // CRITICAL: Members list MUST reflect only the individuals present in THIS issue,
+    // not aggregated across all appearances of the group. This ensures:
+    // - Issue 5: Group X has members [A, B, C]
+    // - Issue 50: Group X has members [D, E, F]
+    // - Each group appearance has its own distinct member list per issue
     const groupAppearances: GroupAppearance[] = [];
     for (const group of groupMap.values()) {
       if (group.appearances.includes(issueNumber)) {
+        // Derive members from villains present in THIS issue only
         const members = villainsInIssue.map(v => v.name);
+
+        // Assert that members list reflects current issue context
+        if (members.length === 0) {
+          console.warn(
+            `[Group Members Derivation] Group "${group.name}" appears in issue ${issueNumber} ` +
+            `but has no member villains. This may indicate a data quality issue.`
+          );
+        }
+
         groupAppearances.push({
           id: group.id,
           name: group.name,

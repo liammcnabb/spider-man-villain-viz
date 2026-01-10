@@ -176,8 +176,30 @@ classDiagram
 - **Stats Robustness:**
   - `generateStats()` computes `mostFrequent` by full `ProcessedVillain`. Consider returning `{ id, name, count }` to decouple stats from full entity and reduce payload; add tie‑handling and optional weighting by chronology.
 
-- **Group Modeling:**
-  - `classifyKind()` determines groups heuristically. Codify group taxonomy with a curated alias list and ensure groups don’t leak into individual maps. Consider a `GroupRegistry` for canonical group identification across series.
+- **Group Modeling (✅ COMPLETE):**
+  - ✅ COMPLETE: Implemented `GroupRegistry` singleton in [src/utils/groupRegistry.ts](src/utils/groupRegistry.ts)
+  - **GroupRegistry Pattern:**
+    - Curated registry of known Spider-Man villain groups with canonical names and aliases
+    - Deterministic and auditable: all lookups are normalized (lowercase, trimmed) and logged
+    - Singleton pattern ensures consistent classification across the entire application
+    - Fallback keyword patterns catch dynamic/unknown group names (e.g., "Unknown Henchmen")
+  - **Usage in Classification:**
+    - `classifyKind()` in [src/utils/groupClassifier.ts](src/utils/groupClassifier.ts) checks `GroupRegistry` first
+    - Returns 'group' for registered groups or names matching keyword patterns
+    - Returns 'individual' for all other names
+  - **Audit Trail for Debugging:**
+    - Registry maintains audit log of all lookups and classifications
+    - Enable/disable with `registry.setAuditEnabled(boolean)`
+    - Access logs with `registry.getAuditLog(eventType?)`
+  - **Members Derivation (Issue-Based):**
+    - Group members in [src/utils/dataProcessor.ts](src/utils/dataProcessor.ts) `generateTimeline()` are derived from same-issue villains only
+    - Issue 5: Sinister Six has roster [A, B, C]
+    - Issue 50: Sinister Six has roster [D, E, F]
+    - Each `GroupAppearance` maintains its own member list per issue (no reconciliation across appearances)
+  - **Testing:**
+    - Comprehensive tests in [src/__tests__/groupTaxonomy.test.ts](src/__tests__/groupTaxonomy.test.ts)
+    - Tests: alias resolution, case-insensitivity, whitespace normalization, determinism, audit logging
+    - Tests: member derivation invariants, empty rosters, member order preservation
 
 - **Config Generation:**
   - D3 config generation spans two modules (`d3Graph.ts` and `generateD3FromCombined.ts`). Unify into a single `D3ConfigBuilder` with explicit input types: `ProcessedData | CombinedData`.
