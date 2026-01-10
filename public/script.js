@@ -35,8 +35,11 @@ class SpiderManVisualization {
         this.groupMembers = new Map();
         this.seriesColorMap = {
             'Amazing Spider-Man Vol 1': '#e74c3c',
+            'Amazing_Spider-Man_Vol_1': '#e74c3c',
             'Amazing Spider-Man Annual Vol 1': '#9b59b6',
-            'Untold Tales of Spider-Man Vol 1': '#3498db'
+            'Amazing_Spider-Man_Annual_Vol_1': '#9b59b6',
+            'Untold Tales of Spider-Man Vol 1': '#3498db',
+            'Untold_Tales_of_Spider-Man_Vol_1': '#3498db'
         };
     }
 

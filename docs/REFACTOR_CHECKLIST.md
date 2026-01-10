@@ -44,13 +44,13 @@ This checklist consolidates improvement opportunities with clear, actionable ite
 
 ## Identity & Data Modeling
 
-- [ ] Identity policy: historical separation
+- [x] Identity policy: historical separation
   - Keep entities with only names and those with later-added URLs as separate identities historically; do not reconcile retroactively.
   - Document in `src/utils/dataProcessor.ts` and `src/types.ts` comments to avoid ambiguity.
-- [ ] Explicit identity strategy
+- [x] Explicit identity strategy
   - Define `EntityIdStrategy`: primary key by canonical URL slug when present; fallback to normalized name otherwise; never merge later.
   - Add `identitySource: 'url' | 'name'` on `ProcessedVillain` for transparency.
-- [ ] Serialized types
+- [x] Serialized types
   - Introduce `SerializedProcessedData` TypeScript type for the output of `serializeProcessedData()` and use it across `mergeDatasets` and visualization.
 
 **🛑 CHECKPOINT: Identity & Data Modeling Complete**
@@ -61,17 +61,17 @@ This checklist consolidates improvement opportunities with clear, actionable ite
 
 ## Workflow Separation (Scrape vs Process)
 
-- [ ] Decouple orchestration in `src/index.ts`
+- [x] Decouple orchestration in `src/index.ts`
   - Extract `ScrapeRunner` (outputs raw per-series JSON only).
   - Extract `ProcessRunner` (reads raw JSON, produces processed outputs & D3 config).
   - Extract `Publisher` (copies to `public/data`).
-- [ ] CLI redesign
+- [x] CLI redesign
   - `scrape`: writes `data/raw.{Series}.json` (no processing).
   - `process`: reads `data/raw.{Series}.json` → writes `villains.{Series}.json`, `d3-config.{Series}.json`.
   - `merge`: builds combined `villains.json`, `d3-config.json` from series outputs.
   - `publish`: copies series and combined files into `public/data`.
   - `serve`: static server for `public`.
-- [ ] CLI arguments
+- [x] CLI arguments
   - `scrape`: `--series`, `--issues`, `--out data/raw.{Series}.json`.
   - `process`: `--series`, `--in`, `--out`, optional `--validate`.
   - `merge`: `--inputs glob` (default `data/villains.*.json`), `--out data/villains.json`.
@@ -85,11 +85,11 @@ This checklist consolidates improvement opportunities with clear, actionable ite
 
 ## Validation, Errors, and Tests
 
-- [ ] Typed errors
+- [x] Typed errors
   - Create `ScrapeError`, `ValidationError`, `IOError` classes and use them where applicable.
-- [ ] Schema validation
+- [x] Schema validation
   - Use `zod` (or similar) to validate `RawVillainData`, `ProcessedData`, and `SerializedProcessedData` at boundaries.
-- [ ] Targeted tests
+- [x] Targeted tests
   - Normalization coverage: aliases, punctuation, whitespace.
   - Identity invariants: name-only vs URL remain separate across processing and merging.
   - Group classification edge cases and taxonomy list.

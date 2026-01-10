@@ -36,6 +36,9 @@ The **easiest way** to run everything is with one command:
 # Quick test: scrape, process, merge, and publish 5 issues
 npm run pipeline -- --series "Untold Tales of Spider-Man Vol 1" --issues 1-5
 
+# Or use underscore format (both work thanks to SeriesName utility!)
+npm run pipeline -- --series "Untold_Tales_of_Spider-Man_Vol_1" --issues 1-5
+
 # Or use any series with full workflow
 npm run pipeline -- --series "Amazing Spider-Man Vol 1" --issues 1-20
 ```

@@ -74,6 +74,14 @@ Learn about filtering, sorting, zoom, and fullscreen:
   - Interactive workflows
   - Advanced techniques
 
+### Utilities & Technical Guides
+- **[SERIES_NAME_UTILITY.md](docs/SERIES_NAME_UTILITY.md)** - Series Name Handler
+  - Format-agnostic series name handling
+  - Automatic normalization (spaces ↔ underscores)
+  - Color mapping API
+  - Integration guide
+  - 52 comprehensive tests
+
 ### Complete Overview
 - **[COMPLETE_FEATURE_SET.md](COMPLETE_FEATURE_SET.md)** ⭐ **COMPREHENSIVE**
   - All features overview

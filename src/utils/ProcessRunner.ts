@@ -11,6 +11,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { SeriesName } from './seriesName';
 import type { RawVillainData, SerializedProcessedData, ProcessedData } from '../types';
 import {
   processVillainData,
@@ -46,18 +47,19 @@ export class ProcessRunner {
   }
 
   /**
-   * Derives series slug from series name or raw data
+   * Derives series slug from series name or raw data using SeriesName utility
    */
   private deriveSeriesSlug(rawData: RawVillainData): string {
     const baseUrl = typeof (rawData as any).baseUrl === 'string' 
       ? (rawData as any).baseUrl as string 
       : '';
     
-    const slugFromBase = baseUrl.includes('/wiki/')
-      ? baseUrl.split('/wiki/')[1].replace('_{issue}', '')
-      : rawData.series.replace(/\s+/g, '_').replace(/Vol\s+/i, 'Vol_');
+    if (baseUrl.includes('/wiki/')) {
+      return baseUrl.split('/wiki/')[1].replace('_{issue}', '');
+    }
     
-    return slugFromBase || rawData.series.replace(/\s+/g, '_').replace(/Vol\s+/i, 'Vol_');
+    // Use SeriesName utility for consistent slug generation
+    return new SeriesName(rawData.series).toSlug();
   }
 
   /**

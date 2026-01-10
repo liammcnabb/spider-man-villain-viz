@@ -41,6 +41,8 @@ See [COMPLETE_FEATURE_SET.md](COMPLETE_FEATURE_SET.md) for comprehensive feature
 
 - **Frontend**: D3.js, HTML5, CSS3
 - **Backend/Scraping**: Node.js + TypeScript, Cheerio, Axios
+- **Data Processing**: Zod (runtime validation), SeriesName utility (format-agnostic names)
+- **Testing**: Jest (307 tests across 13 suites)
 - **Build Tool**: TypeScript, npm
 
 ## Project Structure
@@ -59,6 +61,9 @@ spider-man-villain-timeline/
 │       ├── ProcessRunner.ts     # Processing orchestration
 │       ├── MergeRunner.ts       # Merging orchestration
 │       ├── Publisher.ts         # Publishing orchestration
+│       ├── seriesName.ts        # Format-agnostic series names (NEW)
+│       ├── schemas.ts           # Zod validation schemas
+│       ├── errors.ts            # Typed error classes
 │       ├── commandParser.ts     # CLI argument parser
 │       └── dataProcessor.ts     # Data normalization
 ├── data/
@@ -74,6 +79,7 @@ spider-man-villain-timeline/
 │   └── data/                 # Published data files
 ├── docs/
 │   ├── ARCHITECTURE.md       # System architecture
+│   ├── SERIES_NAME_UTILITY.md  # SeriesName utility API (NEW)
 │   ├── CHECKPOINT_2_COMPLETION.md  # CHECKPOINT 2 report
 │   └── REFACTOR_CHECKLIST.md # Refactoring progress
 ├── package.json

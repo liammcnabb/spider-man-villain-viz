@@ -4,6 +4,8 @@
  * Parses command-line arguments for the scrape command
  */
 
+import { SeriesName } from './seriesName';
+
 // Configuration constants
 const DEFAULT_FALLBACK_RANGE = 20; // Default issue count for unknown volumes
 
@@ -132,23 +134,25 @@ export function parseScrapeArgs(args: string[]): ScrapeOptions {
 /**
  * Generates a default issue range for a volume
  * 
- * @param volume - Volume name
+ * @param volume - Volume name (supports both space and underscore formats)
  * @returns Array of issue numbers for the volume's full range
  */
 export function getDefaultIssuesForVolume(volume: string): number[] {
+  // Normalize series name to handle both space and underscore formats
+  const seriesName = new SeriesName(volume);
+  
   const volumeRanges: { [key: string]: [number, number] } = {
     'Amazing Spider-Man Vol 1': [1, 441],
     'Amazing Spider-Man Vol 2': [1, 58],
     'Amazing Spider-Man Vol 3': [1, 20],
     'Amazing Spider-Man Vol 4': [1, 32],
     'Amazing Spider-Man Vol 5': [1, 93],
-    // Added support for Untold Tales of Spider-Man Vol 1
     'Untold Tales of Spider-Man Vol 1': [1, 25],
-    // Added support for Amazing Spider-Man Annual Vol 1
     'Amazing Spider-Man Annual Vol 1': [1, 28]
   };
-  
-  const range = volumeRanges[volume];
+
+  // Look up using normalized display format (with spaces)
+  const range = volumeRanges[seriesName.toDisplay()];
   if (!range) {
     // Default to first N issues if volume not found
     console.warn(`Unknown volume: ${volume}, defaulting to issues 1-${DEFAULT_FALLBACK_RANGE}`);

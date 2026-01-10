@@ -10,6 +10,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { MarvelScraper } from '../scraper/marvelScraper';
+import { SeriesName } from './seriesName';
 import type { RawVillainData } from '../types';
 
 export interface ScrapeOptions {
@@ -46,18 +47,19 @@ export class ScrapeRunner {
   }
 
   /**
-   * Derives series slug from base URL or series name
+   * Derives series slug from base URL or series name using SeriesName utility
    */
   private deriveSeriesSlug(rawData: RawVillainData, seriesName: string): string {
     const baseUrl = typeof (rawData as any).baseUrl === 'string' 
       ? (rawData as any).baseUrl as string 
       : '';
     
-    const slugFromBase = baseUrl.includes('/wiki/')
-      ? baseUrl.split('/wiki/')[1].replace('_{issue}', '')
-      : seriesName.replace(/\s+/g, '_').replace(/Vol\s+/i, 'Vol_');
+    if (baseUrl.includes('/wiki/')) {
+      return baseUrl.split('/wiki/')[1].replace('_{issue}', '');
+    }
     
-    return slugFromBase || seriesName.replace(/\s+/g, '_').replace(/Vol\s+/i, 'Vol_');
+    // Use SeriesName utility for consistent slug generation
+    return new SeriesName(seriesName).toSlug();
   }
 
   /**

@@ -95,6 +95,63 @@ async run(options: ProcessOptions): Promise<SerializedProcessedData>
 async runMultipleSeries(seriesNames: string[]): Promise<void>
 ```
 
+### SeriesName Utility (`src/utils/seriesName.ts`)
+
+**Responsibility**: Handle series name format inconsistencies
+
+**Problem Solved**: 
+Before this utility, series names appeared in two formats throughout the codebase:
+- Display format (spaces): `"Amazing Spider-Man Vol 1"` - human-readable
+- Slug format (underscores): `"Amazing_Spider-Man_Vol_1"` - for filenames/URLs
+
+This caused:
+- ❌ Color mapping failures (map had spaces, data had underscores)
+- ❌ Series comparison failures (different formats didn't match)
+- ❌ Duplicate entries in configuration dictionaries
+- ❌ Fragile string manipulation scattered throughout codebase
+
+**Solution**:
+The `SeriesName` class provides:
+- ✅ Automatic normalization - accepts any format, normalizes internally
+- ✅ Format conversion - `.toDisplay()` and `.toSlug()` methods
+- ✅ Format-agnostic comparison - `.equals()` handles both formats
+- ✅ Centralized logic - one place to maintain series name handling
+
+**Key Methods**:
+```typescript
+// Create from any format
+const series = new SeriesName('Amazing_Spider-Man_Vol_1');
+
+// Format conversion
+series.toDisplay()  // "Amazing Spider-Man Vol 1"
+series.toSlug()     // "Amazing_Spider-Man_Vol_1"
+
+// Format-agnostic comparison (case-insensitive)
+series.equals('Amazing Spider-Man Vol 1')     // true
+series.equals('Amazing_Spider-Man_Vol_1')     // true
+series.equals('amazing spider-man vol 1')     // true
+
+// Color lookup (format-agnostic)
+getSeriesColor('Amazing_Spider-Man_Vol_1')    // '#e74c3c'
+getSeriesColor('Amazing Spider-Man Vol 1')    // '#e74c3c' (same!)
+
+// Static utilities
+SeriesName.normalize('Amazing_Spider-Man_Vol_1')        // "Amazing Spider-Man Vol 1"
+SeriesName.fromFilePath('data/villains.Amazing_Spider-Man_Vol_1.json')  // SeriesName instance
+SeriesName.getSupportedSeries()                         // Array of all series
+SeriesName.isSupported('Amazing Spider-Man Vol 1')      // true
+```
+
+**Integration Points**:
+- `cliParser.ts` - Normalizes CLI arguments (accepts both formats)
+- `ScrapeRunner.ts` - Uses `.toSlug()` for consistent file naming
+- `ProcessRunner.ts` - Uses `.toSlug()` for consistent file naming
+- `public/script.js` - Color map supports both formats
+
+**Test Coverage**: 52 comprehensive tests covering normalization, comparison, format conversion, file path parsing, and integration scenarios.
+
+**Documentation**: See [docs/SERIES_NAME_UTILITY.md](./SERIES_NAME_UTILITY.md) for complete API reference and integration guide.
+
 ### 3. MergeRunner (`src/utils/MergeRunner.ts`)
 
 **Responsibility**: Combine series datasets into unified output
