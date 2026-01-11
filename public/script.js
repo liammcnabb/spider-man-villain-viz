@@ -22,6 +22,7 @@ class SpiderManVisualization {
         this.groups = [];
         this.seriesData = [];  // Store separate series data for grid display
         this.showTrailingGrids = true; // Toggle state for trailing empty cells
+        this.elasticMode = false; // Elastic X-axis toggle state
         this.minAppearancesFilter = 3; // Minimum number of appearances to display
         this.yAxisSort = 'default'; // Sorting method: 'default' or 'span'
         this.gridSvg = null; // Reference to current grid SVG
@@ -496,6 +497,15 @@ class SpiderManVisualization {
             });
         }
 
+        const elasticToggle = document.getElementById('elasticModeToggle');
+        if (elasticToggle) {
+            elasticToggle.addEventListener('change', (e) => {
+                this.elasticMode = e.target.checked;
+                this.syncTrailingToggleState();
+                this.renderGridTimeline();
+            });
+        }
+
         // Setup minimum appearances filter
         const minAppearances = document.getElementById('minAppearancesFilter');
         if (minAppearances) {
@@ -519,6 +529,24 @@ class SpiderManVisualization {
 
         // Setup fullscreen
         this.setupFullscreen();
+
+        // Ensure trailing toggle reflects elastic state on load
+        this.syncTrailingToggleState();
+    }
+
+    /**
+     * Sync trailing toggle state based on elastic mode
+     */
+    syncTrailingToggleState() {
+        const trailingToggle = document.getElementById('showTrailingGrids');
+        if (!trailingToggle) return;
+
+        if (this.elasticMode) {
+            trailingToggle.checked = true;
+            trailingToggle.disabled = true;
+        } else {
+            trailingToggle.disabled = false;
+        }
     }
 
     /**
@@ -822,6 +850,24 @@ class SpiderManVisualization {
             return;
         }
 
+        if (this.elasticMode) {
+            const elasticData = this.buildElasticGridData({
+                issues,
+                villains,
+                appearances,
+                issueMap
+            });
+            this.renderElasticGrid({
+                containerDiv,
+                villains,
+                villainFirstChrono,
+                villainLastChrono,
+                appearances,
+                elasticData
+            });
+            return;
+        }
+
         const cellSize = 20;
         const marginLeft = 150;
         const marginTop = 40;
@@ -939,6 +985,284 @@ class SpiderManVisualization {
             .attr('text-anchor', 'end')
             .attr('font-size', '11px')
             .text((d) => d);
+    }
+
+    /**
+     * Build elastic grid data structure (issue + gap columns and web ranges)
+     */
+    buildElasticGridData({ issues, villains, appearances, issueMap }) {
+        // For elastic mode, only include columns where filtered villains appear
+        const relevantChronos = new Set();
+        
+        // Collect all chronological positions where ANY filtered villain appears
+        villains.forEach(villain => {
+            for (let chrono in appearances) {
+                if (appearances[chrono]?.has(villain)) {
+                    relevantChronos.add(Number(chrono));
+                }
+            }
+        });
+        
+        // Sort the relevant chronos
+        const sortedChronos = Array.from(relevantChronos).sort((a, b) => a - b);
+        
+        if (sortedChronos.length === 0) {
+            return {
+                elasticColumns: [],
+                chronoToElasticPos: new Map(),
+                villainChronos: new Map(),
+                villainWebRanges: {}
+            };
+        }
+        
+        const elasticColumns = [];
+        const chronoToElasticPos = new Map();
+
+        for (let i = 0; i < sortedChronos.length; i++) {
+            const chrono = sortedChronos[i];
+            const issueEntry = issueMap.get(chrono);
+            const issueColumn = {
+                type: 'issue',
+                chrono,
+                issue: issueEntry
+            };
+            chronoToElasticPos.set(chrono, elasticColumns.length);
+            elasticColumns.push(issueColumn);
+
+            if (i < sortedChronos.length - 1) {
+                const nextChrono = sortedChronos[i + 1];
+                const gapSize = nextChrono - chrono - 1;
+                if (gapSize > 0) {
+                    const nextIssue = issueMap.get(nextChrono);
+                    elasticColumns.push({
+                        type: 'gap',
+                        fromChrono: chrono,
+                        toChrono: nextChrono,
+                        gapSize,
+                        color: (nextIssue && nextIssue.seriesColor) || '#f8f9fa'
+                    });
+                }
+            }
+        }
+
+        // Track villain-specific chronological appearances for web ranges
+        const villainChronos = new Map();
+        villains.forEach((villain) => {
+            const chronos = [];
+            sortedChronos.forEach((chrono) => {
+                if (appearances[chrono]?.has(villain)) {
+                    chronos.push(chrono);
+                }
+            });
+            villainChronos.set(villain, chronos);
+        });
+
+        const villainWebRanges = {};
+        villains.forEach((villain) => {
+            const chronos = villainChronos.get(villain) || [];
+            const ranges = [];
+            for (let i = 0; i < chronos.length - 1; i++) {
+                const fromChrono = chronos[i];
+                const toChrono = chronos[i + 1];
+                const gapSize = toChrono - fromChrono - 1;
+                
+                // Only create web range if there's an actual gap between appearances
+                if (gapSize > 0) {
+                    const fromIdx = chronoToElasticPos.get(fromChrono);
+                    const toIdx = chronoToElasticPos.get(toChrono);
+                    if (typeof fromIdx === 'number' && typeof toIdx === 'number') {
+                        const toIssue = issueMap.get(toChrono);
+                        ranges.push({
+                            from: fromIdx,
+                            to: toIdx,
+                            gapSize: gapSize,
+                            color: (toIssue && toIssue.seriesColor) || '#e74c3c'
+                        });
+                    }
+                }
+            }
+            villainWebRanges[villain] = ranges;
+        });
+
+        return {
+            elasticColumns,
+            chronoToElasticPos,
+            villainChronos,
+            villainWebRanges
+        };
+    }
+
+    /**
+     * Render elastic grid with gap columns and web connectors
+     */
+    renderElasticGrid({ containerDiv, villains, villainFirstChrono, villainLastChrono, appearances, elasticData }) {
+
+        
+        const cellSize = 20;
+        const marginLeft = 150;
+        const marginTop = 40;
+        const marginRight = 20;
+        const marginBottom = 20;
+
+        const width = elasticData.elasticColumns.length * cellSize;
+        const height = villains.length * cellSize;
+        const totalWidth = width + marginLeft + marginRight;
+        const totalHeight = height + marginTop + marginBottom;
+
+        // Create SVG
+        const svg = d3.select(containerDiv)
+            .append('svg')
+            .attr('width', Math.max(800, totalWidth))
+            .attr('height', totalHeight)
+            .attr('viewBox', `0 0 ${totalWidth} ${totalHeight}`)
+            .style('background', this.getSvgBackground());
+
+        // Pan and zoom group
+        const g = svg.append('g')
+            .attr('transform', `translate(${marginLeft},${marginTop})`);
+
+        // Pan and zoom behavior
+        const zoom = d3.zoom()
+            .scaleExtent([0.5, 16])
+            .on('zoom', (event) => {
+                g.attr('transform', event.transform.translate(marginLeft, marginTop));
+            });
+
+        svg.call(zoom);
+
+        this.gridSvg = svg;
+        this.gridZoom = zoom;
+        this.gridGroup = g;
+
+        // Draw gap column backgrounds across all rows
+        elasticData.elasticColumns.forEach((column, xIdx) => {
+            if (column.type === 'gap') {
+                g.append('rect')
+                    .attr('class', 'gap-column-bg')
+                    .attr('x', xIdx * cellSize)
+                    .attr('y', 0)
+                    .attr('width', cellSize)
+                    .attr('height', villains.length * cellSize)
+                    .attr('fill', column.color)
+                    .attr('opacity', 0.12);
+            }
+        });
+
+        // Issue labels (X-axis) for issue columns only
+        g.selectAll('text.elastic-issue-label')
+            .data(elasticData.elasticColumns.filter(d => d.type === 'issue'))
+            .enter()
+            .append('text')
+            .attr('class', 'issue-label')
+            .attr('x', (d, i) => {
+                // Find actual index in elasticColumns
+                const actualIdx = elasticData.elasticColumns.indexOf(d);
+                return actualIdx * cellSize + cellSize / 2;
+            })
+            .attr('y', -10)
+            .attr('text-anchor', 'middle')
+            .attr('font-size', '11px')
+            .attr('font-weight', 'bold')
+            .text((d) => d.issue ? d.issue.label : `#${d.chrono}`)
+            .append('title')
+            .text((d) => d.issue ? `${d.issue.series} (Chrono: ${d.chrono})` : `Chrono: ${d.chrono}`);
+
+        // Villain labels (Y-axis)
+        g.selectAll('text.villain-label')
+            .data(villains)
+            .enter()
+            .append('text')
+            .attr('class', 'villain-label')
+            .attr('x', (d) => {
+                const firstChrono = villainFirstChrono[d];
+                const elasticPos = elasticData.chronoToElasticPos.get(firstChrono) || 0;
+                return elasticPos * cellSize - 8;
+            })
+            .attr('y', (d, i) => i * cellSize + cellSize / 2 + 4)
+            .attr('text-anchor', 'end')
+            .attr('font-size', '11px')
+            .text((d) => d);
+
+        // Render villain rows
+        villains.forEach((villain, yIdx) => {
+            const y = yIdx * cellSize;
+            const webRanges = elasticData.villainWebRanges[villain] || [];
+            
+            elasticData.elasticColumns.forEach((column, xIdx) => {
+                const x = xIdx * cellSize;
+                const webRange = webRanges.find(range => xIdx > range.from && xIdx < range.to);
+                const isInWebRange = Boolean(webRange);
+
+                if (column.type === 'issue') {
+                    const isPresent = appearances[column.chrono]?.has(villain) ?? false;
+                    
+                    if (!isPresent && !isInWebRange) {
+                        return;
+                    }
+
+                    if (isPresent) {
+                        const cellColor = (column.issue && column.issue.seriesColor) || '#e74c3c';
+                        g.append('rect')
+                            .attr('class', 'grid-cell')
+                            .attr('x', x)
+                            .attr('y', y)
+                            .attr('width', cellSize)
+                            .attr('height', cellSize)
+                            .attr('fill', cellColor)
+                            .attr('stroke', '#34495e')
+                            .attr('stroke-width', 0.5)
+                            .on('mouseenter', (event) => {
+                                this.showGridTooltip(event, {
+                                    villain,
+                                    issue: column.issue ? column.issue.label : `#${column.chrono}`,
+                                    series: column.issue ? column.issue.series : 'Unknown',
+                                    present: true,
+                                    chronoPos: column.chrono
+                                });
+                            })
+                            .on('mouseleave', () => {
+                                this.hideGridTooltip();
+                            });
+                    } else if (isInWebRange) {
+                        g.append('line')
+                            .attr('class', 'web-connector')
+                            .attr('x1', x + 2)
+                            .attr('y1', y + cellSize / 2)
+                            .attr('x2', x + cellSize - 2)
+                            .attr('y2', y + cellSize / 2)
+                            .attr('stroke', webRange.color)
+                            .attr('stroke-width', 1.5)
+                            .attr('stroke-dasharray', '3,3')
+                            .attr('opacity', 0.7);
+                    } else {
+                        g.append('rect')
+                            .attr('class', 'empty-cell')
+                            .attr('x', x)
+                            .attr('y', y)
+                            .attr('width', cellSize)
+                            .attr('height', cellSize)
+                            .attr('fill', '#ecf0f1')
+                            .attr('stroke', '#bdc3c7')
+                            .attr('stroke-width', 0.5);
+                    }
+                } else {
+                    // gap column - only draw web connector if applicable
+                    if (isInWebRange) {
+                        g.append('line')
+                            .attr('class', 'web-connector')
+                            .attr('x1', x + 2)
+                            .attr('y1', y + cellSize / 2)
+                            .attr('x2', x + cellSize - 2)
+                            .attr('y2', y + cellSize / 2)
+                            .attr('stroke', webRange.color)
+                            .attr('stroke-width', 1.5)
+                            .attr('stroke-dasharray', '2,2')
+                            .attr('opacity', 0.6);
+                    }
+                    // Gap columns without web ranges are left empty (just spacing)
+                }
+            });
+        });
     }
 
     /**
@@ -1701,7 +2025,7 @@ class SpiderManVisualization {
                 }
             };
             img.onload = () => {
-                console.log(`✓ Image loaded successfully for ${villain.name}`);
+                // Image loaded successfully
             };
             header.appendChild(img);
         }
