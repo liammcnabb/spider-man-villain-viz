@@ -11,7 +11,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import type { SerializedProcessedData } from '../types';
 import { mergeDatasets } from './mergeDatasets';
-import { generateD3ConfigFromCombined } from './generateD3FromCombined';
+import { D3ConfigBuilder } from '../visualization/D3ConfigBuilder';
 
 export interface MergeOptions {
   inputsPattern?: string; // Pattern for input files (default: 'villains.*.json')
@@ -158,7 +158,8 @@ export class MergeRunner {
     // Generate D3 config from combined data
     console.log('📊 Generating combined D3 config...');
     try {
-      generateD3ConfigFromCombined(outputPath, d3ConfigPath);
+      const builder = new D3ConfigBuilder();
+      builder.buildAndSaveFromCombined(outputPath, d3ConfigPath);
       console.log(`✓ Saved combined D3 config to ${d3ConfigPath}`);
     } catch (error) {
       console.error('⚠️  Warning: Failed to generate D3 config from merged data:', error);

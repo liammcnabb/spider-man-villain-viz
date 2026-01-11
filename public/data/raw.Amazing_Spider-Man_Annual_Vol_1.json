@@ -1,1130 +1,1130 @@
 {
-  "series": "Amazing Spider-Man Annual Vol 1",
-  "baseUrl": "https://marvel.fandom.com/wiki/Amazing_Spider-Man_Annual_Vol_1_{issue}",
-  "issues": [
-    {
-      "issueNumber": 1,
-      "title": "Amazing Spider-Man Annual #1",
-      "releaseDate": "June 11, 1964",
-      "antagonists": [
-        {
-          "name": "Sinister Six",
-          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
-          "imageUrl": "/images/sinister-six-earth-616.jpg"
-        },
-        {
-          "name": "Vulture (Adrian Toomes)",
-          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
-          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
-        },
-        {
-          "name": "Electro (Max Dillon)",
-          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
-          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
-        },
-        {
-          "name": "Doctor Octopus (Otto Octavius)",
-          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-          "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        },
-        {
-          "name": "Mysterio (Quentin Beck)",
-          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
-          "imageUrl": "/images/quentin-beck-earth-616.jpg"
-        },
-        {
-          "name": "Kraven the Hunter (Sergei Kravinoff)",
-          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
-          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
-        },
-        {
-          "name": "Sandman (Flint Marko)",
-          "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
-          "imageUrl": "/images/william-baker-earth-616.jpg"
-        },
-        {
-          "name": "Mysterio's X-Men",
-          "url": "https://marvel.fandom.com/wiki/X-Men_(Mysterio%27s_Androids)_(Earth-616)",
-          "imageUrl": "/images/x-men-mysterio-27s-androids-earth-616.jpg"
-        },
-        {
-          "name": "Cyclops",
-          "url": "https://marvel.fandom.com/wiki/Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
-          "imageUrl": "/images/cyclops-mysterio-27s-androids-earth-616.jpg"
-        },
-        {
-          "name": "Angel",
-          "url": "https://marvel.fandom.com/wiki/Angel_(Mysterio%27s_Androids)_(Earth-616)",
-          "imageUrl": "/images/angel-mysterio-27s-androids-earth-616.jpg"
-        },
-        {
-          "name": "Beast",
-          "url": "https://marvel.fandom.com/wiki/Beast_(Mysterio%27s_Androids)_(Earth-616)",
-          "imageUrl": "/images/beast-mysterio-27s-androids-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 2,
-      "title": "Amazing Spider-Man Annual #2",
-      "releaseDate": "June 1, 1965",
-      "antagonists": [
-        {
-          "name": "Xandu",
-          "url": "https://marvel.fandom.com/wiki/Xandu_(Sorcerer)_(Earth-616)",
-          "imageUrl": "/images/xandu-sorcerer-earth-616.jpg"
-        },
-        {
-          "name": "Burglar",
-          "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
-          "imageUrl": "/images/carradine-earth-616.jpg"
-        },
-        {
-          "name": "Tinkerer (Phineas Mason)",
-          "url": "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
-          "imageUrl": "/images/phineas-mason-earth-616.jpg"
-        },
-        {
-          "name": "Quentin Beck",
-          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
-          "imageUrl": "/images/quentin-beck-earth-616.jpg"
-        },
-        {
-          "name": "Charlie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
-        },
-        {
-          "name": "Charlie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
-        },
-        {
-          "name": "Doctor Doom (Victor von Doom)",
-          "url": "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
-          "imageUrl": "/images/victor-von-doom-earth-616.jpg"
-        },
-        {
-          "name": "Doombot",
-          "url": "https://marvel.fandom.com/wiki/Doombot",
-          "imageUrl": "/images/doombot.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 3,
-      "title": "Amazing Spider-Man Annual #3",
-      "releaseDate": "August 2, 1966",
-      "antagonists": [
-        {
-          "name": "Hulk (Dr. Bruce Banner)",
-          "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
-          "imageUrl": "/images/bruce-banner-earth-616.jpg"
-        },
-        {
-          "name": "Doctor Octopus (Otto Octavius)",
-          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-          "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        },
-        {
-          "name": "Blackie Gaxton",
-          "url": "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)",
-          "imageUrl": "/images/blackie-gaxton-earth-616.jpg"
-        },
-        {
-          "name": "Blackie Gaxton",
-          "url": "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)",
-          "imageUrl": "/images/blackie-gaxton-earth-616.jpg"
-        },
-        {
-          "name": "Doctor Octopus (Otto Octavius)",
-          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-          "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 4,
-      "title": "Amazing Spider-Man Annual #4",
-      "releaseDate": "August 1, 1967",
-      "antagonists": [
-        {
-          "name": "The Wizard (Bentley Wittman)",
-          "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
-          "imageUrl": "/images/bentley-wittman-earth-616.jpg"
-        },
-        {
-          "name": "Mysterio (Quentin Beck)",
-          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
-          "imageUrl": "/images/quentin-beck-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 5,
-      "title": "Amazing Spider-Man Annual #5",
-      "releaseDate": "August 13, 1968",
-      "antagonists": [
-        {
-          "name": "Red Skull (Malik)",
-          "url": "https://marvel.fandom.com/wiki/Albert_Malik_(Earth-616)",
-          "imageUrl": "/images/albert-malik-earth-616.jpg"
-        },
-        {
-          "name": "Sandor",
-          "url": "https://marvel.fandom.com/wiki/Sandor_(Earth-616)",
-          "imageUrl": "/images/sandor-earth-616.jpg"
-        },
-        {
-          "name": "Finisher",
-          "url": "https://marvel.fandom.com/wiki/Karl_Fiers_(Earth-616)",
-          "imageUrl": "/images/karl-fiers-earth-616.jpg"
-        },
-        {
-          "name": "Ahab",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/A#Ahab"
-        },
-        {
-          "name": "Ahab",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/A#Ahab"
-        },
-        {
-          "name": "Amal",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/A#Amal"
-        }
-      ]
-    },
-    {
-      "issueNumber": 6,
-      "title": "Amazing Spider-Man Annual #6",
-      "releaseDate": "August 5, 1969",
-      "antagonists": [
-        {
-          "name": "Sinister Six",
-          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
-          "imageUrl": "/images/sinister-six-earth-616.jpg"
-        },
-        {
-          "name": "Vulture (Adrian Toomes)",
-          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
-          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
-        },
-        {
-          "name": "Electro (Max Dillon)",
-          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
-          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
-        },
-        {
-          "name": "Doctor Octopus (Otto Octavius)",
-          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-          "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        },
-        {
-          "name": "Mysterio (Quentin Beck)",
-          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
-          "imageUrl": "/images/quentin-beck-earth-616.jpg"
-        },
-        {
-          "name": "Kraven the Hunter (Sergei Kravinoff)",
-          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
-          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
-        },
-        {
-          "name": "Sandman (Flint Marko)",
-          "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
-          "imageUrl": "/images/william-baker-earth-616.jpg"
-        },
-        {
-          "name": "Mysterio's X-Men",
-          "url": "https://marvel.fandom.com/wiki/X-Men_(Mysterio%27s_Androids)_(Earth-616)",
-          "imageUrl": "/images/x-men-mysterio-27s-androids-earth-616.jpg"
-        },
-        {
-          "name": "Cyclops",
-          "url": "https://marvel.fandom.com/wiki/Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
-          "imageUrl": "/images/cyclops-mysterio-27s-androids-earth-616.jpg"
-        },
-        {
-          "name": "Angel",
-          "url": "https://marvel.fandom.com/wiki/Angel_(Mysterio%27s_Androids)_(Earth-616)",
-          "imageUrl": "/images/angel-mysterio-27s-androids-earth-616.jpg"
-        },
-        {
-          "name": "Beast",
-          "url": "https://marvel.fandom.com/wiki/Beast_(Mysterio%27s_Androids)_(Earth-616)",
-          "imageUrl": "/images/beast-mysterio-27s-androids-earth-616.jpg"
-        },
-        {
-          "name": "Spider-Man (Peter Parker)",
-          "url": "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)",
-          "imageUrl": "/images/peter-parker-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 7,
-      "title": "Amazing Spider-Man Annual #7",
-      "releaseDate": "September 15, 1970",
-      "antagonists": [
-        {
-          "name": "Chameleon",
-          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
-          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
-        },
-        {
-          "name": "Vulture (Adrian Toomes)",
-          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
-          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
-        },
-        {
-          "name": "Joe Smith",
-          "url": "https://marvel.fandom.com/wiki/Joseph_Smith_(Earth-616)",
-          "imageUrl": "/images/joseph-smith-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 8,
-      "title": "Amazing Spider-Man Annual #8",
-      "releaseDate": "July 13, 1971",
-      "antagonists": [
-        {
-          "name": "Shocker (Herman Schultz)",
-          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
-          "imageUrl": "/images/herman-schultz-earth-616.jpg"
-        },
-        {
-          "name": "Egghead",
-          "url": "https://marvel.fandom.com/wiki/Elihas_Starr_(Earth-616)",
-          "imageUrl": "/images/elihas-starr-earth-616.jpg"
-        },
-        {
-          "name": "Kingpin (Wilson Fisk)",
-          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
-        },
-        {
-          "name": "Flint",
-          "url": "https://marvel.fandom.com/wiki/Flint_(Goon)_(Earth-616)",
-          "imageUrl": "/images/flint-goon-earth-616.jpg"
-        },
-        {
-          "name": "Blackie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Blackie"
-        },
-        {
-          "name": "Shorty",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Shorty"
-        }
-      ]
-    },
-    {
-      "issueNumber": 9,
-      "title": "Amazing Spider-Man Annual #9",
-      "releaseDate": "June 19, 1973",
-      "antagonists": [
-        {
-          "name": "Green Goblin (Norman Osborn)",
-          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
-          "imageUrl": "/images/norman-osborn-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 10,
-      "title": "Amazing Spider-Man Annual #10",
-      "releaseDate": "June 22, 1976",
-      "antagonists": [
-        {
-          "name": "Human Fly (Richard Deacon)",
-          "url": "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
-          "imageUrl": "/images/richard-deacon-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 11,
-      "title": "Amazing Spider-Man Annual #11",
-      "releaseDate": "June 22, 1977",
-      "antagonists": [
-        {
-          "name": "Anton DeLionatus",
-          "url": "https://marvel.fandom.com/wiki/Anton_DeLionatus_(Earth-616)",
-          "imageUrl": "/images/anton-delionatus-earth-616.jpg"
-        },
-        {
-          "name": "Spider-Squad",
-          "url": "https://marvel.fandom.com/wiki/Spider-Squad_(Earth-616)",
-          "imageUrl": "/images/spider-squad-earth-616.jpg"
-        },
-        {
-          "name": "Strongman",
-          "url": "https://marvel.fandom.com/wiki/Strongman_(Spider-Squad)_(Earth-616)",
-          "imageUrl": "/images/strongman-spider-squad-earth-616.jpg"
-        },
-        {
-          "name": "Tumbler",
-          "url": "https://marvel.fandom.com/wiki/Tumbler_(Spider-Squad)_(Earth-616)",
-          "imageUrl": "/images/tumbler-spider-squad-earth-616.jpg"
-        },
-        {
-          "name": "Acrobat",
-          "url": "https://marvel.fandom.com/wiki/Acrobat_(Spider-Squad)_(Earth-616)",
-          "imageUrl": "/images/acrobat-spider-squad-earth-616.jpg"
-        },
-        {
-          "name": "Paul Cassidy",
-          "url": "https://marvel.fandom.com/wiki/Paul_Cassidy_(Earth-616)",
-          "imageUrl": "/images/paul-cassidy-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 12,
-      "title": "Amazing Spider-Man Annual #12",
-      "releaseDate": "May 2, 1978",
-      "antagonists": [
-        {
-          "name": "Hulk (Bruce Banner)",
-          "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
-          "imageUrl": "/images/bruce-banner-earth-616.jpg"
-        },
-        {
-          "name": "Hulk (Bruce Banner)",
-          "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
-          "imageUrl": "/images/bruce-banner-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 13,
-      "title": "Amazing Spider-Man Annual #13",
-      "releaseDate": "August 14, 1979",
-      "antagonists": [
-        {
-          "name": "Doctor Octopus (Otto Octavius)",
-          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-          "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        },
-        {
-          "name": "Molten Man",
-          "url": "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
-          "imageUrl": "/images/mark-raxton-earth-616.jpg"
-        },
-        {
-          "name": "Looter",
-          "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
-          "imageUrl": "/images/norton-fester-earth-616.jpg"
-        },
-        {
-          "name": "Rhino",
-          "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
-          "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg"
-        },
-        {
-          "name": "Shocker",
-          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
-          "imageUrl": "/images/herman-schultz-earth-616.jpg"
-        },
-        {
-          "name": "Kingpin",
-          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
-        },
-        {
-          "name": "Silvermane",
-          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
-          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
-        },
-        {
-          "name": "Man-Mountain Marko",
-          "url": "https://marvel.fandom.com/wiki/Michael_Marko_(Earth-616)",
-          "imageUrl": "/images/michael-marko-earth-616.jpg"
-        },
-        {
-          "name": "Prowler",
-          "url": "https://marvel.fandom.com/wiki/Hobart_Brown_(Earth-616)",
-          "imageUrl": "/images/hobart-brown-earth-616.jpg"
-        },
-        {
-          "name": "Kangaroo",
-          "url": "https://marvel.fandom.com/wiki/Frank_Oliver_(Earth-616)",
-          "imageUrl": "/images/frank-oliver-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 14,
-      "title": "Amazing Spider-Man Annual #14",
-      "releaseDate": "September 16, 1980",
-      "antagonists": [
-        {
-          "name": "Doctor Doom (Victor von Doom)",
-          "url": "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
-          "imageUrl": "/images/victor-von-doom-earth-616.jpg"
-        },
-        {
-          "name": "Dormammu",
-          "url": "https://marvel.fandom.com/wiki/Dormammu_(Earth-616)",
-          "imageUrl": "/images/dormammu-earth-616.jpg"
-        },
-        {
-          "name": "Lucius Dilby",
-          "url": "https://marvel.fandom.com/wiki/Lucius_Dilby_(Earth-616)",
-          "imageUrl": "/images/lucius-dilby-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 15,
-      "title": "Amazing Spider-Man Annual #15",
-      "releaseDate": "September 1, 1981",
-      "antagonists": [
-        {
-          "name": "Doctor Octopus (Otto Octavius)",
-          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-          "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 16,
-      "title": "Amazing Spider-Man Annual #16",
-      "releaseDate": "August 31, 1982",
-      "antagonists": [
-        {
-          "name": "Scud",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Scud"
-        },
-        {
-          "name": "Scud",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Scud"
-        },
-        {
-          "name": "Mojo",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Mojo"
-        },
-        {
-          "name": "Roxxon Oil",
-          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
-          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
-        },
-        {
-          "name": "Felipe Picaro",
-          "url": "https://marvel.fandom.com/wiki/Felipe_Picaro_(Earth-616)",
-          "imageUrl": "/images/felipe-picaro-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 17,
-      "title": "Amazing Spider-Man Annual #17",
-      "releaseDate": "September 6, 1983",
-      "antagonists": [
-        {
-          "name": "Kingpin (Wilson Fisk)",
-          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
-        },
-        {
-          "name": "Mr. Gilbert",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/G#Gilbert"
-        },
-        {
-          "name": "Louie Minelli",
-          "url": "https://marvel.fandom.com/wiki/Louie_Minelli_(Earth-616)",
-          "imageUrl": "/images/louie-minelli-earth-616.jpg"
-        },
-        {
-          "name": "Jerry",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jerry"
-        }
-      ]
-    },
-    {
-      "issueNumber": 18,
-      "title": "Amazing Spider-Man Annual #18",
-      "releaseDate": "August 28, 1984",
-      "antagonists": [
-        {
-          "name": "Scorpion (MacDonald Gargan)",
-          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
-          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 19,
-      "title": "Amazing Spider-Man Annual #19",
-      "releaseDate": "August 13, 1985",
-      "antagonists": [
-        {
-          "name": "Alistaire Smythe",
-          "url": "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)",
-          "imageUrl": "/images/alistaire-smythe-earth-616.jpg"
-        },
-        {
-          "name": "Kingpin (Wilson Fisk)",
-          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 20,
-      "title": "Amazing Spider-Man Annual #20",
-      "releaseDate": "August 5, 1986",
-      "antagonists": [
-        {
-          "name": "Robert Saunders (Earth-8410)",
-          "url": "https://marvel.fandom.com/wiki/Robert_Saunders_(Earth-8410)",
-          "imageUrl": "/images/robert-saunders-earth-8410.jpg"
-        },
-        {
-          "name": "Blizzard (Gregor Shapanka)",
-          "url": "https://marvel.fandom.com/wiki/Gregor_Shapanka_(Earth-616)",
-          "imageUrl": "/images/gregor-shapanka-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 21,
-      "title": "Amazing Spider-Man Annual #21",
-      "releaseDate": "June 9, 1987",
-      "antagonists": [
-        {
-          "name": "Electro (Maxwell Dillon)",
-          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
-          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
-        },
-        {
-          "name": "Arnold",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/A#Arnold"
-        },
-        {
-          "name": "Eddie",
-          "url": "https://marvel.fandom.com/wiki/Eddie_Muerte_(Earth-616)",
-          "imageUrl": "/images/eddie-muerte-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 22,
-      "title": "Amazing Spider-Man Annual #22",
-      "releaseDate": "May 31, 1988",
-      "antagonists": [
-        {
-          "name": "Kingpin",
-          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
-        },
-        {
-          "name": "Arranger",
-          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
-          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
-        },
-        {
-          "name": "Dylan Thomas",
-          "url": "https://marvel.fandom.com/wiki/Dylan_Thomas_(Earth-616)",
-          "imageUrl": "/images/dylan-thomas-earth-616.jpg"
-        },
-        {
-          "name": "Splitface Flanagan",
-          "url": "https://marvel.fandom.com/wiki/Splitface_Flanagan_(Earth-616)",
-          "imageUrl": "/images/splitface-flanagan-earth-616.jpg"
-        },
-        {
-          "name": "Chthon",
-          "url": "https://marvel.fandom.com/wiki/Chthon_(Earth-616)",
-          "imageUrl": "/images/chthon-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 23,
-      "title": "Amazing Spider-Man Annual #23",
-      "releaseDate": "May 2, 1989",
-      "antagonists": [
-        {
-          "name": "Tyrannus (Romulus Augustulus)",
-          "url": "https://marvel.fandom.com/wiki/Romulus_Augustulus_(Earth-616)",
-          "imageUrl": "/images/romulus-augustulus-earth-616.jpg"
-        },
-        {
-          "name": "Abomination's Body",
-          "url": "https://marvel.fandom.com/wiki/Emil_Blonsky_(Earth-616)",
-          "imageUrl": "/images/emil-blonsky-earth-616.jpg"
-        },
-        {
-          "name": "Emil Blonsky",
-          "url": "https://marvel.fandom.com/wiki/Emil_Blonsky_(Earth-616)",
-          "imageUrl": "/images/emil-blonsky-earth-616.jpg"
-        },
-        {
-          "name": "Ghaur",
-          "url": "https://marvel.fandom.com/wiki/Ghaur_(Earth-616)",
-          "imageUrl": "/images/ghaur-earth-616.jpg"
-        },
-        {
-          "name": "Llyra (Lyra Morris)",
-          "url": "https://marvel.fandom.com/wiki/Llyra_Morris_(Earth-616)",
-          "imageUrl": "/images/llyra-morris-earth-616.jpg"
-        },
-        {
-          "name": "Kingpin (Wilson Fisk)",
-          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
-        },
-        {
-          "name": "Viper (Ophelia Sarkissian)",
-          "url": "https://marvel.fandom.com/wiki/Ophelia_Sarkissian_(Earth-616)",
-          "imageUrl": "/images/ophelia-sarkissian-earth-616.jpg"
-        },
-        {
-          "name": "Set",
-          "url": "https://marvel.fandom.com/wiki/Set_(Earth-616)",
-          "imageUrl": "/images/set-earth-616.jpg"
-        },
-        {
-          "name": "the burglar",
-          "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
-          "imageUrl": "/images/carradine-earth-616.jpg"
-        },
-        {
-          "name": "Hobgoblin",
-          "url": "https://marvel.fandom.com/wiki/Hobgoblin"
-        },
-        {
-          "name": "Doctor Octopus",
-          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-          "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        },
-        {
-          "name": "Nick Katzenberg",
-          "url": "https://marvel.fandom.com/wiki/Nicholas_Katzenberg_(Earth-616)",
-          "imageUrl": "/images/nicholas-katzenberg-earth-616.jpg"
-        },
-        {
-          "name": "Red Skull",
-          "url": "https://marvel.fandom.com/wiki/Albert_Malik_(Earth-616)",
-          "imageUrl": "/images/albert-malik-earth-616.jpg"
-        },
-        {
-          "name": "Crimemaster",
-          "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
-          "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
-        },
-        {
-          "name": "Sin-Eater",
-          "url": "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
-          "imageUrl": "/images/stanley-carter-earth-616.jpg"
-        },
-        {
-          "name": "Hammerhead",
-          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
-          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
-        },
-        {
-          "name": "Chameleon",
-          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
-          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
-        },
-        {
-          "name": "Hydro-Man",
-          "url": "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)",
-          "imageUrl": "/images/morris-bench-earth-616.jpg"
-        },
-        {
-          "name": "Shocker",
-          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
-          "imageUrl": "/images/herman-schultz-earth-616.jpg"
-        },
-        {
-          "name": "Molten Man",
-          "url": "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
-          "imageUrl": "/images/mark-raxton-earth-616.jpg"
-        },
-        {
-          "name": "Silvermane",
-          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
-          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
-        },
-        {
-          "name": "Juggernaut",
-          "url": "https://marvel.fandom.com/wiki/Cain_Marko_(Earth-616)",
-          "imageUrl": "/images/cain-marko-earth-616.jpg"
-        },
-        {
-          "name": "Human Fly",
-          "url": "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
-          "imageUrl": "/images/richard-deacon-earth-616.jpg"
-        },
-        {
-          "name": "Carrion",
-          "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
-          "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg"
-        },
-        {
-          "name": "Jackal",
-          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
-          "imageUrl": "/images/miles-warren-earth-616.jpg"
-        },
-        {
-          "name": "Tarantula",
-          "url": "https://marvel.fandom.com/wiki/Luis_Alvarez_(Earth-616)",
-          "imageUrl": "/images/luis-alvarez-earth-616.jpg"
-        },
-        {
-          "name": "Rhino",
-          "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
-          "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg"
-        },
-        {
-          "name": "Puma",
-          "url": "https://marvel.fandom.com/wiki/Thomas_Fireheart_(Earth-616)",
-          "imageUrl": "/images/thomas-fireheart-earth-616.jpg"
-        },
-        {
-          "name": "Lizard",
-          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
-          "imageUrl": "/images/curtis-connors-earth-616.jpg"
-        },
-        {
-          "name": "Electro",
-          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
-          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
-        },
-        {
-          "name": "Mysterio",
-          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
-          "imageUrl": "/images/quentin-beck-earth-616.jpg"
-        },
-        {
-          "name": "Sandman",
-          "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
-          "imageUrl": "/images/william-baker-earth-616.jpg"
-        },
-        {
-          "name": "Burglar",
-          "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
-          "imageUrl": "/images/carradine-earth-616.jpg"
-        },
-        {
-          "name": "Venom",
-          "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
-          "imageUrl": "/images/edward-brock-earth-616.jpg"
-        },
-        {
-          "name": "Scorpion",
-          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
-          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
-        },
-        {
-          "name": "Vulture",
-          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
-          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
-        },
-        {
-          "name": "Doctor Doom",
-          "url": "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
-          "imageUrl": "/images/victor-von-doom-earth-616.jpg"
-        },
-        {
-          "name": "Kingpin",
-          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
-        },
-        {
-          "name": "Kraven the Hunter",
-          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
-          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
-        },
-        {
-          "name": "Doctor Octopus",
-          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-          "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        },
-        {
-          "name": "Hobgoblin",
-          "url": "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)",
-          "imageUrl": "/images/roderick-kingsley-earth-616.jpg"
-        },
-        {
-          "name": "Green Goblin",
-          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
-          "imageUrl": "/images/norman-osborn-earth-616.jpg"
-        },
-        {
-          "name": "Scorpion",
-          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
-          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
-        },
-        {
-          "name": "Human Fly",
-          "url": "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
-          "imageUrl": "/images/richard-deacon-earth-616.jpg"
-        },
-        {
-          "name": "Man-Wolf",
-          "url": "https://marvel.fandom.com/wiki/John_Jonah_Jameson_III_(Earth-616)",
-          "imageUrl": "/images/john-jonah-jameson-iii-earth-616.jpg"
-        },
-        {
-          "name": "Set",
-          "url": "https://marvel.fandom.com/wiki/Set_(Earth-616)",
-          "imageUrl": "/images/set-earth-616.jpg"
-        },
-        {
-          "name": "Emperor Phraug",
-          "url": "https://marvel.fandom.com/wiki/Phraug_(Earth-616)",
-          "imageUrl": "/images/phraug-earth-616.jpg"
-        },
-        {
-          "name": "Nolem",
-          "url": "https://marvel.fandom.com/wiki/Nolem_(Earth-616)",
-          "imageUrl": "/images/nolem-earth-616.jpg"
-        },
-        {
-          "name": "Atra",
-          "url": "https://marvel.fandom.com/wiki/Atra_(Earth-616)",
-          "imageUrl": "/images/atra-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 24,
-      "title": "Amazing Spider-Man Annual #24",
-      "releaseDate": "June 5, 1990",
-      "antagonists": [
-        {
-          "name": "The Wizard",
-          "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
-          "imageUrl": "/images/bentley-wittman-earth-616.jpg"
-        },
-        {
-          "name": "The Trapster",
-          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
-          "imageUrl": "/images/peter-petruski-earth-616.jpg"
-        },
-        {
-          "name": "Scarlet Beetle",
-          "url": "https://marvel.fandom.com/wiki/Scarlet_Beetle_(Earth-616)",
-          "imageUrl": "/images/scarlet-beetle-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 25,
-      "title": "Amazing Spider-Man Annual #25",
-      "releaseDate": "June 18, 1991",
-      "antagonists": [
-        {
-          "name": "Kingpin (Wilson Fisk)",
-          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
-        },
-        {
-          "name": "Ghost",
-          "url": "https://marvel.fandom.com/wiki/Ghost_(Earth-616)",
-          "imageUrl": "/images/ghost-earth-616.jpg"
-        },
-        {
-          "name": "Ultron-13",
-          "url": "https://marvel.fandom.com/wiki/Ultron_(Earth-616)",
-          "imageUrl": "/images/ultron-earth-616.jpg"
-        },
-        {
-          "name": "Burglar",
-          "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
-          "imageUrl": "/images/carradine-earth-616.jpg"
-        },
-        {
-          "name": "Spangle",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Spangle"
-        },
-        {
-          "name": "Jake",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jake"
-        },
-        {
-          "name": "Smiley",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Smiley"
-        },
-        {
-          "name": "Pablo",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/P#Pablo"
-        },
-        {
-          "name": "Spider-Man",
-          "url": "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)",
-          "imageUrl": "/images/peter-parker-earth-616.jpg"
-        },
-        {
-          "name": "Raymond Trask",
-          "url": "https://marvel.fandom.com/wiki/Raymond_Trask_(Earth-616)",
-          "imageUrl": "/images/raymond-trask-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 26,
-      "title": "Amazing Spider-Man Annual #26",
-      "releaseDate": "June 16, 1992",
-      "antagonists": [
-        {
-          "name": "Ace",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/A#Ace"
-        },
-        {
-          "name": "Sphinx (Anath-Na Mut)",
-          "url": "https://marvel.fandom.com/wiki/Anath-Na_Mut_(Earth-616)",
-          "imageUrl": "/images/anath-na-mut-earth-616.jpg"
-        },
-        {
-          "name": "Hammer Industries",
-          "url": "https://marvel.fandom.com/wiki/Hammer_Industries_(Earth-616)",
-          "imageUrl": "/images/hammer-industries-earth-616.jpg"
-        },
-        {
-          "name": "Justin Hammer",
-          "url": "https://marvel.fandom.com/wiki/Justin_Hammer_(Earth-616)",
-          "imageUrl": "/images/justin-hammer-earth-616.jpg"
-        },
-        {
-          "name": "Roxxon Energy Corporation",
-          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
-          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
-        },
-        {
-          "name": "Jonas Hale",
-          "url": "https://marvel.fandom.com/wiki/Jonas_Hale_(Earth-616)",
-          "imageUrl": "/images/jonas-hale-earth-616.jpg"
-        },
-        {
-          "name": "Life Foundation",
-          "url": "https://marvel.fandom.com/wiki/Life_Foundation_(Earth-616)",
-          "imageUrl": "/images/life-foundation-earth-616.jpg"
-        },
-        {
-          "name": "Carlton Drake",
-          "url": "https://marvel.fandom.com/wiki/Carlton_Drake_(Earth-616)",
-          "imageUrl": "/images/carlton-drake-earth-616.jpg"
-        },
-        {
-          "name": "Stane International",
-          "url": "https://marvel.fandom.com/wiki/Stane_International_(Earth-616)"
-        },
-        {
-          "name": "Brand Corporation",
-          "url": "https://marvel.fandom.com/wiki/Brand_Corporation_(Earth-616)",
-          "imageUrl": "/images/brand-corporation-earth-616.jpg"
-        },
-        {
-          "name": "Target Technologies",
-          "url": "https://marvel.fandom.com/wiki/Target_Technologies_(Earth-616)",
-          "imageUrl": "/images/target-technologies-earth-616.jpg"
-        },
-        {
-          "name": "Lorna",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Lorna"
-        },
-        {
-          "name": "Saunders",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Saunders"
-        },
-        {
-          "name": "Mr. Schott",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Schott"
-        },
-        {
-          "name": "Jerome Caldwell",
-          "url": "https://marvel.fandom.com/wiki/Jerome_Caldwell_(Earth-616)",
-          "imageUrl": "/images/jerome-caldwell-earth-616.jpg"
-        },
-        {
-          "name": "Dreadnoughts",
-          "url": "https://marvel.fandom.com/wiki/Dreadnought_(Robot)",
-          "imageUrl": "/images/dreadnought-robot.jpg"
-        },
-        {
-          "name": "Dreadnoughts 2000",
-          "url": "https://marvel.fandom.com/wiki/Dreadnought_2000",
-          "imageUrl": "/images/dreadnought-2000.jpg"
-        },
-        {
-          "name": "Bruno Markham",
-          "url": "https://marvel.fandom.com/wiki/Bruno_Markham_(Earth-616)",
-          "imageUrl": "/images/bruno-markham-earth-616.jpg"
-        },
-        {
-          "name": "Keith",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/K#Keith"
-        },
-        {
-          "name": "Kreuger",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/K#Kreuger"
-        },
-        {
-          "name": "Giancarlo Gelberto",
-          "url": "https://marvel.fandom.com/wiki/Giancarlo_Gelberto_(Earth-616)",
-          "imageUrl": "/images/giancarlo-gelberto-earth-616.jpg"
-        },
-        {
-          "name": "Looter (Norton Fester)",
-          "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
-          "imageUrl": "/images/norton-fester-earth-616.jpg"
-        },
-        {
-          "name": "Louie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Louie"
-        },
-        {
-          "name": "Lightmaster (Edward Lansky)",
-          "url": "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
-          "imageUrl": "/images/edward-lansky-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 27,
-      "title": "Amazing Spider-Man Annual #27",
-      "releaseDate": "March 2, 1993",
-      "antagonists": [
-        {
-          "name": "Abner Dunson",
-          "url": "https://marvel.fandom.com/wiki/Abner_Dunson_(Earth-616)",
-          "imageUrl": "/images/abner-dunson-earth-616.jpg"
-        },
-        {
-          "name": "Deathstorm",
-          "url": "https://marvel.fandom.com/wiki/Gabriel_Gant_(Earth-616)",
-          "imageUrl": "/images/gabriel-gant-earth-616.jpg"
-        },
-        {
-          "name": "Curt Connors",
-          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
-          "imageUrl": "/images/curtis-connors-earth-616.jpg"
-        },
-        {
-          "name": "Samson Rourke",
-          "url": "https://marvel.fandom.com/wiki/Samson_Rourke_(Earth-616)",
-          "imageUrl": "/images/samson-rourke-earth-616.jpg"
-        }
-      ]
-    },
-    {
-      "issueNumber": 28,
-      "title": "Amazing Spider-Man Annual #28",
-      "releaseDate": "March 8, 1994",
-      "antagonists": [
-        {
-          "name": "Carnage (Cletus Kasady)",
-          "url": "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
-          "imageUrl": "/images/cletus-kasady-earth-616.jpg"
-        },
-        {
-          "name": "Charlie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
-        }
-      ]
-    }
-  ]
+    "series":  "Amazing Spider-Man Annual Vol 1",
+    "baseUrl":  "https://marvel.fandom.com/wiki/Amazing_Spider-Man_Annual_Vol_1_{issue}",
+    "issues":  [
+                   {
+                       "issueNumber":  1,
+                       "title":  "Amazing Spider-Man Annual #1",
+                       "releaseDate":  "June 11, 1964",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Sinister Six",
+                                               "url":  "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+                                               "imageUrl":  "/images/sinister-six-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Vulture (Adrian Toomes)",
+                                               "url":  "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+                                               "imageUrl":  "/images/adrian-toomes-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Electro (Max Dillon)",
+                                               "url":  "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+                                               "imageUrl":  "/images/maxwell-dillon-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Doctor Octopus (Otto Octavius)",
+                                               "url":  "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+                                               "imageUrl":  "/images/otto-octavius-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Mysterio (Quentin Beck)",
+                                               "url":  "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+                                               "imageUrl":  "/images/quentin-beck-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kraven the Hunter (Sergei Kravinoff)",
+                                               "url":  "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+                                               "imageUrl":  "/images/sergei-kravinoff-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Sandman (Flint Marko)",
+                                               "url":  "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+                                               "imageUrl":  "/images/william-baker-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Mysterio\u0027s X-Men",
+                                               "url":  "https://marvel.fandom.com/wiki/X-Men_(Mysterio%27s_Androids)_(Earth-616)",
+                                               "imageUrl":  "/images/x-men-mysterio-27s-androids-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Cyclops",
+                                               "url":  "https://marvel.fandom.com/wiki/Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
+                                               "imageUrl":  "/images/cyclops-mysterio-27s-androids-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Angel",
+                                               "url":  "https://marvel.fandom.com/wiki/Angel_(Mysterio%27s_Androids)_(Earth-616)",
+                                               "imageUrl":  "/images/angel-mysterio-27s-androids-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Beast",
+                                               "url":  "https://marvel.fandom.com/wiki/Beast_(Mysterio%27s_Androids)_(Earth-616)",
+                                               "imageUrl":  "/images/beast-mysterio-27s-androids-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  2,
+                       "title":  "Amazing Spider-Man Annual #2",
+                       "releaseDate":  "June 1, 1965",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Xandu",
+                                               "url":  "https://marvel.fandom.com/wiki/Xandu_(Sorcerer)_(Earth-616)",
+                                               "imageUrl":  "/images/xandu-sorcerer-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Burglar",
+                                               "url":  "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
+                                               "imageUrl":  "/images/carradine-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Tinkerer (Phineas Mason)",
+                                               "url":  "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
+                                               "imageUrl":  "/images/phineas-mason-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Quentin Beck",
+                                               "url":  "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+                                               "imageUrl":  "/images/quentin-beck-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Charlie",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
+                                           },
+                                           {
+                                               "name":  "Charlie",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
+                                           },
+                                           {
+                                               "name":  "Doctor Doom (Victor von Doom)",
+                                               "url":  "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
+                                               "imageUrl":  "/images/victor-von-doom-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Doombot",
+                                               "url":  "https://marvel.fandom.com/wiki/Doombot",
+                                               "imageUrl":  "/images/doombot.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  3,
+                       "title":  "Amazing Spider-Man Annual #3",
+                       "releaseDate":  "August 2, 1966",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Hulk (Dr. Bruce Banner)",
+                                               "url":  "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
+                                               "imageUrl":  "/images/bruce-banner-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Doctor Octopus (Otto Octavius)",
+                                               "url":  "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+                                               "imageUrl":  "/images/otto-octavius-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Blackie Gaxton",
+                                               "url":  "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)",
+                                               "imageUrl":  "/images/blackie-gaxton-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Blackie Gaxton",
+                                               "url":  "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)",
+                                               "imageUrl":  "/images/blackie-gaxton-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Doctor Octopus (Otto Octavius)",
+                                               "url":  "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+                                               "imageUrl":  "/images/otto-octavius-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  4,
+                       "title":  "Amazing Spider-Man Annual #4",
+                       "releaseDate":  "August 1, 1967",
+                       "antagonists":  [
+                                           {
+                                               "name":  "The Wizard (Bentley Wittman)",
+                                               "url":  "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
+                                               "imageUrl":  "/images/bentley-wittman-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Mysterio (Quentin Beck)",
+                                               "url":  "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+                                               "imageUrl":  "/images/quentin-beck-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  5,
+                       "title":  "Amazing Spider-Man Annual #5",
+                       "releaseDate":  "August 13, 1968",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Red Skull (Malik)",
+                                               "url":  "https://marvel.fandom.com/wiki/Albert_Malik_(Earth-616)",
+                                               "imageUrl":  "/images/albert-malik-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Sandor",
+                                               "url":  "https://marvel.fandom.com/wiki/Sandor_(Earth-616)",
+                                               "imageUrl":  "/images/sandor-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Finisher",
+                                               "url":  "https://marvel.fandom.com/wiki/Karl_Fiers_(Earth-616)",
+                                               "imageUrl":  "/images/karl-fiers-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Ahab",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/A#Ahab"
+                                           },
+                                           {
+                                               "name":  "Ahab",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/A#Ahab"
+                                           },
+                                           {
+                                               "name":  "Amal",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/A#Amal"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  6,
+                       "title":  "Amazing Spider-Man Annual #6",
+                       "releaseDate":  "August 5, 1969",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Sinister Six",
+                                               "url":  "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+                                               "imageUrl":  "/images/sinister-six-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Vulture (Adrian Toomes)",
+                                               "url":  "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+                                               "imageUrl":  "/images/adrian-toomes-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Electro (Max Dillon)",
+                                               "url":  "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+                                               "imageUrl":  "/images/maxwell-dillon-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Doctor Octopus (Otto Octavius)",
+                                               "url":  "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+                                               "imageUrl":  "/images/otto-octavius-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Mysterio (Quentin Beck)",
+                                               "url":  "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+                                               "imageUrl":  "/images/quentin-beck-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kraven the Hunter (Sergei Kravinoff)",
+                                               "url":  "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+                                               "imageUrl":  "/images/sergei-kravinoff-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Sandman (Flint Marko)",
+                                               "url":  "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+                                               "imageUrl":  "/images/william-baker-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Mysterio\u0027s X-Men",
+                                               "url":  "https://marvel.fandom.com/wiki/X-Men_(Mysterio%27s_Androids)_(Earth-616)",
+                                               "imageUrl":  "/images/x-men-mysterio-27s-androids-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Cyclops",
+                                               "url":  "https://marvel.fandom.com/wiki/Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
+                                               "imageUrl":  "/images/cyclops-mysterio-27s-androids-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Angel",
+                                               "url":  "https://marvel.fandom.com/wiki/Angel_(Mysterio%27s_Androids)_(Earth-616)",
+                                               "imageUrl":  "/images/angel-mysterio-27s-androids-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Beast",
+                                               "url":  "https://marvel.fandom.com/wiki/Beast_(Mysterio%27s_Androids)_(Earth-616)",
+                                               "imageUrl":  "/images/beast-mysterio-27s-androids-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Spider-Man (Peter Parker)",
+                                               "url":  "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)",
+                                               "imageUrl":  "/images/peter-parker-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  7,
+                       "title":  "Amazing Spider-Man Annual #7",
+                       "releaseDate":  "September 15, 1970",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Chameleon",
+                                               "url":  "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+                                               "imageUrl":  "/images/dmitri-smerdyakov-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Vulture (Adrian Toomes)",
+                                               "url":  "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+                                               "imageUrl":  "/images/adrian-toomes-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Joe Smith",
+                                               "url":  "https://marvel.fandom.com/wiki/Joseph_Smith_(Earth-616)",
+                                               "imageUrl":  "/images/joseph-smith-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  8,
+                       "title":  "Amazing Spider-Man Annual #8",
+                       "releaseDate":  "July 13, 1971",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Shocker (Herman Schultz)",
+                                               "url":  "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+                                               "imageUrl":  "/images/herman-schultz-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Egghead",
+                                               "url":  "https://marvel.fandom.com/wiki/Elihas_Starr_(Earth-616)",
+                                               "imageUrl":  "/images/elihas-starr-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kingpin (Wilson Fisk)",
+                                               "url":  "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+                                               "imageUrl":  "/images/wilson-fisk-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Flint",
+                                               "url":  "https://marvel.fandom.com/wiki/Flint_(Goon)_(Earth-616)",
+                                               "imageUrl":  "/images/flint-goon-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Blackie",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/B#Blackie"
+                                           },
+                                           {
+                                               "name":  "Shorty",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/S#Shorty"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  9,
+                       "title":  "Amazing Spider-Man Annual #9",
+                       "releaseDate":  "June 19, 1973",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Green Goblin (Norman Osborn)",
+                                               "url":  "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+                                               "imageUrl":  "/images/norman-osborn-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  10,
+                       "title":  "Amazing Spider-Man Annual #10",
+                       "releaseDate":  "June 22, 1976",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Human Fly (Richard Deacon)",
+                                               "url":  "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
+                                               "imageUrl":  "/images/richard-deacon-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  11,
+                       "title":  "Amazing Spider-Man Annual #11",
+                       "releaseDate":  "June 22, 1977",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Anton DeLionatus",
+                                               "url":  "https://marvel.fandom.com/wiki/Anton_DeLionatus_(Earth-616)",
+                                               "imageUrl":  "/images/anton-delionatus-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Spider-Squad",
+                                               "url":  "https://marvel.fandom.com/wiki/Spider-Squad_(Earth-616)",
+                                               "imageUrl":  "/images/spider-squad-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Strongman",
+                                               "url":  "https://marvel.fandom.com/wiki/Strongman_(Spider-Squad)_(Earth-616)",
+                                               "imageUrl":  "/images/strongman-spider-squad-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Tumbler",
+                                               "url":  "https://marvel.fandom.com/wiki/Tumbler_(Spider-Squad)_(Earth-616)",
+                                               "imageUrl":  "/images/tumbler-spider-squad-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Acrobat",
+                                               "url":  "https://marvel.fandom.com/wiki/Acrobat_(Spider-Squad)_(Earth-616)",
+                                               "imageUrl":  "/images/acrobat-spider-squad-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Paul Cassidy",
+                                               "url":  "https://marvel.fandom.com/wiki/Paul_Cassidy_(Earth-616)",
+                                               "imageUrl":  "/images/paul-cassidy-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  12,
+                       "title":  "Amazing Spider-Man Annual #12",
+                       "releaseDate":  "May 2, 1978",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Hulk (Bruce Banner)",
+                                               "url":  "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
+                                               "imageUrl":  "/images/bruce-banner-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Hulk (Bruce Banner)",
+                                               "url":  "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
+                                               "imageUrl":  "/images/bruce-banner-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  13,
+                       "title":  "Amazing Spider-Man Annual #13",
+                       "releaseDate":  "August 14, 1979",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Doctor Octopus (Otto Octavius)",
+                                               "url":  "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+                                               "imageUrl":  "/images/otto-octavius-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Molten Man",
+                                               "url":  "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
+                                               "imageUrl":  "/images/mark-raxton-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Looter",
+                                               "url":  "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
+                                               "imageUrl":  "/images/norton-fester-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Rhino",
+                                               "url":  "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
+                                               "imageUrl":  "/images/aleksei-sytsevich-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Shocker",
+                                               "url":  "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+                                               "imageUrl":  "/images/herman-schultz-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kingpin",
+                                               "url":  "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+                                               "imageUrl":  "/images/wilson-fisk-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Silvermane",
+                                               "url":  "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+                                               "imageUrl":  "/images/silvio-manfredi-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Man-Mountain Marko",
+                                               "url":  "https://marvel.fandom.com/wiki/Michael_Marko_(Earth-616)",
+                                               "imageUrl":  "/images/michael-marko-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Prowler",
+                                               "url":  "https://marvel.fandom.com/wiki/Hobart_Brown_(Earth-616)",
+                                               "imageUrl":  "/images/hobart-brown-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kangaroo",
+                                               "url":  "https://marvel.fandom.com/wiki/Frank_Oliver_(Earth-616)",
+                                               "imageUrl":  "/images/frank-oliver-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  14,
+                       "title":  "Amazing Spider-Man Annual #14",
+                       "releaseDate":  "September 16, 1980",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Doctor Doom (Victor von Doom)",
+                                               "url":  "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
+                                               "imageUrl":  "/images/victor-von-doom-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Dormammu",
+                                               "url":  "https://marvel.fandom.com/wiki/Dormammu_(Earth-616)",
+                                               "imageUrl":  "/images/dormammu-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Lucius Dilby",
+                                               "url":  "https://marvel.fandom.com/wiki/Lucius_Dilby_(Earth-616)",
+                                               "imageUrl":  "/images/lucius-dilby-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  15,
+                       "title":  "Amazing Spider-Man Annual #15",
+                       "releaseDate":  "September 1, 1981",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Doctor Octopus (Otto Octavius)",
+                                               "url":  "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+                                               "imageUrl":  "/images/otto-octavius-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  16,
+                       "title":  "Amazing Spider-Man Annual #16",
+                       "releaseDate":  "August 31, 1982",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Scud",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/S#Scud"
+                                           },
+                                           {
+                                               "name":  "Scud",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/S#Scud"
+                                           },
+                                           {
+                                               "name":  "Mojo",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/M#Mojo"
+                                           },
+                                           {
+                                               "name":  "Roxxon Oil",
+                                               "url":  "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+                                               "imageUrl":  "/images/roxxon-energy-corporation-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Felipe Picaro",
+                                               "url":  "https://marvel.fandom.com/wiki/Felipe_Picaro_(Earth-616)",
+                                               "imageUrl":  "/images/felipe-picaro-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  17,
+                       "title":  "Amazing Spider-Man Annual #17",
+                       "releaseDate":  "September 6, 1983",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Kingpin (Wilson Fisk)",
+                                               "url":  "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+                                               "imageUrl":  "/images/wilson-fisk-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Mr. Gilbert",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/G#Gilbert"
+                                           },
+                                           {
+                                               "name":  "Louie Minelli",
+                                               "url":  "https://marvel.fandom.com/wiki/Louie_Minelli_(Earth-616)",
+                                               "imageUrl":  "/images/louie-minelli-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Jerry",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/J#Jerry"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  18,
+                       "title":  "Amazing Spider-Man Annual #18",
+                       "releaseDate":  "August 28, 1984",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Scorpion (MacDonald Gargan)",
+                                               "url":  "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+                                               "imageUrl":  "/images/macdonald-gargan-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  19,
+                       "title":  "Amazing Spider-Man Annual #19",
+                       "releaseDate":  "August 13, 1985",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Alistaire Smythe",
+                                               "url":  "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)",
+                                               "imageUrl":  "/images/alistaire-smythe-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kingpin (Wilson Fisk)",
+                                               "url":  "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+                                               "imageUrl":  "/images/wilson-fisk-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  20,
+                       "title":  "Amazing Spider-Man Annual #20",
+                       "releaseDate":  "August 5, 1986",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Robert Saunders (Earth-8410)",
+                                               "url":  "https://marvel.fandom.com/wiki/Robert_Saunders_(Earth-8410)",
+                                               "imageUrl":  "/images/robert-saunders-earth-8410.jpg"
+                                           },
+                                           {
+                                               "name":  "Blizzard (Gregor Shapanka)",
+                                               "url":  "https://marvel.fandom.com/wiki/Gregor_Shapanka_(Earth-616)",
+                                               "imageUrl":  "/images/gregor-shapanka-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  21,
+                       "title":  "Amazing Spider-Man Annual #21",
+                       "releaseDate":  "June 9, 1987",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Electro (Maxwell Dillon)",
+                                               "url":  "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+                                               "imageUrl":  "/images/maxwell-dillon-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Arnold",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/A#Arnold"
+                                           },
+                                           {
+                                               "name":  "Eddie",
+                                               "url":  "https://marvel.fandom.com/wiki/Eddie_Muerte_(Earth-616)",
+                                               "imageUrl":  "/images/eddie-muerte-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  22,
+                       "title":  "Amazing Spider-Man Annual #22",
+                       "releaseDate":  "May 31, 1988",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Kingpin",
+                                               "url":  "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+                                               "imageUrl":  "/images/wilson-fisk-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Arranger",
+                                               "url":  "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+                                               "imageUrl":  "/images/oswald-silkworth-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Dylan Thomas",
+                                               "url":  "https://marvel.fandom.com/wiki/Dylan_Thomas_(Earth-616)",
+                                               "imageUrl":  "/images/dylan-thomas-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Splitface Flanagan",
+                                               "url":  "https://marvel.fandom.com/wiki/Splitface_Flanagan_(Earth-616)",
+                                               "imageUrl":  "/images/splitface-flanagan-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Chthon",
+                                               "url":  "https://marvel.fandom.com/wiki/Chthon_(Earth-616)",
+                                               "imageUrl":  "/images/chthon-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  23,
+                       "title":  "Amazing Spider-Man Annual #23",
+                       "releaseDate":  "May 2, 1989",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Tyrannus (Romulus Augustulus)",
+                                               "url":  "https://marvel.fandom.com/wiki/Romulus_Augustulus_(Earth-616)",
+                                               "imageUrl":  "/images/romulus-augustulus-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Abomination\u0027s Body",
+                                               "url":  "https://marvel.fandom.com/wiki/Emil_Blonsky_(Earth-616)",
+                                               "imageUrl":  "/images/emil-blonsky-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Emil Blonsky",
+                                               "url":  "https://marvel.fandom.com/wiki/Emil_Blonsky_(Earth-616)",
+                                               "imageUrl":  "/images/emil-blonsky-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Ghaur",
+                                               "url":  "https://marvel.fandom.com/wiki/Ghaur_(Earth-616)",
+                                               "imageUrl":  "/images/ghaur-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Llyra (Lyra Morris)",
+                                               "url":  "https://marvel.fandom.com/wiki/Llyra_Morris_(Earth-616)",
+                                               "imageUrl":  "/images/llyra-morris-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kingpin (Wilson Fisk)",
+                                               "url":  "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+                                               "imageUrl":  "/images/wilson-fisk-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Viper (Ophelia Sarkissian)",
+                                               "url":  "https://marvel.fandom.com/wiki/Ophelia_Sarkissian_(Earth-616)",
+                                               "imageUrl":  "/images/ophelia-sarkissian-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Set",
+                                               "url":  "https://marvel.fandom.com/wiki/Set_(Earth-616)",
+                                               "imageUrl":  "/images/set-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "the burglar",
+                                               "url":  "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
+                                               "imageUrl":  "/images/carradine-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Hobgoblin",
+                                               "url":  "https://marvel.fandom.com/wiki/Hobgoblin"
+                                           },
+                                           {
+                                               "name":  "Doctor Octopus",
+                                               "url":  "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+                                               "imageUrl":  "/images/otto-octavius-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Nick Katzenberg",
+                                               "url":  "https://marvel.fandom.com/wiki/Nicholas_Katzenberg_(Earth-616)",
+                                               "imageUrl":  "/images/nicholas-katzenberg-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Red Skull",
+                                               "url":  "https://marvel.fandom.com/wiki/Albert_Malik_(Earth-616)",
+                                               "imageUrl":  "/images/albert-malik-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Crimemaster",
+                                               "url":  "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+                                               "imageUrl":  "/images/nicholas-lewis-sr-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Sin-Eater",
+                                               "url":  "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
+                                               "imageUrl":  "/images/stanley-carter-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Hammerhead",
+                                               "url":  "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+                                               "imageUrl":  "/images/hammerhead-joseph-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Chameleon",
+                                               "url":  "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+                                               "imageUrl":  "/images/dmitri-smerdyakov-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Hydro-Man",
+                                               "url":  "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)",
+                                               "imageUrl":  "/images/morris-bench-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Shocker",
+                                               "url":  "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+                                               "imageUrl":  "/images/herman-schultz-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Molten Man",
+                                               "url":  "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
+                                               "imageUrl":  "/images/mark-raxton-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Silvermane",
+                                               "url":  "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+                                               "imageUrl":  "/images/silvio-manfredi-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Juggernaut",
+                                               "url":  "https://marvel.fandom.com/wiki/Cain_Marko_(Earth-616)",
+                                               "imageUrl":  "/images/cain-marko-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Human Fly",
+                                               "url":  "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
+                                               "imageUrl":  "/images/richard-deacon-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Carrion",
+                                               "url":  "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
+                                               "imageUrl":  "/images/carrion-miles-warren-clone-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Jackal",
+                                               "url":  "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
+                                               "imageUrl":  "/images/miles-warren-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Tarantula",
+                                               "url":  "https://marvel.fandom.com/wiki/Luis_Alvarez_(Earth-616)",
+                                               "imageUrl":  "/images/luis-alvarez-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Rhino",
+                                               "url":  "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
+                                               "imageUrl":  "/images/aleksei-sytsevich-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Puma",
+                                               "url":  "https://marvel.fandom.com/wiki/Thomas_Fireheart_(Earth-616)",
+                                               "imageUrl":  "/images/thomas-fireheart-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Lizard",
+                                               "url":  "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+                                               "imageUrl":  "/images/curtis-connors-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Electro",
+                                               "url":  "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+                                               "imageUrl":  "/images/maxwell-dillon-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Mysterio",
+                                               "url":  "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+                                               "imageUrl":  "/images/quentin-beck-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Sandman",
+                                               "url":  "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+                                               "imageUrl":  "/images/william-baker-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Burglar",
+                                               "url":  "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
+                                               "imageUrl":  "/images/carradine-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Venom",
+                                               "url":  "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
+                                               "imageUrl":  "/images/edward-brock-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Scorpion",
+                                               "url":  "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+                                               "imageUrl":  "/images/macdonald-gargan-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Vulture",
+                                               "url":  "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+                                               "imageUrl":  "/images/adrian-toomes-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Doctor Doom",
+                                               "url":  "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
+                                               "imageUrl":  "/images/victor-von-doom-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kingpin",
+                                               "url":  "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+                                               "imageUrl":  "/images/wilson-fisk-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Kraven the Hunter",
+                                               "url":  "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+                                               "imageUrl":  "/images/sergei-kravinoff-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Doctor Octopus",
+                                               "url":  "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+                                               "imageUrl":  "/images/otto-octavius-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Hobgoblin",
+                                               "url":  "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)",
+                                               "imageUrl":  "/images/roderick-kingsley-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Green Goblin",
+                                               "url":  "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+                                               "imageUrl":  "/images/norman-osborn-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Scorpion",
+                                               "url":  "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+                                               "imageUrl":  "/images/macdonald-gargan-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Human Fly",
+                                               "url":  "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
+                                               "imageUrl":  "/images/richard-deacon-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Man-Wolf",
+                                               "url":  "https://marvel.fandom.com/wiki/John_Jonah_Jameson_III_(Earth-616)",
+                                               "imageUrl":  "/images/john-jonah-jameson-iii-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Set",
+                                               "url":  "https://marvel.fandom.com/wiki/Set_(Earth-616)",
+                                               "imageUrl":  "/images/set-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Emperor Phraug",
+                                               "url":  "https://marvel.fandom.com/wiki/Phraug_(Earth-616)",
+                                               "imageUrl":  "/images/phraug-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Nolem",
+                                               "url":  "https://marvel.fandom.com/wiki/Nolem_(Earth-616)",
+                                               "imageUrl":  "/images/nolem-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Atra",
+                                               "url":  "https://marvel.fandom.com/wiki/Atra_(Earth-616)",
+                                               "imageUrl":  "/images/atra-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  24,
+                       "title":  "Amazing Spider-Man Annual #24",
+                       "releaseDate":  "June 5, 1990",
+                       "antagonists":  [
+                                           {
+                                               "name":  "The Wizard",
+                                               "url":  "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
+                                               "imageUrl":  "/images/bentley-wittman-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "The Trapster",
+                                               "url":  "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+                                               "imageUrl":  "/images/peter-petruski-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Scarlet Beetle",
+                                               "url":  "https://marvel.fandom.com/wiki/Scarlet_Beetle_(Earth-616)",
+                                               "imageUrl":  "/images/scarlet-beetle-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  25,
+                       "title":  "Amazing Spider-Man Annual #25",
+                       "releaseDate":  "June 18, 1991",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Kingpin (Wilson Fisk)",
+                                               "url":  "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+                                               "imageUrl":  "/images/wilson-fisk-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Ghost",
+                                               "url":  "https://marvel.fandom.com/wiki/Ghost_(Earth-616)",
+                                               "imageUrl":  "/images/ghost-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Ultron-13",
+                                               "url":  "https://marvel.fandom.com/wiki/Ultron_(Earth-616)",
+                                               "imageUrl":  "/images/ultron-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Burglar",
+                                               "url":  "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
+                                               "imageUrl":  "/images/carradine-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Spangle",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/S#Spangle"
+                                           },
+                                           {
+                                               "name":  "Jake",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/J#Jake"
+                                           },
+                                           {
+                                               "name":  "Smiley",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/S#Smiley"
+                                           },
+                                           {
+                                               "name":  "Pablo",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/P#Pablo"
+                                           },
+                                           {
+                                               "name":  "Spider-Man",
+                                               "url":  "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)",
+                                               "imageUrl":  "/images/peter-parker-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Raymond Trask",
+                                               "url":  "https://marvel.fandom.com/wiki/Raymond_Trask_(Earth-616)",
+                                               "imageUrl":  "/images/raymond-trask-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  26,
+                       "title":  "Amazing Spider-Man Annual #26",
+                       "releaseDate":  "June 16, 1992",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Ace",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/A#Ace"
+                                           },
+                                           {
+                                               "name":  "Sphinx (Anath-Na Mut)",
+                                               "url":  "https://marvel.fandom.com/wiki/Anath-Na_Mut_(Earth-616)",
+                                               "imageUrl":  "/images/anath-na-mut-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Hammer Industries",
+                                               "url":  "https://marvel.fandom.com/wiki/Hammer_Industries_(Earth-616)",
+                                               "imageUrl":  "/images/hammer-industries-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Justin Hammer",
+                                               "url":  "https://marvel.fandom.com/wiki/Justin_Hammer_(Earth-616)",
+                                               "imageUrl":  "/images/justin-hammer-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Roxxon Energy Corporation",
+                                               "url":  "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+                                               "imageUrl":  "/images/roxxon-energy-corporation-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Jonas Hale",
+                                               "url":  "https://marvel.fandom.com/wiki/Jonas_Hale_(Earth-616)",
+                                               "imageUrl":  "/images/jonas-hale-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Life Foundation",
+                                               "url":  "https://marvel.fandom.com/wiki/Life_Foundation_(Earth-616)",
+                                               "imageUrl":  "/images/life-foundation-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Carlton Drake",
+                                               "url":  "https://marvel.fandom.com/wiki/Carlton_Drake_(Earth-616)",
+                                               "imageUrl":  "/images/carlton-drake-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Stane International",
+                                               "url":  "https://marvel.fandom.com/wiki/Stane_International_(Earth-616)"
+                                           },
+                                           {
+                                               "name":  "Brand Corporation",
+                                               "url":  "https://marvel.fandom.com/wiki/Brand_Corporation_(Earth-616)",
+                                               "imageUrl":  "/images/brand-corporation-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Target Technologies",
+                                               "url":  "https://marvel.fandom.com/wiki/Target_Technologies_(Earth-616)",
+                                               "imageUrl":  "/images/target-technologies-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Lorna",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/L#Lorna"
+                                           },
+                                           {
+                                               "name":  "Saunders",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/S#Saunders"
+                                           },
+                                           {
+                                               "name":  "Mr. Schott",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/S#Schott"
+                                           },
+                                           {
+                                               "name":  "Jerome Caldwell",
+                                               "url":  "https://marvel.fandom.com/wiki/Jerome_Caldwell_(Earth-616)",
+                                               "imageUrl":  "/images/jerome-caldwell-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Dreadnoughts",
+                                               "url":  "https://marvel.fandom.com/wiki/Dreadnought_(Robot)",
+                                               "imageUrl":  "/images/dreadnought-robot.jpg"
+                                           },
+                                           {
+                                               "name":  "Dreadnoughts 2000",
+                                               "url":  "https://marvel.fandom.com/wiki/Dreadnought_2000",
+                                               "imageUrl":  "/images/dreadnought-2000.jpg"
+                                           },
+                                           {
+                                               "name":  "Bruno Markham",
+                                               "url":  "https://marvel.fandom.com/wiki/Bruno_Markham_(Earth-616)",
+                                               "imageUrl":  "/images/bruno-markham-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Keith",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/K#Keith"
+                                           },
+                                           {
+                                               "name":  "Kreuger",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/K#Kreuger"
+                                           },
+                                           {
+                                               "name":  "Giancarlo Gelberto",
+                                               "url":  "https://marvel.fandom.com/wiki/Giancarlo_Gelberto_(Earth-616)",
+                                               "imageUrl":  "/images/giancarlo-gelberto-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Looter (Norton Fester)",
+                                               "url":  "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
+                                               "imageUrl":  "/images/norton-fester-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Louie",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/L#Louie"
+                                           },
+                                           {
+                                               "name":  "Lightmaster (Edward Lansky)",
+                                               "url":  "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
+                                               "imageUrl":  "/images/edward-lansky-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  27,
+                       "title":  "Amazing Spider-Man Annual #27",
+                       "releaseDate":  "March 2, 1993",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Abner Dunson",
+                                               "url":  "https://marvel.fandom.com/wiki/Abner_Dunson_(Earth-616)",
+                                               "imageUrl":  "/images/abner-dunson-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Deathstorm",
+                                               "url":  "https://marvel.fandom.com/wiki/Gabriel_Gant_(Earth-616)",
+                                               "imageUrl":  "/images/gabriel-gant-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Curt Connors",
+                                               "url":  "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+                                               "imageUrl":  "/images/curtis-connors-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Samson Rourke",
+                                               "url":  "https://marvel.fandom.com/wiki/Samson_Rourke_(Earth-616)",
+                                               "imageUrl":  "/images/samson-rourke-earth-616.jpg"
+                                           }
+                                       ]
+                   },
+                   {
+                       "issueNumber":  28,
+                       "title":  "Amazing Spider-Man Annual #28",
+                       "releaseDate":  "March 8, 1994",
+                       "antagonists":  [
+                                           {
+                                               "name":  "Carnage (Cletus Kasady)",
+                                               "url":  "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
+                                               "imageUrl":  "/images/cletus-kasady-earth-616.jpg"
+                                           },
+                                           {
+                                               "name":  "Charlie",
+                                               "url":  "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
+                                           }
+                                       ]
+                   }
+               ]
 }

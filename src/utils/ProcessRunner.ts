@@ -18,9 +18,8 @@ import {
   serializeProcessedData
 } from './dataProcessor';
 import {
-  generateD3Config,
-  exportD3ConfigJSON
-} from '../visualization/d3Graph';
+  D3ConfigBuilder
+} from '../visualization/D3ConfigBuilder';
 
 export interface ProcessOptions {
   series?: string;
@@ -133,8 +132,9 @@ export class ProcessRunner {
 
     // Generate and save D3 config
     console.log('📊 Generating D3 visualization config...');
-    const d3Config = generateD3Config(processedData);
-    const d3ConfigJSON = exportD3ConfigJSON(d3Config);
+    const builder = new D3ConfigBuilder();
+    const d3Config = builder.build(processedData);
+    const d3ConfigJSON = builder.exportAsJSON(d3Config);
     
     fs.writeFileSync(
       d3ConfigOutputPath,

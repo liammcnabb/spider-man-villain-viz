@@ -13,8 +13,8 @@ This document describes the functional behavior of the system: how scraping, pro
   - [src/scraper/marvelScraper.ts](src/scraper/marvelScraper.ts) — HTTP requests and HTML parsing (Axios + Cheerio).
   - [src/utils/dataProcessor.ts](src/utils/dataProcessor.ts) — Normalization, deduplication, stats, timeline.
   - [src/utils/mergeDatasets.ts](src/utils/mergeDatasets.ts) — Combine series datasets into a unified timeline.
-  - [src/visualization/d3Graph.ts](src/visualization/d3Graph.ts) — D3 configuration generation.
-  - [src/utils/generateD3FromCombined.ts](src/utils/generateD3FromCombined.ts) — D3 config generation from combined data.
+  - [src/visualization/D3ConfigBuilder.ts](src/visualization/D3ConfigBuilder.ts) — Unified D3 config builder (consolidates d3Graph.ts and generateD3FromCombined.ts).
+  - [src/visualization/d3Graph.ts](src/visualization/d3Graph.ts) — Legacy compatibility layer (delegates to D3ConfigBuilder).
   - [src/utils/cliParser.ts](src/utils/cliParser.ts) — CLI option parsing for volumes and issues.
   - [src/types.ts](src/types.ts) — Shared typed model.
 
@@ -97,7 +97,7 @@ flowchart TD
   - `villains.json` - Merged data from all series
   - `d3-config.json` - Combined D3 visualization config
 - **Visualization Config:**
-  - Translates processed or combined timeline into D3 `data`, `scales`, and `colors`. See [src/visualization/d3Graph.ts](src/visualization/d3Graph.ts) and [src/utils/generateD3FromCombined.ts](src/utils/generateD3FromCombined.ts).
+  - Translates processed or combined timeline into D3 `data`, `scales`, `colors`, and `seriesColors`. See [src/visualization/D3ConfigBuilder.ts](src/visualization/D3ConfigBuilder.ts) (primary).
 
 - **Publishing:**
   - Copies all data files to [public/data](public/data) for browser use.
@@ -146,7 +146,8 @@ classDiagram
       ProcessedGroup[] groups
     }
     RawVillainData --> ProcessedData : processVillainData
-    ProcessedData --> D3Config : generateD3Config
+    ProcessedData --> D3Config : D3ConfigBuilder.build()
+    SerializedProcessedData --> D3Config : D3ConfigBuilder.buildFromSerializedData()
 ```
 
 ## Operational Notes

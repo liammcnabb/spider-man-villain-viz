@@ -385,17 +385,24 @@ generateVillainStats(data: ProcessedData) → VillainStats
 
 ### 3. Visualization Module (`src/visualization/`)
 
-#### `d3Graph.ts`
-- Generates D3.js visualization configuration
-- Creates data structure for graph rendering
-- Exports visualization logic to frontend
+#### `D3ConfigBuilder.ts` (Primary)
+- Unified D3.js configuration builder
+- Consolidates logic from `d3Graph.ts` and `generateD3FromCombined.ts`
+- Handles both per-series and combined dataset configurations
+- Includes series color mapping for UI rendering
 
-**Key Functions**:
+**Key Methods**:
 ```typescript
-generateD3Config(data: ProcessedData) → D3Config
-
-formatDataForTimeline(data: ProcessedData) → TimelineData[]
+build(data: ProcessedData) → D3Config
+buildFromSerializedData(data: SerializedProcessedData) → object
+buildAndSaveFromCombined(filePath: string, outputPath: string) → void
+exportAsJSON(config: D3Config) → object
 ```
+
+#### `d3Graph.ts` (Legacy Compatibility)
+- Backward-compatible layer delegating to `D3ConfigBuilder`
+- Provides deprecated exports for existing code
+- New code should use `D3ConfigBuilder` directly
 
 ### 4. Frontend (`public/`)
 

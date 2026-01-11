@@ -86,7 +86,8 @@ graph TD
 | `src/index.ts` | Main scraping orchestrator | Core logic |
 | `src/scraper/marvelScraper.ts` | Individual series scraper | Series-specific scraping |
 | `data/villains.*.json` | Single series villain data | marvelScraper + processVillainData |
-| `data/d3-config.*.json` | Single series D3 config | generateD3FromCombined |
+| `data/d3-config.*.json` | Single series D3 config | D3ConfigBuilder.build() |
+| `data/d3-config.json`   | Combined D3 config     | D3ConfigBuilder.buildAndSaveFromCombined() |
 | `data/villains.json` | **Combined data from all series** | **Merge logic in src/index.ts** |
 | `data/d3-config.json` | **Combined D3 config** | **Merge logic in src/index.ts** |
 | `public/data/*` | Mirror of data files | Copy step |

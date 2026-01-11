@@ -62,7 +62,8 @@ spider-man-villain-timeline/
 │   ├── scraper/
 │   │   └── marvelScraper.ts  # Marvel Fandom web scraper
 │   ├── visualization/
-│   │   └── d3Graph.ts        # D3.js visualization logic
+│   │   ├── D3ConfigBuilder.ts # Unified D3 config builder (PRIMARY)
+│   │   └── d3Graph.ts        # D3.js visualization logic (legacy)
 │   └── utils/
 │       ├── ScrapeRunner.ts      # Scraping orchestration
 │       ├── ProcessRunner.ts     # Processing orchestration

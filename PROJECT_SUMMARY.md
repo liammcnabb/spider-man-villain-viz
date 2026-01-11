@@ -16,7 +16,8 @@ Your Spider-Man Villain Timeline project has been fully scaffolded following the
    - `src/scraper/marvelScraper.ts` - Marvel Fandom web scraper
    - `src/utils/dataProcessor.ts` - Data normalization engine
    - `src/utils/seriesName.ts` - Format-agnostic series name handling
-   - `src/visualization/d3Graph.ts` - D3.js configuration generator
+   - `src/visualization/D3ConfigBuilder.ts` - Unified D3.js configuration builder (primary)
+   - `src/visualization/d3Graph.ts` - D3.js configuration (legacy compatibility layer)
 
 2. **Frontend Application**
    - `public/index.html` - Responsive HTML structure
@@ -45,7 +46,7 @@ SCRAPING LAYER (MarvelScraper)
 ↓
 PROCESSING LAYER (DataProcessor)
 ↓
-VISUALIZATION LAYER (D3Graph)
+VISUALIZATION LAYER (D3ConfigBuilder)
 ↓
 FRONTEND LAYER (HTML/CSS/JavaScript)
 ```
@@ -165,7 +166,8 @@ spider-man-villain-timeline/
 │   ├── types.ts                     Type definitions
 │   ├── scraper/marvelScraper.ts     Web scraper
 │   ├── utils/dataProcessor.ts       Data processing
-│   └── visualization/d3Graph.ts     D3 configuration
+│   ├── visualization/D3ConfigBuilder.ts D3 config builder (primary)
+│   └── visualization/d3Graph.ts         D3 config (legacy)
 ├── 🟢 public/                       (Frontend)
 │   ├── index.html                   HTML structure
 │   ├── script.js                    D3 rendering
@@ -191,7 +193,7 @@ Generated after scraping:
 ### Easy to Modify
 
 1. **Issue Range** - Change scraping range in `src/index.ts`
-2. **Colors** - Update palette in `src/visualization/d3Graph.ts`
+2. **Colors** - Update palette in `src/visualization/D3ConfigBuilder.ts` or `seriesColors` in D3 config JSON
 3. **Styling** - Edit `public/style.css` with CSS variables
 4. **Animation Speed** - Adjust in `VIZ_CONFIG` in `public/script.js`
 5. **Statistics** - Add new metrics in `dataProcessor.ts`

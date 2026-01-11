@@ -52,7 +52,7 @@
   - [src/scraper/marvelScraper.ts](../src/scraper/marvelScraper.ts) — HTTP scraping.
   - [src/utils/dataProcessor.ts](../src/utils/dataProcessor.ts) — Normalization, deduplication, stats, timeline.
   - [src/utils/mergeDatasets.ts](../src/utils/mergeDatasets.ts) — Series combination.
-  - [src/visualization/d3Graph.ts](../src/visualization/d3Graph.ts) + [src/utils/generateD3FromCombined.ts](../src/utils/generateD3FromCombined.ts) — D3 config.
+  - [src/visualization/D3ConfigBuilder.ts](../src/visualization/D3ConfigBuilder.ts) — Unified D3 config builder (primary). Legacy: [d3Graph.ts](../src/visualization/d3Graph.ts).
   - [src/utils/cliParser.ts](../src/utils/cliParser.ts) — Argument parsing.
   - [src/types.ts](../src/types.ts) — Shared types.
 - **Tests**: [src/__tests__/](../src/__tests__/) (Jest).

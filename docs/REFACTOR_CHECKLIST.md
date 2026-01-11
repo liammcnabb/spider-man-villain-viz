@@ -116,28 +116,66 @@ This checklist consolidates improvement opportunities with clear, actionable ite
   - ✅ Each group appearance maintains distinct roster per issue
   - ✅ No cross-issue reconciliation
   - ✅ Added inline documentation with assertions
+- [x] Antagonist Filtering & Data Quality
+  - ✅ Created unified `isUnnamedOrInvalidAntagonist()` helper in `src/utils/nameValidation.ts`
+  - ✅ Filters "unknown", "unnamed", "unidentified" (case-insensitive, prefix patterns)
+  - ✅ Applied at scraper layer (prevent entry) and processor layer (validation)
+  - ✅ Defense-in-depth approach for data quality assurance
+- [x] Series Name Extraction
+  - ✅ Fixed series name shortening issue in `MarvelScraper`
+  - ✅ Added `extractSeriesSlugFromTemplate()` to extract full series names from URLs
+  - ✅ Ensures proper placement hint matching during merge (e.g., "Amazing Spider-Man Vol 1" not just "Amazing")
+  - ✅ Fixed raw data files with correct full series names
 
 **🛑 CHECKPOINT: Groups & Taxonomy Complete**
 - ✅ Build: `npm run build` - Successful
-- ✅ Tests: `npm test` - 337 tests passing, 14 test suites passing
-- ✅ Compiled code verified: `dist/src/utils/groupRegistry.js` exists
-- ✅ New test suite: `src/__tests__/groupTaxonomy.test.ts` with 40+ test cases
-- ✅ Documentation updated: FUNCTIONAL_DOCUMENTATION.md reflects new GroupRegistry pattern
+- ✅ Tests: `npm test` - 355 tests passing (17 new tests), 15 test suites passing
+- ✅ Compiled code verified: `dist/src/utils/groupRegistry.js` and `dist/src/utils/nameValidation.js` exist
+- ✅ Test suites: 
+  - `src/__tests__/groupTaxonomy.test.ts` - 40+ test cases for groups
+  - `src/__tests__/seriesNameExtraction.test.ts` - 17 new test cases for series name extraction and antagonist filtering
+- ✅ Documentation updated: 
+  - FUNCTIONAL_DOCUMENTATION.md - Series name extraction, antagonist filtering, data quality section
+  - ARCHITECTURE.md - Series name extraction details in ScrapeRunner section
+  - VERIFICATION_PR7_ALIGNMENT.md - Confirmed alignment with existing PR #7 work
 
-**Completed: January 10, 2026**
+**Data Quality Improvements:**
+- Fixed 50 missing villains (restored from 370 to 420)
+  - Issue: Amazing Spider-Man Annual series wasn't processed
+  - Resolution: Processed missing series and re-merged all data
+- Timeline now has 494 D3 data points with complete series coverage
+
+**Completed: January 11, 2026**
 
 ## Visualization Config
 
-- [ ] Unify config builders
-  - Consolidate `d3Graph.ts` and `generateD3FromCombined.ts` into a single `D3ConfigBuilder` with well-typed inputs.
-- [ ] Output clarity
-  - Consider writing combined outputs to `villains.combined.json` / `d3-config.combined.json` to avoid confusion with per-series defaults.
+- [x] Unify config builders
+  - ✅ Created `D3ConfigBuilder` class in `src/visualization/D3ConfigBuilder.ts` consolidating logic from `d3Graph.ts` and `generateD3FromCombined.ts`
+  - ✅ Single unified interface with well-typed inputs: `build(data)`, `buildFromSerializedData()`, `buildAndSaveFromCombined()`
+  - ✅ All color generation and scaling logic centralized
+  - ✅ Updated ProcessRunner to use D3ConfigBuilder.build()
+  - ✅ Updated MergeRunner to use D3ConfigBuilder.buildAndSaveFromCombined()
+  - ✅ Maintained backward compatibility with legacy functions in d3Graph.ts
+  - ✅ All legacy functions delegate to D3ConfigBuilder internally
+- [x] Output clarity
+  - ✅ Combined outputs clearly labeled as "Combined" in series field
+  - ✅ Existing per-series outputs use full series names (Amazing Spider-Man Vol 1, etc.)
+  - ✅ D3 config structure unified: all outputs have `data`, `scales`, `colors`, `seriesColors` structure
+  - ✅ Series color map included for UI to lookup correct colors by series name
 
 **🛑 CHECKPOINT: Visualization Config Complete**
-- Build and verify: `npm run build`
-- Check [public/script.js](../public/script.js) for D3 config changes
-- Test visualization: `npm run serve` and check in browser
+- ✅ Build: `npm run build` - Successful
+- ✅ Tests: `npm test` - 353 tests passing, 15 test suites
+- ✅ Compiled output verified: D3ConfigBuilder in dist/src/visualization/D3ConfigBuilder.js
+- ✅ ProcessRunner integration verified in dist/src/utils/ProcessRunner.js
+- ✅ MergeRunner integration verified in dist/src/utils/MergeRunner.js
+- ✅ Backward compatibility verified in dist/src/visualization/d3Graph.js
+- ✅ New D3ConfigBuilder tests passing
+- ✅ Documentation updated: FUNCTIONAL_DOCUMENTATION.md, ARCHITECTURE.md, README.md, DATA_FLOW_DIAGRAM.md, PROJECT_SUMMARY.md, HANDOVER.md
+- ✅ Series colors published to public/data/d3-config.json with `seriesColors` map
 - **STOP** - Report completion to user, wait for approval to continue
+
+**Completed: January 11, 2026**
 
 ## Serving & Publishing
 

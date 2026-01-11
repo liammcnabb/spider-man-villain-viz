@@ -33,14 +33,7 @@ class SpiderManVisualization {
         this.villainById = new Map();
         this.villainByName = new Map();
         this.groupMembers = new Map();
-        this.seriesColorMap = {
-            'Amazing Spider-Man Vol 1': '#e74c3c',
-            'Amazing_Spider-Man_Vol_1': '#e74c3c',
-            'Amazing Spider-Man Annual Vol 1': '#9b59b6',
-            'Amazing_Spider-Man_Annual_Vol_1': '#9b59b6',
-            'Untold Tales of Spider-Man Vol 1': '#3498db',
-            'Untold_Tales_of_Spider-Man_Vol_1': '#3498db'
-        };
+        this.seriesColorMap = {}; // Will be populated from config.seriesColors
     }
 
     /**
@@ -91,6 +84,13 @@ class SpiderManVisualization {
 
             this.data = villainData;
             this.config = d3Config;
+            // Populate series color map from loaded config
+            if (d3Config.seriesColors) {
+                this.seriesColorMap = d3Config.seriesColors;
+                console.log('✓ Loaded series colors from config:', this.seriesColorMap);
+            } else {
+                console.warn('⚠️ No seriesColors found in d3Config');
+            }
             this.villains = villainData.villains || [];
             this.groups = this.resolveGroups(villainData);
             this.villains.forEach(v => {
@@ -461,8 +461,10 @@ class SpiderManVisualization {
      * Load JSON file
      */
     async loadJSON(url) {
-        // Prevent stale caches from hiding updated groups data
-        const response = await fetch(url, { cache: 'no-cache' });
+        // Add timestamp to prevent browser caching of stale data
+        const separator = url.includes('?') ? '&' : '?';
+        const bustedUrl = `${url}${separator}t=${Date.now()}`;
+        const response = await fetch(bustedUrl, { cache: 'no-cache' });
         if (!response.ok) {
             throw new Error(
                 `Failed to load ${url}: ${response.statusText}`
@@ -807,6 +809,8 @@ class SpiderManVisualization {
                 label: `#${entry.issue}`,
                 chronologicalPosition: entry.chronologicalPosition,
                 series: entry.series,
+                // VERIFICATION: Grey (#999) = BAD! Indicates series name not found in seriesColorMap
+                // If you see grey cells in grid, series name mismatch or seriesColorMap not loaded
                 seriesColor: this.seriesColorMap[entry.series] || '#999'
             }));
 
@@ -1768,16 +1772,24 @@ class SpiderManVisualization {
                 tag.title = series;
                 
                 // Apply series-specific color
+                // VERIFICATION: Grey (#95a5a6) = BAD! Indicates series name not found in seriesColorMap
+                // If you see grey issue tags on villain cards, series name matching failed
                 const color = this.seriesColorMap[series] || '#95a5a6';
+                if (villain.name === 'Doctor Octopus' && issue === 3) {
+                    console.log(`DEBUG: Doctor Octopus #3: series="${series}", color="${color}", seriesColorMap=`, this.seriesColorMap);
+                }
                 tag.style.backgroundColor = color;
                 tag.setAttribute('data-series', series);
                 
                 tagsDiv.appendChild(tag);
             } else {
+                // Fallback: No series found for this appearance - this is a data issue
+                // VERIFICATION: Grey (#95a5a6) = BAD! Series lookup failed
                 const tag = document.createElement('span');
                 tag.className = 'issue-tag';
                 tag.textContent = `#${issue}`;
                 tag.style.backgroundColor = '#95a5a6';
+                console.warn(`⚠️ No series found for ${villain.name} #${issue}`);
                 tagsDiv.appendChild(tag);
             }
         });
