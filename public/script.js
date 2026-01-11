@@ -991,6 +991,12 @@ class SpiderManVisualization {
      * Build elastic grid data structure (issue + gap columns and web ranges)
      */
     buildElasticGridData({ issues, villains, appearances, issueMap }) {
+        // Create a map from chronological position to transformed issue object
+        const chronoToIssue = new Map();
+        issues.forEach(issue => {
+            chronoToIssue.set(issue.chronologicalPosition, issue);
+        });
+        
         // For elastic mode, only include columns where filtered villains appear
         const relevantChronos = new Set();
         
@@ -1020,7 +1026,7 @@ class SpiderManVisualization {
 
         for (let i = 0; i < sortedChronos.length; i++) {
             const chrono = sortedChronos[i];
-            const issueEntry = issueMap.get(chrono);
+            const issueEntry = chronoToIssue.get(chrono);
             const issueColumn = {
                 type: 'issue',
                 chrono,
@@ -1033,13 +1039,12 @@ class SpiderManVisualization {
                 const nextChrono = sortedChronos[i + 1];
                 const gapSize = nextChrono - chrono - 1;
                 if (gapSize > 0) {
-                    const nextIssue = issueMap.get(nextChrono);
                     elasticColumns.push({
                         type: 'gap',
                         fromChrono: chrono,
                         toChrono: nextChrono,
                         gapSize,
-                        color: (nextIssue && nextIssue.seriesColor) || '#f8f9fa'
+                        color: '#f8f9fa' // Gap columns always neutral grey
                     });
                 }
             }
@@ -1071,12 +1076,17 @@ class SpiderManVisualization {
                     const fromIdx = chronoToElasticPos.get(fromChrono);
                     const toIdx = chronoToElasticPos.get(toChrono);
                     if (typeof fromIdx === 'number' && typeof toIdx === 'number') {
-                        const toIssue = issueMap.get(toChrono);
+                        const fromIssue = chronoToIssue.get(fromChrono);
+                        const toIssue = chronoToIssue.get(toChrono);
                         ranges.push({
                             from: fromIdx,
                             to: toIdx,
                             gapSize: gapSize,
-                            color: (toIssue && toIssue.seriesColor) || '#e74c3c'
+                            fromChrono: fromChrono,
+                            toChrono: toChrono,
+                            fromIssue: fromIssue,
+                            toIssue: toIssue,
+                            color: (fromIssue && fromIssue.seriesColor) || '#e74c3c'
                         });
                     }
                 }
@@ -1183,83 +1193,186 @@ class SpiderManVisualization {
             .attr('font-size', '11px')
             .text((d) => d);
 
-        // Render villain rows
+        // Draw web connectors FIRST (so they appear below circles)
         villains.forEach((villain, yIdx) => {
             const y = yIdx * cellSize;
             const webRanges = elasticData.villainWebRanges[villain] || [];
             
-            elasticData.elasticColumns.forEach((column, xIdx) => {
-                const x = xIdx * cellSize;
-                const webRange = webRanges.find(range => xIdx > range.from && xIdx < range.to);
-                const isInWebRange = Boolean(webRange);
+            webRanges.forEach(webRange => {
+                const startX = webRange.from * cellSize + cellSize / 2;
+                const endX = webRange.to * cellSize + cellSize / 2;
+                
+                g.append('line')
+                    .attr('class', 'web-connector')
+                    .attr('x1', startX)
+                    .attr('y1', y + cellSize / 2)
+                    .attr('x2', endX)
+                    .attr('y2', y + cellSize / 2)
+                    .attr('stroke', webRange.color)
+                    .attr('stroke-width', 2)
+                    .attr('opacity', 0.7)
+                    .on('mouseenter', (event) => {
+                        this.showGridTooltip(event, {
+                            villain,
+                            issue: `Web Connector`,
+                            series: webRange.fromIssue ? webRange.fromIssue.series : 'Unknown',
+                            present: false,
+                            chronoPos: webRange.fromChrono,
+                            webInfo: `${webRange.fromIssue ? webRange.fromIssue.label : '#' + webRange.fromChrono} → ${webRange.toIssue ? webRange.toIssue.label : '#' + webRange.toChrono} (Gap: ${webRange.gapSize} issues)`
+                        });
+                    })
+                    .on('mouseleave', () => {
+                        this.hideGridTooltip();
+                    });
+            });
+        });
 
-                if (column.type === 'issue') {
-                    const isPresent = appearances[column.chrono]?.has(villain) ?? false;
+        // Render villain rows (cells on top of lines)
+        villains.forEach((villain, yIdx) => {
+            const y = yIdx * cellSize;
+            const webRanges = elasticData.villainWebRanges[villain] || [];
+            
+            // Get villain's appearances sorted by chrono
+            const villainAppearances = elasticData.elasticColumns
+                .map((col, idx) => ({ col, idx }))
+                .filter(({ col }) => col.type === 'issue' && appearances[col.chrono]?.has(villain))
+                .map(({ col, idx }) => ({ chrono: col.chrono, colIdx: idx, issue: col.issue }));
+            
+            // Detect consecutive runs
+            const consecutiveRuns = [];
+            let currentRun = null;
+            
+            villainAppearances.forEach((app, i) => {
+                const isConsecWithPrev = i > 0 && app.chrono === villainAppearances[i - 1].chrono + 1;
+                const isConsecWithNext = i < villainAppearances.length - 1 && villainAppearances[i + 1].chrono === app.chrono + 1;
+                
+                if (!isConsecWithPrev && !isConsecWithNext) {
+                    // Standalone
+                    consecutiveRuns.push({ type: 'standalone', appearances: [app] });
+                } else if (!isConsecWithPrev && isConsecWithNext) {
+                    // Start of run
+                    currentRun = { type: 'run', appearances: [app] };
+                } else if (isConsecWithPrev && isConsecWithNext) {
+                    // Middle of run
+                    currentRun.appearances.push(app);
+                } else if (isConsecWithPrev && !isConsecWithNext) {
+                    // End of run
+                    currentRun.appearances.push(app);
+                    consecutiveRuns.push(currentRun);
+                    currentRun = null;
+                }
+            });
+            
+            // Draw each run
+            consecutiveRuns.forEach(run => {
+                if (run.type === 'standalone') {
+                    // Draw full circle
+                    const app = run.appearances[0];
+                    const x = app.colIdx * cellSize;
+                    const cellColor = (app.issue && app.issue.seriesColor) || '#e74c3c';
                     
-                    if (!isPresent && !isInWebRange) {
-                        return;
-                    }
-
-                    if (isPresent) {
-                        const cellColor = (column.issue && column.issue.seriesColor) || '#e74c3c';
-                        g.append('rect')
-                            .attr('class', 'grid-cell')
-                            .attr('x', x)
-                            .attr('y', y)
-                            .attr('width', cellSize)
-                            .attr('height', cellSize)
-                            .attr('fill', cellColor)
-                            .attr('stroke', '#34495e')
-                            .attr('stroke-width', 0.5)
-                            .on('mouseenter', (event) => {
-                                this.showGridTooltip(event, {
-                                    villain,
-                                    issue: column.issue ? column.issue.label : `#${column.chrono}`,
-                                    series: column.issue ? column.issue.series : 'Unknown',
-                                    present: true,
-                                    chronoPos: column.chrono
-                                });
-                            })
-                            .on('mouseleave', () => {
-                                this.hideGridTooltip();
+                    g.append('circle')
+                        .attr('class', 'grid-cell')
+                        .attr('cx', x + cellSize / 2)
+                        .attr('cy', y + cellSize / 2)
+                        .attr('r', cellSize / 2.5)
+                        .attr('fill', cellColor)
+                        .attr('stroke', 'none')
+                        .on('mouseenter', (event) => {
+                            this.showGridTooltip(event, {
+                                villain,
+                                issue: app.issue ? app.issue.label : `#${app.chrono}`,
+                                series: app.issue ? app.issue.series : 'Unknown',
+                                present: true,
+                                chronoPos: app.chrono
                             });
-                    } else if (isInWebRange) {
-                        g.append('line')
-                            .attr('class', 'web-connector')
-                            .attr('x1', x + 2)
-                            .attr('y1', y + cellSize / 2)
-                            .attr('x2', x + cellSize - 2)
-                            .attr('y2', y + cellSize / 2)
-                            .attr('stroke', webRange.color)
-                            .attr('stroke-width', 1.5)
-                            .attr('stroke-dasharray', '3,3')
-                            .attr('opacity', 0.7);
-                    } else {
-                        g.append('rect')
-                            .attr('class', 'empty-cell')
-                            .attr('x', x)
-                            .attr('y', y)
-                            .attr('width', cellSize)
-                            .attr('height', cellSize)
-                            .attr('fill', '#ecf0f1')
-                            .attr('stroke', '#bdc3c7')
-                            .attr('stroke-width', 0.5);
-                    }
+                        })
+                        .on('mouseleave', () => {
+                            this.hideGridTooltip();
+                        });
                 } else {
-                    // gap column - only draw web connector if applicable
-                    if (isInWebRange) {
-                        g.append('line')
-                            .attr('class', 'web-connector')
-                            .attr('x1', x + 2)
-                            .attr('y1', y + cellSize / 2)
-                            .attr('x2', x + cellSize - 2)
-                            .attr('y2', y + cellSize / 2)
-                            .attr('stroke', webRange.color)
-                            .attr('stroke-width', 1.5)
-                            .attr('stroke-dasharray', '2,2')
-                            .attr('opacity', 0.6);
-                    }
-                    // Gap columns without web ranges are left empty (just spacing)
+                    // Draw consecutive run as connected shape
+                    run.appearances.forEach((app, idx) => {
+                        const x = app.colIdx * cellSize;
+                        const cellColor = (app.issue && app.issue.seriesColor) || '#e74c3c';
+                        const radius = cellSize / 2.5;
+                        
+                        if (idx === 0) {
+                            // Left half-circle
+                            const path = `
+                                M ${x + cellSize / 2} ${y + cellSize / 2 - radius}
+                                A ${radius} ${radius} 0 0 0 ${x + cellSize / 2} ${y + cellSize / 2 + radius}
+                                L ${x + cellSize} ${y + cellSize / 2 + radius}
+                                L ${x + cellSize} ${y + cellSize / 2 - radius}
+                                Z
+                            `;
+                            g.append('path')
+                                .attr('class', 'grid-cell')
+                                .attr('d', path)
+                                .attr('fill', cellColor)
+                                .attr('stroke', 'none')
+                                .on('mouseenter', (event) => {
+                                    this.showGridTooltip(event, {
+                                        villain,
+                                        issue: app.issue ? app.issue.label : `#${app.chrono}`,
+                                        series: app.issue ? app.issue.series : 'Unknown',
+                                        present: true,
+                                        chronoPos: app.chrono
+                                    });
+                                })
+                                .on('mouseleave', () => {
+                                    this.hideGridTooltip();
+                                });
+                        } else if (idx === run.appearances.length - 1) {
+                            // Right half-circle
+                            const path = `
+                                M ${x} ${y + cellSize / 2 - radius}
+                                L ${x + cellSize / 2} ${y + cellSize / 2 - radius}
+                                A ${radius} ${radius} 0 0 1 ${x + cellSize / 2} ${y + cellSize / 2 + radius}
+                                L ${x} ${y + cellSize / 2 + radius}
+                                Z
+                            `;
+                            g.append('path')
+                                .attr('class', 'grid-cell')
+                                .attr('d', path)
+                                .attr('fill', cellColor)
+                                .attr('stroke', 'none')
+                                .on('mouseenter', (event) => {
+                                    this.showGridTooltip(event, {
+                                        villain,
+                                        issue: app.issue ? app.issue.label : `#${app.chrono}`,
+                                        series: app.issue ? app.issue.series : 'Unknown',
+                                        present: true,
+                                        chronoPos: app.chrono
+                                    });
+                                })
+                                .on('mouseleave', () => {
+                                    this.hideGridTooltip();
+                                });
+                        } else {
+                            // Middle rectangle
+                            g.append('rect')
+                                .attr('class', 'grid-cell')
+                                .attr('x', x)
+                                .attr('y', y + cellSize / 2 - radius)
+                                .attr('width', cellSize)
+                                .attr('height', radius * 2)
+                                .attr('fill', cellColor)
+                                .attr('stroke', 'none')
+                                .on('mouseenter', (event) => {
+                                    this.showGridTooltip(event, {
+                                        villain,
+                                        issue: app.issue ? app.issue.label : `#${app.chrono}`,
+                                        series: app.issue ? app.issue.series : 'Unknown',
+                                        present: true,
+                                        chronoPos: app.chrono
+                                    });
+                                })
+                                .on('mouseleave', () => {
+                                    this.hideGridTooltip();
+                                });
+                        }
+                    });
                 }
             });
         });
@@ -1278,10 +1391,14 @@ class SpiderManVisualization {
             document.body.appendChild(tooltip);
         }
 
+        const statusLine = d.webInfo 
+            ? `Web: ${d.webInfo}`
+            : `Status: ${d.present ? 'Appears' : 'Absent'}`;
+        
         tooltip.innerHTML = `
             <strong>${d.villain}</strong><br>
             Issue: ${d.issue} (${d.series})<br>
-            Status: ${d.present ? 'Appears' : 'Absent'}
+            ${statusLine}
         `;
 
         // Position tooltip near mouse cursor
