@@ -1,0 +1,2360 @@
+{
+  "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+  "baseUrl": "https://marvel.fandom.com/wiki/Peter_Parker,_The_Spectacular_Spider-Man_Vol_1_{issue}",
+  "issues": [
+    {
+      "issueNumber": 1,
+      "title": "Peter Parker, The Spectacular Spider-Man #1",
+      "releaseDate": "September 28, 1976",
+      "antagonists": [
+        {
+          "name": "Tarantula (Anton Miguel Rodriquez)",
+          "url": "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)",
+          "imageUrl": "/images/anton-miguel-rodriquez-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 2,
+      "title": "Peter Parker, The Spectacular Spider-Man #2",
+      "releaseDate": "October 26, 1976",
+      "antagonists": [
+        {
+          "name": "Edward Lansky",
+          "url": "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
+          "imageUrl": "/images/edward-lansky-earth-616.jpg"
+        },
+        {
+          "name": "Tarantula (Anton Miguel Rodriquez)",
+          "url": "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)",
+          "imageUrl": "/images/anton-miguel-rodriquez-earth-616.jpg"
+        },
+        {
+          "name": "Kraven the Hunter",
+          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 3,
+      "title": "Peter Parker, The Spectacular Spider-Man #3",
+      "releaseDate": "November 23, 1976",
+      "antagonists": [
+        {
+          "name": "Tarantula (Anton Miguel Rodriquez)",
+          "url": "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)",
+          "imageUrl": "/images/anton-miguel-rodriquez-earth-616.jpg"
+        },
+        {
+          "name": "Lightmaster",
+          "url": "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
+          "imageUrl": "/images/edward-lansky-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 4,
+      "title": "Peter Parker, The Spectacular Spider-Man #4",
+      "releaseDate": "December 21, 1976",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Hitman",
+          "url": "https://marvel.fandom.com/wiki/Burt_Kenyon_(Earth-616)",
+          "imageUrl": "/images/burt-kenyon-earth-616.jpg"
+        },
+        {
+          "name": "Morgan",
+          "url": "https://marvel.fandom.com/wiki/Boss_Morgan_(Earth-616)",
+          "imageUrl": "/images/boss-morgan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 5,
+      "title": "Peter Parker, The Spectacular Spider-Man #5",
+      "releaseDate": "January 25, 1977",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Hitman",
+          "url": "https://marvel.fandom.com/wiki/Burt_Kenyon_(Earth-616)",
+          "imageUrl": "/images/burt-kenyon-earth-616.jpg"
+        },
+        {
+          "name": "Morgan",
+          "url": "https://marvel.fandom.com/wiki/Boss_Morgan_(Earth-616)",
+          "imageUrl": "/images/boss-morgan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 6,
+      "title": "Peter Parker, The Spectacular Spider-Man #6",
+      "releaseDate": "February 22, 1977",
+      "antagonists": [
+        {
+          "name": "Morbius the Living Vampire (Michael Morbius)",
+          "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        },
+        {
+          "name": "Empathoid",
+          "url": "https://marvel.fandom.com/wiki/Empathoid_(Earth-616)",
+          "imageUrl": "/images/empathoid-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 7,
+      "title": "Peter Parker, The Spectacular Spider-Man #7",
+      "releaseDate": "March 22, 1977",
+      "antagonists": [
+        {
+          "name": "Morbius the Living Vampire (Michale Morbius)",
+          "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        },
+        {
+          "name": "Morgan",
+          "url": "https://marvel.fandom.com/wiki/Boss_Morgan_(Earth-616)",
+          "imageUrl": "/images/boss-morgan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 8,
+      "title": "Peter Parker, The Spectacular Spider-Man #8",
+      "releaseDate": "April 26, 1977",
+      "antagonists": [
+        {
+          "name": "Morbius the Living Vampire (Michael Morbius)",
+          "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        },
+        {
+          "name": "Empathoid",
+          "url": "https://marvel.fandom.com/wiki/Empathoid_(Earth-616)",
+          "imageUrl": "/images/empathoid-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 9,
+      "title": "Peter Parker, The Spectacular Spider-Man #9",
+      "releaseDate": "May 24, 1977",
+      "antagonists": [
+        {
+          "name": "The Black Hand Gang",
+          "url": "https://marvel.fandom.com/wiki/Black_Hand_(Earth-616)",
+          "imageUrl": "/images/black-hand-earth-616.jpg"
+        },
+        {
+          "name": "Professor Ramon Vasquez",
+          "url": "https://marvel.fandom.com/wiki/Ramon_Vasquez_(Earth-616)",
+          "imageUrl": "/images/ramon-vasquez-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 10,
+      "title": "Peter Parker, The Spectacular Spider-Man #10",
+      "releaseDate": "June 21, 1977",
+      "antagonists": [
+        {
+          "name": "The Black Hand gang",
+          "url": "https://marvel.fandom.com/wiki/Black_Hand_(Earth-616)",
+          "imageUrl": "/images/black-hand-earth-616.jpg"
+        },
+        {
+          "name": "Professor Ramon Vasquez",
+          "url": "https://marvel.fandom.com/wiki/Ramon_Vasquez_(Earth-616)",
+          "imageUrl": "/images/ramon-vasquez-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 11,
+      "title": "Peter Parker, The Spectacular Spider-Man #11",
+      "releaseDate": "July 26, 1977",
+      "antagonists": [
+        {
+          "name": "Medusa (Medusalith Amaquelin)",
+          "url": "https://marvel.fandom.com/wiki/Medusalith_Amaquelin_(Earth-616)",
+          "imageUrl": "/images/medusalith-amaquelin-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 12,
+      "title": "Peter Parker, The Spectacular Spider-Man #12",
+      "releaseDate": "August 24, 1977",
+      "antagonists": [
+        {
+          "name": "Legion of Light",
+          "url": "https://marvel.fandom.com/wiki/Legion_of_Light_(Earth-616)",
+          "imageUrl": "/images/legion-of-light-earth-616.jpg"
+        },
+        {
+          "name": "Brother Power",
+          "url": "https://marvel.fandom.com/wiki/Achmed_Korba_(Earth-616)",
+          "imageUrl": "/images/achmed-korba-earth-616.jpg"
+        },
+        {
+          "name": "Sister Sun",
+          "url": "https://marvel.fandom.com/wiki/Sha_Shan_Nguyen_(Earth-616)",
+          "imageUrl": "/images/sha-shan-nguyen-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 13,
+      "title": "Peter Parker, The Spectacular Spider-Man #13",
+      "releaseDate": "September 27, 1977",
+      "antagonists": [
+        {
+          "name": "Hate Monger",
+          "url": "https://marvel.fandom.com/wiki/Man-Beast_(Earth-616)",
+          "imageUrl": "/images/man-beast-earth-616.jpg"
+        },
+        {
+          "name": "Legion of Light",
+          "url": "https://marvel.fandom.com/wiki/Legion_of_Light_(Earth-616)",
+          "imageUrl": "/images/legion-of-light-earth-616.jpg"
+        },
+        {
+          "name": "Brother Power",
+          "url": "https://marvel.fandom.com/wiki/Achmed_Korba_(Earth-616)",
+          "imageUrl": "/images/achmed-korba-earth-616.jpg"
+        },
+        {
+          "name": "Sister Sun",
+          "url": "https://marvel.fandom.com/wiki/Sha_Shan_Nguyen_(Earth-616)",
+          "imageUrl": "/images/sha-shan-nguyen-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 14,
+      "title": "Peter Parker, The Spectacular Spider-Man #14",
+      "releaseDate": "October 25, 1977",
+      "antagonists": [
+        {
+          "name": "Hate-Monger (Man-Beast)",
+          "url": "https://marvel.fandom.com/wiki/Man-Beast_(Earth-616)",
+          "imageUrl": "/images/man-beast-earth-616.jpg"
+        },
+        {
+          "name": "Legion of Light",
+          "url": "https://marvel.fandom.com/wiki/Legion_of_Light_(Earth-616)",
+          "imageUrl": "/images/legion-of-light-earth-616.jpg"
+        },
+        {
+          "name": "Brother Power (Achmed Korba)",
+          "url": "https://marvel.fandom.com/wiki/Achmed_Korba_(Earth-616)",
+          "imageUrl": "/images/achmed-korba-earth-616.jpg"
+        },
+        {
+          "name": "Sister Sun (Sha Shan Nguyen)",
+          "url": "https://marvel.fandom.com/wiki/Sha_Shan_Nguyen_(Earth-616)",
+          "imageUrl": "/images/sha-shan-nguyen-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 15,
+      "title": "Peter Parker, The Spectacular Spider-Man #15",
+      "releaseDate": "November 22, 1977",
+      "antagonists": [
+        {
+          "name": "Man-Beast",
+          "url": "https://marvel.fandom.com/wiki/Man-Beast_(Earth-616)",
+          "imageUrl": "/images/man-beast-earth-616.jpg"
+        },
+        {
+          "name": "Legion of Light",
+          "url": "https://marvel.fandom.com/wiki/Legion_of_Light_(Earth-616)",
+          "imageUrl": "/images/legion-of-light-earth-616.jpg"
+        },
+        {
+          "name": "Brother Power (Achmed Korba)",
+          "url": "https://marvel.fandom.com/wiki/Achmed_Korba_(Earth-616)",
+          "imageUrl": "/images/achmed-korba-earth-616.jpg"
+        },
+        {
+          "name": "Sister Sun (Sha Shan Nguyen)",
+          "url": "https://marvel.fandom.com/wiki/Sha_Shan_Nguyen_(Earth-616)",
+          "imageUrl": "/images/sha-shan-nguyen-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 16,
+      "title": "Peter Parker, The Spectacular Spider-Man #16",
+      "releaseDate": "December 27, 1977",
+      "antagonists": [
+        {
+          "name": "Beetle (Abner Jenkins)",
+          "url": "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
+          "imageUrl": "/images/abner-jenkins-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 17,
+      "title": "Peter Parker, The Spectacular Spider-Man #17",
+      "releaseDate": "January 24, 1978",
+      "antagonists": [
+        {
+          "name": "Bobby Drake",
+          "url": "https://marvel.fandom.com/wiki/Robert_Drake_(Earth-616)",
+          "imageUrl": "/images/robert-drake-earth-616.jpg"
+        },
+        {
+          "name": "Stuart Clarke",
+          "url": "https://marvel.fandom.com/wiki/Stuart_Clarke_(Earth-616)",
+          "imageUrl": "/images/stuart-clarke-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 18,
+      "title": "Peter Parker, The Spectacular Spider-Man #18",
+      "releaseDate": "February 21, 1978",
+      "antagonists": [
+        {
+          "name": "Stuart Clarke",
+          "url": "https://marvel.fandom.com/wiki/Stuart_Clarke_(Earth-616)",
+          "imageUrl": "/images/stuart-clarke-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 19,
+      "title": "Peter Parker, The Spectacular Spider-Man #19",
+      "releaseDate": "March 28, 1978",
+      "antagonists": [
+        {
+          "name": "Lightmaster",
+          "url": "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
+          "imageUrl": "/images/edward-lansky-earth-616.jpg"
+        },
+        {
+          "name": "Enforcers",
+          "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
+          "imageUrl": "/images/enforcers-earth-616.jpg"
+        },
+        {
+          "name": "Fancy Dan (Daniel Brito)",
+          "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+          "imageUrl": "/images/daniel-brito-earth-616.jpg"
+        },
+        {
+          "name": "Montana (Jackson Brice)",
+          "url": "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
+          "imageUrl": "/images/jackson-brice-earth-616.jpg"
+        },
+        {
+          "name": "Ox (Ronald Bloch)",
+          "url": "https://marvel.fandom.com/wiki/Ronald_Bloch_(Earth-616)",
+          "imageUrl": "/images/ronald-bloch-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 20,
+      "title": "Peter Parker, The Spectacular Spider-Man #20",
+      "releaseDate": "April 25, 1978",
+      "antagonists": [
+        {
+          "name": "Lightmaster (Edward Lansky)",
+          "url": "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
+          "imageUrl": "/images/edward-lansky-earth-616.jpg"
+        },
+        {
+          "name": "Enforcers",
+          "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
+          "imageUrl": "/images/enforcers-earth-616.jpg"
+        },
+        {
+          "name": "Fancy Dan (Daniel Brito)",
+          "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+          "imageUrl": "/images/daniel-brito-earth-616.jpg"
+        },
+        {
+          "name": "Montana (Jackson Brice)",
+          "url": "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
+          "imageUrl": "/images/jackson-brice-earth-616.jpg"
+        },
+        {
+          "name": "Ox (Ronald Bloch)",
+          "url": "https://marvel.fandom.com/wiki/Ronald_Bloch_(Earth-616)",
+          "imageUrl": "/images/ronald-bloch-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 21,
+      "title": "Peter Parker, The Spectacular Spider-Man #21",
+      "releaseDate": "May 23, 1978",
+      "antagonists": [
+        {
+          "name": "Scorpion (Mac Gargan)",
+          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 22,
+      "title": "Peter Parker, The Spectacular Spider-Man #22",
+      "releaseDate": "June 27, 1978",
+      "antagonists": [
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Cyclone",
+          "url": "https://marvel.fandom.com/wiki/Andr%C3%A9_Gerard_(Earth-616)",
+          "imageUrl": "/images/andr-c3-a9-gerard-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 23,
+      "title": "Peter Parker, The Spectacular Spider-Man #23",
+      "releaseDate": "July 25, 1978",
+      "antagonists": [
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Cyclone",
+          "url": "https://marvel.fandom.com/wiki/Andr%C3%A9_Gerard_(Earth-616)",
+          "imageUrl": "/images/andr-c3-a9-gerard-earth-616.jpg"
+        },
+        {
+          "name": "Masked Marauder",
+          "url": "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
+          "imageUrl": "/images/frank-farnum-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 24,
+      "title": "Peter Parker, The Spectacular Spider-Man #24",
+      "releaseDate": "August 22, 1978",
+      "antagonists": [
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Hypno-Hustler",
+          "url": "https://marvel.fandom.com/wiki/Antoine_Delsoin_(Earth-616)",
+          "imageUrl": "/images/antoine-delsoin-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 25,
+      "title": "Peter Parker, The Spectacular Spider-Man #25",
+      "releaseDate": "September 26, 1978",
+      "antagonists": [
+        {
+          "name": "Carrion",
+          "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
+          "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg"
+        },
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Masked Marauder (Frank Farnum)",
+          "url": "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
+          "imageUrl": "/images/frank-farnum-earth-616.jpg"
+        },
+        {
+          "name": "Tri-Man",
+          "url": "https://marvel.fandom.com/wiki/Tri-Man_(Earth-616)",
+          "imageUrl": "/images/tri-man-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 26,
+      "title": "Peter Parker, The Spectacular Spider-Man #26",
+      "releaseDate": "October 24, 1978",
+      "antagonists": [
+        {
+          "name": "Masked Marauder",
+          "url": "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
+          "imageUrl": "/images/frank-farnum-earth-616.jpg"
+        },
+        {
+          "name": "Tri-Man",
+          "url": "https://marvel.fandom.com/wiki/Tri-Man_(Earth-616)",
+          "imageUrl": "/images/tri-man-earth-616.jpg"
+        },
+        {
+          "name": "Carrion",
+          "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
+          "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 27,
+      "title": "Peter Parker, The Spectacular Spider-Man #27",
+      "releaseDate": "November 21, 1978",
+      "antagonists": [
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Masked Marauder (Frank Farnum)",
+          "url": "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
+          "imageUrl": "/images/frank-farnum-earth-616.jpg"
+        },
+        {
+          "name": "Tri-Man",
+          "url": "https://marvel.fandom.com/wiki/Tri-Man_(Earth-616)",
+          "imageUrl": "/images/tri-man-earth-616.jpg"
+        },
+        {
+          "name": "Carrion",
+          "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
+          "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 28,
+      "title": "Peter Parker, The Spectacular Spider-Man #28",
+      "releaseDate": "December 12, 1978",
+      "antagonists": [
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Masked Marauder (Frank Farnum)",
+          "url": "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
+          "imageUrl": "/images/frank-farnum-earth-616.jpg"
+        },
+        {
+          "name": "Tri-Man",
+          "url": "https://marvel.fandom.com/wiki/Tri-Man_(Earth-616)",
+          "imageUrl": "/images/tri-man-earth-616.jpg"
+        },
+        {
+          "name": "Carrion",
+          "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
+          "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 29,
+      "title": "Peter Parker, The Spectacular Spider-Man #29",
+      "releaseDate": "January 23, 1979",
+      "antagonists": [
+        {
+          "name": "Carrion",
+          "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
+          "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg"
+        },
+        {
+          "name": "Darter",
+          "url": "https://marvel.fandom.com/wiki/Randy_Vale_(Earth-616)",
+          "imageUrl": "/images/randy-vale-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 30,
+      "title": "Peter Parker, The Spectacular Spider-Man #30",
+      "releaseDate": "February 20, 1979",
+      "antagonists": [
+        {
+          "name": "Carrion",
+          "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
+          "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg"
+        },
+        {
+          "name": "Darter",
+          "url": "https://marvel.fandom.com/wiki/Randy_Vale_(Earth-616)",
+          "imageUrl": "/images/randy-vale-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 31,
+      "title": "Peter Parker, The Spectacular Spider-Man #31",
+      "releaseDate": "March 27, 1979",
+      "antagonists": [
+        {
+          "name": "Carrion",
+          "url": "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
+          "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg"
+        },
+        {
+          "name": "Darter",
+          "url": "https://marvel.fandom.com/wiki/Randy_Vale_(Earth-616)",
+          "imageUrl": "/images/randy-vale-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Amoeba",
+          "url": "https://marvel.fandom.com/wiki/Spider-Amoeba_(Earth-616)",
+          "imageUrl": "/images/spider-amoeba-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 32,
+      "title": "Peter Parker, The Spectacular Spider-Man #32",
+      "releaseDate": "April 24, 1979",
+      "antagonists": [
+        {
+          "name": "Iguana",
+          "url": "https://marvel.fandom.com/wiki/Iguana_(Earth-616)",
+          "imageUrl": "/images/iguana-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 33,
+      "title": "Peter Parker, The Spectacular Spider-Man #33",
+      "releaseDate": "May 22, 1979",
+      "antagonists": [
+        {
+          "name": "Iguana",
+          "url": "https://marvel.fandom.com/wiki/Iguana_(Earth-616)",
+          "imageUrl": "/images/iguana-earth-616.jpg"
+        },
+        {
+          "name": "Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 34,
+      "title": "Peter Parker, The Spectacular Spider-Man #34",
+      "releaseDate": "June 26, 1979",
+      "antagonists": [
+        {
+          "name": "Iguana",
+          "url": "https://marvel.fandom.com/wiki/Iguana_(Earth-616)",
+          "imageUrl": "/images/iguana-earth-616.jpg"
+        },
+        {
+          "name": "Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 35,
+      "title": "Peter Parker, The Spectacular Spider-Man #35",
+      "releaseDate": "July 24, 1979",
+      "antagonists": [
+        {
+          "name": "Mindworm (William Turner)",
+          "url": "https://marvel.fandom.com/wiki/William_Turner_(Earth-616)",
+          "imageUrl": "/images/william-turner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 36,
+      "title": "Peter Parker, The Spectacular Spider-Man #36",
+      "releaseDate": "August 28, 1979",
+      "antagonists": [
+        {
+          "name": "Swarm",
+          "url": "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)",
+          "imageUrl": "/images/fritz-von-meyer-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 37,
+      "title": "Peter Parker, The Spectacular Spider-Man #37",
+      "releaseDate": "September 18, 1979",
+      "antagonists": [
+        {
+          "name": "Swarm",
+          "url": "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)",
+          "imageUrl": "/images/fritz-von-meyer-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 38,
+      "title": "Peter Parker, The Spectacular Spider-Man #38",
+      "releaseDate": "October 23, 1979",
+      "antagonists": [
+        {
+          "name": "Morbius (Michael Morbius)",
+          "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        },
+        {
+          "name": "Schizoid-Man (Chip Martin)",
+          "url": "https://marvel.fandom.com/wiki/Chip_Martin_(Earth-616)",
+          "imageUrl": "/images/chip-martin-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 39,
+      "title": "Peter Parker, The Spectacular Spider-Man #39",
+      "releaseDate": "November 27, 1979",
+      "antagonists": [
+        {
+          "name": "Schizoid-Man",
+          "url": "https://marvel.fandom.com/wiki/Chip_Martin_(Earth-616)",
+          "imageUrl": "/images/chip-martin-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 40,
+      "title": "Peter Parker, The Spectacular Spider-Man #40",
+      "releaseDate": "December 25, 1979",
+      "antagonists": [
+        {
+          "name": "Spider-Lizard (Peter Parker)",
+          "url": "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)",
+          "imageUrl": "/images/peter-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 41,
+      "title": "Peter Parker, The Spectacular Spider-Man #41",
+      "releaseDate": "January 22, 1980",
+      "antagonists": [
+        {
+          "name": "Meteor Man (Norton Fester)",
+          "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
+          "imageUrl": "/images/norton-fester-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 42,
+      "title": "Peter Parker, The Spectacular Spider-Man #42",
+      "releaseDate": "February 26, 1980",
+      "antagonists": [
+        {
+          "name": "Frightful Four",
+          "url": "https://marvel.fandom.com/wiki/Frightful_Four_(Earth-616)",
+          "imageUrl": "/images/frightful-four-earth-616.jpg"
+        },
+        {
+          "name": "Wizard (Bentley Wittman)",
+          "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
+          "imageUrl": "/images/bentley-wittman-earth-616.jpg"
+        },
+        {
+          "name": "Trapster (Pete)",
+          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+          "imageUrl": "/images/peter-petruski-earth-616.jpg"
+        },
+        {
+          "name": "Sandman (William Baker)",
+          "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+          "imageUrl": "/images/william-baker-earth-616.jpg"
+        },
+        {
+          "name": "Electro (Max Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 43,
+      "title": "Peter Parker, The Spectacular Spider-Man #43",
+      "releaseDate": "March 25, 1980",
+      "antagonists": [
+        {
+          "name": "Belladonna",
+          "url": "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
+          "imageUrl": "/images/narda-ravanna-earth-616.jpg"
+        },
+        {
+          "name": "Jack",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jack"
+        },
+        {
+          "name": "Manny",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Manny"
+        }
+      ]
+    },
+    {
+      "issueNumber": 44,
+      "title": "Peter Parker, The Spectacular Spider-Man #44",
+      "releaseDate": "April 22, 1980",
+      "antagonists": [
+        {
+          "name": "Malachi Toomes",
+          "url": "https://marvel.fandom.com/wiki/Malachi_Toomes_(Earth-616)",
+          "imageUrl": "/images/malachi-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 45,
+      "title": "Peter Parker, The Spectacular Spider-Man #45",
+      "releaseDate": "May 27, 1980",
+      "antagonists": [
+        {
+          "name": "Malachi Toomes",
+          "url": "https://marvel.fandom.com/wiki/Malachi_Toomes_(Earth-616)",
+          "imageUrl": "/images/malachi-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Vulture",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 46,
+      "title": "Peter Parker, The Spectacular Spider-Man #46",
+      "releaseDate": "June 24, 1980",
+      "antagonists": [
+        {
+          "name": "Cobra (Klaus Voorhees)",
+          "url": "https://marvel.fandom.com/wiki/Klaus_Voorhees_(Earth-616)",
+          "imageUrl": "/images/klaus-voorhees-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 47,
+      "title": "Peter Parker, The Spectacular Spider-Man #47",
+      "releaseDate": "July 22, 1980",
+      "antagonists": [
+        {
+          "name": "Prowler (Cat Burglar)",
+          "url": "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)",
+          "imageUrl": "/images/cat-burglar-earth-616.jpg"
+        },
+        {
+          "name": "Belladonna",
+          "url": "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
+          "imageUrl": "/images/narda-ravanna-earth-616.jpg"
+        },
+        {
+          "name": "Jack",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jack"
+        },
+        {
+          "name": "Manny",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Manny"
+        },
+        {
+          "name": "Moe",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Moe"
+        }
+      ]
+    },
+    {
+      "issueNumber": 48,
+      "title": "Peter Parker, The Spectacular Spider-Man #48",
+      "releaseDate": "August 26, 1980",
+      "antagonists": [
+        {
+          "name": "Prowler (Cat Burglar)",
+          "url": "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)",
+          "imageUrl": "/images/cat-burglar-earth-616.jpg"
+        },
+        {
+          "name": "Belladonna (Narda Ravanna)",
+          "url": "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
+          "imageUrl": "/images/narda-ravanna-earth-616.jpg"
+        },
+        {
+          "name": "Jack",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jack"
+        },
+        {
+          "name": "Manny",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Manny"
+        },
+        {
+          "name": "Moe",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Moe"
+        }
+      ]
+    },
+    {
+      "issueNumber": 49,
+      "title": "Peter Parker, The Spectacular Spider-Man #49",
+      "releaseDate": "September 23, 1980",
+      "antagonists": [
+        {
+          "name": "Smuggler",
+          "url": "https://marvel.fandom.com/wiki/Erik_Josten_(Earth-616)",
+          "imageUrl": "/images/erik-josten-earth-616.jpg"
+        },
+        {
+          "name": "White Dragon Gang",
+          "url": "https://marvel.fandom.com/wiki/Dragon_Lords_(White_Dragon%27s_Gang)_(Earth-616)",
+          "imageUrl": "/images/dragon-lords-white-dragon-27s-gang-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 50,
+      "title": "Peter Parker, The Spectacular Spider-Man #50",
+      "releaseDate": "October 28, 1980",
+      "antagonists": [
+        {
+          "name": "Smuggler (Erik Josten)",
+          "url": "https://marvel.fandom.com/wiki/Erik_Josten_(Earth-616)",
+          "imageUrl": "/images/erik-josten-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Charlie",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
+        },
+        {
+          "name": "Charlie",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
+        },
+        {
+          "name": "Gideon Mace",
+          "url": "https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)",
+          "imageUrl": "/images/gideon-mace-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 51,
+      "title": "Peter Parker, The Spectacular Spider-Man #51",
+      "releaseDate": "November 25, 1980",
+      "antagonists": [
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Charlie",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
+        },
+        {
+          "name": "Charlie",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
+        },
+        {
+          "name": "Gideon Mace",
+          "url": "https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)",
+          "imageUrl": "/images/gideon-mace-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 52,
+      "title": "Peter Parker, The Spectacular Spider-Man #52",
+      "releaseDate": "December 23, 1980",
+      "antagonists": [
+        {
+          "name": "Gideon Mace",
+          "url": "https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)",
+          "imageUrl": "/images/gideon-mace-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 53,
+      "title": "Peter Parker, The Spectacular Spider-Man #53",
+      "releaseDate": "January 20, 1981",
+      "antagonists": [
+        {
+          "name": "Tinkerer (Phineas Mason)",
+          "url": "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
+          "imageUrl": "/images/phineas-mason-earth-616.jpg"
+        },
+        {
+          "name": "Toy",
+          "url": "https://marvel.fandom.com/wiki/Toy_(Earth-616)",
+          "imageUrl": "/images/toy-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 54,
+      "title": "Peter Parker, The Spectacular Spider-Man #54",
+      "releaseDate": "February 24, 1981",
+      "antagonists": [
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 55,
+      "title": "Peter Parker, The Spectacular Spider-Man #55",
+      "releaseDate": "March 24, 1981",
+      "antagonists": [
+        {
+          "name": "Nitro",
+          "url": "https://marvel.fandom.com/wiki/Robert_Hunter_(Earth-616)",
+          "imageUrl": "/images/robert-hunter-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 56,
+      "title": "Peter Parker, The Spectacular Spider-Man #56",
+      "releaseDate": "April 21, 1981",
+      "antagonists": [
+        {
+          "name": "Jack O'Lantern (Jason Macendale, Jr.)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 57,
+      "title": "Peter Parker, The Spectacular Spider-Man #57",
+      "releaseDate": "May 19, 1981",
+      "antagonists": [
+        {
+          "name": "Brand Corporation",
+          "url": "https://marvel.fandom.com/wiki/Brand_Corporation_(Earth-616)",
+          "imageUrl": "/images/brand-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Killer Shrike",
+          "url": "https://marvel.fandom.com/wiki/Simon_Maddicks_(Earth-616)",
+          "imageUrl": "/images/simon-maddicks-earth-616.jpg"
+        },
+        {
+          "name": "James Melvin",
+          "url": "https://marvel.fandom.com/wiki/James_Melvin_(Earth-616)",
+          "imageUrl": "/images/james-melvin-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 58,
+      "title": "Peter Parker, The Spectacular Spider-Man #58",
+      "releaseDate": "June 16, 1981",
+      "antagonists": [
+        {
+          "name": "Ringer (Anthony Davis)",
+          "url": "https://marvel.fandom.com/wiki/Anthony_Davis_(Earth-616)",
+          "imageUrl": "/images/anthony-davis-earth-616.jpg"
+        },
+        {
+          "name": "Beetle (Abner Jenkins)",
+          "url": "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
+          "imageUrl": "/images/abner-jenkins-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 59,
+      "title": "Peter Parker, The Spectacular Spider-Man #59",
+      "releaseDate": "July 21, 1981",
+      "antagonists": [
+        {
+          "name": "Gibbon (Martin Blank)",
+          "url": "https://marvel.fandom.com/wiki/Martin_Blank_(Earth-616)",
+          "imageUrl": "/images/martin-blank-earth-616.jpg"
+        },
+        {
+          "name": "Beetle (Abner Jenkins)",
+          "url": "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
+          "imageUrl": "/images/abner-jenkins-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 60,
+      "title": "Peter Parker, The Spectacular Spider-Man #60",
+      "releaseDate": "August 18, 1981",
+      "antagonists": [
+        {
+          "name": "Beetle (Abner Jenkins)",
+          "url": "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
+          "imageUrl": "/images/abner-jenkins-earth-616.jpg"
+        },
+        {
+          "name": "The Burglar",
+          "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
+          "imageUrl": "/images/carradine-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 61,
+      "title": "Peter Parker, The Spectacular Spider-Man #61",
+      "releaseDate": "September 15, 1981",
+      "antagonists": [
+        {
+          "name": "Moonstone (Sofen)",
+          "url": "https://marvel.fandom.com/wiki/Karla_Sofen_(Earth-616)",
+          "imageUrl": "/images/karla-sofen-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 62,
+      "title": "Peter Parker, The Spectacular Spider-Man #62",
+      "releaseDate": "October 20, 1981",
+      "antagonists": [
+        {
+          "name": "Goldbug (Matthew Gilden)",
+          "url": "https://marvel.fandom.com/wiki/Matthew_Gilden_(Earth-616)",
+          "imageUrl": "/images/matthew-gilden-earth-616.jpg"
+        },
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 63,
+      "title": "Peter Parker, The Spectacular Spider-Man #63",
+      "releaseDate": "November 17, 1981",
+      "antagonists": [
+        {
+          "name": "Molten Man (Mark Raxton)",
+          "url": "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
+          "imageUrl": "/images/mark-raxton-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 64,
+      "title": "Peter Parker, The Spectacular Spider-Man #64",
+      "releaseDate": "December 15, 1981",
+      "antagonists": [
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Simon Marshall",
+          "url": "https://marvel.fandom.com/wiki/Simon_Marshall_(Earth-616)",
+          "imageUrl": "/images/simon-marshall-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 65,
+      "title": "Peter Parker, The Spectacular Spider-Man #65",
+      "releaseDate": "January 19, 1982",
+      "antagonists": [
+        {
+          "name": "Kraven the Hunter (Sergei Kravinoff)",
+          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
+        },
+        {
+          "name": "Calypso",
+          "url": "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)",
+          "imageUrl": "/images/calypso-ezili-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 66,
+      "title": "Peter Parker, The Spectacular Spider-Man #66",
+      "releaseDate": "February 16, 1982",
+      "antagonists": [
+        {
+          "name": "Electro (Max Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 67,
+      "title": "Peter Parker, The Spectacular Spider-Man #67",
+      "releaseDate": "March 16, 1982",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Boomerang (Fred Myers)",
+          "url": "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)",
+          "imageUrl": "/images/frederick-myers-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 68,
+      "title": "Peter Parker, The Spectacular Spider-Man #68",
+      "releaseDate": "April 13, 1982",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 69,
+      "title": "Peter Parker, The Spectacular Spider-Man #69",
+      "releaseDate": "May 18, 1982",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Silvermane",
+          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 70,
+      "title": "Peter Parker, The Spectacular Spider-Man #70",
+      "releaseDate": "June 15, 1982",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wislon Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Silvermane",
+          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 71,
+      "title": "Peter Parker, The Spectacular Spider-Man #71",
+      "releaseDate": "July 13, 1982",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 72,
+      "title": "Peter Parker, The Spectacular Spider-Man #72",
+      "releaseDate": "August 17, 1982",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Ollie Osnick)",
+          "url": "https://marvel.fandom.com/wiki/Oliver_Osnick_(Earth-616)",
+          "imageUrl": "/images/oliver-osnick-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 73,
+      "title": "Peter Parker, The Spectacular Spider-Man #73",
+      "releaseDate": "September 14, 1982",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Owl",
+          "url": "https://marvel.fandom.com/wiki/Leland_Owlsley_(Earth-616)",
+          "imageUrl": "/images/leland-owlsley-earth-616.jpg"
+        },
+        {
+          "name": "Boomerang (Fred Myers)",
+          "url": "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)",
+          "imageUrl": "/images/frederick-myers-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 74,
+      "title": "Peter Parker, The Spectacular Spider-Man #74",
+      "releaseDate": "October 19, 1982",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Owl",
+          "url": "https://marvel.fandom.com/wiki/Leland_Owlsley_(Earth-616)",
+          "imageUrl": "/images/leland-owlsley-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson FIsk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Mark Whitman",
+          "url": "https://marvel.fandom.com/wiki/Mark_Whitman_(Earth-616)",
+          "imageUrl": "/images/mark-whitman-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 75,
+      "title": "Peter Parker, The Spectacular Spider-Man #75",
+      "releaseDate": "November 16, 1982",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Owl",
+          "url": "https://marvel.fandom.com/wiki/Leland_Owlsley_(Earth-616)",
+          "imageUrl": "/images/leland-owlsley-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 76,
+      "title": "Peter Parker, The Spectacular Spider-Man #76",
+      "releaseDate": "December 14, 1982",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 77,
+      "title": "Peter Parker, The Spectacular Spider-Man #77",
+      "releaseDate": "January 18, 1983",
+      "antagonists": [
+        {
+          "name": "Dr. Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 78,
+      "title": "Peter Parker, The Spectacular Spider-Man #78",
+      "releaseDate": "February 15, 1983",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 79,
+      "title": "Peter Parker, The Spectacular Spider-Man #79",
+      "releaseDate": "March 15, 1983",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 80,
+      "title": "Peter Parker, The Spectacular Spider-Man #80",
+      "releaseDate": "April 12, 1983",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 81,
+      "title": "Peter Parker, The Spectacular Spider-Man #81",
+      "releaseDate": "May 17, 1983",
+      "antagonists": [
+        {
+          "name": "Boomerang (Fred)",
+          "url": "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)",
+          "imageUrl": "/images/frederick-myers-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 82,
+      "title": "Peter Parker, The Spectacular Spider-Man #82",
+      "releaseDate": "June 14, 1983",
+      "antagonists": [
+        {
+          "name": "Punisher (Frank Castle)",
+          "url": "https://marvel.fandom.com/wiki/Francis_Castle_(Earth-616)",
+          "imageUrl": "/images/francis-castle-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 83,
+      "title": "Peter Parker, The Spectacular Spider-Man #83",
+      "releaseDate": "July 19, 1983",
+      "antagonists": [
+        {
+          "name": "Punisher (Frank Castle)",
+          "url": "https://marvel.fandom.com/wiki/Francis_Castle_(Earth-616)",
+          "imageUrl": "/images/francis-castle-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 84,
+      "title": "Peter Parker, The Spectacular Spider-Man #84",
+      "releaseDate": "August 16, 1983",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 85,
+      "title": "Peter Parker, The Spectacular Spider-Man #85",
+      "releaseDate": "September 13, 1983",
+      "antagonists": [
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)",
+          "imageUrl": "/images/roderick-kingsley-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 86,
+      "title": "Peter Parker, The Spectacular Spider-Man #86",
+      "releaseDate": "October 18, 1983",
+      "antagonists": [
+        {
+          "name": "Fly (Richard Deacon)",
+          "url": "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)",
+          "imageUrl": "/images/richard-deacon-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 87,
+      "title": "Peter Parker, The Spectacular Spider-Man #87",
+      "releaseDate": "November 15, 1983",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 88,
+      "title": "Peter Parker, The Spectacular Spider-Man #88",
+      "releaseDate": "December 13, 1983",
+      "antagonists": [
+        {
+          "name": "Cobra (Klaus Voorhees)",
+          "url": "https://marvel.fandom.com/wiki/Klaus_Voorhees_(Earth-616)",
+          "imageUrl": "/images/klaus-voorhees-earth-616.jpg"
+        },
+        {
+          "name": "Mr. Hyde (Calvin Zabo)",
+          "url": "https://marvel.fandom.com/wiki/Calvin_Zabo_(Earth-616)",
+          "imageUrl": "/images/calvin-zabo-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 89,
+      "title": "Peter Parker, The Spectacular Spider-Man #89",
+      "releaseDate": "January 17, 1984",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 90,
+      "title": "Peter Parker, The Spectacular Spider-Man #90",
+      "releaseDate": "February 14, 1984",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 91,
+      "title": "Peter Parker, The Spectacular Spider-Man #91",
+      "releaseDate": "March 20, 1984",
+      "antagonists": [
+        {
+          "name": "The Blob (Fred J.  Dukes)",
+          "url": "https://marvel.fandom.com/wiki/Frederick_Dukes_(Earth-616)",
+          "imageUrl": "/images/frederick-dukes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 92,
+      "title": "Peter Parker, The Spectacular Spider-Man #92",
+      "releaseDate": "April 17, 1984",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Answer (Aaron Nicholson)",
+          "url": "https://marvel.fandom.com/wiki/Aaron_Nicholson_(Earth-616)",
+          "imageUrl": "/images/aaron-nicholson-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 93,
+      "title": "Peter Parker, The Spectacular Spider-Man #93",
+      "releaseDate": "May 15, 1984",
+      "antagonists": [
+        {
+          "name": "The Answer (Aaron Nicholson)",
+          "url": "https://marvel.fandom.com/wiki/Aaron_Nicholson_(Earth-616)",
+          "imageUrl": "/images/aaron-nicholson-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 94,
+      "title": "Peter Parker, The Spectacular Spider-Man #94",
+      "releaseDate": "June 12, 1984",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Silvermane (Silvio Manfredi)",
+          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
+        },
+        {
+          "name": "Answer (Aaron Nicholson)",
+          "url": "https://marvel.fandom.com/wiki/Aaron_Nicholson_(Earth-616)",
+          "imageUrl": "/images/aaron-nicholson-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 95,
+      "title": "Peter Parker, The Spectacular Spider-Man #95",
+      "releaseDate": "July 17, 1984",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Answer (Aaron Nicholson)",
+          "url": "https://marvel.fandom.com/wiki/Aaron_Nicholson_(Earth-616)",
+          "imageUrl": "/images/aaron-nicholson-earth-616.jpg"
+        },
+        {
+          "name": "Silvermane (Silvio Manfredi)",
+          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
+        },
+        {
+          "name": "The Rose (Richard Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 96,
+      "title": "Peter Parker, The Spectacular Spider-Man #96",
+      "releaseDate": "August 14, 1984",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Answer (Aaron Nicholson)",
+          "url": "https://marvel.fandom.com/wiki/Aaron_Nicholson_(Earth-616)",
+          "imageUrl": "/images/aaron-nicholson-earth-616.jpg"
+        },
+        {
+          "name": "Silvermane (Silvio Manfredi)",
+          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 97,
+      "title": "Peter Parker, The Spectacular Spider-Man #97",
+      "releaseDate": "September 18, 1984",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Symbiote",
+          "url": "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/venom-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Elliot",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/E#Elliot"
+        },
+        {
+          "name": "Elliot",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/E#Elliot"
+        }
+      ]
+    },
+    {
+      "issueNumber": 98,
+      "title": "Peter Parker, The Spectacular Spider-Man #98",
+      "releaseDate": "October 16, 1984",
+      "antagonists": [
+        {
+          "name": "Symbiote",
+          "url": "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/venom-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Spot (Johnathon Ohnn)",
+          "url": "https://marvel.fandom.com/wiki/Johnathon_Ohnn_(Earth-616)",
+          "imageUrl": "/images/johnathon-ohnn-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 99,
+      "title": "Peter Parker, The Spectacular Spider-Man #99",
+      "releaseDate": "November 13, 1984",
+      "antagonists": [
+        {
+          "name": "Spot (Johnathon Ohnn)",
+          "url": "https://marvel.fandom.com/wiki/Johnathon_Ohnn_(Earth-616)",
+          "imageUrl": "/images/johnathon-ohnn-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Symbiote",
+          "url": "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/venom-symbiote-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 100,
+      "title": "Peter Parker, The Spectacular Spider-Man #100",
+      "releaseDate": "December 18, 1984",
+      "antagonists": [
+        {
+          "name": "Symbiote",
+          "url": "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/venom-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Spot (Johnathon Ohnn)",
+          "url": "https://marvel.fandom.com/wiki/Johnathon_Ohnn_(Earth-616)",
+          "imageUrl": "/images/johnathon-ohnn-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 101,
+      "title": "Peter Parker, The Spectacular Spider-Man #101",
+      "releaseDate": "January 15, 1985",
+      "antagonists": [
+        {
+          "name": "Blacklash (Marco Scarlotti)",
+          "url": "https://marvel.fandom.com/wiki/Marco_Scarlotti_(Earth-616)",
+          "imageUrl": "/images/marco-scarlotti-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 102,
+      "title": "Peter Parker, The Spectacular Spider-Man #102",
+      "releaseDate": "February 12, 1985",
+      "antagonists": [
+        {
+          "name": "Killer Shrike (Simon Maddicks)",
+          "url": "https://marvel.fandom.com/wiki/Simon_Maddicks_(Earth-616)",
+          "imageUrl": "/images/simon-maddicks-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 103,
+      "title": "Peter Parker, The Spectacular Spider-Man #103",
+      "releaseDate": "March 19, 1985",
+      "antagonists": [
+        {
+          "name": "Ashley Cranford",
+          "url": "https://marvel.fandom.com/wiki/Ashley_Cranford_(Earth-616)",
+          "imageUrl": "/images/ashley-cranford-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 104,
+      "title": "Peter Parker, The Spectacular Spider-Man #104",
+      "releaseDate": "April 16, 1985",
+      "antagonists": [
+        {
+          "name": "Bounty Hunter (Tommy Barrett)",
+          "url": "https://marvel.fandom.com/wiki/Tommy_Barrett_(Earth-616)",
+          "imageUrl": "/images/tommy-barrett-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 105,
+      "title": "Peter Parker, The Spectacular Spider-Man #105",
+      "releaseDate": "May 14, 1985",
+      "antagonists": [
+        {
+          "name": "Vince Granetti",
+          "url": "https://marvel.fandom.com/wiki/Vince_Granetti_(Earth-616)",
+          "imageUrl": "/images/vince-granetti-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 106,
+      "title": "Peter Parker, The Spectacular Spider-Man #106",
+      "releaseDate": "June 18, 1985",
+      "antagonists": [
+        {
+          "name": "Vince Granetti",
+          "url": "https://marvel.fandom.com/wiki/Vince_Granetti_(Earth-616)",
+          "imageUrl": "/images/vince-granetti-earth-616.jpg"
+        },
+        {
+          "name": "Chester",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Chester"
+        },
+        {
+          "name": "Chester",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Chester"
+        },
+        {
+          "name": "Jackson",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jackson"
+        }
+      ]
+    },
+    {
+      "issueNumber": 107,
+      "title": "Peter Parker, The Spectacular Spider-Man #107",
+      "releaseDate": "July 16, 1985",
+      "antagonists": [
+        {
+          "name": "Sin Eater",
+          "url": "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
+          "imageUrl": "/images/stanley-carter-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 108,
+      "title": "Peter Parker, The Spectacular Spider-Man #108",
+      "releaseDate": "August 13, 1985",
+      "antagonists": [
+        {
+          "name": "Sin Eater",
+          "url": "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
+          "imageUrl": "/images/stanley-carter-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 109,
+      "title": "Peter Parker, The Spectacular Spider-Man #109",
+      "releaseDate": "September 17, 1985",
+      "antagonists": [
+        {
+          "name": "Sin-Eater",
+          "url": "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
+          "imageUrl": "/images/stanley-carter-earth-616.jpg"
+        },
+        {
+          "name": "Emil Gregg",
+          "url": "https://marvel.fandom.com/wiki/Emil_Gregg_(Earth-616)",
+          "imageUrl": "/images/emil-gregg-earth-616.jpg"
+        },
+        {
+          "name": "Santa Claus Burglar",
+          "url": "https://marvel.fandom.com/wiki/Santa_Claus_Burglar_(Earth-616)",
+          "imageUrl": "/images/santa-claus-burglar-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 110,
+      "title": "Peter Parker, The Spectacular Spider-Man #110",
+      "releaseDate": "October 15, 1985",
+      "antagonists": [
+        {
+          "name": "Sin-Eater (Stanley Carter)",
+          "url": "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
+          "imageUrl": "/images/stanley-carter-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 111,
+      "title": "Peter Parker, The Spectacular Spider-Man #111",
+      "releaseDate": "November 12, 1985",
+      "antagonists": [
+        {
+          "name": "Beyonder",
+          "url": "https://marvel.fandom.com/wiki/Beyonder_(Earth-616)",
+          "imageUrl": "/images/beyonder-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 112,
+      "title": "Peter Parker, The Spectacular Spider-Man #112",
+      "releaseDate": "December 17, 1985",
+      "antagonists": [
+        {
+          "name": "Santa Claus Imposter",
+          "url": "https://marvel.fandom.com/wiki/Santa_Claus_Burglar_(Earth-616)",
+          "imageUrl": "/images/santa-claus-burglar-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 113,
+      "title": "Peter Parker, The Spectacular Spider-Man #113",
+      "releaseDate": "January 14, 1986",
+      "antagonists": [
+        {
+          "name": "John",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#John"
+        },
+        {
+          "name": "John",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#John"
+        }
+      ]
+    },
+    {
+      "issueNumber": 114,
+      "title": "Peter Parker, The Spectacular Spider-Man #114",
+      "releaseDate": "February 18, 1986",
+      "antagonists": [
+        {
+          "name": "The Barons",
+          "url": "https://marvel.fandom.com/wiki/Barons_(Street_Gang)_(Earth-616)",
+          "imageUrl": "/images/barons-street-gang-earth-616.jpg"
+        },
+        {
+          "name": "Cheech Beldone",
+          "url": "https://marvel.fandom.com/wiki/Cheech_Beldone_(Earth-616)",
+          "imageUrl": "/images/cheech-beldone-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 115,
+      "title": "Peter Parker, The Spectacular Spider-Man #115",
+      "releaseDate": "March 18, 1986",
+      "antagonists": [
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 116,
+      "title": "Peter Parker, The Spectacular Spider-Man #116",
+      "releaseDate": "April 15, 1986",
+      "antagonists": [
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        },
+        {
+          "name": "Sabretooth",
+          "url": "https://marvel.fandom.com/wiki/Victor_Creed_(Earth-616)",
+          "imageUrl": "/images/victor-creed-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 117,
+      "title": "Peter Parker, The Spectacular Spider-Man #117",
+      "releaseDate": "May 13, 1986",
+      "antagonists": [
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 118,
+      "title": "Peter Parker, The Spectacular Spider-Man #118",
+      "releaseDate": "June 17, 1986",
+      "antagonists": [
+        {
+          "name": "S.H.I.E.L.D.",
+          "url": "https://marvel.fandom.com/wiki/Strategic_Homeland_Intervention,_Enforcement_and_Logistics_Division_(Earth-616)",
+          "imageUrl": "/images/strategic-homeland-intervention-enforcement-and-logistics-division-earth-616.jpg"
+        },
+        {
+          "name": "Freddy Helms",
+          "url": "https://marvel.fandom.com/wiki/Frederick_Miluv_(Earth-616)",
+          "imageUrl": "/images/frederick-miluv-earth-616.jpg"
+        },
+        {
+          "name": "Reggie Simons",
+          "url": "https://marvel.fandom.com/wiki/Reggie_Simons_(Earth-616)",
+          "imageUrl": "/images/reggie-simons-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 119,
+      "title": "Peter Parker, The Spectacular Spider-Man #119",
+      "releaseDate": "July 15, 1986",
+      "antagonists": [
+        {
+          "name": "Sabretooth",
+          "url": "https://marvel.fandom.com/wiki/Victor_Creed_(Earth-616)",
+          "imageUrl": "/images/victor-creed-earth-616.jpg"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 120,
+      "title": "Peter Parker, The Spectacular Spider-Man #120",
+      "releaseDate": "August 12, 1986",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 121,
+      "title": "Peter Parker, The Spectacular Spider-Man #121",
+      "releaseDate": "September 16, 1986",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 122,
+      "title": "Peter Parker, The Spectacular Spider-Man #122",
+      "releaseDate": "October 14, 1986",
+      "antagonists": [
+        {
+          "name": "Mauler (Brendan Doyle)",
+          "url": "https://marvel.fandom.com/wiki/Brendan_Doyle_(Earth-616)",
+          "imageUrl": "/images/brendan-doyle-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 123,
+      "title": "Peter Parker, The Spectacular Spider-Man #123",
+      "releaseDate": "November 18, 1986",
+      "antagonists": [
+        {
+          "name": "Blaze",
+          "url": "https://marvel.fandom.com/wiki/Kirk_Donaghue_(Earth-616)",
+          "imageUrl": "/images/kirk-donaghue-earth-616.jpg"
+        },
+        {
+          "name": "1400 Club",
+          "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 124,
+      "title": "Peter Parker, The Spectacular Spider-Man #124",
+      "releaseDate": "December 16, 1986",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 125,
+      "title": "Peter Parker, The Spectacular Spider-Man #125",
+      "releaseDate": "January 13, 1987",
+      "antagonists": [
+        {
+          "name": "Wrecking Crew",
+          "url": "https://marvel.fandom.com/wiki/Wrecking_Crew_(Earth-616)",
+          "imageUrl": "/images/wrecking-crew-earth-616.jpg"
+        },
+        {
+          "name": "Wrecker",
+          "url": "https://marvel.fandom.com/wiki/Dirk_Garthwaite_(Earth-616)",
+          "imageUrl": "/images/dirk-garthwaite-earth-616.jpg"
+        },
+        {
+          "name": "Bulldozer",
+          "url": "https://marvel.fandom.com/wiki/Henry_Camp_(Earth-616)",
+          "imageUrl": "/images/henry-camp-earth-616.jpg"
+        },
+        {
+          "name": "Piledriver",
+          "url": "https://marvel.fandom.com/wiki/Brian_Calusky_(Earth-616)",
+          "imageUrl": "/images/brian-calusky-earth-616.jpg"
+        },
+        {
+          "name": "Thunderball",
+          "url": "https://marvel.fandom.com/wiki/Eliot_Franklin_(Thunderball)_(Earth-616)",
+          "imageUrl": "/images/eliot-franklin-thunderball-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 126,
+      "title": "Peter Parker, The Spectacular Spider-Man #126",
+      "releaseDate": "February 17, 1987",
+      "antagonists": [
+        {
+          "name": "Wrecking Crew",
+          "url": "https://marvel.fandom.com/wiki/Wrecking_Crew_(Earth-616)",
+          "imageUrl": "/images/wrecking-crew-earth-616.jpg"
+        },
+        {
+          "name": "The Wrecker",
+          "url": "https://marvel.fandom.com/wiki/Dirk_Garthwaite_(Earth-616)",
+          "imageUrl": "/images/dirk-garthwaite-earth-616.jpg"
+        },
+        {
+          "name": "Bulldozer",
+          "url": "https://marvel.fandom.com/wiki/Henry_Camp_(Earth-616)",
+          "imageUrl": "/images/henry-camp-earth-616.jpg"
+        },
+        {
+          "name": "Piledriver",
+          "url": "https://marvel.fandom.com/wiki/Brian_Calusky_(Earth-616)",
+          "imageUrl": "/images/brian-calusky-earth-616.jpg"
+        },
+        {
+          "name": "Thunderball",
+          "url": "https://marvel.fandom.com/wiki/Eliot_Franklin_(Thunderball)_(Earth-616)",
+          "imageUrl": "/images/eliot-franklin-thunderball-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 127,
+      "title": "Peter Parker, The Spectacular Spider-Man #127",
+      "releaseDate": "March 17, 1987",
+      "antagonists": [
+        {
+          "name": "Owl",
+          "url": "https://marvel.fandom.com/wiki/Leland_Owlsley_(Earth-616)",
+          "imageUrl": "/images/leland-owlsley-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 128,
+      "title": "Peter Parker, The Spectacular Spider-Man #128",
+      "releaseDate": "April 14, 1987",
+      "antagonists": [
+        {
+          "name": "Wild Pack",
+          "url": "https://marvel.fandom.com/wiki/Wild_Pack_(Earth-616)",
+          "imageUrl": "/images/wild-pack-earth-616.jpg"
+        },
+        {
+          "name": "Silver Sable",
+          "url": "https://marvel.fandom.com/wiki/Silvija_Sablinova_(Earth-616)",
+          "imageUrl": "/images/silvija-sablinova-earth-616.jpg"
+        },
+        {
+          "name": "Freddy Helms",
+          "url": "https://marvel.fandom.com/wiki/Frederick_Miluv_(Earth-616)",
+          "imageUrl": "/images/frederick-miluv-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 129,
+      "title": "Peter Parker, The Spectacular Spider-Man #129",
+      "releaseDate": "May 19, 1987",
+      "antagonists": [
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 130,
+      "title": "Peter Parker, The Spectacular Spider-Man #130",
+      "releaseDate": "June 16, 1987",
+      "antagonists": [
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Edward_Leeds_(Earth-616)",
+          "imageUrl": "/images/edward-leeds-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 131,
+      "title": "Peter Parker, The Spectacular Spider-Man #131",
+      "releaseDate": "July 14, 1987",
+      "antagonists": [
+        {
+          "name": "Vermin (Edward Whelan)",
+          "url": "https://marvel.fandom.com/wiki/Edward_Whelan_(Earth-616)",
+          "imageUrl": "/images/edward-whelan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 132,
+      "title": "Peter Parker, The Spectacular Spider-Man #132",
+      "releaseDate": "August 18, 1987",
+      "antagonists": [
+        {
+          "name": "Vermin (Edward Whelan)",
+          "url": "https://marvel.fandom.com/wiki/Edward_Whelan_(Earth-616)",
+          "imageUrl": "/images/edward-whelan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 133,
+      "title": "Peter Parker, The Spectacular Spider-Man #133",
+      "releaseDate": "September 15, 1987",
+      "antagonists": [
+        {
+          "name": "Kingpin",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Arranger",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Hope",
+          "url": "https://marvel.fandom.com/wiki/Doctor_Hope_(Earth-616)",
+          "imageUrl": "/images/doctor-hope-earth-616.jpg"
+        },
+        {
+          "name": "Brainstorm",
+          "url": "https://marvel.fandom.com/wiki/Brainstorm_(Jimmy)_(Earth-616)",
+          "imageUrl": "/images/brainstorm-jimmy-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 134,
+      "title": "Issue 134 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 135,
+      "title": "Issue 135 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 136,
+      "title": "Issue 136 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 137,
+      "title": "Issue 137 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 138,
+      "title": "Issue 138 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 139,
+      "title": "Issue 139 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 140,
+      "title": "Issue 140 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 141,
+      "title": "Issue 141 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 142,
+      "title": "Issue 142 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 143,
+      "title": "Issue 143 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 144,
+      "title": "Issue 144 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 145,
+      "title": "Issue 145 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 146,
+      "title": "Issue 146 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 147,
+      "title": "Issue 147 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 148,
+      "title": "Issue 148 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 149,
+      "title": "Issue 149 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 150,
+      "title": "Issue 150 (Failed)",
+      "antagonists": []
+    }
+  ]
+}

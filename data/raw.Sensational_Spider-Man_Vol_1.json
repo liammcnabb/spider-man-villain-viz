@@ -1,0 +1,214 @@
+{
+  "series": "Sensational Spider-Man Vol 1",
+  "baseUrl": "https://marvel.fandom.com/wiki/Sensational_Spider-Man_Vol_1_{issue}",
+  "issues": [
+    {
+      "issueNumber": 21,
+      "title": "Sensational Spider-Man #21",
+      "releaseDate": "September 3, 1997",
+      "antagonists": [
+        {
+          "name": "Technomancer Corporation",
+          "url": "https://marvel.fandom.com/wiki/Technomancer_Corporation_(Earth-616)",
+          "imageUrl": "/images/technomancer-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Master Om",
+          "url": "https://marvel.fandom.com/wiki/Om_(Earth-616)",
+          "imageUrl": "/images/om-earth-616.jpg"
+        },
+        {
+          "name": "Maegis Gunther Senreich",
+          "url": "https://marvel.fandom.com/wiki/Gunther_Senreich_(Earth-616)",
+          "imageUrl": "/images/gunther-senreich-earth-616.jpg"
+        },
+        {
+          "name": "Buel, the Gremlyn-Lord",
+          "url": "https://marvel.fandom.com/wiki/Buel_(Earth-616)",
+          "imageUrl": "/images/buel-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 22,
+      "title": "Sensational Spider-Man #22",
+      "releaseDate": "October 1, 1997",
+      "antagonists": [
+        {
+          "name": "Buel",
+          "url": "https://marvel.fandom.com/wiki/Buel_(Earth-616)",
+          "imageUrl": "/images/buel-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 23,
+      "title": "Sensational Spider-Man #23",
+      "releaseDate": "November 5, 1997",
+      "antagonists": [
+        {
+          "name": "Buel",
+          "url": "https://marvel.fandom.com/wiki/Buel_(Earth-616)",
+          "imageUrl": "/images/buel-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 24,
+      "title": "Sensational Spider-Man #24",
+      "releaseDate": "December 3, 1997",
+      "antagonists": [
+        {
+          "name": "Hydro-Man (Morris Bench)",
+          "url": "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)",
+          "imageUrl": "/images/morris-bench-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 25,
+      "title": "Sensational Spider-Man #25",
+      "releaseDate": "January 7, 1998",
+      "antagonists": [
+        {
+          "name": "Override (Greg Herd)",
+          "url": "https://marvel.fandom.com/wiki/Gregory_Herd_(Earth-616)",
+          "imageUrl": "/images/gregory-herd-earth-616.jpg"
+        },
+        {
+          "name": "Aura (Ann Herd)",
+          "url": "https://marvel.fandom.com/wiki/Ann_Herd_(Earth-616)",
+          "imageUrl": "/images/ann-herd-earth-616.jpg"
+        },
+        {
+          "name": "Dealy Boys",
+          "url": "https://marvel.fandom.com/wiki/Dealy_Boys_(Earth-616)",
+          "imageUrl": "/images/dealy-boys-earth-616.jpg"
+        },
+        {
+          "name": "Harv",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/H#Harv"
+        },
+        {
+          "name": "Lee",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Lee"
+        },
+        {
+          "name": "Ozzie",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/O#Ozzie"
+        }
+      ]
+    },
+    {
+      "issueNumber": 26,
+      "title": "Sensational Spider-Man #26",
+      "releaseDate": "February 4, 1998",
+      "antagonists": [
+        {
+          "name": "Hydro-Man (Morris Bench)",
+          "url": "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)",
+          "imageUrl": "/images/morris-bench-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 27,
+      "title": "Sensational Spider-Man #27",
+      "releaseDate": "March 4, 1998",
+      "antagonists": [
+        {
+          "name": "Looter (Norton Fester)",
+          "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
+          "imageUrl": "/images/norton-fester-earth-616.jpg"
+        },
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 28,
+      "title": "Sensational Spider-Man #28",
+      "releaseDate": "April 1, 1998",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 29,
+      "title": "Sensational Spider-Man #29",
+      "releaseDate": "May 6, 1998",
+      "antagonists": [
+        {
+          "name": "Arcade",
+          "url": "https://marvel.fandom.com/wiki/Arcade_(Earth-616)",
+          "imageUrl": "/images/arcade-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 30,
+      "title": "Sensational Spider-Man #30",
+      "releaseDate": "June 3, 1998",
+      "antagonists": [
+        {
+          "name": "Arcade",
+          "url": "https://marvel.fandom.com/wiki/Arcade_(Earth-616)",
+          "imageUrl": "/images/arcade-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 31,
+      "title": "Sensational Spider-Man #31",
+      "releaseDate": "July 1, 1998",
+      "antagonists": [
+        {
+          "name": "Rhino (Aleksei Sytsevich)",
+          "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
+          "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 32,
+      "title": "Sensational Spider-Man #32",
+      "releaseDate": "August 5, 1998",
+      "antagonists": [
+        {
+          "name": "Norman Osborn",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Override (Dr. Greg Herd)",
+          "url": "https://marvel.fandom.com/wiki/Gregory_Herd_(Earth-616)",
+          "imageUrl": "/images/gregory-herd-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 33,
+      "title": "Sensational Spider-Man #33",
+      "releaseDate": "September 2, 1998",
+      "antagonists": [
+        {
+          "name": "Override (Dr. Greg Herd)",
+          "url": "https://marvel.fandom.com/wiki/Gregory_Herd_(Earth-616)",
+          "imageUrl": "/images/gregory-herd-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 34,
+      "title": "Issue 34 (Failed)",
+      "antagonists": []
+    }
+  ]
+}

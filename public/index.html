@@ -69,6 +69,15 @@
                         <datalist id="groupOptions"></datalist>
                         <div id="activeGroupFilters" class="filter-chip-row"></div>
                     </div>
+                    <div class="filter-chip-input">
+                        <label class="filter-label">
+                            Volumes:
+                            <input list="volumeOptions" id="volumeFilterInput" class="filter-input" placeholder="Add volume">
+                        </label>
+                        <button id="addVolumeFilter" class="zoom-button" title="Add volume filter">Add</button>
+                        <datalist id="volumeOptions"></datalist>
+                        <div id="activeVolumeFilters" class="filter-chip-row"></div>
+                    </div>
                     <div class="zoom-controls">
                         <button id="zoomIn" class="zoom-button" title="Zoom In (Ctrl+Plus)">+</button>
                         <button id="zoomOut" class="zoom-button" title="Zoom Out (Ctrl+Minus)">−</button>
@@ -126,6 +135,10 @@
                         class="search-input"
                         placeholder="Filter villains..."
                     >
+                    <label class="toggle-label" title="Toggle between per-villain range and full dataset range for sparklines">
+                        <input type="checkbox" id="sparklineFullTimelineToggle">
+                        Use full timeline for sparklines
+                    </label>
                 </div>
                 <div class="villain-list" id="villainList">
                     <!-- Populated by JavaScript -->
@@ -161,6 +174,13 @@
                     This chart shows the number of distinct villains appearing 
                     in each issue. Hover over data points to see villain names.
                 </p>
+            </section>
+
+            <!-- Missing villain issues (debug) -->
+            <section class="visualization-section" id="missingVillainsSection" style="display: none;">
+                <h2>Issues with No Villains <span class="pill" id="missingVillainsCount">0</span></h2>
+                <p class="chart-description">For debugging: entries where villain data is empty or zero.</p>
+                <ul class="missing-issues-list" id="missingVillainsList"></ul>
             </section>
         </main>
 

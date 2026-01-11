@@ -52,6 +52,52 @@ const SERIES_CONFIG: Record<string, SeriesConfig> = {
     slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Amazing_Spider-Man_Annual_Vol_1_{issue}`,
     titlePrefix: 'Amazing Spider-Man Annual'
   }
+  ,
+  // Peter Parker, The Spectacular Spider-Man Vol 1
+  'Peter Parker, The Spectacular Spider-Man Vol 1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Peter_Parker,_The_Spectacular_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Peter Parker, The Spectacular Spider-Man'
+  },
+  'Peter_Parker,_The_Spectacular_Spider-Man_Vol_1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Peter_Parker,_The_Spectacular_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Peter Parker, The Spectacular Spider-Man'
+  },
+  // Web of Spider-Man Vol 1
+  'Web of Spider-Man Vol 1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Web_of_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Web of Spider-Man'
+  },
+  'Web_of_Spider-Man_Vol_1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Web_of_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Web of Spider-Man'
+  },
+  // Spider-Man (Adjectiveless) Vol 1
+  'Spider-Man Vol 1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Spider-Man'
+  },
+  'Spider-Man_Vol_1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Spider-Man'
+  },
+  // Sensational Spider-Man Vol 1
+  'Sensational Spider-Man Vol 1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Sensational_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Sensational Spider-Man'
+  },
+  'Sensational_Spider-Man_Vol_1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Sensational_Spider-Man_Vol_1_{issue}`,
+    titlePrefix: 'Sensational Spider-Man'
+  },
+  // Spider-Man Unlimited Vol 1
+  'Spider-Man Unlimited Vol 1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Spider-Man_Unlimited_Vol_1_{issue}`,
+    titlePrefix: 'Spider-Man Unlimited'
+  },
+  'Spider-Man_Unlimited_Vol_1': {
+    slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Spider-Man_Unlimited_Vol_1_{issue}`,
+    titlePrefix: 'Spider-Man Unlimited'
+  }
 };
 const DEFAULT_TIMEOUT = 10000;
 const REQUEST_DELAY_MS = 1000; // Respectful scraping

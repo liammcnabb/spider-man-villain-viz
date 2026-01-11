@@ -31,6 +31,10 @@ class SpiderManVisualization {
         this.activeVillainIds = new Set(); // Filter: selected villains
         this.activeVillainNames = new Set(); // Lowercased names for fallback matching
         this.activeGroupNames = new Set(); // Filter: selected groups
+        this.activeVolumeNames = new Set(); // Filter: selected volumes
+        this.sparklineDomainMode = 'relative'; // Sparkline domain mode: 'relative' | 'full'
+        this.timelineYearRange = null; // Global timeline year range derived from dataset
+        this.refreshVillainList = null; // Callback to rerender villain list when settings change
         this.villainById = new Map();
         this.villainByName = new Map();
         this.groupMembers = new Map();
@@ -85,6 +89,8 @@ class SpiderManVisualization {
 
             this.data = villainData;
             this.config = d3Config;
+            this.sparklineDomainMode = this.getSavedSparklineMode();
+            this.timelineYearRange = this.computeTimelineYearRange();
             // Populate series color map from loaded config
             if (d3Config.seriesColors) {
                 this.seriesColorMap = d3Config.seriesColors;
@@ -115,7 +121,9 @@ class SpiderManVisualization {
             this.renderHistogram();
             this.renderTimeline();
             this.renderVillainList();
+            this.setupSparklineToggle();
             this.renderGroupList();
+            this.renderMissingVillainIssues();
 
             // Setup toggle listeners
             this.setupGridToggle();
@@ -151,6 +159,19 @@ class SpiderManVisualization {
         
         // Setup theme toggle listener
         this.setupThemeToggle();
+    }
+
+    /**
+     * Load persisted sparkline domain preference
+     */
+    getSavedSparklineMode() {
+        try {
+            const stored = localStorage.getItem('sparklineDomainMode');
+            return stored === 'full' ? 'full' : 'relative';
+        } catch (err) {
+            console.warn('Unable to read sparkline preference, using default', err);
+            return 'relative';
+        }
     }
 
     /**
@@ -298,6 +319,23 @@ class SpiderManVisualization {
     }
 
     /**
+     * Get all unique series/volumes from the config data
+     */
+    getUniqueSeries() {
+        if (!this.config || !this.config.data) return [];
+        
+        const seriesSet = new Set();
+        this.config.data.forEach(item => {
+            if (item.series) {
+                seriesSet.add(item.series);
+            }
+        });
+        
+        // Sort by appearance order
+        return Array.from(seriesSet).sort();
+    }
+
+    /**
      * Setup villain/group filter controls
      */
     setupFilterControls() {
@@ -307,6 +345,9 @@ class SpiderManVisualization {
         const groupInput = document.getElementById('groupFilterInput');
         const groupOptions = document.getElementById('groupOptions');
         const addGroupBtn = document.getElementById('addGroupFilter');
+        const volumeInput = document.getElementById('volumeFilterInput');
+        const volumeOptions = document.getElementById('volumeOptions');
+        const addVolumeBtn = document.getElementById('addVolumeFilter');
         const clearBtn = document.getElementById('clearFiltersBtn');
 
         // Populate datalists
@@ -326,6 +367,15 @@ class SpiderManVisualization {
                 opt.value = g.name;
                 opt.label = g.name;
                 groupOptions.appendChild(opt);
+            });
+        }
+        if (volumeOptions) {
+            volumeOptions.innerHTML = '';
+            this.getUniqueSeries().forEach(series => {
+                const opt = document.createElement('option');
+                opt.value = series;
+                opt.label = series;
+                volumeOptions.appendChild(opt);
             });
         }
 
@@ -355,6 +405,16 @@ class SpiderManVisualization {
             this.rerenderCharts();
         };
 
+        const addVolume = () => {
+            if (!volumeInput) return;
+            const name = (volumeInput.value || '').trim();
+            if (!name) return;
+            this.activeVolumeNames.add(name);
+            volumeInput.value = '';
+            this.renderActiveFilters();
+            this.rerenderCharts();
+        };
+
         if (addVillainBtn) {
             addVillainBtn.addEventListener('click', addVillain);
         }
@@ -377,11 +437,23 @@ class SpiderManVisualization {
                 }
             });
         }
+        if (addVolumeBtn) {
+            addVolumeBtn.addEventListener('click', addVolume);
+        }
+        if (volumeInput) {
+            volumeInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    addVolume();
+                }
+            });
+        }
         if (clearBtn) {
             clearBtn.addEventListener('click', () => {
                 this.activeVillainIds.clear();
                 this.activeVillainNames.clear();
                 this.activeGroupNames.clear();
+                this.activeVolumeNames.clear();
                 this.renderActiveFilters();
                 this.rerenderCharts();
             });
@@ -391,11 +463,35 @@ class SpiderManVisualization {
     }
 
     /**
+     * Wire up global sparkline domain toggle
+     */
+    setupSparklineToggle() {
+        const toggle = document.getElementById('sparklineFullTimelineToggle');
+        if (!toggle) return;
+
+        toggle.checked = this.sparklineDomainMode === 'full';
+
+        toggle.addEventListener('change', () => {
+            this.sparklineDomainMode = toggle.checked ? 'full' : 'relative';
+            try {
+                localStorage.setItem('sparklineDomainMode', this.sparklineDomainMode);
+            } catch (err) {
+                console.warn('Unable to persist sparkline preference', err);
+            }
+
+            if (typeof this.refreshVillainList === 'function') {
+                this.refreshVillainList();
+            }
+        });
+    }
+
+    /**
      * Render active filter chips
      */
     renderActiveFilters() {
         const villainChipRow = document.getElementById('activeVillainFilters');
         const groupChipRow = document.getElementById('activeGroupFilters');
+        const volumeChipRow = document.getElementById('activeVolumeFilters');
 
         if (villainChipRow) {
             villainChipRow.innerHTML = '';
@@ -433,6 +529,17 @@ class SpiderManVisualization {
             this.activeGroupNames.forEach(name => {
                 groupChipRow.appendChild(this.createChip(name, () => {
                     this.activeGroupNames.delete(name);
+                    this.renderActiveFilters();
+                    this.rerenderCharts();
+                }));
+            });
+        }
+
+        if (volumeChipRow) {
+            volumeChipRow.innerHTML = '';
+            this.activeVolumeNames.forEach(name => {
+                volumeChipRow.appendChild(this.createChip(name, () => {
+                    this.activeVolumeNames.delete(name);
                     this.renderActiveFilters();
                     this.rerenderCharts();
                 }));
@@ -777,6 +884,14 @@ class SpiderManVisualization {
      * Render a unified grid with all series combined, sorted by chronological position
      */
     renderUnifiedGrid(allIssues, containerDiv) {
+        // Filter issues by selected volumes
+        let filteredIssues = allIssues;
+        if (this.activeVolumeNames.size > 0) {
+            filteredIssues = allIssues.filter(entry => 
+                this.activeVolumeNames.has(entry.series)
+            );
+        }
+
         // Track all unique issues and villains
         const issueMap = new Map(); // Map chronoPos to issue entry
         const villainFirstChrono = {};
@@ -784,7 +899,7 @@ class SpiderManVisualization {
         const villainAppearanceCount = {};
         const appearances = {};
 
-        allIssues.forEach(entry => {
+        filteredIssues.forEach(entry => {
             const chronoPos = entry.chronologicalPosition || 0;
             issueMap.set(chronoPos, entry);
             
@@ -1763,6 +1878,10 @@ class SpiderManVisualization {
         const filterInput = 
             document.getElementById('villainFilter');
 
+        if (!villainListDiv) {
+            return;
+        }
+
         // Sort villains by frequency
         const sortedVillains = 
             [...this.villains].sort((a, b) => 
@@ -1785,17 +1904,29 @@ class SpiderManVisualization {
             });
         };
 
-        // Initial render
-        renderVillains(sortedVillains);
-
-        // Add filter functionality
-        filterInput.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase();
-            const filtered = sortedVillains.filter(villain =>
+        const getFilteredVillains = () => {
+            const query = (filterInput?.value || '').toLowerCase();
+            return sortedVillains.filter(villain =>
                 villain.name.toLowerCase().includes(query)
             );
-            renderVillains(filtered);
-        });
+        };
+
+        const renderCurrentVillains = () => {
+            renderVillains(getFilteredVillains());
+        };
+
+        // Initial render
+        renderCurrentVillains();
+
+        // Add filter functionality
+        if (filterInput) {
+            filterInput.addEventListener('input', () => {
+                renderCurrentVillains();
+            });
+        }
+
+        // Expose re-render for external toggles (e.g., sparkline domain)
+        this.refreshVillainList = renderCurrentVillains;
     }
 
     /**
@@ -1846,6 +1977,54 @@ class SpiderManVisualization {
                 renderGroups(filtered);
             });
         }
+    }
+
+    /**
+     * Render a debugging list of timeline entries with no villains
+     */
+    renderMissingVillainIssues() {
+        const section = document.getElementById('missingVillainsSection');
+        const list = document.getElementById('missingVillainsList');
+        const countBadge = document.getElementById('missingVillainsCount');
+
+        if (!section || !list) return;
+
+        const timeline = this.data?.timeline || [];
+        const missing = timeline.filter(entry => {
+            const villains = entry.villains || [];
+            const count = entry.villainCount !== undefined ? entry.villainCount : villains.length;
+            return villains.length === 0 || count === 0;
+        });
+
+        if (countBadge) {
+            countBadge.textContent = String(missing.length);
+        }
+
+        if (missing.length === 0) {
+            section.style.display = 'none';
+            return;
+        }
+
+        section.style.display = 'block';
+        list.innerHTML = '';
+
+        missing
+            .sort((a, b) => (a.issue || 0) - (b.issue || 0))
+            .forEach(entry => {
+                const item = document.createElement('li');
+                const parts = [];
+                if (entry.issue !== undefined) {
+                    parts.push(`#${entry.issue}`);
+                }
+                if (entry.series) {
+                    parts.push(entry.series);
+                }
+                if (entry.releaseDate) {
+                    parts.push(entry.releaseDate);
+                }
+                item.textContent = parts.join(' • ');
+                list.appendChild(item);
+            });
     }
 
     /**
@@ -1935,6 +2114,28 @@ class SpiderManVisualization {
     }
 
     /**
+     * Compute earliest and latest release years across the full dataset
+     */
+    computeTimelineYearRange() {
+        const timeline = this.data?.timeline || [];
+        let minYear = null;
+        let maxYear = null;
+
+        timeline.forEach(entry => {
+            const year = this.extractYear(entry.releaseDate);
+            if (!year || Number.isNaN(year)) return;
+            if (minYear === null || year < minYear) minYear = year;
+            if (maxYear === null || year > maxYear) maxYear = year;
+        });
+
+        if (minYear === null || maxYear === null) {
+            return null;
+        }
+
+        return { minYear, maxYear };
+    }
+
+    /**
      * Build yearly appearance counts for a villain
      */
     buildYearlyCounts(villain) {
@@ -1976,6 +2177,36 @@ class SpiderManVisualization {
     }
 
     /**
+     * Resolve sparkline domain depending on toggle state
+     */
+    getSparklineDomain(series) {
+        const defaultMin = series[0]?.year;
+        const defaultMax = series[series.length - 1]?.year;
+
+        if (this.sparklineDomainMode === 'full' && this.timelineYearRange) {
+            return {
+                minYear: this.timelineYearRange.minYear,
+                maxYear: this.timelineYearRange.maxYear
+            };
+        }
+
+        return {
+            minYear: defaultMin,
+            maxYear: defaultMax
+        };
+    }
+
+    /**
+     * Read sparkline accent color from CSS variables
+     */
+    getSparklineColor() {
+        const root = document.documentElement;
+        const value = getComputedStyle(root).getPropertyValue('--color-sparkline');
+        const color = (value || '').trim();
+        return color || '#d4af37';
+    }
+
+    /**
      * Render compact sparkline for yearly counts
      */
     renderSparkline(container, series) {
@@ -1988,16 +2219,19 @@ class SpiderManVisualization {
         }
 
         if (series.length < 2) {
-            container.textContent = 'Not enough data points';
+            container.textContent = 'Needs appearances across 2+ years to show a trend';
             return;
         }
 
         const height = 60;
         const margin = { top: 6, right: 6, bottom: 18, left: 6 };
-
-        const minYear = series[0].year;
-        const maxYear = series[series.length - 1].year;
+        const domain = this.getSparklineDomain(series);
+        const minYear = domain.minYear ?? series[0].year;
+        const rawMaxYear = domain.maxYear ?? series[series.length - 1].year;
+        const maxYear = rawMaxYear === minYear ? rawMaxYear + 1 : rawMaxYear;
+        const labelMaxYear = rawMaxYear;
         const maxCount = Math.max(...series.map(s => s.count));
+        const sparkColor = this.getSparklineColor();
 
         // Use a reasonable default width for layout, will scale via CSS
         // Calculate actual width after SVG is inserted into DOM
@@ -2037,7 +2271,7 @@ class SpiderManVisualization {
             .datum(series)
             .attr('class', 'sparkline-path')
             .attr('d', line)
-            .attr('stroke', '#9b59b6');
+            .attr('stroke', sparkColor);
 
         // Points
         svg.selectAll('.sparkline-point')
@@ -2048,7 +2282,7 @@ class SpiderManVisualization {
             .attr('cx', d => scaleX(d.year))
             .attr('cy', d => scaleY(d.count))
             .attr('r', 3)
-            .attr('fill', '#9b59b6')
+            .attr('fill', sparkColor)
             .append('title')
             .text(d => `${d.year}: ${d.count}`);
 
@@ -2064,7 +2298,7 @@ class SpiderManVisualization {
             .attr('x', defaultWidth - margin.right)
             .attr('y', height - 2)
             .attr('text-anchor', 'end')
-            .text(maxYear);
+            .text(labelMaxYear);
     }
 
     /**

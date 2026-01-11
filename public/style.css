@@ -23,6 +23,7 @@
     --color-border: #e0e0e0;
     --color-grid: #eeeeee;
     --color-card-shadow: rgba(0, 0, 0, 0.1);
+    --color-sparkline: #d4af37;
     
     /* Typography */
     --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 
@@ -70,6 +71,7 @@ body.dark-theme {
     --color-border: #404040;
     --color-grid: #333333;
     --color-card-shadow: rgba(0, 0, 0, 0.5);
+    --color-sparkline: #c9a227;
 }
 
 html {
@@ -722,12 +724,12 @@ body.dark-theme #grid-tooltip {
 
 .sparkline-path {
     fill: none;
-    stroke: #9b59b6;
+    stroke: var(--color-sparkline);
     stroke-width: 2;
 }
 
 .sparkline-point {
-    fill: #9b59b6;
+    fill: var(--color-sparkline);
     stroke: var(--color-surface);
     stroke-width: 1.5;
 }
@@ -735,6 +737,16 @@ body.dark-theme #grid-tooltip {
 .sparkline-label {
     fill: var(--color-text-light);
     font-size: 10px;
+}
+
+.missing-issues-list {
+    margin-top: calc(var(--spacing-unit));
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.missing-issues-list li {
+    margin-bottom: 4px;
 }
 
 .volume-badge {

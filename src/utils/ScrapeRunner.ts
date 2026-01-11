@@ -86,14 +86,49 @@ export class ScrapeRunner {
     const outputPath = options.outputPath 
       || path.join(this.dataDir, `raw.${seriesSlug}.json`);
 
-    // Save raw data
+    // Merge with existing data if file exists
+    let mergedData = rawData;
+    if (fs.existsSync(outputPath)) {
+      try {
+        const existingContent = fs.readFileSync(outputPath, 'utf8');
+        const existingData: RawVillainData = JSON.parse(existingContent);
+        
+        // Create a map of issue numbers to issue data for quick lookup
+        const issueMap = new Map<number, any>();
+        
+        // Add existing issues to map
+        for (const issue of existingData.issues) {
+          issueMap.set(issue.issueNumber, issue);
+        }
+        
+        // Override with newly scraped issues
+        for (const issue of rawData.issues) {
+          issueMap.set(issue.issueNumber, issue);
+        }
+        
+        // Convert back to sorted array
+        const mergedIssues = Array.from(issueMap.values())
+          .sort((a, b) => a.issueNumber - b.issueNumber);
+        
+        mergedData = {
+          ...rawData,
+          issues: mergedIssues
+        };
+        
+        console.log(`✓ Merged with existing data (${existingData.issues.length} existing + ${rawData.issues.length} new = ${mergedIssues.length} total)`);
+      } catch (error) {
+        console.warn(`⚠️  Failed to merge with existing data, will overwrite: ${error}`);
+      }
+    }
+
+    // Save merged data
     fs.writeFileSync(
       outputPath,
-      JSON.stringify(rawData, null, 2)
+      JSON.stringify(mergedData, null, 2)
     );
     console.log(`✓ Saved raw data to ${outputPath}`);
 
-    return rawData;
+    return mergedData;
   }
 
   /**

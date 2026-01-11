@@ -1,0 +1,191 @@
+{
+  "data": [
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 1,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "September 3, 1997",
+      "villainsInIssue": [
+        "Technomancer Corporation",
+        "Master Om",
+        "Maegis Gunther Senreich",
+        "Buel, the Gremlyn-Lord"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 22,
+      "chronologicalPosition": 2,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "October 1, 1997",
+      "villainsInIssue": [
+        "Buel, the Gremlyn-Lord"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 23,
+      "chronologicalPosition": 3,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "November 5, 1997",
+      "villainsInIssue": [
+        "Buel, the Gremlyn-Lord"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 24,
+      "chronologicalPosition": 4,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "December 3, 1997",
+      "villainsInIssue": [
+        "Hydro-Man"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 25,
+      "chronologicalPosition": 5,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "January 7, 1998",
+      "villainsInIssue": [
+        "Override",
+        "Aura",
+        "Dealy Boys",
+        "Harv",
+        "Lee",
+        "Ozzie"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 26,
+      "chronologicalPosition": 6,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "February 4, 1998",
+      "villainsInIssue": [
+        "Hydro-Man"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 27,
+      "chronologicalPosition": 7,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "March 4, 1998",
+      "villainsInIssue": [
+        "Looter",
+        "Vulture"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 28,
+      "chronologicalPosition": 8,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "April 1, 1998",
+      "villainsInIssue": [
+        "Vulture"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 29,
+      "chronologicalPosition": 9,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "May 6, 1998",
+      "villainsInIssue": [
+        "Arcade"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 30,
+      "chronologicalPosition": 10,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "June 3, 1998",
+      "villainsInIssue": [
+        "Arcade"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 31,
+      "chronologicalPosition": 11,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "July 1, 1998",
+      "villainsInIssue": [
+        "Rhino"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 32,
+      "chronologicalPosition": 12,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "August 5, 1998",
+      "villainsInIssue": [
+        "Override",
+        "Norman Osborn"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 33,
+      "chronologicalPosition": 13,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "September 2, 1998",
+      "villainsInIssue": [
+        "Override"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 34,
+      "chronologicalPosition": 14,
+      "series": "Sensational Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    }
+  ],
+  "scales": {
+    "x": {
+      "domain": [
+        1,
+        14
+      ],
+      "range": [
+        60,
+        1180
+      ]
+    },
+    "y": {
+      "domain": [
+        0,
+        6
+      ],
+      "range": [
+        570,
+        20
+      ]
+    }
+  },
+  "colors": {
+    "Technomancer Corporation": "#00cec9",
+    "Master Om": "#2980b9",
+    "Maegis Gunther Senreich": "#fd79a8",
+    "Buel, the Gremlyn-Lord": "#16a085",
+    "Hydro-Man": "#f1c40f",
+    "Override": "#45b7d1",
+    "Aura": "#f39c12",
+    "Dealy Boys": "#e67e22",
+    "Harv": "#00cec9",
+    "Lee": "#74b9ff",
+    "Ozzie": "#fdcb6e",
+    "Looter": "#ff7675",
+    "Vulture": "#e84393",
+    "Arcade": "#00b894",
+    "Rhino": "#2980b9",
+    "Norman Osborn": "#9b59b6"
+  }
+}

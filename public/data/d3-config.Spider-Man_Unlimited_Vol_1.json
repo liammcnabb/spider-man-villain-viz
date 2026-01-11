@@ -1,0 +1,268 @@
+{
+  "data": [
+    {
+      "issueNumber": 1,
+      "chronologicalPosition": 1,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "March 30, 1993",
+      "villainsInIssue": [
+        "Carnage",
+        "Carnage Symbiote",
+        "Shriek",
+        "Spider-Doppelganger",
+        "Scorpion",
+        "Burglar",
+        "Gerard Anders",
+        "Steven Polk"
+      ],
+      "villainCount": 8
+    },
+    {
+      "issueNumber": 2,
+      "chronologicalPosition": 2,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "June 29, 1993",
+      "villainsInIssue": [
+        "Carnage",
+        "Megawatt",
+        "Jonas Harrow"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 3,
+      "chronologicalPosition": 3,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "September 28, 1993",
+      "villainsInIssue": [
+        "Doctor Octopus",
+        "Corona"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 4,
+      "chronologicalPosition": 4,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "December 28, 1993",
+      "villainsInIssue": [
+        "Mysterio",
+        "Nico",
+        "Frankie",
+        "Stone",
+        "Rhino"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 5,
+      "chronologicalPosition": 5,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "March 29, 1994",
+      "villainsInIssue": [
+        "Nico",
+        "The Fox",
+        "Tony MacDonald"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 6,
+      "chronologicalPosition": 6,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "June 28, 1994",
+      "villainsInIssue": [
+        "Hydro-Man",
+        "Nautilus",
+        "Razorwire",
+        "Tony Marcheyk"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 7,
+      "chronologicalPosition": 7,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "September 27, 1994",
+      "villainsInIssue": [
+        "James Kapoztas",
+        "Boomerang"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 8,
+      "chronologicalPosition": 8,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "December 27, 1994",
+      "villainsInIssue": [
+        "Terror Unlimited",
+        "David",
+        "José"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 9,
+      "chronologicalPosition": 9,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "March 28, 1995",
+      "villainsInIssue": [
+        "Mysterio",
+        "Kaine",
+        "Sinister Seven",
+        "Beetle",
+        "Scorpia",
+        "Hobgoblin",
+        "Electro",
+        "Shocker",
+        "Vulture"
+      ],
+      "villainCount": 9
+    },
+    {
+      "issueNumber": 10,
+      "chronologicalPosition": 10,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "July 27, 1995",
+      "villainsInIssue": [
+        "Vulture",
+        "Mr. Whitten"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 11,
+      "chronologicalPosition": 11,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "December 28, 1995",
+      "villainsInIssue": [
+        "José",
+        "Skull-Jacket",
+        "Russian mob",
+        "Valeri Kasatanov"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 12,
+      "chronologicalPosition": 12,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "March 27, 1996",
+      "villainsInIssue": [
+        "Boomerang",
+        "Beetle",
+        "Scorpia",
+        "Shocker",
+        "Jack O'Lantern",
+        "The Pro"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 13,
+      "chronologicalPosition": 13,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "June 26, 1996",
+      "villainsInIssue": [
+        "Scorpion",
+        "Rand Corporation",
+        "Jason Quartermaster",
+        "Steel Serpent"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 14,
+      "chronologicalPosition": 14,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "October 9, 1996",
+      "villainsInIssue": [
+        "Great Game",
+        "James Johnsmeyer",
+        "Justin Hammer",
+        "Polestar",
+        "El Toro Negro",
+        "Joystick",
+        "Chance"
+      ],
+      "villainCount": 7
+    }
+  ],
+  "scales": {
+    "x": {
+      "domain": [
+        1,
+        14
+      ],
+      "range": [
+        60,
+        1180
+      ]
+    },
+    "y": {
+      "domain": [
+        0,
+        9
+      ],
+      "range": [
+        570,
+        20
+      ]
+    }
+  },
+  "colors": {
+    "Carnage": "#27ae60",
+    "Carnage Symbiote": "#55efc4",
+    "Shriek": "#fd79a8",
+    "Spider-Doppelganger": "#6c5ce7",
+    "Scorpion": "#f1c40f",
+    "Burglar": "#1abc9c",
+    "Gerard Anders": "#e74c3c",
+    "Steven Polk": "#f1c40f",
+    "Megawatt": "#9b59b6",
+    "Jonas Harrow": "#ff6b6b",
+    "Doctor Octopus": "#ff6b6b",
+    "Corona": "#d63031",
+    "Mysterio": "#00b894",
+    "Nico": "#a29bfe",
+    "Frankie": "#34495e",
+    "Stone": "#00cec9",
+    "Rhino": "#2980b9",
+    "The Fox": "#ffeaa7",
+    "Tony MacDonald": "#00cec9",
+    "Hydro-Man": "#f1c40f",
+    "Nautilus": "#f1c40f",
+    "Razorwire": "#00cec9",
+    "Tony Marcheyk": "#2ecc71",
+    "James Kapoztas": "#55efc4",
+    "Boomerang": "#34495e",
+    "Terror Unlimited": "#1abc9c",
+    "David": "#74b9ff",
+    "José": "#f39c12",
+    "Kaine": "#6c5ce7",
+    "Sinister Seven": "#74b9ff",
+    "Beetle": "#f39c12",
+    "Scorpia": "#ff7675",
+    "Hobgoblin": "#34495e",
+    "Electro": "#74b9ff",
+    "Shocker": "#c0392b",
+    "Vulture": "#e84393",
+    "Mr. Whitten": "#fd79a8",
+    "Skull-Jacket": "#2ecc71",
+    "Russian mob": "#f9ca24",
+    "Valeri Kasatanov": "#e84393",
+    "Jack O'Lantern": "#00cec9",
+    "The Pro": "#eb3b5a",
+    "Rand Corporation": "#f39c12",
+    "Jason Quartermaster": "#2d3436",
+    "Steel Serpent": "#e67e22",
+    "Great Game": "#4ecdc4",
+    "James Johnsmeyer": "#2ecc71",
+    "Justin Hammer": "#fdcb6e",
+    "Polestar": "#fab1a0",
+    "El Toro Negro": "#34495e",
+    "Joystick": "#d63031",
+    "Chance": "#74b9ff"
+  }
+}

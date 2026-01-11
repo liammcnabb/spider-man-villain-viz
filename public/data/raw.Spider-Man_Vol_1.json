@@ -1,0 +1,1008 @@
+{
+  "series": "Spider-Man Vol 1",
+  "baseUrl": "https://marvel.fandom.com/wiki/Spider-Man_Vol_1_{issue}",
+  "issues": [
+    {
+      "issueNumber": 51,
+      "title": "Spider-Man #51",
+      "releaseDate": "August 16, 1994",
+      "antagonists": [
+        {
+          "name": "Dr. Judas Traveller",
+          "url": "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+          "imageUrl": "/images/judas-traveller-earth-616.jpg"
+        },
+        {
+          "name": "The Host",
+          "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)"
+        },
+        {
+          "name": "Mr. Nacht",
+          "url": "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+          "imageUrl": "/images/walther-nacht-earth-616.jpg"
+        },
+        {
+          "name": "Medea",
+          "url": "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+          "imageUrl": "/images/medea-kovack-earth-616.jpg"
+        },
+        {
+          "name": "Boone",
+          "url": "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+          "imageUrl": "/images/morgan-boone-earth-616.jpg"
+        },
+        {
+          "name": "Jackal (Miles Warren)",
+          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
+          "imageUrl": "/images/miles-warren-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 52,
+      "title": "Spider-Man #52",
+      "releaseDate": "September 20, 1994",
+      "antagonists": [
+        {
+          "name": "Venom (Eddie Brock)",
+          "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
+          "imageUrl": "/images/edward-brock-earth-616.jpg"
+        },
+        {
+          "name": "Scream (Donna Diego)",
+          "url": "https://marvel.fandom.com/wiki/Donna_Diego_(Earth-616)",
+          "imageUrl": "/images/donna-diego-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 53,
+      "title": "Spider-Man #53",
+      "releaseDate": "October 18, 1994",
+      "antagonists": [
+        {
+          "name": "Venom",
+          "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
+          "imageUrl": "/images/edward-brock-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 54,
+      "title": "Spider-Man #54",
+      "releaseDate": "November 15, 1994",
+      "antagonists": [
+        {
+          "name": "Grim Hunter",
+          "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg"
+        },
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 55,
+      "title": "Spider-Man #55",
+      "releaseDate": "December 20, 1994",
+      "antagonists": [
+        {
+          "name": "Grim Hunter (Vladimir Kravinoff)",
+          "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg"
+        },
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 56,
+      "title": "Spider-Man #56",
+      "releaseDate": "January 17, 1995",
+      "antagonists": [
+        {
+          "name": "Jackal (\"Miles Warren\")",
+          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+          "imageUrl": "/images/miles-warren-catskill-mountains-clone-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 57,
+      "title": "Spider-Man #57",
+      "releaseDate": "February 21, 1995",
+      "antagonists": [
+        {
+          "name": "Jackal (Miles Warren)",
+          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+          "imageUrl": "/images/miles-warren-catskill-mountains-clone-earth-616.jpg"
+        },
+        {
+          "name": "The Host",
+          "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)"
+        },
+        {
+          "name": "Judas Traveller",
+          "url": "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+          "imageUrl": "/images/judas-traveller-earth-616.jpg"
+        },
+        {
+          "name": "Medea",
+          "url": "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+          "imageUrl": "/images/medea-kovack-earth-616.jpg"
+        },
+        {
+          "name": "Mr. Nacht",
+          "url": "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+          "imageUrl": "/images/walther-nacht-earth-616.jpg"
+        },
+        {
+          "name": "Boone",
+          "url": "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+          "imageUrl": "/images/morgan-boone-earth-616.jpg"
+        },
+        {
+          "name": "Kraven the Hunter (Sergei Kravinov)",
+          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Electro (Max Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Green Goblin (Norman Osborn)",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Jackal (Miles Warren)",
+          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
+          "imageUrl": "/images/miles-warren-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 58,
+      "title": "Spider-Man #58",
+      "releaseDate": "March 21, 1995",
+      "antagonists": [
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 59,
+      "title": "Spider-Man #59",
+      "releaseDate": "April 18, 1995",
+      "antagonists": [
+        {
+          "name": "The Host",
+          "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)"
+        },
+        {
+          "name": "Judas Traveller",
+          "url": "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+          "imageUrl": "/images/judas-traveller-earth-616.jpg"
+        },
+        {
+          "name": "Scrier",
+          "url": "https://marvel.fandom.com/wiki/Charles_Bates_(Earth-616)",
+          "imageUrl": "/images/charles-bates-earth-616.jpg"
+        },
+        {
+          "name": "Chakra",
+          "url": "https://marvel.fandom.com/wiki/Anjali_Sridhara_(Earth-616)",
+          "imageUrl": "/images/anjali-sridhara-earth-616.jpg"
+        },
+        {
+          "name": "Medea",
+          "url": "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+          "imageUrl": "/images/medea-kovack-earth-616.jpg"
+        },
+        {
+          "name": "Boone",
+          "url": "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+          "imageUrl": "/images/morgan-boone-earth-616.jpg"
+        },
+        {
+          "name": "Mr. Nacht",
+          "url": "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+          "imageUrl": "/images/walther-nacht-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 60,
+      "title": "Spider-Man #60",
+      "releaseDate": "May 16, 1995",
+      "antagonists": [
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        },
+        {
+          "name": "Stunner",
+          "url": "https://marvel.fandom.com/wiki/Angelina_Brancale_(Earth-616)",
+          "imageUrl": "/images/angelina-brancale-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 61,
+      "title": "Spider-Man #61",
+      "releaseDate": "June 27, 1995",
+      "antagonists": [
+        {
+          "name": "Jackal",
+          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+          "imageUrl": "/images/miles-warren-catskill-mountains-clone-earth-616.jpg"
+        },
+        {
+          "name": "Spidercide",
+          "url": "https://marvel.fandom.com/wiki/Spidercide_(Earth-616)",
+          "imageUrl": "/images/spidercide-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 62,
+      "title": "Spider-Man #62",
+      "releaseDate": "July 27, 1995",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Carolyn Trainer)",
+          "url": "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)",
+          "imageUrl": "/images/carolyn-trainer-earth-616.jpg"
+        },
+        {
+          "name": "Vulture",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 63,
+      "title": "Spider-Man #63",
+      "releaseDate": "August 31, 1995",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Carolyn Trainer)",
+          "url": "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)",
+          "imageUrl": "/images/carolyn-trainer-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 64,
+      "title": "Spider-Man #64",
+      "releaseDate": "November 24, 1995",
+      "antagonists": [
+        {
+          "name": "El Toro Negro (Sergio Torres)",
+          "url": "https://marvel.fandom.com/wiki/Sergio_Torres_(Earth-616)",
+          "imageUrl": "/images/sergio-torres-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 65,
+      "title": "Spider-Man #65",
+      "releaseDate": "December 21, 1995",
+      "antagonists": [
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 66,
+      "title": "Spider-Man #66",
+      "releaseDate": "January 18, 1996",
+      "antagonists": [
+        {
+          "name": "Great Game",
+          "url": "https://marvel.fandom.com/wiki/Great_Game_(Earth-616)",
+          "imageUrl": "/images/great-game-earth-616.jpg"
+        },
+        {
+          "name": "Muse (Shannon Fitzpatrick)",
+          "url": "https://marvel.fandom.com/wiki/Shannon_Fitzpatrick_(Earth-616)",
+          "imageUrl": "/images/shannon-fitzpatrick-earth-616.jpg"
+        },
+        {
+          "name": "James Johnsmeyer",
+          "url": "https://marvel.fandom.com/wiki/James_Johnsmeyer_(Earth-616)",
+          "imageUrl": "/images/james-johnsmeyer-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 67,
+      "title": "Spider-Man #67",
+      "releaseDate": "February 22, 1996",
+      "antagonists": [
+        {
+          "name": "Carnage Symbiote",
+          "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/carnage-symbiote-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 68,
+      "title": "Spider-Man #68",
+      "releaseDate": "March 21, 1996",
+      "antagonists": [
+        {
+          "name": "Cell-12",
+          "url": "https://marvel.fandom.com/wiki/Cell-12_(Earth-616)",
+          "imageUrl": "/images/cell-12-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Bramer",
+          "url": "https://marvel.fandom.com/wiki/Bramer_(Earth-616)",
+          "imageUrl": "/images/bramer-earth-616.jpg"
+        },
+        {
+          "name": "Nardi",
+          "url": "https://marvel.fandom.com/wiki/Nardi_(Earth-616)",
+          "imageUrl": "/images/nardi-earth-616.jpg"
+        },
+        {
+          "name": "Andros",
+          "url": "https://marvel.fandom.com/wiki/Andros_(Earth-616)",
+          "imageUrl": "/images/andros-earth-616.jpg"
+        },
+        {
+          "name": "Lasher",
+          "url": "https://marvel.fandom.com/wiki/Lasher_(Cell-12)_(Earth-616)",
+          "imageUrl": "/images/lasher-cell-12-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 69,
+      "title": "Spider-Man #69",
+      "releaseDate": "April 17, 1996",
+      "antagonists": [
+        {
+          "name": "Cell-12",
+          "url": "https://marvel.fandom.com/wiki/Cell-12_(Earth-616)",
+          "imageUrl": "/images/cell-12-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Bramer",
+          "url": "https://marvel.fandom.com/wiki/Bramer_(Earth-616)",
+          "imageUrl": "/images/bramer-earth-616.jpg"
+        },
+        {
+          "name": "Nardi",
+          "url": "https://marvel.fandom.com/wiki/Nardi_(Earth-616)",
+          "imageUrl": "/images/nardi-earth-616.jpg"
+        },
+        {
+          "name": "Andros",
+          "url": "https://marvel.fandom.com/wiki/Andros_(Earth-616)",
+          "imageUrl": "/images/andros-earth-616.jpg"
+        },
+        {
+          "name": "Lasher",
+          "url": "https://marvel.fandom.com/wiki/Lasher_(Cell-12)_(Earth-616)",
+          "imageUrl": "/images/lasher-cell-12-earth-616.jpg"
+        },
+        {
+          "name": "Gaunt (Mendel Stromm)",
+          "url": "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
+          "imageUrl": "/images/mendel-stromm-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 70,
+      "title": "Spider-Man #70",
+      "releaseDate": "May 22, 1996",
+      "antagonists": [
+        {
+          "name": "Don Fortunato",
+          "url": "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+          "imageUrl": "/images/vincente-fortunato-earth-616.jpg"
+        },
+        {
+          "name": "Hammerhead",
+          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        },
+        {
+          "name": "Joey",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Joey"
+        },
+        {
+          "name": "Rocco",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Rocco"
+        },
+        {
+          "name": "Johnny",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Johnny"
+        }
+      ]
+    },
+    {
+      "issueNumber": 71,
+      "title": "Spider-Man #71",
+      "releaseDate": "June 19, 1996",
+      "antagonists": [
+        {
+          "name": "Don Fortunato",
+          "url": "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+          "imageUrl": "/images/vincente-fortunato-earth-616.jpg"
+        },
+        {
+          "name": "Hammerhead",
+          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 72,
+      "title": "Spider-Man #72",
+      "releaseDate": "July 17, 1996",
+      "antagonists": [
+        {
+          "name": "Sentinels",
+          "url": "https://marvel.fandom.com/wiki/Sentinels",
+          "imageUrl": "/images/sentinels.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 73,
+      "title": "Spider-Man #73",
+      "releaseDate": "August 21, 1996",
+      "antagonists": [
+        {
+          "name": "Hydra",
+          "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)",
+          "imageUrl": "/images/hydra-earth-616.jpg"
+        },
+        {
+          "name": "Don Fortunato",
+          "url": "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+          "imageUrl": "/images/vincente-fortunato-earth-616.jpg"
+        },
+        {
+          "name": "Tombstone (Lonnie Lincoln)",
+          "url": "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
+          "imageUrl": "/images/alonzo-lincoln-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 74,
+      "title": "Spider-Man #74",
+      "releaseDate": "September 18, 1996",
+      "antagonists": [
+        {
+          "name": "Hydra",
+          "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)",
+          "imageUrl": "/images/hydra-earth-616.jpg"
+        },
+        {
+          "name": "Don Fortunato",
+          "url": "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+          "imageUrl": "/images/vincente-fortunato-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 75,
+      "title": "Spider-Man #75",
+      "releaseDate": "October 16, 1996",
+      "antagonists": [
+        {
+          "name": "Green Goblin (Norman Osborn)",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 76,
+      "title": "Spider-Man #76",
+      "releaseDate": "November 20, 1996",
+      "antagonists": [
+        {
+          "name": "Crown",
+          "url": "https://marvel.fandom.com/wiki/Loxias_Crown_(Earth-616)",
+          "imageUrl": "/images/loxias-crown-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 77,
+      "title": "Spider-Man #77",
+      "releaseDate": "December 18, 1996",
+      "antagonists": [
+        {
+          "name": "Friends of Humanity",
+          "url": "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+          "imageUrl": "/images/friends-of-humanity-earth-616.jpg"
+        },
+        {
+          "name": "Ron",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Ron"
+        },
+        {
+          "name": "Morbius (Michael Morbius)",
+          "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 78,
+      "title": "Spider-Man #78",
+      "releaseDate": "January 22, 1997",
+      "antagonists": [
+        {
+          "name": "Friends of Humanity",
+          "url": "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+          "imageUrl": "/images/friends-of-humanity-earth-616.jpg"
+        },
+        {
+          "name": "Bo",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bo"
+        },
+        {
+          "name": "Morbius (Michael Morbius)",
+          "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 79,
+      "title": "Spider-Man #79",
+      "releaseDate": "February 19, 1997",
+      "antagonists": [
+        {
+          "name": "Hydra",
+          "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)",
+          "imageUrl": "/images/hydra-earth-616.jpg"
+        },
+        {
+          "name": "Baron von Strucker",
+          "url": "https://marvel.fandom.com/wiki/Wolfgang_von_Strucker_(Earth-616)",
+          "imageUrl": "/images/wolfgang-von-strucker-earth-616.jpg"
+        },
+        {
+          "name": "Crown",
+          "url": "https://marvel.fandom.com/wiki/Loxias_Crown_(Earth-616)",
+          "imageUrl": "/images/loxias-crown-earth-616.jpg"
+        },
+        {
+          "name": "Don Fortunato",
+          "url": "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+          "imageUrl": "/images/vincente-fortunato-earth-616.jpg"
+        },
+        {
+          "name": "Dr. Andrea Janson",
+          "url": "https://marvel.fandom.com/wiki/Andrea_Janson_(Earth-616)"
+        }
+      ]
+    },
+    {
+      "issueNumber": 80,
+      "title": "Spider-Man #80",
+      "releaseDate": "March 19, 1997",
+      "antagonists": [
+        {
+          "name": "Hammerhead",
+          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        },
+        {
+          "name": "Hydra",
+          "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)",
+          "imageUrl": "/images/hydra-earth-616.jpg"
+        },
+        {
+          "name": "Baron Wolfgang von Strucker",
+          "url": "https://marvel.fandom.com/wiki/Wolfgang_von_Strucker_(Earth-616)",
+          "imageUrl": "/images/wolfgang-von-strucker-earth-616.jpg"
+        },
+        {
+          "name": "Crown",
+          "url": "https://marvel.fandom.com/wiki/Loxias_Crown_(Earth-616)",
+          "imageUrl": "/images/loxias-crown-earth-616.jpg"
+        },
+        {
+          "name": "Don Vincente Fortunato",
+          "url": "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+          "imageUrl": "/images/vincente-fortunato-earth-616.jpg"
+        },
+        {
+          "name": "Dr. Andrea Janson",
+          "url": "https://marvel.fandom.com/wiki/Andrea_Janson_(Earth-616)",
+          "imageUrl": "/images/andrea-janson-earth-616.jpg"
+        },
+        {
+          "name": "Lance",
+          "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)/Members#Lance"
+        },
+        {
+          "name": "Troy",
+          "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)/Members#Troy"
+        }
+      ]
+    },
+    {
+      "issueNumber": 81,
+      "title": "Spider-Man #81",
+      "releaseDate": "April 16, 1997",
+      "antagonists": [
+        {
+          "name": "Shockwave (Lancaster Sneed)",
+          "url": "https://marvel.fandom.com/wiki/Lancaster_Sneed_(Earth-616)",
+          "imageUrl": "/images/lancaster-sneed-earth-616.jpg"
+        },
+        {
+          "name": "Razor-Fist (Douglas Scott)",
+          "url": "https://marvel.fandom.com/wiki/Douglas_Scott_(Earth-616)",
+          "imageUrl": "/images/douglas-scott-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 82,
+      "title": "Spider-Man #82",
+      "releaseDate": "June 18, 1997",
+      "antagonists": [
+        {
+          "name": "Friends of Humanity",
+          "url": "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+          "imageUrl": "/images/friends-of-humanity-earth-616.jpg"
+        },
+        {
+          "name": "Donovan Zane",
+          "url": "https://marvel.fandom.com/wiki/Donovan_Zane_(Earth-616)",
+          "imageUrl": "/images/donovan-zane-earth-616.jpg"
+        },
+        {
+          "name": "Shocker",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 83,
+      "title": "Spider-Man #83",
+      "releaseDate": "July 16, 1997",
+      "antagonists": [
+        {
+          "name": "Friends of Humanity",
+          "url": "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+          "imageUrl": "/images/friends-of-humanity-earth-616.jpg"
+        },
+        {
+          "name": "Shocker (Herman Schultz)",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 84,
+      "title": "Spider-Man #84",
+      "releaseDate": "August 20, 1997",
+      "antagonists": [
+        {
+          "name": "Juggernaut (Cain Marko)",
+          "url": "https://marvel.fandom.com/wiki/Cain_Marko_(Earth-616)",
+          "imageUrl": "/images/cain-marko-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 85,
+      "title": "Spider-Man #85",
+      "releaseDate": "September 17, 1997",
+      "antagonists": [
+        {
+          "name": "Shocker (Herman Schultz)",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 86,
+      "title": "Spider-Man #86",
+      "releaseDate": "October 15, 1997",
+      "antagonists": [
+        {
+          "name": "Shocker (Herman Schultz)",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        },
+        {
+          "name": "Trapster (Peter Petruski)",
+          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+          "imageUrl": "/images/peter-petruski-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 87,
+      "title": "Spider-Man #87",
+      "releaseDate": "November 26, 1997",
+      "antagonists": [
+        {
+          "name": "Friends of Humanity",
+          "url": "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+          "imageUrl": "/images/friends-of-humanity-earth-616.jpg"
+        },
+        {
+          "name": "Donovan Zane",
+          "url": "https://marvel.fandom.com/wiki/Donovan_Zane_(Earth-616)",
+          "imageUrl": "/images/donovan-zane-earth-616.jpg"
+        },
+        {
+          "name": "Trapster (Peter Petruski)",
+          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+          "imageUrl": "/images/peter-petruski-earth-616.jpg"
+        },
+        {
+          "name": "Shocker (Herman Schultz)",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 88,
+      "title": "Spider-Man #88",
+      "releaseDate": "December 17, 1997",
+      "antagonists": [
+        {
+          "name": "Green Goblin",
+          "url": "https://marvel.fandom.com/wiki/Green_Goblin_(Construct)_(Earth-616)",
+          "imageUrl": "/images/green-goblin-construct-earth-616.jpg"
+        },
+        {
+          "name": "Norman Osborn",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 89,
+      "title": "Spider-Man #89",
+      "releaseDate": "January 21, 1998",
+      "antagonists": [
+        {
+          "name": "Norman Osborn",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Shotgun (J. R. Walker)",
+          "url": "https://marvel.fandom.com/wiki/Jensen_Walker_(Earth-616)",
+          "imageUrl": "/images/jensen-walker-earth-616.jpg"
+        },
+        {
+          "name": "Green Goblin",
+          "url": "https://marvel.fandom.com/wiki/Green_Goblin_(Construct)_(Earth-616)",
+          "imageUrl": "/images/green-goblin-construct-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 90,
+      "title": "Spider-Man #90",
+      "releaseDate": "February 18, 1998",
+      "antagonists": [
+        {
+          "name": "Blastaar",
+          "url": "https://marvel.fandom.com/wiki/Blastaar_(Earth-616)",
+          "imageUrl": "/images/blastaar-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 91,
+      "title": "Spider-Man #91",
+      "releaseDate": "March 18, 1998",
+      "antagonists": [
+        {
+          "name": "Trapster (Peter Petruski)",
+          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+          "imageUrl": "/images/peter-petruski-earth-616.jpg"
+        },
+        {
+          "name": "Shocker (Herman Schultz)",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 92,
+      "title": "Spider-Man #92",
+      "releaseDate": "April 15, 1998",
+      "antagonists": [
+        {
+          "name": "Norman Osborn",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Trapster (Peter Petruski)",
+          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+          "imageUrl": "/images/peter-petruski-earth-616.jpg"
+        },
+        {
+          "name": "Q-4",
+          "url": "https://marvel.fandom.com/wiki/Q-4_(Earth-616)",
+          "imageUrl": "/images/q-4-earth-616.jpg"
+        },
+        {
+          "name": "Waiters",
+          "url": "https://marvel.fandom.com/wiki/Waiters_(Earth-616)",
+          "imageUrl": "/images/waiters-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 93,
+      "title": "Spider-Man #93",
+      "releaseDate": "May 20, 1998",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 94,
+      "title": "Spider-Man #94",
+      "releaseDate": "June 17, 1998",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin's Henchmen",
+          "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen"
+        },
+        {
+          "name": "Ox (Ronald Bloch)",
+          "url": "https://marvel.fandom.com/wiki/Ronald_Bloch_(Earth-616)",
+          "imageUrl": "/images/ronald-bloch-earth-616.jpg"
+        },
+        {
+          "name": "Rocko",
+          "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen#Rocko"
+        },
+        {
+          "name": "Sebastian Shaw",
+          "url": "https://marvel.fandom.com/wiki/Sebastian_Shaw_(Earth-616)",
+          "imageUrl": "/images/sebastian-shaw-earth-616.jpg"
+        },
+        {
+          "name": "Silvermane (Silvio Manfredi)",
+          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 95,
+      "title": "Spider-Man #95",
+      "releaseDate": "July 15, 1998",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Nitro (Robert Hunter)",
+          "url": "https://marvel.fandom.com/wiki/Robert_Hunter_(Earth-616)",
+          "imageUrl": "/images/robert-hunter-earth-616.jpg"
+        },
+        {
+          "name": "Norman Osborn",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Ox (Ronald Bloch)",
+          "url": "https://marvel.fandom.com/wiki/Ronald_Bloch_(Earth-616)",
+          "imageUrl": "/images/ronald-bloch-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 96,
+      "title": "Spider-Man #96",
+      "releaseDate": "August 19, 1998",
+      "antagonists": [
+        {
+          "name": "Green Goblin (Norman Osborn)",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Creep",
+          "url": "https://marvel.fandom.com/wiki/Creep_(Osborn_Agent)_(Earth-616)",
+          "imageUrl": "/images/creep-osborn-agent-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 97,
+      "title": "Spider-Man #97",
+      "releaseDate": "September 16, 1998",
+      "antagonists": [
+        {
+          "name": "Green Goblin (Norman Osborn)",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 98,
+      "title": "Spider-Man #98",
+      "releaseDate": "September 30, 1998",
+      "antagonists": [
+        {
+          "name": "Green Goblin (Norman Osborn)",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Scriers",
+          "url": "https://marvel.fandom.com/wiki/Cabal_of_Scrier_(Earth-616)",
+          "imageUrl": "/images/cabal-of-scrier-earth-616.jpg"
+        }
+      ]
+    }
+  ]
+}

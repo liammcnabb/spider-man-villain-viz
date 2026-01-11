@@ -1,0 +1,1775 @@
+{
+  "data": [
+    {
+      "issueNumber": 1,
+      "chronologicalPosition": 1,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 25, 1984",
+      "villainsInIssue": [
+        "Symbiote",
+        "Vulturions",
+        "Honcho",
+        "Gripes",
+        "Pigeon",
+        "Sugar Face"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 2,
+      "chronologicalPosition": 2,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 22, 1985",
+      "villainsInIssue": [
+        "Vulturions",
+        "Honcho",
+        "Gripes",
+        "Pigeon",
+        "Sugar Face",
+        "Kingpin"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 3,
+      "chronologicalPosition": 3,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 26, 1985",
+      "villainsInIssue": [
+        "Vulturions",
+        "Honcho",
+        "Gripes",
+        "Pigeon",
+        "Sugar Face",
+        "Vulture"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 4,
+      "chronologicalPosition": 4,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 26, 1985",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 5,
+      "chronologicalPosition": 5,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 23, 1985",
+      "villainsInIssue": [
+        "Doctor Octopus",
+        "Larry",
+        "Mel",
+        "Roger"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 6,
+      "chronologicalPosition": 6,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 28, 1985",
+      "villainsInIssue": [
+        "Kingpin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 7,
+      "chronologicalPosition": 7,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 25, 1985",
+      "villainsInIssue": [
+        "Nightmare",
+        "Hulk"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 8,
+      "chronologicalPosition": 8,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 23, 1985",
+      "villainsInIssue": [
+        "Ludlow Grimes"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 9,
+      "chronologicalPosition": 9,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 27, 1985",
+      "villainsInIssue": [
+        "Ludlow Grimes"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 10,
+      "chronologicalPosition": 10,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 24, 1985",
+      "villainsInIssue": [
+        "Wolfgang von Lundt",
+        "Shocker"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 11,
+      "chronologicalPosition": 11,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 22, 1985",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 12,
+      "chronologicalPosition": 12,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 26, 1985",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 13,
+      "chronologicalPosition": 13,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 24, 1985",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 14,
+      "chronologicalPosition": 14,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 28, 1986",
+      "villainsInIssue": [
+        "Black Fox"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 15,
+      "chronologicalPosition": 15,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 25, 1986",
+      "villainsInIssue": [
+        "1400 Club",
+        "Chance",
+        "Foreigner"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 16,
+      "chronologicalPosition": 16,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 25, 1986",
+      "villainsInIssue": [
+        "Roxxon",
+        "Magma"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 17,
+      "chronologicalPosition": 17,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 22, 1986",
+      "villainsInIssue": [
+        "Roxxon",
+        "Magma"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 18,
+      "chronologicalPosition": 18,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 17, 1986",
+      "villainsInIssue": [
+        "Magma",
+        "Medgar DuPaul"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 19,
+      "chronologicalPosition": 19,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 24, 1986",
+      "villainsInIssue": [
+        "Humbug",
+        "Irish Republican Army"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 20,
+      "chronologicalPosition": 20,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 22, 1986",
+      "villainsInIssue": [
+        "Roxxon",
+        "Irish Republican Army",
+        "Sean Dunne",
+        "Paddy"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 21,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 26, 1986",
+      "villainsInIssue": [
+        "Ron Corbett",
+        "Bill Corbett"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 22,
+      "chronologicalPosition": 22,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 23, 1986",
+      "villainsInIssue": [
+        "Roxxon",
+        "Irish Republican Army",
+        "Ian Forbes",
+        "Dr. Fahley",
+        "Black Hoods",
+        "Rory Magill",
+        "Duncan O'Neill"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 23,
+      "chronologicalPosition": 23,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 28, 1986",
+      "villainsInIssue": [
+        "Vulture",
+        "Slyde"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 24,
+      "chronologicalPosition": 24,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 25, 1986",
+      "villainsInIssue": [
+        "Vulture",
+        "Hobgoblin",
+        "The Rose",
+        "Eddie Brock"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 25,
+      "chronologicalPosition": 25,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 23, 1986",
+      "villainsInIssue": [
+        "Xanja",
+        "Arnie Strunk"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 26,
+      "chronologicalPosition": 26,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 27, 1987",
+      "villainsInIssue": [
+        "Willard Stein",
+        "Gunther Stein"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 27,
+      "chronologicalPosition": 27,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 24, 1987",
+      "villainsInIssue": [
+        "Larry",
+        "Roger",
+        "Executive Services, Inc",
+        "Headhunter"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 28,
+      "chronologicalPosition": 28,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 24, 1987",
+      "villainsInIssue": [
+        "Roger",
+        "Hershel",
+        "Milicent Peabody"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 29,
+      "chronologicalPosition": 29,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 28, 1987",
+      "villainsInIssue": [
+        "The Rose",
+        "Hobgoblin",
+        "Arranger"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 30,
+      "chronologicalPosition": 30,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 26, 1987",
+      "villainsInIssue": [
+        "Kingpin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 31,
+      "chronologicalPosition": 31,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 23, 1987",
+      "villainsInIssue": [
+        "Kraven the Hunter"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 32,
+      "chronologicalPosition": 32,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 28, 1987",
+      "villainsInIssue": [
+        "Kraven the Hunter"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 33,
+      "chronologicalPosition": 33,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 25, 1987",
+      "villainsInIssue": [
+        "Arranger",
+        "Doctor Hope"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 34,
+      "chronologicalPosition": 34,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 1, 1987",
+      "villainsInIssue": [
+        "A'Sai"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 35,
+      "chronologicalPosition": 35,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 6, 1987",
+      "villainsInIssue": [
+        "The Living Brain",
+        "Tarantula",
+        "General Ramone"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 36,
+      "chronologicalPosition": 36,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 3, 1987",
+      "villainsInIssue": [
+        "Tarantula",
+        "Phreak",
+        "Tombstone"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 37,
+      "chronologicalPosition": 37,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 1, 1987",
+      "villainsInIssue": [
+        "Elyse Nelson"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 38,
+      "chronologicalPosition": 38,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 5, 1988",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Arranger",
+        "Tombstone"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 39,
+      "chronologicalPosition": 39,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 2, 1988",
+      "villainsInIssue": [
+        "Looter"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 40,
+      "chronologicalPosition": 40,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 1, 1988",
+      "villainsInIssue": [
+        "Cult of Love",
+        "Brother Bruce"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 41,
+      "chronologicalPosition": 41,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 5, 1988",
+      "villainsInIssue": [
+        "Cult of Love",
+        "Brother Bruce",
+        "Teacher"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 42,
+      "chronologicalPosition": 42,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 3, 1988",
+      "villainsInIssue": [
+        "Cult of Love",
+        "Brother Bruce",
+        "Teacher"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 43,
+      "chronologicalPosition": 43,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 7, 1988",
+      "villainsInIssue": [
+        "Cult of Love",
+        "Brother Bruce",
+        "Teacher"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 44,
+      "chronologicalPosition": 44,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 5, 1988",
+      "villainsInIssue": [
+        "Warzone",
+        "Alpha",
+        "Bravo",
+        "Charlie",
+        "Delta"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 45,
+      "chronologicalPosition": 45,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 2, 1988",
+      "villainsInIssue": [
+        "Vulture",
+        "Morris \"The Snake\" Diamond"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 46,
+      "chronologicalPosition": 46,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 6, 1988",
+      "villainsInIssue": [
+        "Nekra"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 47,
+      "chronologicalPosition": 47,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 4, 1988",
+      "villainsInIssue": [
+        "Hobgoblin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 48,
+      "chronologicalPosition": 48,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 1, 1988",
+      "villainsInIssue": [
+        "Kingpin",
+        "Hobgoblin",
+        "Arranger",
+        "The Lizard"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 49,
+      "chronologicalPosition": 49,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 6, 1988",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 50,
+      "chronologicalPosition": 50,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 3, 1989",
+      "villainsInIssue": [
+        "Arranger",
+        "Chameleon",
+        "Lobo Brothers",
+        "Eduardo Lobo",
+        "Carlos Lobo"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 51,
+      "chronologicalPosition": 51,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 7, 1989",
+      "villainsInIssue": [
+        "Arranger",
+        "Chameleon",
+        "Eduardo Lobo",
+        "Hammerhead"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 52,
+      "chronologicalPosition": 52,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 7, 1989",
+      "villainsInIssue": [
+        "Chameleon",
+        "NYPD",
+        "Sergeant Michael O'Hill"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 53,
+      "chronologicalPosition": 53,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 4, 1989",
+      "villainsInIssue": [
+        "Kingpin",
+        "Arranger",
+        "Chameleon",
+        "Lobo Brothers",
+        "Eduardo Lobo",
+        "Carlos Lobo",
+        "Hammerhead"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 54,
+      "chronologicalPosition": 54,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 2, 1989",
+      "villainsInIssue": [
+        "Kingpin",
+        "Arranger",
+        "Chameleon",
+        "Lobo Brothers",
+        "Eduardo Lobo",
+        "Carlos Lobo"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 55,
+      "chronologicalPosition": 55,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 13, 1989",
+      "villainsInIssue": [
+        "Kingpin",
+        "Arranger",
+        "Chameleon",
+        "Lobo Brothers",
+        "Eduardo Lobo",
+        "Carlos Lobo",
+        "Hammerhead"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 56,
+      "chronologicalPosition": 56,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 11, 1989",
+      "villainsInIssue": [
+        "Skinhead"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 57,
+      "chronologicalPosition": 57,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 1, 1989",
+      "villainsInIssue": [
+        "Skinhead"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 58,
+      "chronologicalPosition": 58,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 5, 1989",
+      "villainsInIssue": [
+        "Grizzly",
+        "Tinkerer"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 59,
+      "chronologicalPosition": 59,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 3, 1989",
+      "villainsInIssue": [
+        "Titania",
+        "Doctor Doom"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 60,
+      "chronologicalPosition": 60,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 7, 1989",
+      "villainsInIssue": [
+        "Kingpin",
+        "Doctor Doom",
+        "Goliath",
+        "Magneto"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 61,
+      "chronologicalPosition": 61,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 5, 1989",
+      "villainsInIssue": [
+        "Wizard",
+        "Dragon Man"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 62,
+      "chronologicalPosition": 62,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 2, 1990",
+      "villainsInIssue": [
+        "Molten Man"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 63,
+      "chronologicalPosition": 63,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 6, 1990",
+      "villainsInIssue": [
+        "Mister Fear"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 64,
+      "chronologicalPosition": 64,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 6, 1990",
+      "villainsInIssue": [
+        "Chameleon",
+        "Titania",
+        "Goliath",
+        "Trapster",
+        "Brothers Grimm",
+        "Graviton"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 65,
+      "chronologicalPosition": 65,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 3, 1990",
+      "villainsInIssue": [
+        "Kingpin",
+        "Chameleon",
+        "Titania",
+        "Goliath",
+        "Trapster",
+        "Brothers Grimm",
+        "Graviton"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 66,
+      "chronologicalPosition": 66,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 1, 1990",
+      "villainsInIssue": [
+        "Tombstone"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 67,
+      "chronologicalPosition": 67,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 5, 1990",
+      "villainsInIssue": [
+        "Tombstone",
+        "Hammerhead",
+        "Green Goblin"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 68,
+      "chronologicalPosition": 68,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 3, 1990",
+      "villainsInIssue": [
+        "Tombstone",
+        "Hammerhead"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 69,
+      "chronologicalPosition": 69,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 7, 1990",
+      "villainsInIssue": [
+        "Hulk",
+        "Armand Jones"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 70,
+      "chronologicalPosition": 70,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 4, 1990",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 71,
+      "chronologicalPosition": 71,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 2, 1990",
+      "villainsInIssue": [
+        "Wolfgang von Lundt",
+        "Sabbath Raven"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 72,
+      "chronologicalPosition": 72,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 6, 1990",
+      "villainsInIssue": [
+        "Wolfgang von Lundt",
+        "Sabbath Raven",
+        "Iron Monger"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 73,
+      "chronologicalPosition": 73,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 4, 1990",
+      "villainsInIssue": [
+        "Headmen",
+        "Arthur Nagan",
+        "Jerald Morgan",
+        "Chondu the Mystic",
+        "Ruby Thursday"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 74,
+      "chronologicalPosition": 74,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 1, 1991",
+      "villainsInIssue": [
+        "Painter",
+        "Bora",
+        "Spark",
+        "Cockroaches"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 75,
+      "chronologicalPosition": 75,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 5, 1991",
+      "villainsInIssue": [
+        "Painter",
+        "Bora",
+        "Spark",
+        "Cockroaches"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 76,
+      "chronologicalPosition": 76,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 5, 1991",
+      "villainsInIssue": [
+        "Painter",
+        "Bora",
+        "Spark",
+        "Cockroaches"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 77,
+      "chronologicalPosition": 77,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 2, 1991",
+      "villainsInIssue": [
+        "Firebrand"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 78,
+      "chronologicalPosition": 78,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 7, 1991",
+      "villainsInIssue": [
+        "Firebrand"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 79,
+      "chronologicalPosition": 79,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 4, 1991",
+      "villainsInIssue": [
+        "Tinkerer",
+        "Silvermane",
+        "Ripster",
+        "Slambeaux",
+        "Twit",
+        "Purty Larry",
+        "Silver Sable",
+        "Silver Samurai"
+      ],
+      "villainCount": 8
+    },
+    {
+      "issueNumber": 80,
+      "chronologicalPosition": 80,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 2, 1991",
+      "villainsInIssue": [
+        "Silvermane",
+        "Ripster"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 81,
+      "chronologicalPosition": 81,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 6, 1991",
+      "villainsInIssue": [
+        "Bloodshed"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 82,
+      "chronologicalPosition": 82,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 3, 1991",
+      "villainsInIssue": [
+        "Man Mountain Marko",
+        "Snaky Duvall"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 83,
+      "chronologicalPosition": 83,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 1, 1991",
+      "villainsInIssue": [
+        "Hypertron 1.0"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 84,
+      "chronologicalPosition": 84,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 5, 1991",
+      "villainsInIssue": [
+        "Kingpin",
+        "The Rose",
+        "Hobgoblin",
+        "Alfredo Morelli",
+        "The Rose"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 85,
+      "chronologicalPosition": 85,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 3, 1991",
+      "villainsInIssue": [
+        "Kingpin",
+        "The Rose",
+        "Hobgoblin",
+        "Alfredo Morelli",
+        "Triad Brothers",
+        "Deathwatch"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 86,
+      "chronologicalPosition": 86,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 7, 1992",
+      "villainsInIssue": [
+        "Kingpin",
+        "The Rose",
+        "Hobgoblin",
+        "Alfredo Morelli",
+        "The Rose",
+        "Demogoblin"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 87,
+      "chronologicalPosition": 87,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 4, 1992",
+      "villainsInIssue": [
+        "The Rose",
+        "Hobgoblin",
+        "Alfredo Morelli",
+        "Demogoblin",
+        "Praetorian Guards"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 88,
+      "chronologicalPosition": 88,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 3, 1992",
+      "villainsInIssue": [
+        "The Rose",
+        "Hobgoblin",
+        "Alfredo Morelli",
+        "The Rose"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 89,
+      "chronologicalPosition": 89,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 7, 1992",
+      "villainsInIssue": [
+        "The Rose",
+        "Hobgoblin",
+        "Alfredo Morelli",
+        "Praetorian Guards"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 90,
+      "chronologicalPosition": 90,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 5, 1992",
+      "villainsInIssue": [
+        "Mysterio"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 91,
+      "chronologicalPosition": 91,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 2, 1992",
+      "villainsInIssue": [
+        "1400 Club",
+        "Killer Shrike",
+        "Pulse-2",
+        "Whisper-3"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 92,
+      "chronologicalPosition": 92,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 7, 1992",
+      "villainsInIssue": [
+        "1400 Club",
+        "Foreigner",
+        "Pulse-2",
+        "Whisper-3",
+        "Swift-1",
+        "Warfare"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 93,
+      "chronologicalPosition": 93,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 4, 1992",
+      "villainsInIssue": [
+        "Foreigner",
+        "Hobgoblin"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 94,
+      "chronologicalPosition": 94,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 1, 1992",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Hag",
+        "Troll"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 95,
+      "chronologicalPosition": 95,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 6, 1992",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Hag",
+        "Troll",
+        "Deathspawn"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 96,
+      "chronologicalPosition": 96,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 3, 1992",
+      "villainsInIssue": [
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Deathspawn"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 97,
+      "chronologicalPosition": 97,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 1, 1992",
+      "villainsInIssue": [
+        "1400 Club",
+        "Foreigner",
+        "The Rose",
+        "Alfredo Morelli",
+        "Cyber-Hunters"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 98,
+      "chronologicalPosition": 98,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 5, 1993",
+      "villainsInIssue": [
+        "1400 Club",
+        "Foreigner",
+        "The Rose",
+        "Alfredo Morelli",
+        "Spider-Doppelganger",
+        "Cyber-Hunters",
+        "Blitz",
+        "Eel",
+        "Vanisher"
+      ],
+      "villainCount": 9
+    },
+    {
+      "issueNumber": 99,
+      "chronologicalPosition": 99,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 2, 1993",
+      "villainsInIssue": [
+        "1400 Club",
+        "Foreigner",
+        "The Rose",
+        "Dragon Man",
+        "Blitz",
+        "Eel",
+        "Vanisher",
+        "Dreadnought",
+        "Madame Menace"
+      ],
+      "villainCount": 9
+    },
+    {
+      "issueNumber": 100,
+      "chronologicalPosition": 100,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 2, 1993",
+      "villainsInIssue": [
+        "Dragon Man",
+        "Mister Fear",
+        "Blitz",
+        "Eel",
+        "Vanisher",
+        "Dreadnought",
+        "Madame Menace",
+        "Tangle",
+        "Plantman",
+        "Thermite",
+        "Mentallo",
+        "Fixer",
+        "A.I.M. Agents"
+      ],
+      "villainCount": 13
+    },
+    {
+      "issueNumber": 101,
+      "chronologicalPosition": 101,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 6, 1993",
+      "villainsInIssue": [
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Carnage",
+        "Shriek"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 102,
+      "chronologicalPosition": 102,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 4, 1993",
+      "villainsInIssue": [
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Shriek",
+        "Carnage",
+        "Carrion"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 103,
+      "chronologicalPosition": 103,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 1, 1993",
+      "villainsInIssue": [
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Shriek",
+        "Carnage",
+        "Carrion"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 104,
+      "chronologicalPosition": 104,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 6, 1993",
+      "villainsInIssue": [
+        "Goddess",
+        "Moondragon",
+        "Deathgrin"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 105,
+      "chronologicalPosition": 105,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 3, 1993",
+      "villainsInIssue": [
+        "Goddess",
+        "Moondragon",
+        "Deathgrin",
+        "Quicksilver",
+        "Scarlet Witch",
+        "Thor",
+        "Multiple Man",
+        "Sasquatch",
+        "Gamora",
+        "Moon Knight",
+        "Invisible Woman",
+        "Archangel"
+      ],
+      "villainCount": 12
+    },
+    {
+      "issueNumber": 106,
+      "chronologicalPosition": 106,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 7, 1993",
+      "villainsInIssue": [
+        "Deathgrin",
+        "Strong Guy",
+        "Firestar",
+        "Darkhawk",
+        "Rogue",
+        "Thing"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 107,
+      "chronologicalPosition": 107,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 5, 1993",
+      "villainsInIssue": [
+        "Sandstorm",
+        "Scorpion"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 108,
+      "chronologicalPosition": 108,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 2, 1993",
+      "villainsInIssue": [
+        "Sandstorm",
+        "Scorpion",
+        "Quicksand"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 109,
+      "chronologicalPosition": 109,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 7, 1993",
+      "villainsInIssue": [
+        "Shocker",
+        "The Lizard"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 110,
+      "chronologicalPosition": 110,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 4, 1994",
+      "villainsInIssue": [
+        "The Lizard",
+        "Warrant"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 111,
+      "chronologicalPosition": 111,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 1, 1994",
+      "villainsInIssue": [
+        "The Lizard",
+        "Warrant"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 112,
+      "chronologicalPosition": 112,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 1, 1994",
+      "villainsInIssue": [
+        "Chameleon"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 113,
+      "chronologicalPosition": 113,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 5, 1994",
+      "villainsInIssue": [
+        "F.A.C.A.D.E",
+        "Silencers"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 114,
+      "chronologicalPosition": 114,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 3, 1994",
+      "villainsInIssue": [
+        "F.A.C.A.D.E"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 115,
+      "chronologicalPosition": 115,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 7, 1994",
+      "villainsInIssue": [
+        "F.A.C.A.D.E"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 116,
+      "chronologicalPosition": 116,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 5, 1994",
+      "villainsInIssue": [
+        "F.A.C.A.D.E"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 117,
+      "chronologicalPosition": 117,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 2, 1994",
+      "villainsInIssue": [
+        "The Host",
+        "Chakra",
+        "Boone",
+        "Mr. Nacht",
+        "Medea",
+        "Dr. Judas Traveller",
+        "Professor Miles Warren"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 118,
+      "chronologicalPosition": 118,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "September 6, 1994",
+      "villainsInIssue": [
+        "Eddie Brock"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 119,
+      "chronologicalPosition": 119,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "October 4, 1994",
+      "villainsInIssue": [
+        "Eddie Brock",
+        "Scream",
+        "Kaine"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 120,
+      "chronologicalPosition": 120,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "November 1, 1994",
+      "villainsInIssue": [
+        "Tombstone",
+        "Kaine",
+        "Grim Hunter",
+        "A.R.E.S"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 121,
+      "chronologicalPosition": 121,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "December 6, 1994",
+      "villainsInIssue": [
+        "Kaine",
+        "Grim Hunter"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 122,
+      "chronologicalPosition": 122,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "January 3, 1995",
+      "villainsInIssue": [
+        "Kaine",
+        "Jack",
+        "Guardian"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 123,
+      "chronologicalPosition": 123,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "February 7, 1995",
+      "villainsInIssue": [
+        "Kaine",
+        "Jack",
+        "Jackal"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 124,
+      "chronologicalPosition": 124,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "March 7, 1995",
+      "villainsInIssue": [
+        "Kaine"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 125,
+      "chronologicalPosition": 125,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "April 4, 1995",
+      "villainsInIssue": [
+        "Green Goblin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 126,
+      "chronologicalPosition": 126,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "May 2, 1995",
+      "villainsInIssue": [
+        "Kaine"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 127,
+      "chronologicalPosition": 127,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "June 13, 1995",
+      "villainsInIssue": [
+        "Kaine",
+        "Jackal"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 128,
+      "chronologicalPosition": 128,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "July 13, 1995",
+      "villainsInIssue": [
+        "D'Spayre"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 129,
+      "chronologicalPosition": 129,
+      "series": "Web of Spider-Man Vol 1",
+      "releaseDate": "August 10, 1995",
+      "villainsInIssue": [
+        "Firestar",
+        "New Warriors",
+        "Scarlet Spider",
+        "Hindsight",
+        "Justice",
+        "Speedball",
+        "Power Pax"
+      ],
+      "villainCount": 7
+    }
+  ],
+  "scales": {
+    "x": {
+      "domain": [
+        1,
+        129
+      ],
+      "range": [
+        60,
+        1180
+      ]
+    },
+    "y": {
+      "domain": [
+        0,
+        13
+      ],
+      "range": [
+        570,
+        20
+      ]
+    }
+  },
+  "colors": {
+    "Symbiote": "#2ecc71",
+    "Vulturions": "#16a085",
+    "Honcho": "#55efc4",
+    "Gripes": "#d35400",
+    "Pigeon": "#fab1a0",
+    "Sugar Face": "#3498db",
+    "Kingpin": "#34495e",
+    "Vulture": "#e84393",
+    "Doctor Octopus": "#ff6b6b",
+    "Larry": "#2980b9",
+    "Mel": "#45b7d1",
+    "Roger": "#dfe6e9",
+    "Nightmare": "#0984e3",
+    "Hulk": "#9b59b6",
+    "Ludlow Grimes": "#d63031",
+    "Wolfgang von Lundt": "#a29bfe",
+    "Shocker": "#c0392b",
+    "Black Fox": "#ff6b6b",
+    "1400 Club": "#1abc9c",
+    "Chance": "#74b9ff",
+    "Foreigner": "#16a085",
+    "Roxxon": "#2980b9",
+    "Magma": "#a29bfe",
+    "Medgar DuPaul": "#27ae60",
+    "Humbug": "#d63031",
+    "Irish Republican Army": "#16a085",
+    "Sean Dunne": "#fdcb6e",
+    "Paddy": "#d35400",
+    "Ron Corbett": "#fd79a8",
+    "Bill Corbett": "#d35400",
+    "Ian Forbes": "#a29bfe",
+    "Dr. Fahley": "#55efc4",
+    "Black Hoods": "#34495e",
+    "Rory Magill": "#34495e",
+    "Duncan O'Neill": "#ff7675",
+    "Slyde": "#636e72",
+    "Hobgoblin": "#34495e",
+    "The Rose": "#81ecec",
+    "Eddie Brock": "#00b894",
+    "Xanja": "#74b9ff",
+    "Arnie Strunk": "#e74c3c",
+    "Willard Stein": "#2ecc71",
+    "Gunther Stein": "#2ecc71",
+    "Executive Services, Inc": "#d63031",
+    "Headhunter": "#00b894",
+    "Hershel": "#dfe6e9",
+    "Milicent Peabody": "#0984e3",
+    "Arranger": "#6c5ce7",
+    "Kraven the Hunter": "#6c5ce7",
+    "Doctor Hope": "#ff7675",
+    "A'Sai": "#55efc4",
+    "The Living Brain": "#eb3b5a",
+    "Tarantula": "#ffeaa7",
+    "General Ramone": "#00b894",
+    "Phreak": "#f39c12",
+    "Tombstone": "#4ecdc4",
+    "Elyse Nelson": "#636e72",
+    "Looter": "#ff7675",
+    "Cult of Love": "#f39c12",
+    "Brother Bruce": "#a29bfe",
+    "Teacher": "#2ecc71",
+    "Warzone": "#2980b9",
+    "Alpha": "#e67e22",
+    "Bravo": "#fab1a0",
+    "Charlie": "#34495e",
+    "Delta": "#e74c3c",
+    "Morris \"The Snake\" Diamond": "#f39c12",
+    "Nekra": "#ff7675",
+    "The Lizard": "#ff7675",
+    "Chameleon": "#9b59b6",
+    "Lobo Brothers": "#00cec9",
+    "Eduardo Lobo": "#6c5ce7",
+    "Carlos Lobo": "#2980b9",
+    "Hammerhead": "#fd79a8",
+    "NYPD": "#e84393",
+    "Sergeant Michael O'Hill": "#fa8231",
+    "Skinhead": "#f39c12",
+    "Grizzly": "#f39c12",
+    "Tinkerer": "#d63031",
+    "Titania": "#45b7d1",
+    "Doctor Doom": "#34495e",
+    "Goliath": "#b2bec3",
+    "Magneto": "#ff7675",
+    "Wizard": "#00cec9",
+    "Dragon Man": "#f1c40f",
+    "Molten Man": "#f9ca24",
+    "Mister Fear": "#eb3b5a",
+    "Trapster": "#27ae60",
+    "Brothers Grimm": "#0984e3",
+    "Graviton": "#6c5ce7",
+    "Green Goblin": "#45b7d1",
+    "Armand Jones": "#eb3b5a",
+    "Sabbath Raven": "#0984e3",
+    "Iron Monger": "#ffeaa7",
+    "Headmen": "#fab1a0",
+    "Arthur Nagan": "#ff7675",
+    "Jerald Morgan": "#2ecc71",
+    "Chondu the Mystic": "#3498db",
+    "Ruby Thursday": "#e74c3c",
+    "Painter": "#27ae60",
+    "Bora": "#74b9ff",
+    "Spark": "#f1c40f",
+    "Cockroaches": "#f9ca24",
+    "Firebrand": "#0984e3",
+    "Silvermane": "#00b894",
+    "Ripster": "#636e72",
+    "Slambeaux": "#d63031",
+    "Twit": "#34495e",
+    "Purty Larry": "#6c5ce7",
+    "Silver Sable": "#eb3b5a",
+    "Silver Samurai": "#2d3436",
+    "Bloodshed": "#fab1a0",
+    "Man Mountain Marko": "#f1c40f",
+    "Snaky Duvall": "#00b894",
+    "Hypertron 1.0": "#45b7d1",
+    "Alfredo Morelli": "#fdcb6e",
+    "Triad Brothers": "#4ecdc4",
+    "Deathwatch": "#fdcb6e",
+    "Demogoblin": "#fab1a0",
+    "Praetorian Guards": "#16a085",
+    "Mysterio": "#00b894",
+    "Killer Shrike": "#f1c40f",
+    "Pulse-2": "#34495e",
+    "Whisper-3": "#ffeaa7",
+    "Swift-1": "#c0392b",
+    "Warfare": "#2ecc71",
+    "Spider-Doppelganger": "#6c5ce7",
+    "Hag": "#fd79a8",
+    "Troll": "#2d3436",
+    "Deathspawn": "#16a085",
+    "Cyber-Hunters": "#16a085",
+    "Blitz": "#f9ca24",
+    "Eel": "#74b9ff",
+    "Vanisher": "#e74c3c",
+    "Dreadnought": "#fa8231",
+    "Madame Menace": "#d63031",
+    "Tangle": "#636e72",
+    "Plantman": "#16a085",
+    "Thermite": "#34495e",
+    "Mentallo": "#2980b9",
+    "Fixer": "#8e44ad",
+    "A.I.M. Agents": "#1abc9c",
+    "Carnage": "#27ae60",
+    "Shriek": "#fd79a8",
+    "Carrion": "#fd79a8",
+    "Goddess": "#f1c40f",
+    "Moondragon": "#9b59b6",
+    "Deathgrin": "#2980b9",
+    "Quicksilver": "#e67e22",
+    "Scarlet Witch": "#3498db",
+    "Thor": "#a29bfe",
+    "Multiple Man": "#6c5ce7",
+    "Sasquatch": "#16a085",
+    "Gamora": "#fdcb6e",
+    "Moon Knight": "#9b59b6",
+    "Invisible Woman": "#2d3436",
+    "Archangel": "#ff7675",
+    "Strong Guy": "#8e44ad",
+    "Firestar": "#ffeaa7",
+    "Darkhawk": "#ff7675",
+    "Rogue": "#ff6b6b",
+    "Thing": "#e67e22",
+    "Sandstorm": "#ff7675",
+    "Scorpion": "#f1c40f",
+    "Quicksand": "#dfe6e9",
+    "Warrant": "#fdcb6e",
+    "F.A.C.A.D.E": "#eb3b5a",
+    "Silencers": "#fd79a8",
+    "The Host": "#e84393",
+    "Chakra": "#e67e22",
+    "Boone": "#c0392b",
+    "Mr. Nacht": "#f39c12",
+    "Medea": "#00b894",
+    "Dr. Judas Traveller": "#fab1a0",
+    "Professor Miles Warren": "#eb3b5a",
+    "Scream": "#636e72",
+    "Kaine": "#6c5ce7",
+    "Grim Hunter": "#3498db",
+    "A.R.E.S": "#16a085",
+    "Jack": "#16a085",
+    "Guardian": "#fa8231",
+    "Jackal": "#34495e",
+    "D'Spayre": "#27ae60",
+    "New Warriors": "#2d3436",
+    "Scarlet Spider": "#f1c40f",
+    "Hindsight": "#ff6b6b",
+    "Justice": "#dfe6e9",
+    "Speedball": "#fd79a8",
+    "Power Pax": "#9b59b6"
+  }
+}

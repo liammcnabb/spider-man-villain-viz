@@ -1,0 +1,1693 @@
+{
+  "data": [
+    {
+      "issueNumber": 1,
+      "chronologicalPosition": 1,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 28, 1976",
+      "villainsInIssue": [
+        "Tarantula"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 2,
+      "chronologicalPosition": 2,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 26, 1976",
+      "villainsInIssue": [
+        "Tarantula",
+        "Edward Lansky",
+        "Kraven the Hunter"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 3,
+      "chronologicalPosition": 3,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 23, 1976",
+      "villainsInIssue": [
+        "Tarantula",
+        "Edward Lansky"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 4,
+      "chronologicalPosition": 4,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 21, 1976",
+      "villainsInIssue": [
+        "Vulture",
+        "Hitman",
+        "Morgan"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 5,
+      "chronologicalPosition": 5,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 25, 1977",
+      "villainsInIssue": [
+        "Vulture",
+        "Hitman",
+        "Morgan"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 6,
+      "chronologicalPosition": 6,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 22, 1977",
+      "villainsInIssue": [
+        "Morbius the Living Vampire",
+        "Empathoid"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 7,
+      "chronologicalPosition": 7,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 22, 1977",
+      "villainsInIssue": [
+        "Morgan",
+        "Morbius the Living Vampire"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 8,
+      "chronologicalPosition": 8,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 26, 1977",
+      "villainsInIssue": [
+        "Morbius the Living Vampire",
+        "Empathoid"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 9,
+      "chronologicalPosition": 9,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 24, 1977",
+      "villainsInIssue": [
+        "Professor Ramon Vasquez"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 10,
+      "chronologicalPosition": 10,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 21, 1977",
+      "villainsInIssue": [
+        "Professor Ramon Vasquez"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 11,
+      "chronologicalPosition": 11,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 26, 1977",
+      "villainsInIssue": [
+        "Medusa"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 12,
+      "chronologicalPosition": 12,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 24, 1977",
+      "villainsInIssue": [
+        "Legion of Light",
+        "Brother Power",
+        "Sister Sun"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 13,
+      "chronologicalPosition": 13,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 27, 1977",
+      "villainsInIssue": [
+        "Legion of Light",
+        "Brother Power",
+        "Sister Sun",
+        "Hate Monger"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 14,
+      "chronologicalPosition": 14,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 25, 1977",
+      "villainsInIssue": [
+        "Legion of Light",
+        "Brother Power",
+        "Sister Sun",
+        "Hate Monger"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 15,
+      "chronologicalPosition": 15,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 22, 1977",
+      "villainsInIssue": [
+        "Legion of Light",
+        "Brother Power",
+        "Sister Sun",
+        "Hate Monger"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 16,
+      "chronologicalPosition": 16,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 27, 1977",
+      "villainsInIssue": [
+        "Beetle"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 17,
+      "chronologicalPosition": 17,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 24, 1978",
+      "villainsInIssue": [
+        "Bobby Drake",
+        "Stuart Clarke"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 18,
+      "chronologicalPosition": 18,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 21, 1978",
+      "villainsInIssue": [
+        "Stuart Clarke"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 19,
+      "chronologicalPosition": 19,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 28, 1978",
+      "villainsInIssue": [
+        "Edward Lansky",
+        "Fancy Dan",
+        "Montana",
+        "Ox"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 20,
+      "chronologicalPosition": 20,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 25, 1978",
+      "villainsInIssue": [
+        "Edward Lansky",
+        "Fancy Dan",
+        "Montana",
+        "Ox"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 21,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 23, 1978",
+      "villainsInIssue": [
+        "Scorpion"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 22,
+      "chronologicalPosition": 22,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 27, 1978",
+      "villainsInIssue": [
+        "Cyclone"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 23,
+      "chronologicalPosition": 23,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 25, 1978",
+      "villainsInIssue": [
+        "Cyclone",
+        "Masked Marauder"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 24,
+      "chronologicalPosition": 24,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 22, 1978",
+      "villainsInIssue": [
+        "Hypno-Hustler"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 25,
+      "chronologicalPosition": 25,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 26, 1978",
+      "villainsInIssue": [
+        "Masked Marauder",
+        "Carrion",
+        "Tri-Man"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 26,
+      "chronologicalPosition": 26,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 24, 1978",
+      "villainsInIssue": [
+        "Masked Marauder",
+        "Carrion",
+        "Tri-Man"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 27,
+      "chronologicalPosition": 27,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 21, 1978",
+      "villainsInIssue": [
+        "Masked Marauder",
+        "Carrion",
+        "Tri-Man"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 28,
+      "chronologicalPosition": 28,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 12, 1978",
+      "villainsInIssue": [
+        "Masked Marauder",
+        "Carrion",
+        "Tri-Man"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 29,
+      "chronologicalPosition": 29,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 23, 1979",
+      "villainsInIssue": [
+        "Carrion",
+        "Darter"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 30,
+      "chronologicalPosition": 30,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 20, 1979",
+      "villainsInIssue": [
+        "Carrion",
+        "Darter"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 31,
+      "chronologicalPosition": 31,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 27, 1979",
+      "villainsInIssue": [
+        "Carrion",
+        "Darter",
+        "Spider-Amoeba"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 32,
+      "chronologicalPosition": 32,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 24, 1979",
+      "villainsInIssue": [
+        "Iguana"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 33,
+      "chronologicalPosition": 33,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 22, 1979",
+      "villainsInIssue": [
+        "Iguana",
+        "Lizard"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 34,
+      "chronologicalPosition": 34,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 26, 1979",
+      "villainsInIssue": [
+        "Iguana",
+        "Lizard"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 35,
+      "chronologicalPosition": 35,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 24, 1979",
+      "villainsInIssue": [
+        "Mindworm"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 36,
+      "chronologicalPosition": 36,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 28, 1979",
+      "villainsInIssue": [
+        "Swarm"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 37,
+      "chronologicalPosition": 37,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 18, 1979",
+      "villainsInIssue": [
+        "Swarm"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 38,
+      "chronologicalPosition": 38,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 23, 1979",
+      "villainsInIssue": [
+        "Morbius the Living Vampire",
+        "Schizoid-Man"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 39,
+      "chronologicalPosition": 39,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 27, 1979",
+      "villainsInIssue": [
+        "Schizoid-Man"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 40,
+      "chronologicalPosition": 40,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 25, 1979",
+      "villainsInIssue": [
+        "Spider-Lizard"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 41,
+      "chronologicalPosition": 41,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 22, 1980",
+      "villainsInIssue": [
+        "Meteor Man"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 42,
+      "chronologicalPosition": 42,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 26, 1980",
+      "villainsInIssue": [
+        "Frightful Four",
+        "Wizard",
+        "Trapster",
+        "Sandman",
+        "Electro"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 43,
+      "chronologicalPosition": 43,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 25, 1980",
+      "villainsInIssue": [
+        "Belladonna",
+        "Jack",
+        "Manny"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 44,
+      "chronologicalPosition": 44,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 22, 1980",
+      "villainsInIssue": [
+        "Vulture",
+        "Malachi Toomes"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 45,
+      "chronologicalPosition": 45,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 27, 1980",
+      "villainsInIssue": [
+        "Vulture",
+        "Malachi Toomes"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 46,
+      "chronologicalPosition": 46,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 24, 1980",
+      "villainsInIssue": [
+        "Cobra"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 47,
+      "chronologicalPosition": 47,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 22, 1980",
+      "villainsInIssue": [
+        "Belladonna",
+        "Jack",
+        "Manny",
+        "Prowler"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 48,
+      "chronologicalPosition": 48,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 26, 1980",
+      "villainsInIssue": [
+        "Belladonna",
+        "Jack",
+        "Manny",
+        "Prowler"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 49,
+      "chronologicalPosition": 49,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 23, 1980",
+      "villainsInIssue": [
+        "Smuggler"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 50,
+      "chronologicalPosition": 50,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 28, 1980",
+      "villainsInIssue": [
+        "Smuggler",
+        "Mysterio",
+        "Charlie",
+        "Gideon Mace"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 51,
+      "chronologicalPosition": 51,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 25, 1980",
+      "villainsInIssue": [
+        "Mysterio",
+        "Charlie",
+        "Gideon Mace"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 52,
+      "chronologicalPosition": 52,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 23, 1980",
+      "villainsInIssue": [
+        "Gideon Mace"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 53,
+      "chronologicalPosition": 53,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 20, 1981",
+      "villainsInIssue": [
+        "Tinkerer",
+        "Toy"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 54,
+      "chronologicalPosition": 54,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 24, 1981",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 55,
+      "chronologicalPosition": 55,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 24, 1981",
+      "villainsInIssue": [
+        "Nitro"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 56,
+      "chronologicalPosition": 56,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 21, 1981",
+      "villainsInIssue": [
+        "Jack O'Lantern"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 57,
+      "chronologicalPosition": 57,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 19, 1981",
+      "villainsInIssue": [
+        "Brand Corporation",
+        "Killer Shrike",
+        "James Melvin"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 58,
+      "chronologicalPosition": 58,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 16, 1981",
+      "villainsInIssue": [
+        "Beetle",
+        "Ringer"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 59,
+      "chronologicalPosition": 59,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 21, 1981",
+      "villainsInIssue": [
+        "Beetle",
+        "Gibbon"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 60,
+      "chronologicalPosition": 60,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 18, 1981",
+      "villainsInIssue": [
+        "Beetle",
+        "The Burglar"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 61,
+      "chronologicalPosition": 61,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 15, 1981",
+      "villainsInIssue": [
+        "Moonstone"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 62,
+      "chronologicalPosition": 62,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 20, 1981",
+      "villainsInIssue": [
+        "Goldbug"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 63,
+      "chronologicalPosition": 63,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 17, 1981",
+      "villainsInIssue": [
+        "Molten Man"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 64,
+      "chronologicalPosition": 64,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 15, 1981",
+      "villainsInIssue": [
+        "Simon Marshall"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 65,
+      "chronologicalPosition": 65,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 19, 1982",
+      "villainsInIssue": [
+        "Kraven the Hunter",
+        "Calypso"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 66,
+      "chronologicalPosition": 66,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 16, 1982",
+      "villainsInIssue": [
+        "Electro"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 67,
+      "chronologicalPosition": 67,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 16, 1982",
+      "villainsInIssue": [
+        "Kingpin",
+        "Boomerang"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 68,
+      "chronologicalPosition": 68,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 13, 1982",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 69,
+      "chronologicalPosition": 69,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 18, 1982",
+      "villainsInIssue": [
+        "Kingpin",
+        "Silvermane"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 70,
+      "chronologicalPosition": 70,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 15, 1982",
+      "villainsInIssue": [
+        "Kingpin",
+        "Silvermane"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 71,
+      "chronologicalPosition": 71,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 13, 1982",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 72,
+      "chronologicalPosition": 72,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 17, 1982",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 73,
+      "chronologicalPosition": 73,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 14, 1982",
+      "villainsInIssue": [
+        "Boomerang",
+        "Doctor Octopus",
+        "Owl"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 74,
+      "chronologicalPosition": 74,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 19, 1982",
+      "villainsInIssue": [
+        "Kingpin",
+        "Doctor Octopus",
+        "Owl",
+        "Mark Whitman"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 75,
+      "chronologicalPosition": 75,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 16, 1982",
+      "villainsInIssue": [
+        "Kingpin",
+        "Doctor Octopus",
+        "Owl"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 76,
+      "chronologicalPosition": 76,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 14, 1982",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 77,
+      "chronologicalPosition": 77,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 18, 1983",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 78,
+      "chronologicalPosition": 78,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 15, 1983",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 79,
+      "chronologicalPosition": 79,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 15, 1983",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 80,
+      "chronologicalPosition": 80,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 12, 1983",
+      "villainsInIssue": [
+        "Kingpin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 81,
+      "chronologicalPosition": 81,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 17, 1983",
+      "villainsInIssue": [
+        "Boomerang"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 82,
+      "chronologicalPosition": 82,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 14, 1983",
+      "villainsInIssue": [
+        "Kingpin",
+        "Punisher"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 83,
+      "chronologicalPosition": 83,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 19, 1983",
+      "villainsInIssue": [
+        "Punisher"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 84,
+      "chronologicalPosition": 84,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 16, 1983",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 85,
+      "chronologicalPosition": 85,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 13, 1983",
+      "villainsInIssue": [
+        "Hobgoblin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 86,
+      "chronologicalPosition": 86,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 18, 1983",
+      "villainsInIssue": [
+        "Fly"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 87,
+      "chronologicalPosition": 87,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 15, 1983",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 88,
+      "chronologicalPosition": 88,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 13, 1983",
+      "villainsInIssue": [
+        "Cobra",
+        "Mr. Hyde"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 89,
+      "chronologicalPosition": 89,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 17, 1984",
+      "villainsInIssue": [
+        "Kingpin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 90,
+      "chronologicalPosition": 90,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 14, 1984",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 91,
+      "chronologicalPosition": 91,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 20, 1984",
+      "villainsInIssue": [
+        "The Blob"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 92,
+      "chronologicalPosition": 92,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 17, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Answer"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 93,
+      "chronologicalPosition": 93,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 15, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Answer"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 94,
+      "chronologicalPosition": 94,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 12, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Silvermane",
+        "Answer"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 95,
+      "chronologicalPosition": 95,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 17, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Silvermane",
+        "Answer",
+        "The Rose"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 96,
+      "chronologicalPosition": 96,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 14, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Silvermane",
+        "Answer"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 97,
+      "chronologicalPosition": 97,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 18, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Symbiote",
+        "Elliot"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 98,
+      "chronologicalPosition": 98,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 16, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Symbiote",
+        "Spot"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 99,
+      "chronologicalPosition": 99,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 13, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Symbiote",
+        "Spot"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 100,
+      "chronologicalPosition": 100,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 18, 1984",
+      "villainsInIssue": [
+        "Kingpin",
+        "Symbiote",
+        "Spot"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 101,
+      "chronologicalPosition": 101,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 15, 1985",
+      "villainsInIssue": [
+        "Blacklash"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 102,
+      "chronologicalPosition": 102,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 12, 1985",
+      "villainsInIssue": [
+        "Killer Shrike"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 103,
+      "chronologicalPosition": 103,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 19, 1985",
+      "villainsInIssue": [
+        "Ashley Cranford"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 104,
+      "chronologicalPosition": 104,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 16, 1985",
+      "villainsInIssue": [
+        "Bounty Hunter"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 105,
+      "chronologicalPosition": 105,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 14, 1985",
+      "villainsInIssue": [
+        "Vince Granetti"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 106,
+      "chronologicalPosition": 106,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 18, 1985",
+      "villainsInIssue": [
+        "Jack",
+        "Charlie",
+        "Vince Granetti"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 107,
+      "chronologicalPosition": 107,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 16, 1985",
+      "villainsInIssue": [
+        "Sin Eater"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 108,
+      "chronologicalPosition": 108,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 13, 1985",
+      "villainsInIssue": [
+        "Sin Eater"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 109,
+      "chronologicalPosition": 109,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 17, 1985",
+      "villainsInIssue": [
+        "Kingpin",
+        "Sin Eater",
+        "Emil Gregg",
+        "Santa Claus Burglar"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 110,
+      "chronologicalPosition": 110,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 15, 1985",
+      "villainsInIssue": [
+        "Sin Eater"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 111,
+      "chronologicalPosition": 111,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 12, 1985",
+      "villainsInIssue": [
+        "Beyonder"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 112,
+      "chronologicalPosition": 112,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 17, 1985",
+      "villainsInIssue": [
+        "Santa Claus Burglar"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 113,
+      "chronologicalPosition": 113,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 14, 1986",
+      "villainsInIssue": [
+        "Jack"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 114,
+      "chronologicalPosition": 114,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 18, 1986",
+      "villainsInIssue": [
+        "The Barons",
+        "Cheech Beldone"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 115,
+      "chronologicalPosition": 115,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 18, 1986",
+      "villainsInIssue": [
+        "Foreigner"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 116,
+      "chronologicalPosition": 116,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 15, 1986",
+      "villainsInIssue": [
+        "Foreigner",
+        "Sabretooth"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 117,
+      "chronologicalPosition": 117,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 13, 1986",
+      "villainsInIssue": [
+        "Foreigner"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 118,
+      "chronologicalPosition": 118,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 17, 1986",
+      "villainsInIssue": [
+        "Kingpin",
+        "Foreigner",
+        "S.H.I.E.L.D",
+        "Freddy Helms",
+        "Reggie Simons"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 119,
+      "chronologicalPosition": 119,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 15, 1986",
+      "villainsInIssue": [
+        "Foreigner",
+        "Sabretooth"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 120,
+      "chronologicalPosition": 120,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 12, 1986",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 121,
+      "chronologicalPosition": 121,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 16, 1986",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 122,
+      "chronologicalPosition": 122,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "October 14, 1986",
+      "villainsInIssue": [
+        "Mauler"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 123,
+      "chronologicalPosition": 123,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "November 18, 1986",
+      "villainsInIssue": [
+        "Foreigner",
+        "Blaze",
+        "1400 Club"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 124,
+      "chronologicalPosition": 124,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "December 16, 1986",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 125,
+      "chronologicalPosition": 125,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "January 13, 1987",
+      "villainsInIssue": [
+        "Wrecker",
+        "Bulldozer",
+        "Piledriver",
+        "Thunderball"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 126,
+      "chronologicalPosition": 126,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "February 17, 1987",
+      "villainsInIssue": [
+        "Wrecker",
+        "Bulldozer",
+        "Piledriver",
+        "Thunderball"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 127,
+      "chronologicalPosition": 127,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "March 17, 1987",
+      "villainsInIssue": [
+        "Owl"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 128,
+      "chronologicalPosition": 128,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "April 14, 1987",
+      "villainsInIssue": [
+        "Freddy Helms",
+        "Silver Sable"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 129,
+      "chronologicalPosition": 129,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "May 19, 1987",
+      "villainsInIssue": [
+        "Foreigner"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 130,
+      "chronologicalPosition": 130,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "June 16, 1987",
+      "villainsInIssue": [
+        "Kingpin",
+        "Hobgoblin"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 131,
+      "chronologicalPosition": 131,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "July 14, 1987",
+      "villainsInIssue": [
+        "Vermin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 132,
+      "chronologicalPosition": 132,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "August 18, 1987",
+      "villainsInIssue": [
+        "Vermin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 133,
+      "chronologicalPosition": 133,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "releaseDate": "September 15, 1987",
+      "villainsInIssue": [
+        "Kingpin",
+        "Arranger",
+        "Doctor Hope",
+        "Brainstorm"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 134,
+      "chronologicalPosition": 134,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 135,
+      "chronologicalPosition": 135,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 136,
+      "chronologicalPosition": 136,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 137,
+      "chronologicalPosition": 137,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 138,
+      "chronologicalPosition": 138,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 139,
+      "chronologicalPosition": 139,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 140,
+      "chronologicalPosition": 140,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 141,
+      "chronologicalPosition": 141,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 142,
+      "chronologicalPosition": 142,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 143,
+      "chronologicalPosition": 143,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 144,
+      "chronologicalPosition": 144,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 145,
+      "chronologicalPosition": 145,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 146,
+      "chronologicalPosition": 146,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 147,
+      "chronologicalPosition": 147,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 148,
+      "chronologicalPosition": 148,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 149,
+      "chronologicalPosition": 149,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 150,
+      "chronologicalPosition": 150,
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    }
+  ],
+  "scales": {
+    "x": {
+      "domain": [
+        1,
+        150
+      ],
+      "range": [
+        60,
+        1180
+      ]
+    },
+    "y": {
+      "domain": [
+        0,
+        5
+      ],
+      "range": [
+        570,
+        20
+      ]
+    }
+  },
+  "colors": {
+    "Tarantula": "#ffeaa7",
+    "Edward Lansky": "#ff7675",
+    "Kraven the Hunter": "#6c5ce7",
+    "Vulture": "#e84393",
+    "Hitman": "#0984e3",
+    "Morgan": "#9b59b6",
+    "Morbius the Living Vampire": "#e84393",
+    "Empathoid": "#55efc4",
+    "Professor Ramon Vasquez": "#1abc9c",
+    "Medusa": "#c0392b",
+    "Legion of Light": "#fdcb6e",
+    "Brother Power": "#00cec9",
+    "Sister Sun": "#e74c3c",
+    "Hate Monger": "#6c5ce7",
+    "Beetle": "#f39c12",
+    "Bobby Drake": "#3498db",
+    "Stuart Clarke": "#ff7675",
+    "Fancy Dan": "#ff6b6b",
+    "Montana": "#9b59b6",
+    "Ox": "#c0392b",
+    "Scorpion": "#f1c40f",
+    "Cyclone": "#636e72",
+    "Masked Marauder": "#2980b9",
+    "Hypno-Hustler": "#eb3b5a",
+    "Carrion": "#fd79a8",
+    "Tri-Man": "#ffeaa7",
+    "Darter": "#d63031",
+    "Spider-Amoeba": "#a29bfe",
+    "Iguana": "#fdcb6e",
+    "Lizard": "#2ecc71",
+    "Mindworm": "#27ae60",
+    "Swarm": "#b2bec3",
+    "Schizoid-Man": "#e67e22",
+    "Spider-Lizard": "#8e44ad",
+    "Meteor Man": "#ff6b6b",
+    "Frightful Four": "#3498db",
+    "Wizard": "#00cec9",
+    "Trapster": "#27ae60",
+    "Sandman": "#2ecc71",
+    "Electro": "#74b9ff",
+    "Belladonna": "#ffeaa7",
+    "Jack": "#16a085",
+    "Manny": "#1abc9c",
+    "Malachi Toomes": "#74b9ff",
+    "Cobra": "#f9ca24",
+    "Prowler": "#e84393",
+    "Smuggler": "#eb3b5a",
+    "Mysterio": "#00b894",
+    "Charlie": "#34495e",
+    "Gideon Mace": "#d63031",
+    "Tinkerer": "#d63031",
+    "Toy": "#e67e22",
+    "Nitro": "#34495e",
+    "Jack O'Lantern": "#00cec9",
+    "Brand Corporation": "#0984e3",
+    "Killer Shrike": "#f1c40f",
+    "James Melvin": "#f9ca24",
+    "Ringer": "#27ae60",
+    "Gibbon": "#636e72",
+    "The Burglar": "#81ecec",
+    "Moonstone": "#2980b9",
+    "Goldbug": "#74b9ff",
+    "Molten Man": "#f9ca24",
+    "Simon Marshall": "#00b894",
+    "Calypso": "#fa8231",
+    "Kingpin": "#34495e",
+    "Boomerang": "#34495e",
+    "Silvermane": "#00b894",
+    "Doctor Octopus": "#ff6b6b",
+    "Owl": "#45b7d1",
+    "Mark Whitman": "#fdcb6e",
+    "Punisher": "#ff6b6b",
+    "Hobgoblin": "#34495e",
+    "Fly": "#fdcb6e",
+    "Mr. Hyde": "#3498db",
+    "The Blob": "#9b59b6",
+    "Answer": "#34495e",
+    "The Rose": "#81ecec",
+    "Symbiote": "#2ecc71",
+    "Elliot": "#0984e3",
+    "Spot": "#2ecc71",
+    "Blacklash": "#a29bfe",
+    "Ashley Cranford": "#fdcb6e",
+    "Bounty Hunter": "#00cec9",
+    "Vince Granetti": "#636e72",
+    "Sin Eater": "#27ae60",
+    "Emil Gregg": "#55efc4",
+    "Santa Claus Burglar": "#b2bec3",
+    "Beyonder": "#d63031",
+    "The Barons": "#d35400",
+    "Cheech Beldone": "#f39c12",
+    "Foreigner": "#16a085",
+    "Sabretooth": "#636e72",
+    "S.H.I.E.L.D": "#00cec9",
+    "Freddy Helms": "#ff7675",
+    "Reggie Simons": "#fab1a0",
+    "Mauler": "#b2bec3",
+    "Blaze": "#ff6b6b",
+    "1400 Club": "#1abc9c",
+    "Wrecker": "#3498db",
+    "Bulldozer": "#16a085",
+    "Piledriver": "#81ecec",
+    "Thunderball": "#f1c40f",
+    "Silver Sable": "#eb3b5a",
+    "Vermin": "#3498db",
+    "Arranger": "#6c5ce7",
+    "Doctor Hope": "#ff7675",
+    "Brainstorm": "#f1c40f"
+  }
+}

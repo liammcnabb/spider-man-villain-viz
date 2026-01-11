@@ -1,0 +1,2027 @@
+{
+  "series": "Spider-Man Vol 1",
+  "processedAt": "2026-01-11T18:27:08.384Z",
+  "stats": {
+    "totalVillains": 66,
+    "mostFrequent": "Green Goblin",
+    "mostFrequentCount": 9,
+    "averageFrequency": 1.95
+  },
+  "villains": [
+    {
+      "id": "Judas_Traveller_(Earth-616)",
+      "name": "Judas Traveller",
+      "aliases": [
+        "Dr. Judas Traveller"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+      "imageUrl": "/images/judas-traveller-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 51,
+      "appearances": [
+        51,
+        57,
+        59
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Host_(Judas_Traveller)_(Earth-616)",
+      "name": "The Host",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)",
+      "identitySource": "url",
+      "firstAppearance": 51,
+      "appearances": [
+        51,
+        57,
+        59
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Walther_Nacht_(Earth-616)",
+      "name": "Mr. Nacht",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+      "imageUrl": "/images/walther-nacht-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 51,
+      "appearances": [
+        51,
+        57,
+        59
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Medea_Kovack_(Earth-616)",
+      "name": "Medea",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+      "imageUrl": "/images/medea-kovack-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 51,
+      "appearances": [
+        51,
+        57,
+        59
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Morgan_Boone_(Earth-616)",
+      "name": "Boone",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+      "imageUrl": "/images/morgan-boone-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 51,
+      "appearances": [
+        51,
+        57,
+        59
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Miles_Warren_(Earth-616)",
+      "name": "Jackal",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
+      "imageUrl": "/images/miles-warren-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 51,
+      "appearances": [
+        51,
+        57
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Edward_Brock_(Earth-616)",
+      "name": "Venom",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
+      "imageUrl": "/images/edward-brock-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 52,
+      "appearances": [
+        52,
+        53
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Donna_Diego_(Earth-616)",
+      "name": "Scream",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Donna_Diego_(Earth-616)",
+      "imageUrl": "/images/donna-diego-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 52,
+      "appearances": [
+        52
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Vladimir_Kravinoff_(Earth-616)",
+      "name": "Grim Hunter",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+      "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 54,
+      "appearances": [
+        54,
+        55
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Kaine_Parker_(Earth-616)",
+      "name": "Kaine",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+      "imageUrl": "/images/kaine-parker-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 54,
+      "appearances": [
+        54,
+        55,
+        58,
+        60
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+      "name": "Jackal",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+      "imageUrl": "/images/miles-warren-catskill-mountains-clone-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 56,
+      "appearances": [
+        56,
+        57,
+        61
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Sergei_Kravinoff_(Earth-616)",
+      "name": "Kraven the Hunter",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+      "imageUrl": "/images/sergei-kravinoff-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 57,
+      "appearances": [
+        57
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Otto_Octavius_(Earth-616)",
+      "name": "Doctor Octopus",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+      "imageUrl": "/images/otto-octavius-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 57,
+      "appearances": [
+        57
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Maxwell_Dillon_(Earth-616)",
+      "name": "Electro",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+      "imageUrl": "/images/maxwell-dillon-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 57,
+      "appearances": [
+        57
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Norman_Osborn_(Earth-616)",
+      "name": "Green Goblin",
+      "aliases": [
+        "Norman Osborn"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+      "imageUrl": "/images/norman-osborn-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 57,
+      "appearances": [
+        57,
+        75,
+        88,
+        89,
+        92,
+        95,
+        96,
+        97,
+        98
+      ],
+      "frequency": 9
+    },
+    {
+      "id": "Charles_Bates_(Earth-616)",
+      "name": "Scrier",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Charles_Bates_(Earth-616)",
+      "imageUrl": "/images/charles-bates-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 59,
+      "appearances": [
+        59
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Anjali_Sridhara_(Earth-616)",
+      "name": "Chakra",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Anjali_Sridhara_(Earth-616)",
+      "imageUrl": "/images/anjali-sridhara-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 59,
+      "appearances": [
+        59
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Angelina_Brancale_(Earth-616)",
+      "name": "Stunner",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Angelina_Brancale_(Earth-616)",
+      "imageUrl": "/images/angelina-brancale-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 60,
+      "appearances": [
+        60
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Spidercide_(Earth-616)",
+      "name": "Spidercide",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Spidercide_(Earth-616)",
+      "imageUrl": "/images/spidercide-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 61,
+      "appearances": [
+        61
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Carolyn_Trainer_(Earth-616)",
+      "name": "Doctor Octopus",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)",
+      "imageUrl": "/images/carolyn-trainer-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 62,
+      "appearances": [
+        62,
+        63
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Adrian_Toomes_(Earth-616)",
+      "name": "Vulture",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+      "imageUrl": "/images/adrian-toomes-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 62,
+      "appearances": [
+        62
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Sergio_Torres_(Earth-616)",
+      "name": "El Toro Negro",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Sergio_Torres_(Earth-616)",
+      "imageUrl": "/images/sergio-torres-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 64,
+      "appearances": [
+        64
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Quentin_Beck_(Earth-616)",
+      "name": "Mysterio",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+      "imageUrl": "/images/quentin-beck-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 64,
+      "appearances": [
+        64,
+        65
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Great_Game_(Earth-616)",
+      "name": "Great Game",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Great_Game_(Earth-616)",
+      "imageUrl": "/images/great-game-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 66,
+      "appearances": [
+        66
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Shannon_Fitzpatrick_(Earth-616)",
+      "name": "Muse",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Shannon_Fitzpatrick_(Earth-616)",
+      "imageUrl": "/images/shannon-fitzpatrick-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 66,
+      "appearances": [
+        66
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "James_Johnsmeyer_(Earth-616)",
+      "name": "James Johnsmeyer",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/James_Johnsmeyer_(Earth-616)",
+      "imageUrl": "/images/james-johnsmeyer-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 66,
+      "appearances": [
+        66
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Carnage_(Symbiote)_(Earth-616)",
+      "name": "Carnage Symbiote",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+      "imageUrl": "/images/carnage-symbiote-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 67,
+      "appearances": [
+        67
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Cell-12_(Earth-616)",
+      "name": "Cell-12",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Cell-12_(Earth-616)",
+      "imageUrl": "/images/cell-12-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 68,
+      "appearances": [
+        68,
+        69
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Jason_Macendale_Jr._(Earth-616)",
+      "name": "Hobgoblin",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+      "imageUrl": "/images/jason-macendale-jr-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 68,
+      "appearances": [
+        68,
+        69
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Bramer_(Earth-616)",
+      "name": "Bramer",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Bramer_(Earth-616)",
+      "imageUrl": "/images/bramer-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 68,
+      "appearances": [
+        68,
+        69
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Nardi_(Earth-616)",
+      "name": "Nardi",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Nardi_(Earth-616)",
+      "imageUrl": "/images/nardi-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 68,
+      "appearances": [
+        68,
+        69
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Andros_(Earth-616)",
+      "name": "Andros",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Andros_(Earth-616)",
+      "imageUrl": "/images/andros-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 68,
+      "appearances": [
+        68,
+        69
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Lasher_(Cell-12)_(Earth-616)",
+      "name": "Lasher",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Lasher_(Cell-12)_(Earth-616)",
+      "imageUrl": "/images/lasher-cell-12-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 68,
+      "appearances": [
+        68,
+        69
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Mendel_Stromm_(Earth-616)",
+      "name": "Gaunt",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
+      "imageUrl": "/images/mendel-stromm-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 69,
+      "appearances": [
+        69
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Vincente_Fortunato_(Earth-616)",
+      "name": "Don Fortunato",
+      "aliases": [
+        "Don Vincente Fortunato"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+      "imageUrl": "/images/vincente-fortunato-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 70,
+      "appearances": [
+        70,
+        71,
+        73,
+        74,
+        79,
+        80
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "Hammerhead_(Joseph)_(Earth-616)",
+      "name": "Hammerhead",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+      "imageUrl": "/images/hammerhead-joseph-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 70,
+      "appearances": [
+        70,
+        71,
+        80
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Character_Index/J",
+      "name": "Joey",
+      "aliases": [
+        "Johnny"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/J",
+      "identitySource": "url",
+      "firstAppearance": 70,
+      "appearances": [
+        70
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Character_Index/R",
+      "name": "Rocco",
+      "aliases": [
+        "Ron"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/R",
+      "identitySource": "url",
+      "firstAppearance": 70,
+      "appearances": [
+        70,
+        77
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Sentinels",
+      "name": "Sentinels",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Sentinels",
+      "imageUrl": "/images/sentinels.jpg",
+      "identitySource": "url",
+      "firstAppearance": 72,
+      "appearances": [
+        72
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Alonzo_Lincoln_(Earth-616)",
+      "name": "Tombstone",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
+      "imageUrl": "/images/alonzo-lincoln-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 73,
+      "appearances": [
+        73
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Loxias_Crown_(Earth-616)",
+      "name": "Crown",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Loxias_Crown_(Earth-616)",
+      "imageUrl": "/images/loxias-crown-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 76,
+      "appearances": [
+        76,
+        79,
+        80
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "Friends_of_Humanity_(Earth-616)",
+      "name": "Friends of Humanity",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+      "imageUrl": "/images/friends-of-humanity-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 77,
+      "appearances": [
+        77,
+        78,
+        82,
+        83,
+        87
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "Michael_Morbius_(Earth-616)",
+      "name": "Morbius",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+      "imageUrl": "/images/michael-morbius-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 77,
+      "appearances": [
+        77,
+        78
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Character_Index/B",
+      "name": "Bo",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Character_Index/B",
+      "identitySource": "url",
+      "firstAppearance": 78,
+      "appearances": [
+        78
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Wolfgang_von_Strucker_(Earth-616)",
+      "name": "Baron von Strucker",
+      "aliases": [
+        "Baron Wolfgang von Strucker"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Wolfgang_von_Strucker_(Earth-616)",
+      "imageUrl": "/images/wolfgang-von-strucker-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 79,
+      "appearances": [
+        79,
+        80
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Andrea_Janson_(Earth-616)",
+      "name": "Dr. Andrea Janson",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Andrea_Janson_(Earth-616)",
+      "imageUrl": "/images/andrea-janson-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 79,
+      "appearances": [
+        79,
+        80
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Hydra_(Earth-616)/Members",
+      "name": "Lance",
+      "aliases": [
+        "Troy"
+      ],
+      "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)/Members",
+      "identitySource": "url",
+      "firstAppearance": 80,
+      "appearances": [
+        80
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Lancaster_Sneed_(Earth-616)",
+      "name": "Shockwave",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Lancaster_Sneed_(Earth-616)",
+      "imageUrl": "/images/lancaster-sneed-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 81,
+      "appearances": [
+        81
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Douglas_Scott_(Earth-616)",
+      "name": "Razor-Fist",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Douglas_Scott_(Earth-616)",
+      "imageUrl": "/images/douglas-scott-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 81,
+      "appearances": [
+        81
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Donovan_Zane_(Earth-616)",
+      "name": "Donovan Zane",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Donovan_Zane_(Earth-616)",
+      "imageUrl": "/images/donovan-zane-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 82,
+      "appearances": [
+        82,
+        87
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Herman_Schultz_(Earth-616)",
+      "name": "Shocker",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+      "imageUrl": "/images/herman-schultz-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 82,
+      "appearances": [
+        82,
+        83,
+        85,
+        86,
+        87,
+        91
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "Cain_Marko_(Earth-616)",
+      "name": "Juggernaut",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Cain_Marko_(Earth-616)",
+      "imageUrl": "/images/cain-marko-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 84,
+      "appearances": [
+        84
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Peter_Petruski_(Earth-616)",
+      "name": "Trapster",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+      "imageUrl": "/images/peter-petruski-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 86,
+      "appearances": [
+        86,
+        87,
+        91,
+        92
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "Green_Goblin_(Construct)_(Earth-616)",
+      "name": "Green Goblin",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Green_Goblin_(Construct)_(Earth-616)",
+      "imageUrl": "/images/green-goblin-construct-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 88,
+      "appearances": [
+        88,
+        89
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Jensen_Walker_(Earth-616)",
+      "name": "Shotgun",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Jensen_Walker_(Earth-616)",
+      "imageUrl": "/images/jensen-walker-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 89,
+      "appearances": [
+        89
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Blastaar_(Earth-616)",
+      "name": "Blastaar",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Blastaar_(Earth-616)",
+      "imageUrl": "/images/blastaar-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 90,
+      "appearances": [
+        90
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Q-4_(Earth-616)",
+      "name": "Q-4",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Q-4_(Earth-616)",
+      "imageUrl": "/images/q-4-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 92,
+      "appearances": [
+        92
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Waiters_(Earth-616)",
+      "name": "Waiters",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Waiters_(Earth-616)",
+      "imageUrl": "/images/waiters-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 92,
+      "appearances": [
+        92
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Wilson_Fisk_(Earth-616)",
+      "name": "Kingpin",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+      "imageUrl": "/images/wilson-fisk-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 94,
+      "appearances": [
+        94,
+        95
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Ronald_Bloch_(Earth-616)",
+      "name": "Ox",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Ronald_Bloch_(Earth-616)",
+      "imageUrl": "/images/ronald-bloch-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 94,
+      "appearances": [
+        94,
+        95
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "Kingpin%27s_Henchmen",
+      "name": "Rocko",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen",
+      "identitySource": "url",
+      "firstAppearance": 94,
+      "appearances": [
+        94
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Sebastian_Shaw_(Earth-616)",
+      "name": "Sebastian Shaw",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Sebastian_Shaw_(Earth-616)",
+      "imageUrl": "/images/sebastian-shaw-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 94,
+      "appearances": [
+        94
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Silvio_Manfredi_(Earth-616)",
+      "name": "Silvermane",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+      "imageUrl": "/images/silvio-manfredi-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 94,
+      "appearances": [
+        94
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Robert_Hunter_(Earth-616)",
+      "name": "Nitro",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Robert_Hunter_(Earth-616)",
+      "imageUrl": "/images/robert-hunter-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 95,
+      "appearances": [
+        95
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Creep_(Osborn_Agent)_(Earth-616)",
+      "name": "Creep",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Creep_(Osborn_Agent)_(Earth-616)",
+      "imageUrl": "/images/creep-osborn-agent-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 96,
+      "appearances": [
+        96
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "Cabal_of_Scrier_(Earth-616)",
+      "name": "Scriers",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Cabal_of_Scrier_(Earth-616)",
+      "imageUrl": "/images/cabal-of-scrier-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 98,
+      "appearances": [
+        98
+      ],
+      "frequency": 1
+    }
+  ],
+  "timeline": [
+    {
+      "issue": 51,
+      "releaseDate": "August 16, 1994",
+      "villainCount": 6,
+      "villains": [
+        "Judas Traveller",
+        "The Host",
+        "Mr. Nacht",
+        "Medea",
+        "Boone",
+        "Jackal"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)"
+      ],
+      "villainIds": [
+        "Judas_Traveller_(Earth-616)",
+        "Host_(Judas_Traveller)_(Earth-616)",
+        "Walther_Nacht_(Earth-616)",
+        "Medea_Kovack_(Earth-616)",
+        "Morgan_Boone_(Earth-616)",
+        "Miles_Warren_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 1
+    },
+    {
+      "issue": 52,
+      "releaseDate": "September 20, 1994",
+      "villainCount": 2,
+      "villains": [
+        "Venom",
+        "Scream"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Donna_Diego_(Earth-616)"
+      ],
+      "villainIds": [
+        "Edward_Brock_(Earth-616)",
+        "Donna_Diego_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 2
+    },
+    {
+      "issue": 53,
+      "releaseDate": "October 18, 1994",
+      "villainCount": 1,
+      "villains": [
+        "Venom"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)"
+      ],
+      "villainIds": [
+        "Edward_Brock_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 3
+    },
+    {
+      "issue": 54,
+      "releaseDate": "November 15, 1994",
+      "villainCount": 2,
+      "villains": [
+        "Grim Hunter",
+        "Kaine"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)"
+      ],
+      "villainIds": [
+        "Vladimir_Kravinoff_(Earth-616)",
+        "Kaine_Parker_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 4
+    },
+    {
+      "issue": 55,
+      "releaseDate": "December 20, 1994",
+      "villainCount": 2,
+      "villains": [
+        "Grim Hunter",
+        "Kaine"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)"
+      ],
+      "villainIds": [
+        "Vladimir_Kravinoff_(Earth-616)",
+        "Kaine_Parker_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 5
+    },
+    {
+      "issue": 56,
+      "releaseDate": "January 17, 1995",
+      "villainCount": 1,
+      "villains": [
+        "Jackal"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
+      ],
+      "villainIds": [
+        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 6
+    },
+    {
+      "issue": 57,
+      "releaseDate": "February 21, 1995",
+      "villainCount": 11,
+      "villains": [
+        "Judas Traveller",
+        "The Host",
+        "Mr. Nacht",
+        "Medea",
+        "Boone",
+        "Jackal",
+        "Jackal",
+        "Kraven the Hunter",
+        "Doctor Octopus",
+        "Electro",
+        "Green Goblin"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
+      ],
+      "villainIds": [
+        "Judas_Traveller_(Earth-616)",
+        "Host_(Judas_Traveller)_(Earth-616)",
+        "Walther_Nacht_(Earth-616)",
+        "Medea_Kovack_(Earth-616)",
+        "Morgan_Boone_(Earth-616)",
+        "Miles_Warren_(Earth-616)",
+        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+        "Sergei_Kravinoff_(Earth-616)",
+        "Otto_Octavius_(Earth-616)",
+        "Maxwell_Dillon_(Earth-616)",
+        "Norman_Osborn_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 7
+    },
+    {
+      "issue": 58,
+      "releaseDate": "March 21, 1995",
+      "villainCount": 1,
+      "villains": [
+        "Kaine"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)"
+      ],
+      "villainIds": [
+        "Kaine_Parker_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 8
+    },
+    {
+      "issue": 59,
+      "releaseDate": "April 18, 1995",
+      "villainCount": 7,
+      "villains": [
+        "Judas Traveller",
+        "The Host",
+        "Mr. Nacht",
+        "Medea",
+        "Boone",
+        "Scrier",
+        "Chakra"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Charles_Bates_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Anjali_Sridhara_(Earth-616)"
+      ],
+      "villainIds": [
+        "Judas_Traveller_(Earth-616)",
+        "Host_(Judas_Traveller)_(Earth-616)",
+        "Walther_Nacht_(Earth-616)",
+        "Medea_Kovack_(Earth-616)",
+        "Morgan_Boone_(Earth-616)",
+        "Charles_Bates_(Earth-616)",
+        "Anjali_Sridhara_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 9
+    },
+    {
+      "issue": 60,
+      "releaseDate": "May 16, 1995",
+      "villainCount": 2,
+      "villains": [
+        "Kaine",
+        "Stunner"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Angelina_Brancale_(Earth-616)"
+      ],
+      "villainIds": [
+        "Kaine_Parker_(Earth-616)",
+        "Angelina_Brancale_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 10
+    },
+    {
+      "issue": 61,
+      "releaseDate": "June 27, 1995",
+      "villainCount": 2,
+      "villains": [
+        "Jackal",
+        "Spidercide"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Spidercide_(Earth-616)"
+      ],
+      "villainIds": [
+        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+        "Spidercide_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 11
+    },
+    {
+      "issue": 62,
+      "releaseDate": "July 27, 1995",
+      "villainCount": 2,
+      "villains": [
+        "Doctor Octopus",
+        "Vulture"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
+      ],
+      "villainIds": [
+        "Carolyn_Trainer_(Earth-616)",
+        "Adrian_Toomes_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 12
+    },
+    {
+      "issue": 63,
+      "releaseDate": "August 31, 1995",
+      "villainCount": 1,
+      "villains": [
+        "Doctor Octopus"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)"
+      ],
+      "villainIds": [
+        "Carolyn_Trainer_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 13
+    },
+    {
+      "issue": 64,
+      "releaseDate": "November 24, 1995",
+      "villainCount": 2,
+      "villains": [
+        "El Toro Negro",
+        "Mysterio"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Sergio_Torres_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
+      ],
+      "villainIds": [
+        "Sergio_Torres_(Earth-616)",
+        "Quentin_Beck_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 14
+    },
+    {
+      "issue": 65,
+      "releaseDate": "December 21, 1995",
+      "villainCount": 1,
+      "villains": [
+        "Mysterio"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
+      ],
+      "villainIds": [
+        "Quentin_Beck_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 15
+    },
+    {
+      "issue": 66,
+      "releaseDate": "January 18, 1996",
+      "villainCount": 3,
+      "villains": [
+        "Great Game",
+        "Muse",
+        "James Johnsmeyer"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Great_Game_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Shannon_Fitzpatrick_(Earth-616)",
+        "https://marvel.fandom.com/wiki/James_Johnsmeyer_(Earth-616)"
+      ],
+      "villainIds": [
+        "Great_Game_(Earth-616)",
+        "Shannon_Fitzpatrick_(Earth-616)",
+        "James_Johnsmeyer_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 16
+    },
+    {
+      "issue": 67,
+      "releaseDate": "February 22, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Carnage Symbiote"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)"
+      ],
+      "villainIds": [
+        "Carnage_(Symbiote)_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 17
+    },
+    {
+      "issue": 68,
+      "releaseDate": "March 21, 1996",
+      "villainCount": 6,
+      "villains": [
+        "Cell-12",
+        "Hobgoblin",
+        "Bramer",
+        "Nardi",
+        "Andros",
+        "Lasher"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Cell-12_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+        "https://marvel.fandom.com/wiki/Bramer_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Nardi_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Andros_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Lasher_(Cell-12)_(Earth-616)"
+      ],
+      "villainIds": [
+        "Cell-12_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
+        "Bramer_(Earth-616)",
+        "Nardi_(Earth-616)",
+        "Andros_(Earth-616)",
+        "Lasher_(Cell-12)_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 18
+    },
+    {
+      "issue": 69,
+      "releaseDate": "April 17, 1996",
+      "villainCount": 7,
+      "villains": [
+        "Cell-12",
+        "Hobgoblin",
+        "Bramer",
+        "Nardi",
+        "Andros",
+        "Lasher",
+        "Gaunt"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Cell-12_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+        "https://marvel.fandom.com/wiki/Bramer_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Nardi_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Andros_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Lasher_(Cell-12)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)"
+      ],
+      "villainIds": [
+        "Cell-12_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
+        "Bramer_(Earth-616)",
+        "Nardi_(Earth-616)",
+        "Andros_(Earth-616)",
+        "Lasher_(Cell-12)_(Earth-616)",
+        "Mendel_Stromm_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 19
+    },
+    {
+      "issue": 70,
+      "releaseDate": "May 22, 1996",
+      "villainCount": 4,
+      "villains": [
+        "Don Fortunato",
+        "Hammerhead",
+        "Joey",
+        "Rocco"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Character_Index/J",
+        "https://marvel.fandom.com/wiki/Character_Index/R"
+      ],
+      "villainIds": [
+        "Vincente_Fortunato_(Earth-616)",
+        "Hammerhead_(Joseph)_(Earth-616)",
+        "Character_Index/J",
+        "Character_Index/R"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 20
+    },
+    {
+      "issue": 71,
+      "releaseDate": "June 19, 1996",
+      "villainCount": 2,
+      "villains": [
+        "Don Fortunato",
+        "Hammerhead"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)"
+      ],
+      "villainIds": [
+        "Vincente_Fortunato_(Earth-616)",
+        "Hammerhead_(Joseph)_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 21
+    },
+    {
+      "issue": 72,
+      "releaseDate": "July 17, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Sentinels"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Sentinels"
+      ],
+      "villainIds": [
+        "Sentinels"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 22
+    },
+    {
+      "issue": 73,
+      "releaseDate": "August 21, 1996",
+      "villainCount": 2,
+      "villains": [
+        "Don Fortunato",
+        "Tombstone"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)"
+      ],
+      "villainIds": [
+        "Vincente_Fortunato_(Earth-616)",
+        "Alonzo_Lincoln_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 23,
+      "groups": [
+        {
+          "name": "Hydra",
+          "members": [
+            "Don Fortunato",
+            "Tombstone"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 74,
+      "releaseDate": "September 18, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Don Fortunato"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)"
+      ],
+      "villainIds": [
+        "Vincente_Fortunato_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 24,
+      "groups": [
+        {
+          "name": "Hydra",
+          "members": [
+            "Don Fortunato"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 75,
+      "releaseDate": "October 16, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
+      ],
+      "villainIds": [
+        "Norman_Osborn_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 25
+    },
+    {
+      "issue": 76,
+      "releaseDate": "November 20, 1996",
+      "villainCount": 1,
+      "villains": [
+        "Crown"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Loxias_Crown_(Earth-616)"
+      ],
+      "villainIds": [
+        "Loxias_Crown_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 26
+    },
+    {
+      "issue": 77,
+      "releaseDate": "December 18, 1996",
+      "villainCount": 3,
+      "villains": [
+        "Rocco",
+        "Friends of Humanity",
+        "Morbius"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Character_Index/R",
+        "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)"
+      ],
+      "villainIds": [
+        "Character_Index/R",
+        "Friends_of_Humanity_(Earth-616)",
+        "Michael_Morbius_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 27
+    },
+    {
+      "issue": 78,
+      "releaseDate": "January 22, 1997",
+      "villainCount": 3,
+      "villains": [
+        "Friends of Humanity",
+        "Morbius",
+        "Bo"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Character_Index/B"
+      ],
+      "villainIds": [
+        "Friends_of_Humanity_(Earth-616)",
+        "Michael_Morbius_(Earth-616)",
+        "Character_Index/B"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 28
+    },
+    {
+      "issue": 79,
+      "releaseDate": "February 19, 1997",
+      "villainCount": 4,
+      "villains": [
+        "Don Fortunato",
+        "Crown",
+        "Baron von Strucker",
+        "Dr. Andrea Janson"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Loxias_Crown_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Wolfgang_von_Strucker_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Andrea_Janson_(Earth-616)"
+      ],
+      "villainIds": [
+        "Vincente_Fortunato_(Earth-616)",
+        "Loxias_Crown_(Earth-616)",
+        "Wolfgang_von_Strucker_(Earth-616)",
+        "Andrea_Janson_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 29,
+      "groups": [
+        {
+          "name": "Hydra",
+          "members": [
+            "Don Fortunato",
+            "Crown",
+            "Baron von Strucker",
+            "Dr. Andrea Janson"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 80,
+      "releaseDate": "March 19, 1997",
+      "villainCount": 6,
+      "villains": [
+        "Don Fortunato",
+        "Hammerhead",
+        "Crown",
+        "Baron von Strucker",
+        "Dr. Andrea Janson",
+        "Lance"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Vincente_Fortunato_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Loxias_Crown_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Wolfgang_von_Strucker_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Andrea_Janson_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Hydra_(Earth-616)/Members"
+      ],
+      "villainIds": [
+        "Vincente_Fortunato_(Earth-616)",
+        "Hammerhead_(Joseph)_(Earth-616)",
+        "Loxias_Crown_(Earth-616)",
+        "Wolfgang_von_Strucker_(Earth-616)",
+        "Andrea_Janson_(Earth-616)",
+        "Hydra_(Earth-616)/Members"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 30,
+      "groups": [
+        {
+          "name": "Hydra",
+          "members": [
+            "Don Fortunato",
+            "Hammerhead",
+            "Crown",
+            "Baron von Strucker",
+            "Dr. Andrea Janson",
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 81,
+      "releaseDate": "April 16, 1997",
+      "villainCount": 2,
+      "villains": [
+        "Shockwave",
+        "Razor-Fist"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Lancaster_Sneed_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Douglas_Scott_(Earth-616)"
+      ],
+      "villainIds": [
+        "Lancaster_Sneed_(Earth-616)",
+        "Douglas_Scott_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 31
+    },
+    {
+      "issue": 82,
+      "releaseDate": "June 18, 1997",
+      "villainCount": 3,
+      "villains": [
+        "Friends of Humanity",
+        "Donovan Zane",
+        "Shocker"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Donovan_Zane_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)"
+      ],
+      "villainIds": [
+        "Friends_of_Humanity_(Earth-616)",
+        "Donovan_Zane_(Earth-616)",
+        "Herman_Schultz_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 32
+    },
+    {
+      "issue": 83,
+      "releaseDate": "July 16, 1997",
+      "villainCount": 2,
+      "villains": [
+        "Friends of Humanity",
+        "Shocker"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)"
+      ],
+      "villainIds": [
+        "Friends_of_Humanity_(Earth-616)",
+        "Herman_Schultz_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 33
+    },
+    {
+      "issue": 84,
+      "releaseDate": "August 20, 1997",
+      "villainCount": 1,
+      "villains": [
+        "Juggernaut"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Cain_Marko_(Earth-616)"
+      ],
+      "villainIds": [
+        "Cain_Marko_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 34
+    },
+    {
+      "issue": 85,
+      "releaseDate": "September 17, 1997",
+      "villainCount": 1,
+      "villains": [
+        "Shocker"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)"
+      ],
+      "villainIds": [
+        "Herman_Schultz_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 35
+    },
+    {
+      "issue": 86,
+      "releaseDate": "October 15, 1997",
+      "villainCount": 2,
+      "villains": [
+        "Shocker",
+        "Trapster"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)"
+      ],
+      "villainIds": [
+        "Herman_Schultz_(Earth-616)",
+        "Peter_Petruski_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 36
+    },
+    {
+      "issue": 87,
+      "releaseDate": "November 26, 1997",
+      "villainCount": 4,
+      "villains": [
+        "Friends of Humanity",
+        "Donovan Zane",
+        "Shocker",
+        "Trapster"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Donovan_Zane_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)"
+      ],
+      "villainIds": [
+        "Friends_of_Humanity_(Earth-616)",
+        "Donovan_Zane_(Earth-616)",
+        "Herman_Schultz_(Earth-616)",
+        "Peter_Petruski_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 37
+    },
+    {
+      "issue": 88,
+      "releaseDate": "December 17, 1997",
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Green Goblin"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Green_Goblin_(Construct)_(Earth-616)"
+      ],
+      "villainIds": [
+        "Norman_Osborn_(Earth-616)",
+        "Green_Goblin_(Construct)_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 38
+    },
+    {
+      "issue": 89,
+      "releaseDate": "January 21, 1998",
+      "villainCount": 3,
+      "villains": [
+        "Green Goblin",
+        "Green Goblin",
+        "Shotgun"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Green_Goblin_(Construct)_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Jensen_Walker_(Earth-616)"
+      ],
+      "villainIds": [
+        "Norman_Osborn_(Earth-616)",
+        "Green_Goblin_(Construct)_(Earth-616)",
+        "Jensen_Walker_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 39
+    },
+    {
+      "issue": 90,
+      "releaseDate": "February 18, 1998",
+      "villainCount": 1,
+      "villains": [
+        "Blastaar"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Blastaar_(Earth-616)"
+      ],
+      "villainIds": [
+        "Blastaar_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 40
+    },
+    {
+      "issue": 91,
+      "releaseDate": "March 18, 1998",
+      "villainCount": 2,
+      "villains": [
+        "Shocker",
+        "Trapster"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)"
+      ],
+      "villainIds": [
+        "Herman_Schultz_(Earth-616)",
+        "Peter_Petruski_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 41
+    },
+    {
+      "issue": 92,
+      "releaseDate": "April 15, 1998",
+      "villainCount": 4,
+      "villains": [
+        "Green Goblin",
+        "Trapster",
+        "Q-4",
+        "Waiters"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Q-4_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Waiters_(Earth-616)"
+      ],
+      "villainIds": [
+        "Norman_Osborn_(Earth-616)",
+        "Peter_Petruski_(Earth-616)",
+        "Q-4_(Earth-616)",
+        "Waiters_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 42
+    },
+    {
+      "issue": 93,
+      "releaseDate": "May 20, 1998",
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 43
+    },
+    {
+      "issue": 94,
+      "releaseDate": "June 17, 1998",
+      "villainCount": 5,
+      "villains": [
+        "Kingpin",
+        "Ox",
+        "Rocko",
+        "Sebastian Shaw",
+        "Silvermane"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Ronald_Bloch_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen",
+        "https://marvel.fandom.com/wiki/Sebastian_Shaw_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)"
+      ],
+      "villainIds": [
+        "Wilson_Fisk_(Earth-616)",
+        "Ronald_Bloch_(Earth-616)",
+        "Kingpin%27s_Henchmen",
+        "Sebastian_Shaw_(Earth-616)",
+        "Silvio_Manfredi_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 44,
+      "groups": [
+        {
+          "name": "Kingpin's Henchmen",
+          "members": [
+            "Kingpin",
+            "Ox",
+            "Rocko",
+            "Sebastian Shaw",
+            "Silvermane"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 95,
+      "releaseDate": "July 15, 1998",
+      "villainCount": 4,
+      "villains": [
+        "Green Goblin",
+        "Kingpin",
+        "Ox",
+        "Nitro"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Ronald_Bloch_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Robert_Hunter_(Earth-616)"
+      ],
+      "villainIds": [
+        "Norman_Osborn_(Earth-616)",
+        "Wilson_Fisk_(Earth-616)",
+        "Ronald_Bloch_(Earth-616)",
+        "Robert_Hunter_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 45
+    },
+    {
+      "issue": 96,
+      "releaseDate": "August 19, 1998",
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Creep"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Creep_(Osborn_Agent)_(Earth-616)"
+      ],
+      "villainIds": [
+        "Norman_Osborn_(Earth-616)",
+        "Creep_(Osborn_Agent)_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 46
+    },
+    {
+      "issue": 97,
+      "releaseDate": "September 16, 1998",
+      "villainCount": 1,
+      "villains": [
+        "Green Goblin"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
+      ],
+      "villainIds": [
+        "Norman_Osborn_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 47
+    },
+    {
+      "issue": 98,
+      "releaseDate": "September 30, 1998",
+      "villainCount": 2,
+      "villains": [
+        "Green Goblin",
+        "Scriers"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Cabal_of_Scrier_(Earth-616)"
+      ],
+      "villainIds": [
+        "Norman_Osborn_(Earth-616)",
+        "Cabal_of_Scrier_(Earth-616)"
+      ],
+      "series": "Spider-Man Vol 1",
+      "chronologicalPosition": 48
+    }
+  ],
+  "groups": [
+    {
+      "id": "Hydra_(Earth-616)",
+      "name": "Hydra",
+      "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)",
+      "appearances": [
+        73,
+        74,
+        79,
+        80
+      ],
+      "frequency": 4
+    },
+    {
+      "id": "Kingpin%27s_Henchmen",
+      "name": "Kingpin's Henchmen",
+      "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen",
+      "appearances": [
+        94
+      ],
+      "frequency": 1
+    }
+  ]
+}

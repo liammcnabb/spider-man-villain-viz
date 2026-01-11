@@ -8,6 +8,7 @@
 import * as fs from 'fs';
 import type { ProcessedData, D3DataPoint, D3Config } from '../types';
 import type { SerializedProcessedData } from '../types';
+import { getSeriesColor } from '../utils/seriesName';
 
 /**
  * Tier 1 Color Palette for Villain Nodes
@@ -221,12 +222,17 @@ export class D3ConfigBuilder {
       }
     }
 
-    // Series color map for UI visualization
-    const seriesColorMap: Record<string, string> = {
-      'Amazing Spider-Man Vol 1': '#e74c3c',
-      'Amazing Spider-Man Annual Vol 1': '#9b59b6',
-      'Untold Tales of Spider-Man Vol 1': '#3498db'
-    };
+    // Series color map for UI visualization - extract unique series from timeline data
+    const uniqueSeries = new Set<string>();
+    for (const entry of d3Data) {
+      if (entry.series) {
+        uniqueSeries.add(entry.series);
+      }
+    }
+    const seriesColorMap: Record<string, string> = {};
+    for (const series of uniqueSeries) {
+      seriesColorMap[series] = getSeriesColor(series);
+    }
 
     // Calculate max villain count for y-scale
     const maxVillainCount = Math.max(...d3Data.map(d => d.villainCount || 0), 1);

@@ -1,0 +1,410 @@
+{
+  "series": "Spider-Man Unlimited Vol 1",
+  "baseUrl": "https://marvel.fandom.com/wiki/Spider-Man_Unlimited_Vol_1_{issue}",
+  "issues": [
+    {
+      "issueNumber": 1,
+      "title": "Spider-Man Unlimited #1",
+      "releaseDate": "March 30, 1993",
+      "antagonists": [
+        {
+          "name": "Carnage (Cletus Kasady)",
+          "url": "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
+          "imageUrl": "/images/cletus-kasady-earth-616.jpg"
+        },
+        {
+          "name": "Carnage Symbiote",
+          "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/carnage-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Shriek",
+          "url": "https://marvel.fandom.com/wiki/Frances_Barrison_(Earth-616)",
+          "imageUrl": "/images/frances-barrison-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        },
+        {
+          "name": "Scorpion (MacDonald Gargan)",
+          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
+        },
+        {
+          "name": "Burglar",
+          "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
+          "imageUrl": "/images/carradine-earth-616.jpg"
+        },
+        {
+          "name": "Gerard Anders",
+          "url": "https://marvel.fandom.com/wiki/Gerard_Anders_(Earth-616)",
+          "imageUrl": "/images/gerard-anders-earth-616.jpg"
+        },
+        {
+          "name": "Steven Polk",
+          "url": "https://marvel.fandom.com/wiki/Steven_Polk_(Earth-616)",
+          "imageUrl": "/images/steven-polk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 2,
+      "title": "Spider-Man Unlimited #2",
+      "releaseDate": "June 29, 1993",
+      "antagonists": [
+        {
+          "name": "Carnage (Cletus Kasady)",
+          "url": "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
+          "imageUrl": "/images/cletus-kasady-earth-616.jpg"
+        },
+        {
+          "name": "Megawatt (Dirk Leydon)",
+          "url": "https://marvel.fandom.com/wiki/Dirk_Leydon_(Earth-616)",
+          "imageUrl": "/images/dirk-leydon-earth-616.jpg"
+        },
+        {
+          "name": "Jonas Harrow",
+          "url": "https://marvel.fandom.com/wiki/Jonas_Harrow_(Earth-616)",
+          "imageUrl": "/images/jonas-harrow-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 3,
+      "title": "Spider-Man Unlimited #3",
+      "releaseDate": "September 28, 1993",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Corona",
+          "url": "https://marvel.fandom.com/wiki/Dagny_Forrester_(Earth-616)",
+          "imageUrl": "/images/dagny-forrester-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 4,
+      "title": "Spider-Man Unlimited #4",
+      "releaseDate": "December 28, 1993",
+      "antagonists": [
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Nico",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/N#Nico"
+        },
+        {
+          "name": "Frankie",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/F#Frankie"
+        },
+        {
+          "name": "Stone",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Stone"
+        },
+        {
+          "name": "Rhino (Aleksei Sytsevich)",
+          "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
+          "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 5,
+      "title": "Spider-Man Unlimited #5",
+      "releaseDate": "March 29, 1994",
+      "antagonists": [
+        {
+          "name": "The Fox (Reynard Slinker)",
+          "url": "https://marvel.fandom.com/wiki/Reynard_Slinker_(Earth-616)",
+          "imageUrl": "/images/reynard-slinker-earth-616.jpg"
+        },
+        {
+          "name": "Mr. Naguro",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/N#Naguro"
+        },
+        {
+          "name": "Tony MacDonald",
+          "url": "https://marvel.fandom.com/wiki/Tony_MacDonald_(Earth-616)",
+          "imageUrl": "/images/tony-macdonald-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 6,
+      "title": "Spider-Man Unlimited #6",
+      "releaseDate": "June 28, 1994",
+      "antagonists": [
+        {
+          "name": "Hydro-Man (Morris Bench)",
+          "url": "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)",
+          "imageUrl": "/images/morris-bench-earth-616.jpg"
+        },
+        {
+          "name": "Nautilus (Gabriel Mason)",
+          "url": "https://marvel.fandom.com/wiki/Gabriel_Mason_(Earth-616)",
+          "imageUrl": "/images/gabriel-mason-earth-616.jpg"
+        },
+        {
+          "name": "Razorwire (Lee Gibbons)",
+          "url": "https://marvel.fandom.com/wiki/Lee_Gibbons_(Earth-616)",
+          "imageUrl": "/images/lee-gibbons-earth-616.jpg"
+        },
+        {
+          "name": "Tony Marcheyk",
+          "url": "https://marvel.fandom.com/wiki/Tony_Marcheyk_(Earth-616)",
+          "imageUrl": "/images/tony-marcheyk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 7,
+      "title": "Spider-Man Unlimited #7",
+      "releaseDate": "September 27, 1994",
+      "antagonists": [
+        {
+          "name": "James Kapoztas",
+          "url": "https://marvel.fandom.com/wiki/James_Kapoztas_(Earth-616)",
+          "imageUrl": "/images/james-kapoztas-earth-616.jpg"
+        },
+        {
+          "name": "Boomerang (Fred Myers)",
+          "url": "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)",
+          "imageUrl": "/images/frederick-myers-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 8,
+      "title": "Spider-Man Unlimited #8",
+      "releaseDate": "December 27, 1994",
+      "antagonists": [
+        {
+          "name": "Terror Unlimited",
+          "url": "https://marvel.fandom.com/wiki/Terror_Unlimited_(Earth-616)",
+          "imageUrl": "/images/terror-unlimited-earth-616.jpg"
+        },
+        {
+          "name": "David",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/D#David"
+        },
+        {
+          "name": "Don",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/D#Don"
+        },
+        {
+          "name": "José",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jose"
+        }
+      ]
+    },
+    {
+      "issueNumber": 9,
+      "title": "Spider-Man Unlimited #9",
+      "releaseDate": "March 28, 1995",
+      "antagonists": [
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        },
+        {
+          "name": "Sinister Seven",
+          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+          "imageUrl": "/images/sinister-six-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Beetle",
+          "url": "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
+          "imageUrl": "/images/abner-jenkins-earth-616.jpg"
+        },
+        {
+          "name": "Scorpia",
+          "url": "https://marvel.fandom.com/wiki/Elaine_Coll_(Earth-616)",
+          "imageUrl": "/images/elaine-coll-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Electro",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Shocker",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        },
+        {
+          "name": "Vulture",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 10,
+      "title": "Spider-Man Unlimited #10",
+      "releaseDate": "July 27, 1995",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Mr. Whitten",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/W#Whitten"
+        }
+      ]
+    },
+    {
+      "issueNumber": 11,
+      "title": "Spider-Man Unlimited #11",
+      "releaseDate": "December 28, 1995",
+      "antagonists": [
+        {
+          "name": "Skull-Jacket",
+          "url": "https://marvel.fandom.com/wiki/Skull-Jacket_(Earth-616)",
+          "imageUrl": "/images/skull-jacket-earth-616.jpg"
+        },
+        {
+          "name": "Russian mob",
+          "url": "https://marvel.fandom.com/wiki/Molina_(Earth-616)",
+          "imageUrl": "/images/molina-earth-616.jpg"
+        },
+        {
+          "name": "Valeri Kasatanov",
+          "url": "https://marvel.fandom.com/wiki/Valeri_Kasatanov_(Earth-616)",
+          "imageUrl": "/images/valeri-kasatanov-earth-616.jpg"
+        },
+        {
+          "name": "Joe",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Joe"
+        }
+      ]
+    },
+    {
+      "issueNumber": 12,
+      "title": "Spider-Man Unlimited #12",
+      "releaseDate": "March 27, 1996",
+      "antagonists": [
+        {
+          "name": "Beetle (Abe Jenkins)",
+          "url": "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
+          "imageUrl": "/images/abner-jenkins-earth-616.jpg"
+        },
+        {
+          "name": "Shocker (Herman Schultz)",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        },
+        {
+          "name": "Jack O'Lantern (Steve Levins)",
+          "url": "https://marvel.fandom.com/wiki/Steven_Levins_(Earth-616)",
+          "imageUrl": "/images/steven-levins-earth-616.jpg"
+        },
+        {
+          "name": "Scorpia (Elaine Coll)",
+          "url": "https://marvel.fandom.com/wiki/Elaine_Coll_(Earth-616)",
+          "imageUrl": "/images/elaine-coll-earth-616.jpg"
+        },
+        {
+          "name": "Boomerang (Fred Myers)",
+          "url": "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)",
+          "imageUrl": "/images/frederick-myers-earth-616.jpg"
+        },
+        {
+          "name": "The Pro",
+          "url": "https://marvel.fandom.com/wiki/Pro_(Earth-616)",
+          "imageUrl": "/images/pro-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 13,
+      "title": "Spider-Man Unlimited #13",
+      "releaseDate": "June 26, 1996",
+      "antagonists": [
+        {
+          "name": "Rand Corporation",
+          "url": "https://marvel.fandom.com/wiki/Rand_Corporation_(Earth-616)",
+          "imageUrl": "/images/rand-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Jason Quartermaster",
+          "url": "https://marvel.fandom.com/wiki/Jason_Quartermaster_(Earth-616)",
+          "imageUrl": "/images/jason-quartermaster-earth-616.jpg"
+        },
+        {
+          "name": "Scorpion (Mac Gargan)",
+          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
+        },
+        {
+          "name": "Steel Serpent (Davos)",
+          "url": "https://marvel.fandom.com/wiki/Davos_(Earth-616)",
+          "imageUrl": "/images/davos-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 14,
+      "title": "Spider-Man Unlimited #14",
+      "releaseDate": "October 9, 1996",
+      "antagonists": [
+        {
+          "name": "Great Game",
+          "url": "https://marvel.fandom.com/wiki/Great_Game_(Earth-616)",
+          "imageUrl": "/images/great-game-earth-616.jpg"
+        },
+        {
+          "name": "James Johnsmeyer",
+          "url": "https://marvel.fandom.com/wiki/James_Johnsmeyer_(Earth-616)",
+          "imageUrl": "/images/james-johnsmeyer-earth-616.jpg"
+        },
+        {
+          "name": "Justin Hammer",
+          "url": "https://marvel.fandom.com/wiki/Justin_Hammer_(Earth-616)",
+          "imageUrl": "/images/justin-hammer-earth-616.jpg"
+        },
+        {
+          "name": "Polestar (Tom Duffy)",
+          "url": "https://marvel.fandom.com/wiki/Thomas_Duffy_(Earth-616)",
+          "imageUrl": "/images/thomas-duffy-earth-616.jpg"
+        },
+        {
+          "name": "El Toro Negro (Sergio Torres)",
+          "url": "https://marvel.fandom.com/wiki/Sergio_Torres_(Earth-616)",
+          "imageUrl": "/images/sergio-torres-earth-616.jpg"
+        },
+        {
+          "name": "Joystick (Janice Yanizeski)",
+          "url": "https://marvel.fandom.com/wiki/Janice_Yanizeski_(Earth-616)",
+          "imageUrl": "/images/janice-yanizeski-earth-616.jpg"
+        },
+        {
+          "name": "Chance (Nick Powell)",
+          "url": "https://marvel.fandom.com/wiki/Nicholas_Powell_(Earth-616)",
+          "imageUrl": "/images/nicholas-powell-earth-616.jpg"
+        }
+      ]
+    }
+  ]
+}

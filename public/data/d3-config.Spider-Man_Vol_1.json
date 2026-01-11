@@ -1,0 +1,651 @@
+{
+  "data": [
+    {
+      "issueNumber": 51,
+      "chronologicalPosition": 1,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 16, 1994",
+      "villainsInIssue": [
+        "Dr. Judas Traveller",
+        "The Host",
+        "Mr. Nacht",
+        "Medea",
+        "Boone",
+        "Jackal"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 52,
+      "chronologicalPosition": 2,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 20, 1994",
+      "villainsInIssue": [
+        "Venom",
+        "Scream"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 53,
+      "chronologicalPosition": 3,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "October 18, 1994",
+      "villainsInIssue": [
+        "Venom"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 54,
+      "chronologicalPosition": 4,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "November 15, 1994",
+      "villainsInIssue": [
+        "Grim Hunter",
+        "Kaine"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 55,
+      "chronologicalPosition": 5,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "December 20, 1994",
+      "villainsInIssue": [
+        "Grim Hunter",
+        "Kaine"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 56,
+      "chronologicalPosition": 6,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "January 17, 1995",
+      "villainsInIssue": [
+        "Jackal"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 57,
+      "chronologicalPosition": 7,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "February 21, 1995",
+      "villainsInIssue": [
+        "Dr. Judas Traveller",
+        "The Host",
+        "Mr. Nacht",
+        "Medea",
+        "Boone",
+        "Jackal",
+        "Jackal",
+        "Kraven the Hunter",
+        "Doctor Octopus",
+        "Electro",
+        "Green Goblin"
+      ],
+      "villainCount": 11
+    },
+    {
+      "issueNumber": 58,
+      "chronologicalPosition": 8,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "March 21, 1995",
+      "villainsInIssue": [
+        "Kaine"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 59,
+      "chronologicalPosition": 9,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 18, 1995",
+      "villainsInIssue": [
+        "Dr. Judas Traveller",
+        "The Host",
+        "Mr. Nacht",
+        "Medea",
+        "Boone",
+        "Scrier",
+        "Chakra"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 60,
+      "chronologicalPosition": 10,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "May 16, 1995",
+      "villainsInIssue": [
+        "Kaine",
+        "Stunner"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 61,
+      "chronologicalPosition": 11,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 27, 1995",
+      "villainsInIssue": [
+        "Jackal",
+        "Spidercide"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 62,
+      "chronologicalPosition": 12,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 27, 1995",
+      "villainsInIssue": [
+        "Doctor Octopus",
+        "Vulture"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 63,
+      "chronologicalPosition": 13,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 31, 1995",
+      "villainsInIssue": [
+        "Doctor Octopus"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 64,
+      "chronologicalPosition": 14,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "November 24, 1995",
+      "villainsInIssue": [
+        "El Toro Negro",
+        "Mysterio"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 65,
+      "chronologicalPosition": 15,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "December 21, 1995",
+      "villainsInIssue": [
+        "Mysterio"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 66,
+      "chronologicalPosition": 16,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "January 18, 1996",
+      "villainsInIssue": [
+        "Great Game",
+        "Muse",
+        "James Johnsmeyer"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 67,
+      "chronologicalPosition": 17,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "February 22, 1996",
+      "villainsInIssue": [
+        "Carnage Symbiote"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 68,
+      "chronologicalPosition": 18,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "March 21, 1996",
+      "villainsInIssue": [
+        "Cell-12",
+        "Hobgoblin",
+        "Bramer",
+        "Nardi",
+        "Andros",
+        "Lasher"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 69,
+      "chronologicalPosition": 19,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 17, 1996",
+      "villainsInIssue": [
+        "Cell-12",
+        "Hobgoblin",
+        "Bramer",
+        "Nardi",
+        "Andros",
+        "Lasher",
+        "Gaunt"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 70,
+      "chronologicalPosition": 20,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "May 22, 1996",
+      "villainsInIssue": [
+        "Don Fortunato",
+        "Hammerhead",
+        "Joey",
+        "Rocco"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 71,
+      "chronologicalPosition": 21,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 19, 1996",
+      "villainsInIssue": [
+        "Don Fortunato",
+        "Hammerhead"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 72,
+      "chronologicalPosition": 22,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 17, 1996",
+      "villainsInIssue": [
+        "Sentinels"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 73,
+      "chronologicalPosition": 23,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 21, 1996",
+      "villainsInIssue": [
+        "Don Fortunato",
+        "Tombstone"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 74,
+      "chronologicalPosition": 24,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 18, 1996",
+      "villainsInIssue": [
+        "Don Fortunato"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 75,
+      "chronologicalPosition": 25,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "October 16, 1996",
+      "villainsInIssue": [
+        "Green Goblin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 76,
+      "chronologicalPosition": 26,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "November 20, 1996",
+      "villainsInIssue": [
+        "Crown"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 77,
+      "chronologicalPosition": 27,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "December 18, 1996",
+      "villainsInIssue": [
+        "Rocco",
+        "Friends of Humanity",
+        "Morbius"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 78,
+      "chronologicalPosition": 28,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "January 22, 1997",
+      "villainsInIssue": [
+        "Friends of Humanity",
+        "Morbius",
+        "Bo"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 79,
+      "chronologicalPosition": 29,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "February 19, 1997",
+      "villainsInIssue": [
+        "Don Fortunato",
+        "Crown",
+        "Baron von Strucker",
+        "Dr. Andrea Janson"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 80,
+      "chronologicalPosition": 30,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "March 19, 1997",
+      "villainsInIssue": [
+        "Don Fortunato",
+        "Hammerhead",
+        "Crown",
+        "Baron von Strucker",
+        "Dr. Andrea Janson",
+        "Lance"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 81,
+      "chronologicalPosition": 31,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 16, 1997",
+      "villainsInIssue": [
+        "Shockwave",
+        "Razor-Fist"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 82,
+      "chronologicalPosition": 32,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 18, 1997",
+      "villainsInIssue": [
+        "Friends of Humanity",
+        "Donovan Zane",
+        "Shocker"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 83,
+      "chronologicalPosition": 33,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 16, 1997",
+      "villainsInIssue": [
+        "Friends of Humanity",
+        "Shocker"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 84,
+      "chronologicalPosition": 34,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 20, 1997",
+      "villainsInIssue": [
+        "Juggernaut"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 85,
+      "chronologicalPosition": 35,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 17, 1997",
+      "villainsInIssue": [
+        "Shocker"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 86,
+      "chronologicalPosition": 36,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "October 15, 1997",
+      "villainsInIssue": [
+        "Shocker",
+        "Trapster"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 87,
+      "chronologicalPosition": 37,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "November 26, 1997",
+      "villainsInIssue": [
+        "Friends of Humanity",
+        "Donovan Zane",
+        "Shocker",
+        "Trapster"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 88,
+      "chronologicalPosition": 38,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "December 17, 1997",
+      "villainsInIssue": [
+        "Green Goblin",
+        "Green Goblin"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 89,
+      "chronologicalPosition": 39,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "January 21, 1998",
+      "villainsInIssue": [
+        "Green Goblin",
+        "Green Goblin",
+        "Shotgun"
+      ],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 90,
+      "chronologicalPosition": 40,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "February 18, 1998",
+      "villainsInIssue": [
+        "Blastaar"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 91,
+      "chronologicalPosition": 41,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "March 18, 1998",
+      "villainsInIssue": [
+        "Shocker",
+        "Trapster"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 92,
+      "chronologicalPosition": 42,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 15, 1998",
+      "villainsInIssue": [
+        "Green Goblin",
+        "Trapster",
+        "Q-4",
+        "Waiters"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 93,
+      "chronologicalPosition": 43,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "May 20, 1998",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 94,
+      "chronologicalPosition": 44,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 17, 1998",
+      "villainsInIssue": [
+        "Kingpin",
+        "Ox",
+        "Rocko",
+        "Sebastian Shaw",
+        "Silvermane"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 95,
+      "chronologicalPosition": 45,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 15, 1998",
+      "villainsInIssue": [
+        "Green Goblin",
+        "Kingpin",
+        "Ox",
+        "Nitro"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 96,
+      "chronologicalPosition": 46,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 19, 1998",
+      "villainsInIssue": [
+        "Green Goblin",
+        "Creep"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 97,
+      "chronologicalPosition": 47,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 16, 1998",
+      "villainsInIssue": [
+        "Green Goblin"
+      ],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 98,
+      "chronologicalPosition": 48,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 30, 1998",
+      "villainsInIssue": [
+        "Green Goblin",
+        "Scriers"
+      ],
+      "villainCount": 2
+    }
+  ],
+  "scales": {
+    "x": {
+      "domain": [
+        1,
+        48
+      ],
+      "range": [
+        60,
+        1180
+      ]
+    },
+    "y": {
+      "domain": [
+        0,
+        11
+      ],
+      "range": [
+        570,
+        20
+      ]
+    }
+  },
+  "colors": {
+    "Dr. Judas Traveller": "#fab1a0",
+    "The Host": "#e84393",
+    "Mr. Nacht": "#f39c12",
+    "Medea": "#00b894",
+    "Boone": "#c0392b",
+    "Jackal": "#34495e",
+    "Venom": "#f9ca24",
+    "Scream": "#636e72",
+    "Grim Hunter": "#3498db",
+    "Kaine": "#6c5ce7",
+    "Kraven the Hunter": "#6c5ce7",
+    "Doctor Octopus": "#ff6b6b",
+    "Electro": "#74b9ff",
+    "Green Goblin": "#45b7d1",
+    "Scrier": "#d63031",
+    "Chakra": "#e67e22",
+    "Stunner": "#16a085",
+    "Spidercide": "#45b7d1",
+    "Vulture": "#e84393",
+    "El Toro Negro": "#34495e",
+    "Mysterio": "#00b894",
+    "Great Game": "#4ecdc4",
+    "Muse": "#8e44ad",
+    "James Johnsmeyer": "#2ecc71",
+    "Carnage Symbiote": "#55efc4",
+    "Cell-12": "#2980b9",
+    "Hobgoblin": "#34495e",
+    "Bramer": "#3498db",
+    "Nardi": "#9b59b6",
+    "Andros": "#e84393",
+    "Lasher": "#c0392b",
+    "Gaunt": "#3498db",
+    "Don Fortunato": "#f39c12",
+    "Hammerhead": "#fd79a8",
+    "Joey": "#0984e3",
+    "Rocco": "#2ecc71",
+    "Sentinels": "#c0392b",
+    "Tombstone": "#4ecdc4",
+    "Crown": "#dfe6e9",
+    "Friends of Humanity": "#fa8231",
+    "Morbius": "#4ecdc4",
+    "Bo": "#f9ca24",
+    "Baron von Strucker": "#81ecec",
+    "Dr. Andrea Janson": "#2980b9",
+    "Lance": "#f39c12",
+    "Shockwave": "#f1c40f",
+    "Razor-Fist": "#55efc4",
+    "Donovan Zane": "#3498db",
+    "Shocker": "#c0392b",
+    "Juggernaut": "#fab1a0",
+    "Trapster": "#27ae60",
+    "Shotgun": "#ff6b6b",
+    "Blastaar": "#e67e22",
+    "Q-4": "#d35400",
+    "Waiters": "#fa8231",
+    "Kingpin": "#34495e",
+    "Ox": "#c0392b",
+    "Rocko": "#8e44ad",
+    "Sebastian Shaw": "#dfe6e9",
+    "Silvermane": "#00b894",
+    "Nitro": "#34495e",
+    "Creep": "#2d3436",
+    "Scriers": "#0984e3"
+  }
+}

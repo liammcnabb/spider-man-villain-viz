@@ -1,0 +1,2976 @@
+{
+  "series": "Web of Spider-Man Vol 1",
+  "baseUrl": "https://marvel.fandom.com/wiki/Web_of_Spider-Man_Vol_1_{issue}",
+  "issues": [
+    {
+      "issueNumber": 1,
+      "title": "Web of Spider-Man #1",
+      "releaseDate": "December 25, 1984",
+      "antagonists": [
+        {
+          "name": "Symbiote",
+          "url": "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/venom-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Vulturions",
+          "url": "https://marvel.fandom.com/wiki/Vulturions_(Earth-616)",
+          "imageUrl": "/images/vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Honcho",
+          "url": "https://marvel.fandom.com/wiki/Honcho_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/honcho-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Gripes",
+          "url": "https://marvel.fandom.com/wiki/Gripes_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/gripes-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Pigeon",
+          "url": "https://marvel.fandom.com/wiki/Pigeon_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/pigeon-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Sugar Face",
+          "url": "https://marvel.fandom.com/wiki/Sugar_Face_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/sugar-face-vulturions-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 2,
+      "title": "Web of Spider-Man #2",
+      "releaseDate": "January 22, 1985",
+      "antagonists": [
+        {
+          "name": "Vulturions",
+          "url": "https://marvel.fandom.com/wiki/Vulturions_(Earth-616)",
+          "imageUrl": "/images/vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Honcho",
+          "url": "https://marvel.fandom.com/wiki/Honcho_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/honcho-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Gripes",
+          "url": "https://marvel.fandom.com/wiki/Gripes_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/gripes-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Pigeon",
+          "url": "https://marvel.fandom.com/wiki/Pigeon_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/pigeon-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Sugar Face",
+          "url": "https://marvel.fandom.com/wiki/Sugar_Face_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/sugar-face-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 3,
+      "title": "Web of Spider-Man #3",
+      "releaseDate": "February 26, 1985",
+      "antagonists": [
+        {
+          "name": "Vulturions",
+          "url": "https://marvel.fandom.com/wiki/Vulturions_(Earth-616)",
+          "imageUrl": "/images/vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Honcho",
+          "url": "https://marvel.fandom.com/wiki/Honcho_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/honcho-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Gripes",
+          "url": "https://marvel.fandom.com/wiki/Gripes_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/gripes-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Pigeon",
+          "url": "https://marvel.fandom.com/wiki/Pigeon_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/pigeon-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Sugar Face",
+          "url": "https://marvel.fandom.com/wiki/Sugar_Face_(Vulturions)_(Earth-616)",
+          "imageUrl": "/images/sugar-face-vulturions-earth-616.jpg"
+        },
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 4,
+      "title": "Web of Spider-Man #4",
+      "releaseDate": "March 26, 1985",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 5,
+      "title": "Web of Spider-Man #5",
+      "releaseDate": "April 23, 1985",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Larry",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Larry"
+        },
+        {
+          "name": "Larry",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Larry"
+        },
+        {
+          "name": "Mel",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Mel"
+        },
+        {
+          "name": "Roger",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Roger"
+        }
+      ]
+    },
+    {
+      "issueNumber": 6,
+      "title": "Web of Spider-Man #6",
+      "releaseDate": "May 28, 1985",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 7,
+      "title": "Web of Spider-Man #7",
+      "releaseDate": "June 25, 1985",
+      "antagonists": [
+        {
+          "name": "Nightmare",
+          "url": "https://marvel.fandom.com/wiki/Nightmare_(Earth-616)",
+          "imageUrl": "/images/nightmare-earth-616.jpg"
+        },
+        {
+          "name": "Hulk (Bruce Banner)",
+          "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
+          "imageUrl": "/images/bruce-banner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 8,
+      "title": "Web of Spider-Man #8",
+      "releaseDate": "July 23, 1985",
+      "antagonists": [
+        {
+          "name": "Ludlow Grimes",
+          "url": "https://marvel.fandom.com/wiki/Ludlow_Grimes_(Earth-616)",
+          "imageUrl": "/images/ludlow-grimes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 9,
+      "title": "Web of Spider-Man #9",
+      "releaseDate": "August 27, 1985",
+      "antagonists": [
+        {
+          "name": "Ludlow Grimes",
+          "url": "https://marvel.fandom.com/wiki/Ludlow_Grimes_(Earth-616)",
+          "imageUrl": "/images/ludlow-grimes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 10,
+      "title": "Web of Spider-Man #10",
+      "releaseDate": "September 24, 1985",
+      "antagonists": [
+        {
+          "name": "Wolfgang von Lundt",
+          "url": "https://marvel.fandom.com/wiki/Simon_Steele_(Earth-616)",
+          "imageUrl": "/images/simon-steele-earth-616.jpg"
+        },
+        {
+          "name": "Shocker",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 11,
+      "title": "Web of Spider-Man #11",
+      "releaseDate": "October 22, 1985",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 12,
+      "title": "Web of Spider-Man #12",
+      "releaseDate": "November 26, 1985",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 13,
+      "title": "Web of Spider-Man #13",
+      "releaseDate": "December 24, 1985",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 14,
+      "title": "Web of Spider-Man #14",
+      "releaseDate": "January 28, 1986",
+      "antagonists": [
+        {
+          "name": "Black Fox",
+          "url": "https://marvel.fandom.com/wiki/Black_Fox_(Thief)_(Earth-616)",
+          "imageUrl": "/images/black-fox-thief-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 15,
+      "title": "Web of Spider-Man #15",
+      "releaseDate": "February 25, 1986",
+      "antagonists": [
+        {
+          "name": "1400 Club",
+          "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)"
+        },
+        {
+          "name": "Chance (Nicholas Powell)",
+          "url": "https://marvel.fandom.com/wiki/Nicholas_Powell_(Earth-616)",
+          "imageUrl": "/images/nicholas-powell-earth-616.jpg"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 16,
+      "title": "Web of Spider-Man #16",
+      "releaseDate": "March 25, 1986",
+      "antagonists": [
+        {
+          "name": "Roxxon",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Magma (Jonathan Darque)",
+          "url": "https://marvel.fandom.com/wiki/Jonathan_Darque_(Earth-616)",
+          "imageUrl": "/images/jonathan-darque-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 17,
+      "title": "Web of Spider-Man #17",
+      "releaseDate": "April 22, 1986",
+      "antagonists": [
+        {
+          "name": "Roxxon",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Magma (Jonathan Darque)",
+          "url": "https://marvel.fandom.com/wiki/Jonathan_Darque_(Earth-616)",
+          "imageUrl": "/images/jonathan-darque-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 18,
+      "title": "Web of Spider-Man #18",
+      "releaseDate": "May 17, 1986",
+      "antagonists": [
+        {
+          "name": "Magma (Jonathan Darque)",
+          "url": "https://marvel.fandom.com/wiki/Jonathan_Darque_(Earth-616)",
+          "imageUrl": "/images/jonathan-darque-earth-616.jpg"
+        },
+        {
+          "name": "Medgar DuPaul",
+          "url": "https://marvel.fandom.com/wiki/Medgar_DuPaul_(Earth-616)",
+          "imageUrl": "/images/medgar-dupaul-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 19,
+      "title": "Web of Spider-Man #19",
+      "releaseDate": "June 24, 1986",
+      "antagonists": [
+        {
+          "name": "Humbug (Buchanan Mitty)",
+          "url": "https://marvel.fandom.com/wiki/Buchanan_Mitty_(Earth-616)",
+          "imageUrl": "/images/buchanan-mitty-earth-616.jpg"
+        },
+        {
+          "name": "Irish Republican Army",
+          "url": "https://marvel.fandom.com/wiki/Irish_Republican_Army_(Earth-616)",
+          "imageUrl": "/images/irish-republican-army-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 20,
+      "title": "Web of Spider-Man #20",
+      "releaseDate": "July 22, 1986",
+      "antagonists": [
+        {
+          "name": "IRA",
+          "url": "https://marvel.fandom.com/wiki/Irish_Republican_Army_(Earth-616)",
+          "imageUrl": "/images/irish-republican-army-earth-616.jpg"
+        },
+        {
+          "name": "Sean Dunne",
+          "url": "https://marvel.fandom.com/wiki/Sean_Dunne_(Earth-616)",
+          "imageUrl": "/images/sean-dunne-earth-616.jpg"
+        },
+        {
+          "name": "Paddy",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/P#Paddy"
+        },
+        {
+          "name": "Patrick",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/P#Patrick"
+        },
+        {
+          "name": "Roxxon",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 21,
+      "title": "Web of Spider-Man #21",
+      "releaseDate": "August 26, 1986",
+      "antagonists": [
+        {
+          "name": "Ron Corbett",
+          "url": "https://marvel.fandom.com/wiki/Ron_Corbett_(Earth-616)",
+          "imageUrl": "/images/ron-corbett-earth-616.jpg"
+        },
+        {
+          "name": "Bill Corbett",
+          "url": "https://marvel.fandom.com/wiki/Bill_Corbett_(Earth-616)",
+          "imageUrl": "/images/bill-corbett-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 22,
+      "title": "Web of Spider-Man #22",
+      "releaseDate": "September 23, 1986",
+      "antagonists": [
+        {
+          "name": "Roxxon Company",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Ian Forbes",
+          "url": "https://marvel.fandom.com/wiki/Ian_Forbes_(Earth-616)",
+          "imageUrl": "/images/ian-forbes-earth-616.jpg"
+        },
+        {
+          "name": "Dr. Fahley",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)/Members#Fahley"
+        },
+        {
+          "name": "Black Hoods",
+          "url": "https://marvel.fandom.com/wiki/Black_Hoods_(Earth-616)",
+          "imageUrl": "/images/black-hoods-earth-616.jpg"
+        },
+        {
+          "name": "Marty",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)/Members#Marty"
+        },
+        {
+          "name": "Rory Magill",
+          "url": "https://marvel.fandom.com/wiki/Rory_Magill_(Earth-616)",
+          "imageUrl": "/images/rory-magill-earth-616.jpg"
+        },
+        {
+          "name": "Duncan O'Neill",
+          "url": "https://marvel.fandom.com/wiki/Duncan_O%27Neill_(Earth-616)",
+          "imageUrl": "/images/duncan-o-27neill-earth-616.jpg"
+        },
+        {
+          "name": "IRA",
+          "url": "https://marvel.fandom.com/wiki/Irish_Republican_Army_(Earth-616)",
+          "imageUrl": "/images/irish-republican-army-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 23,
+      "title": "Web of Spider-Man #23",
+      "releaseDate": "October 28, 1986",
+      "antagonists": [
+        {
+          "name": "Slyde (Jalome Beacher)",
+          "url": "https://marvel.fandom.com/wiki/Jalome_Beacher_(Earth-616)",
+          "imageUrl": "/images/jalome-beacher-earth-616.jpg"
+        },
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 24,
+      "title": "Web of Spider-Man #24",
+      "releaseDate": "November 25, 1986",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Edward_Leeds_(Earth-616)",
+          "imageUrl": "/images/edward-leeds-earth-616.jpg"
+        },
+        {
+          "name": "The Rose",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Eddie Brock",
+          "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
+          "imageUrl": "/images/edward-brock-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 25,
+      "title": "Web of Spider-Man #25",
+      "releaseDate": "December 23, 1986",
+      "antagonists": [
+        {
+          "name": "Xanja",
+          "url": "https://marvel.fandom.com/wiki/Xanja_(Earth-616)",
+          "imageUrl": "/images/xanja-earth-616.jpg"
+        },
+        {
+          "name": "Arnie Strunk",
+          "url": "https://marvel.fandom.com/wiki/Arnie_Strunk_(Earth-616)",
+          "imageUrl": "/images/arnie-strunk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 26,
+      "title": "Web of Spider-Man #26",
+      "releaseDate": "January 27, 1987",
+      "antagonists": [
+        {
+          "name": "Willard Stein",
+          "url": "https://marvel.fandom.com/wiki/Willard_Stein_(Earth-616)",
+          "imageUrl": "/images/willard-stein-earth-616.jpg"
+        },
+        {
+          "name": "Gunther Stein",
+          "url": "https://marvel.fandom.com/wiki/Gunther_Stein_(Criminal)_(Earth-616)",
+          "imageUrl": "/images/gunther-stein-criminal-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 27,
+      "title": "Web of Spider-Man #27",
+      "releaseDate": "February 24, 1987",
+      "antagonists": [
+        {
+          "name": "Executive Services, Inc. (ESI)",
+          "url": "https://marvel.fandom.com/wiki/Executive_Services,_Inc._(Earth-616)",
+          "imageUrl": "/images/executive-services-inc-earth-616.jpg"
+        },
+        {
+          "name": "Headhunter",
+          "url": "https://marvel.fandom.com/wiki/Headhunter_(Executive_Services)_(Earth-616)",
+          "imageUrl": "/images/headhunter-executive-services-earth-616.jpg"
+        },
+        {
+          "name": "Rollie",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Rollie"
+        },
+        {
+          "name": "Lenny",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Lenny"
+        }
+      ]
+    },
+    {
+      "issueNumber": 28,
+      "title": "Web of Spider-Man #28",
+      "releaseDate": "March 24, 1987",
+      "antagonists": [
+        {
+          "name": "Hershel",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/H#Hershel"
+        },
+        {
+          "name": "Milicent Peabody",
+          "url": "https://marvel.fandom.com/wiki/Milicent_Peabody_(Earth-616)",
+          "imageUrl": "/images/milicent-peabody-earth-616.jpg"
+        },
+        {
+          "name": "Randolph",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Randolph"
+        },
+        {
+          "name": "Reuben",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Reuben"
+        }
+      ]
+    },
+    {
+      "issueNumber": 29,
+      "title": "Web of Spider-Man #29",
+      "releaseDate": "April 28, 1987",
+      "antagonists": [
+        {
+          "name": "The Rose (Richard Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Arranger (Oswald Silkworth)",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 30,
+      "title": "Web of Spider-Man #30",
+      "releaseDate": "May 26, 1987",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 31,
+      "title": "Web of Spider-Man #31",
+      "releaseDate": "June 23, 1987",
+      "antagonists": [
+        {
+          "name": "Kraven the Hunter (Sergei Kravinoff)",
+          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 32,
+      "title": "Web of Spider-Man #32",
+      "releaseDate": "July 28, 1987",
+      "antagonists": [
+        {
+          "name": "Kraven the Hunter (Sergei Kravinoff)",
+          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 33,
+      "title": "Web of Spider-Man #33",
+      "releaseDate": "August 25, 1987",
+      "antagonists": [
+        {
+          "name": "Arranger",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Hope",
+          "url": "https://marvel.fandom.com/wiki/Doctor_Hope_(Earth-616)",
+          "imageUrl": "/images/doctor-hope-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 34,
+      "title": "Web of Spider-Man #34",
+      "releaseDate": "September 1, 1987",
+      "antagonists": [
+        {
+          "name": "A'Sai",
+          "url": "https://marvel.fandom.com/wiki/A%27Sai_(Earth-616)",
+          "imageUrl": "/images/a-27sai-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 35,
+      "title": "Web of Spider-Man #35",
+      "releaseDate": "October 6, 1987",
+      "antagonists": [
+        {
+          "name": "The Living Brain",
+          "url": "https://marvel.fandom.com/wiki/Living_Brain_(Earth-616)",
+          "imageUrl": "/images/living-brain-earth-616.jpg"
+        },
+        {
+          "name": "Tarantula (Luis Alvarez)",
+          "url": "https://marvel.fandom.com/wiki/Luis_Alvarez_(Earth-616)",
+          "imageUrl": "/images/luis-alvarez-earth-616.jpg"
+        },
+        {
+          "name": "General Ramone",
+          "url": "https://marvel.fandom.com/wiki/General_Ramone_(Earth-616)",
+          "imageUrl": "/images/general-ramone-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 36,
+      "title": "Web of Spider-Man #36",
+      "releaseDate": "November 3, 1987",
+      "antagonists": [
+        {
+          "name": "Phreak (Steve Petty)",
+          "url": "https://marvel.fandom.com/wiki/Steven_Petty_(Earth-616)",
+          "imageUrl": "/images/steven-petty-earth-616.jpg"
+        },
+        {
+          "name": "Tombstone (Lonnie Lincoln)",
+          "url": "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
+          "imageUrl": "/images/alonzo-lincoln-earth-616.jpg"
+        },
+        {
+          "name": "Tarantula (Luis Alvarez)",
+          "url": "https://marvel.fandom.com/wiki/Luis_Alvarez_(Earth-616)",
+          "imageUrl": "/images/luis-alvarez-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 37,
+      "title": "Web of Spider-Man #37",
+      "releaseDate": "December 1, 1987",
+      "antagonists": [
+        {
+          "name": "Elyse Nelson",
+          "url": "https://marvel.fandom.com/wiki/Elyse_Nelson_(Earth-616)",
+          "imageUrl": "/images/elyse-nelson-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 38,
+      "title": "Web of Spider-Man #38",
+      "releaseDate": "January 5, 1988",
+      "antagonists": [
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Arranger (Oswald Silkworth)",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "Tombstone (Lonnie Lincoln)",
+          "url": "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
+          "imageUrl": "/images/alonzo-lincoln-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 39,
+      "title": "Web of Spider-Man #39",
+      "releaseDate": "February 2, 1988",
+      "antagonists": [
+        {
+          "name": "Looter (Norton Fester)",
+          "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
+          "imageUrl": "/images/norton-fester-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 40,
+      "title": "Web of Spider-Man #40",
+      "releaseDate": "March 1, 1988",
+      "antagonists": [
+        {
+          "name": "Cult of Love",
+          "url": "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
+          "imageUrl": "/images/students-of-love-earth-616.jpg"
+        },
+        {
+          "name": "Brother Bruce",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bruce"
+        }
+      ]
+    },
+    {
+      "issueNumber": 41,
+      "title": "Web of Spider-Man #41",
+      "releaseDate": "April 5, 1988",
+      "antagonists": [
+        {
+          "name": "Cult of Love",
+          "url": "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
+          "imageUrl": "/images/students-of-love-earth-616.jpg"
+        },
+        {
+          "name": "Teacher",
+          "url": "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)",
+          "imageUrl": "/images/teacher-students-of-love-earth-616.jpg"
+        },
+        {
+          "name": "Brother Bruce",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bruce"
+        }
+      ]
+    },
+    {
+      "issueNumber": 42,
+      "title": "Web of Spider-Man #42",
+      "releaseDate": "May 3, 1988",
+      "antagonists": [
+        {
+          "name": "Students of Love",
+          "url": "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
+          "imageUrl": "/images/students-of-love-earth-616.jpg"
+        },
+        {
+          "name": "Teacher",
+          "url": "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)",
+          "imageUrl": "/images/teacher-students-of-love-earth-616.jpg"
+        },
+        {
+          "name": "Brother Bruce",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bruce"
+        }
+      ]
+    },
+    {
+      "issueNumber": 43,
+      "title": "Web of Spider-Man #43",
+      "releaseDate": "June 7, 1988",
+      "antagonists": [
+        {
+          "name": "Cult of Love",
+          "url": "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
+          "imageUrl": "/images/students-of-love-earth-616.jpg"
+        },
+        {
+          "name": "Teacher",
+          "url": "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)",
+          "imageUrl": "/images/teacher-students-of-love-earth-616.jpg"
+        },
+        {
+          "name": "Brother Bruce",
+          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bruce"
+        }
+      ]
+    },
+    {
+      "issueNumber": 44,
+      "title": "Web of Spider-Man #44",
+      "releaseDate": "July 5, 1988",
+      "antagonists": [
+        {
+          "name": "Warzone",
+          "url": "https://marvel.fandom.com/wiki/Warzone_(Cyborgs)_(Earth-616)",
+          "imageUrl": "/images/warzone-cyborgs-earth-616.jpg"
+        },
+        {
+          "name": "Alpha",
+          "url": "https://marvel.fandom.com/wiki/Alpha_(Warzone)_(Earth-616)",
+          "imageUrl": "/images/alpha-warzone-earth-616.jpg"
+        },
+        {
+          "name": "Bravo",
+          "url": "https://marvel.fandom.com/wiki/Bravo_(Warzone)_(Earth-616)",
+          "imageUrl": "/images/bravo-warzone-earth-616.jpg"
+        },
+        {
+          "name": "Charlie",
+          "url": "https://marvel.fandom.com/wiki/Charlie_(Warzone)_(Earth-616)",
+          "imageUrl": "/images/charlie-warzone-earth-616.jpg"
+        },
+        {
+          "name": "Delta",
+          "url": "https://marvel.fandom.com/wiki/Delta_(Warzone)_(Earth-616)",
+          "imageUrl": "/images/delta-warzone-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 45,
+      "title": "Web of Spider-Man #45",
+      "releaseDate": "August 2, 1988",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Morris \"The Snake\" Diamond",
+          "url": "https://marvel.fandom.com/wiki/Morris_Diamond_(Earth-616)",
+          "imageUrl": "/images/morris-diamond-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 46,
+      "title": "Web of Spider-Man #46",
+      "releaseDate": "September 6, 1988",
+      "antagonists": [
+        {
+          "name": "Nekra",
+          "url": "https://marvel.fandom.com/wiki/Nekra_Sinclair_(Earth-616)",
+          "imageUrl": "/images/nekra-sinclair-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 47,
+      "title": "Web of Spider-Man #47",
+      "releaseDate": "October 4, 1988",
+      "antagonists": [
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 48,
+      "title": "Web of Spider-Man #48",
+      "releaseDate": "November 1, 1988",
+      "antagonists": [
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "The Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Arranger (Oswald Silkworth)",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "The Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 49,
+      "title": "Web of Spider-Man #49",
+      "releaseDate": "December 6, 1988",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 50,
+      "title": "Web of Spider-Man #50",
+      "releaseDate": "January 3, 1989",
+      "antagonists": [
+        {
+          "name": "Chameleon",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        },
+        {
+          "name": "Arranger",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Lobo Brothers",
+          "url": "https://marvel.fandom.com/wiki/Lobo_Cartel_(Earth-616)",
+          "imageUrl": "/images/lobo-cartel-earth-616.jpg"
+        },
+        {
+          "name": "Eduardo Lobo",
+          "url": "https://marvel.fandom.com/wiki/Eduardo_Lobo_(Earth-616)",
+          "imageUrl": "/images/eduardo-lobo-earth-616.jpg"
+        },
+        {
+          "name": "Carlos Lobo",
+          "url": "https://marvel.fandom.com/wiki/Carlos_Lobo_(Earth-616)",
+          "imageUrl": "/images/carlos-lobo-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 51,
+      "title": "Web of Spider-Man #51",
+      "releaseDate": "February 7, 1989",
+      "antagonists": [
+        {
+          "name": "Chameleon",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        },
+        {
+          "name": "Hammerhead",
+          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        },
+        {
+          "name": "Arranger",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "Eduardo Lobo",
+          "url": "https://marvel.fandom.com/wiki/Eduardo_Lobo_(Earth-616)",
+          "imageUrl": "/images/eduardo-lobo-earth-616.jpg"
+        },
+        {
+          "name": "Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 52,
+      "title": "Web of Spider-Man #52",
+      "releaseDate": "March 7, 1989",
+      "antagonists": [
+        {
+          "name": "Chameleon (Dmitri Smerdyakov)",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        },
+        {
+          "name": "NYPD",
+          "url": "https://marvel.fandom.com/wiki/New_York_City_Police_Department_(Earth-616)",
+          "imageUrl": "/images/new-york-city-police-department-earth-616.jpg"
+        },
+        {
+          "name": "Sergeant Michael O'Hill",
+          "url": "https://marvel.fandom.com/wiki/Michael_O%27Hill_(Earth-616)",
+          "imageUrl": "/images/michael-o-27hill-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 53,
+      "title": "Web of Spider-Man #53",
+      "releaseDate": "April 4, 1989",
+      "antagonists": [
+        {
+          "name": "Chameleon",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        },
+        {
+          "name": "Hammerhead",
+          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Arranger",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "Lobo Brothers",
+          "url": "https://marvel.fandom.com/wiki/Lobo_Cartel_(Earth-616)",
+          "imageUrl": "/images/lobo-cartel-earth-616.jpg"
+        },
+        {
+          "name": "Carlos Lobo",
+          "url": "https://marvel.fandom.com/wiki/Carlos_Lobo_(Earth-616)",
+          "imageUrl": "/images/carlos-lobo-earth-616.jpg"
+        },
+        {
+          "name": "Eduardo Lobo",
+          "url": "https://marvel.fandom.com/wiki/Eduardo_Lobo_(Earth-616)",
+          "imageUrl": "/images/eduardo-lobo-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 54,
+      "title": "Web of Spider-Man #54",
+      "releaseDate": "May 2, 1989",
+      "antagonists": [
+        {
+          "name": "Chameleon",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Arranger",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "Lobo Brothers",
+          "url": "https://marvel.fandom.com/wiki/Lobo_Cartel_(Earth-616)",
+          "imageUrl": "/images/lobo-cartel-earth-616.jpg"
+        },
+        {
+          "name": "Carlos Lobo",
+          "url": "https://marvel.fandom.com/wiki/Carlos_Lobo_(Earth-616)",
+          "imageUrl": "/images/carlos-lobo-earth-616.jpg"
+        },
+        {
+          "name": "Eduardo Lobo",
+          "url": "https://marvel.fandom.com/wiki/Eduardo_Lobo_(Earth-616)",
+          "imageUrl": "/images/eduardo-lobo-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 55,
+      "title": "Web of Spider-Man #55",
+      "releaseDate": "June 13, 1989",
+      "antagonists": [
+        {
+          "name": "Lobo Brothers",
+          "url": "https://marvel.fandom.com/wiki/Lobo_Cartel_(Earth-616)",
+          "imageUrl": "/images/lobo-cartel-earth-616.jpg"
+        },
+        {
+          "name": "Carlos Lobo",
+          "url": "https://marvel.fandom.com/wiki/Carlos_Lobo_(Earth-616)",
+          "imageUrl": "/images/carlos-lobo-earth-616.jpg"
+        },
+        {
+          "name": "Eduardo Lobo",
+          "url": "https://marvel.fandom.com/wiki/Eduardo_Lobo_(Earth-616)",
+          "imageUrl": "/images/eduardo-lobo-earth-616.jpg"
+        },
+        {
+          "name": "Arranger",
+          "url": "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
+          "imageUrl": "/images/oswald-silkworth-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Chameleon",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        },
+        {
+          "name": "Hammerhead",
+          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 56,
+      "title": "Web of Spider-Man #56",
+      "releaseDate": "July 11, 1989",
+      "antagonists": [
+        {
+          "name": "Skinhead",
+          "url": "https://marvel.fandom.com/wiki/Edward_Cross_(Skinhead)_(Earth-616)",
+          "imageUrl": "/images/edward-cross-skinhead-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 57,
+      "title": "Web of Spider-Man #57",
+      "releaseDate": "August 1, 1989",
+      "antagonists": [
+        {
+          "name": "Skinhead (Eddie Cross)",
+          "url": "https://marvel.fandom.com/wiki/Edward_Cross_(Skinhead)_(Earth-616)",
+          "imageUrl": "/images/edward-cross-skinhead-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 58,
+      "title": "Web of Spider-Man #58",
+      "releaseDate": "September 5, 1989",
+      "antagonists": [
+        {
+          "name": "Grizzly",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Markham_(Earth-616)",
+          "imageUrl": "/images/maxwell-markham-earth-616.jpg"
+        },
+        {
+          "name": "Tinkerer",
+          "url": "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
+          "imageUrl": "/images/phineas-mason-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 59,
+      "title": "Web of Spider-Man #59",
+      "releaseDate": "October 3, 1989",
+      "antagonists": [
+        {
+          "name": "Titania",
+          "url": "https://marvel.fandom.com/wiki/Mary_MacPherran_(Earth-616)",
+          "imageUrl": "/images/mary-macpherran-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Doom",
+          "url": "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
+          "imageUrl": "/images/victor-von-doom-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 60,
+      "title": "Web of Spider-Man #60",
+      "releaseDate": "November 7, 1989",
+      "antagonists": [
+        {
+          "name": "Goliath (Erik Josten)",
+          "url": "https://marvel.fandom.com/wiki/Erik_Josten_(Earth-616)",
+          "imageUrl": "/images/erik-josten-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Doom",
+          "url": "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
+          "imageUrl": "/images/victor-von-doom-earth-616.jpg"
+        },
+        {
+          "name": "Magneto",
+          "url": "https://marvel.fandom.com/wiki/Max_Eisenhardt_(Earth-616)",
+          "imageUrl": "/images/max-eisenhardt-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 61,
+      "title": "Web of Spider-Man #61",
+      "releaseDate": "December 5, 1989",
+      "antagonists": [
+        {
+          "name": "Wizard",
+          "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
+          "imageUrl": "/images/bentley-wittman-earth-616.jpg"
+        },
+        {
+          "name": "Dragon Man",
+          "url": "https://marvel.fandom.com/wiki/Draconus_(Earth-616)",
+          "imageUrl": "/images/draconus-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 62,
+      "title": "Web of Spider-Man #62",
+      "releaseDate": "January 2, 1990",
+      "antagonists": [
+        {
+          "name": "Molten Man",
+          "url": "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
+          "imageUrl": "/images/mark-raxton-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 63,
+      "title": "Web of Spider-Man #63",
+      "releaseDate": "February 6, 1990",
+      "antagonists": [
+        {
+          "name": "Mister Fear",
+          "url": "https://marvel.fandom.com/wiki/Alan_Fagan_(Earth-616)",
+          "imageUrl": "/images/alan-fagan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 64,
+      "title": "Web of Spider-Man #64",
+      "releaseDate": "March 6, 1990",
+      "antagonists": [
+        {
+          "name": "Titania",
+          "url": "https://marvel.fandom.com/wiki/Mary_MacPherran_(Earth-616)",
+          "imageUrl": "/images/mary-macpherran-earth-616.jpg"
+        },
+        {
+          "name": "Trapster",
+          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+          "imageUrl": "/images/peter-petruski-earth-616.jpg"
+        },
+        {
+          "name": "Brothers Grimm",
+          "url": "https://marvel.fandom.com/wiki/Percy_%26_Barton_Grimes_(Earth-616)",
+          "imageUrl": "/images/percy-26-barton-grimes-earth-616.jpg"
+        },
+        {
+          "name": "Graviton",
+          "url": "https://marvel.fandom.com/wiki/Franklin_Hall_(Earth-616)",
+          "imageUrl": "/images/franklin-hall-earth-616.jpg"
+        },
+        {
+          "name": "Chameleon",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        },
+        {
+          "name": "Goliath (Erik Josten)",
+          "url": "https://marvel.fandom.com/wiki/Erik_Josten_(Earth-616)",
+          "imageUrl": "/images/erik-josten-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 65,
+      "title": "Web of Spider-Man #65",
+      "releaseDate": "April 3, 1990",
+      "antagonists": [
+        {
+          "name": "Brothers Grimm",
+          "url": "https://marvel.fandom.com/wiki/Percy_%26_Barton_Grimes_(Earth-616)",
+          "imageUrl": "/images/percy-26-barton-grimes-earth-616.jpg"
+        },
+        {
+          "name": "Goliath (Erik Josten)",
+          "url": "https://marvel.fandom.com/wiki/Erik_Josten_(Earth-616)",
+          "imageUrl": "/images/erik-josten-earth-616.jpg"
+        },
+        {
+          "name": "Graviton",
+          "url": "https://marvel.fandom.com/wiki/Franklin_Hall_(Earth-616)",
+          "imageUrl": "/images/franklin-hall-earth-616.jpg"
+        },
+        {
+          "name": "Titania",
+          "url": "https://marvel.fandom.com/wiki/Mary_MacPherran_(Earth-616)",
+          "imageUrl": "/images/mary-macpherran-earth-616.jpg"
+        },
+        {
+          "name": "Trapster",
+          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+          "imageUrl": "/images/peter-petruski-earth-616.jpg"
+        },
+        {
+          "name": "Chameleon",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        },
+        {
+          "name": "Kingpin",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 66,
+      "title": "Web of Spider-Man #66",
+      "releaseDate": "May 1, 1990",
+      "antagonists": [
+        {
+          "name": "Tombstone",
+          "url": "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
+          "imageUrl": "/images/alonzo-lincoln-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 67,
+      "title": "Web of Spider-Man #67",
+      "releaseDate": "June 5, 1990",
+      "antagonists": [
+        {
+          "name": "Tombstone",
+          "url": "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
+          "imageUrl": "/images/alonzo-lincoln-earth-616.jpg"
+        },
+        {
+          "name": "Green Goblin (Harry Osborn)",
+          "url": "https://marvel.fandom.com/wiki/Harold_Osborn_(Earth-616)",
+          "imageUrl": "/images/harold-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Hammerhead",
+          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 68,
+      "title": "Web of Spider-Man #68",
+      "releaseDate": "July 3, 1990",
+      "antagonists": [
+        {
+          "name": "Tombstone",
+          "url": "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
+          "imageUrl": "/images/alonzo-lincoln-earth-616.jpg"
+        },
+        {
+          "name": "Hammerhead",
+          "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 69,
+      "title": "Web of Spider-Man #69",
+      "releaseDate": "August 7, 1990",
+      "antagonists": [
+        {
+          "name": "The Hulk",
+          "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
+          "imageUrl": "/images/bruce-banner-earth-616.jpg"
+        },
+        {
+          "name": "Armand Jones",
+          "url": "https://marvel.fandom.com/wiki/Armand_Jones_(Earth-616)",
+          "imageUrl": "/images/armand-jones-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 70,
+      "title": "Web of Spider-Man #70",
+      "releaseDate": "September 4, 1990",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 71,
+      "title": "Web of Spider-Man #71",
+      "releaseDate": "October 2, 1990",
+      "antagonists": [
+        {
+          "name": "Simon Steele",
+          "url": "https://marvel.fandom.com/wiki/Simon_Steele_(Earth-616)",
+          "imageUrl": "/images/simon-steele-earth-616.jpg"
+        },
+        {
+          "name": "Sabbath Raven (Elena von Lundt)",
+          "url": "https://marvel.fandom.com/wiki/Elena_von_Lundt_(Earth-616)",
+          "imageUrl": "/images/elena-von-lundt-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 72,
+      "title": "Web of Spider-Man #72",
+      "releaseDate": "November 6, 1990",
+      "antagonists": [
+        {
+          "name": "Simon Steele",
+          "url": "https://marvel.fandom.com/wiki/Simon_Steele_(Earth-616)",
+          "imageUrl": "/images/simon-steele-earth-616.jpg"
+        },
+        {
+          "name": "Iron Monger (Yiorgos Krallis)",
+          "url": "https://marvel.fandom.com/wiki/Yiorgos_Krallis_(Earth-616)",
+          "imageUrl": "/images/yiorgos-krallis-earth-616.jpg"
+        },
+        {
+          "name": "Sabbath Raven (Elena von Lundt)",
+          "url": "https://marvel.fandom.com/wiki/Elena_von_Lundt_(Earth-616)",
+          "imageUrl": "/images/elena-von-lundt-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 73,
+      "title": "Web of Spider-Man #73",
+      "releaseDate": "December 4, 1990",
+      "antagonists": [
+        {
+          "name": "Headmen",
+          "url": "https://marvel.fandom.com/wiki/Headmen_(Earth-616)",
+          "imageUrl": "/images/headmen-earth-616.jpg"
+        },
+        {
+          "name": "Arthur Nagan",
+          "url": "https://marvel.fandom.com/wiki/Arthur_Nagan_(Earth-616)",
+          "imageUrl": "/images/arthur-nagan-earth-616.jpg"
+        },
+        {
+          "name": "Jerald Morgan",
+          "url": "https://marvel.fandom.com/wiki/Jerold_Morgan_(Earth-616)",
+          "imageUrl": "/images/jerold-morgan-earth-616.jpg"
+        },
+        {
+          "name": "Chondu the Mystic",
+          "url": "https://marvel.fandom.com/wiki/Harvey_Schlemerman_(Earth-616)",
+          "imageUrl": "/images/harvey-schlemerman-earth-616.jpg"
+        },
+        {
+          "name": "Ruby Thursday",
+          "url": "https://marvel.fandom.com/wiki/Thursday_Rubinstein_(Earth-616)",
+          "imageUrl": "/images/thursday-rubinstein-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 74,
+      "title": "Web of Spider-Man #74",
+      "releaseDate": "January 1, 1991",
+      "antagonists": [
+        {
+          "name": "Avant Guard",
+          "url": "https://marvel.fandom.com/wiki/Avant_Guard_(Earth-616)",
+          "imageUrl": "/images/avant-guard-earth-616.jpg"
+        },
+        {
+          "name": "Painter",
+          "url": "https://marvel.fandom.com/wiki/Wilhelm_van_Vile_(Earth-616)",
+          "imageUrl": "/images/wilhelm-van-vile-earth-616.jpg"
+        },
+        {
+          "name": "Bora",
+          "url": "https://marvel.fandom.com/wiki/Anzhela_Federova_(Earth-616)",
+          "imageUrl": "/images/anzhela-federova-earth-616.jpg"
+        },
+        {
+          "name": "Spark",
+          "url": "https://marvel.fandom.com/wiki/Myron_Schmertz_(Earth-616)",
+          "imageUrl": "/images/myron-schmertz-earth-616.jpg"
+        },
+        {
+          "name": "Cockroaches",
+          "url": "https://marvel.fandom.com/wiki/Cockroaches",
+          "imageUrl": "/images/cockroaches.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 75,
+      "title": "Web of Spider-Man #75",
+      "releaseDate": "February 5, 1991",
+      "antagonists": [
+        {
+          "name": "Avant Guard",
+          "url": "https://marvel.fandom.com/wiki/Avant_Guard_(Earth-616)",
+          "imageUrl": "/images/avant-guard-earth-616.jpg"
+        },
+        {
+          "name": "Painter",
+          "url": "https://marvel.fandom.com/wiki/Wilhelm_van_Vile_(Earth-616)",
+          "imageUrl": "/images/wilhelm-van-vile-earth-616.jpg"
+        },
+        {
+          "name": "Spark",
+          "url": "https://marvel.fandom.com/wiki/Myron_Schmertz_(Earth-616)",
+          "imageUrl": "/images/myron-schmertz-earth-616.jpg"
+        },
+        {
+          "name": "Bora",
+          "url": "https://marvel.fandom.com/wiki/Anzhela_Federova_(Earth-616)",
+          "imageUrl": "/images/anzhela-federova-earth-616.jpg"
+        },
+        {
+          "name": "Cockroaches",
+          "url": "https://marvel.fandom.com/wiki/Cockroaches",
+          "imageUrl": "/images/cockroaches.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 76,
+      "title": "Web of Spider-Man #76",
+      "releaseDate": "March 5, 1991",
+      "antagonists": [
+        {
+          "name": "Avant Guard",
+          "url": "https://marvel.fandom.com/wiki/Avant_Guard_(Earth-616)",
+          "imageUrl": "/images/avant-guard-earth-616.jpg"
+        },
+        {
+          "name": "Painter",
+          "url": "https://marvel.fandom.com/wiki/Wilhelm_van_Vile_(Earth-616)",
+          "imageUrl": "/images/wilhelm-van-vile-earth-616.jpg"
+        },
+        {
+          "name": "Bora",
+          "url": "https://marvel.fandom.com/wiki/Anzhela_Federova_(Earth-616)",
+          "imageUrl": "/images/anzhela-federova-earth-616.jpg"
+        },
+        {
+          "name": "Spark",
+          "url": "https://marvel.fandom.com/wiki/Myron_Schmertz_(Earth-616)",
+          "imageUrl": "/images/myron-schmertz-earth-616.jpg"
+        },
+        {
+          "name": "Cockroaches",
+          "url": "https://marvel.fandom.com/wiki/Cockroaches",
+          "imageUrl": "/images/cockroaches.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 77,
+      "title": "Web of Spider-Man #77",
+      "releaseDate": "April 2, 1991",
+      "antagonists": [
+        {
+          "name": "Firebrand (Broxtel)",
+          "url": "https://marvel.fandom.com/wiki/Russell_Broxtel_(Earth-616)",
+          "imageUrl": "/images/russell-broxtel-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 78,
+      "title": "Web of Spider-Man #78",
+      "releaseDate": "May 7, 1991",
+      "antagonists": [
+        {
+          "name": "Firebrand (Broxtel)",
+          "url": "https://marvel.fandom.com/wiki/Russell_Broxtel_(Earth-616)",
+          "imageUrl": "/images/russell-broxtel-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 79,
+      "title": "Web of Spider-Man #79",
+      "releaseDate": "June 4, 1991",
+      "antagonists": [
+        {
+          "name": "Silvermane",
+          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
+        },
+        {
+          "name": "Silver Squad",
+          "url": "https://marvel.fandom.com/wiki/Silver_Squad_(Earth-616)",
+          "imageUrl": "/images/silver-squad-earth-616.jpg"
+        },
+        {
+          "name": "Ripster",
+          "url": "https://marvel.fandom.com/wiki/Ripster_(Android)_(Earth-616)",
+          "imageUrl": "/images/ripster-android-earth-616.jpg"
+        },
+        {
+          "name": "Slambeaux",
+          "url": "https://marvel.fandom.com/wiki/Slambeaux_(Android)_(Earth-616)",
+          "imageUrl": "/images/slambeaux-android-earth-616.jpg"
+        },
+        {
+          "name": "Twit",
+          "url": "https://marvel.fandom.com/wiki/Twit_(Android)_(Earth-616)",
+          "imageUrl": "/images/twit-android-earth-616.jpg"
+        },
+        {
+          "name": "Purty Larry",
+          "url": "https://marvel.fandom.com/wiki/Purty_Larry_(Android)_(Earth-616)",
+          "imageUrl": "/images/purty-larry-android-earth-616.jpg"
+        },
+        {
+          "name": "Silver Sable",
+          "url": "https://marvel.fandom.com/wiki/Silvija_Sablinova_(Earth-616)",
+          "imageUrl": "/images/silvija-sablinova-earth-616.jpg"
+        },
+        {
+          "name": "Tinkerer",
+          "url": "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
+          "imageUrl": "/images/phineas-mason-earth-616.jpg"
+        },
+        {
+          "name": "Silver Samurai",
+          "url": "https://marvel.fandom.com/wiki/Kenuichio_Harada_(Earth-616)",
+          "imageUrl": "/images/kenuichio-harada-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 80,
+      "title": "Web of Spider-Man #80",
+      "releaseDate": "July 2, 1991",
+      "antagonists": [
+        {
+          "name": "Silvermane",
+          "url": "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
+          "imageUrl": "/images/silvio-manfredi-earth-616.jpg"
+        },
+        {
+          "name": "Ripster",
+          "url": "https://marvel.fandom.com/wiki/Ripster_(Android)_(Earth-616)",
+          "imageUrl": "/images/ripster-android-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 81,
+      "title": "Web of Spider-Man #81",
+      "releaseDate": "August 6, 1991",
+      "antagonists": [
+        {
+          "name": "Bloodshed",
+          "url": "https://marvel.fandom.com/wiki/Wyndell_Dickinson_(Earth-616)",
+          "imageUrl": "/images/wyndell-dickinson-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 82,
+      "title": "Web of Spider-Man #82",
+      "releaseDate": "September 3, 1991",
+      "antagonists": [
+        {
+          "name": "The Maggia",
+          "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
+          "imageUrl": "/images/maggia-earth-616.jpg"
+        },
+        {
+          "name": "Man Mountain Marko",
+          "url": "https://marvel.fandom.com/wiki/Michael_Marko_(Earth-616)",
+          "imageUrl": "/images/michael-marko-earth-616.jpg"
+        },
+        {
+          "name": "Snaky Duvall",
+          "url": "https://marvel.fandom.com/wiki/Snaky_Duvall_(Earth-616)",
+          "imageUrl": "/images/snaky-duvall-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 83,
+      "title": "Web of Spider-Man #83",
+      "releaseDate": "October 1, 1991",
+      "antagonists": [
+        {
+          "name": "Hypertron 1.0",
+          "url": "https://marvel.fandom.com/wiki/Hypertron_1.0_(Chester)_(Earth-616)",
+          "imageUrl": "/images/hypertron-1-0-chester-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 84,
+      "title": "Web of Spider-Man #84",
+      "releaseDate": "November 5, 1991",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Alfredo Morelli",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        },
+        {
+          "name": "Richard Fisk",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "The Rose",
+          "url": "https://marvel.fandom.com/wiki/Rose_(Blume)_(Earth-616)",
+          "imageUrl": "/images/rose-blume-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 85,
+      "title": "Web of Spider-Man #85",
+      "releaseDate": "December 3, 1991",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Richard Fisk",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        },
+        {
+          "name": "The Rose",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Triad Brothers",
+          "url": "https://marvel.fandom.com/wiki/Triad_Brothers_(Earth-616)",
+          "imageUrl": "/images/triad-brothers-earth-616.jpg"
+        },
+        {
+          "name": "Deathwatch",
+          "url": "https://marvel.fandom.com/wiki/Deathwatch_(Earth-616)",
+          "imageUrl": "/images/deathwatch-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 86,
+      "title": "Web of Spider-Man #86",
+      "releaseDate": "January 7, 1992",
+      "antagonists": [
+        {
+          "name": "Kingpin (Wilson Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Richard Fisk",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        },
+        {
+          "name": "The Rose (Blume)",
+          "url": "https://marvel.fandom.com/wiki/Rose_(Blume)_(Earth-616)",
+          "imageUrl": "/images/rose-blume-earth-616.jpg"
+        },
+        {
+          "name": "The Rose (Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 87,
+      "title": "Web of Spider-Man #87",
+      "releaseDate": "February 4, 1992",
+      "antagonists": [
+        {
+          "name": "Richard Fisk",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "The Rose",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Praetorian Guards",
+          "url": "https://marvel.fandom.com/wiki/Praetorian_Guard_(Earth-616)",
+          "imageUrl": "/images/praetorian-guard-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 88,
+      "title": "Web of Spider-Man #88",
+      "releaseDate": "March 3, 1992",
+      "antagonists": [
+        {
+          "name": "Richard Fisk",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "The Rose (Sgt. Blume)",
+          "url": "https://marvel.fandom.com/wiki/Rose_(Blume)_(Earth-616)",
+          "imageUrl": "/images/rose-blume-earth-616.jpg"
+        },
+        {
+          "name": "The Rose (Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Praetorian Guard",
+          "url": "https://marvel.fandom.com/wiki/Praetorian_Guard_(Earth-616)",
+          "imageUrl": "/images/praetorian-guard-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 89,
+      "title": "Web of Spider-Man #89",
+      "releaseDate": "April 7, 1992",
+      "antagonists": [
+        {
+          "name": "Kingpin (Richard Fisk)",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        },
+        {
+          "name": "Blood Rose",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Praetorian Guards",
+          "url": "https://marvel.fandom.com/wiki/Praetorian_Guard_(Earth-616)",
+          "imageUrl": "/images/praetorian-guard-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 90,
+      "title": "Web of Spider-Man #90",
+      "releaseDate": "May 5, 1992",
+      "antagonists": [
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 91,
+      "title": "Web of Spider-Man #91",
+      "releaseDate": "June 2, 1992",
+      "antagonists": [
+        {
+          "name": "Killer Shrike",
+          "url": "https://marvel.fandom.com/wiki/Simon_Maddicks_(Earth-616)",
+          "imageUrl": "/images/simon-maddicks-earth-616.jpg"
+        },
+        {
+          "name": "1400 Club",
+          "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)"
+        },
+        {
+          "name": "Death Squad",
+          "url": "https://marvel.fandom.com/wiki/Death_Squad_(Foreigner)_(Earth-616)",
+          "imageUrl": "/images/death-squad-foreigner-earth-616.jpg"
+        },
+        {
+          "name": "Pulse-2",
+          "url": "https://marvel.fandom.com/wiki/Pulse_(Death_Squad)_(Earth-616)",
+          "imageUrl": "/images/pulse-death-squad-earth-616.jpg"
+        },
+        {
+          "name": "Whisper-3",
+          "url": "https://marvel.fandom.com/wiki/Whisper_(Death_Squad)_(Earth-616)",
+          "imageUrl": "/images/whisper-death-squad-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 92,
+      "title": "Web of Spider-Man #92",
+      "releaseDate": "July 7, 1992",
+      "antagonists": [
+        {
+          "name": "1400 Club",
+          "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        },
+        {
+          "name": "Death Squad",
+          "url": "https://marvel.fandom.com/wiki/Death_Squad_(Foreigner)_(Earth-616)",
+          "imageUrl": "/images/death-squad-foreigner-earth-616.jpg"
+        },
+        {
+          "name": "Pulse-3",
+          "url": "https://marvel.fandom.com/wiki/Pulse_(Death_Squad)_(Earth-616)",
+          "imageUrl": "/images/pulse-death-squad-earth-616.jpg"
+        },
+        {
+          "name": "Whisper-4",
+          "url": "https://marvel.fandom.com/wiki/Whisper_(Death_Squad)_(Earth-616)",
+          "imageUrl": "/images/whisper-death-squad-earth-616.jpg"
+        },
+        {
+          "name": "Swift-1",
+          "url": "https://marvel.fandom.com/wiki/Swift-1_(Earth-616)",
+          "imageUrl": "/images/swift-1-earth-616.jpg"
+        },
+        {
+          "name": "Warfare",
+          "url": "https://marvel.fandom.com/wiki/Warfare_(Earth-616)",
+          "imageUrl": "/images/warfare-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 93,
+      "title": "Web of Spider-Man #93",
+      "releaseDate": "August 4, 1992",
+      "antagonists": [
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 94,
+      "title": "Web of Spider-Man #94",
+      "releaseDate": "September 1, 1992",
+      "antagonists": [
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        },
+        {
+          "name": "Hag",
+          "url": "https://marvel.fandom.com/wiki/Hag_(Earth-616)",
+          "imageUrl": "/images/hag-earth-616.jpg"
+        },
+        {
+          "name": "Troll",
+          "url": "https://marvel.fandom.com/wiki/Troll_(Deathwatch)_(Earth-616)",
+          "imageUrl": "/images/troll-deathwatch-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 95,
+      "title": "Web of Spider-Man #95",
+      "releaseDate": "October 6, 1992",
+      "antagonists": [
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        },
+        {
+          "name": "Hag",
+          "url": "https://marvel.fandom.com/wiki/Hag_(Earth-616)",
+          "imageUrl": "/images/hag-earth-616.jpg"
+        },
+        {
+          "name": "Troll",
+          "url": "https://marvel.fandom.com/wiki/Troll_(Deathwatch)_(Earth-616)",
+          "imageUrl": "/images/troll-deathwatch-earth-616.jpg"
+        },
+        {
+          "name": "Deathspawn",
+          "url": "https://marvel.fandom.com/wiki/Deathspawn",
+          "imageUrl": "/images/deathspawn.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 96,
+      "title": "Web of Spider-Man #96",
+      "releaseDate": "November 3, 1992",
+      "antagonists": [
+        {
+          "name": "Deathspawn",
+          "url": "https://marvel.fandom.com/wiki/Deathspawn",
+          "imageUrl": "/images/deathspawn.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 97,
+      "title": "Web of Spider-Man #97",
+      "releaseDate": "December 1, 1992",
+      "antagonists": [
+        {
+          "name": "Blood Rose",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "1400 Club",
+          "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        },
+        {
+          "name": "Cyber-Hunters",
+          "url": "https://marvel.fandom.com/wiki/Cyber-Hunters_(Earth-616)",
+          "imageUrl": "/images/cyber-hunters-earth-616.jpg"
+        },
+        {
+          "name": "Richard Fisk",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 98,
+      "title": "Web of Spider-Man #98",
+      "releaseDate": "January 5, 1993",
+      "antagonists": [
+        {
+          "name": "Blood Rose",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "Richard Fisk",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        },
+        {
+          "name": "1400 Club",
+          "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        },
+        {
+          "name": "Cyber-Hunters",
+          "url": "https://marvel.fandom.com/wiki/Cyber-Hunters_(Earth-616)",
+          "imageUrl": "/images/cyber-hunters-earth-616.jpg"
+        },
+        {
+          "name": "New Enforcers",
+          "url": "https://marvel.fandom.com/wiki/New_Enforcers_(Earth-616)",
+          "imageUrl": "/images/new-enforcers-earth-616.jpg"
+        },
+        {
+          "name": "Blitz",
+          "url": "https://marvel.fandom.com/wiki/Jaime_Zimmerman_(Earth-616)",
+          "imageUrl": "/images/jaime-zimmerman-earth-616.jpg"
+        },
+        {
+          "name": "Eel",
+          "url": "https://marvel.fandom.com/wiki/Edward_Lavell_(Earth-616)",
+          "imageUrl": "/images/edward-lavell-earth-616.jpg"
+        },
+        {
+          "name": "Vanisher",
+          "url": "https://marvel.fandom.com/wiki/Vanisher_(Earth-616)",
+          "imageUrl": "/images/vanisher-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 99,
+      "title": "Web of Spider-Man #99",
+      "releaseDate": "February 2, 1993",
+      "antagonists": [
+        {
+          "name": "Blood Rose",
+          "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
+          "imageUrl": "/images/richard-fisk-earth-616.jpg"
+        },
+        {
+          "name": "1400 Club",
+          "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)"
+        },
+        {
+          "name": "Foreigner",
+          "url": "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
+          "imageUrl": "/images/foreigner-earth-616.jpg"
+        },
+        {
+          "name": "New Enforcers",
+          "url": "https://marvel.fandom.com/wiki/New_Enforcers_(Earth-616)",
+          "imageUrl": "/images/new-enforcers-earth-616.jpg"
+        },
+        {
+          "name": "Blitz",
+          "url": "https://marvel.fandom.com/wiki/Jaime_Zimmerman_(Earth-616)",
+          "imageUrl": "/images/jaime-zimmerman-earth-616.jpg"
+        },
+        {
+          "name": "Dragon Man",
+          "url": "https://marvel.fandom.com/wiki/Draconus_(Earth-616)",
+          "imageUrl": "/images/draconus-earth-616.jpg"
+        },
+        {
+          "name": "Dreadnought",
+          "url": "https://marvel.fandom.com/wiki/Dreadnought_(Robot)",
+          "imageUrl": "/images/dreadnought-robot.jpg"
+        },
+        {
+          "name": "Eel",
+          "url": "https://marvel.fandom.com/wiki/Edward_Lavell_(Earth-616)",
+          "imageUrl": "/images/edward-lavell-earth-616.jpg"
+        },
+        {
+          "name": "Vanisher",
+          "url": "https://marvel.fandom.com/wiki/Vanisher_(Earth-616)",
+          "imageUrl": "/images/vanisher-earth-616.jpg"
+        },
+        {
+          "name": "Madame Menace",
+          "url": "https://marvel.fandom.com/wiki/Sunset_Bain_(Earth-616)",
+          "imageUrl": "/images/sunset-bain-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 100,
+      "title": "Web of Spider-Man #100",
+      "releaseDate": "March 2, 1993",
+      "antagonists": [
+        {
+          "name": "New Enforcers",
+          "url": "https://marvel.fandom.com/wiki/New_Enforcers_(Earth-616)",
+          "imageUrl": "/images/new-enforcers-earth-616.jpg"
+        },
+        {
+          "name": "Dragon Man",
+          "url": "https://marvel.fandom.com/wiki/Draconus_(Earth-616)",
+          "imageUrl": "/images/draconus-earth-616.jpg"
+        },
+        {
+          "name": "Dreadnought",
+          "url": "https://marvel.fandom.com/wiki/Dreadnought_(Robot)",
+          "imageUrl": "/images/dreadnought-robot.jpg"
+        },
+        {
+          "name": "Vanisher",
+          "url": "https://marvel.fandom.com/wiki/Vanisher_(Earth-616)",
+          "imageUrl": "/images/vanisher-earth-616.jpg"
+        },
+        {
+          "name": "Tangle",
+          "url": "https://marvel.fandom.com/wiki/Gina_Palumbo_(Earth-616)",
+          "imageUrl": "/images/gina-palumbo-earth-616.jpg"
+        },
+        {
+          "name": "Blitz",
+          "url": "https://marvel.fandom.com/wiki/Jaime_Zimmerman_(Earth-616)",
+          "imageUrl": "/images/jaime-zimmerman-earth-616.jpg"
+        },
+        {
+          "name": "Eel",
+          "url": "https://marvel.fandom.com/wiki/Edward_Lavell_(Earth-616)",
+          "imageUrl": "/images/edward-lavell-earth-616.jpg"
+        },
+        {
+          "name": "Plantman",
+          "url": "https://marvel.fandom.com/wiki/Samuel_Smithers_(Earth-616)",
+          "imageUrl": "/images/samuel-smithers-earth-616.jpg"
+        },
+        {
+          "name": "Thermite",
+          "url": "https://marvel.fandom.com/wiki/Sam_Yurimoto_(Earth-616)",
+          "imageUrl": "/images/sam-yurimoto-earth-616.jpg"
+        },
+        {
+          "name": "Mentallo",
+          "url": "https://marvel.fandom.com/wiki/Marvin_Flumm_(Earth-616)",
+          "imageUrl": "/images/marvin-flumm-earth-616.jpg"
+        },
+        {
+          "name": "Mr. Fear",
+          "url": "https://marvel.fandom.com/wiki/Alan_Fagan_(Earth-616)",
+          "imageUrl": "/images/alan-fagan-earth-616.jpg"
+        },
+        {
+          "name": "Fixer",
+          "url": "https://marvel.fandom.com/wiki/Norbert_Ebersol_(Earth-616)",
+          "imageUrl": "/images/norbert-ebersol-earth-616.jpg"
+        },
+        {
+          "name": "Madame Menace",
+          "url": "https://marvel.fandom.com/wiki/Sunset_Bain_(Earth-616)",
+          "imageUrl": "/images/sunset-bain-earth-616.jpg"
+        },
+        {
+          "name": "A.I.M. Agents",
+          "url": "https://marvel.fandom.com/wiki/Advanced_Idea_Mechanics_(Earth-616)",
+          "imageUrl": "/images/advanced-idea-mechanics-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 101,
+      "title": "Web of Spider-Man #101",
+      "releaseDate": "April 6, 1993",
+      "antagonists": [
+        {
+          "name": "Carnage (Cletus Kasady)",
+          "url": "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
+          "imageUrl": "/images/cletus-kasady-earth-616.jpg"
+        },
+        {
+          "name": "Shriek",
+          "url": "https://marvel.fandom.com/wiki/Frances_Barrison_(Earth-616)",
+          "imageUrl": "/images/frances-barrison-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 102,
+      "title": "Web of Spider-Man #102",
+      "releaseDate": "May 4, 1993",
+      "antagonists": [
+        {
+          "name": "Carnage",
+          "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/carnage-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Shriek (Frances Barrison)",
+          "url": "https://marvel.fandom.com/wiki/Frances_Barrison_(Earth-616)",
+          "imageUrl": "/images/frances-barrison-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Carrion (Malcolm McBride)",
+          "url": "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)",
+          "imageUrl": "/images/malcolm-mcbride-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 103,
+      "title": "Web of Spider-Man #103",
+      "releaseDate": "June 1, 1993",
+      "antagonists": [
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Carnage",
+          "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/carnage-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Shriek (Frances Barrison)",
+          "url": "https://marvel.fandom.com/wiki/Frances_Barrison_(Earth-616)",
+          "imageUrl": "/images/frances-barrison-earth-616.jpg"
+        },
+        {
+          "name": "Carrion (Malcolm McBride)",
+          "url": "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)",
+          "imageUrl": "/images/malcolm-mcbride-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Man Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 104,
+      "title": "Web of Spider-Man #104",
+      "releaseDate": "July 6, 1993",
+      "antagonists": [
+        {
+          "name": "Goddess",
+          "url": "https://marvel.fandom.com/wiki/Goddess_(Earth-616)",
+          "imageUrl": "/images/goddess-earth-616.jpg"
+        },
+        {
+          "name": "Moondragon",
+          "url": "https://marvel.fandom.com/wiki/Heather_Douglas_(Earth-616)",
+          "imageUrl": "/images/heather-douglas-earth-616.jpg"
+        },
+        {
+          "name": "Deathgrin",
+          "url": "https://marvel.fandom.com/wiki/Daniel_Davis_(Earth-616)",
+          "imageUrl": "/images/daniel-davis-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 105,
+      "title": "Web of Spider-Man #105",
+      "releaseDate": "August 3, 1993",
+      "chronologicalPlacementHint": "between Infinity Crusade #2 and #3",
+      "antagonists": [
+        {
+          "name": "Moondragon",
+          "url": "https://marvel.fandom.com/wiki/Heather_Douglas_(Earth-616)",
+          "imageUrl": "/images/heather-douglas-earth-616.jpg"
+        },
+        {
+          "name": "Goddess",
+          "url": "https://marvel.fandom.com/wiki/Goddess_(Earth-616)",
+          "imageUrl": "/images/goddess-earth-616.jpg"
+        },
+        {
+          "name": "Quicksilver",
+          "url": "https://marvel.fandom.com/wiki/Pietro_Maximoff_(Earth-616)",
+          "imageUrl": "/images/pietro-maximoff-earth-616.jpg"
+        },
+        {
+          "name": "Scarlet Witch",
+          "url": "https://marvel.fandom.com/wiki/Wanda_Maximoff_(Earth-616)",
+          "imageUrl": "/images/wanda-maximoff-earth-616.jpg"
+        },
+        {
+          "name": "Thor",
+          "url": "https://marvel.fandom.com/wiki/Thor_Odinson_(Earth-616)",
+          "imageUrl": "/images/thor-odinson-earth-616.jpg"
+        },
+        {
+          "name": "Multiple Man",
+          "url": "https://marvel.fandom.com/wiki/James_Madrox_(Earth-616)",
+          "imageUrl": "/images/james-madrox-earth-616.jpg"
+        },
+        {
+          "name": "Sasquatch",
+          "url": "https://marvel.fandom.com/wiki/Walter_Langkowski_(Earth-616)",
+          "imageUrl": "/images/walter-langkowski-earth-616.jpg"
+        },
+        {
+          "name": "Gamora",
+          "url": "https://marvel.fandom.com/wiki/Gamora_Zen_Whoberi_Ben_Titan_(Earth-7528)",
+          "imageUrl": "/images/gamora-zen-whoberi-ben-titan-earth-7528.jpg"
+        },
+        {
+          "name": "Moon Knight",
+          "url": "https://marvel.fandom.com/wiki/Marc_Spector_(Earth-616)",
+          "imageUrl": "/images/marc-spector-earth-616.jpg"
+        },
+        {
+          "name": "Invisible Woman",
+          "url": "https://marvel.fandom.com/wiki/Susan_Storm_(Earth-616)",
+          "imageUrl": "/images/susan-storm-earth-616.jpg"
+        },
+        {
+          "name": "Archangel",
+          "url": "https://marvel.fandom.com/wiki/Warren_Worthington_III_(Earth-616)",
+          "imageUrl": "/images/warren-worthington-iii-earth-616.jpg"
+        },
+        {
+          "name": "Deathgrin",
+          "url": "https://marvel.fandom.com/wiki/Daniel_Davis_(Earth-616)",
+          "imageUrl": "/images/daniel-davis-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 106,
+      "title": "Web of Spider-Man #106",
+      "releaseDate": "September 7, 1993",
+      "antagonists": [
+        {
+          "name": "Strong Guy",
+          "url": "https://marvel.fandom.com/wiki/Guido_Carosella_(Earth-616)",
+          "imageUrl": "/images/guido-carosella-earth-616.jpg"
+        },
+        {
+          "name": "Firestar (Angelica Jones)",
+          "url": "https://marvel.fandom.com/wiki/Angelica_Jones_(Earth-616)",
+          "imageUrl": "/images/angelica-jones-earth-616.jpg"
+        },
+        {
+          "name": "Darkhawk (Chris Powell)",
+          "url": "https://marvel.fandom.com/wiki/Christopher_Powell_(Earth-616)",
+          "imageUrl": "/images/christopher-powell-earth-616.jpg"
+        },
+        {
+          "name": "Rogue",
+          "url": "https://marvel.fandom.com/wiki/Anna_Marie_LeBeau_(Earth-616)",
+          "imageUrl": "/images/anna-marie-lebeau-earth-616.jpg"
+        },
+        {
+          "name": "Thing (Ben Grimm)",
+          "url": "https://marvel.fandom.com/wiki/Benjamin_Grimm_(Earth-616)",
+          "imageUrl": "/images/benjamin-grimm-earth-616.jpg"
+        },
+        {
+          "name": "Deathgrin",
+          "url": "https://marvel.fandom.com/wiki/Daniel_Davis_(Earth-616)",
+          "imageUrl": "/images/daniel-davis-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 107,
+      "title": "Web of Spider-Man #107",
+      "releaseDate": "October 5, 1993",
+      "antagonists": [
+        {
+          "name": "Sandstorm",
+          "url": "https://marvel.fandom.com/wiki/Tony_Trainer_(Earth-616)",
+          "imageUrl": "/images/tony-trainer-earth-616.jpg"
+        },
+        {
+          "name": "Scorpion (Mac Gargan)",
+          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 108,
+      "title": "Web of Spider-Man #108",
+      "releaseDate": "November 2, 1993",
+      "antagonists": [
+        {
+          "name": "Sandstorm",
+          "url": "https://marvel.fandom.com/wiki/Tony_Trainer_(Earth-616)",
+          "imageUrl": "/images/tony-trainer-earth-616.jpg"
+        },
+        {
+          "name": "Quicksand",
+          "url": "https://marvel.fandom.com/wiki/Quicksand_(Nguyet)_(Earth-616)",
+          "imageUrl": "/images/quicksand-nguyet-earth-616.jpg"
+        },
+        {
+          "name": "Scorpion (Mac Gargan)",
+          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 109,
+      "title": "Web of Spider-Man #109",
+      "releaseDate": "December 7, 1993",
+      "antagonists": [
+        {
+          "name": "Shocker",
+          "url": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+          "imageUrl": "/images/herman-schultz-earth-616.jpg"
+        },
+        {
+          "name": "Lizard",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 110,
+      "title": "Web of Spider-Man #110",
+      "releaseDate": "January 4, 1994",
+      "antagonists": [
+        {
+          "name": "Warrant (Gray Garrison)",
+          "url": "https://marvel.fandom.com/wiki/Gray_Garrison_(Earth-616)",
+          "imageUrl": "/images/gray-garrison-earth-616.jpg"
+        },
+        {
+          "name": "Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 111,
+      "title": "Web of Spider-Man #111",
+      "releaseDate": "February 1, 1994",
+      "antagonists": [
+        {
+          "name": "Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        },
+        {
+          "name": "Warrant",
+          "url": "https://marvel.fandom.com/wiki/Gray_Garrison_(Earth-616)",
+          "imageUrl": "/images/gray-garrison-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 112,
+      "title": "Web of Spider-Man #112",
+      "releaseDate": "March 1, 1994",
+      "antagonists": [
+        {
+          "name": "Chameleon (Dmitri Smerdyakov)",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 113,
+      "title": "Web of Spider-Man #113",
+      "releaseDate": "April 5, 1994",
+      "antagonists": [
+        {
+          "name": "F.A.C.A.D.E.",
+          "url": "https://marvel.fandom.com/wiki/Full_Acclimation_Combat_And_Defence_Explo-skeleton_(Earth-616)",
+          "imageUrl": "/images/full-acclimation-combat-and-defence-explo-skeleton-earth-616.jpg"
+        },
+        {
+          "name": "Silencers",
+          "url": "https://marvel.fandom.com/wiki/Silencers_(Earth-616)",
+          "imageUrl": "/images/silencers-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 114,
+      "title": "Web of Spider-Man #114",
+      "releaseDate": "May 3, 1994",
+      "antagonists": [
+        {
+          "name": "F.A.C.A.D.E.",
+          "url": "https://marvel.fandom.com/wiki/Full_Acclimation_Combat_And_Defence_Explo-skeleton_(Earth-616)",
+          "imageUrl": "/images/full-acclimation-combat-and-defence-explo-skeleton-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 115,
+      "title": "Web of Spider-Man #115",
+      "releaseDate": "June 7, 1994",
+      "antagonists": [
+        {
+          "name": "F.A.C.A.D.E.",
+          "url": "https://marvel.fandom.com/wiki/Full_Acclimation_Combat_And_Defence_Explo-skeleton_(Earth-616)",
+          "imageUrl": "/images/full-acclimation-combat-and-defence-explo-skeleton-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 116,
+      "title": "Web of Spider-Man #116",
+      "releaseDate": "July 5, 1994",
+      "antagonists": [
+        {
+          "name": "F.A.C.A.D.E.",
+          "url": "https://marvel.fandom.com/wiki/Full_Acclimation_Combat_And_Defence_Explo-skeleton_(Earth-616)",
+          "imageUrl": "/images/full-acclimation-combat-and-defence-explo-skeleton-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 117,
+      "title": "Web of Spider-Man #117",
+      "releaseDate": "August 2, 1994",
+      "antagonists": [
+        {
+          "name": "The Host",
+          "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)"
+        },
+        {
+          "name": "Chakra",
+          "url": "https://marvel.fandom.com/wiki/Anjali_Sridhara_(Earth-616)",
+          "imageUrl": "/images/anjali-sridhara-earth-616.jpg"
+        },
+        {
+          "name": "Boone",
+          "url": "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+          "imageUrl": "/images/morgan-boone-earth-616.jpg"
+        },
+        {
+          "name": "Mr. Nacht",
+          "url": "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+          "imageUrl": "/images/walther-nacht-earth-616.jpg"
+        },
+        {
+          "name": "Medea",
+          "url": "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+          "imageUrl": "/images/medea-kovack-earth-616.jpg"
+        },
+        {
+          "name": "Dr. Judas Traveller",
+          "url": "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+          "imageUrl": "/images/judas-traveller-earth-616.jpg"
+        },
+        {
+          "name": "Professor Miles Warren",
+          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
+          "imageUrl": "/images/miles-warren-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 118,
+      "title": "Web of Spider-Man #118",
+      "releaseDate": "September 6, 1994",
+      "antagonists": [
+        {
+          "name": "Venom (Eddie Brock)",
+          "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
+          "imageUrl": "/images/edward-brock-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 119,
+      "title": "Web of Spider-Man #119",
+      "releaseDate": "October 4, 1994",
+      "antagonists": [
+        {
+          "name": "Venom (Eddie Brock)",
+          "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
+          "imageUrl": "/images/edward-brock-earth-616.jpg"
+        },
+        {
+          "name": "Scream (Donna Diego)",
+          "url": "https://marvel.fandom.com/wiki/Donna_Diego_(Earth-616)",
+          "imageUrl": "/images/donna-diego-earth-616.jpg"
+        },
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 120,
+      "title": "Web of Spider-Man #120",
+      "releaseDate": "November 1, 1994",
+      "antagonists": [
+        {
+          "name": "Tombstone (Lonnie Lincoln)",
+          "url": "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
+          "imageUrl": "/images/alonzo-lincoln-earth-616.jpg"
+        },
+        {
+          "name": "Grim Hunter (Vladimir Kravinoff)",
+          "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg"
+        },
+        {
+          "name": "A.R.E.S.",
+          "url": "https://marvel.fandom.com/wiki/Assassination,_Revolution,_Extortion_and_Sabotage_(Earth-616)",
+          "imageUrl": "/images/assassination-revolution-extortion-and-sabotage-earth-616.jpg"
+        },
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 121,
+      "title": "Web of Spider-Man #121",
+      "releaseDate": "December 6, 1994",
+      "antagonists": [
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        },
+        {
+          "name": "Grim Hunter (Vladimir Kravinoff)",
+          "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 122,
+      "title": "Web of Spider-Man #122",
+      "releaseDate": "January 3, 1995",
+      "antagonists": [
+        {
+          "name": "Jack",
+          "url": "https://marvel.fandom.com/wiki/Jack_(Spider-Clone)_(Earth-616)",
+          "imageUrl": "/images/jack-spider-clone-earth-616.jpg"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://marvel.fandom.com/wiki/Guardian_(Spider-Clone)_(Earth-616)",
+          "imageUrl": "/images/guardian-spider-clone-earth-616.jpg"
+        },
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 123,
+      "title": "Web of Spider-Man #123",
+      "releaseDate": "February 7, 1995",
+      "antagonists": [
+        {
+          "name": "Jack (Peter Parker Clone)",
+          "url": "https://marvel.fandom.com/wiki/Jack_(Spider-Clone)_(Earth-616)",
+          "imageUrl": "/images/jack-spider-clone-earth-616.jpg"
+        },
+        {
+          "name": "Jackal (\"Miles Warren\")",
+          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+          "imageUrl": "/images/miles-warren-catskill-mountains-clone-earth-616.jpg"
+        },
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 124,
+      "title": "Web of Spider-Man #124",
+      "releaseDate": "March 7, 1995",
+      "antagonists": [
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 125,
+      "title": "Web of Spider-Man #125",
+      "releaseDate": "April 4, 1995",
+      "antagonists": [
+        {
+          "name": "Green Goblin (Phil Urich)",
+          "url": "https://marvel.fandom.com/wiki/Phillip_Urich_(Earth-616)",
+          "imageUrl": "/images/phillip-urich-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 126,
+      "title": "Web of Spider-Man #126",
+      "releaseDate": "May 2, 1995",
+      "antagonists": [
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 127,
+      "title": "Web of Spider-Man #127",
+      "releaseDate": "June 13, 1995",
+      "antagonists": [
+        {
+          "name": "Jackal (\"Miles Warren\")",
+          "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+          "imageUrl": "/images/miles-warren-catskill-mountains-clone-earth-616.jpg"
+        },
+        {
+          "name": "Kaine",
+          "url": "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
+          "imageUrl": "/images/kaine-parker-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 128,
+      "title": "Web of Spider-Man #128",
+      "releaseDate": "July 13, 1995",
+      "antagonists": [
+        {
+          "name": "D'Spayre",
+          "url": "https://marvel.fandom.com/wiki/D%27Spayre_(Earth-616)",
+          "imageUrl": "/images/d-27spayre-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 129,
+      "title": "Web of Spider-Man #129",
+      "releaseDate": "August 10, 1995",
+      "antagonists": [
+        {
+          "name": "New Warriors",
+          "url": "https://marvel.fandom.com/wiki/New_Warriors_(Earth-616)",
+          "imageUrl": "/images/new-warriors-earth-616.jpg"
+        },
+        {
+          "name": "Scarlet Spider (Ben Reilly)",
+          "url": "https://marvel.fandom.com/wiki/Benjamin_Reilly_(Earth-616)",
+          "imageUrl": "/images/benjamin-reilly-earth-616.jpg"
+        },
+        {
+          "name": "Hindsight",
+          "url": "https://marvel.fandom.com/wiki/Carlton_LaFroyge_(Earth-616)",
+          "imageUrl": "/images/carlton-lafroyge-earth-616.jpg"
+        },
+        {
+          "name": "Justice",
+          "url": "https://marvel.fandom.com/wiki/Vance_Astrovik_(Earth-616)",
+          "imageUrl": "/images/vance-astrovik-earth-616.jpg"
+        },
+        {
+          "name": "Firestar",
+          "url": "https://marvel.fandom.com/wiki/Angelica_Jones_(Earth-616)",
+          "imageUrl": "/images/angelica-jones-earth-616.jpg"
+        },
+        {
+          "name": "Speedball",
+          "url": "https://marvel.fandom.com/wiki/Darrion_Grobe_(Earth-9485)",
+          "imageUrl": "/images/darrion-grobe-earth-9485.jpg"
+        },
+        {
+          "name": "Power Pax",
+          "url": "https://marvel.fandom.com/wiki/Alexander_Power_(Earth-616)",
+          "imageUrl": "/images/alexander-power-earth-616.jpg"
+        }
+      ]
+    }
+  ]
+}
