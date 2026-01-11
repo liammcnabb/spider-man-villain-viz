@@ -245,9 +245,34 @@ npm run validate   # Type-check + tests (used in CI)
  **Do**: Test with `npx ts-node test-merge-logic.ts` (< 1 second)
  **Do**: Fix processing logic, not data sources
 
+## Strong Agent → Weak Agent Workflow
+
+For complex issues requiring diagnosis and implementation by specialized agents:
+
+**Complete Documentation:**
+- [STRONG_WEAK_AGENT_WORKFLOW.md](./STRONG_WEAK_AGENT_WORKFLOW.md) - Full workflow definition and patterns
+- [SEQUENTIAL_SUBAGENT_IMPLEMENTATION.md](./SEQUENTIAL_SUBAGENT_IMPLEMENTATION.md) - Implementation guide with code examples
+- [QUICK_REFERENCE_STRONG_WEAK_WORKFLOW.md](./QUICK_REFERENCE_STRONG_WEAK_WORKFLOW.md) - Quick reference card
+
+**Key Benefits:**
+- ✅ Strong Agent diagnoses and proves the issue
+- ✅ Strong Agent creates detailed instructions
+- ✅ Weak Agents execute exact instructions (code, tests, docs)
+- ✅ Fully automated with `runSubagent()` tool
+- ✅ Zero manual coordination
+- ✅ Perfect for example repositories
+
+**Current Implementation:**
+- Sequential Sub-Agent approach (10-15 min per workflow)
+- Fully automated, reproducible, auditable
+- Ready to evolve to parallel spawner for 3× speedup
+
+Use this workflow for complex, multi-file issues requiring careful proof and execution.
+
 ## See Also
 
 - [MODERN_PATTERNS_2026.md](./MODERN_PATTERNS_2026.md) - Complete implementation guide
+- [STRONG_WEAK_AGENT_WORKFLOW.md](./STRONG_WEAK_AGENT_WORKFLOW.md) - Agent delegation pattern
 - [.cursorrules](../.cursorrules) - Project context for AI agents
 - [.github/copilot-instructions.md](../.github/copilot-instructions.md) - Copilot config
 
