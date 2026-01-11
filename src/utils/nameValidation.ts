@@ -28,6 +28,11 @@ export function isUnnamedOrInvalidAntagonist(name: string): boolean {
 
   const normalized = name.toLowerCase().trim();
 
+  // Treat empty after trim as invalid
+  if (!normalized) {
+    return true;
+  }
+
   // Check for exact matches or prefix patterns
   return (
     normalized === 'unknown' ||

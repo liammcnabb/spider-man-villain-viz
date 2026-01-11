@@ -142,8 +142,13 @@ export class MarvelScraper {
        /${issues.length} issues successfully`
     );
 
+    // Extract series slug from URL template for accurate series identification
+    // URL template: "https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_{issue}"
+    // We want: "Amazing Spider-Man Vol 1"
+    const seriesSlug = this.extractSeriesSlugFromTemplate(this.currentSeries.slugTemplate);
+
     return {
-      series: volumeName,
+      series: seriesSlug,
       baseUrl: this.currentSeries.slugTemplate,
       issues
     };
@@ -225,6 +230,27 @@ export class MarvelScraper {
       }
       throw error;
     }
+  }
+
+  /**
+   * Extracts the series slug from a URL template
+   * Converts wiki format (underscores) to display format (spaces)
+   * 
+   * Example: "https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_{issue}"
+   * Returns: "Amazing Spider-Man Vol 1"
+   * 
+   * @param urlTemplate - URL template string
+   * @returns Series name in display format
+   */
+  private extractSeriesSlugFromTemplate(urlTemplate: string): string {
+    // Extract the series slug between "/wiki/" and "_{issue}"
+    const match = urlTemplate.match(/\/wiki\/(.+?)_\{issue\}/);
+    if (match && match[1]) {
+      // Convert underscores to spaces
+      return match[1].replace(/_/g, ' ');
+    }
+    // Fallback to a default if extraction fails
+    return 'Amazing Spider-Man Vol 1';
   }
 
   /**

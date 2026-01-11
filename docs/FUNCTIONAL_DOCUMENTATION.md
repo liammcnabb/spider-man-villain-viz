@@ -68,6 +68,12 @@ flowchart TD
   - Fetches issue pages and extracts antagonists lists and metadata (title, dates). See [src/scraper/marvelScraper.ts](src/scraper/marvelScraper.ts).
   - Expected behavior: rate‑limit to ~1 req/sec, cache, and validate data before emission.
   - Saves raw scraped data to `raw.Series.json` for reproducibility.
+  - **Series Name Handling:** Extracts full series name from URL template (e.g., `Amazing_Spider-Man_Vol_1` from URL) and converts to display format (e.g., `Amazing Spider-Man Vol 1`) for proper placement hint matching during merge.
+  - **Antagonist Filtering:** Uses `isUnnamedOrInvalidAntagonist()` helper to exclude:
+    - "unknown", "unnamed", "unidentified" (case-insensitive, exact or prefix matches)
+    - Single character placeholders like "?"
+    - Whitespace-only names
+    - This filtering prevents invalid entities from entering the dataset
 
 - **Processor:**
   - Normalizes names, removes aliases, and standardizes spacing via `normalizeVillainName()`.
@@ -76,6 +82,7 @@ flowchart TD
   - Separates groups using `classifyKind()`; builds per‑issue `groups` with dynamic `members` from villains present.
   - Generates `timeline` with `chronologicalPosition` and per‑issue `villainCount`.
   - Computes `stats`: `totalVillains`, `mostFrequent`, `averageFrequency`, `firstAppearances` map.
+  - **Data Quality Layer:** Also applies `isUnnamedOrInvalidAntagonist()` filtering during data processing as additional validation layer
   - Serializes into UI‑ready JSON via `serializeProcessedData()`. See [src/utils/dataProcessor.ts](src/utils/dataProcessor.ts).
 
 - **Merger:** (saved to `raw.Series.json`).
@@ -249,6 +256,24 @@ npm run scrape -- --series "Amazing Spider-Man Vol 1" --issues 1-20
 npm run serve
 ```
 
----
+## Data Quality & Fixes
 
-For architecture details, see [docs/ARCHITECTURE.md](ARCHITECTURE.md). For development standards, see [docs/CODE_GUIDELINES.md](CODE_GUIDELINES.md) and [docs/STYLE_GUIDE.md](STYLE_GUIDE.md).
+### Series Name Extraction (2026-01-11)
+- **Issue:** Series names were being shortened (e.g., "Amazing" instead of "Amazing Spider-Man Vol 1"), preventing placement hint resolution during merge
+- **Root Cause:** `scrapeIssues()` was returning the `volumeName` parameter instead of extracting the full series slug from URL templates
+- **Fix:** Added `extractSeriesSlugFromTemplate()` method in `MarvelScraper` to:
+  - Parse URL pattern: `https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_{issue}`
+  - Extract series slug: `Amazing_Spider-Man_Vol_1`
+  - Convert to display format: `Amazing Spider-Man Vol 1`
+  - Properly match placement hints during merge process
+- **Testing:** Added 17 new unit tests in `seriesNameExtraction.test.ts` covering URL parsing, series name matching, and antagonist filtering
+
+### Unnamed/Invalid Antagonist Filtering
+- **Feature:** Unified filtering of unnamed/unknown antagonists across scraper and processor
+- **Implementation:** `isUnnamedOrInvalidAntagonist()` helper in `src/utils/nameValidation.ts`
+- **Filters:** 
+  - "unknown", "unnamed", "unidentified" (exact or prefix matches, case-insensitive)
+  - "?" character placeholders
+  - Whitespace-only names
+- **Layers:** Applied at both scraping (prevent entry) and processing (validation) stages for defense-in-depth
+

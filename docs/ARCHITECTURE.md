@@ -64,6 +64,13 @@ The system now uses a **runner-based architecture** with clean separation betwee
    - Release date
    - Antagonists (name, URL, image URL)
 
+**Series Name Extraction**:
+- The MarvelScraper now extracts the full series name from the URL template
+- Example: URL template `https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_{issue}` 
+  extracts to `"Amazing Spider-Man Vol 1"` (not just `"Amazing"`)
+- This ensures proper matching in placement hint resolution during merge process
+- Private method: `extractSeriesSlugFromTemplate()` handles URL parsing
+
 **Methods**:
 ```typescript
 async run(options: ScrapeOptions): Promise<RawVillainData>
