@@ -99,10 +99,18 @@ flowchart TD
 - **Visualization Config:**
   - Translates processed or combined timeline into D3 `data`, `scales`, `colors`, and `seriesColors`. See [src/visualization/D3ConfigBuilder.ts](src/visualization/D3ConfigBuilder.ts) (primary).
 
-- **Publishing:**
-  - Copies all data files to [public/data](public/data) for browser use.
-  - Uses glob pattern to copy all `*.json` files from `data/` directory.
-  - Serves with Python simple server via `npm run serve`
+- **Publishing & Serving:**
+  - **Publisher:** Copies all data files to [public/data](public/data) for browser use via validation.
+    - Validates source directory existence
+    - Validates file pattern matching
+    - Reports file sizes and total data size
+    - Graceful error handling
+  - **StaticServer:** Cross-platform Node.js HTTP server (pure Node, no external dependencies)
+    - Serves static files with correct MIME types
+    - Directory traversal protection
+    - `index.html` fallback for directories
+    - Graceful SIGINT/SIGTERM shutdown
+    - Works on Windows, macOS, Linux without Python dependency
 
 - `RawVillainData` → scraped input per series.
 - `ProcessedData` → normalized output (villains, timeline, groups, stats).
@@ -210,10 +218,15 @@ classDiagram
     - Tests: member derivation invariants, empty rosters, member order preservation
 
 - **Config Generation:**
-  - D3 config generation spans two modules (`d3Graph.ts` and `generateD3FromCombined.ts`). Unify into a single `D3ConfigBuilder` with explicit input types: `ProcessedData | CombinedData`.
+  - ✅ COMPLETE: D3 config generation unified in `D3ConfigBuilder` with explicit input types: `ProcessedData | CombinedData`.
 
 - **Serving Strategy:**
-  - `npm run serve` uses Python’s HTTP server. Provide a cross‑platform Node static server (`http-server` or small Express app) for Windows environments without Python.
+  - ✅ COMPLETE: Cross-platform Node.js static server (`StaticServer`) replaces Python dependency.
+    - Pure Node.js implementation using built-in `http` module
+    - Works on Windows, macOS, Linux
+    - Security: directory traversal protection
+    - MIME type detection for all file types
+    - Graceful process shutdown
 
 - **File Layout & Defaults:**
   - Combined output overwrites [data/villains.json](data/villains.json) after per‑series writes. Reduce confusion by writing combined outputs to `villains.combined.json` and `d3-config.combined.json`, keeping `villains.json` as the latest single‑series unless explicitly configured.

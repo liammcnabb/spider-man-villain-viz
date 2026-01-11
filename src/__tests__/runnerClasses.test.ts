@@ -183,19 +183,22 @@ describe('Publisher', () => {
       });
       fail('Should have thrown an error');
     } catch (error: any) {
-      expect(error.message).toContain('Source directory not found');
+      expect(error.message).toContain('Publishing validation failed');
     }
   });
 
   it('should handle empty source directory gracefully', async () => {
     const publisher = new Publisher();
-    // Should not throw, just log warning
-    await publisher.run({
-      srcDir: tempSrc,
-      destDir: tempDest
-    });
-    // If we get here, test passed
-    expect(true).toBe(true);
+    // Should throw validation error for no files
+    try {
+      await publisher.run({
+        srcDir: tempSrc,
+        destDir: tempDest
+      });
+      fail('Should have thrown an error for no files');
+    } catch (error: any) {
+      expect(error.message).toContain('Publishing validation failed');
+    }
   });
 
   it('should copy files successfully', async () => {

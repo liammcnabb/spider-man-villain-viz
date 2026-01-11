@@ -104,7 +104,6 @@ spider-man-villain-timeline/
 
 - Node.js 16+ 
 - npm or yarn
-- Python 3.8+ (for serving if needed)
 
 ### Installation
 

@@ -14,6 +14,7 @@ import { ScrapeRunner } from './utils/ScrapeRunner';
 import { ProcessRunner } from './utils/ProcessRunner';
 import { MergeRunner } from './utils/MergeRunner';
 import { Publisher } from './utils/Publisher';
+import { startStaticServer } from './utils/StaticServer';
 import { parseCommandArgs, CommandOptions } from './utils/commandParser';
 import { getDefaultIssuesForVolume } from './utils/cliParser';
 
@@ -196,34 +197,16 @@ async function handlePublish(options: CommandOptions): Promise<void> {
 async function handleServe(options: CommandOptions): Promise<void> {
   if (options.command !== 'serve') return;
 
-  console.log(`
-🕷️  Starting HTTP server...
-
-  URL: http://localhost:${options.port}
-  Directory: public/
-
-Press Ctrl+C to stop the server.
-  `);
-
-  // Use Python's http.server as a simple static file server
-  // This matches the existing package.json script behavior
-  const { spawn } = await import('child_process');
-  const server = spawn('python', ['-m', 'http.server', options.port?.toString() || '8000', '--directory', 'public'], {
-    stdio: 'inherit'
-  });
-
-  server.on('error', (error) => {
+  try {
+    await startStaticServer({
+      port: options.port,
+      directory: 'public',
+      verbose: false
+    });
+  } catch (error) {
     console.error('Failed to start server:', error);
-    console.error('\nMake sure Python is installed and available in your PATH.');
     process.exit(1);
-  });
-
-  // Handle graceful shutdown
-  process.on('SIGINT', () => {
-    console.log('\n\nShutting down server...');
-    server.kill();
-    process.exit(0);
-  });
+  }
 }
 
 /**

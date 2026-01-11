@@ -67,6 +67,32 @@ export class Publisher {
   }
 
   /**
+   * Validate that source directory and files exist
+   */
+  private validateSources(srcDir: string, pattern: string): { valid: boolean; files: string[]; errors: string[] } {
+    const errors: string[] = [];
+
+    // Check source directory
+    if (!fs.existsSync(srcDir)) {
+      errors.push(`Source directory not found: ${srcDir}`);
+      return { valid: false, files: [], errors };
+    }
+
+    // Get files
+    const files = this.getFilesToPublish(srcDir, pattern);
+
+    if (files.length === 0) {
+      errors.push(`No files found matching pattern: ${pattern}`);
+    }
+
+    return {
+      valid: errors.length === 0,
+      files,
+      errors
+    };
+  }
+
+  /**
    * Publish data files to public directory
    * 
    * @param options - Publishing configuration options
@@ -76,36 +102,42 @@ export class Publisher {
     const destDir = options.destDir || this.defaultDestDir;
     const pattern = options.pattern || '*.json';
 
-    // Ensure source directory exists
-    if (!fs.existsSync(srcDir)) {
-      throw new Error(`Source directory not found: ${srcDir}`);
+    console.log(`\n📤 Publishing data files...`);
+    console.log(`   Source: ${srcDir}`);
+    console.log(`   Destination: ${destDir}`);
+    console.log(`   Pattern: ${pattern}`);
+
+    // Validate sources
+    const validation = this.validateSources(srcDir, pattern);
+
+    if (!validation.valid) {
+      console.error(`\n❌ Validation failed:`);
+      validation.errors.forEach(err => console.error(`   • ${err}`));
+      throw new Error('Publishing validation failed');
     }
 
     // Ensure destination directory exists
     this.ensureDestDir(destDir);
 
-    console.log(`📤 Publishing data files...`);
-    console.log(`   Source: ${srcDir}`);
-    console.log(`   Destination: ${destDir}`);
+    console.log(`\n   Files to publish (${validation.files.length}):`);
 
-    // Get files to copy
-    const files = this.getFilesToPublish(srcDir, pattern);
-
-    if (files.length === 0) {
-      console.log(`⚠️  No files found matching pattern: ${pattern}`);
-      return;
-    }
-
-    console.log(`   Copying ${files.length} file(s):`);
-
-    // Copy each file
-    for (const srcFile of files) {
+    // Copy each file with size info
+    let totalSize = 0;
+    for (const srcFile of validation.files) {
       const filename = path.basename(srcFile);
       const destFile = path.join(destDir, filename);
+      const stats = fs.statSync(srcFile);
+      const sizeKB = (stats.size / 1024).toFixed(1);
+      totalSize += stats.size;
+      
       this.copyFile(srcFile, destFile);
+      console.log(`    (${sizeKB} KB)`);
     }
 
-    console.log(`✓ Published ${files.length} file(s) to ${destDir}`);
+    const totalSizeMB = (totalSize / (1024 * 1024)).toFixed(1);
+    console.log(`\n✓ Successfully published ${validation.files.length} file(s)`);
+    console.log(`  Total size: ${totalSizeMB} MB`);
+    console.log(`  Destination: ${destDir}\n`);
   }
 
   /**
