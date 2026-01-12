@@ -464,9 +464,12 @@ export class MarvelScraper {
                     url = `${MARVEL_FANDOM_BASE}${url}`;
                   }
                   
+                  // Filter out Character_Index URLs (generic disambiguation pages, not specific characters)
+                  const isCharacterIndexPage = url && url.includes('/Character_Index/');
+                  
                   // Add to antagonists if valid and has a URL (named character)
-                  // Exclude unnamed/unidentified/unknown characters
-                  if (name && name.length > 1 && url && !isUnnamedOrInvalidAntagonist(name)) {
+                  // Exclude unnamed/unidentified/unknown characters and Character_Index pages
+                  if (name && name.length > 1 && url && !isUnnamedOrInvalidAntagonist(name) && !isCharacterIndexPage) {
                     antagonists.push({ name, url });
                   }
                 });

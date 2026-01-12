@@ -99,18 +99,6 @@
           "imageUrl": "/images/quentin-beck-earth-616.jpg"
         },
         {
-          "name": "Nico",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/N#Nico"
-        },
-        {
-          "name": "Frankie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/F#Frankie"
-        },
-        {
-          "name": "Stone",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/S#Stone"
-        },
-        {
           "name": "Rhino (Aleksei Sytsevich)",
           "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
           "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg"
@@ -126,10 +114,6 @@
           "name": "The Fox (Reynard Slinker)",
           "url": "https://marvel.fandom.com/wiki/Reynard_Slinker_(Earth-616)",
           "imageUrl": "/images/reynard-slinker-earth-616.jpg"
-        },
-        {
-          "name": "Mr. Naguro",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/N#Naguro"
         },
         {
           "name": "Tony MacDonald",
@@ -191,18 +175,6 @@
           "name": "Terror Unlimited",
           "url": "https://marvel.fandom.com/wiki/Terror_Unlimited_(Earth-616)",
           "imageUrl": "/images/terror-unlimited-earth-616.jpg"
-        },
-        {
-          "name": "David",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/D#David"
-        },
-        {
-          "name": "Don",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/D#Don"
-        },
-        {
-          "name": "José",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jose"
         }
       ]
     },
@@ -267,10 +239,6 @@
           "name": "Vulture (Adrian Toomes)",
           "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
           "imageUrl": "/images/adrian-toomes-earth-616.jpg"
-        },
-        {
-          "name": "Mr. Whitten",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/W#Whitten"
         }
       ]
     },
@@ -293,10 +261,6 @@
           "name": "Valeri Kasatanov",
           "url": "https://marvel.fandom.com/wiki/Valeri_Kasatanov_(Earth-616)",
           "imageUrl": "/images/valeri-kasatanov-earth-616.jpg"
-        },
-        {
-          "name": "Joe",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Joe"
         }
       ]
     },
@@ -405,6 +369,237 @@
           "imageUrl": "/images/nicholas-powell-earth-616.jpg"
         }
       ]
+    },
+    {
+      "issueNumber": 15,
+      "title": "Spider-Man Unlimited #15",
+      "releaseDate": "December 26, 1996",
+      "antagonists": [
+        {
+          "name": "Raptar the Renegade",
+          "url": "https://marvel.fandom.com/wiki/Raptar_(Earth-616)",
+          "imageUrl": "/images/raptar-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 16,
+      "title": "Spider-Man Unlimited #16",
+      "releaseDate": "March 26, 1997",
+      "antagonists": [
+        {
+          "name": "Roxxon",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Dreadknight (Bram Velsing)",
+          "url": "https://marvel.fandom.com/wiki/Bram_Velsing_(Earth-616)",
+          "imageUrl": "/images/bram-velsing-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 17,
+      "title": "Spider-Man Unlimited #17",
+      "releaseDate": "June 25, 1997",
+      "antagonists": [
+        {
+          "name": "Robot Master (Mendel Stromm)",
+          "url": "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
+          "imageUrl": "/images/mendel-stromm-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 18,
+      "title": "Spider-Man Unlimited #18",
+      "releaseDate": "September 24, 1997",
+      "antagonists": [
+        {
+          "name": "Doctor Octopus (Otto Ocatvius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Lady Octopus (Carolyn Trainer)",
+          "url": "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)",
+          "imageUrl": "/images/carolyn-trainer-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Man (Peter Parker)",
+          "url": "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)",
+          "imageUrl": "/images/peter-parker-earth-616.jpg"
+        },
+        {
+          "name": "Hercules",
+          "url": "https://marvel.fandom.com/wiki/Hercules_Panhellenios_(Earth-616)",
+          "imageUrl": "/images/hercules-panhellenios-earth-616.jpg"
+        },
+        {
+          "name": "Luke Cage",
+          "url": "https://marvel.fandom.com/wiki/Lucas_Cage_(Earth-616)",
+          "imageUrl": "/images/lucas-cage-earth-616.jpg"
+        },
+        {
+          "name": "Daredevil (Matt Murdock)",
+          "url": "https://marvel.fandom.com/wiki/Matthew_Murdock_(Earth-616)",
+          "imageUrl": "/images/matthew-murdock-earth-616.jpg"
+        },
+        {
+          "name": "NYPD",
+          "url": "https://marvel.fandom.com/wiki/New_York_City_Police_Department_(Earth-616)",
+          "imageUrl": "/images/new-york-city-police-department-earth-616.jpg"
+        },
+        {
+          "name": "Code: Blue",
+          "url": "https://marvel.fandom.com/wiki/Code:_Blue_(Earth-616)",
+          "imageUrl": "/images/code-blue-earth-616.jpg"
+        },
+        {
+          "name": "Lt. Stone",
+          "url": "https://marvel.fandom.com/wiki/Marcus_Stone_(Earth-616)",
+          "imageUrl": "/images/marcus-stone-earth-616.jpg"
+        },
+        {
+          "name": "Hulk (Bruce Banner)",
+          "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
+          "imageUrl": "/images/bruce-banner-earth-616.jpg"
+        },
+        {
+          "name": "X-Men",
+          "url": "https://marvel.fandom.com/wiki/X-Men_(Earth-616)",
+          "imageUrl": "/images/x-men-earth-616.jpg"
+        },
+        {
+          "name": "Cyclops (Scott Summers)",
+          "url": "https://marvel.fandom.com/wiki/Scott_Summers_(Earth-616)",
+          "imageUrl": "/images/scott-summers-earth-616.jpg"
+        },
+        {
+          "name": "Iceman (Bobby Drake)",
+          "url": "https://marvel.fandom.com/wiki/Robert_Drake_(Earth-616)",
+          "imageUrl": "/images/robert-drake-earth-616.jpg"
+        },
+        {
+          "name": "Wolverine (James Howlett)",
+          "url": "https://marvel.fandom.com/wiki/James_Howlett_(Earth-616)",
+          "imageUrl": "/images/james-howlett-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 19,
+      "title": "Spider-Man Unlimited #19",
+      "releaseDate": "December 24, 1997",
+      "antagonists": [
+        {
+          "name": "Slug (Ulysses Lugman)",
+          "url": "https://marvel.fandom.com/wiki/Ulysses_Lugman_(Earth-616)",
+          "imageUrl": "/images/ulysses-lugman-earth-616.jpg"
+        },
+        {
+          "name": "Lizard (Curtis Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 20,
+      "title": "Spider-Man Unlimited #20",
+      "releaseDate": "March 25, 1998",
+      "antagonists": [
+        {
+          "name": "Lilith Drake",
+          "url": "https://marvel.fandom.com/wiki/Lilith_Drake_(Earth-616)",
+          "imageUrl": "/images/lilith-drake-earth-616.jpg"
+        },
+        {
+          "name": "Zombie (Simon Garth)",
+          "url": "https://marvel.fandom.com/wiki/Simon_Garth_(Earth-616)",
+          "imageUrl": "/images/simon-garth-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 21,
+      "title": "Spider-Man Unlimited #21",
+      "releaseDate": "June 24, 1998",
+      "antagonists": [
+        {
+          "name": "Dr. Walston Kraft",
+          "url": "https://marvel.fandom.com/wiki/Walston_Kraft_(Earth-616)",
+          "imageUrl": "/images/walston-kraft-earth-616.jpg"
+        },
+        {
+          "name": "Ivan",
+          "url": "https://marvel.fandom.com/wiki/Ivan_(Frankenstein)_(Earth-616)",
+          "imageUrl": "/images/ivan-frankenstein-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 22,
+      "title": "Spider-Man Unlimited #22",
+      "releaseDate": "September 23, 1998",
+      "antagonists": [
+        {
+          "name": "Scorpion (MacDonald Gargan)",
+          "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+          "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
+        },
+        {
+          "name": "Roxxon",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Terence Gerard",
+          "url": "https://marvel.fandom.com/wiki/Terence_Gerard_(Earth-616)",
+          "imageUrl": "/images/terence-gerard-earth-616.jpg"
+        },
+        {
+          "name": "Curtis Henshaw",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Henshaw_(Earth-616)",
+          "imageUrl": "/images/curtis-henshaw-earth-616.jpg"
+        },
+        {
+          "name": "Colonel Roland Gunderson",
+          "url": "https://marvel.fandom.com/wiki/Roland_Gunderson_(Earth-616)",
+          "imageUrl": "/images/roland-gunderson-earth-616.jpg"
+        },
+        {
+          "name": "Tarantula's Organization",
+          "url": "https://marvel.fandom.com/wiki/Tarantula%27s_Organization_(Earth-616)",
+          "imageUrl": "/images/tarantula-27s-organization-earth-616.jpg"
+        },
+        {
+          "name": "Black Tarantula (Carlos LaMuerto)",
+          "url": "https://marvel.fandom.com/wiki/Carlos_LaMuerto_(Earth-616)",
+          "imageUrl": "/images/carlos-lamuerto-earth-616.jpg"
+        },
+        {
+          "name": "Fist of Freedom",
+          "url": "https://marvel.fandom.com/wiki/Fist_of_Freedom_(Earth-616)",
+          "imageUrl": "/images/fist-of-freedom-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 23,
+      "title": "Issue 23 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 24,
+      "title": "Issue 24 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 25,
+      "title": "Issue 25 (Failed)",
+      "antagonists": []
     }
   ]
 }

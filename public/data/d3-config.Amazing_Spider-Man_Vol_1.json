@@ -5,10 +5,7 @@
       "chronologicalPosition": 1,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 10, 1962",
-      "villainsInIssue": [
-        "Burglar",
-        "Chameleon"
-      ],
+      "villainsInIssue": ["Burglar", "Chameleon"],
       "villainCount": 2
     },
     {
@@ -16,23 +13,15 @@
       "chronologicalPosition": 2,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 12, 1963",
-      "villainsInIssue": [
-        "Vulture",
-        "Tinkerer",
-        "Quentin Beck",
-        "Charlie"
-      ],
-      "villainCount": 4
+      "villainsInIssue": ["Vulture", "Tinkerer", "Quentin Beck"],
+      "villainCount": 3
     },
     {
       "issueNumber": 3,
       "chronologicalPosition": 3,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 9, 1963",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Charlie"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Charlie"],
       "villainCount": 2
     },
     {
@@ -40,21 +29,15 @@
       "chronologicalPosition": 4,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 11, 1963",
-      "villainsInIssue": [
-        "Charlie",
-        "Sandman"
-      ],
-      "villainCount": 2
+      "villainsInIssue": ["Sandman"],
+      "villainCount": 1
     },
     {
       "issueNumber": 5,
       "chronologicalPosition": 5,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 9, 1963",
-      "villainsInIssue": [
-        "Doctor Doom",
-        "Doombot"
-      ],
+      "villainsInIssue": ["Doctor Doom", "Doombot"],
       "villainCount": 2
     },
     {
@@ -62,9 +45,7 @@
       "chronologicalPosition": 6,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 8, 1963",
-      "villainsInIssue": [
-        "The Lizard"
-      ],
+      "villainsInIssue": ["The Lizard"],
       "villainCount": 1
     },
     {
@@ -72,9 +53,7 @@
       "chronologicalPosition": 7,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 10, 1963",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -82,9 +61,7 @@
       "chronologicalPosition": 8,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 8, 1963",
-      "villainsInIssue": [
-        "Living Brain"
-      ],
+      "villainsInIssue": ["Living Brain"],
       "villainCount": 1
     },
     {
@@ -92,9 +69,7 @@
       "chronologicalPosition": 9,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 12, 1963",
-      "villainsInIssue": [
-        "Electro"
-      ],
+      "villainsInIssue": ["Electro"],
       "villainCount": 1
     },
     {
@@ -102,12 +77,7 @@
       "chronologicalPosition": 10,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 9, 1963",
-      "villainsInIssue": [
-        "Big Man",
-        "Montana",
-        "Fancy Dan",
-        "Ox"
-      ],
+      "villainsInIssue": ["Big Man", "Montana", "Fancy Dan", "Ox"],
       "villainCount": 4
     },
     {
@@ -115,10 +85,7 @@
       "chronologicalPosition": 11,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 10, 1964",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Blackie Gaxton"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Blackie Gaxton"],
       "villainCount": 2
     },
     {
@@ -126,9 +93,7 @@
       "chronologicalPosition": 12,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 11, 1964",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -136,9 +101,7 @@
       "chronologicalPosition": 13,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 10, 1964",
-      "villainsInIssue": [
-        "Quentin Beck"
-      ],
+      "villainsInIssue": ["Quentin Beck"],
       "villainCount": 1
     },
     {
@@ -146,12 +109,7 @@
       "chronologicalPosition": 14,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 9, 1964",
-      "villainsInIssue": [
-        "Montana",
-        "Fancy Dan",
-        "Ox",
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Montana", "Fancy Dan", "Ox", "Green Goblin"],
       "villainCount": 4
     },
     {
@@ -159,10 +117,7 @@
       "chronologicalPosition": 15,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 12, 1964",
-      "villainsInIssue": [
-        "Chameleon",
-        "Kraven the Hunter"
-      ],
+      "villainsInIssue": ["Chameleon", "Kraven the Hunter"],
       "villainCount": 2
     },
     {
@@ -184,9 +139,7 @@
       "chronologicalPosition": 17,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 9, 1964",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -223,9 +176,7 @@
       "chronologicalPosition": 20,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 8, 1964",
-      "villainsInIssue": [
-        "Scorpion"
-      ],
+      "villainsInIssue": ["Scorpion"],
       "villainCount": 1
     },
     {
@@ -233,9 +184,7 @@
       "chronologicalPosition": 21,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 10, 1964",
-      "villainsInIssue": [
-        "Beetle"
-      ],
+      "villainsInIssue": ["Beetle"],
       "villainCount": 1
     },
     {
@@ -259,21 +208,15 @@
       "chronologicalPosition": 23,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 12, 1965",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Lucky Lobo",
-        "Mike"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Green Goblin", "Lucky Lobo"],
+      "villainCount": 2
     },
     {
       "issueNumber": 24,
       "chronologicalPosition": 24,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 11, 1965",
-      "villainsInIssue": [
-        "Quentin Beck"
-      ],
+      "villainsInIssue": ["Quentin Beck"],
       "villainCount": 1
     },
     {
@@ -281,10 +224,7 @@
       "chronologicalPosition": 25,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 11, 1965",
-      "villainsInIssue": [
-        "Spencer Smythe",
-        "Spider Slayer"
-      ],
+      "villainsInIssue": ["Spencer Smythe", "Spider Slayer"],
       "villainCount": 2
     },
     {
@@ -292,10 +232,7 @@
       "chronologicalPosition": 26,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 8, 1965",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Crime Master"
-      ],
+      "villainsInIssue": ["Green Goblin", "Crime Master"],
       "villainCount": 2
     },
     {
@@ -303,10 +240,7 @@
       "chronologicalPosition": 27,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 11, 1965",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Crime Master"
-      ],
+      "villainsInIssue": ["Green Goblin", "Crime Master"],
       "villainCount": 2
     },
     {
@@ -314,9 +248,7 @@
       "chronologicalPosition": 28,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 8, 1965",
-      "villainsInIssue": [
-        "Molten Man"
-      ],
+      "villainsInIssue": ["Molten Man"],
       "villainCount": 1
     },
     {
@@ -324,9 +256,7 @@
       "chronologicalPosition": 29,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 8, 1965",
-      "villainsInIssue": [
-        "Scorpion"
-      ],
+      "villainsInIssue": ["Scorpion"],
       "villainCount": 1
     },
     {
@@ -334,10 +264,7 @@
       "chronologicalPosition": 30,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 10, 1965",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Cat Burglar"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Cat Burglar"],
       "villainCount": 2
     },
     {
@@ -345,10 +272,7 @@
       "chronologicalPosition": 31,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 9, 1965",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Foxy Briggs"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Foxy Briggs"],
       "villainCount": 2
     },
     {
@@ -356,9 +280,7 @@
       "chronologicalPosition": 32,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 12, 1965",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -374,9 +296,7 @@
       "chronologicalPosition": 34,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 9, 1965",
-      "villainsInIssue": [
-        "Kraven the Hunter"
-      ],
+      "villainsInIssue": ["Kraven the Hunter"],
       "villainCount": 1
     },
     {
@@ -384,9 +304,7 @@
       "chronologicalPosition": 35,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 11, 1966",
-      "villainsInIssue": [
-        "Molten Man"
-      ],
+      "villainsInIssue": ["Molten Man"],
       "villainCount": 1
     },
     {
@@ -394,9 +312,7 @@
       "chronologicalPosition": 36,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 10, 1966",
-      "villainsInIssue": [
-        "Looter"
-      ],
+      "villainsInIssue": ["Looter"],
       "villainCount": 1
     },
     {
@@ -404,10 +320,7 @@
       "chronologicalPosition": 37,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 10, 1966",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Mendel Stromm"
-      ],
+      "villainsInIssue": ["Green Goblin", "Mendel Stromm"],
       "villainCount": 2
     },
     {
@@ -415,9 +328,7 @@
       "chronologicalPosition": 38,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 12, 1966",
-      "villainsInIssue": [
-        "Joe Smith"
-      ],
+      "villainsInIssue": ["Joe Smith"],
       "villainCount": 1
     },
     {
@@ -425,20 +336,15 @@
       "chronologicalPosition": 39,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 10, 1966",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Boinard"
-      ],
-      "villainCount": 2
+      "villainsInIssue": ["Green Goblin"],
+      "villainCount": 1
     },
     {
       "issueNumber": 40,
       "chronologicalPosition": 40,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 9, 1966",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -446,9 +352,7 @@
       "chronologicalPosition": 41,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 7, 1966",
-      "villainsInIssue": [
-        "Rhino"
-      ],
+      "villainsInIssue": ["Rhino"],
       "villainCount": 1
     },
     {
@@ -456,9 +360,7 @@
       "chronologicalPosition": 42,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 9, 1966",
-      "villainsInIssue": [
-        "Colonel John Jameson"
-      ],
+      "villainsInIssue": ["Colonel John Jameson"],
       "villainCount": 1
     },
     {
@@ -466,9 +368,7 @@
       "chronologicalPosition": 43,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 8, 1966",
-      "villainsInIssue": [
-        "Rhino"
-      ],
+      "villainsInIssue": ["Rhino"],
       "villainCount": 1
     },
     {
@@ -476,9 +376,7 @@
       "chronologicalPosition": 44,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 11, 1966",
-      "villainsInIssue": [
-        "The Lizard"
-      ],
+      "villainsInIssue": ["The Lizard"],
       "villainCount": 1
     },
     {
@@ -486,9 +384,7 @@
       "chronologicalPosition": 45,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 10, 1966",
-      "villainsInIssue": [
-        "The Lizard"
-      ],
+      "villainsInIssue": ["The Lizard"],
       "villainCount": 1
     },
     {
@@ -496,9 +392,7 @@
       "chronologicalPosition": 46,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 8, 1966",
-      "villainsInIssue": [
-        "Shocker"
-      ],
+      "villainsInIssue": ["Shocker"],
       "villainCount": 1
     },
     {
@@ -506,9 +400,7 @@
       "chronologicalPosition": 47,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 10, 1967",
-      "villainsInIssue": [
-        "Kraven the Hunter"
-      ],
+      "villainsInIssue": ["Kraven the Hunter"],
       "villainCount": 1
     },
     {
@@ -516,9 +408,7 @@
       "chronologicalPosition": 48,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 14, 1967",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -526,10 +416,7 @@
       "chronologicalPosition": 49,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 14, 1967",
-      "villainsInIssue": [
-        "Kraven the Hunter",
-        "Vulture"
-      ],
+      "villainsInIssue": ["Kraven the Hunter", "Vulture"],
       "villainCount": 2
     },
     {
@@ -537,24 +424,15 @@
       "chronologicalPosition": 50,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 11, 1967",
-      "villainsInIssue": [
-        "Boinard",
-        "Kingpin",
-        "Flint",
-        "Shorty"
-      ],
-      "villainCount": 4
+      "villainsInIssue": ["Kingpin", "Flint"],
+      "villainCount": 2
     },
     {
       "issueNumber": 51,
       "chronologicalPosition": 51,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 9, 1967",
-      "villainsInIssue": [
-        "Kingpin",
-        "Flint",
-        "Big Turk"
-      ],
+      "villainsInIssue": ["Kingpin", "Flint", "Big Turk"],
       "villainCount": 3
     },
     {
@@ -562,10 +440,7 @@
       "chronologicalPosition": 52,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 8, 1967",
-      "villainsInIssue": [
-        "Kingpin",
-        "Flint"
-      ],
+      "villainsInIssue": ["Kingpin", "Flint"],
       "villainCount": 2
     },
     {
@@ -573,9 +448,7 @@
       "chronologicalPosition": 53,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 11, 1967",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -583,9 +456,7 @@
       "chronologicalPosition": 54,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 8, 1967",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -593,9 +464,7 @@
       "chronologicalPosition": 55,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 7, 1967",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -603,9 +472,7 @@
       "chronologicalPosition": 56,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 10, 1967",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -633,11 +500,7 @@
       "chronologicalPosition": 59,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 9, 1968",
-      "villainsInIssue": [
-        "Kingpin",
-        "Big Turk",
-        "Dr. Winkler"
-      ],
+      "villainsInIssue": ["Kingpin", "Big Turk", "Dr. Winkler"],
       "villainCount": 3
     },
     {
@@ -645,10 +508,7 @@
       "chronologicalPosition": 60,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 8, 1968",
-      "villainsInIssue": [
-        "Kingpin",
-        "Dr. Winkler"
-      ],
+      "villainsInIssue": ["Kingpin", "Dr. Winkler"],
       "villainCount": 2
     },
     {
@@ -656,11 +516,7 @@
       "chronologicalPosition": 61,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 7, 1968",
-      "villainsInIssue": [
-        "Kingpin",
-        "Big Turk",
-        "Dr. Winkler"
-      ],
+      "villainsInIssue": ["Kingpin", "Big Turk", "Dr. Winkler"],
       "villainCount": 3
     },
     {
@@ -668,9 +524,7 @@
       "chronologicalPosition": 62,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 9, 1968",
-      "villainsInIssue": [
-        "Medusa"
-      ],
+      "villainsInIssue": ["Medusa"],
       "villainCount": 1
     },
     {
@@ -678,10 +532,7 @@
       "chronologicalPosition": 63,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 9, 1968",
-      "villainsInIssue": [
-        "Vulture",
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture", "Vulture"],
       "villainCount": 2
     },
     {
@@ -689,9 +540,7 @@
       "chronologicalPosition": 64,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 11, 1968",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -699,23 +548,15 @@
       "chronologicalPosition": 65,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 11, 1968",
-      "villainsInIssue": [
-        "Rock Gimpy",
-        "Mike",
-        "Duke",
-        "Red"
-      ],
-      "villainCount": 4
+      "villainsInIssue": ["Rock Gimpy"],
+      "villainCount": 1
     },
     {
       "issueNumber": 66,
       "chronologicalPosition": 66,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 8, 1968",
-      "villainsInIssue": [
-        "Quentin Beck",
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Quentin Beck", "Green Goblin"],
       "villainCount": 2
     },
     {
@@ -723,9 +564,7 @@
       "chronologicalPosition": 67,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 10, 1968",
-      "villainsInIssue": [
-        "Quentin Beck"
-      ],
+      "villainsInIssue": ["Quentin Beck"],
       "villainCount": 1
     },
     {
@@ -733,22 +572,15 @@
       "chronologicalPosition": 68,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 10, 1968",
-      "villainsInIssue": [
-        "Charlie",
-        "Kingpin",
-        "Wilson"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Kingpin", "Wilson"],
+      "villainCount": 2
     },
     {
       "issueNumber": 69,
       "chronologicalPosition": 69,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 12, 1968",
-      "villainsInIssue": [
-        "Kingpin",
-        "Wilson"
-      ],
+      "villainsInIssue": ["Kingpin", "Wilson"],
       "villainCount": 2
     },
     {
@@ -756,9 +588,7 @@
       "chronologicalPosition": 70,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 12, 1968",
-      "villainsInIssue": [
-        "Kingpin"
-      ],
+      "villainsInIssue": ["Kingpin"],
       "villainCount": 1
     },
     {
@@ -766,9 +596,7 @@
       "chronologicalPosition": 71,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 9, 1969",
-      "villainsInIssue": [
-        "Quicksilver"
-      ],
+      "villainsInIssue": ["Quicksilver"],
       "villainCount": 1
     },
     {
@@ -776,9 +604,7 @@
       "chronologicalPosition": 72,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 11, 1969",
-      "villainsInIssue": [
-        "Shocker"
-      ],
+      "villainsInIssue": ["Shocker"],
       "villainCount": 1
     },
     {
@@ -826,9 +652,7 @@
       "chronologicalPosition": 76,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 17, 1969",
-      "villainsInIssue": [
-        "The Lizard"
-      ],
+      "villainsInIssue": ["The Lizard"],
       "villainCount": 1
     },
     {
@@ -836,9 +660,7 @@
       "chronologicalPosition": 77,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 15, 1969",
-      "villainsInIssue": [
-        "The Lizard"
-      ],
+      "villainsInIssue": ["The Lizard"],
       "villainCount": 1
     },
     {
@@ -846,9 +668,7 @@
       "chronologicalPosition": 78,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 12, 1969",
-      "villainsInIssue": [
-        "Prowler"
-      ],
+      "villainsInIssue": ["Prowler"],
       "villainCount": 1
     },
     {
@@ -856,9 +676,7 @@
       "chronologicalPosition": 79,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 16, 1969",
-      "villainsInIssue": [
-        "Prowler"
-      ],
+      "villainsInIssue": ["Prowler"],
       "villainCount": 1
     },
     {
@@ -866,9 +684,7 @@
       "chronologicalPosition": 80,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 14, 1969",
-      "villainsInIssue": [
-        "Chameleon"
-      ],
+      "villainsInIssue": ["Chameleon"],
       "villainCount": 1
     },
     {
@@ -876,9 +692,7 @@
       "chronologicalPosition": 81,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 19, 1969",
-      "villainsInIssue": [
-        "Kangaroo"
-      ],
+      "villainsInIssue": ["Kangaroo"],
       "villainCount": 1
     },
     {
@@ -886,9 +700,7 @@
       "chronologicalPosition": 82,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 16, 1969",
-      "villainsInIssue": [
-        "Electro"
-      ],
+      "villainsInIssue": ["Electro"],
       "villainCount": 1
     },
     {
@@ -896,10 +708,7 @@
       "chronologicalPosition": 83,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 12, 1970",
-      "villainsInIssue": [
-        "Kingpin",
-        "Schemer"
-      ],
+      "villainsInIssue": ["Kingpin", "Schemer"],
       "villainCount": 2
     },
     {
@@ -907,10 +716,7 @@
       "chronologicalPosition": 84,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 19, 1970",
-      "villainsInIssue": [
-        "Kingpin",
-        "Schemer"
-      ],
+      "villainsInIssue": ["Kingpin", "Schemer"],
       "villainCount": 2
     },
     {
@@ -918,10 +724,7 @@
       "chronologicalPosition": 85,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 19, 1970",
-      "villainsInIssue": [
-        "Kingpin",
-        "Schemer"
-      ],
+      "villainsInIssue": ["Kingpin", "Schemer"],
       "villainCount": 2
     },
     {
@@ -929,9 +732,7 @@
       "chronologicalPosition": 86,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 17, 1970",
-      "villainsInIssue": [
-        "Black Widow"
-      ],
+      "villainsInIssue": ["Black Widow"],
       "villainCount": 1
     },
     {
@@ -947,9 +748,7 @@
       "chronologicalPosition": 88,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 18, 1970",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -957,9 +756,7 @@
       "chronologicalPosition": 89,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 21, 1970",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -967,9 +764,7 @@
       "chronologicalPosition": 90,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 18, 1970",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -977,31 +772,23 @@
       "chronologicalPosition": 91,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 15, 1970",
-      "villainsInIssue": [
-        "Charlie",
-        "Sam Bullit"
-      ],
-      "villainCount": 2
+      "villainsInIssue": ["Sam Bullit"],
+      "villainCount": 1
     },
     {
       "issueNumber": 92,
       "chronologicalPosition": 92,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 13, 1970",
-      "villainsInIssue": [
-        "Charlie",
-        "Sam Bullit"
-      ],
-      "villainCount": 2
+      "villainsInIssue": ["Sam Bullit"],
+      "villainCount": 1
     },
     {
       "issueNumber": 93,
       "chronologicalPosition": 93,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 10, 1970",
-      "villainsInIssue": [
-        "Prowler"
-      ],
+      "villainsInIssue": ["Prowler"],
       "villainCount": 1
     },
     {
@@ -1009,9 +796,7 @@
       "chronologicalPosition": 94,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 8, 1970",
-      "villainsInIssue": [
-        "Beetle"
-      ],
+      "villainsInIssue": ["Beetle"],
       "villainCount": 1
     },
     {
@@ -1027,9 +812,7 @@
       "chronologicalPosition": 96,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 9, 1971",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -1037,9 +820,7 @@
       "chronologicalPosition": 97,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 9, 1971",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -1047,9 +828,7 @@
       "chronologicalPosition": 98,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 13, 1971",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -1079,10 +858,7 @@
       "chronologicalPosition": 101,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 13, 1971",
-      "villainsInIssue": [
-        "The Lizard",
-        "Morbius"
-      ],
+      "villainsInIssue": ["The Lizard", "Morbius"],
       "villainCount": 2
     },
     {
@@ -1090,9 +866,7 @@
       "chronologicalPosition": 102,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 10, 1971",
-      "villainsInIssue": [
-        "Morbius"
-      ],
+      "villainsInIssue": ["Morbius"],
       "villainCount": 1
     },
     {
@@ -1100,10 +874,7 @@
       "chronologicalPosition": 103,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 7, 1971",
-      "villainsInIssue": [
-        "Kraven the Hunter",
-        "Gog"
-      ],
+      "villainsInIssue": ["Kraven the Hunter", "Gog"],
       "villainCount": 2
     },
     {
@@ -1111,10 +882,7 @@
       "chronologicalPosition": 104,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 12, 1971",
-      "villainsInIssue": [
-        "Kraven the Hunter",
-        "Gog"
-      ],
+      "villainsInIssue": ["Kraven the Hunter", "Gog"],
       "villainCount": 2
     },
     {
@@ -1122,9 +890,7 @@
       "chronologicalPosition": 105,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 9, 1971",
-      "villainsInIssue": [
-        "Spencer Smythe"
-      ],
+      "villainsInIssue": ["Spencer Smythe"],
       "villainCount": 1
     },
     {
@@ -1132,9 +898,7 @@
       "chronologicalPosition": 106,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 7, 1971",
-      "villainsInIssue": [
-        "Spencer Smythe"
-      ],
+      "villainsInIssue": ["Spencer Smythe"],
       "villainCount": 1
     },
     {
@@ -1142,9 +906,7 @@
       "chronologicalPosition": 107,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 11, 1972",
-      "villainsInIssue": [
-        "Spencer Smythe"
-      ],
+      "villainsInIssue": ["Spencer Smythe"],
       "villainCount": 1
     },
     {
@@ -1152,9 +914,7 @@
       "chronologicalPosition": 108,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 15, 1972",
-      "villainsInIssue": [
-        "Giant One"
-      ],
+      "villainsInIssue": ["Giant One"],
       "villainCount": 1
     },
     {
@@ -1162,9 +922,7 @@
       "chronologicalPosition": 109,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 14, 1972",
-      "villainsInIssue": [
-        "Giant One"
-      ],
+      "villainsInIssue": ["Giant One"],
       "villainCount": 1
     },
     {
@@ -1172,9 +930,7 @@
       "chronologicalPosition": 110,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 11, 1972",
-      "villainsInIssue": [
-        "Gibbon"
-      ],
+      "villainsInIssue": ["Gibbon"],
       "villainCount": 1
     },
     {
@@ -1182,10 +938,7 @@
       "chronologicalPosition": 111,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 16, 1972",
-      "villainsInIssue": [
-        "Kraven the Hunter",
-        "Gibbon"
-      ],
+      "villainsInIssue": ["Kraven the Hunter", "Gibbon"],
       "villainCount": 2
     },
     {
@@ -1193,9 +946,7 @@
       "chronologicalPosition": 112,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 13, 1972",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -1203,10 +954,7 @@
       "chronologicalPosition": 113,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 11, 1972",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Hammerhead"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Hammerhead"],
       "villainCount": 2
     },
     {
@@ -1214,10 +962,7 @@
       "chronologicalPosition": 114,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 8, 1972",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Hammerhead"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Hammerhead"],
       "villainCount": 2
     },
     {
@@ -1225,10 +970,7 @@
       "chronologicalPosition": 115,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 5, 1972",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Hammerhead"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Hammerhead"],
       "villainCount": 2
     },
     {
@@ -1236,9 +978,7 @@
       "chronologicalPosition": 116,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 10, 1972",
-      "villainsInIssue": [
-        "Smasher"
-      ],
+      "villainsInIssue": ["Smasher"],
       "villainCount": 1
     },
     {
@@ -1246,11 +986,7 @@
       "chronologicalPosition": 117,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 7, 1972",
-      "villainsInIssue": [
-        "Smasher",
-        "Disruptor",
-        "Dr. Thaxton"
-      ],
+      "villainsInIssue": ["Smasher", "Disruptor", "Dr. Thaxton"],
       "villainCount": 3
     },
     {
@@ -1258,11 +994,7 @@
       "chronologicalPosition": 118,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 5, 1972",
-      "villainsInIssue": [
-        "Smasher",
-        "Disruptor",
-        "Dr. Thaxton"
-      ],
+      "villainsInIssue": ["Smasher", "Disruptor", "Dr. Thaxton"],
       "villainCount": 3
     },
     {
@@ -1270,9 +1002,7 @@
       "chronologicalPosition": 119,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 9, 1973",
-      "villainsInIssue": [
-        "Hulk"
-      ],
+      "villainsInIssue": ["Hulk"],
       "villainCount": 1
     },
     {
@@ -1280,9 +1010,7 @@
       "chronologicalPosition": 120,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 13, 1973",
-      "villainsInIssue": [
-        "Hulk"
-      ],
+      "villainsInIssue": ["Hulk"],
       "villainCount": 1
     },
     {
@@ -1290,9 +1018,7 @@
       "chronologicalPosition": 121,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 13, 1973",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -1300,9 +1026,7 @@
       "chronologicalPosition": 122,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 10, 1973",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -1310,9 +1034,7 @@
       "chronologicalPosition": 123,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 15, 1973",
-      "villainsInIssue": [
-        "Luke Cage"
-      ],
+      "villainsInIssue": ["Luke Cage"],
       "villainCount": 1
     },
     {
@@ -1320,9 +1042,7 @@
       "chronologicalPosition": 124,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 12, 1973",
-      "villainsInIssue": [
-        "Colonel John Jameson"
-      ],
+      "villainsInIssue": ["Colonel John Jameson"],
       "villainCount": 1
     },
     {
@@ -1330,9 +1050,7 @@
       "chronologicalPosition": 125,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 10, 1973",
-      "villainsInIssue": [
-        "Colonel John Jameson"
-      ],
+      "villainsInIssue": ["Colonel John Jameson"],
       "villainCount": 1
     },
     {
@@ -1340,10 +1058,7 @@
       "chronologicalPosition": 126,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 7, 1973",
-      "villainsInIssue": [
-        "Kangaroo",
-        "Jonas Harrow"
-      ],
+      "villainsInIssue": ["Kangaroo", "Jonas Harrow"],
       "villainCount": 2
     },
     {
@@ -1351,9 +1066,7 @@
       "chronologicalPosition": 127,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 4, 1973",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -1361,9 +1074,7 @@
       "chronologicalPosition": 128,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 2, 1973",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -1371,23 +1082,15 @@
       "chronologicalPosition": 129,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 30, 1973",
-      "villainsInIssue": [
-        "Boinard",
-        "Punisher",
-        "Jackal"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Punisher", "Jackal"],
+      "villainCount": 2
     },
     {
       "issueNumber": 130,
       "chronologicalPosition": 130,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 27, 1973",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Hammerhead",
-        "Jackal"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Hammerhead", "Jackal"],
       "villainCount": 3
     },
     {
@@ -1395,10 +1098,7 @@
       "chronologicalPosition": 131,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 3, 1974",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Hammerhead"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Hammerhead"],
       "villainCount": 2
     },
     {
@@ -1406,9 +1106,7 @@
       "chronologicalPosition": 132,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 5, 1974",
-      "villainsInIssue": [
-        "Molten Man"
-      ],
+      "villainsInIssue": ["Molten Man"],
       "villainCount": 1
     },
     {
@@ -1416,9 +1114,7 @@
       "chronologicalPosition": 133,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 12, 1974",
-      "villainsInIssue": [
-        "Molten Man"
-      ],
+      "villainsInIssue": ["Molten Man"],
       "villainCount": 1
     },
     {
@@ -1426,11 +1122,7 @@
       "chronologicalPosition": 134,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 9, 1974",
-      "villainsInIssue": [
-        "Juan",
-        "Hidalgo Rodriquez",
-        "Tarantula"
-      ],
+      "villainsInIssue": ["Juan", "Hidalgo Rodriquez", "Tarantula"],
       "villainCount": 3
     },
     {
@@ -1438,11 +1130,7 @@
       "chronologicalPosition": 135,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 7, 1974",
-      "villainsInIssue": [
-        "Juan",
-        "Hidalgo Rodriquez",
-        "Tarantula"
-      ],
+      "villainsInIssue": ["Juan", "Hidalgo Rodriquez", "Tarantula"],
       "villainCount": 3
     },
     {
@@ -1450,9 +1138,7 @@
       "chronologicalPosition": 136,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 11, 1974",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -1460,9 +1146,7 @@
       "chronologicalPosition": 137,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 9, 1974",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -1470,9 +1154,7 @@
       "chronologicalPosition": 138,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 6, 1974",
-      "villainsInIssue": [
-        "Mindworm"
-      ],
+      "villainsInIssue": ["Mindworm"],
       "villainCount": 1
     },
     {
@@ -1480,10 +1162,7 @@
       "chronologicalPosition": 139,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 10, 1974",
-      "villainsInIssue": [
-        "Jackal",
-        "Grizzly"
-      ],
+      "villainsInIssue": ["Jackal", "Grizzly"],
       "villainCount": 2
     },
     {
@@ -1491,10 +1170,7 @@
       "chronologicalPosition": 140,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 10, 1974",
-      "villainsInIssue": [
-        "Jackal",
-        "Grizzly"
-      ],
+      "villainsInIssue": ["Jackal", "Grizzly"],
       "villainCount": 2
     },
     {
@@ -1502,9 +1178,7 @@
       "chronologicalPosition": 141,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 12, 1974",
-      "villainsInIssue": [
-        "Mysterio"
-      ],
+      "villainsInIssue": ["Mysterio"],
       "villainCount": 1
     },
     {
@@ -1512,9 +1186,7 @@
       "chronologicalPosition": 142,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 10, 1974",
-      "villainsInIssue": [
-        "Mysterio"
-      ],
+      "villainsInIssue": ["Mysterio"],
       "villainCount": 1
     },
     {
@@ -1522,9 +1194,7 @@
       "chronologicalPosition": 143,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 14, 1975",
-      "villainsInIssue": [
-        "Cyclone"
-      ],
+      "villainsInIssue": ["Cyclone"],
       "villainCount": 1
     },
     {
@@ -1532,9 +1202,7 @@
       "chronologicalPosition": 144,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 11, 1975",
-      "villainsInIssue": [
-        "Cyclone"
-      ],
+      "villainsInIssue": ["Cyclone"],
       "villainCount": 1
     },
     {
@@ -1542,9 +1210,7 @@
       "chronologicalPosition": 145,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 11, 1975",
-      "villainsInIssue": [
-        "Scorpion"
-      ],
+      "villainsInIssue": ["Scorpion"],
       "villainCount": 1
     },
     {
@@ -1552,10 +1218,7 @@
       "chronologicalPosition": 146,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 8, 1975",
-      "villainsInIssue": [
-        "Scorpion",
-        "Jackal"
-      ],
+      "villainsInIssue": ["Scorpion", "Jackal"],
       "villainCount": 2
     },
     {
@@ -1563,10 +1226,7 @@
       "chronologicalPosition": 147,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 13, 1975",
-      "villainsInIssue": [
-        "Jackal",
-        "Tarantula"
-      ],
+      "villainsInIssue": ["Jackal", "Tarantula"],
       "villainCount": 2
     },
     {
@@ -1574,10 +1234,7 @@
       "chronologicalPosition": 148,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 10, 1975",
-      "villainsInIssue": [
-        "Jackal",
-        "Tarantula"
-      ],
+      "villainsInIssue": ["Jackal", "Tarantula"],
       "villainCount": 2
     },
     {
@@ -1585,11 +1242,7 @@
       "chronologicalPosition": 149,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 8, 1975",
-      "villainsInIssue": [
-        "Jackal",
-        "Jackal",
-        "Spider-Clone"
-      ],
+      "villainsInIssue": ["Jackal", "Jackal", "Spider-Clone"],
       "villainCount": 3
     },
     {
@@ -1597,9 +1250,7 @@
       "chronologicalPosition": 150,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 12, 1975",
-      "villainsInIssue": [
-        "Spencer Smythe"
-      ],
+      "villainsInIssue": ["Spencer Smythe"],
       "villainCount": 1
     },
     {
@@ -1607,9 +1258,7 @@
       "chronologicalPosition": 151,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 9, 1975",
-      "villainsInIssue": [
-        "Shocker"
-      ],
+      "villainsInIssue": ["Shocker"],
       "villainCount": 1
     },
     {
@@ -1617,9 +1266,7 @@
       "chronologicalPosition": 152,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 14, 1975",
-      "villainsInIssue": [
-        "Shocker"
-      ],
+      "villainsInIssue": ["Shocker"],
       "villainCount": 1
     },
     {
@@ -1627,9 +1274,7 @@
       "chronologicalPosition": 153,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 11, 1975",
-      "villainsInIssue": [
-        "Big Turk"
-      ],
+      "villainsInIssue": ["Big Turk"],
       "villainCount": 1
     },
     {
@@ -1637,10 +1282,7 @@
       "chronologicalPosition": 154,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 9, 1975",
-      "villainsInIssue": [
-        "Sandman",
-        "Kingpin"
-      ],
+      "villainsInIssue": ["Sandman", "Kingpin"],
       "villainCount": 2
     },
     {
@@ -1659,10 +1301,7 @@
       "chronologicalPosition": 156,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 10, 1976",
-      "villainsInIssue": [
-        "Mirage",
-        "Man with the 999 Faces/\"Daredevil\""
-      ],
+      "villainsInIssue": ["Mirage", "Man with the 999 Faces/\"Daredevil\""],
       "villainCount": 2
     },
     {
@@ -1670,10 +1309,7 @@
       "chronologicalPosition": 157,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 9, 1976",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Hammerhead"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Hammerhead"],
       "villainCount": 2
     },
     {
@@ -1681,10 +1317,7 @@
       "chronologicalPosition": 158,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 13, 1976",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Hammerhead"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Hammerhead"],
       "villainCount": 2
     },
     {
@@ -1692,10 +1325,7 @@
       "chronologicalPosition": 159,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 11, 1976",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Hammerhead"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Hammerhead"],
       "villainCount": 2
     },
     {
@@ -1703,10 +1333,7 @@
       "chronologicalPosition": 160,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 8, 1976",
-      "villainsInIssue": [
-        "Tinkerer",
-        "Toy"
-      ],
+      "villainsInIssue": ["Tinkerer", "Toy"],
       "villainCount": 2
     },
     {
@@ -1714,10 +1341,7 @@
       "chronologicalPosition": 161,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 13, 1976",
-      "villainsInIssue": [
-        "Jigsaw",
-        "Snake-Eyes"
-      ],
+      "villainsInIssue": ["Jigsaw", "Snake-Eyes"],
       "villainCount": 2
     },
     {
@@ -1725,21 +1349,15 @@
       "chronologicalPosition": 162,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 10, 1976",
-      "villainsInIssue": [
-        "Boinard",
-        "Red",
-        "Jigsaw"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Jigsaw"],
+      "villainCount": 1
     },
     {
       "issueNumber": 163,
       "chronologicalPosition": 163,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 14, 1976",
-      "villainsInIssue": [
-        "Kingpin"
-      ],
+      "villainsInIssue": ["Kingpin"],
       "villainCount": 1
     },
     {
@@ -1747,9 +1365,7 @@
       "chronologicalPosition": 164,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 12, 1976",
-      "villainsInIssue": [
-        "Kingpin"
-      ],
+      "villainsInIssue": ["Kingpin"],
       "villainCount": 1
     },
     {
@@ -1757,9 +1373,7 @@
       "chronologicalPosition": 165,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 9, 1976",
-      "villainsInIssue": [
-        "Stegron"
-      ],
+      "villainsInIssue": ["Stegron"],
       "villainCount": 1
     },
     {
@@ -1767,10 +1381,7 @@
       "chronologicalPosition": 166,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 7, 1976",
-      "villainsInIssue": [
-        "The Lizard",
-        "Stegron"
-      ],
+      "villainsInIssue": ["The Lizard", "Stegron"],
       "villainCount": 2
     },
     {
@@ -1778,10 +1389,7 @@
       "chronologicalPosition": 167,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 11, 1977",
-      "villainsInIssue": [
-        "J. Jonah Jameson",
-        "Will O' The Wisp"
-      ],
+      "villainsInIssue": ["J. Jonah Jameson", "Will O' The Wisp"],
       "villainCount": 2
     },
     {
@@ -1801,9 +1409,7 @@
       "chronologicalPosition": 169,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 8, 1977",
-      "villainsInIssue": [
-        "Dr. Faustus"
-      ],
+      "villainsInIssue": ["Dr. Faustus"],
       "villainCount": 1
     },
     {
@@ -1811,9 +1417,7 @@
       "chronologicalPosition": 170,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 12, 1977",
-      "villainsInIssue": [
-        "Dr. Faustus"
-      ],
+      "villainsInIssue": ["Dr. Faustus"],
       "villainCount": 1
     },
     {
@@ -1821,11 +1425,7 @@
       "chronologicalPosition": 171,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 10, 1977",
-      "villainsInIssue": [
-        "Photon",
-        "A.I.M",
-        "Harry Daze"
-      ],
+      "villainsInIssue": ["Photon", "A.I.M", "Harry Daze"],
       "villainCount": 3
     },
     {
@@ -1833,10 +1433,7 @@
       "chronologicalPosition": 172,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 7, 1977",
-      "villainsInIssue": [
-        "Molten Man",
-        "Rocket Racer"
-      ],
+      "villainsInIssue": ["Molten Man", "Rocket Racer"],
       "villainCount": 2
     },
     {
@@ -1844,9 +1441,7 @@
       "chronologicalPosition": 173,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 12, 1977",
-      "villainsInIssue": [
-        "Molten Man"
-      ],
+      "villainsInIssue": ["Molten Man"],
       "villainCount": 1
     },
     {
@@ -1854,9 +1449,7 @@
       "chronologicalPosition": 174,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 10, 1977",
-      "villainsInIssue": [
-        "Hitman"
-      ],
+      "villainsInIssue": ["Hitman"],
       "villainCount": 1
     },
     {
@@ -1864,9 +1457,7 @@
       "chronologicalPosition": 175,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 13, 1977",
-      "villainsInIssue": [
-        "Hitman"
-      ],
+      "villainsInIssue": ["Hitman"],
       "villainCount": 1
     },
     {
@@ -1874,9 +1465,7 @@
       "chronologicalPosition": 176,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 11, 1977",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
@@ -1884,10 +1473,7 @@
       "chronologicalPosition": 177,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 8, 1977",
-      "villainsInIssue": [
-        "Silvermane",
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Silvermane", "Green Goblin"],
       "villainCount": 2
     },
     {
@@ -1895,10 +1481,7 @@
       "chronologicalPosition": 178,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 13, 1977",
-      "villainsInIssue": [
-        "Silvermane",
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Silvermane", "Green Goblin"],
       "villainCount": 2
     },
     {
@@ -1906,10 +1489,7 @@
       "chronologicalPosition": 179,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 10, 1978",
-      "villainsInIssue": [
-        "Silvermane",
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Silvermane", "Green Goblin"],
       "villainCount": 2
     },
     {
@@ -1917,10 +1497,7 @@
       "chronologicalPosition": 180,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 7, 1978",
-      "villainsInIssue": [
-        "Silvermane",
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Silvermane", "Green Goblin"],
       "villainCount": 2
     },
     {
@@ -1967,10 +1544,7 @@
       "chronologicalPosition": 182,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 11, 1978",
-      "villainsInIssue": [
-        "Rocket Racer",
-        "Jackson Weele"
-      ],
+      "villainsInIssue": ["Rocket Racer", "Jackson Weele"],
       "villainCount": 2
     },
     {
@@ -1978,11 +1552,7 @@
       "chronologicalPosition": 183,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 9, 1978",
-      "villainsInIssue": [
-        "Tinkerer",
-        "Toy",
-        "Jackson Weele"
-      ],
+      "villainsInIssue": ["Tinkerer", "Toy", "Jackson Weele"],
       "villainCount": 3
     },
     {
@@ -1990,10 +1560,7 @@
       "chronologicalPosition": 184,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 20, 1978",
-      "villainsInIssue": [
-        "The Dragon Lords",
-        "White Dragon"
-      ],
+      "villainsInIssue": ["The Dragon Lords", "White Dragon"],
       "villainCount": 2
     },
     {
@@ -2001,10 +1568,7 @@
       "chronologicalPosition": 185,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 18, 1978",
-      "villainsInIssue": [
-        "The Dragon Lords",
-        "White Dragon"
-      ],
+      "villainsInIssue": ["The Dragon Lords", "White Dragon"],
       "villainCount": 2
     },
     {
@@ -2012,10 +1576,7 @@
       "chronologicalPosition": 186,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 8, 1978",
-      "villainsInIssue": [
-        "Chameleon",
-        "Spencer Smythe"
-      ],
+      "villainsInIssue": ["Chameleon", "Spencer Smythe"],
       "villainCount": 2
     },
     {
@@ -2023,9 +1584,7 @@
       "chronologicalPosition": 187,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 12, 1978",
-      "villainsInIssue": [
-        "Electro"
-      ],
+      "villainsInIssue": ["Electro"],
       "villainCount": 1
     },
     {
@@ -2033,9 +1592,7 @@
       "chronologicalPosition": 188,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 10, 1978",
-      "villainsInIssue": [
-        "Jigsaw"
-      ],
+      "villainsInIssue": ["Jigsaw"],
       "villainCount": 1
     },
     {
@@ -2043,10 +1600,7 @@
       "chronologicalPosition": 189,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 7, 1978",
-      "villainsInIssue": [
-        "Spencer Smythe",
-        "Colonel John Jameson"
-      ],
+      "villainsInIssue": ["Spencer Smythe", "Colonel John Jameson"],
       "villainCount": 2
     },
     {
@@ -2054,10 +1608,7 @@
       "chronologicalPosition": 190,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 5, 1978",
-      "villainsInIssue": [
-        "Spencer Smythe",
-        "Colonel John Jameson"
-      ],
+      "villainsInIssue": ["Spencer Smythe", "Colonel John Jameson"],
       "villainCount": 2
     },
     {
@@ -2065,9 +1616,7 @@
       "chronologicalPosition": 191,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 9, 1979",
-      "villainsInIssue": [
-        "Spencer Smythe"
-      ],
+      "villainsInIssue": ["Spencer Smythe"],
       "villainCount": 1
     },
     {
@@ -2075,10 +1624,7 @@
       "chronologicalPosition": 192,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 6, 1979",
-      "villainsInIssue": [
-        "Spencer Smythe",
-        "The Human Fly"
-      ],
+      "villainsInIssue": ["Spencer Smythe", "The Human Fly"],
       "villainCount": 2
     },
     {
@@ -2086,10 +1632,7 @@
       "chronologicalPosition": 193,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 13, 1979",
-      "villainsInIssue": [
-        "Burglar",
-        "The Human Fly"
-      ],
+      "villainsInIssue": ["Burglar", "The Human Fly"],
       "villainCount": 2
     },
     {
@@ -2138,11 +1681,7 @@
       "chronologicalPosition": 197,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 10, 1979",
-      "villainsInIssue": [
-        "Burglar",
-        "Quentin Beck",
-        "Kingpin"
-      ],
+      "villainsInIssue": ["Burglar", "Quentin Beck", "Kingpin"],
       "villainCount": 3
     },
     {
@@ -2150,10 +1689,7 @@
       "chronologicalPosition": 198,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 14, 1979",
-      "villainsInIssue": [
-        "Burglar",
-        "Quentin Beck"
-      ],
+      "villainsInIssue": ["Burglar", "Quentin Beck"],
       "villainCount": 2
     },
     {
@@ -2161,10 +1697,7 @@
       "chronologicalPosition": 199,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 11, 1979",
-      "villainsInIssue": [
-        "Burglar",
-        "Quentin Beck"
-      ],
+      "villainsInIssue": ["Burglar", "Quentin Beck"],
       "villainCount": 2
     },
     {
@@ -2172,9 +1705,7 @@
       "chronologicalPosition": 200,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 9, 1979",
-      "villainsInIssue": [
-        "Burglar"
-      ],
+      "villainsInIssue": ["Burglar"],
       "villainCount": 1
     },
     {
@@ -2182,9 +1713,7 @@
       "chronologicalPosition": 201,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 13, 1979",
-      "villainsInIssue": [
-        "Lorenzo Jacobi"
-      ],
+      "villainsInIssue": ["Lorenzo Jacobi"],
       "villainCount": 1
     },
     {
@@ -2192,23 +1721,15 @@
       "chronologicalPosition": 202,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 11, 1979",
-      "villainsInIssue": [
-        "Shorty",
-        "Red",
-        "Lorenzo Jacobi",
-        "Alfred",
-        "Hatay"
-      ],
-      "villainCount": 5
+      "villainsInIssue": ["Lorenzo Jacobi", "Hatay"],
+      "villainCount": 2
     },
     {
       "issueNumber": 203,
       "chronologicalPosition": 203,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 8, 1980",
-      "villainsInIssue": [
-        "Lightmaster"
-      ],
+      "villainsInIssue": ["Lightmaster"],
       "villainCount": 1
     },
     {
@@ -2216,9 +1737,7 @@
       "chronologicalPosition": 204,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 12, 1980",
-      "villainsInIssue": [
-        "Black Cat"
-      ],
+      "villainsInIssue": ["Black Cat"],
       "villainCount": 1
     },
     {
@@ -2226,9 +1745,7 @@
       "chronologicalPosition": 205,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 11, 1980",
-      "villainsInIssue": [
-        "Black Cat"
-      ],
+      "villainsInIssue": ["Black Cat"],
       "villainCount": 1
     },
     {
@@ -2236,9 +1753,7 @@
       "chronologicalPosition": 206,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 8, 1980",
-      "villainsInIssue": [
-        "Jonas Harrow"
-      ],
+      "villainsInIssue": ["Jonas Harrow"],
       "villainCount": 1
     },
     {
@@ -2246,9 +1761,7 @@
       "chronologicalPosition": 207,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 13, 1980",
-      "villainsInIssue": [
-        "Mesmero"
-      ],
+      "villainsInIssue": ["Mesmero"],
       "villainCount": 1
     },
     {
@@ -2256,9 +1769,7 @@
       "chronologicalPosition": 208,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 10, 1980",
-      "villainsInIssue": [
-        "Fusion"
-      ],
+      "villainsInIssue": ["Fusion"],
       "villainCount": 1
     },
     {
@@ -2266,10 +1777,7 @@
       "chronologicalPosition": 209,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 8, 1980",
-      "villainsInIssue": [
-        "Kraven the Hunter",
-        "Calypso"
-      ],
+      "villainsInIssue": ["Kraven the Hunter", "Calypso"],
       "villainCount": 2
     },
     {
@@ -2277,9 +1785,7 @@
       "chronologicalPosition": 210,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 12, 1980",
-      "villainsInIssue": [
-        "Rupert Dockery"
-      ],
+      "villainsInIssue": ["Rupert Dockery"],
       "villainCount": 1
     },
     {
@@ -2287,9 +1793,7 @@
       "chronologicalPosition": 211,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 9, 1980",
-      "villainsInIssue": [
-        "Sub-Mariner"
-      ],
+      "villainsInIssue": ["Sub-Mariner"],
       "villainCount": 1
     },
     {
@@ -2297,9 +1801,7 @@
       "chronologicalPosition": 212,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 14, 1980",
-      "villainsInIssue": [
-        "Hydro-Man"
-      ],
+      "villainsInIssue": ["Hydro-Man"],
       "villainCount": 1
     },
     {
@@ -2307,10 +1809,7 @@
       "chronologicalPosition": 213,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 11, 1980",
-      "villainsInIssue": [
-        "Wizard",
-        "Llyra"
-      ],
+      "villainsInIssue": ["Wizard", "Llyra"],
       "villainCount": 2
     },
     {
@@ -2354,11 +1853,7 @@
       "chronologicalPosition": 217,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 10, 1981",
-      "villainsInIssue": [
-        "Sandman",
-        "Hydro-Man",
-        "Mud-Thing"
-      ],
+      "villainsInIssue": ["Sandman", "Hydro-Man", "Mud-Thing"],
       "villainCount": 3
     },
     {
@@ -2366,9 +1861,7 @@
       "chronologicalPosition": 218,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 7, 1981",
-      "villainsInIssue": [
-        "Mud-Thing"
-      ],
+      "villainsInIssue": ["Mud-Thing"],
       "villainCount": 1
     },
     {
@@ -2376,11 +1869,7 @@
       "chronologicalPosition": 219,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 5, 1981",
-      "villainsInIssue": [
-        "Jonas Harrow",
-        "Grey Gargoyle",
-        "Armand DuBroth"
-      ],
+      "villainsInIssue": ["Jonas Harrow", "Grey Gargoyle", "Armand DuBroth"],
       "villainCount": 3
     },
     {
@@ -2388,11 +1877,7 @@
       "chronologicalPosition": 220,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 2, 1981",
-      "villainsInIssue": [
-        "Rat Pack",
-        "Louie Frenchetti",
-        "Weasel"
-      ],
+      "villainsInIssue": ["Rat Pack", "Louie Frenchetti", "Weasel"],
       "villainCount": 3
     },
     {
@@ -2400,9 +1885,7 @@
       "chronologicalPosition": 221,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 14, 1981",
-      "villainsInIssue": [
-        "Ramrod"
-      ],
+      "villainsInIssue": ["Ramrod"],
       "villainCount": 1
     },
     {
@@ -2410,9 +1893,7 @@
       "chronologicalPosition": 222,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 4, 1981",
-      "villainsInIssue": [
-        "Speed Demon"
-      ],
+      "villainsInIssue": ["Speed Demon"],
       "villainCount": 1
     },
     {
@@ -2434,9 +1915,7 @@
       "chronologicalPosition": 224,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 6, 1981",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -2444,9 +1923,7 @@
       "chronologicalPosition": 225,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 27, 1981",
-      "villainsInIssue": [
-        "Foolkiller"
-      ],
+      "villainsInIssue": ["Foolkiller"],
       "villainCount": 1
     },
     {
@@ -2454,9 +1931,7 @@
       "chronologicalPosition": 226,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 1, 1981",
-      "villainsInIssue": [
-        "Phil Bradshaw"
-      ],
+      "villainsInIssue": ["Phil Bradshaw"],
       "villainCount": 1
     },
     {
@@ -2464,10 +1939,7 @@
       "chronologicalPosition": 227,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 5, 1982",
-      "villainsInIssue": [
-        "Black Cat",
-        "Sam Galvagno"
-      ],
+      "villainsInIssue": ["Black Cat", "Sam Galvagno"],
       "villainCount": 2
     },
     {
@@ -2475,9 +1947,7 @@
       "chronologicalPosition": 228,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 2, 1982",
-      "villainsInIssue": [
-        "Murderer by Spider"
-      ],
+      "villainsInIssue": ["Murderer by Spider"],
       "villainCount": 1
     },
     {
@@ -2485,10 +1955,7 @@
       "chronologicalPosition": 229,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 2, 1982",
-      "villainsInIssue": [
-        "Juggernaut",
-        "Black Tom Cassidy"
-      ],
+      "villainsInIssue": ["Juggernaut", "Black Tom Cassidy"],
       "villainCount": 2
     },
     {
@@ -2496,10 +1963,7 @@
       "chronologicalPosition": 230,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 30, 1982",
-      "villainsInIssue": [
-        "Juggernaut",
-        "Black Tom Cassidy"
-      ],
+      "villainsInIssue": ["Juggernaut", "Black Tom Cassidy"],
       "villainCount": 2
     },
     {
@@ -2507,10 +1971,7 @@
       "chronologicalPosition": 231,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 4, 1982",
-      "villainsInIssue": [
-        "Cobra",
-        "Mister Hyde"
-      ],
+      "villainsInIssue": ["Cobra", "Mister Hyde"],
       "villainCount": 2
     },
     {
@@ -2518,10 +1979,7 @@
       "chronologicalPosition": 232,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 1, 1982",
-      "villainsInIssue": [
-        "Cobra",
-        "Mister Hyde"
-      ],
+      "villainsInIssue": ["Cobra", "Mister Hyde"],
       "villainCount": 2
     },
     {
@@ -2529,11 +1987,7 @@
       "chronologicalPosition": 233,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 29, 1982",
-      "villainsInIssue": [
-        "Tarantula",
-        "Brand Corporation",
-        "Smith"
-      ],
+      "villainsInIssue": ["Tarantula", "Brand Corporation", "Smith"],
       "villainCount": 3
     },
     {
@@ -2588,9 +2042,7 @@
       "chronologicalPosition": 237,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 2, 1982",
-      "villainsInIssue": [
-        "Stilt-Man"
-      ],
+      "villainsInIssue": ["Stilt-Man"],
       "villainCount": 1
     },
     {
@@ -2598,10 +2050,7 @@
       "chronologicalPosition": 238,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 30, 1982",
-      "villainsInIssue": [
-        "Georgie Hill",
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Georgie Hill", "Hobgoblin"],
       "villainCount": 2
     },
     {
@@ -2609,9 +2058,7 @@
       "chronologicalPosition": 239,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 4, 1983",
-      "villainsInIssue": [
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Hobgoblin"],
       "villainCount": 1
     },
     {
@@ -2619,9 +2066,7 @@
       "chronologicalPosition": 240,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 1, 1983",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -2629,9 +2074,7 @@
       "chronologicalPosition": 241,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 1, 1983",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -2639,10 +2082,7 @@
       "chronologicalPosition": 242,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 29, 1983",
-      "villainsInIssue": [
-        "Mad Thinker",
-        "Battledroids"
-      ],
+      "villainsInIssue": ["Mad Thinker", "Battledroids"],
       "villainCount": 2
     },
     {
@@ -2650,9 +2090,7 @@
       "chronologicalPosition": 243,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 3, 1983",
-      "villainsInIssue": [
-        "Universal Liberation Army"
-      ],
+      "villainsInIssue": ["Universal Liberation Army"],
       "villainCount": 1
     },
     {
@@ -2660,10 +2098,7 @@
       "chronologicalPosition": 244,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 31, 1983",
-      "villainsInIssue": [
-        "Hobgoblin",
-        "Lefty Donovan"
-      ],
+      "villainsInIssue": ["Hobgoblin", "Lefty Donovan"],
       "villainCount": 2
     },
     {
@@ -2671,10 +2106,7 @@
       "chronologicalPosition": 245,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 5, 1983",
-      "villainsInIssue": [
-        "Hobgoblin",
-        "Lefty Donovan"
-      ],
+      "villainsInIssue": ["Hobgoblin", "Lefty Donovan"],
       "villainCount": 2
     },
     {
@@ -2690,9 +2122,7 @@
       "chronologicalPosition": 247,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 30, 1983",
-      "villainsInIssue": [
-        "Thunderball"
-      ],
+      "villainsInIssue": ["Thunderball"],
       "villainCount": 1
     },
     {
@@ -2700,10 +2130,7 @@
       "chronologicalPosition": 248,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 4, 1983",
-      "villainsInIssue": [
-        "Burglar",
-        "Thunderball"
-      ],
+      "villainsInIssue": ["Burglar", "Thunderball"],
       "villainCount": 2
     },
     {
@@ -2711,10 +2138,7 @@
       "chronologicalPosition": 249,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 1, 1983",
-      "villainsInIssue": [
-        "Kingpin",
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Kingpin", "Hobgoblin"],
       "villainCount": 2
     },
     {
@@ -2722,9 +2146,7 @@
       "chronologicalPosition": 250,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 29, 1983",
-      "villainsInIssue": [
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Hobgoblin"],
       "villainCount": 1
     },
     {
@@ -2732,9 +2154,7 @@
       "chronologicalPosition": 251,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 3, 1984",
-      "villainsInIssue": [
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Hobgoblin"],
       "villainCount": 1
     },
     {
@@ -2750,9 +2170,7 @@
       "chronologicalPosition": 253,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 28, 1984",
-      "villainsInIssue": [
-        "Schemer"
-      ],
+      "villainsInIssue": ["Schemer"],
       "villainCount": 1
     },
     {
@@ -2760,9 +2178,7 @@
       "chronologicalPosition": 254,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 3, 1984",
-      "villainsInIssue": [
-        "Jack O'Lantern"
-      ],
+      "villainsInIssue": ["Jack O'Lantern"],
       "villainCount": 1
     },
     {
@@ -2784,12 +2200,7 @@
       "chronologicalPosition": 256,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 29, 1984",
-      "villainsInIssue": [
-        "Schemer",
-        "Frankie Silvera",
-        "Ralph Mac",
-        "Puma"
-      ],
+      "villainsInIssue": ["Schemer", "Frankie Silvera", "Ralph Mac", "Puma"],
       "villainCount": 4
     },
     {
@@ -2797,12 +2208,7 @@
       "chronologicalPosition": 257,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 3, 1984",
-      "villainsInIssue": [
-        "Kingpin",
-        "Schemer",
-        "Puma",
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Kingpin", "Schemer", "Puma", "Hobgoblin"],
       "villainCount": 4
     },
     {
@@ -2810,24 +2216,15 @@
       "chronologicalPosition": 258,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 31, 1984",
-      "villainsInIssue": [
-        "Schemer",
-        "Hobgoblin",
-        "Spider-Man's Black Suit",
-        "Harry"
-      ],
-      "villainCount": 4
+      "villainsInIssue": ["Schemer", "Hobgoblin", "Spider-Man's Black Suit"],
+      "villainCount": 3
     },
     {
       "issueNumber": 259,
       "chronologicalPosition": 259,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 4, 1984",
-      "villainsInIssue": [
-        "Schemer",
-        "Hobgoblin",
-        "Spider-Man's Black Suit"
-      ],
+      "villainsInIssue": ["Schemer", "Hobgoblin", "Spider-Man's Black Suit"],
       "villainCount": 3
     },
     {
@@ -2835,10 +2232,7 @@
       "chronologicalPosition": 260,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 2, 1984",
-      "villainsInIssue": [
-        "Schemer",
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Schemer", "Hobgoblin"],
       "villainCount": 2
     },
     {
@@ -2846,10 +2240,7 @@
       "chronologicalPosition": 261,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 30, 1984",
-      "villainsInIssue": [
-        "Schemer",
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Schemer", "Hobgoblin"],
       "villainCount": 2
     },
     {
@@ -2857,33 +2248,23 @@
       "chronologicalPosition": 262,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 4, 1984",
-      "villainsInIssue": [
-        "Charlie",
-        "Boinard",
-        "Roberto DeNatale",
-        "Jake \"D.J.\" Jones"
-      ],
-      "villainCount": 4
+      "villainsInIssue": ["Roberto DeNatale", "Jake \"D.J.\" Jones"],
+      "villainCount": 2
     },
     {
       "issueNumber": 263,
       "chronologicalPosition": 263,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 2, 1985",
-      "villainsInIssue": [
-        "Mike",
-        "Eddie"
-      ],
-      "villainCount": 2
+      "villainsInIssue": [],
+      "villainCount": 0
     },
     {
       "issueNumber": 264,
       "chronologicalPosition": 264,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 29, 1985",
-      "villainsInIssue": [
-        "Red 9"
-      ],
+      "villainsInIssue": ["Red 9"],
       "villainCount": 1
     },
     {
@@ -2891,9 +2272,7 @@
       "chronologicalPosition": 265,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 5, 1985",
-      "villainsInIssue": [
-        "Black Fox"
-      ],
+      "villainsInIssue": ["Black Fox"],
       "villainCount": 1
     },
     {
@@ -2909,9 +2288,7 @@
       "chronologicalPosition": 267,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 30, 1985",
-      "villainsInIssue": [
-        "The Commuter"
-      ],
+      "villainsInIssue": ["The Commuter"],
       "villainCount": 1
     },
     {
@@ -2919,10 +2296,7 @@
       "chronologicalPosition": 268,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 4, 1985",
-      "villainsInIssue": [
-        "Kingpin",
-        "Arranger"
-      ],
+      "villainsInIssue": ["Kingpin", "Arranger"],
       "villainCount": 2
     },
     {
@@ -2930,9 +2304,7 @@
       "chronologicalPosition": 269,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 2, 1985",
-      "villainsInIssue": [
-        "Firelord"
-      ],
+      "villainsInIssue": ["Firelord"],
       "villainCount": 1
     },
     {
@@ -2940,9 +2312,7 @@
       "chronologicalPosition": 270,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 30, 1985",
-      "villainsInIssue": [
-        "Firelord"
-      ],
+      "villainsInIssue": ["Firelord"],
       "villainCount": 1
     },
     {
@@ -2950,9 +2320,7 @@
       "chronologicalPosition": 271,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 3, 1985",
-      "villainsInIssue": [
-        "Manslaughter Marsdale"
-      ],
+      "villainsInIssue": ["Manslaughter Marsdale"],
       "villainCount": 1
     },
     {
@@ -2960,9 +2328,7 @@
       "chronologicalPosition": 272,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 1, 1985",
-      "villainsInIssue": [
-        "Slyde"
-      ],
+      "villainsInIssue": ["Slyde"],
       "villainCount": 1
     },
     {
@@ -2970,9 +2336,7 @@
       "chronologicalPosition": 273,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 29, 1985",
-      "villainsInIssue": [
-        "Beyonder"
-      ],
+      "villainsInIssue": ["Beyonder"],
       "villainCount": 1
     },
     {
@@ -2980,11 +2344,7 @@
       "chronologicalPosition": 274,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 3, 1985",
-      "villainsInIssue": [
-        "Beyonder",
-        "Mephisto",
-        "Zarathos"
-      ],
+      "villainsInIssue": ["Beyonder", "Mephisto", "Zarathos"],
       "villainCount": 3
     },
     {
@@ -2992,11 +2352,7 @@
       "chronologicalPosition": 275,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 31, 1985",
-      "villainsInIssue": [
-        "Kingpin",
-        "Schemer",
-        "Hobgoblin"
-      ],
+      "villainsInIssue": ["Kingpin", "Schemer", "Hobgoblin"],
       "villainCount": 3
     },
     {
@@ -3018,10 +2374,7 @@
       "chronologicalPosition": 277,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 4, 1986",
-      "villainsInIssue": [
-        "Kingpin",
-        "Arranger"
-      ],
+      "villainsInIssue": ["Kingpin", "Arranger"],
       "villainCount": 2
     },
     {
@@ -3029,12 +2382,7 @@
       "chronologicalPosition": 278,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 1, 1986",
-      "villainsInIssue": [
-        "Schemer",
-        "Hobgoblin",
-        "Scourge",
-        "Wraith"
-      ],
+      "villainsInIssue": ["Schemer", "Hobgoblin", "Scourge", "Wraith"],
       "villainCount": 4
     },
     {
@@ -3042,9 +2390,7 @@
       "chronologicalPosition": 279,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 29, 1986",
-      "villainsInIssue": [
-        "Jack O'Lantern"
-      ],
+      "villainsInIssue": ["Jack O'Lantern"],
       "villainCount": 1
     },
     {
@@ -3102,11 +2448,7 @@
       "chronologicalPosition": 283,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 2, 1986",
-      "villainsInIssue": [
-        "Hobgoblin",
-        "Titania",
-        "Absorbing Man"
-      ],
+      "villainsInIssue": ["Hobgoblin", "Titania", "Absorbing Man"],
       "villainCount": 3
     },
     {
@@ -3158,12 +2500,7 @@
       "chronologicalPosition": 287,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 30, 1986",
-      "villainsInIssue": [
-        "Kingpin",
-        "Schemer",
-        "Hobgoblin",
-        "Arranger"
-      ],
+      "villainsInIssue": ["Kingpin", "Schemer", "Hobgoblin", "Arranger"],
       "villainCount": 4
     },
     {
@@ -3201,20 +2538,15 @@
       "chronologicalPosition": 290,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 31, 1987",
-      "villainsInIssue": [
-        "Mike",
-        "Preserver"
-      ],
-      "villainCount": 2
+      "villainsInIssue": ["Preserver"],
+      "villainCount": 1
     },
     {
       "issueNumber": 291,
       "chronologicalPosition": 291,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 5, 1987",
-      "villainsInIssue": [
-        "Alistaire Smythe"
-      ],
+      "villainsInIssue": ["Alistaire Smythe"],
       "villainCount": 1
     },
     {
@@ -3222,10 +2554,7 @@
       "chronologicalPosition": 292,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 2, 1987",
-      "villainsInIssue": [
-        "Alistaire Smythe",
-        "Philip Watson"
-      ],
+      "villainsInIssue": ["Alistaire Smythe", "Philip Watson"],
       "villainCount": 2
     },
     {
@@ -3233,9 +2562,7 @@
       "chronologicalPosition": 293,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 30, 1987",
-      "villainsInIssue": [
-        "Vermin"
-      ],
+      "villainsInIssue": ["Vermin"],
       "villainCount": 1
     },
     {
@@ -3243,10 +2570,7 @@
       "chronologicalPosition": 294,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 4, 1987",
-      "villainsInIssue": [
-        "Kraven the Hunter",
-        "Vermin"
-      ],
+      "villainsInIssue": ["Kraven the Hunter", "Vermin"],
       "villainCount": 2
     },
     {
@@ -3254,9 +2578,7 @@
       "chronologicalPosition": 295,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 1, 1987",
-      "villainsInIssue": [
-        "Doctor Hope"
-      ],
+      "villainsInIssue": ["Doctor Hope"],
       "villainCount": 1
     },
     {
@@ -3264,9 +2586,7 @@
       "chronologicalPosition": 296,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 8, 1987",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -3274,9 +2594,7 @@
       "chronologicalPosition": 297,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 13, 1987",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -3284,11 +2602,7 @@
       "chronologicalPosition": 298,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 10, 1987",
-      "villainsInIssue": [
-        "Chance",
-        "Life Foundation",
-        "Carlton Drake"
-      ],
+      "villainsInIssue": ["Chance", "Life Foundation", "Carlton Drake"],
       "villainCount": 3
     },
     {
@@ -3296,11 +2610,7 @@
       "chronologicalPosition": 299,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 8, 1987",
-      "villainsInIssue": [
-        "Chance",
-        "Life Foundation",
-        "Carlton Drake"
-      ],
+      "villainsInIssue": ["Chance", "Life Foundation", "Carlton Drake"],
       "villainCount": 3
     },
     {
@@ -3308,9 +2618,7 @@
       "chronologicalPosition": 300,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 12, 1988",
-      "villainsInIssue": [
-        "Spider-Man's Black Suit"
-      ],
+      "villainsInIssue": ["Spider-Man's Black Suit"],
       "villainCount": 1
     },
     {
@@ -3318,9 +2626,7 @@
       "chronologicalPosition": 301,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 9, 1988",
-      "villainsInIssue": [
-        "Frank Cruz"
-      ],
+      "villainsInIssue": ["Frank Cruz"],
       "villainCount": 1
     },
     {
@@ -3328,9 +2634,7 @@
       "chronologicalPosition": 302,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 8, 1988",
-      "villainsInIssue": [
-        "Royce Nero"
-      ],
+      "villainsInIssue": ["Royce Nero"],
       "villainCount": 1
     },
     {
@@ -3338,9 +2642,7 @@
       "chronologicalPosition": 303,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 12, 1988",
-      "villainsInIssue": [
-        "Frank Cruz"
-      ],
+      "villainsInIssue": ["Frank Cruz"],
       "villainCount": 1
     },
     {
@@ -3348,9 +2650,7 @@
       "chronologicalPosition": 304,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 10, 1988",
-      "villainsInIssue": [
-        "Black Fox"
-      ],
+      "villainsInIssue": ["Black Fox"],
       "villainCount": 1
     },
     {
@@ -3358,11 +2658,7 @@
       "chronologicalPosition": 305,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 24, 1988",
-      "villainsInIssue": [
-        "Black Fox",
-        "Transcorp",
-        "Troy Fishburne"
-      ],
+      "villainsInIssue": ["Black Fox", "Transcorp", "Troy Fishburne"],
       "villainCount": 3
     },
     {
@@ -3370,11 +2666,7 @@
       "chronologicalPosition": 306,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 14, 1988",
-      "villainsInIssue": [
-        "Chameleon",
-        "Humbug",
-        "Jonathan Caesar"
-      ],
+      "villainsInIssue": ["Chameleon", "Humbug", "Jonathan Caesar"],
       "villainCount": 3
     },
     {
@@ -3382,10 +2674,7 @@
       "chronologicalPosition": 307,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 28, 1988",
-      "villainsInIssue": [
-        "Chameleon",
-        "Jonathan Caesar"
-      ],
+      "villainsInIssue": ["Chameleon", "Jonathan Caesar"],
       "villainCount": 2
     },
     {
@@ -3393,10 +2682,7 @@
       "chronologicalPosition": 308,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 12, 1988",
-      "villainsInIssue": [
-        "Jonathan Caesar",
-        "Taskmaster"
-      ],
+      "villainsInIssue": ["Jonathan Caesar", "Taskmaster"],
       "villainCount": 2
     },
     {
@@ -3417,10 +2703,7 @@
       "chronologicalPosition": 310,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 9, 1988",
-      "villainsInIssue": [
-        "Tinkerer",
-        "Killer Shrike"
-      ],
+      "villainsInIssue": ["Tinkerer", "Killer Shrike"],
       "villainCount": 2
     },
     {
@@ -3428,9 +2711,7 @@
       "chronologicalPosition": 311,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 13, 1988",
-      "villainsInIssue": [
-        "Quentin Beck"
-      ],
+      "villainsInIssue": ["Quentin Beck"],
       "villainCount": 1
     },
     {
@@ -3438,9 +2719,7 @@
       "chronologicalPosition": 312,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 11, 1988",
-      "villainsInIssue": [
-        "Jack O'Lantern"
-      ],
+      "villainsInIssue": ["Jack O'Lantern"],
       "villainCount": 1
     },
     {
@@ -3448,10 +2727,7 @@
       "chronologicalPosition": 313,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 8, 1988",
-      "villainsInIssue": [
-        "The Lizard",
-        "Jonathan Caesar"
-      ],
+      "villainsInIssue": ["The Lizard", "Jonathan Caesar"],
       "villainCount": 2
     },
     {
@@ -3459,9 +2735,7 @@
       "chronologicalPosition": 314,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 13, 1988",
-      "villainsInIssue": [
-        "Malcolm Kinderman"
-      ],
+      "villainsInIssue": ["Malcolm Kinderman"],
       "villainCount": 1
     },
     {
@@ -3469,10 +2743,7 @@
       "chronologicalPosition": 315,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 10, 1989",
-      "villainsInIssue": [
-        "Hydro-Man",
-        "Venom"
-      ],
+      "villainsInIssue": ["Hydro-Man", "Venom"],
       "villainCount": 2
     },
     {
@@ -3480,9 +2751,7 @@
       "chronologicalPosition": 316,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 14, 1989",
-      "villainsInIssue": [
-        "Venom"
-      ],
+      "villainsInIssue": ["Venom"],
       "villainCount": 1
     },
     {
@@ -3490,9 +2759,7 @@
       "chronologicalPosition": 317,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 14, 1989",
-      "villainsInIssue": [
-        "Venom"
-      ],
+      "villainsInIssue": ["Venom"],
       "villainCount": 1
     },
     {
@@ -3500,11 +2767,7 @@
       "chronologicalPosition": 318,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 11, 1989",
-      "villainsInIssue": [
-        "Chameleon",
-        "Scorpion",
-        "Justin Hammer"
-      ],
+      "villainsInIssue": ["Chameleon", "Scorpion", "Justin Hammer"],
       "villainCount": 3
     },
     {
@@ -3512,12 +2775,7 @@
       "chronologicalPosition": 319,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 9, 1989",
-      "villainsInIssue": [
-        "Scorpion",
-        "Rhino",
-        "Justin Hammer",
-        "Backlash"
-      ],
+      "villainsInIssue": ["Scorpion", "Rhino", "Justin Hammer", "Backlash"],
       "villainCount": 4
     },
     {
@@ -3525,10 +2783,7 @@
       "chronologicalPosition": 320,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 23, 1989",
-      "villainsInIssue": [
-        "Life Foundation",
-        "Carlton Drake"
-      ],
+      "villainsInIssue": ["Life Foundation", "Carlton Drake"],
       "villainCount": 2
     },
     {
@@ -3536,11 +2791,7 @@
       "chronologicalPosition": 321,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 6, 1989",
-      "villainsInIssue": [
-        "Life Foundation",
-        "Carlton Drake",
-        "Protectors"
-      ],
+      "villainsInIssue": ["Life Foundation", "Carlton Drake", "Protectors"],
       "villainCount": 3
     },
     {
@@ -3561,10 +2812,7 @@
       "chronologicalPosition": 323,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 4, 1989",
-      "villainsInIssue": [
-        "ULTIMATUM",
-        "Major Toler Weil"
-      ],
+      "villainsInIssue": ["ULTIMATUM", "Major Toler Weil"],
       "villainCount": 2
     },
     {
@@ -3599,9 +2847,7 @@
       "chronologicalPosition": 326,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 12, 1989",
-      "villainsInIssue": [
-        "Graviton"
-      ],
+      "villainsInIssue": ["Graviton"],
       "villainCount": 1
     },
     {
@@ -3609,12 +2855,7 @@
       "chronologicalPosition": 327,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 10, 1989",
-      "villainsInIssue": [
-        "Doctor Doom",
-        "Kingpin",
-        "Wizard",
-        "Magneto"
-      ],
+      "villainsInIssue": ["Doctor Doom", "Kingpin", "Wizard", "Magneto"],
       "villainCount": 4
     },
     {
@@ -3622,10 +2863,7 @@
       "chronologicalPosition": 328,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 14, 1989",
-      "villainsInIssue": [
-        "Hulk",
-        "Sebastian Shaw"
-      ],
+      "villainsInIssue": ["Hulk", "Sebastian Shaw"],
       "villainCount": 2
     },
     {
@@ -3651,9 +2889,7 @@
       "chronologicalPosition": 330,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 9, 1990",
-      "villainsInIssue": [
-        "Venom"
-      ],
+      "villainsInIssue": ["Venom"],
       "villainCount": 1
     },
     {
@@ -3661,12 +2897,8 @@
       "chronologicalPosition": 331,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 13, 1990",
-      "villainsInIssue": [
-        "Boinard",
-        "Black Cat",
-        "Venom"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Black Cat", "Venom"],
+      "villainCount": 2
     },
     {
       "issueNumber": 332,
@@ -3687,12 +2919,7 @@
       "chronologicalPosition": 333,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 10, 1990",
-      "villainsInIssue": [
-        "Jonathan Caesar",
-        "Styx",
-        "Stone",
-        "Venom"
-      ],
+      "villainsInIssue": ["Jonathan Caesar", "Styx", "Stone", "Venom"],
       "villainCount": 4
     },
     {
@@ -3700,11 +2927,7 @@
       "chronologicalPosition": 334,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 8, 1990",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Sandman",
-        "Electro"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Sandman", "Electro"],
       "villainCount": 3
     },
     {
@@ -3725,12 +2948,7 @@
       "chronologicalPosition": 336,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 12, 1990",
-      "villainsInIssue": [
-        "Vulture",
-        "Doctor Octopus",
-        "Kingpin",
-        "Chance"
-      ],
+      "villainsInIssue": ["Vulture", "Doctor Octopus", "Kingpin", "Chance"],
       "villainCount": 4
     },
     {
@@ -3801,10 +3019,7 @@
       "chronologicalPosition": 341,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 11, 1990",
-      "villainsInIssue": [
-        "Chameleon",
-        "Tarantula"
-      ],
+      "villainsInIssue": ["Chameleon", "Tarantula"],
       "villainCount": 2
     },
     {
@@ -3812,10 +3027,7 @@
       "chronologicalPosition": 342,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 9, 1990",
-      "villainsInIssue": [
-        "Chameleon",
-        "Scorpion"
-      ],
+      "villainsInIssue": ["Chameleon", "Scorpion"],
       "villainCount": 2
     },
     {
@@ -3869,10 +3081,7 @@
       "chronologicalPosition": 346,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 12, 1991",
-      "villainsInIssue": [
-        "Spider-Man's Black Suit",
-        "Venom"
-      ],
+      "villainsInIssue": ["Spider-Man's Black Suit", "Venom"],
       "villainCount": 2
     },
     {
@@ -3880,10 +3089,7 @@
       "chronologicalPosition": 347,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 12, 1991",
-      "villainsInIssue": [
-        "Spider-Man's Black Suit",
-        "Venom"
-      ],
+      "villainsInIssue": ["Spider-Man's Black Suit", "Venom"],
       "villainCount": 2
     },
     {
@@ -3899,9 +3105,7 @@
       "chronologicalPosition": 349,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 14, 1991",
-      "villainsInIssue": [
-        "Black Fox"
-      ],
+      "villainsInIssue": ["Black Fox"],
       "villainCount": 1
     },
     {
@@ -3922,11 +3126,7 @@
       "chronologicalPosition": 351,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 9, 1991",
-      "villainsInIssue": [
-        "Life Foundation",
-        "Carlton Drake",
-        "Tri-Sentinel"
-      ],
+      "villainsInIssue": ["Life Foundation", "Carlton Drake", "Tri-Sentinel"],
       "villainCount": 3
     },
     {
@@ -3934,11 +3134,7 @@
       "chronologicalPosition": 352,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 13, 1991",
-      "villainsInIssue": [
-        "Life Foundation",
-        "Carlton Drake",
-        "Tri-Sentinel"
-      ],
+      "villainsInIssue": ["Life Foundation", "Carlton Drake", "Tri-Sentinel"],
       "villainCount": 3
     },
     {
@@ -4034,9 +3230,7 @@
       "chronologicalPosition": 359,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 10, 1991",
-      "villainsInIssue": [
-        "Cardiac"
-      ],
+      "villainsInIssue": ["Cardiac"],
       "villainCount": 1
     },
     {
@@ -4044,11 +3238,7 @@
       "chronologicalPosition": 360,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 14, 1992",
-      "villainsInIssue": [
-        "Cardiac",
-        "Stane International",
-        "Joe Faulkner"
-      ],
+      "villainsInIssue": ["Cardiac", "Stane International", "Joe Faulkner"],
       "villainCount": 3
     },
     {
@@ -4056,10 +3246,7 @@
       "chronologicalPosition": 361,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 13, 1992",
-      "villainsInIssue": [
-        "Carnage",
-        "Carnage Symbiote"
-      ],
+      "villainsInIssue": ["Carnage", "Carnage Symbiote"],
       "villainCount": 2
     },
     {
@@ -4067,10 +3254,7 @@
       "chronologicalPosition": 362,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 10, 1992",
-      "villainsInIssue": [
-        "Carnage",
-        "Carnage Symbiote"
-      ],
+      "villainsInIssue": ["Carnage", "Carnage Symbiote"],
       "villainCount": 2
     },
     {
@@ -4078,10 +3262,7 @@
       "chronologicalPosition": 363,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 14, 1992",
-      "villainsInIssue": [
-        "Carnage",
-        "Carnage Symbiote"
-      ],
+      "villainsInIssue": ["Carnage", "Carnage Symbiote"],
       "villainCount": 2
     },
     {
@@ -4089,9 +3270,7 @@
       "chronologicalPosition": 364,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 12, 1992",
-      "villainsInIssue": [
-        "Shocker"
-      ],
+      "villainsInIssue": ["Shocker"],
       "villainCount": 1
     },
     {
@@ -4115,14 +3294,8 @@
       "chronologicalPosition": 366,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 14, 1992",
-      "villainsInIssue": [
-        "Eddie",
-        "Taskmaster",
-        "Red Skull",
-        "Viper",
-        "Sweat Shop"
-      ],
-      "villainCount": 5
+      "villainsInIssue": ["Taskmaster", "Red Skull", "Viper", "Sweat Shop"],
+      "villainCount": 4
     },
     {
       "issueNumber": 367,
@@ -4145,10 +3318,7 @@
       "chronologicalPosition": 368,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 8, 1992",
-      "villainsInIssue": [
-        "J. Jonah Jameson",
-        "Alistaire Smythe"
-      ],
+      "villainsInIssue": ["J. Jonah Jameson", "Alistaire Smythe"],
       "villainCount": 2
     },
     {
@@ -4156,10 +3326,7 @@
       "chronologicalPosition": 369,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 22, 1992",
-      "villainsInIssue": [
-        "Electro",
-        "Alistaire Smythe"
-      ],
+      "villainsInIssue": ["Electro", "Alistaire Smythe"],
       "villainCount": 2
     },
     {
@@ -4167,9 +3334,7 @@
       "chronologicalPosition": 370,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 13, 1992",
-      "villainsInIssue": [
-        "Scorpion"
-      ],
+      "villainsInIssue": ["Scorpion"],
       "villainCount": 1
     },
     {
@@ -4177,10 +3342,7 @@
       "chronologicalPosition": 371,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 27, 1992",
-      "villainsInIssue": [
-        "Philip Watson",
-        "Max Young"
-      ],
+      "villainsInIssue": ["Philip Watson", "Max Young"],
       "villainCount": 2
     },
     {
@@ -4204,22 +3366,15 @@
       "chronologicalPosition": 373,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 24, 1992",
-      "villainsInIssue": [
-        "Alistaire Smythe",
-        "Charlie Shaddock",
-        "Perkins"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Alistaire Smythe", "Charlie Shaddock"],
+      "villainCount": 2
     },
     {
       "issueNumber": 374,
       "chronologicalPosition": 374,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 8, 1992",
-      "villainsInIssue": [
-        "Spider-Man's Black Suit",
-        "Venom"
-      ],
+      "villainsInIssue": ["Spider-Man's Black Suit", "Venom"],
       "villainCount": 2
     },
     {
@@ -4246,11 +3401,7 @@
       "chronologicalPosition": 376,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 9, 1993",
-      "villainsInIssue": [
-        "Styx",
-        "Stone",
-        "Cardiac"
-      ],
+      "villainsInIssue": ["Styx", "Stone", "Cardiac"],
       "villainCount": 3
     },
     {
@@ -4258,11 +3409,7 @@
       "chronologicalPosition": 377,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 9, 1993",
-      "villainsInIssue": [
-        "Styx",
-        "Stone",
-        "Cardiac"
-      ],
+      "villainsInIssue": ["Styx", "Stone", "Cardiac"],
       "villainCount": 3
     },
     {
@@ -4311,9 +3458,7 @@
       "chronologicalPosition": 381,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 15, 1993",
-      "villainsInIssue": [
-        "Doc Samson"
-      ],
+      "villainsInIssue": ["Doc Samson"],
       "villainCount": 1
     },
     {
@@ -4321,9 +3466,7 @@
       "chronologicalPosition": 382,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 10, 1993",
-      "villainsInIssue": [
-        "Hulk"
-      ],
+      "villainsInIssue": ["Hulk"],
       "villainCount": 1
     },
     {
@@ -4379,9 +3522,7 @@
       "chronologicalPosition": 386,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 14, 1993",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
@@ -4389,10 +3530,7 @@
       "chronologicalPosition": 387,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 11, 1994",
-      "villainsInIssue": [
-        "Chameleon",
-        "Vulture"
-      ],
+      "villainsInIssue": ["Chameleon", "Vulture"],
       "villainCount": 2
     },
     {
@@ -4414,9 +3552,7 @@
       "chronologicalPosition": 389,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 8, 1994",
-      "villainsInIssue": [
-        "Chameleon"
-      ],
+      "villainsInIssue": ["Chameleon"],
       "villainCount": 1
     },
     {
@@ -4424,9 +3560,7 @@
       "chronologicalPosition": 390,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 12, 1994",
-      "villainsInIssue": [
-        "Shriek"
-      ],
+      "villainsInIssue": ["Shriek"],
       "villainCount": 1
     },
     {
@@ -4434,10 +3568,7 @@
       "chronologicalPosition": 391,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 10, 1994",
-      "villainsInIssue": [
-        "Shriek",
-        "Carrion"
-      ],
+      "villainsInIssue": ["Shriek", "Carrion"],
       "villainCount": 2
     },
     {
@@ -4445,10 +3576,7 @@
       "chronologicalPosition": 392,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 14, 1994",
-      "villainsInIssue": [
-        "Shriek",
-        "Carrion"
-      ],
+      "villainsInIssue": ["Shriek", "Carrion"],
       "villainCount": 2
     },
     {
@@ -4456,10 +3584,7 @@
       "chronologicalPosition": 393,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 12, 1994",
-      "villainsInIssue": [
-        "Shriek",
-        "Carrion"
-      ],
+      "villainsInIssue": ["Shriek", "Carrion"],
       "villainCount": 2
     },
     {
@@ -4482,9 +3607,7 @@
       "chronologicalPosition": 395,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 13, 1994",
-      "villainsInIssue": [
-        "Puma"
-      ],
+      "villainsInIssue": ["Puma"],
       "villainCount": 1
     },
     {
@@ -4492,10 +3615,7 @@
       "chronologicalPosition": 396,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 11, 1994",
-      "villainsInIssue": [
-        "Vulture",
-        "The Owl"
-      ],
+      "villainsInIssue": ["Vulture", "The Owl"],
       "villainCount": 2
     },
     {
@@ -4503,11 +3623,7 @@
       "chronologicalPosition": 397,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 8, 1994",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Kaine",
-        "Stunner"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Kaine", "Stunner"],
       "villainCount": 3
     },
     {
@@ -4515,9 +3631,7 @@
       "chronologicalPosition": 398,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 13, 1994",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -4525,11 +3639,7 @@
       "chronologicalPosition": 399,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "January 10, 1995",
-      "villainsInIssue": [
-        "Kaine",
-        "Scrier",
-        "Jackal"
-      ],
+      "villainsInIssue": ["Kaine", "Scrier", "Jackal"],
       "villainCount": 3
     },
     {
@@ -4564,10 +3674,7 @@
       "chronologicalPosition": 402,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 11, 1995",
-      "villainsInIssue": [
-        "Dr. Judas Traveller",
-        "Scrier"
-      ],
+      "villainsInIssue": ["Dr. Judas Traveller", "Scrier"],
       "villainCount": 2
     },
     {
@@ -4575,10 +3682,7 @@
       "chronologicalPosition": 403,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 9, 1995",
-      "villainsInIssue": [
-        "Carnage",
-        "Dr. Judas Traveller"
-      ],
+      "villainsInIssue": ["Carnage", "Dr. Judas Traveller"],
       "villainCount": 2
     },
     {
@@ -4586,10 +3690,7 @@
       "chronologicalPosition": 404,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 20, 1995",
-      "villainsInIssue": [
-        "Jackal",
-        "Peter Parker"
-      ],
+      "villainsInIssue": ["Jackal", "Peter Parker"],
       "villainCount": 2
     },
     {
@@ -4597,9 +3698,7 @@
       "chronologicalPosition": 405,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 20, 1995",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -4607,9 +3706,7 @@
       "chronologicalPosition": 406,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 17, 1995",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
@@ -4617,9 +3714,7 @@
       "chronologicalPosition": 407,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 16, 1995",
-      "villainsInIssue": [
-        "Quentin Beck"
-      ],
+      "villainsInIssue": ["Quentin Beck"],
       "villainCount": 1
     },
     {
@@ -4627,10 +3722,7 @@
       "chronologicalPosition": 408,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 14, 1995",
-      "villainsInIssue": [
-        "Quentin Beck",
-        "Armada"
-      ],
+      "villainsInIssue": ["Quentin Beck", "Armada"],
       "villainCount": 2
     },
     {
@@ -4642,23 +3734,18 @@
         "Rhino",
         "Great Game",
         "James Johnsmeyer",
-        "Yassaf",
-        "Nicolas",
         "Chu Chi-Huan",
         "Joystick",
         "Polestar"
       ],
-      "villainCount": 8
+      "villainCount": 6
     },
     {
       "issueNumber": 410,
       "chronologicalPosition": 410,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "February 15, 1996",
-      "villainsInIssue": [
-        "Carnage",
-        "Carnage Symbiote"
-      ],
+      "villainsInIssue": ["Carnage", "Carnage Symbiote"],
       "villainCount": 2
     },
     {
@@ -4682,10 +3769,7 @@
       "chronologicalPosition": 412,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "April 10, 1996",
-      "villainsInIssue": [
-        "Mendel Stromm",
-        "Multivex Corporation"
-      ],
+      "villainsInIssue": ["Mendel Stromm", "Multivex Corporation"],
       "villainCount": 2
     },
     {
@@ -4693,10 +3777,7 @@
       "chronologicalPosition": 413,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "May 15, 1996",
-      "villainsInIssue": [
-        "Quentin Beck",
-        "Armada"
-      ],
+      "villainsInIssue": ["Quentin Beck", "Armada"],
       "villainCount": 2
     },
     {
@@ -4704,10 +3785,7 @@
       "chronologicalPosition": 414,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 12, 1996",
-      "villainsInIssue": [
-        "Delilah",
-        "The Rose"
-      ],
+      "villainsInIssue": ["Delilah", "The Rose"],
       "villainCount": 2
     },
     {
@@ -4715,9 +3793,7 @@
       "chronologicalPosition": 415,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 10, 1996",
-      "villainsInIssue": [
-        "Sentinels"
-      ],
+      "villainsInIssue": ["Sentinels"],
       "villainCount": 1
     },
     {
@@ -4761,10 +3837,7 @@
       "chronologicalPosition": 418,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 9, 1996",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Mendel Stromm"
-      ],
+      "villainsInIssue": ["Green Goblin", "Mendel Stromm"],
       "villainCount": 2
     },
     {
@@ -4772,9 +3845,7 @@
       "chronologicalPosition": 419,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 13, 1996",
-      "villainsInIssue": [
-        "Black Tarantula"
-      ],
+      "villainsInIssue": ["Black Tarantula"],
       "villainCount": 1
     },
     {
@@ -4826,11 +3897,7 @@
       "chronologicalPosition": 423,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 12, 1997",
-      "villainsInIssue": [
-        "Electro",
-        "Delilah",
-        "The Rose"
-      ],
+      "villainsInIssue": ["Electro", "Delilah", "The Rose"],
       "villainCount": 3
     },
     {
@@ -4853,11 +3920,7 @@
       "chronologicalPosition": 425,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 18, 1997",
-      "villainsInIssue": [
-        "Electro",
-        "Delilah",
-        "The Rose"
-      ],
+      "villainsInIssue": ["Electro", "Delilah", "The Rose"],
       "villainCount": 3
     },
     {
@@ -4901,11 +3964,7 @@
       "chronologicalPosition": 429,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "October 8, 1997",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Titania",
-        "Absorbing Man"
-      ],
+      "villainsInIssue": ["Green Goblin", "Titania", "Absorbing Man"],
       "villainCount": 3
     },
     {
@@ -4913,10 +3972,7 @@
       "chronologicalPosition": 430,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "November 12, 1997",
-      "villainsInIssue": [
-        "Carnage",
-        "Carnage Cosmic"
-      ],
+      "villainsInIssue": ["Carnage", "Carnage Cosmic"],
       "villainCount": 2
     },
     {
@@ -4924,10 +3980,7 @@
       "chronologicalPosition": 431,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "December 10, 1997",
-      "villainsInIssue": [
-        "Carnage",
-        "Carnage Cosmic"
-      ],
+      "villainsInIssue": ["Carnage", "Carnage Cosmic"],
       "villainCount": 2
     },
     {
@@ -4958,11 +4011,7 @@
       "chronologicalPosition": 434,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "March 11, 1998",
-      "villainsInIssue": [
-        "Delilah",
-        "The Rose",
-        "Brotherhood of the Scrier"
-      ],
+      "villainsInIssue": ["Delilah", "The Rose", "Brotherhood of the Scrier"],
       "villainCount": 3
     },
     {
@@ -4994,9 +4043,7 @@
       "chronologicalPosition": 437,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "June 10, 1998",
-      "villainsInIssue": [
-        "Plant-Man"
-      ],
+      "villainsInIssue": ["Plant-Man"],
       "villainCount": 1
     },
     {
@@ -5004,9 +4051,7 @@
       "chronologicalPosition": 438,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "July 8, 1998",
-      "villainsInIssue": [
-        "Synario"
-      ],
+      "villainsInIssue": ["Synario"],
       "villainCount": 1
     },
     {
@@ -5022,9 +4067,7 @@
       "chronologicalPosition": 440,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "August 12, 1998",
-      "villainsInIssue": [
-        "Molten Man"
-      ],
+      "villainsInIssue": ["Molten Man"],
       "villainCount": 1
     },
     {
@@ -5032,32 +4075,18 @@
       "chronologicalPosition": 441,
       "series": "Amazing Spider-Man Vol 1",
       "releaseDate": "September 9, 1998",
-      "villainsInIssue": [
-        "Molten Man"
-      ],
+      "villainsInIssue": ["Molten Man"],
       "villainCount": 1
     }
   ],
   "scales": {
     "x": {
-      "domain": [
-        1,
-        441
-      ],
-      "range": [
-        60,
-        1180
-      ]
+      "domain": [1, 441],
+      "range": [60, 1180]
     },
     "y": {
-      "domain": [
-        0,
-        30
-      ],
-      "range": [
-        570,
-        20
-      ]
+      "domain": [0, 30],
+      "range": [570, 20]
     }
   },
   "colors": {
@@ -5066,8 +4095,8 @@
     "Vulture": "#e84393",
     "Tinkerer": "#d63031",
     "Quentin Beck": "#fa8231",
-    "Charlie": "#34495e",
     "Doctor Octopus": "#ff6b6b",
+    "Charlie": "#34495e",
     "Sandman": "#2ecc71",
     "Doctor Doom": "#34495e",
     "Doombot": "#fab1a0",
@@ -5094,7 +4123,6 @@
     "Princess Python": "#f39c12",
     "Precious": "#d63031",
     "Lucky Lobo": "#e74c3c",
-    "Mike": "#81ecec",
     "Spencer Smythe": "#b2bec3",
     "Spider Slayer": "#2d3436",
     "Crime Master": "#e74c3c",
@@ -5104,20 +4132,16 @@
     "Looter": "#ff7675",
     "Mendel Stromm": "#e84393",
     "Joe Smith": "#f39c12",
-    "Boinard": "#c0392b",
     "Rhino": "#2980b9",
     "Colonel John Jameson": "#b2bec3",
     "Shocker": "#c0392b",
     "Kingpin": "#34495e",
     "Flint": "#c0392b",
-    "Shorty": "#ff7675",
     "Big Turk": "#6c5ce7",
     "J. Jonah Jameson": "#2d3436",
     "Spider-Slayer Mark II": "#fa8231",
     "Dr. Winkler": "#fd79a8",
     "Medusa": "#c0392b",
-    "Duke": "#f39c12",
-    "Red": "#636e72",
     "Wilson": "#e74c3c",
     "Quicksilver": "#e67e22",
     "Manfredi Family": "#00b894",
@@ -5175,7 +4199,6 @@
     "Bruno Grainger": "#ff7675",
     "Emil Greco": "#636e72",
     "Lorenzo Jacobi": "#1abc9c",
-    "Alfred": "#81ecec",
     "Hatay": "#f39c12",
     "Lightmaster": "#b2bec3",
     "Mesmero": "#ffeaa7",
@@ -5230,10 +4253,8 @@
     "Ralph Mac": "#d63031",
     "Puma": "#636e72",
     "Spider-Man's Black Suit": "#00b894",
-    "Harry": "#d35400",
     "Roberto DeNatale": "#00cec9",
     "Jake \"D.J.\" Jones": "#ffeaa7",
-    "Eddie": "#2d3436",
     "Red 9": "#2ecc71",
     "Black Fox": "#ff6b6b",
     "The Commuter": "#3498db",
@@ -5329,7 +4350,6 @@
     "Spider-Slayer Mark XV": "#3498db",
     "Spider-Slayer Mark XVI": "#8e44ad",
     "Spider-Slayer Mark XVII": "#0984e3",
-    "Perkins": "#e74c3c",
     "Amy Chen": "#dfe6e9",
     "Battlestar": "#fd79a8",
     "Raul Quentino": "#f39c12",
@@ -5364,8 +4384,6 @@
     "Armada": "#2ecc71",
     "Great Game": "#4ecdc4",
     "James Johnsmeyer": "#2ecc71",
-    "Yassaf": "#27ae60",
-    "Nicolas": "#c0392b",
     "Chu Chi-Huan": "#ff7675",
     "Joystick": "#d63031",
     "Polestar": "#fab1a0",

@@ -134,22 +134,6 @@
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
-        },
-        {
-          "name": "Larry",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Larry"
-        },
-        {
-          "name": "Larry",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Larry"
-        },
-        {
-          "name": "Mel",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Mel"
-        },
-        {
-          "name": "Roger",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Roger"
         }
       ]
     },
@@ -358,14 +342,6 @@
           "imageUrl": "/images/sean-dunne-earth-616.jpg"
         },
         {
-          "name": "Paddy",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/P#Paddy"
-        },
-        {
-          "name": "Patrick",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/P#Patrick"
-        },
-        {
           "name": "Roxxon",
           "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
           "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
@@ -526,14 +502,6 @@
           "name": "Headhunter",
           "url": "https://marvel.fandom.com/wiki/Headhunter_(Executive_Services)_(Earth-616)",
           "imageUrl": "/images/headhunter-executive-services-earth-616.jpg"
-        },
-        {
-          "name": "Rollie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Rollie"
-        },
-        {
-          "name": "Lenny",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Lenny"
         }
       ]
     },
@@ -543,21 +511,9 @@
       "releaseDate": "March 24, 1987",
       "antagonists": [
         {
-          "name": "Hershel",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/H#Hershel"
-        },
-        {
           "name": "Milicent Peabody",
           "url": "https://marvel.fandom.com/wiki/Milicent_Peabody_(Earth-616)",
           "imageUrl": "/images/milicent-peabody-earth-616.jpg"
-        },
-        {
-          "name": "Randolph",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Randolph"
-        },
-        {
-          "name": "Reuben",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Reuben"
         }
       ]
     },
@@ -747,10 +703,6 @@
           "name": "Cult of Love",
           "url": "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
           "imageUrl": "/images/students-of-love-earth-616.jpg"
-        },
-        {
-          "name": "Brother Bruce",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bruce"
         }
       ]
     },
@@ -768,10 +720,6 @@
           "name": "Teacher",
           "url": "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)",
           "imageUrl": "/images/teacher-students-of-love-earth-616.jpg"
-        },
-        {
-          "name": "Brother Bruce",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bruce"
         }
       ]
     },
@@ -789,10 +737,6 @@
           "name": "Teacher",
           "url": "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)",
           "imageUrl": "/images/teacher-students-of-love-earth-616.jpg"
-        },
-        {
-          "name": "Brother Bruce",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bruce"
         }
       ]
     },
@@ -810,10 +754,6 @@
           "name": "Teacher",
           "url": "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)",
           "imageUrl": "/images/teacher-students-of-love-earth-616.jpg"
-        },
-        {
-          "name": "Brother Bruce",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bruce"
         }
       ]
     },

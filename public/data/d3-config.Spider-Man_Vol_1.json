@@ -1,8 +1,481 @@
 {
   "data": [
     {
-      "issueNumber": 51,
+      "issueNumber": 1,
       "chronologicalPosition": 1,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 19, 1990",
+      "villainsInIssue": ["The Lizard", "Calypso"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 2,
+      "chronologicalPosition": 2,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 17, 1990",
+      "villainsInIssue": ["The Lizard", "Calypso"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 3,
+      "chronologicalPosition": 3,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 21, 1990",
+      "villainsInIssue": ["The Lizard", "Calypso"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 4,
+      "chronologicalPosition": 4,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 18, 1990",
+      "villainsInIssue": ["The Lizard", "Calypso"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 5,
+      "chronologicalPosition": 5,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "October 16, 1990",
+      "villainsInIssue": ["The Lizard", "Calypso"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 6,
+      "chronologicalPosition": 6,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "November 20, 1990",
+      "villainsInIssue": ["Hobgoblin"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 7,
+      "chronologicalPosition": 7,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "December 18, 1990",
+      "villainsInIssue": ["Hobgoblin"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 8,
+      "chronologicalPosition": 8,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "January 15, 1991",
+      "villainsInIssue": ["Wendigo"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 9,
+      "chronologicalPosition": 9,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "February 19, 1991",
+      "villainsInIssue": ["Wendigo"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 10,
+      "chronologicalPosition": 10,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "March 19, 1991",
+      "villainsInIssue": ["Wendigo"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 11,
+      "chronologicalPosition": 11,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 16, 1991",
+      "villainsInIssue": ["Luke Thorpe", "Inspector Krahn"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 12,
+      "chronologicalPosition": 12,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "May 21, 1991",
+      "villainsInIssue": ["Inspector Krahn"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 13,
+      "chronologicalPosition": 13,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 18, 1991",
+      "villainsInIssue": ["Morbius", "Subhumans", "Keever"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 14,
+      "chronologicalPosition": 14,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 16, 1991",
+      "villainsInIssue": ["Morbius", "Subhumans", "Keever"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 15,
+      "chronologicalPosition": 15,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 20, 1991",
+      "villainsInIssue": ["Masterblaster", "Powerhouse"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 16,
+      "chronologicalPosition": 16,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 17, 1991",
+      "villainsInIssue": ["Juggernaut"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 17,
+      "chronologicalPosition": 17,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "October 15, 1991",
+      "villainsInIssue": ["Thanos"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 18,
+      "chronologicalPosition": 18,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "November 19, 1991",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Doctor Octopus",
+        "Electro",
+        "Vulture",
+        "Mysterio"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 19,
+      "chronologicalPosition": 19,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "December 17, 1991",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Doctor Octopus",
+        "Electro",
+        "Vulture",
+        "Mysterio",
+        "Diablo"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 20,
+      "chronologicalPosition": 20,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "January 21, 1992",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Doctor Octopus",
+        "Electro",
+        "Vulture",
+        "Mysterio",
+        "Diablo"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 21,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "February 18, 1992",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Doctor Octopus",
+        "Electro",
+        "Vulture",
+        "Mysterio"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 22,
+      "chronologicalPosition": 22,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "March 17, 1992",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Doctor Octopus",
+        "Electro",
+        "Vulture",
+        "Mysterio",
+        "Gog"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 23,
+      "chronologicalPosition": 23,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 21, 1992",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Doctor Octopus",
+        "Electro",
+        "Vulture",
+        "Mysterio",
+        "Gog"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 24,
+      "chronologicalPosition": 24,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "May 19, 1992",
+      "villainsInIssue": ["Hobgoblin", "Demogoblin", "Spider-Doppelganger"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 25,
+      "chronologicalPosition": 25,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 16, 1992",
+      "villainsInIssue": ["Arcade", "Miss Locke"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 26,
+      "chronologicalPosition": 26,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 21, 1992",
+      "villainsInIssue": [
+        "Sunset Bain",
+        "John Maxwell",
+        "Basilisk",
+        "Femme Fatales",
+        "Knockout",
+        "Whiplash",
+        "Bloodlust"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 27,
+      "chronologicalPosition": 27,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 18, 1992",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 28,
+      "chronologicalPosition": 28,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 15, 1992",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 29,
+      "chronologicalPosition": 29,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "October 20, 1992",
+      "villainsInIssue": ["Brainstorm", "Dr. Hope"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 30,
+      "chronologicalPosition": 30,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "November 17, 1992",
+      "villainsInIssue": ["Brainstorm", "Dr. Hope"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 31,
+      "chronologicalPosition": 31,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "December 15, 1992",
+      "villainsInIssue": ["Brainstorm", "Dr. Hope"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 32,
+      "chronologicalPosition": 32,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "January 19, 1993",
+      "villainsInIssue": ["Master of Vengeance"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 33,
+      "chronologicalPosition": 33,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "February 16, 1993",
+      "villainsInIssue": ["Master of Vengeance"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 34,
+      "chronologicalPosition": 34,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "March 16, 1993",
+      "villainsInIssue": ["Master of Vengeance"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 35,
+      "chronologicalPosition": 35,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 20, 1993",
+      "villainsInIssue": [
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Carnage",
+        "Shriek"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 36,
+      "chronologicalPosition": 36,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "May 18, 1993",
+      "villainsInIssue": [
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Shriek",
+        "Carnage",
+        "Carrion"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 37,
+      "chronologicalPosition": 37,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 15, 1993",
+      "villainsInIssue": [
+        "Demogoblin",
+        "Spider-Doppelganger",
+        "Shriek",
+        "Carnage",
+        "Carrion"
+      ],
+      "villainCount": 5
+    },
+    {
+      "issueNumber": 38,
+      "chronologicalPosition": 38,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 20, 1993",
+      "villainsInIssue": ["Electro"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 39,
+      "chronologicalPosition": 39,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "August 17, 1993",
+      "villainsInIssue": ["Electro", "Crook-Man"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 40,
+      "chronologicalPosition": 40,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "September 21, 1993",
+      "villainsInIssue": ["Electro"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 41,
+      "chronologicalPosition": 41,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "October 19, 1993",
+      "villainsInIssue": ["Platoon"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 42,
+      "chronologicalPosition": 42,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "November 16, 1993",
+      "villainsInIssue": ["Platoon"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 43,
+      "chronologicalPosition": 43,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "December 21, 1993",
+      "villainsInIssue": ["A.I.M"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 44,
+      "chronologicalPosition": 44,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "January 18, 1994",
+      "villainsInIssue": ["Hobgoblin"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 45,
+      "chronologicalPosition": 45,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "February 22, 1994",
+      "villainsInIssue": ["Chameleon"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 46,
+      "chronologicalPosition": 46,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 5, 1994",
+      "villainsInIssue": ["Hobgoblin", "Demogoblin"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 47,
+      "chronologicalPosition": 47,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "April 26, 1994",
+      "villainsInIssue": [
+        "Hobgoblin",
+        "Demogoblin",
+        "Vladimir Kravinoff",
+        "Gauntlet"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 48,
+      "chronologicalPosition": 48,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "May 17, 1994",
+      "villainsInIssue": ["Hobgoblin", "Demogoblin", "Vladimir Kravinoff"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 49,
+      "chronologicalPosition": 49,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "June 21, 1994",
+      "villainsInIssue": ["Hobgoblin", "Vladimir Kravinoff", "Coldheart"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 50,
+      "chronologicalPosition": 50,
+      "series": "Spider-Man Vol 1",
+      "releaseDate": "July 19, 1994",
+      "villainsInIssue": [
+        "Vladimir Kravinoff",
+        "Kraven the Hunter/Grim Hunter"
+      ],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 51,
+      "chronologicalPosition": 51,
       "series": "Spider-Man Vol 1",
       "releaseDate": "August 16, 1994",
       "villainsInIssue": [
@@ -17,63 +490,53 @@
     },
     {
       "issueNumber": 52,
-      "chronologicalPosition": 2,
+      "chronologicalPosition": 52,
       "series": "Spider-Man Vol 1",
       "releaseDate": "September 20, 1994",
-      "villainsInIssue": [
-        "Venom",
-        "Scream"
-      ],
+      "villainsInIssue": ["Venom", "Scream"],
       "villainCount": 2
     },
     {
       "issueNumber": 53,
-      "chronologicalPosition": 3,
+      "chronologicalPosition": 53,
       "series": "Spider-Man Vol 1",
       "releaseDate": "October 18, 1994",
-      "villainsInIssue": [
-        "Venom"
-      ],
+      "villainsInIssue": ["Venom"],
       "villainCount": 1
     },
     {
       "issueNumber": 54,
-      "chronologicalPosition": 4,
+      "chronologicalPosition": 54,
       "series": "Spider-Man Vol 1",
       "releaseDate": "November 15, 1994",
-      "villainsInIssue": [
-        "Grim Hunter",
-        "Kaine"
-      ],
+      "villainsInIssue": ["Vladimir Kravinoff", "Kaine"],
       "villainCount": 2
     },
     {
       "issueNumber": 55,
-      "chronologicalPosition": 5,
+      "chronologicalPosition": 55,
       "series": "Spider-Man Vol 1",
       "releaseDate": "December 20, 1994",
-      "villainsInIssue": [
-        "Grim Hunter",
-        "Kaine"
-      ],
+      "villainsInIssue": ["Vladimir Kravinoff", "Kaine"],
       "villainCount": 2
     },
     {
       "issueNumber": 56,
-      "chronologicalPosition": 6,
+      "chronologicalPosition": 56,
       "series": "Spider-Man Vol 1",
       "releaseDate": "January 17, 1995",
-      "villainsInIssue": [
-        "Jackal"
-      ],
+      "villainsInIssue": ["Jackal"],
       "villainCount": 1
     },
     {
       "issueNumber": 57,
-      "chronologicalPosition": 7,
+      "chronologicalPosition": 57,
       "series": "Spider-Man Vol 1",
       "releaseDate": "February 21, 1995",
       "villainsInIssue": [
+        "Doctor Octopus",
+        "Electro",
+        "Kraven the Hunter/Grim Hunter",
         "Dr. Judas Traveller",
         "The Host",
         "Mr. Nacht",
@@ -81,26 +544,21 @@
         "Boone",
         "Jackal",
         "Jackal",
-        "Kraven the Hunter",
-        "Doctor Octopus",
-        "Electro",
         "Green Goblin"
       ],
       "villainCount": 11
     },
     {
       "issueNumber": 58,
-      "chronologicalPosition": 8,
+      "chronologicalPosition": 58,
       "series": "Spider-Man Vol 1",
       "releaseDate": "March 21, 1995",
-      "villainsInIssue": [
-        "Kaine"
-      ],
+      "villainsInIssue": ["Kaine"],
       "villainCount": 1
     },
     {
       "issueNumber": 59,
-      "chronologicalPosition": 9,
+      "chronologicalPosition": 59,
       "series": "Spider-Man Vol 1",
       "releaseDate": "April 18, 1995",
       "villainsInIssue": [
@@ -116,98 +574,76 @@
     },
     {
       "issueNumber": 60,
-      "chronologicalPosition": 10,
+      "chronologicalPosition": 60,
       "series": "Spider-Man Vol 1",
       "releaseDate": "May 16, 1995",
-      "villainsInIssue": [
-        "Kaine",
-        "Stunner"
-      ],
+      "villainsInIssue": ["Kaine", "Stunner"],
       "villainCount": 2
     },
     {
       "issueNumber": 61,
-      "chronologicalPosition": 11,
+      "chronologicalPosition": 61,
       "series": "Spider-Man Vol 1",
       "releaseDate": "June 27, 1995",
-      "villainsInIssue": [
-        "Jackal",
-        "Spidercide"
-      ],
+      "villainsInIssue": ["Jackal", "Spidercide"],
       "villainCount": 2
     },
     {
       "issueNumber": 62,
-      "chronologicalPosition": 12,
+      "chronologicalPosition": 62,
       "series": "Spider-Man Vol 1",
       "releaseDate": "July 27, 1995",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture", "Doctor Octopus"],
       "villainCount": 2
     },
     {
       "issueNumber": 63,
-      "chronologicalPosition": 13,
+      "chronologicalPosition": 63,
       "series": "Spider-Man Vol 1",
       "releaseDate": "August 31, 1995",
-      "villainsInIssue": [
-        "Doctor Octopus"
-      ],
+      "villainsInIssue": ["Doctor Octopus"],
       "villainCount": 1
     },
     {
       "issueNumber": 64,
-      "chronologicalPosition": 14,
+      "chronologicalPosition": 64,
       "series": "Spider-Man Vol 1",
       "releaseDate": "November 24, 1995",
-      "villainsInIssue": [
-        "El Toro Negro",
-        "Mysterio"
-      ],
+      "villainsInIssue": ["Mysterio", "El Toro Negro"],
       "villainCount": 2
     },
     {
       "issueNumber": 65,
-      "chronologicalPosition": 15,
+      "chronologicalPosition": 65,
       "series": "Spider-Man Vol 1",
       "releaseDate": "December 21, 1995",
-      "villainsInIssue": [
-        "Mysterio"
-      ],
+      "villainsInIssue": ["Mysterio"],
       "villainCount": 1
     },
     {
       "issueNumber": 66,
-      "chronologicalPosition": 16,
+      "chronologicalPosition": 66,
       "series": "Spider-Man Vol 1",
       "releaseDate": "January 18, 1996",
-      "villainsInIssue": [
-        "Great Game",
-        "Muse",
-        "James Johnsmeyer"
-      ],
+      "villainsInIssue": ["Great Game", "Muse", "James Johnsmeyer"],
       "villainCount": 3
     },
     {
       "issueNumber": 67,
-      "chronologicalPosition": 17,
+      "chronologicalPosition": 67,
       "series": "Spider-Man Vol 1",
       "releaseDate": "February 22, 1996",
-      "villainsInIssue": [
-        "Carnage Symbiote"
-      ],
+      "villainsInIssue": ["Carnage"],
       "villainCount": 1
     },
     {
       "issueNumber": 68,
-      "chronologicalPosition": 18,
+      "chronologicalPosition": 68,
       "series": "Spider-Man Vol 1",
       "releaseDate": "March 21, 1996",
       "villainsInIssue": [
-        "Cell-12",
         "Hobgoblin",
+        "Cell-12",
         "Bramer",
         "Nardi",
         "Andros",
@@ -217,12 +653,12 @@
     },
     {
       "issueNumber": 69,
-      "chronologicalPosition": 19,
+      "chronologicalPosition": 69,
       "series": "Spider-Man Vol 1",
       "releaseDate": "April 17, 1996",
       "villainsInIssue": [
-        "Cell-12",
         "Hobgoblin",
+        "Cell-12",
         "Bramer",
         "Nardi",
         "Andros",
@@ -233,106 +669,79 @@
     },
     {
       "issueNumber": 70,
-      "chronologicalPosition": 20,
+      "chronologicalPosition": 70,
       "series": "Spider-Man Vol 1",
       "releaseDate": "May 22, 1996",
-      "villainsInIssue": [
-        "Don Fortunato",
-        "Hammerhead",
-        "Joey",
-        "Rocco"
-      ],
-      "villainCount": 4
+      "villainsInIssue": ["Don Fortunato", "Hammerhead"],
+      "villainCount": 2
     },
     {
       "issueNumber": 71,
-      "chronologicalPosition": 21,
+      "chronologicalPosition": 71,
       "series": "Spider-Man Vol 1",
       "releaseDate": "June 19, 1996",
-      "villainsInIssue": [
-        "Don Fortunato",
-        "Hammerhead"
-      ],
+      "villainsInIssue": ["Don Fortunato", "Hammerhead"],
       "villainCount": 2
     },
     {
       "issueNumber": 72,
-      "chronologicalPosition": 22,
+      "chronologicalPosition": 72,
       "series": "Spider-Man Vol 1",
       "releaseDate": "July 17, 1996",
-      "villainsInIssue": [
-        "Sentinels"
-      ],
+      "villainsInIssue": ["Sentinels"],
       "villainCount": 1
     },
     {
       "issueNumber": 73,
-      "chronologicalPosition": 23,
+      "chronologicalPosition": 73,
       "series": "Spider-Man Vol 1",
       "releaseDate": "August 21, 1996",
-      "villainsInIssue": [
-        "Don Fortunato",
-        "Tombstone"
-      ],
+      "villainsInIssue": ["Don Fortunato", "Tombstone"],
       "villainCount": 2
     },
     {
       "issueNumber": 74,
-      "chronologicalPosition": 24,
+      "chronologicalPosition": 74,
       "series": "Spider-Man Vol 1",
       "releaseDate": "September 18, 1996",
-      "villainsInIssue": [
-        "Don Fortunato"
-      ],
+      "villainsInIssue": ["Don Fortunato"],
       "villainCount": 1
     },
     {
       "issueNumber": 75,
-      "chronologicalPosition": 25,
+      "chronologicalPosition": 75,
       "series": "Spider-Man Vol 1",
       "releaseDate": "October 16, 1996",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
       "issueNumber": 76,
-      "chronologicalPosition": 26,
+      "chronologicalPosition": 76,
       "series": "Spider-Man Vol 1",
       "releaseDate": "November 20, 1996",
-      "villainsInIssue": [
-        "Crown"
-      ],
+      "villainsInIssue": ["Crown"],
       "villainCount": 1
     },
     {
       "issueNumber": 77,
-      "chronologicalPosition": 27,
+      "chronologicalPosition": 77,
       "series": "Spider-Man Vol 1",
       "releaseDate": "December 18, 1996",
-      "villainsInIssue": [
-        "Rocco",
-        "Friends of Humanity",
-        "Morbius"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Morbius", "Friends of Humanity"],
+      "villainCount": 2
     },
     {
       "issueNumber": 78,
-      "chronologicalPosition": 28,
+      "chronologicalPosition": 78,
       "series": "Spider-Man Vol 1",
       "releaseDate": "January 22, 1997",
-      "villainsInIssue": [
-        "Friends of Humanity",
-        "Morbius",
-        "Bo"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Morbius", "Friends of Humanity"],
+      "villainCount": 2
     },
     {
       "issueNumber": 79,
-      "chronologicalPosition": 29,
+      "chronologicalPosition": 79,
       "series": "Spider-Man Vol 1",
       "releaseDate": "February 19, 1997",
       "villainsInIssue": [
@@ -345,7 +754,7 @@
     },
     {
       "issueNumber": 80,
-      "chronologicalPosition": 30,
+      "chronologicalPosition": 80,
       "series": "Spider-Man Vol 1",
       "releaseDate": "March 19, 1997",
       "villainsInIssue": [
@@ -360,72 +769,55 @@
     },
     {
       "issueNumber": 81,
-      "chronologicalPosition": 31,
+      "chronologicalPosition": 81,
       "series": "Spider-Man Vol 1",
       "releaseDate": "April 16, 1997",
-      "villainsInIssue": [
-        "Shockwave",
-        "Razor-Fist"
-      ],
+      "villainsInIssue": ["Shockwave", "Razor-Fist"],
       "villainCount": 2
     },
     {
       "issueNumber": 82,
-      "chronologicalPosition": 32,
+      "chronologicalPosition": 82,
       "series": "Spider-Man Vol 1",
       "releaseDate": "June 18, 1997",
-      "villainsInIssue": [
-        "Friends of Humanity",
-        "Donovan Zane",
-        "Shocker"
-      ],
+      "villainsInIssue": ["Friends of Humanity", "Donovan Zane", "Shocker"],
       "villainCount": 3
     },
     {
       "issueNumber": 83,
-      "chronologicalPosition": 33,
+      "chronologicalPosition": 83,
       "series": "Spider-Man Vol 1",
       "releaseDate": "July 16, 1997",
-      "villainsInIssue": [
-        "Friends of Humanity",
-        "Shocker"
-      ],
+      "villainsInIssue": ["Friends of Humanity", "Shocker"],
       "villainCount": 2
     },
     {
       "issueNumber": 84,
-      "chronologicalPosition": 34,
+      "chronologicalPosition": 84,
       "series": "Spider-Man Vol 1",
       "releaseDate": "August 20, 1997",
-      "villainsInIssue": [
-        "Juggernaut"
-      ],
+      "villainsInIssue": ["Juggernaut"],
       "villainCount": 1
     },
     {
       "issueNumber": 85,
-      "chronologicalPosition": 35,
+      "chronologicalPosition": 85,
       "series": "Spider-Man Vol 1",
       "releaseDate": "September 17, 1997",
-      "villainsInIssue": [
-        "Shocker"
-      ],
+      "villainsInIssue": ["Shocker"],
       "villainCount": 1
     },
     {
       "issueNumber": 86,
-      "chronologicalPosition": 36,
+      "chronologicalPosition": 86,
       "series": "Spider-Man Vol 1",
       "releaseDate": "October 15, 1997",
-      "villainsInIssue": [
-        "Shocker",
-        "Trapster"
-      ],
+      "villainsInIssue": ["Shocker", "Trapster"],
       "villainCount": 2
     },
     {
       "issueNumber": 87,
-      "chronologicalPosition": 37,
+      "chronologicalPosition": 87,
       "series": "Spider-Man Vol 1",
       "releaseDate": "November 26, 1997",
       "villainsInIssue": [
@@ -438,64 +830,47 @@
     },
     {
       "issueNumber": 88,
-      "chronologicalPosition": 38,
+      "chronologicalPosition": 88,
       "series": "Spider-Man Vol 1",
       "releaseDate": "December 17, 1997",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin", "Green Goblin"],
       "villainCount": 2
     },
     {
       "issueNumber": 89,
-      "chronologicalPosition": 39,
+      "chronologicalPosition": 89,
       "series": "Spider-Man Vol 1",
       "releaseDate": "January 21, 1998",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Green Goblin",
-        "Shotgun"
-      ],
+      "villainsInIssue": ["Green Goblin", "Green Goblin", "Shotgun"],
       "villainCount": 3
     },
     {
       "issueNumber": 90,
-      "chronologicalPosition": 40,
+      "chronologicalPosition": 90,
       "series": "Spider-Man Vol 1",
       "releaseDate": "February 18, 1998",
-      "villainsInIssue": [
-        "Blastaar"
-      ],
+      "villainsInIssue": ["Blastaar"],
       "villainCount": 1
     },
     {
       "issueNumber": 91,
-      "chronologicalPosition": 41,
+      "chronologicalPosition": 91,
       "series": "Spider-Man Vol 1",
       "releaseDate": "March 18, 1998",
-      "villainsInIssue": [
-        "Shocker",
-        "Trapster"
-      ],
+      "villainsInIssue": ["Shocker", "Trapster"],
       "villainCount": 2
     },
     {
       "issueNumber": 92,
-      "chronologicalPosition": 42,
+      "chronologicalPosition": 92,
       "series": "Spider-Man Vol 1",
       "releaseDate": "April 15, 1998",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Trapster",
-        "Q-4",
-        "Waiters"
-      ],
+      "villainsInIssue": ["Green Goblin", "Trapster", "Q-4", "Waiters"],
       "villainCount": 4
     },
     {
       "issueNumber": 93,
-      "chronologicalPosition": 43,
+      "chronologicalPosition": 93,
       "series": "Spider-Man Vol 1",
       "releaseDate": "May 20, 1998",
       "villainsInIssue": [],
@@ -503,7 +878,7 @@
     },
     {
       "issueNumber": 94,
-      "chronologicalPosition": 44,
+      "chronologicalPosition": 94,
       "series": "Spider-Man Vol 1",
       "releaseDate": "June 17, 1998",
       "villainsInIssue": [
@@ -517,73 +892,92 @@
     },
     {
       "issueNumber": 95,
-      "chronologicalPosition": 45,
+      "chronologicalPosition": 95,
       "series": "Spider-Man Vol 1",
       "releaseDate": "July 15, 1998",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Kingpin",
-        "Ox",
-        "Nitro"
-      ],
+      "villainsInIssue": ["Green Goblin", "Kingpin", "Ox", "Nitro"],
       "villainCount": 4
     },
     {
       "issueNumber": 96,
-      "chronologicalPosition": 46,
+      "chronologicalPosition": 96,
       "series": "Spider-Man Vol 1",
       "releaseDate": "August 19, 1998",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Creep"
-      ],
+      "villainsInIssue": ["Green Goblin", "Creep"],
       "villainCount": 2
     },
     {
       "issueNumber": 97,
-      "chronologicalPosition": 47,
+      "chronologicalPosition": 97,
       "series": "Spider-Man Vol 1",
       "releaseDate": "September 16, 1998",
-      "villainsInIssue": [
-        "Green Goblin"
-      ],
+      "villainsInIssue": ["Green Goblin"],
       "villainCount": 1
     },
     {
       "issueNumber": 98,
-      "chronologicalPosition": 48,
+      "chronologicalPosition": 98,
       "series": "Spider-Man Vol 1",
       "releaseDate": "September 30, 1998",
-      "villainsInIssue": [
-        "Green Goblin",
-        "Scriers"
-      ],
+      "villainsInIssue": ["Green Goblin", "Scriers"],
       "villainCount": 2
     }
   ],
   "scales": {
     "x": {
-      "domain": [
-        1,
-        48
-      ],
-      "range": [
-        60,
-        1180
-      ]
+      "domain": [1, 98],
+      "range": [60, 1180]
     },
     "y": {
-      "domain": [
-        0,
-        11
-      ],
-      "range": [
-        570,
-        20
-      ]
+      "domain": [0, 11],
+      "range": [570, 20]
     }
   },
   "colors": {
+    "The Lizard": "#ff7675",
+    "Calypso": "#fa8231",
+    "Hobgoblin": "#34495e",
+    "Wendigo": "#ff7675",
+    "Luke Thorpe": "#a29bfe",
+    "Inspector Krahn": "#a29bfe",
+    "Morbius": "#4ecdc4",
+    "Subhumans": "#6c5ce7",
+    "Keever": "#00b894",
+    "Masterblaster": "#55efc4",
+    "Powerhouse": "#1abc9c",
+    "Juggernaut": "#fab1a0",
+    "Thanos": "#4ecdc4",
+    "Doctor Octopus": "#ff6b6b",
+    "Electro": "#74b9ff",
+    "Vulture": "#e84393",
+    "Mysterio": "#00b894",
+    "Diablo": "#0984e3",
+    "Gog": "#e84393",
+    "Demogoblin": "#fab1a0",
+    "Spider-Doppelganger": "#6c5ce7",
+    "Arcade": "#00b894",
+    "Miss Locke": "#2ecc71",
+    "Sunset Bain": "#2ecc71",
+    "John Maxwell": "#f1c40f",
+    "Basilisk": "#e67e22",
+    "Femme Fatales": "#00b894",
+    "Knockout": "#eb3b5a",
+    "Whiplash": "#eb3b5a",
+    "Bloodlust": "#d63031",
+    "Brainstorm": "#f1c40f",
+    "Dr. Hope": "#2980b9",
+    "Master of Vengeance": "#0984e3",
+    "Carnage": "#27ae60",
+    "Shriek": "#fd79a8",
+    "Carrion": "#fd79a8",
+    "Crook-Man": "#e84393",
+    "Platoon": "#dfe6e9",
+    "A.I.M": "#ff7675",
+    "Chameleon": "#9b59b6",
+    "Vladimir Kravinoff": "#74b9ff",
+    "Gauntlet": "#81ecec",
+    "Coldheart": "#e67e22",
+    "Kraven the Hunter/Grim Hunter": "#74b9ff",
     "Dr. Judas Traveller": "#fab1a0",
     "The Host": "#e84393",
     "Mr. Nacht": "#f39c12",
@@ -592,25 +986,17 @@
     "Jackal": "#34495e",
     "Venom": "#f9ca24",
     "Scream": "#636e72",
-    "Grim Hunter": "#3498db",
     "Kaine": "#6c5ce7",
-    "Kraven the Hunter": "#6c5ce7",
-    "Doctor Octopus": "#ff6b6b",
-    "Electro": "#74b9ff",
     "Green Goblin": "#45b7d1",
     "Scrier": "#d63031",
     "Chakra": "#e67e22",
     "Stunner": "#16a085",
     "Spidercide": "#45b7d1",
-    "Vulture": "#e84393",
     "El Toro Negro": "#34495e",
-    "Mysterio": "#00b894",
     "Great Game": "#4ecdc4",
     "Muse": "#8e44ad",
     "James Johnsmeyer": "#2ecc71",
-    "Carnage Symbiote": "#55efc4",
     "Cell-12": "#2980b9",
-    "Hobgoblin": "#34495e",
     "Bramer": "#3498db",
     "Nardi": "#9b59b6",
     "Andros": "#e84393",
@@ -618,14 +1004,10 @@
     "Gaunt": "#3498db",
     "Don Fortunato": "#f39c12",
     "Hammerhead": "#fd79a8",
-    "Joey": "#0984e3",
-    "Rocco": "#2ecc71",
     "Sentinels": "#c0392b",
     "Tombstone": "#4ecdc4",
     "Crown": "#dfe6e9",
     "Friends of Humanity": "#fa8231",
-    "Morbius": "#4ecdc4",
-    "Bo": "#f9ca24",
     "Baron von Strucker": "#81ecec",
     "Dr. Andrea Janson": "#2980b9",
     "Lance": "#f39c12",
@@ -633,7 +1015,6 @@
     "Razor-Fist": "#55efc4",
     "Donovan Zane": "#3498db",
     "Shocker": "#c0392b",
-    "Juggernaut": "#fab1a0",
     "Trapster": "#27ae60",
     "Shotgun": "#ff6b6b",
     "Blastaar": "#e67e22",

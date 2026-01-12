@@ -3,6 +3,999 @@
   "baseUrl": "https://marvel.fandom.com/wiki/Spider-Man_Vol_1_{issue}",
   "issues": [
     {
+      "issueNumber": 1,
+      "title": "Spider-Man #1",
+      "releaseDate": "June 19, 1990",
+      "antagonists": [
+        {
+          "name": "The Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        },
+        {
+          "name": "Calypso",
+          "url": "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)",
+          "imageUrl": "/images/calypso-ezili-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 2,
+      "title": "Spider-Man #2",
+      "releaseDate": "July 17, 1990",
+      "antagonists": [
+        {
+          "name": "Calypso (Calypso Ezili)",
+          "url": "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)",
+          "imageUrl": "/images/calypso-ezili-earth-616.jpg"
+        },
+        {
+          "name": "Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 3,
+      "title": "Spider-Man #3",
+      "releaseDate": "August 21, 1990",
+      "antagonists": [
+        {
+          "name": "The Lizard (Curt Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        },
+        {
+          "name": "Calypso",
+          "url": "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)",
+          "imageUrl": "/images/calypso-ezili-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 4,
+      "title": "Spider-Man #4",
+      "releaseDate": "September 18, 1990",
+      "antagonists": [
+        {
+          "name": "Calypso",
+          "url": "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)",
+          "imageUrl": "/images/calypso-ezili-earth-616.jpg"
+        },
+        {
+          "name": "Lizard",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 5,
+      "title": "Spider-Man #5",
+      "releaseDate": "October 16, 1990",
+      "antagonists": [
+        {
+          "name": "Calypso",
+          "url": "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)",
+          "imageUrl": "/images/calypso-ezili-earth-616.jpg"
+        },
+        {
+          "name": "The Lizard (Curtis Connors)",
+          "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 6,
+      "title": "Spider-Man #6",
+      "releaseDate": "November 20, 1990",
+      "antagonists": [
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 7,
+      "title": "Spider-Man #7",
+      "releaseDate": "December 18, 1990",
+      "antagonists": [
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 8,
+      "title": "Spider-Man #8",
+      "releaseDate": "January 15, 1991",
+      "antagonists": [
+        {
+          "name": "Wendigo",
+          "url": "https://marvel.fandom.com/wiki/Wendigo_(British_Columbia)_(Earth-616)",
+          "imageUrl": "/images/wendigo-british-columbia-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 9,
+      "title": "Spider-Man #9",
+      "releaseDate": "February 19, 1991",
+      "antagonists": [
+        {
+          "name": "Wendigo",
+          "url": "https://marvel.fandom.com/wiki/Wendigo_(British_Columbia)_(Earth-616)",
+          "imageUrl": "/images/wendigo-british-columbia-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 10,
+      "title": "Spider-Man #10",
+      "releaseDate": "March 19, 1991",
+      "antagonists": [
+        {
+          "name": "Wendigo",
+          "url": "https://marvel.fandom.com/wiki/Wendigo_(British_Columbia)_(Earth-616)",
+          "imageUrl": "/images/wendigo-british-columbia-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 11,
+      "title": "Spider-Man #11",
+      "releaseDate": "April 16, 1991",
+      "antagonists": [
+        {
+          "name": "Luke Thorpe",
+          "url": "https://marvel.fandom.com/wiki/Luke_Thorpe_(Earth-616)",
+          "imageUrl": "/images/luke-thorpe-earth-616.jpg"
+        },
+        {
+          "name": "Inspector Krahn",
+          "url": "https://marvel.fandom.com/wiki/Inspector_Krahn_(Earth-616)",
+          "imageUrl": "/images/inspector-krahn-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 12,
+      "title": "Spider-Man #12",
+      "releaseDate": "May 21, 1991",
+      "antagonists": [
+        {
+          "name": "Inspector Krahn",
+          "url": "https://marvel.fandom.com/wiki/Inspector_Krahn_(Earth-616)",
+          "imageUrl": "/images/inspector-krahn-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 13,
+      "title": "Spider-Man #13",
+      "releaseDate": "June 18, 1991",
+      "antagonists": [
+        {
+          "name": "Morbius",
+          "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        },
+        {
+          "name": "Subhumans",
+          "url": "https://marvel.fandom.com/wiki/Subhumans_(Earth-616)",
+          "imageUrl": "/images/subhumans-earth-616.jpg"
+        },
+        {
+          "name": "Keever",
+          "url": "https://marvel.fandom.com/wiki/Keever_(Earth-616)",
+          "imageUrl": "/images/keever-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 14,
+      "title": "Spider-Man #14",
+      "releaseDate": "July 16, 1991",
+      "antagonists": [
+        {
+          "name": "Morbius",
+          "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        },
+        {
+          "name": "Subhumans",
+          "url": "https://marvel.fandom.com/wiki/Subhumans_(Earth-616)",
+          "imageUrl": "/images/subhumans-earth-616.jpg"
+        },
+        {
+          "name": "Keever",
+          "url": "https://marvel.fandom.com/wiki/Keever_(Earth-616)",
+          "imageUrl": "/images/keever-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 15,
+      "title": "Spider-Man #15",
+      "releaseDate": "August 20, 1991",
+      "antagonists": [
+        {
+          "name": "Masterblaster",
+          "url": "https://marvel.fandom.com/wiki/Masterblaster_(Earth-616)",
+          "imageUrl": "/images/masterblaster-earth-616.jpg"
+        },
+        {
+          "name": "Powerhouse",
+          "url": "https://marvel.fandom.com/wiki/Powerhouse_(Mutant)_(Earth-616)",
+          "imageUrl": "/images/powerhouse-mutant-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 16,
+      "title": "Spider-Man #16",
+      "releaseDate": "September 17, 1991",
+      "antagonists": [
+        {
+          "name": "Juggernaut",
+          "url": "https://marvel.fandom.com/wiki/Cain_Marko_(Earth-616)",
+          "imageUrl": "/images/cain-marko-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 17,
+      "title": "Spider-Man #17",
+      "releaseDate": "October 15, 1991",
+      "antagonists": [
+        {
+          "name": "Thanos",
+          "url": "https://marvel.fandom.com/wiki/Thanos_(Earth-616)",
+          "imageUrl": "/images/thanos-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 18,
+      "title": "Spider-Man #18",
+      "releaseDate": "November 19, 1991",
+      "antagonists": [
+        {
+          "name": "Sinister Six",
+          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+          "imageUrl": "/images/sinister-six-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Octopus",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Electro",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Vulture",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 19,
+      "title": "Spider-Man #19",
+      "releaseDate": "December 17, 1991",
+      "antagonists": [
+        {
+          "name": "Sinister Six",
+          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+          "imageUrl": "/images/sinister-six-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Electro (Maxwell Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Diablo (Esteban Corazón de Ablo)",
+          "url": "https://marvel.fandom.com/wiki/Esteban_Coraz%C3%B3n_de_Ablo_(Earth-616)",
+          "imageUrl": "/images/esteban-coraz-c3-b3n-de-ablo-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 20,
+      "title": "Spider-Man #20",
+      "releaseDate": "January 21, 1992",
+      "antagonists": [
+        {
+          "name": "Sinister Six",
+          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+          "imageUrl": "/images/sinister-six-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Electro (Maxwell Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Diablo (Esteban Corazón de Ablo)",
+          "url": "https://marvel.fandom.com/wiki/Esteban_Coraz%C3%B3n_de_Ablo_(Earth-616)",
+          "imageUrl": "/images/esteban-coraz-c3-b3n-de-ablo-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 21,
+      "title": "Spider-Man #21",
+      "releaseDate": "February 18, 1992",
+      "antagonists": [
+        {
+          "name": "Sinister Six",
+          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+          "imageUrl": "/images/sinister-six-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Octopus",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Electro",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Vulture",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 22,
+      "title": "Spider-Man #22",
+      "releaseDate": "March 17, 1992",
+      "antagonists": [
+        {
+          "name": "Sinister Six",
+          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+          "imageUrl": "/images/sinister-six-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Octopus",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Electro",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Vulture",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Gog",
+          "url": "https://marvel.fandom.com/wiki/Gog_(Tsiln)_(Earth-616)",
+          "imageUrl": "/images/gog-tsiln-earth-616.jpg"
+        },
+        {
+          "name": "Hydra",
+          "url": "https://marvel.fandom.com/wiki/Hydra_(Earth-616)",
+          "imageUrl": "/images/hydra-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 23,
+      "title": "Spider-Man #23",
+      "releaseDate": "April 21, 1992",
+      "antagonists": [
+        {
+          "name": "Sinister Six",
+          "url": "https://marvel.fandom.com/wiki/Sinister_Six_(Earth-616)",
+          "imageUrl": "/images/sinister-six-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Octopus (Otto Octavius)",
+          "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        },
+        {
+          "name": "Electro (Max Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Gog",
+          "url": "https://marvel.fandom.com/wiki/Gog_(Tsiln)_(Earth-616)",
+          "imageUrl": "/images/gog-tsiln-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 24,
+      "title": "Spider-Man #24",
+      "releaseDate": "May 19, 1992",
+      "antagonists": [
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 25,
+      "title": "Spider-Man #25",
+      "releaseDate": "June 16, 1992",
+      "antagonists": [
+        {
+          "name": "Arcade",
+          "url": "https://marvel.fandom.com/wiki/Arcade_(Earth-616)",
+          "imageUrl": "/images/arcade-earth-616.jpg"
+        },
+        {
+          "name": "Miss Locke",
+          "url": "https://marvel.fandom.com/wiki/Miss_Locke_(Earth-616)",
+          "imageUrl": "/images/miss-locke-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 26,
+      "title": "Spider-Man #26",
+      "releaseDate": "July 21, 1992",
+      "antagonists": [
+        {
+          "name": "Sunset Bain",
+          "url": "https://marvel.fandom.com/wiki/Sunset_Bain_(Earth-616)",
+          "imageUrl": "/images/sunset-bain-earth-616.jpg"
+        },
+        {
+          "name": "John Maxwell",
+          "url": "https://marvel.fandom.com/wiki/John_Maxwell_(Earth-616)",
+          "imageUrl": "/images/john-maxwell-earth-616.jpg"
+        },
+        {
+          "name": "Basilisk",
+          "url": "https://marvel.fandom.com/wiki/Basil_Elks_(Earth-616)",
+          "imageUrl": "/images/basil-elks-earth-616.jpg"
+        },
+        {
+          "name": "Femme Fatales",
+          "url": "https://marvel.fandom.com/wiki/Femme_Fatales_(Earth-616)",
+          "imageUrl": "/images/femme-fatales-earth-616.jpg"
+        },
+        {
+          "name": "Knockout",
+          "url": "https://marvel.fandom.com/wiki/Elizabeth_Rawson_(Earth-616)",
+          "imageUrl": "/images/elizabeth-rawson-earth-616.jpg"
+        },
+        {
+          "name": "Whiplash",
+          "url": "https://marvel.fandom.com/wiki/Leeann_Foreman_(Earth-616)",
+          "imageUrl": "/images/leeann-foreman-earth-616.jpg"
+        },
+        {
+          "name": "Bloodlust",
+          "url": "https://marvel.fandom.com/wiki/Beatta_Dubiel_(Earth-616)",
+          "imageUrl": "/images/beatta-dubiel-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 27,
+      "title": "Spider-Man #27",
+      "releaseDate": "August 18, 1992",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 28,
+      "title": "Spider-Man #28",
+      "releaseDate": "September 15, 1992",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 29,
+      "title": "Spider-Man #29",
+      "releaseDate": "October 20, 1992",
+      "antagonists": [
+        {
+          "name": "Brainstorm (Jimmy)",
+          "url": "https://marvel.fandom.com/wiki/Brainstorm_(Jimmy)_(Earth-616)",
+          "imageUrl": "/images/brainstorm-jimmy-earth-616.jpg"
+        },
+        {
+          "name": "Dr. Hope",
+          "url": "https://marvel.fandom.com/wiki/Doctor_Hope_(Earth-616)",
+          "imageUrl": "/images/doctor-hope-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 30,
+      "title": "Spider-Man #30",
+      "releaseDate": "November 17, 1992",
+      "antagonists": [
+        {
+          "name": "Brainstorm",
+          "url": "https://marvel.fandom.com/wiki/Brainstorm_(Jimmy)_(Earth-616)",
+          "imageUrl": "/images/brainstorm-jimmy-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Hope",
+          "url": "https://marvel.fandom.com/wiki/Doctor_Hope_(Earth-616)",
+          "imageUrl": "/images/doctor-hope-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 31,
+      "title": "Spider-Man #31",
+      "releaseDate": "December 15, 1992",
+      "antagonists": [
+        {
+          "name": "Brainstorm (Jimmy)",
+          "url": "https://marvel.fandom.com/wiki/Brainstorm_(Jimmy)_(Earth-616)",
+          "imageUrl": "/images/brainstorm-jimmy-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Hope",
+          "url": "https://marvel.fandom.com/wiki/Doctor_Hope_(Earth-616)",
+          "imageUrl": "/images/doctor-hope-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 32,
+      "title": "Spider-Man #32",
+      "releaseDate": "January 19, 1993",
+      "antagonists": [
+        {
+          "name": "Master of Vengeance (Dwight Faron)",
+          "url": "https://marvel.fandom.com/wiki/Dwight_Faron_(Earth-616)",
+          "imageUrl": "/images/dwight-faron-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 33,
+      "title": "Spider-Man #33",
+      "releaseDate": "February 16, 1993",
+      "antagonists": [
+        {
+          "name": "Master of Vengeance",
+          "url": "https://marvel.fandom.com/wiki/Dwight_Faron_(Earth-616)",
+          "imageUrl": "/images/dwight-faron-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 34,
+      "title": "Spider-Man #34",
+      "releaseDate": "March 16, 1993",
+      "antagonists": [
+        {
+          "name": "Master of Vengeance",
+          "url": "https://marvel.fandom.com/wiki/Dwight_Faron_(Earth-616)",
+          "imageUrl": "/images/dwight-faron-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 35,
+      "title": "Spider-Man #35",
+      "releaseDate": "April 20, 1993",
+      "antagonists": [
+        {
+          "name": "Carnage (Cletus Kasady)",
+          "url": "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
+          "imageUrl": "/images/cletus-kasady-earth-616.jpg"
+        },
+        {
+          "name": "Shriek",
+          "url": "https://marvel.fandom.com/wiki/Frances_Barrison_(Earth-616)",
+          "imageUrl": "/images/frances-barrison-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 36,
+      "title": "Spider-Man #36",
+      "releaseDate": "May 18, 1993",
+      "antagonists": [
+        {
+          "name": "Carnage",
+          "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/carnage-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Shriek (Frances Barrison)",
+          "url": "https://marvel.fandom.com/wiki/Frances_Barrison_(Earth-616)",
+          "imageUrl": "/images/frances-barrison-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Carrion (Malcolm McBride)",
+          "url": "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)",
+          "imageUrl": "/images/malcolm-mcbride-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 37,
+      "title": "Spider-Man #37",
+      "releaseDate": "June 15, 1993",
+      "antagonists": [
+        {
+          "name": "Carnage",
+          "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/carnage-symbiote-earth-616.jpg"
+        },
+        {
+          "name": "Shriek (Frances Barrison)",
+          "url": "https://marvel.fandom.com/wiki/Frances_Barrison_(Earth-616)",
+          "imageUrl": "/images/frances-barrison-earth-616.jpg"
+        },
+        {
+          "name": "Spider-Doppelganger",
+          "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
+          "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Carrion (Malcolm McBride)",
+          "url": "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)",
+          "imageUrl": "/images/malcolm-mcbride-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 38,
+      "title": "Spider-Man #38",
+      "releaseDate": "July 20, 1993",
+      "antagonists": [
+        {
+          "name": "Electro (Max Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 39,
+      "title": "Spider-Man #39",
+      "releaseDate": "August 17, 1993",
+      "antagonists": [
+        {
+          "name": "Electro (Max Dillon)",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        },
+        {
+          "name": "Crook-Man (Charlie Buchanan)",
+          "url": "https://marvel.fandom.com/wiki/Charles_Buchanan_(Earth-616)",
+          "imageUrl": "/images/charles-buchanan-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 40,
+      "title": "Spider-Man #40",
+      "releaseDate": "September 21, 1993",
+      "antagonists": [
+        {
+          "name": "Electro",
+          "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 41,
+      "title": "Spider-Man #41",
+      "releaseDate": "October 19, 1993",
+      "antagonists": [
+        {
+          "name": "Platoon (David Chodosh)",
+          "url": "https://marvel.fandom.com/wiki/David_Chodosh_(Earth-616)",
+          "imageUrl": "/images/david-chodosh-earth-616.jpg"
+        },
+        {
+          "name": "Platoon (David Chodosh)",
+          "url": "https://marvel.fandom.com/wiki/David_Chodosh_(Earth-616)",
+          "imageUrl": "/images/david-chodosh-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 42,
+      "title": "Spider-Man #42",
+      "releaseDate": "November 16, 1993",
+      "antagonists": [
+        {
+          "name": "Platoon",
+          "url": "https://marvel.fandom.com/wiki/David_Chodosh_(Earth-616)",
+          "imageUrl": "/images/david-chodosh-earth-616.jpg"
+        },
+        {
+          "name": "Platoon",
+          "url": "https://marvel.fandom.com/wiki/David_Chodosh_(Earth-616)",
+          "imageUrl": "/images/david-chodosh-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 43,
+      "title": "Spider-Man #43",
+      "releaseDate": "December 21, 1993",
+      "antagonists": [
+        {
+          "name": "A.I.M.",
+          "url": "https://marvel.fandom.com/wiki/Advanced_Idea_Mechanics_(Earth-616)",
+          "imageUrl": "/images/advanced-idea-mechanics-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 44,
+      "title": "Spider-Man #44",
+      "releaseDate": "January 18, 1994",
+      "antagonists": [
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 45,
+      "title": "Spider-Man #45",
+      "releaseDate": "February 22, 1994",
+      "antagonists": [
+        {
+          "name": "Chameleon (Dmitri Smerdyakov)",
+          "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 46,
+      "title": "Spider-Man #46",
+      "releaseDate": "April 5, 1994",
+      "antagonists": [
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 47,
+      "title": "Spider-Man #47",
+      "releaseDate": "April 26, 1994",
+      "antagonists": [
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Vladimir Kravinoff",
+          "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg"
+        },
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Gauntlet (Alfredo Morelli)",
+          "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
+          "imageUrl": "/images/alfredo-morelli-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 48,
+      "title": "Spider-Man #48",
+      "releaseDate": "May 17, 1994",
+      "antagonists": [
+        {
+          "name": "Demogoblin",
+          "url": "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
+          "imageUrl": "/images/demogoblin-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Vladimir Kravinoff",
+          "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 49,
+      "title": "Spider-Man #49",
+      "releaseDate": "June 21, 1994",
+      "antagonists": [
+        {
+          "name": "Coldheart (Kateri Deseronto)",
+          "url": "https://marvel.fandom.com/wiki/Kateri_Deseronto_(Earth-616)",
+          "imageUrl": "/images/kateri-deseronto-earth-616.jpg"
+        },
+        {
+          "name": "Hobgoblin (Jason Macendale)",
+          "url": "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
+          "imageUrl": "/images/jason-macendale-jr-earth-616.jpg"
+        },
+        {
+          "name": "Vladimir Kravinoff",
+          "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 50,
+      "title": "Spider-Man #50",
+      "releaseDate": "July 19, 1994",
+      "antagonists": [
+        {
+          "name": "Grim Hunter",
+          "url": "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg"
+        },
+        {
+          "name": "Kraven the Hunter/Grim Hunter (Sergei Kravinoff)",
+          "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
+        }
+      ]
+    },
+    {
       "issueNumber": 51,
       "title": "Spider-Man #51",
       "releaseDate": "August 16, 1994",
@@ -446,18 +1439,6 @@
           "name": "Hammerhead",
           "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
           "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
-        },
-        {
-          "name": "Joey",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Joey"
-        },
-        {
-          "name": "Rocco",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Rocco"
-        },
-        {
-          "name": "Johnny",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Johnny"
         }
       ]
     },
@@ -564,10 +1545,6 @@
           "imageUrl": "/images/friends-of-humanity-earth-616.jpg"
         },
         {
-          "name": "Ron",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/R#Ron"
-        },
-        {
           "name": "Morbius (Michael Morbius)",
           "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
           "imageUrl": "/images/michael-morbius-earth-616.jpg"
@@ -583,10 +1560,6 @@
           "name": "Friends of Humanity",
           "url": "https://marvel.fandom.com/wiki/Friends_of_Humanity_(Earth-616)",
           "imageUrl": "/images/friends-of-humanity-earth-616.jpg"
-        },
-        {
-          "name": "Bo",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/B#Bo"
         },
         {
           "name": "Morbius (Michael Morbius)",
@@ -622,7 +1595,8 @@
         },
         {
           "name": "Dr. Andrea Janson",
-          "url": "https://marvel.fandom.com/wiki/Andrea_Janson_(Earth-616)"
+          "url": "https://marvel.fandom.com/wiki/Andrea_Janson_(Earth-616)",
+          "imageUrl": "/images/andrea-janson-earth-616.jpg"
         }
       ]
     },

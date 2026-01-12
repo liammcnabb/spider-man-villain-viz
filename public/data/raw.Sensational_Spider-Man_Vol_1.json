@@ -3,6 +3,283 @@
   "baseUrl": "https://marvel.fandom.com/wiki/Sensational_Spider-Man_Vol_1_{issue}",
   "issues": [
     {
+      "issueNumber": 1,
+      "title": "Sensational Spider-Man #1",
+      "releaseDate": "December 7, 1995",
+      "antagonists": [
+        {
+          "name": "Mysterio (Quentin Beck)",
+          "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "imageUrl": "/images/quentin-beck-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 2,
+      "title": "Sensational Spider-Man #2",
+      "releaseDate": "December 28, 1995",
+      "antagonists": [
+        {
+          "name": "Great Game",
+          "url": "https://marvel.fandom.com/wiki/Great_Game_(Earth-616)",
+          "imageUrl": "/images/great-game-earth-616.jpg"
+        },
+        {
+          "name": "Rhino (Aleksei Sytsevich)",
+          "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
+          "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 3,
+      "title": "Sensational Spider-Man #3",
+      "releaseDate": "February 8, 1996",
+      "antagonists": [
+        {
+          "name": "Carnage",
+          "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+          "imageUrl": "/images/carnage-symbiote-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 4,
+      "title": "Sensational Spider-Man #4",
+      "releaseDate": "March 7, 1996",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 5,
+      "title": "Sensational Spider-Man #5",
+      "releaseDate": "April 3, 1996",
+      "antagonists": [
+        {
+          "name": "Gaunt (Mendel Stromm)",
+          "url": "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
+          "imageUrl": "/images/mendel-stromm-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 6,
+      "title": "Sensational Spider-Man #6",
+      "releaseDate": "May 8, 1996",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 7,
+      "title": "Sensational Spider-Man #7",
+      "releaseDate": "June 5, 1996",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 8,
+      "title": "Sensational Spider-Man #8",
+      "releaseDate": "July 3, 1996",
+      "antagonists": [
+        {
+          "name": "Looter (Norton Fester)",
+          "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
+          "imageUrl": "/images/norton-fester-earth-616.jpg"
+        },
+        {
+          "name": "Sentinels",
+          "url": "https://marvel.fandom.com/wiki/Sentinels",
+          "imageUrl": "/images/sentinels.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 9,
+      "title": "Sensational Spider-Man #9",
+      "releaseDate": "August 7, 1996",
+      "antagonists": [
+        {
+          "name": "Swarm (Fritz von Meyer)",
+          "url": "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)",
+          "imageUrl": "/images/fritz-von-meyer-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 10,
+      "title": "Sensational Spider-Man #10",
+      "releaseDate": "September 4, 1996",
+      "antagonists": [
+        {
+          "name": "Swarm (Fritz von Meyer)",
+          "url": "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)",
+          "imageUrl": "/images/fritz-von-meyer-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 11,
+      "title": "Sensational Spider-Man #11",
+      "releaseDate": "October 2, 1996",
+      "antagonists": [
+        {
+          "name": "Norman Osborn",
+          "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        },
+        {
+          "name": "Gaunt (Mendel Stromm)",
+          "url": "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
+          "imageUrl": "/images/mendel-stromm-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 12,
+      "title": "Sensational Spider-Man #12",
+      "releaseDate": "November 6, 1996",
+      "antagonists": [
+        {
+          "name": "Trapster (Peter Petruski)",
+          "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+          "imageUrl": "/images/peter-petruski-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 13,
+      "title": "Sensational Spider-Man #13",
+      "releaseDate": "December 4, 1996",
+      "antagonists": [
+        {
+          "name": "Roxxon Corportion",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Geral Roth",
+          "url": "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)",
+          "imageUrl": "/images/gerald-roth-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 14,
+      "title": "Sensational Spider-Man #14",
+      "releaseDate": "January 2, 1997",
+      "antagonists": [
+        {
+          "name": "Chtylok",
+          "url": "https://marvel.fandom.com/wiki/Chtylok_(Earth-616)",
+          "imageUrl": "/images/chtylok-earth-616.jpg"
+        },
+        {
+          "name": "Stegron (Vincent Stegron)",
+          "url": "https://marvel.fandom.com/wiki/Vincent_Stegron_(Earth-616)",
+          "imageUrl": "/images/vincent-stegron-earth-616.jpg"
+        },
+        {
+          "name": "Roxxon Corporation",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Gerald Roth",
+          "url": "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)",
+          "imageUrl": "/images/gerald-roth-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 15,
+      "title": "Sensational Spider-Man #15",
+      "releaseDate": "February 5, 1997",
+      "antagonists": [
+        {
+          "name": "Roxxon Corporation",
+          "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+          "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg"
+        },
+        {
+          "name": "Doctor Gerald Roth",
+          "url": "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)",
+          "imageUrl": "/images/gerald-roth-earth-616.jpg"
+        },
+        {
+          "name": "Chtylok",
+          "url": "https://marvel.fandom.com/wiki/Chtylok_(Earth-616)",
+          "imageUrl": "/images/chtylok-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 16,
+      "title": "Sensational Spider-Man #16",
+      "releaseDate": "March 5, 1997",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "D.K. (David Kalen)",
+          "url": "https://marvel.fandom.com/wiki/David_Kalen_(Earth-616)",
+          "imageUrl": "/images/david-kalen-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 17,
+      "title": "Sensational Spider-Man #17",
+      "releaseDate": "April 9, 1997",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        },
+        {
+          "name": "D.K. (David Kalen)",
+          "url": "https://marvel.fandom.com/wiki/David_Kalen_(Earth-616)",
+          "imageUrl": "/images/david-kalen-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 18,
+      "title": "Sensational Spider-Man #18",
+      "releaseDate": "June 4, 1997",
+      "antagonists": [
+        {
+          "name": "Vulture (Adrian Toomes)",
+          "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "imageUrl": "/images/adrian-toomes-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 19,
+      "title": "Sensational Spider-Man #19",
+      "releaseDate": "July 2, 1997",
+      "antagonists": [
+        {
+          "name": "Living Pharaoh (Akasha Martinez)",
+          "url": "https://marvel.fandom.com/wiki/Akasha_Martinez_(Earth-616)",
+          "imageUrl": "/images/akasha-martinez-earth-616.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 20,
+      "title": "Sensational Spider-Man #20",
+      "releaseDate": "August 6, 1997",
+      "antagonists": [
+        {
+          "name": "Living Pharaoh (Akasha Martinez)",
+          "url": "https://marvel.fandom.com/wiki/Akasha_Martinez_(Earth-616)",
+          "imageUrl": "/images/akasha-martinez-earth-616.jpg"
+        }
+      ]
+    },
+    {
       "issueNumber": 21,
       "title": "Sensational Spider-Man #21",
       "releaseDate": "September 3, 1997",
@@ -84,18 +361,6 @@
           "name": "Dealy Boys",
           "url": "https://marvel.fandom.com/wiki/Dealy_Boys_(Earth-616)",
           "imageUrl": "/images/dealy-boys-earth-616.jpg"
-        },
-        {
-          "name": "Harv",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/H#Harv"
-        },
-        {
-          "name": "Lee",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/L#Lee"
-        },
-        {
-          "name": "Ozzie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/O#Ozzie"
         }
       ]
     },

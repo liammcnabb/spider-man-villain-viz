@@ -805,14 +805,6 @@
           "name": "Belladonna",
           "url": "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
           "imageUrl": "/images/narda-ravanna-earth-616.jpg"
-        },
-        {
-          "name": "Jack",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jack"
-        },
-        {
-          "name": "Manny",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Manny"
         }
       ]
     },
@@ -876,18 +868,6 @@
           "name": "Belladonna",
           "url": "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
           "imageUrl": "/images/narda-ravanna-earth-616.jpg"
-        },
-        {
-          "name": "Jack",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jack"
-        },
-        {
-          "name": "Manny",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Manny"
-        },
-        {
-          "name": "Moe",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Moe"
         }
       ]
     },
@@ -905,18 +885,6 @@
           "name": "Belladonna (Narda Ravanna)",
           "url": "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
           "imageUrl": "/images/narda-ravanna-earth-616.jpg"
-        },
-        {
-          "name": "Jack",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jack"
-        },
-        {
-          "name": "Manny",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Manny"
-        },
-        {
-          "name": "Moe",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/M#Moe"
         }
       ]
     },
@@ -953,14 +921,6 @@
           "imageUrl": "/images/quentin-beck-earth-616.jpg"
         },
         {
-          "name": "Charlie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
-        },
-        {
-          "name": "Charlie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
-        },
-        {
           "name": "Gideon Mace",
           "url": "https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)",
           "imageUrl": "/images/gideon-mace-earth-616.jpg"
@@ -976,14 +936,6 @@
           "name": "Mysterio (Quentin Beck)",
           "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
           "imageUrl": "/images/quentin-beck-earth-616.jpg"
-        },
-        {
-          "name": "Charlie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
-        },
-        {
-          "name": "Charlie",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Charlie"
         },
         {
           "name": "Gideon Mace",
@@ -1666,14 +1618,6 @@
           "name": "Symbiote",
           "url": "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
           "imageUrl": "/images/venom-symbiote-earth-616.jpg"
-        },
-        {
-          "name": "Elliot",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/E#Elliot"
-        },
-        {
-          "name": "Elliot",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/E#Elliot"
         }
       ]
     },
@@ -1812,18 +1756,6 @@
           "name": "Vince Granetti",
           "url": "https://marvel.fandom.com/wiki/Vince_Granetti_(Earth-616)",
           "imageUrl": "/images/vince-granetti-earth-616.jpg"
-        },
-        {
-          "name": "Chester",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Chester"
-        },
-        {
-          "name": "Chester",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/C#Chester"
-        },
-        {
-          "name": "Jackson",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#Jackson"
         }
       ]
     },
@@ -1918,16 +1850,7 @@
       "issueNumber": 113,
       "title": "Peter Parker, The Spectacular Spider-Man #113",
       "releaseDate": "January 14, 1986",
-      "antagonists": [
-        {
-          "name": "John",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#John"
-        },
-        {
-          "name": "John",
-          "url": "https://marvel.fandom.com/wiki/Character_Index/J#John"
-        }
-      ]
+      "antagonists": []
     },
     {
       "issueNumber": 114,
@@ -2354,6 +2277,571 @@
     {
       "issueNumber": 150,
       "title": "Issue 150 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 151,
+      "title": "Issue 151 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 152,
+      "title": "Issue 152 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 153,
+      "title": "Issue 153 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 154,
+      "title": "Issue 154 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 155,
+      "title": "Issue 155 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 156,
+      "title": "Issue 156 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 157,
+      "title": "Issue 157 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 158,
+      "title": "Issue 158 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 159,
+      "title": "Issue 159 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 160,
+      "title": "Issue 160 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 161,
+      "title": "Issue 161 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 162,
+      "title": "Issue 162 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 163,
+      "title": "Issue 163 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 164,
+      "title": "Issue 164 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 165,
+      "title": "Issue 165 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 166,
+      "title": "Issue 166 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 167,
+      "title": "Issue 167 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 168,
+      "title": "Issue 168 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 169,
+      "title": "Issue 169 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 170,
+      "title": "Issue 170 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 171,
+      "title": "Issue 171 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 172,
+      "title": "Issue 172 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 173,
+      "title": "Issue 173 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 174,
+      "title": "Issue 174 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 175,
+      "title": "Issue 175 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 176,
+      "title": "Issue 176 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 177,
+      "title": "Issue 177 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 178,
+      "title": "Issue 178 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 179,
+      "title": "Issue 179 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 180,
+      "title": "Issue 180 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 181,
+      "title": "Issue 181 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 182,
+      "title": "Issue 182 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 183,
+      "title": "Issue 183 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 184,
+      "title": "Issue 184 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 185,
+      "title": "Issue 185 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 186,
+      "title": "Issue 186 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 187,
+      "title": "Issue 187 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 188,
+      "title": "Issue 188 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 189,
+      "title": "Issue 189 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 190,
+      "title": "Issue 190 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 191,
+      "title": "Issue 191 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 192,
+      "title": "Issue 192 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 193,
+      "title": "Issue 193 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 194,
+      "title": "Issue 194 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 195,
+      "title": "Issue 195 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 196,
+      "title": "Issue 196 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 197,
+      "title": "Issue 197 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 198,
+      "title": "Issue 198 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 199,
+      "title": "Issue 199 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 200,
+      "title": "Issue 200 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 201,
+      "title": "Issue 201 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 202,
+      "title": "Issue 202 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 203,
+      "title": "Issue 203 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 204,
+      "title": "Issue 204 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 205,
+      "title": "Issue 205 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 206,
+      "title": "Issue 206 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 207,
+      "title": "Issue 207 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 208,
+      "title": "Issue 208 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 209,
+      "title": "Issue 209 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 210,
+      "title": "Issue 210 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 211,
+      "title": "Issue 211 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 212,
+      "title": "Issue 212 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 213,
+      "title": "Issue 213 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 214,
+      "title": "Issue 214 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 215,
+      "title": "Issue 215 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 216,
+      "title": "Issue 216 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 217,
+      "title": "Issue 217 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 218,
+      "title": "Issue 218 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 219,
+      "title": "Issue 219 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 220,
+      "title": "Issue 220 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 221,
+      "title": "Issue 221 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 222,
+      "title": "Issue 222 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 223,
+      "title": "Issue 223 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 224,
+      "title": "Issue 224 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 225,
+      "title": "Issue 225 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 226,
+      "title": "Issue 226 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 227,
+      "title": "Issue 227 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 228,
+      "title": "Issue 228 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 229,
+      "title": "Issue 229 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 230,
+      "title": "Issue 230 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 231,
+      "title": "Issue 231 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 232,
+      "title": "Issue 232 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 233,
+      "title": "Issue 233 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 234,
+      "title": "Issue 234 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 235,
+      "title": "Issue 235 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 236,
+      "title": "Issue 236 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 237,
+      "title": "Issue 237 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 238,
+      "title": "Issue 238 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 239,
+      "title": "Issue 239 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 240,
+      "title": "Issue 240 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 241,
+      "title": "Issue 241 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 242,
+      "title": "Issue 242 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 243,
+      "title": "Issue 243 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 244,
+      "title": "Issue 244 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 245,
+      "title": "Issue 245 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 246,
+      "title": "Issue 246 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 247,
+      "title": "Issue 247 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 248,
+      "title": "Issue 248 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 249,
+      "title": "Issue 249 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 250,
+      "title": "Issue 250 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 251,
+      "title": "Issue 251 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 252,
+      "title": "Issue 252 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 253,
+      "title": "Issue 253 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 254,
+      "title": "Issue 254 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 255,
+      "title": "Issue 255 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 256,
+      "title": "Issue 256 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 257,
+      "title": "Issue 257 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 258,
+      "title": "Issue 258 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 259,
+      "title": "Issue 259 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 260,
+      "title": "Issue 260 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 261,
+      "title": "Issue 261 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 262,
+      "title": "Issue 262 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 263,
+      "title": "Issue 263 (Failed)",
       "antagonists": []
     }
   ]
