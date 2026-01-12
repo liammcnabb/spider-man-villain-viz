@@ -10,11 +10,20 @@
         {
           "name": "Burglar",
           "url": "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Only in recap)"],
+            "uncategorized": ["(Only in recap)"]
+          },
           "imageUrl": "/images/carradine-earth-616.jpg"
         },
         {
           "name": "Chameleon",
           "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)", "(See chronology)"],
+            "firstAppearance": true,
+            "uncategorized": ["(See chronology)"]
+          },
           "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
         }
       ]
@@ -27,16 +36,39 @@
         {
           "name": "Vulture (Adrian Toomes)",
           "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Adrian Toomes",
+              "First appearance",
+              "See chronology"
+            ],
+            "firstAppearance": true,
+            "uncategorized": ["Adrian Toomes", "See chronology"]
+          },
           "imageUrl": "/images/adrian-toomes-earth-616.jpg"
         },
         {
           "name": "Tinkerer (Phineas Mason)",
           "url": "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Phineas Mason", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Phineas Mason"]
+          },
           "imageUrl": "/images/phineas-mason-earth-616.jpg"
         },
         {
           "name": "Quentin Beck",
           "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "First appearance",
+              "Unnamed",
+              "Disguised as an alien"
+            ],
+            "firstAppearance": true,
+            "uncategorized": ["Unnamed", "Disguised as an alien"]
+          },
           "imageUrl": "/images/quentin-beck-earth-616.jpg"
         }
       ]
@@ -49,11 +81,29 @@
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Otto Octavius",
+              "First appearance",
+              "Origin revealed",
+              "See chronology"
+            ],
+            "firstAppearance": true,
+            "uncategorized": [
+              "Otto Octavius",
+              "Origin revealed",
+              "See chronology"
+            ]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         },
         {
           "name": "Charlie",
           "url": "https://marvel.fandom.com/wiki/Charles_Buchanan_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/charles-buchanan-earth-616.jpg"
         }
       ]
@@ -66,6 +116,11 @@
         {
           "name": "Sandman (Flint Marko)",
           "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)", "(Origin revealed)"],
+            "firstAppearance": true,
+            "uncategorized": ["(Origin revealed)"]
+          },
           "imageUrl": "/images/william-baker-earth-616.jpg"
         }
       ]
@@ -78,6 +133,10 @@
         {
           "name": "Doctor Doom (Victor von Doom)",
           "url": "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Victor von Doom"],
+            "uncategorized": ["Victor von Doom"]
+          },
           "imageUrl": "/images/victor-von-doom-earth-616.jpg"
         },
         {
@@ -95,6 +154,17 @@
         {
           "name": "The Lizard (Curt Connors)",
           "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Curt Connors",
+              "Origin revealed",
+              "First appearance",
+              "Appears in flashback"
+            ],
+            "firstAppearance": true,
+            "flashback": true,
+            "uncategorized": ["Curt Connors", "Origin revealed"]
+          },
           "imageUrl": "/images/curtis-connors-earth-616.jpg"
         }
       ]
@@ -107,6 +177,10 @@
         {
           "name": "Vulture (Adrian Toomes)",
           "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Adrian Toomes", "Main story and recap"],
+            "uncategorized": ["Adrian Toomes", "Main story and recap"]
+          },
           "imageUrl": "/images/adrian-toomes-earth-616.jpg"
         }
       ]
@@ -119,6 +193,10 @@
         {
           "name": "Living Brain",
           "url": "https://marvel.fandom.com/wiki/Living_Brain_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/living-brain-earth-616.jpg"
         }
       ]
@@ -131,6 +209,17 @@
         {
           "name": "Electro (Maxwell Dillon)",
           "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Maxwell Dillon",
+              "First appearance",
+              "Origin revealed",
+              "Appears in flashback"
+            ],
+            "firstAppearance": true,
+            "flashback": true,
+            "uncategorized": ["Maxwell Dillon", "Origin revealed"]
+          },
           "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
         }
       ]
@@ -143,26 +232,63 @@
         {
           "name": "Big Man (Frederick Foswell)",
           "url": "https://marvel.fandom.com/wiki/Frederick_Foswell_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Frederick Foswell",
+              "First appearance",
+              "See chronology"
+            ],
+            "firstAppearance": true,
+            "uncategorized": ["Frederick Foswell", "See chronology"]
+          },
           "imageUrl": "/images/frederick-foswell-earth-616.jpg"
         },
         {
           "name": "Enforcers",
           "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "First appearance",
+              "Jackson Brice",
+              "First appearance",
+              "Daniel Brito",
+              "First appearance",
+              "Raymond Bloch",
+              "First appearance"
+            ],
+            "firstAppearance": true,
+            "uncategorized": ["Jackson Brice", "Daniel Brito", "Raymond Bloch"]
+          },
           "imageUrl": "/images/enforcers-earth-616.jpg"
         },
         {
           "name": "Montana (Jackson Brice)",
           "url": "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Jackson Brice", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Jackson Brice"]
+          },
           "imageUrl": "/images/jackson-brice-earth-616.jpg"
         },
         {
           "name": "Fancy Dan (Daniel Brito)",
           "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Daniel Brito", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Daniel Brito"]
+          },
           "imageUrl": "/images/daniel-brito-earth-616.jpg"
         },
         {
           "name": "Ox (Raymond Bloch)",
           "url": "https://marvel.fandom.com/wiki/Raymond_Bloch_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Raymond Bloch", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Raymond Bloch"]
+          },
           "imageUrl": "/images/raymond-bloch-earth-616.jpg"
         }
       ]
@@ -175,16 +301,28 @@
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Otto Octavius", "Main story and recap"],
+            "uncategorized": ["Otto Octavius", "Main story and recap"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         },
         {
           "name": "Blackie Gaxton",
           "url": "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/blackie-gaxton-earth-616.jpg"
         },
         {
           "name": "Blackie Gaxton",
           "url": "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/blackie-gaxton-earth-616.jpg"
         }
       ]
@@ -197,6 +335,10 @@
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Otto Octavius"],
+            "uncategorized": ["Otto Octavius"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         }
       ]
@@ -209,6 +351,18 @@
         {
           "name": "Mysterio (Quentin Beck)",
           "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Quentin Beck",
+              "First appearance as Mysterio",
+              "Impersonates Spider-Man (Peter Parker"
+            ],
+            "firstAppearance": true,
+            "uncategorized": [
+              "Quentin Beck",
+              "Impersonates Spider-Man (Peter Parker"
+            ]
+          },
           "imageUrl": "/images/quentin-beck-earth-616.jpg"
         }
       ]
@@ -221,11 +375,19 @@
         {
           "name": "Green Goblin",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
         },
         {
           "name": "Enforcers",
           "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Dan"],
+            "uncategorized": ["Dan"]
+          },
           "imageUrl": "/images/enforcers-earth-616.jpg"
         },
         {
@@ -236,6 +398,10 @@
         {
           "name": "Fancy Dan (Dan)",
           "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Dan"],
+            "uncategorized": ["Dan"]
+          },
           "imageUrl": "/images/daniel-brito-earth-616.jpg"
         },
         {
@@ -253,11 +419,20 @@
         {
           "name": "Kraven the Hunter",
           "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance", "See chronology"],
+            "firstAppearance": true,
+            "uncategorized": ["See chronology"]
+          },
           "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
         },
         {
           "name": "Chameleon (Dmitri Smerdyakov)",
           "url": "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Dmitri Smerdyakov", "See chronology"],
+            "uncategorized": ["Dmitri Smerdyakov", "See chronology"]
+          },
           "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg"
         }
       ]
@@ -270,31 +445,70 @@
         {
           "name": "Circus of Crime",
           "url": "https://marvel.fandom.com/wiki/Circus_of_Crime_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Maynard Tiboldt",
+              "Jack Pulver",
+              "Ernesto & Luigi Gambonno",
+              "First appearance",
+              "Elliot Franklin",
+              "Bruce Olafsen"
+            ],
+            "firstAppearance": true,
+            "uncategorized": [
+              "Maynard Tiboldt",
+              "Jack Pulver",
+              "Ernesto & Luigi Gambonno",
+              "Elliot Franklin",
+              "Bruce Olafsen"
+            ]
+          },
           "imageUrl": "/images/circus-of-crime-earth-616.jpg"
         },
         {
           "name": "Ringmaster (Maynard Tiboldt)",
           "url": "https://marvel.fandom.com/wiki/Maynard_Tiboldt_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Maynard Tiboldt"],
+            "uncategorized": ["Maynard Tiboldt"]
+          },
           "imageUrl": "/images/maynard-tiboldt-earth-616.jpg"
         },
         {
           "name": "Human Cannonball (Jack Pulver)",
           "url": "https://marvel.fandom.com/wiki/Jack_Pulver_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Jack Pulver"],
+            "uncategorized": ["Jack Pulver"]
+          },
           "imageUrl": "/images/jack-pulver-earth-616.jpg"
         },
         {
           "name": "Great Gambonnos (Ernesto & Luigi Gambonno)",
           "url": "https://marvel.fandom.com/wiki/Ernesto_%26_Luigi_Gambonno_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Ernesto & Luigi Gambonno", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Ernesto & Luigi Gambonno"]
+          },
           "imageUrl": "/images/ernesto-26-luigi-gambonno-earth-616.jpg"
         },
         {
           "name": "Clown (Elliot Franklin)",
           "url": "https://marvel.fandom.com/wiki/Eliot_Franklin_(Clown)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Elliot Franklin"],
+            "uncategorized": ["Elliot Franklin"]
+          },
           "imageUrl": "/images/eliot-franklin-clown-earth-616.jpg"
         },
         {
           "name": "Bruto the Strongman (Bruce Olafsen)",
           "url": "https://marvel.fandom.com/wiki/Bruce_Olafsen_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Bruce Olafsen"],
+            "uncategorized": ["Bruce Olafsen"]
+          },
           "imageUrl": "/images/bruce-olafsen-earth-616.jpg"
         }
       ]
@@ -307,7 +521,18 @@
         {
           "name": "Green Goblin (Norman Osborn)",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Norman Osborn"],
+            "uncategorized": ["Norman Osborn"]
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/End_of_Spider-Man",
+          "id": "end-of-spider-man",
+          "name": "End of Spider-Man"
         }
       ]
     },
@@ -319,32 +544,66 @@
         {
           "name": "Sandman (Flint Marko)",
           "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Flint Marko"],
+            "uncategorized": ["Flint Marko"]
+          },
           "imageUrl": "/images/william-baker-earth-616.jpg"
         },
         {
           "name": "Green Goblin (Norman Osborn)",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Norman Osborn", "Cameo"],
+            "cameo": true,
+            "uncategorized": ["Norman Osborn"]
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
         },
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Otto Octavius", "Cameo"],
+            "cameo": true,
+            "uncategorized": ["Otto Octavius"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         },
         {
           "name": "Kraven the Hunter",
           "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Cameo"],
+            "cameo": true
+          },
           "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
         },
         {
           "name": "Vulture (Adrian Toomes)",
           "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Adrian Toomes", "Cameo"],
+            "cameo": true,
+            "uncategorized": ["Adrian Toomes"]
+          },
           "imageUrl": "/images/adrian-toomes-earth-616.jpg"
         },
         {
           "name": "Rocky Roberts",
           "url": "https://marvel.fandom.com/wiki/Rocky_Roberts_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/rocky-roberts-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/End_of_Spider-Man",
+          "id": "end-of-spider-man",
+          "name": "End of Spider-Man"
         }
       ]
     },
@@ -356,32 +615,63 @@
         {
           "name": "Rock Gimpy",
           "url": "https://marvel.fandom.com/wiki/Rock_Gimpy_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/rock-gimpy-earth-616.jpg"
         },
         {
           "name": "Sandman (Flint Marko)",
           "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Flint Marko"],
+            "uncategorized": ["Flint Marko"]
+          },
           "imageUrl": "/images/william-baker-earth-616.jpg"
         },
         {
           "name": "Enforcers",
           "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Daniel Brito", "Raymond Bloch", "Jackson Brice"],
+            "uncategorized": ["Daniel Brito", "Raymond Bloch", "Jackson Brice"]
+          },
           "imageUrl": "/images/enforcers-earth-616.jpg"
         },
         {
           "name": "Fancy Dan (Daniel Brito)",
           "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Daniel Brito"],
+            "uncategorized": ["Daniel Brito"]
+          },
           "imageUrl": "/images/daniel-brito-earth-616.jpg"
         },
         {
           "name": "Ox (Raymond Bloch)",
           "url": "https://marvel.fandom.com/wiki/Raymond_Bloch_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Raymond Bloch"],
+            "uncategorized": ["Raymond Bloch"]
+          },
           "imageUrl": "/images/raymond-bloch-earth-616.jpg"
         },
         {
           "name": "Montana (Jackson Brice)",
           "url": "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Jackson Brice"],
+            "uncategorized": ["Jackson Brice"]
+          },
           "imageUrl": "/images/jackson-brice-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/End_of_Spider-Man",
+          "id": "end-of-spider-man",
+          "name": "End of Spider-Man"
         }
       ]
     },
@@ -393,6 +683,11 @@
         {
           "name": "Scorpion (Mac Gargan)",
           "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Mac Gargan", "First appearance as Scorpion"],
+            "firstAppearance": true,
+            "uncategorized": ["Mac Gargan"]
+          },
           "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
         }
       ]
@@ -405,6 +700,10 @@
         {
           "name": "Beetle (Abner Jenkins)",
           "url": "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Abner Jenkins"],
+            "uncategorized": ["Abner Jenkins"]
+          },
           "imageUrl": "/images/abner-jenkins-earth-616.jpg"
         }
       ]
@@ -417,36 +716,85 @@
         {
           "name": "Masters of Menace",
           "url": "https://marvel.fandom.com/wiki/Circus_of_Crime_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Maynard Tiboldt",
+              "First appearance",
+              "Princess Python's snake",
+              "First appearance",
+              "Elliot Franklin",
+              "Jack Pulver",
+              "Ernesto & Luigi Gambonno"
+            ],
+            "firstAppearance": true,
+            "uncategorized": [
+              "Maynard Tiboldt",
+              "Princess Python's snake",
+              "Elliot Franklin",
+              "Jack Pulver",
+              "Ernesto & Luigi Gambonno"
+            ]
+          },
           "imageUrl": "/images/circus-of-crime-earth-616.jpg"
         },
         {
           "name": "Ringmaster (Maynard Tiboldt)",
           "url": "https://marvel.fandom.com/wiki/Maynard_Tiboldt_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Maynard Tiboldt"],
+            "uncategorized": ["Maynard Tiboldt"]
+          },
           "imageUrl": "/images/maynard-tiboldt-earth-616.jpg"
         },
         {
           "name": "Princess Python",
           "url": "https://marvel.fandom.com/wiki/Zelda_DuBois_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "First appearance",
+              "Princess Python's snake",
+              "First appearance"
+            ],
+            "firstAppearance": true,
+            "uncategorized": ["Princess Python's snake"]
+          },
           "imageUrl": "/images/zelda-dubois-earth-616.jpg"
         },
         {
           "name": "Precious",
           "url": "https://marvel.fandom.com/wiki/Precious_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Princess Python's snake", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Princess Python's snake"]
+          },
           "imageUrl": "/images/precious-earth-616.jpg"
         },
         {
           "name": "Clown (Elliot Franklin)",
           "url": "https://marvel.fandom.com/wiki/Eliot_Franklin_(Clown)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Elliot Franklin"],
+            "uncategorized": ["Elliot Franklin"]
+          },
           "imageUrl": "/images/eliot-franklin-clown-earth-616.jpg"
         },
         {
           "name": "Human Cannonball (Jack Pulver)",
           "url": "https://marvel.fandom.com/wiki/Jack_Pulver_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Jack Pulver"],
+            "uncategorized": ["Jack Pulver"]
+          },
           "imageUrl": "/images/jack-pulver-earth-616.jpg"
         },
         {
           "name": "Great Gambonnos (Ernesto & Luigi Gambonno)",
           "url": "https://marvel.fandom.com/wiki/Ernesto_%26_Luigi_Gambonno_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Ernesto & Luigi Gambonno"],
+            "uncategorized": ["Ernesto & Luigi Gambonno"]
+          },
           "imageUrl": "/images/ernesto-26-luigi-gambonno-earth-616.jpg"
         }
       ]
@@ -459,16 +807,36 @@
         {
           "name": "Green Goblin (Norman Osborn)",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Norman Osborn"],
+            "uncategorized": ["Norman Osborn"]
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
         },
         {
           "name": "Lucky Lobo (Francisco Lobo)",
           "url": "https://marvel.fandom.com/wiki/Francisco_Lobo_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "First appearance",
+              "Francisco Lobo",
+              "First appearance",
+              "First appearance",
+              "First appearance"
+            ],
+            "firstAppearance": true,
+            "uncategorized": ["Francisco Lobo"]
+          },
           "imageUrl": "/images/francisco-lobo-earth-616.jpg"
         },
         {
           "name": "Lucky Lobo (Francisco Lobo)",
           "url": "https://marvel.fandom.com/wiki/Francisco_Lobo_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Francisco Lobo", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Francisco Lobo"]
+          },
           "imageUrl": "/images/francisco-lobo-earth-616.jpg"
         }
       ]
@@ -481,6 +849,10 @@
         {
           "name": "Mysterio (Quentin Beck)",
           "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Quentin Beck"],
+            "uncategorized": ["Quentin Beck"]
+          },
           "imageUrl": "/images/quentin-beck-earth-616.jpg"
         }
       ]
@@ -493,11 +865,20 @@
         {
           "name": "Spencer Smythe",
           "url": "https://marvel.fandom.com/wiki/Spencer_Smythe_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/spencer-smythe-earth-616.jpg"
         },
         {
           "name": "Spider Slayer (Mark I)",
           "url": "https://marvel.fandom.com/wiki/Spider-Slayer_Mark_I",
+          "metadata": {
+            "rawMetadata": ["Mark I", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Mark I"]
+          },
           "imageUrl": "/images/spider-slayer-mark-i.jpg"
         }
       ]
@@ -510,11 +891,19 @@
         {
           "name": "Green Goblin (Norman Osborn)",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Norman Osborn"],
+            "uncategorized": ["Norman Osborn"]
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
         },
         {
           "name": "Crime Master",
           "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
         }
       ]
@@ -527,11 +916,20 @@
         {
           "name": "Crime-Master (Nick Lewis Sr.)",
           "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Nick Lewis Sr.", "Death"],
+            "death": true,
+            "uncategorized": ["Nick Lewis Sr."]
+          },
           "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
         },
         {
           "name": "Green Goblin (Norman Osborn)",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Norman Osborn"],
+            "uncategorized": ["Norman Osborn"]
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
         }
       ]
@@ -544,6 +942,11 @@
         {
           "name": "Molten Man (Mark Raxton)",
           "url": "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Mark Raxton", "First appearance"],
+            "firstAppearance": true,
+            "uncategorized": ["Mark Raxton"]
+          },
           "imageUrl": "/images/mark-raxton-earth-616.jpg"
         }
       ]
@@ -556,6 +959,10 @@
         {
           "name": "Scorpion (Mac Gargan)",
           "url": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Mac Gargan"],
+            "uncategorized": ["Mac Gargan"]
+          },
           "imageUrl": "/images/macdonald-gargan-earth-616.jpg"
         }
       ]
@@ -568,11 +975,20 @@
         {
           "name": "Cat Burglar",
           "url": "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance", "See chronology"],
+            "firstAppearance": true,
+            "uncategorized": ["See chronology"]
+          },
           "imageUrl": "/images/cat-burglar-earth-616.jpg"
         },
         {
           "name": "Master Planner",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Voice only"],
+            "voiceOnly": true
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         }
       ]
@@ -1593,27 +2009,84 @@
         {
           "name": "Vulture (Adrian Toomes)",
           "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Adrian Toomes", "Dream"],
+            "uncategorized": ["Adrian Toomes", "Dream"]
+          },
           "imageUrl": "/images/adrian-toomes-earth-616.jpg"
         },
         {
           "name": "The Lizard (Curt Connors)",
           "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Curt Connors", "Dream"],
+            "uncategorized": ["Curt Connors", "Dream"]
+          },
           "imageUrl": "/images/curtis-connors-earth-616.jpg"
         },
         {
           "name": "Green Goblin (Norman Osborn)",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Norman Osborn", "Dream"],
+            "uncategorized": ["Norman Osborn", "Dream"]
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
         },
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Otto Octavius", "Dream"],
+            "uncategorized": ["Otto Octavius", "Dream"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         },
         {
           "name": "Kingpin (Wilson Fisk)",
           "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Wilson Fisk", "Dream"],
+            "uncategorized": ["Wilson Fisk", "Dream"]
+          },
           "imageUrl": "/images/wilson-fisk-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Six_Arms_Saga",
+          "id": "six-arms-saga",
+          "name": "Six Arms Saga"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Cover_Artist",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Doctor_Octopus%27_Tentacles/Minor_Appearances",
+          "id": "doctor-octopus%27-tentacles",
+          "name": "Doctor Octopus%27 Tentacles"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Goblin_Glider/Minor_Appearances",
+          "id": "goblin-glider",
+          "name": "Goblin Glider"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Penciler",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
         }
       ]
     },
@@ -1625,12 +2098,122 @@
         {
           "name": "Morbius",
           "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/michael-morbius-earth-616.jpg"
         },
         {
           "name": "The Lizard (Dr. Curt Connors)",
           "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Dr. Curt Connors"],
+            "uncategorized": ["Dr. Curt Connors"]
+          },
           "imageUrl": "/images/curtis-connors-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Six_Arms_Saga",
+          "id": "six-arms-saga",
+          "name": "Six Arms Saga"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Cover_Artist",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Cover_Artist",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Human-Reptile_Hybrids/Appearances",
+          "id": "human-reptile-hybrids",
+          "name": "Human-Reptile Hybrids"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Living_Vampires/Appearances",
+          "id": "living-vampires",
+          "name": "Living Vampires"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Vampires/Mentions",
+          "id": "vampires",
+          "name": "Vampires"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Lower_East_Side/Appearances",
+          "id": "lower-east-side",
+          "name": "Lower East Side"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:East_Village/Appearances",
+          "id": "east-village",
+          "name": "East Village"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Long_Island/Appearances",
+          "id": "long-island",
+          "name": "Long Island"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Suffolk_County_(New_York)/Appearances",
+          "id": "suffolk-county-(new-york)",
+          "name": "Suffolk County (New York)"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Hamptons/Appearances",
+          "id": "hamptons",
+          "name": "Hamptons"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Southampton_(New_York)/Appearances",
+          "id": "southampton-(new-york)",
+          "name": "Southampton (New York)"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Everglades/Appearances",
+          "id": "everglades",
+          "name": "Everglades"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Atlantic_Ocean/Appearances",
+          "id": "atlantic-ocean",
+          "name": "Atlantic Ocean"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Wc_dc",
+          "id": "wc-dc",
+          "name": "Wc dc"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Writer",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Penciler",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Comics_Without_Appearances_of_Realities",
+          "id": "comics-without-appearances-of-realities",
+          "name": "Comics Without Appearances of Realities"
         }
       ]
     },
@@ -1642,7 +2225,178 @@
         {
           "name": "Morbius (Michael Morbius)",
           "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Michael Morbius",
+              "Origin revealed",
+              "Appears in flashback"
+            ],
+            "flashback": true,
+            "uncategorized": ["Michael Morbius", "Origin revealed"]
+          },
           "imageUrl": "/images/michael-morbius-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Six_Arms_Saga",
+          "id": "six-arms-saga",
+          "name": "Six Arms Saga"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Cover_Artist",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Cover_Artist",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Living_Vampires/Appearances",
+          "id": "living-vampires",
+          "name": "Living Vampires"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Human-Reptile_Hybrids/Appearances",
+          "id": "human-reptile-hybrids",
+          "name": "Human-Reptile Hybrids"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Vampires/Mentions",
+          "id": "vampires",
+          "name": "Vampires"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Rats/Appearances",
+          "id": "rats",
+          "name": "Rats"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Bats_(Race)/Appearances",
+          "id": "bats-(race)",
+          "name": "Bats (Race)"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Sharks/Mentions",
+          "id": "sharks",
+          "name": "Sharks"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tigers/Mentions",
+          "id": "tigers",
+          "name": "Tigers"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Earthspace/Appearances",
+          "id": "earthspace",
+          "name": "Earthspace"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Long_Island/Appearances",
+          "id": "long-island",
+          "name": "Long Island"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Suffolk_County_(New_York)/Appearances",
+          "id": "suffolk-county-(new-york)",
+          "name": "Suffolk County (New York)"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Hamptons/Appearances",
+          "id": "hamptons",
+          "name": "Hamptons"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Southampton_(New_York)/Appearances",
+          "id": "southampton-(new-york)",
+          "name": "Southampton (New York)"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Bowery/Appearances",
+          "id": "bowery",
+          "name": "Bowery"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:East_River/Appearances",
+          "id": "east-river",
+          "name": "East River"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Europe/Appearances",
+          "id": "europe",
+          "name": "Europe"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Transylvania/Mentions",
+          "id": "transylvania",
+          "name": "Transylvania"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Greece/Appearances",
+          "id": "greece",
+          "name": "Greece"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:United_Kingdom/Appearances",
+          "id": "united-kingdom",
+          "name": "United Kingdom"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:England/Appearances",
+          "id": "england",
+          "name": "England"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Mediterranean_Sea/Appearances",
+          "id": "mediterranean-sea",
+          "name": "Mediterranean Sea"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Atlantic_Ocean/Appearances",
+          "id": "atlantic-ocean",
+          "name": "Atlantic Ocean"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Heaven_(Paradise)/Mentions",
+          "id": "heaven-(paradise)",
+          "name": "Heaven (Paradise)"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Tracer/Appearances",
+          "id": "spider-tracer",
+          "name": "Spider-Tracer"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Christmas/Mentions",
+          "id": "christmas",
+          "name": "Christmas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Writer",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Penciler",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
         }
       ]
     },
@@ -1654,12 +2408,82 @@
         {
           "name": "Kraven the Hunter (Sergei Kravinoff)",
           "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Sergei Kravinoff"],
+            "uncategorized": ["Sergei Kravinoff"]
+          },
           "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
         },
         {
           "name": "Gog",
           "url": "https://marvel.fandom.com/wiki/Gog_(Tsiln)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/gog-tsiln-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Cover_Artist",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tsiln/Appearances",
+          "id": "tsiln",
+          "name": "Tsiln"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Dinosaurs/Appearances",
+          "id": "dinosaurs",
+          "name": "Dinosaurs"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Smilodon/Appearances",
+          "id": "smilodon",
+          "name": "Smilodon"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Antarctica/Appearances",
+          "id": "antarctica",
+          "name": "Antarctica"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Palmer_Peninsula/Appearances",
+          "id": "palmer-peninsula",
+          "name": "Palmer Peninsula"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Savage_Land/Appearances",
+          "id": "savage-land",
+          "name": "Savage Land"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Writer",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Penciler",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
         }
       ]
     },
@@ -1671,12 +2495,89 @@
         {
           "name": "Kraven the Hunter (Sergei Kravinoff)",
           "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "Sergei Kravinoff",
+              "Main story and flashback",
+              "Apparent death"
+            ],
+            "flashback": true,
+            "death": true,
+            "uncategorized": ["Sergei Kravinoff"]
+          },
           "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
         },
         {
           "name": "Gog",
           "url": "https://marvel.fandom.com/wiki/Gog_(Tsiln)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Main story and flashback", "Apparent death"],
+            "flashback": true,
+            "death": true
+          },
           "imageUrl": "/images/gog-tsiln-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Cover_Artist",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tsiln/Appearances",
+          "id": "tsiln",
+          "name": "Tsiln"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Dinosaurs/Appearances",
+          "id": "dinosaurs",
+          "name": "Dinosaurs"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Smilodon/Appearances",
+          "id": "smilodon",
+          "name": "Smilodon"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Antarctica/Appearances",
+          "id": "antarctica",
+          "name": "Antarctica"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Palmer_Peninsula/Appearances",
+          "id": "palmer-peninsula",
+          "name": "Palmer Peninsula"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Savage_Land/Appearances",
+          "id": "savage-land",
+          "name": "Savage Land"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Writer",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Penciler",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
         }
       ]
     },
@@ -1690,6 +2591,43 @@
           "url": "https://marvel.fandom.com/wiki/Spencer_Smythe_(Earth-616)",
           "imageUrl": "/images/spencer-smythe-earth-616.jpg"
         }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Cover_Artist",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Robots/Appearances",
+          "id": "robots",
+          "name": "Robots"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Slayer_Mark_III/Appearances",
+          "id": "spider-slayer-mark-iii",
+          "name": "Spider-Slayer Mark III"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Penciler",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        }
       ]
     },
     {
@@ -1701,6 +2639,33 @@
           "name": "Spencer Smythe",
           "url": "https://marvel.fandom.com/wiki/Spencer_Smythe_(Earth-616)",
           "imageUrl": "/images/spencer-smythe-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Cover_Artist",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Robots/Appearances",
+          "id": "robots",
+          "name": "Robots"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Slayer_Mark_IV/Appearances",
+          "id": "spider-slayer-mark-iv",
+          "name": "Spider-Slayer Mark IV"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
         }
       ]
     },
@@ -1714,6 +2679,58 @@
           "url": "https://marvel.fandom.com/wiki/Spencer_Smythe_(Earth-616)",
           "imageUrl": "/images/spencer-smythe-earth-616.jpg"
         }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Robots/Appearances",
+          "id": "robots",
+          "name": "Robots"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Lower_East_Side/Appearances",
+          "id": "lower-east-side",
+          "name": "Lower East Side"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:East_Village/Appearances",
+          "id": "east-village",
+          "name": "East Village"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Empire_State_University/Appearances",
+          "id": "empire-state-university",
+          "name": "Empire State University"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Slayer_Mark_I/Minor_Appearances",
+          "id": "spider-slayer-mark-i",
+          "name": "Spider-Slayer Mark I"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Slayer_Mark_II/Minor_Appearances",
+          "id": "spider-slayer-mark-ii",
+          "name": "Spider-Slayer Mark II"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Slayer_Mark_IV/Appearances",
+          "id": "spider-slayer-mark-iv",
+          "name": "Spider-Slayer Mark IV"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        }
       ]
     },
     {
@@ -1724,7 +2741,48 @@
         {
           "name": "Giant One",
           "url": "https://marvel.fandom.com/wiki/Giant_One_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/giant-one-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Asia/Appearances",
+          "id": "asia",
+          "name": "Asia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Southeast_Asia/Appearances",
+          "id": "southeast-asia",
+          "name": "Southeast Asia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Vietnam/Appearances",
+          "id": "vietnam",
+          "name": "Vietnam"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Tracer/Appearances",
+          "id": "spider-tracer",
+          "name": "Spider-Tracer"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Vietnam_War",
+          "id": "vietnam-war",
+          "name": "Vietnam War"
         }
       ]
     },
@@ -1738,6 +2796,68 @@
           "url": "https://marvel.fandom.com/wiki/Giant_One_(Earth-616)",
           "imageUrl": "/images/giant-one-earth-616.jpg"
         }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Faltine/Invocations",
+          "id": "faltine",
+          "name": "Faltine"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Greenwich_Village/Appearances",
+          "id": "greenwich-village",
+          "name": "Greenwich Village"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Sanctum_Sanctorum/Appearances",
+          "id": "sanctum-sanctorum",
+          "name": "Sanctum Sanctorum"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Washington_Square_Park/Appearances",
+          "id": "washington-square-park",
+          "name": "Washington Square Park"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Tracer/Appearances",
+          "id": "spider-tracer",
+          "name": "Spider-Tracer"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Cloak_of_Levitation/Appearances",
+          "id": "cloak-of-levitation",
+          "name": "Cloak of Levitation"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eye_of_Agamotto_(Knowledge)/Appearances",
+          "id": "eye-of-agamotto-(knowledge)",
+          "name": "Eye of Agamotto (Knowledge)"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Rings_of_Raggadorr/Invocations",
+          "id": "rings-of-raggadorr",
+          "name": "Rings of Raggadorr"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Flames_of_the_Faltine/Invocations",
+          "id": "flames-of-the-faltine",
+          "name": "Flames of the Faltine"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Crimson_Bands_of_Cyttorak/Invocations",
+          "id": "crimson-bands-of-cyttorak",
+          "name": "Crimson Bands of Cyttorak"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        }
       ]
     },
     {
@@ -1748,7 +2868,23 @@
         {
           "name": "Gibbon",
           "url": "https://marvel.fandom.com/wiki/Martin_Blank_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/martin-blank-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:John_Costanza/Letterer",
+          "id": "john-costanza",
+          "name": "John Costanza"
         }
       ]
     },
@@ -1765,7 +2901,59 @@
         {
           "name": "Kraven the Hunter (Sergei Kravinoff)",
           "url": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Sergei Kravinoff", "Appears in flashback"],
+            "flashback": true,
+            "uncategorized": ["Sergei Kravinoff"]
+          },
           "imageUrl": "/images/sergei-kravinoff-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Dinosaurs/Minor_Appearances",
+          "id": "dinosaurs",
+          "name": "Dinosaurs"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Smilodon/Minor_Appearances",
+          "id": "smilodon",
+          "name": "Smilodon"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tsiln/Appearances",
+          "id": "tsiln",
+          "name": "Tsiln"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Bronx/Appearances",
+          "id": "bronx",
+          "name": "Bronx"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Antarctica/Appearances",
+          "id": "antarctica",
+          "name": "Antarctica"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Palmer_Peninsula/Appearances",
+          "id": "palmer-peninsula",
+          "name": "Palmer Peninsula"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Savage_Land/Appearances",
+          "id": "savage-land",
+          "name": "Savage Land"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:John_Costanza/Letterer",
+          "id": "john-costanza",
+          "name": "John Costanza"
         }
       ]
     },
@@ -1777,7 +2965,44 @@
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Otto Octavius", "Main story and flashback"],
+            "flashback": true,
+            "uncategorized": ["Otto Octavius"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Doctor_Octopus%27_Tentacles/Appearances",
+          "id": "doctor-octopus%27-tentacles",
+          "name": "Doctor Octopus%27 Tentacles"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Beetle_Armor_MK_II/Minor_Appearances",
+          "id": "beetle-armor-mk-ii",
+          "name": "Beetle Armor MK II"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },
@@ -1789,12 +3014,52 @@
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Otto Octavius"],
+            "uncategorized": ["Otto Octavius"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         },
         {
           "name": "Hammerhead",
           "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Doctor_Octopus%27_Tentacles/Appearances",
+          "id": "doctor-octopus%27-tentacles",
+          "name": "Doctor Octopus%27 Tentacles"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Jim_Starlin/Inker",
+          "id": "jim-starlin",
+          "name": "Jim Starlin"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },
@@ -1806,12 +3071,88 @@
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Otto Octavius"],
+            "uncategorized": ["Otto Octavius"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         },
         {
           "name": "Hammerhead",
           "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Origin revealed", "Appears in flashback"],
+            "flashback": true,
+            "uncategorized": ["Origin revealed"]
+          },
           "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Bowery/Appearances",
+          "id": "bowery",
+          "name": "Bowery"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Lower_East_Side/Appearances",
+          "id": "lower-east-side",
+          "name": "Lower East Side"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:East_Village/Appearances",
+          "id": "east-village",
+          "name": "East Village"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Empire_State_University/Appearances",
+          "id": "empire-state-university",
+          "name": "Empire State University"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Westchester_County/Appearances",
+          "id": "westchester-county",
+          "name": "Westchester County"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Las_Vegas/Mentions",
+          "id": "las-vegas",
+          "name": "Las Vegas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Doctor_Octopus%27_Tentacles/Appearances",
+          "id": "doctor-octopus%27-tentacles",
+          "name": "Doctor Octopus%27 Tentacles"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Tracer/Appearances",
+          "id": "spider-tracer",
+          "name": "Spider-Tracer"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Jim_Starlin/Inker",
+          "id": "jim-starlin",
+          "name": "Jim Starlin"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },
@@ -1823,12 +3164,48 @@
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Otto Octavius"],
+            "uncategorized": ["Otto Octavius"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         },
         {
           "name": "Hammerhead",
           "url": "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
           "imageUrl": "/images/hammerhead-joseph-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Westchester_County/Appearances",
+          "id": "westchester-county",
+          "name": "Westchester County"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Doctor_Octopus%27_Tentacles/Appearances",
+          "id": "doctor-octopus%27-tentacles",
+          "name": "Doctor Octopus%27 Tentacles"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },
@@ -1840,7 +3217,33 @@
         {
           "name": "Smasher",
           "url": "https://marvel.fandom.com/wiki/Man-Monster_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["see notes"],
+            "uncategorized": ["see notes"]
+          },
           "imageUrl": "/images/man-monster-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Jim_Mooney/Inker",
+          "id": "jim-mooney",
+          "name": "Jim Mooney"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },
@@ -1852,17 +3255,68 @@
         {
           "name": "Disruptor (Richard Raleigh)",
           "url": "https://marvel.fandom.com/wiki/Richard_Raleigh_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Richard Raleigh", "First appearance as Disruptor"],
+            "firstAppearance": true,
+            "uncategorized": ["Richard Raleigh"]
+          },
           "imageUrl": "/images/richard-raleigh-earth-616.jpg"
         },
         {
           "name": "Smasher",
           "url": "https://marvel.fandom.com/wiki/Man-Monster_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Main story and recap"],
+            "uncategorized": ["Main story and recap"]
+          },
           "imageUrl": "/images/man-monster-earth-616.jpg"
         },
         {
           "name": "Dr. Thaxton",
           "url": "https://marvel.fandom.com/wiki/Doctor_Thaxton_(Earth-616)",
           "imageUrl": "/images/doctor-thaxton-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Westchester_County/Appearances",
+          "id": "westchester-county",
+          "name": "Westchester County"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Hudson_River/Mentions",
+          "id": "hudson-river",
+          "name": "Hudson River"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Jim_Mooney/Inker",
+          "id": "jim-mooney",
+          "name": "Jim Mooney"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Stan_Goldberg/Colorist",
+          "id": "stan-goldberg",
+          "name": "Stan Goldberg"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },
@@ -1874,6 +3328,10 @@
         {
           "name": "Smasher",
           "url": "https://marvel.fandom.com/wiki/Man-Monster_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Death"],
+            "death": true
+          },
           "imageUrl": "/images/man-monster-earth-616.jpg"
         },
         {
@@ -1884,7 +3342,54 @@
         {
           "name": "Disruptor (Richard Raleigh)",
           "url": "https://marvel.fandom.com/wiki/Richard_Raleigh_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Richard Raleigh", "Death"],
+            "death": true,
+            "uncategorized": ["Richard Raleigh"]
+          },
           "imageUrl": "/images/richard-raleigh-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Goats/Mentions",
+          "id": "goats",
+          "name": "Goats"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Spider-Tracer/Appearances",
+          "id": "spider-tracer",
+          "name": "Spider-Tracer"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Jim_Mooney/Inker",
+          "id": "jim-mooney",
+          "name": "Jim Mooney"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Stan_Goldberg/Colorist",
+          "id": "stan-goldberg",
+          "name": "Stan Goldberg"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:John_Duffy/Letterer",
+          "id": "john-duffy",
+          "name": "John Duffy"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },
@@ -1896,7 +3401,103 @@
         {
           "name": "Hulk (Bruce Banner)",
           "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Bruce Banner"],
+            "uncategorized": ["Bruce Banner"]
+          },
           "imageUrl": "/images/bruce-banner-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Gaspar_Saladino/Cover_Artist",
+          "id": "gaspar-saladino",
+          "name": "Gaspar Saladino"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Cows/Mentions",
+          "id": "cows",
+          "name": "Cows"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frogs/Mentions",
+          "id": "frogs",
+          "name": "Frogs"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Westchester_County/Appearances",
+          "id": "westchester-county",
+          "name": "Westchester County"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Jamaica_(Queens)/Appearances",
+          "id": "jamaica-(queens)",
+          "name": "Jamaica (Queens)"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:John_F._Kennedy_International_Airport/Appearances",
+          "id": "john-f.-kennedy-international-airport",
+          "name": "John F. Kennedy International Airport"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Canada/Appearances",
+          "id": "canada",
+          "name": "Canada"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Quebec/Appearances",
+          "id": "quebec",
+          "name": "Quebec"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Montreal/Appearances",
+          "id": "montreal",
+          "name": "Montreal"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Montreal_International_Airport/Appearances",
+          "id": "montreal-international-airport",
+          "name": "Montreal International Airport"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Maskattawan_Dam/Appearances",
+          "id": "maskattawan-dam",
+          "name": "Maskattawan Dam"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Saint_Lawrence_Seaway/Mentions",
+          "id": "saint-lawrence-seaway",
+          "name": "Saint Lawrence Seaway"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Jim_Mooney/Inker",
+          "id": "jim-mooney",
+          "name": "Jim Mooney"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Andrea_Hunt/Colorist",
+          "id": "andrea-hunt",
+          "name": "Andrea Hunt"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:John_Costanza/Letterer",
+          "id": "john-costanza",
+          "name": "John Costanza"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },
@@ -1908,7 +3509,93 @@
         {
           "name": "Hulk (Bruce Banner)",
           "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Bruce Banner"],
+            "uncategorized": ["Bruce Banner"]
+          },
           "imageUrl": "/images/bruce-banner-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Morrie_Kuramoto/Cover_Artist",
+          "id": "morrie-kuramoto",
+          "name": "Morrie Kuramoto"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor-in-Chief",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Canada/Appearances",
+          "id": "canada",
+          "name": "Canada"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Quebec/Appearances",
+          "id": "quebec",
+          "name": "Quebec"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Maskattawan_Dam/Appearances",
+          "id": "maskattawan-dam",
+          "name": "Maskattawan Dam"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Montreal/Appearances",
+          "id": "montreal",
+          "name": "Montreal"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Notre_Dame_Island/Appearances",
+          "id": "notre-dame-island",
+          "name": "Notre Dame Island"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Montreal_International_Airport/Appearances",
+          "id": "montreal-international-airport",
+          "name": "Montreal International Airport"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Saint_Lawrence_River/Mentions",
+          "id": "saint-lawrence-river",
+          "name": "Saint Lawrence River"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Eli_Katz/Penciler",
+          "id": "eli-katz",
+          "name": "Eli Katz"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Paul_Reinman/Penciler",
+          "id": "paul-reinman",
+          "name": "Paul Reinman"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Tony_Mortellaro/Inker",
+          "id": "tony-mortellaro",
+          "name": "Tony Mortellaro"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Frank_Giacoia/Inker",
+          "id": "frank-giacoia",
+          "name": "Frank Giacoia"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Stan_Goldberg/Colorist",
+          "id": "stan-goldberg",
+          "name": "Stan Goldberg"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Artie_Simek/Letterer",
+          "id": "artie-simek",
+          "name": "Artie Simek"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Category:Roy_Thomas/Editor",
+          "id": "roy-thomas",
+          "name": "Roy Thomas"
         }
       ]
     },

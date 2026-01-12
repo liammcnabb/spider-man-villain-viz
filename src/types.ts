@@ -4,11 +4,55 @@
 
 export type EntityKind = 'individual' | 'group';
 
+/**
+ * Appearance metadata extracted from parenthetical notes in character listings
+ * Examples: "(First appearance)", "(dies)", "(Appears in flashback)"
+ */
+export interface AppearanceMetadata {
+  firstAppearance?: boolean;        // "First appearance"
+  firstAppearanceChronological?: boolean; // "First appearance chronologically"
+  finalAppearance?: boolean;        // "Final appearance"
+  death?: boolean;                  // "dies", "killed", "death"
+  mentionedOnly?: boolean;          // "Mentioned only"
+  behindTheScenes?: boolean;        // "Behind the scenes"
+  flashback?: boolean;              // "Appears in flashback", "flashback"
+  cameo?: boolean;                  // "Cameo appearance"
+  voiceOnly?: boolean;              // "Voice only"
+  rawMetadata?: string[];           // All parenthetical strings found
+  uncategorized?: string[];         // Metadata not matching known patterns
+}
+
 export interface Antagonist {
   name: string;
   url?: string; // Marvel Fandom URL to uniquely identify character
   imageUrl?: string; // Character portrait/image from Marvel Fandom
   kind?: EntityKind; // Optional classification; defaults to 'individual' if omitted
+  metadata?: AppearanceMetadata; // Appearance metadata from character listing
+}
+
+/**
+ * Story arc type classification based on scope and duration
+ */
+export type ArcType = 'arc' | 'crossover' | 'event' | 'saga' | 'double' | 'unknown';
+
+/**
+ * Represents a story arc or saga that spans multiple issues
+ * 
+ * Identity Policy:
+ * - url: Marvel Fandom category URL (primary key)
+ * - id: Derived from URL slug (secondary identifier)
+ * - name: Display name from category page
+ */
+export interface StoryArc {
+  url: string;                   // Primary key: Marvel Fandom category URL
+  id: string;                    // Derived URL-safe identifier (e.g., "clone-saga")
+  name: string;                  // Display name (e.g., "Clone Saga")
+  type?: ArcType;                // Classification (optional, can be inferred later)
+  issues?: number[];             // Issue numbers that are part of this arc
+  series?: string[];             // Series involved (for multi-series arcs)
+  startIssue?: number;           // First issue (chronologically)
+  endIssue?: number;             // Last issue (chronologically)
+  issueCount?: number;           // Total issues in this arc
 }
 
 export interface IssueData {
@@ -18,6 +62,7 @@ export interface IssueData {
   releaseDate?: string; // Publication date from Marvel Fandom for chronology
   chronologicalPlacementHint?: string; // e.g., "between Amazing Spider-Man #6 and #7"
   antagonists: Antagonist[];
+  storyArcs?: StoryArc[];        // Story arcs this issue belongs to
 }
 
 /**

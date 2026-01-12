@@ -2649,37 +2649,88 @@
       "antagonists": [
         {
           "name": "The Host",
-          "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)"
+          "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "First appearance",
+              "First appearance",
+              "First appearance",
+              "First appearance",
+              "First appearance"
+            ],
+            "firstAppearance": true
+          }
         },
         {
           "name": "Chakra",
           "url": "https://marvel.fandom.com/wiki/Anjali_Sridhara_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/anjali-sridhara-earth-616.jpg"
         },
         {
           "name": "Boone",
           "url": "https://marvel.fandom.com/wiki/Morgan_Boone_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/morgan-boone-earth-616.jpg"
         },
         {
           "name": "Mr. Nacht",
           "url": "https://marvel.fandom.com/wiki/Walther_Nacht_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/walther-nacht-earth-616.jpg"
         },
         {
           "name": "Medea",
           "url": "https://marvel.fandom.com/wiki/Medea_Kovack_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/medea-kovack-earth-616.jpg"
         },
         {
           "name": "Dr. Judas Traveller",
           "url": "https://marvel.fandom.com/wiki/Judas_Traveller_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["First appearance"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/judas-traveller-earth-616.jpg"
         },
         {
           "name": "Professor Miles Warren",
           "url": "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["See chronology"],
+            "uncategorized": ["See chronology"]
+          },
           "imageUrl": "/images/miles-warren-earth-616.jpg"
+        }
+      ],
+      "storyArcs": [
+        {
+          "url": "https://marvel.fandom.com/wiki/Power_and_Responsibility",
+          "id": "power-and-responsibility",
+          "name": "Power and Responsibility"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Double",
+          "id": "double",
+          "name": "Double"
+        },
+        {
+          "url": "https://marvel.fandom.com/wiki/Clone_Saga_(Event)",
+          "id": "clone-saga-event",
+          "name": "Clone Saga (Event)"
         }
       ]
     },

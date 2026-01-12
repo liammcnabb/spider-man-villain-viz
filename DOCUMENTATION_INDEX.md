@@ -3,6 +3,7 @@
 ## 🚨 FOR AI AGENTS: READ THIS FIRST
 
 **[AGENT_WORKFLOW_RULES.md](AGENT_WORKFLOW_RULES.md)** ⚠️ **MANDATORY FOR ALL AGENTS**
+
 - Critical verification requirements
 - When to scrape (almost never)
 - Output verification checklist
@@ -22,7 +23,9 @@
 ## 📚 Documentation by Topic
 
 ### Dark Theme (New Feature ✨)
+
 Start here to learn about the new dark theme feature:
+
 - **[DARK_THEME_QUICK_REFERENCE.md](DARK_THEME_QUICK_REFERENCE.md)** ⭐ **START HERE**
   - 5-minute quick reference
   - Theme toggle location
@@ -54,6 +57,7 @@ Start here to learn about the new dark theme feature:
   - Testing summary
 
 ### Grid Visualization Features
+
 Learn about filtering, sorting, zoom, and fullscreen:
 
 - **[GRID_FEATURES_USAGE.md](GRID_FEATURES_USAGE.md)** - Filter & Sort Guide
@@ -74,7 +78,64 @@ Learn about filtering, sorting, zoom, and fullscreen:
   - Interactive workflows
   - Advanced techniques
 
+### Feature Specifications (Planning Phase)
+
+📋 **[SCRAPING_ENHANCEMENTS_SUMMARY.md](docs/SCRAPING_ENHANCEMENTS_SUMMARY.md)** ⭐ **START HERE**
+
+- Executive summary of both features
+- Implementation strategy & timeline
+- Risk assessment & success metrics
+- Quick reference for decision-making
+
+� **[STORY_ARC_URL_IDENTITY_UPDATE.md](docs/STORY_ARC_URL_IDENTITY_UPDATE.md)** - URL Identity Approach
+
+- Story arcs use Marvel Fandom category URLs as primary keys
+- Why URLs are preferred (consistency, uniqueness, authority)
+- Identity structure and affected interfaces
+- Implementation impact summary
+
+📊 **[SCRAPING_ENHANCEMENTS_VISUAL.md](docs/SCRAPING_ENHANCEMENTS_VISUAL.md)** - Visual Overview
+
+- Before/after diagrams
+- Data flow visualizations
+- Example outputs
+- Feature comparison charts
+- Timeline mockups
+
+⚡ **[SCRAPING_ENHANCEMENTS_QUICKREF.md](docs/SCRAPING_ENHANCEMENTS_QUICKREF.md)** - Quick Reference Card
+
+- Implementation checklist
+- Key functions & types
+- Test commands
+- Common pitfalls
+- Performance targets
+
+📑 **[URL_BASED_IDENTITY_INDEX.md](docs/URL_BASED_IDENTITY_INDEX.md)** - URL Identity Quick Index
+
+- What changed and why
+- Updated specifications table
+- Key changes by file
+- Implementation readiness checklist
+
+- **[APPEARANCE_METADATA_SPEC.md](docs/APPEARANCE_METADATA_SPEC.md)** - Appearance Metadata (Detailed)
+  - Extracts metadata from character listings (First appearance, dies, mentioned, etc.)
+  - Complete data structure enhancements
+  - Detailed scraping implementation
+  - Testing strategy and examples
+  - Future visualization integration
+  - 10-16 hour implementation estimate
+
+- **[STORY_ARC_SPEC.md](docs/STORY_ARC_SPEC.md)** - Story Arc & Saga Tracking (Detailed)
+  - ✅ **Updated for URL-based identity**
+  - Extracts story arcs from Marvel Fandom categories
+  - Arc aggregation and multi-series merging
+  - Arc type inference (arc, crossover, event, saga)
+  - Complete implementation guide
+  - Timeline visualization with arc bands
+  - 12-24 hour implementation estimate
+
 ### Utilities & Technical Guides
+
 - **[SERIES_NAME_UTILITY.md](docs/SERIES_NAME_UTILITY.md)** - Series Name Handler
   - Format-agnostic series name handling
   - Automatic normalization (spaces ↔ underscores)
@@ -83,6 +144,7 @@ Learn about filtering, sorting, zoom, and fullscreen:
   - 52 comprehensive tests
 
 ### Complete Overview
+
 - **[COMPLETE_FEATURE_SET.md](COMPLETE_FEATURE_SET.md)** ⭐ **COMPREHENSIVE**
   - All features overview
   - Feature interactions
@@ -92,6 +154,7 @@ Learn about filtering, sorting, zoom, and fullscreen:
   - Testing results
 
 ### Quick Start
+
 - **[QUICKSTART.md](QUICKSTART.md)** - 5 Minute Setup
   - Installation
   - Running locally
@@ -99,6 +162,7 @@ Learn about filtering, sorting, zoom, and fullscreen:
   - Getting help
 
 ### Project Overview
+
 - **[README.md](README.md)** - Project Overview
   - Project description
   - Features at a glance
@@ -110,6 +174,7 @@ Learn about filtering, sorting, zoom, and fullscreen:
 ## 🔧 For Developers
 
 ### Architecture & Guidelines
+
 - **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** - System Architecture
 - **[docs/CODE_GUIDELINES.md](docs/CODE_GUIDELINES.md)** - Development Standards
 - **[docs/SETUP.md](docs/SETUP.md)** - Development Setup
@@ -117,12 +182,14 @@ Learn about filtering, sorting, zoom, and fullscreen:
 - **[docs/REFACTOR_CHECKLIST.md](docs/REFACTOR_CHECKLIST.md)** - Refactor & Redesign Checklist
 
 ### Implementation Notes
+
 - **[GRID_FEATURES_ADDED.md](GRID_FEATURES_ADDED.md)** - Grid Implementation Details
 - **[MAGNIFICATION_FULLSCREEN_COMPLETE.md](MAGNIFICATION_FULLSCREEN_COMPLETE.md)** - Zoom Implementation
 - **[IMPLEMENTATION_NOTES.md](IMPLEMENTATION_NOTES.md)** - General Notes
 - **[FEATURES_SUMMARY.md](FEATURES_SUMMARY.md)** - Feature Summary
 
 ### Verification
+
 - **[IMPLEMENTATION_COMPLETE_CHECKLIST.md](IMPLEMENTATION_COMPLETE_CHECKLIST.md)** ⭐ **120+ Item Checklist**
   - Feature implementation status
   - Code quality verification
@@ -135,10 +202,12 @@ Learn about filtering, sorting, zoom, and fullscreen:
 ## 📊 Testing & Quality
 
 ### Test Results
+
 - **[TEST_REPORT_CHAMELEON_FIX.md](TEST_REPORT_CHAMELEON_FIX.md)** - Test Results
 - **[coverage/](coverage/)** - Code Coverage Report
 
 ### Build & Verification
+
 - All features: **✅ 116/116 tests passing**
 - Build status: **✅ Zero errors (tsc)**
 - Documentation: **✅ Comprehensive**
@@ -147,13 +216,13 @@ Learn about filtering, sorting, zoom, and fullscreen:
 
 ## 🚀 Feature Matrix
 
-| Feature | Status | Documentation |
-|---------|--------|---|
-| Data Filtering | ✅ Complete | [GRID_FEATURES_USAGE.md](GRID_FEATURES_USAGE.md) |
-| Y-Axis Sorting | ✅ Complete | [GRID_FEATURES_USAGE.md](GRID_FEATURES_USAGE.md) |
-| Zoom Controls | ✅ Complete | [ZOOM_FULLSCREEN_QUICK_START.md](ZOOM_FULLSCREEN_QUICK_START.md) |
+| Feature         | Status      | Documentation                                                    |
+| --------------- | ----------- | ---------------------------------------------------------------- |
+| Data Filtering  | ✅ Complete | [GRID_FEATURES_USAGE.md](GRID_FEATURES_USAGE.md)                 |
+| Y-Axis Sorting  | ✅ Complete | [GRID_FEATURES_USAGE.md](GRID_FEATURES_USAGE.md)                 |
+| Zoom Controls   | ✅ Complete | [ZOOM_FULLSCREEN_QUICK_START.md](ZOOM_FULLSCREEN_QUICK_START.md) |
 | Fullscreen Mode | ✅ Complete | [ZOOM_FULLSCREEN_QUICK_START.md](ZOOM_FULLSCREEN_QUICK_START.md) |
-| Dark Theme | ✅ Complete | [DARK_THEME_QUICK_REFERENCE.md](DARK_THEME_QUICK_REFERENCE.md) |
+| Dark Theme      | ✅ Complete | [DARK_THEME_QUICK_REFERENCE.md](DARK_THEME_QUICK_REFERENCE.md)   |
 
 ---
 
@@ -232,26 +301,31 @@ Documentation/
 ## 📋 All Features at a Glance
 
 ### ✅ Data Filtering
+
 - Filter villains by minimum appearances
 - Range: 1-50 (default: 3)
 - Real-time updates
 
 ### ✅ Y-Axis Sorting
+
 - Sort by first appearance (default)
 - Sort by longest chronological span
 - Instant re-ordering
 
 ### ✅ Magnification/Zoom
+
 - Zoom in [+], zoom out [−], reset [↻]
 - Range: 0.5x to 16x
 - Smooth 300ms transitions
 
 ### ✅ Fullscreen Mode
+
 - Fullscreen button [⛶]
 - ESC to exit
 - Maintains all functionality
 
 ### ✅ Dark Theme (NEW!)
+
 - Theme toggle 🌙/☀️
 - Automatic OS detection
 - Persistent preferences
@@ -262,6 +336,7 @@ Documentation/
 ## 🔍 Document Guide
 
 ### User Documents (5)
+
 1. **[DARK_THEME_QUICK_REFERENCE.md](DARK_THEME_QUICK_REFERENCE.md)** - Start here for dark theme
 2. **[DARK_THEME_GUIDE.md](DARK_THEME_GUIDE.md)** - Complete dark theme guide
 3. **[COMPLETE_FEATURE_SET.md](COMPLETE_FEATURE_SET.md)** - All features comprehensive
@@ -269,6 +344,7 @@ Documentation/
 5. **[GRID_FEATURES_USAGE.md](GRID_FEATURES_USAGE.md)** - Filter/sort guide
 
 ### Technical Documents (5+)
+
 1. **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** - System design
 2. **[docs/CODE_GUIDELINES.md](docs/CODE_GUIDELINES.md)** - Development standards
 3. **[DARK_THEME_IMPLEMENTATION_SUMMARY.md](DARK_THEME_IMPLEMENTATION_SUMMARY.md)** - Technical details
@@ -276,6 +352,7 @@ Documentation/
 5. Plus others in [docs/](docs/) and root
 
 ### Reference Documents (5+)
+
 1. **[README.md](README.md)** - Project overview
 2. **[QUICKSTART.md](QUICKSTART.md)** - Quick setup
 3. **[DARK_THEME_DELIVERY_SUMMARY.md](DARK_THEME_DELIVERY_SUMMARY.md)** - Final summary
@@ -289,9 +366,10 @@ Documentation/
 **Status**: ✅ Complete & Production Ready  
 **Documentation**: Comprehensive (1000+ lines)  
 **Tests**: 116/116 Passing  
-**Quality**: Enterprise Grade  
+**Quality**: Enterprise Grade
 
 Key files for dark theme:
+
 - [DARK_THEME_QUICK_REFERENCE.md](DARK_THEME_QUICK_REFERENCE.md) ⭐ START HERE
 - [DARK_THEME_GUIDE.md](DARK_THEME_GUIDE.md) - Full documentation
 - [DARK_THEME_IMPLEMENTATION_SUMMARY.md](DARK_THEME_IMPLEMENTATION_SUMMARY.md) - Technical summary
@@ -302,17 +380,20 @@ Key files for dark theme:
 ## 📞 Quick Help
 
 ### Can't find something?
+
 1. Check **[COMPLETE_FEATURE_SET.md](COMPLETE_FEATURE_SET.md)** for features
 2. Check **[IMPLEMENTATION_COMPLETE_CHECKLIST.md](IMPLEMENTATION_COMPLETE_CHECKLIST.md)** for status
 3. Check **[DARK_THEME_GUIDE.md](DARK_THEME_GUIDE.md)** for dark theme details
 
 ### Want to get started?
+
 1. Read **[QUICKSTART.md](QUICKSTART.md)** (5 minutes)
 2. Run `npm install` and `npm start`
 3. Open browser to http://localhost:8000
 4. Click 🌙/☀️ to toggle dark theme
 
 ### Want to report an issue?
+
 1. Check **[DARK_THEME_GUIDE.md](DARK_THEME_GUIDE.md#troubleshooting)** troubleshooting section
 2. Check **[IMPLEMENTATION_COMPLETE_CHECKLIST.md](IMPLEMENTATION_COMPLETE_CHECKLIST.md)** for known status
 3. Run `npm test` to verify everything works
@@ -321,16 +402,16 @@ Key files for dark theme:
 
 ## 📊 Statistics
 
-| Category | Count |
-|----------|-------|
-| **Documentation Files** | 25+ |
-| **Documentation Lines** | 5000+ |
-| **Code Files Modified** | 3 |
-| **Lines of Code Added** | ~160 |
-| **Tests Implemented** | 116 |
-| **Tests Passing** | 116/116 (100%) |
-| **Features Complete** | 5 (all working) |
-| **Browser Support** | 6+ (all modern) |
+| Category                | Count           |
+| ----------------------- | --------------- |
+| **Documentation Files** | 25+             |
+| **Documentation Lines** | 5000+           |
+| **Code Files Modified** | 3               |
+| **Lines of Code Added** | ~160            |
+| **Tests Implemented**   | 116             |
+| **Tests Passing**       | 116/116 (100%)  |
+| **Features Complete**   | 5 (all working) |
+| **Browser Support**     | 6+ (all modern) |
 
 ---
 

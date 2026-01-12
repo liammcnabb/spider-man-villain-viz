@@ -11,6 +11,10 @@
         {
           "name": "Scorcher (Steven Hudak)",
           "url": "https://marvel.fandom.com/wiki/Steven_Hudak_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/steven-hudak-earth-616.jpg"
         }
       ]
@@ -23,6 +27,11 @@
         {
           "name": "Batwing (Jimmy Santini)",
           "url": "https://marvel.fandom.com/wiki/James_Santini_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)", "(Main story and flashback)"],
+            "firstAppearance": true,
+            "flashback": true
+          },
           "imageUrl": "/images/james-santini-earth-616.jpg"
         }
       ]
@@ -35,6 +44,10 @@
         {
           "name": "Sandman (Flint Marko)",
           "url": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and recap)"],
+            "uncategorized": ["(Main story and recap)"]
+          },
           "imageUrl": "/images/william-baker-earth-616.jpg"
         }
       ]
@@ -47,26 +60,52 @@
         {
           "name": "Spacemen",
           "url": "https://marvel.fandom.com/wiki/Spacemen_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "(First appearance)",
+              "(First appearance)",
+              "(First appearance)",
+              "(First appearance)",
+              "(First appearance)"
+            ],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/spacemen-earth-616.jpg"
         },
         {
           "name": "Gantry",
           "url": "https://marvel.fandom.com/wiki/Gantry_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/gantry-earth-616.jpg"
         },
         {
           "name": "Orbit",
           "url": "https://marvel.fandom.com/wiki/Orbit_(Spacemen)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/orbit-spacemen-earth-616.jpg"
         },
         {
           "name": "Vacuum",
           "url": "https://marvel.fandom.com/wiki/Vacuum_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/vacuum-earth-616.jpg"
         },
         {
           "name": "Satellite",
           "url": "https://marvel.fandom.com/wiki/Satellite_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/satellite-earth-616.jpg"
         }
       ]
@@ -79,6 +118,10 @@
         {
           "name": "Vulture (Adrian Toomes)",
           "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and flashback)"],
+            "flashback": true
+          },
           "imageUrl": "/images/adrian-toomes-earth-616.jpg"
         }
       ]
@@ -91,6 +134,10 @@
         {
           "name": "The Wizard (Bentley Wittman)",
           "url": "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and recap)"],
+            "uncategorized": ["(Main story and recap)"]
+          },
           "imageUrl": "/images/bentley-wittman-earth-616.jpg"
         }
       ]
@@ -103,11 +150,19 @@
         {
           "name": "Dr. Gerhard Winkler",
           "url": "https://marvel.fandom.com/wiki/Gerhard_Winkler_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance chronologically)"],
+            "firstAppearanceChronological": true
+          },
           "imageUrl": "/images/gerhard-winkler-earth-616.jpg"
         },
         {
           "name": "Electro (Max Dillon)",
           "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and recap)"],
+            "uncategorized": ["(Main story and recap)"]
+          },
           "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
         }
       ]
@@ -120,26 +175,46 @@
         {
           "name": "Enforcers",
           "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Jackson Brice", "Raymond Bloch", "Dan Brito"],
+            "uncategorized": ["Jackson Brice", "Raymond Bloch", "Dan Brito"]
+          },
           "imageUrl": "/images/enforcers-earth-616.jpg"
         },
         {
           "name": "Montana (Jackson Brice)",
           "url": "https://marvel.fandom.com/wiki/Jackson_Brice_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Jackson Brice"],
+            "uncategorized": ["Jackson Brice"]
+          },
           "imageUrl": "/images/jackson-brice-earth-616.jpg"
         },
         {
           "name": "Ox (Raymond Bloch)",
           "url": "https://marvel.fandom.com/wiki/Raymond_Bloch_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Raymond Bloch"],
+            "uncategorized": ["Raymond Bloch"]
+          },
           "imageUrl": "/images/raymond-bloch-earth-616.jpg"
         },
         {
           "name": "Fancy Dan (Dan Brito)",
           "url": "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Dan Brito"],
+            "uncategorized": ["Dan Brito"]
+          },
           "imageUrl": "/images/daniel-brito-earth-616.jpg"
         },
         {
           "name": "Headsman",
           "url": "https://marvel.fandom.com/wiki/Cleavon_Twain_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/cleavon-twain-earth-616.jpg"
         }
       ]
@@ -152,6 +227,10 @@
         {
           "name": "Lizard (Curt Connors)",
           "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Curt Connors"],
+            "uncategorized": ["Curt Connors"]
+          },
           "imageUrl": "/images/curtis-connors-earth-616.jpg"
         }
       ]
@@ -164,6 +243,10 @@
         {
           "name": "Commanda (Lady Catherine)",
           "url": "https://marvel.fandom.com/wiki/Catherine_D%27Antan_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Lady Catherine"],
+            "uncategorized": ["Lady Catherine"]
+          },
           "imageUrl": "/images/catherine-d-27antan-earth-616.jpg"
         }
       ]
@@ -176,11 +259,19 @@
         {
           "name": "Electro (Max Dillon)",
           "url": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Max Dillon"],
+            "uncategorized": ["Max Dillon"]
+          },
           "imageUrl": "/images/maxwell-dillon-earth-616.jpg"
         },
         {
           "name": "Eel (Leo Stryke)",
           "url": "https://marvel.fandom.com/wiki/Leopold_Stryke_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Leo Stryke"],
+            "uncategorized": ["Leo Stryke"]
+          },
           "imageUrl": "/images/leopold-stryke-earth-616.jpg"
         }
       ]
@@ -193,11 +284,19 @@
         {
           "name": "Vulture (Adrian Toomes)",
           "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Adrian Toomes"],
+            "uncategorized": ["Adrian Toomes"]
+          },
           "imageUrl": "/images/adrian-toomes-earth-616.jpg"
         },
         {
           "name": "Scarlet Beetle",
           "url": "https://marvel.fandom.com/wiki/Scarlet_Beetle_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and flashback)"],
+            "flashback": true
+          },
           "imageUrl": "/images/scarlet-beetle-earth-616.jpg"
         }
       ]
@@ -210,6 +309,10 @@
         {
           "name": "Black Knight (Nathan Garrett)",
           "url": "https://marvel.fandom.com/wiki/Nathan_Garrett_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Nathan Garrett"],
+            "uncategorized": ["Nathan Garrett"]
+          },
           "imageUrl": "/images/nathan-garrett-earth-616.jpg"
         }
       ]
@@ -222,6 +325,10 @@
         {
           "name": "Scorcher (Steven Hudak)",
           "url": "https://marvel.fandom.com/wiki/Steven_Hudak_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Steven Hudak"],
+            "uncategorized": ["Steven Hudak"]
+          },
           "imageUrl": "/images/steven-hudak-earth-616.jpg"
         }
       ]
@@ -234,6 +341,10 @@
         {
           "name": "The Terrier (Gordon Savinski)",
           "url": "https://marvel.fandom.com/wiki/Gordon_Savinski_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Gordon Savinski"],
+            "uncategorized": ["Gordon Savinski"]
+          },
           "imageUrl": "/images/gordon-savinski-earth-616.jpg"
         }
       ]
@@ -246,6 +357,10 @@
         {
           "name": "Radioactive Man (Chen Lu)",
           "url": "https://marvel.fandom.com/wiki/Chen_Lu_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Chen Lu"],
+            "uncategorized": ["Chen Lu"]
+          },
           "imageUrl": "/images/chen-lu-earth-616.jpg"
         }
       ]
@@ -258,16 +373,28 @@
         {
           "name": "Liz Allan",
           "url": "https://marvel.fandom.com/wiki/Elizabeth_Allan_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Mentioned)"],
+            "mentionedOnly": true
+          },
           "imageUrl": "/images/elizabeth-allan-earth-616.jpg"
         },
         {
           "name": "Hawkeye (Clint Barton)",
           "url": "https://marvel.fandom.com/wiki/Clinton_Barton_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and recap)"],
+            "uncategorized": ["(Main story and recap)"]
+          },
           "imageUrl": "/images/clinton-barton-earth-616.jpg"
         },
         {
           "name": "Black Widow (Natasha Romanoff)",
           "url": "https://marvel.fandom.com/wiki/Natalia_Romanova_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Natasha Romanoff"],
+            "uncategorized": ["Natasha Romanoff"]
+          },
           "imageUrl": "/images/natalia-romanova-earth-616.jpg"
         }
       ]
@@ -280,16 +407,28 @@
         {
           "name": "Headsman",
           "url": "https://marvel.fandom.com/wiki/Cleavon_Twain_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and recap)"],
+            "uncategorized": ["(Main story and recap)"]
+          },
           "imageUrl": "/images/cleavon-twain-earth-616.jpg"
         },
         {
           "name": "Lucky Lobo",
           "url": "https://marvel.fandom.com/wiki/Francisco_Lobo_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance chronologically)"],
+            "firstAppearanceChronological": true
+          },
           "imageUrl": "/images/francisco-lobo-earth-616.jpg"
         },
         {
           "name": "Green Goblin (Norman Osborn)",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Norman Osborn"],
+            "uncategorized": ["Norman Osborn"]
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
         }
       ]
@@ -302,6 +441,10 @@
         {
           "name": "Doctor Octopus (Otto Octavius)",
           "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and recap)"],
+            "uncategorized": ["(Main story and recap)"]
+          },
           "imageUrl": "/images/otto-octavius-earth-616.jpg"
         }
       ]
@@ -314,25 +457,45 @@
         {
           "name": "Vulture (Adrian Toomes)",
           "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and flashback)"],
+            "flashback": true
+          },
           "imageUrl": "/images/adrian-toomes-earth-616.jpg"
         },
         {
           "name": "Nick Lewis",
           "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and flashback)"],
+            "flashback": true
+          },
           "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
         },
         {
           "name": "Kingpin (Wilson Fisk)",
           "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Wilson Fisk"],
+            "uncategorized": ["Wilson Fisk"]
+          },
           "imageUrl": "/images/wilson-fisk-earth-616.jpg"
         },
         {
           "name": "Kingpin's Henchmen",
-          "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen"
+          "url": "https://marvel.fandom.com/wiki/Kingpin%27s_Henchmen",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          }
         },
         {
           "name": "Flint",
           "url": "https://marvel.fandom.com/wiki/Flint_(Goon)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)"],
+            "firstAppearance": true
+          },
           "imageUrl": "/images/flint-goon-earth-616.jpg"
         }
       ]
@@ -345,11 +508,25 @@
         {
           "name": "Menace",
           "url": "https://marvel.fandom.com/wiki/Menace_(Team_Alpha)_(Earth-616)",
+          "metadata": {
+            "rawMetadata": [
+              "(First appearance)",
+              "(First appearance)",
+              "(Destroyed)"
+            ],
+            "firstAppearance": true,
+            "uncategorized": ["(Destroyed)"]
+          },
           "imageUrl": "/images/menace-team-alpha-earth-616.jpg"
         },
         {
           "name": "Mutantmen",
           "url": "https://marvel.fandom.com/wiki/Mutantmen_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(First appearance)", "(Destroyed)"],
+            "firstAppearance": true,
+            "uncategorized": ["(Destroyed)"]
+          },
           "imageUrl": "/images/mutantmen-earth-616.jpg"
         }
       ]
@@ -362,6 +539,10 @@
         {
           "name": "Scarecrow (Ebenezer Laughton)",
           "url": "https://marvel.fandom.com/wiki/Ebenezer_Laughton_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Main story and recap)"],
+            "uncategorized": ["(Main story and recap)"]
+          },
           "imageUrl": "/images/ebenezer-laughton-earth-616.jpg"
         }
       ]
@@ -374,6 +555,10 @@
         {
           "name": "Crime Master (Nick Lewis Sr.)",
           "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Nick Lewis Sr."],
+            "uncategorized": ["Nick Lewis Sr."]
+          },
           "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
         }
       ]
@@ -386,6 +571,10 @@
         {
           "name": "Jason Ionello",
           "url": "https://marvel.fandom.com/wiki/Jason_Ionello_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["(Impersonates Spider-Man)"],
+            "uncategorized": ["(Impersonates Spider-Man)"]
+          },
           "imageUrl": "/images/jason-ionello-earth-616.jpg"
         }
       ]
@@ -398,11 +587,19 @@
         {
           "name": "Green Goblin (Norman Osborn)",
           "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Norman Osborn"],
+            "uncategorized": ["Norman Osborn"]
+          },
           "imageUrl": "/images/norman-osborn-earth-616.jpg"
         },
         {
           "name": "Crime-Master (Nick Lewis)",
           "url": "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)",
+          "metadata": {
+            "rawMetadata": ["Nick Lewis"],
+            "uncategorized": ["Nick Lewis"]
+          },
           "imageUrl": "/images/nicholas-lewis-sr-earth-616.jpg"
         }
       ]

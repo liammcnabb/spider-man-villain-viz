@@ -11,6 +11,8 @@ import * as path from 'path';
 
 import type { IssueData, RawVillainData, Antagonist } from '../types';
 import { isUnnamedOrInvalidAntagonist } from '../utils/nameValidation';
+import { extractAppearanceMetadata, logUncapturedMetadata } from '../utils/metadataExtractor';
+import { extractStoryArcsFromHtml } from '../utils/storyArcExtractor';
 
 // Configuration constants
 const MARVEL_FANDOM_BASE = 'https://marvel.fandom.com';
@@ -258,6 +260,9 @@ export class MarvelScraper {
         issueNumber
       );
 
+      // Extract story arcs from categories
+      const storyArcs = extractStoryArcsFromHtml(response.data, issueNumber);
+
       // Scrape images for new villains
       await this.scrapeVillainImages(antagonists);
 
@@ -266,7 +271,8 @@ export class MarvelScraper {
         title: `${this.currentSeries.titlePrefix} #${issueNumber}`,
         releaseDate,
         chronologicalPlacementHint,
-        antagonists
+        antagonists,
+        storyArcs: storyArcs.length > 0 ? storyArcs : undefined
       };
     } catch (error) {
       if (axios.isAxiosError(error)) {
@@ -419,6 +425,7 @@ export class MarvelScraper {
                   // 3. Taking the character link (usually 2nd link)
                   
                   const $li = $(liElement);
+                  const fullListText = $li.text().trim(); // Capture full text for fallback metadata
                   const links = $li.find('a');
                   
                   let name = '';
@@ -470,7 +477,27 @@ export class MarvelScraper {
                   // Add to antagonists if valid and has a URL (named character)
                   // Exclude unnamed/unidentified/unknown characters and Character_Index pages
                   if (name && name.length > 1 && url && !isUnnamedOrInvalidAntagonist(name) && !isCharacterIndexPage) {
-                    antagonists.push({ name, url });
+                    // Prefer explicit metadata spans in this list item (green_text labels)
+                    const greenLabels: string[] = $li.find('.green_text')
+                      .map((_, el) => $(el).text())
+                      .get()
+                      .filter((t: string) => t && t.trim().length > 0);
+
+                    // Extract appearance metadata (labels first, then fallback to parentheticals)
+                    const { metadata, uncaptured } = extractAppearanceMetadata(fullListText, name, greenLabels);
+                    
+                    // Log uncaptured metadata for review
+                    if (uncaptured.length > 0) {
+                      logUncapturedMetadata(issueNumber, name, uncaptured);
+                    }
+                    
+                    // Create antagonist with metadata
+                    const antagonist: Antagonist = { name, url };
+                    if (Object.keys(metadata).length > 0) {
+                      antagonist.metadata = metadata;
+                    }
+                    
+                    antagonists.push(antagonist);
                   }
                 });
               }
