@@ -1,13 +1,200 @@
 {
   "series": "Sensational Spider-Man Vol 1",
-  "processedAt": "2026-01-11T18:14:00.613Z",
+  "processedAt": "2026-01-12T11:50:08.192Z",
   "stats": {
-    "totalVillains": 16,
-    "mostFrequent": "Buel",
-    "mostFrequentCount": 3,
-    "averageFrequency": 1.44
+    "totalVillains": 26,
+    "mostFrequent": "Vulture",
+    "mostFrequentCount": 5,
+    "averageFrequency": 1.85
   },
   "villains": [
+    {
+      "id": "Quentin_Beck_(Earth-616)",
+      "name": "Mysterio",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+      "imageUrl": "/images/quentin-beck-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 1,
+      "appearances": [1],
+      "frequency": 1
+    },
+    {
+      "id": "Great_Game_(Earth-616)",
+      "name": "Great Game",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Great_Game_(Earth-616)",
+      "imageUrl": "/images/great-game-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 2,
+      "appearances": [2],
+      "frequency": 1
+    },
+    {
+      "id": "Aleksei_Sytsevich_(Earth-616)",
+      "name": "Rhino",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
+      "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 2,
+      "appearances": [2, 31],
+      "frequency": 2
+    },
+    {
+      "id": "Carnage_(Symbiote)_(Earth-616)",
+      "name": "Carnage",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)",
+      "imageUrl": "/images/carnage-symbiote-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 3,
+      "appearances": [3],
+      "frequency": 1
+    },
+    {
+      "id": "Mendel_Stromm_(Earth-616)",
+      "name": "Gaunt",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
+      "imageUrl": "/images/mendel-stromm-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 5,
+      "appearances": [5, 11],
+      "frequency": 2
+    },
+    {
+      "id": "Norton_Fester_(Earth-616)",
+      "name": "Looter",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
+      "imageUrl": "/images/norton-fester-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 8,
+      "appearances": [8, 27],
+      "frequency": 2
+    },
+    {
+      "id": "Sentinels",
+      "name": "Sentinels",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Sentinels",
+      "imageUrl": "/images/sentinels.jpg",
+      "identitySource": "url",
+      "firstAppearance": 8,
+      "appearances": [8],
+      "frequency": 1
+    },
+    {
+      "id": "Fritz_von_Meyer_(Earth-616)",
+      "name": "Swarm",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)",
+      "imageUrl": "/images/fritz-von-meyer-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 9,
+      "appearances": [9, 10],
+      "frequency": 2
+    },
+    {
+      "id": "Norman_Osborn_(Earth-616)",
+      "name": "Norman Osborn",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+      "imageUrl": "/images/norman-osborn-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 11,
+      "appearances": [11, 32],
+      "frequency": 2
+    },
+    {
+      "id": "Peter_Petruski_(Earth-616)",
+      "name": "Trapster",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)",
+      "imageUrl": "/images/peter-petruski-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 12,
+      "appearances": [12],
+      "frequency": 1
+    },
+    {
+      "id": "Roxxon_Energy_Corporation_(Earth-616)",
+      "name": "Roxxon Corporation",
+      "aliases": ["Roxxon Corportion"],
+      "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+      "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 13,
+      "appearances": [13, 14, 15],
+      "frequency": 3
+    },
+    {
+      "id": "Gerald_Roth_(Earth-616)",
+      "name": "Doctor Gerald Roth",
+      "aliases": ["Doctor Geral Roth"],
+      "url": "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)",
+      "imageUrl": "/images/gerald-roth-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 13,
+      "appearances": [13, 14, 15],
+      "frequency": 3
+    },
+    {
+      "id": "Chtylok_(Earth-616)",
+      "name": "Chtylok",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Chtylok_(Earth-616)",
+      "imageUrl": "/images/chtylok-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 14,
+      "appearances": [14, 15],
+      "frequency": 2
+    },
+    {
+      "id": "Vincent_Stegron_(Earth-616)",
+      "name": "Stegron",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Vincent_Stegron_(Earth-616)",
+      "imageUrl": "/images/vincent-stegron-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 14,
+      "appearances": [14],
+      "frequency": 1
+    },
+    {
+      "id": "Adrian_Toomes_(Earth-616)",
+      "name": "Vulture",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+      "imageUrl": "/images/adrian-toomes-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 16,
+      "appearances": [16, 17, 18, 27, 28],
+      "frequency": 5
+    },
+    {
+      "id": "David_Kalen_(Earth-616)",
+      "name": "D.K",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/David_Kalen_(Earth-616)",
+      "imageUrl": "/images/david-kalen-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 16,
+      "appearances": [16, 17],
+      "frequency": 2
+    },
+    {
+      "id": "Akasha_Martinez_(Earth-616)",
+      "name": "Living Pharaoh",
+      "aliases": [],
+      "url": "https://marvel.fandom.com/wiki/Akasha_Martinez_(Earth-616)",
+      "imageUrl": "/images/akasha-martinez-earth-616.jpg",
+      "identitySource": "url",
+      "firstAppearance": 19,
+      "appearances": [19, 20],
+      "frequency": 2
+    },
     {
       "id": "Technomancer_Corporation_(Earth-616)",
       "name": "Technomancer Corporation",
@@ -16,9 +203,7 @@
       "imageUrl": "/images/technomancer-corporation-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 21,
-      "appearances": [
-        21
-      ],
+      "appearances": [21],
       "frequency": 1
     },
     {
@@ -29,9 +214,7 @@
       "imageUrl": "/images/om-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 21,
-      "appearances": [
-        21
-      ],
+      "appearances": [21],
       "frequency": 1
     },
     {
@@ -42,26 +225,18 @@
       "imageUrl": "/images/gunther-senreich-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 21,
-      "appearances": [
-        21
-      ],
+      "appearances": [21],
       "frequency": 1
     },
     {
       "id": "Buel_(Earth-616)",
       "name": "Buel",
-      "aliases": [
-        "Buel, the Gremlyn-Lord"
-      ],
+      "aliases": ["Buel, the Gremlyn-Lord"],
       "url": "https://marvel.fandom.com/wiki/Buel_(Earth-616)",
       "imageUrl": "/images/buel-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 21,
-      "appearances": [
-        21,
-        22,
-        23
-      ],
+      "appearances": [21, 22, 23],
       "frequency": 3
     },
     {
@@ -72,10 +247,7 @@
       "imageUrl": "/images/morris-bench-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 24,
-      "appearances": [
-        24,
-        26
-      ],
+      "appearances": [24, 26],
       "frequency": 2
     },
     {
@@ -86,11 +258,7 @@
       "imageUrl": "/images/gregory-herd-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 25,
-      "appearances": [
-        25,
-        32,
-        33
-      ],
+      "appearances": [25, 32, 33],
       "frequency": 3
     },
     {
@@ -101,9 +269,7 @@
       "imageUrl": "/images/ann-herd-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 25,
-      "appearances": [
-        25
-      ],
+      "appearances": [25],
       "frequency": 1
     },
     {
@@ -114,73 +280,8 @@
       "imageUrl": "/images/dealy-boys-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 25,
-      "appearances": [
-        25
-      ],
+      "appearances": [25],
       "frequency": 1
-    },
-    {
-      "id": "Character_Index/H",
-      "name": "Harv",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/H",
-      "identitySource": "url",
-      "firstAppearance": 25,
-      "appearances": [
-        25
-      ],
-      "frequency": 1
-    },
-    {
-      "id": "Character_Index/L",
-      "name": "Lee",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/L",
-      "identitySource": "url",
-      "firstAppearance": 25,
-      "appearances": [
-        25
-      ],
-      "frequency": 1
-    },
-    {
-      "id": "Character_Index/O",
-      "name": "Ozzie",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/O",
-      "identitySource": "url",
-      "firstAppearance": 25,
-      "appearances": [
-        25
-      ],
-      "frequency": 1
-    },
-    {
-      "id": "Norton_Fester_(Earth-616)",
-      "name": "Looter",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
-      "imageUrl": "/images/norton-fester-earth-616.jpg",
-      "identitySource": "url",
-      "firstAppearance": 27,
-      "appearances": [
-        27
-      ],
-      "frequency": 1
-    },
-    {
-      "id": "Adrian_Toomes_(Earth-616)",
-      "name": "Vulture",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
-      "imageUrl": "/images/adrian-toomes-earth-616.jpg",
-      "identitySource": "url",
-      "firstAppearance": 27,
-      "appearances": [
-        27,
-        28
-      ],
-      "frequency": 2
     },
     {
       "id": "Arcade_(Earth-616)",
@@ -190,40 +291,273 @@
       "imageUrl": "/images/arcade-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 29,
-      "appearances": [
-        29,
-        30
-      ],
+      "appearances": [29, 30],
       "frequency": 2
-    },
-    {
-      "id": "Aleksei_Sytsevich_(Earth-616)",
-      "name": "Rhino",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
-      "imageUrl": "/images/aleksei-sytsevich-earth-616.jpg",
-      "identitySource": "url",
-      "firstAppearance": 31,
-      "appearances": [
-        31
-      ],
-      "frequency": 1
-    },
-    {
-      "id": "Norman_Osborn_(Earth-616)",
-      "name": "Norman Osborn",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
-      "imageUrl": "/images/norman-osborn-earth-616.jpg",
-      "identitySource": "url",
-      "firstAppearance": 32,
-      "appearances": [
-        32
-      ],
-      "frequency": 1
     }
   ],
   "timeline": [
+    {
+      "issue": 1,
+      "releaseDate": "December 7, 1995",
+      "villainCount": 1,
+      "villains": ["Mysterio"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
+      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 1
+    },
+    {
+      "issue": 2,
+      "releaseDate": "December 28, 1995",
+      "villainCount": 2,
+      "villains": ["Great Game", "Rhino"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Great_Game_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)"
+      ],
+      "villainIds": ["Great_Game_(Earth-616)", "Aleksei_Sytsevich_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 2
+    },
+    {
+      "issue": 3,
+      "releaseDate": "February 8, 1996",
+      "villainCount": 1,
+      "villains": ["Carnage"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)"
+      ],
+      "villainIds": ["Carnage_(Symbiote)_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 3
+    },
+    {
+      "issue": 4,
+      "releaseDate": "March 7, 1996",
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 4
+    },
+    {
+      "issue": 5,
+      "releaseDate": "April 3, 1996",
+      "villainCount": 1,
+      "villains": ["Gaunt"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)"
+      ],
+      "villainIds": ["Mendel_Stromm_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 5
+    },
+    {
+      "issue": 6,
+      "releaseDate": "May 8, 1996",
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 6
+    },
+    {
+      "issue": 7,
+      "releaseDate": "June 5, 1996",
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 7
+    },
+    {
+      "issue": 8,
+      "releaseDate": "July 3, 1996",
+      "villainCount": 2,
+      "villains": ["Looter", "Sentinels"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Sentinels"
+      ],
+      "villainIds": ["Norton_Fester_(Earth-616)", "Sentinels"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 8
+    },
+    {
+      "issue": 9,
+      "releaseDate": "August 7, 1996",
+      "villainCount": 1,
+      "villains": ["Swarm"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)"
+      ],
+      "villainIds": ["Fritz_von_Meyer_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 9
+    },
+    {
+      "issue": 10,
+      "releaseDate": "September 4, 1996",
+      "villainCount": 1,
+      "villains": ["Swarm"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)"
+      ],
+      "villainIds": ["Fritz_von_Meyer_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 10
+    },
+    {
+      "issue": 11,
+      "releaseDate": "October 2, 1996",
+      "villainCount": 2,
+      "villains": ["Gaunt", "Norman Osborn"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
+      ],
+      "villainIds": ["Mendel_Stromm_(Earth-616)", "Norman_Osborn_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 11
+    },
+    {
+      "issue": 12,
+      "releaseDate": "November 6, 1996",
+      "villainCount": 1,
+      "villains": ["Trapster"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)"
+      ],
+      "villainIds": ["Peter_Petruski_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 12
+    },
+    {
+      "issue": 13,
+      "releaseDate": "December 4, 1996",
+      "villainCount": 2,
+      "villains": ["Roxxon Corporation", "Doctor Gerald Roth"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)"
+      ],
+      "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
+        "Gerald_Roth_(Earth-616)"
+      ],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 13
+    },
+    {
+      "issue": 14,
+      "releaseDate": "January 2, 1997",
+      "villainCount": 4,
+      "villains": [
+        "Roxxon Corporation",
+        "Doctor Gerald Roth",
+        "Chtylok",
+        "Stegron"
+      ],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Chtylok_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Vincent_Stegron_(Earth-616)"
+      ],
+      "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
+        "Gerald_Roth_(Earth-616)",
+        "Chtylok_(Earth-616)",
+        "Vincent_Stegron_(Earth-616)"
+      ],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 14
+    },
+    {
+      "issue": 15,
+      "releaseDate": "February 5, 1997",
+      "villainCount": 3,
+      "villains": ["Roxxon Corporation", "Doctor Gerald Roth", "Chtylok"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Chtylok_(Earth-616)"
+      ],
+      "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
+        "Gerald_Roth_(Earth-616)",
+        "Chtylok_(Earth-616)"
+      ],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 15
+    },
+    {
+      "issue": 16,
+      "releaseDate": "March 5, 1997",
+      "villainCount": 2,
+      "villains": ["Vulture", "D.K"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+        "https://marvel.fandom.com/wiki/David_Kalen_(Earth-616)"
+      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "David_Kalen_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 16
+    },
+    {
+      "issue": 17,
+      "releaseDate": "April 9, 1997",
+      "villainCount": 2,
+      "villains": ["Vulture", "D.K"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+        "https://marvel.fandom.com/wiki/David_Kalen_(Earth-616)"
+      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "David_Kalen_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 17
+    },
+    {
+      "issue": 18,
+      "releaseDate": "June 4, 1997",
+      "villainCount": 1,
+      "villains": ["Vulture"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
+      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 18
+    },
+    {
+      "issue": 19,
+      "releaseDate": "July 2, 1997",
+      "villainCount": 1,
+      "villains": ["Living Pharaoh"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Akasha_Martinez_(Earth-616)"
+      ],
+      "villainIds": ["Akasha_Martinez_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 19
+    },
+    {
+      "issue": 20,
+      "releaseDate": "August 6, 1997",
+      "villainCount": 1,
+      "villains": ["Living Pharaoh"],
+      "villainUrls": [
+        "https://marvel.fandom.com/wiki/Akasha_Martinez_(Earth-616)"
+      ],
+      "villainIds": ["Akasha_Martinez_(Earth-616)"],
+      "series": "Sensational Spider-Man Vol 1",
+      "chronologicalPosition": 20
+    },
     {
       "issue": 21,
       "releaseDate": "September 3, 1997",
@@ -247,220 +581,151 @@
         "Buel_(Earth-616)"
       ],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 1
+      "chronologicalPosition": 21
     },
     {
       "issue": 22,
       "releaseDate": "October 1, 1997",
       "villainCount": 1,
-      "villains": [
-        "Buel"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Buel_(Earth-616)"
-      ],
-      "villainIds": [
-        "Buel_(Earth-616)"
-      ],
+      "villains": ["Buel"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Buel_(Earth-616)"],
+      "villainIds": ["Buel_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 2
+      "chronologicalPosition": 22
     },
     {
       "issue": 23,
       "releaseDate": "November 5, 1997",
       "villainCount": 1,
-      "villains": [
-        "Buel"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Buel_(Earth-616)"
-      ],
-      "villainIds": [
-        "Buel_(Earth-616)"
-      ],
+      "villains": ["Buel"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Buel_(Earth-616)"],
+      "villainIds": ["Buel_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 3
+      "chronologicalPosition": 23
     },
     {
       "issue": 24,
       "releaseDate": "December 3, 1997",
       "villainCount": 1,
-      "villains": [
-        "Hydro-Man"
-      ],
+      "villains": ["Hydro-Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)"
       ],
-      "villainIds": [
-        "Morris_Bench_(Earth-616)"
-      ],
+      "villainIds": ["Morris_Bench_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 4
+      "chronologicalPosition": 24
     },
     {
       "issue": 25,
       "releaseDate": "January 7, 1998",
-      "villainCount": 6,
-      "villains": [
-        "Override",
-        "Aura",
-        "Dealy Boys",
-        "Harv",
-        "Lee",
-        "Ozzie"
-      ],
+      "villainCount": 3,
+      "villains": ["Override", "Aura", "Dealy Boys"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Gregory_Herd_(Earth-616)",
         "https://marvel.fandom.com/wiki/Ann_Herd_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Dealy_Boys_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/H",
-        "https://marvel.fandom.com/wiki/Character_Index/L",
-        "https://marvel.fandom.com/wiki/Character_Index/O"
+        "https://marvel.fandom.com/wiki/Dealy_Boys_(Earth-616)"
       ],
       "villainIds": [
         "Gregory_Herd_(Earth-616)",
         "Ann_Herd_(Earth-616)",
-        "Dealy_Boys_(Earth-616)",
-        "Character_Index/H",
-        "Character_Index/L",
-        "Character_Index/O"
+        "Dealy_Boys_(Earth-616)"
       ],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 5
+      "chronologicalPosition": 25
     },
     {
       "issue": 26,
       "releaseDate": "February 4, 1998",
       "villainCount": 1,
-      "villains": [
-        "Hydro-Man"
-      ],
+      "villains": ["Hydro-Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)"
       ],
-      "villainIds": [
-        "Morris_Bench_(Earth-616)"
-      ],
+      "villainIds": ["Morris_Bench_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 6
+      "chronologicalPosition": 26
     },
     {
       "issue": 27,
       "releaseDate": "March 4, 1998",
       "villainCount": 2,
-      "villains": [
-        "Looter",
-        "Vulture"
-      ],
+      "villains": ["Looter", "Vulture"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Norton_Fester_(Earth-616)",
-        "Adrian_Toomes_(Earth-616)"
-      ],
+      "villainIds": ["Norton_Fester_(Earth-616)", "Adrian_Toomes_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 7
+      "chronologicalPosition": 27
     },
     {
       "issue": 28,
       "releaseDate": "April 1, 1998",
       "villainCount": 1,
-      "villains": [
-        "Vulture"
-      ],
+      "villains": ["Vulture"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 8
+      "chronologicalPosition": 28
     },
     {
       "issue": 29,
       "releaseDate": "May 6, 1998",
       "villainCount": 1,
-      "villains": [
-        "Arcade"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Arcade_(Earth-616)"
-      ],
-      "villainIds": [
-        "Arcade_(Earth-616)"
-      ],
+      "villains": ["Arcade"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Arcade_(Earth-616)"],
+      "villainIds": ["Arcade_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 9
+      "chronologicalPosition": 29
     },
     {
       "issue": 30,
       "releaseDate": "June 3, 1998",
       "villainCount": 1,
-      "villains": [
-        "Arcade"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Arcade_(Earth-616)"
-      ],
-      "villainIds": [
-        "Arcade_(Earth-616)"
-      ],
+      "villains": ["Arcade"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Arcade_(Earth-616)"],
+      "villainIds": ["Arcade_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 10
+      "chronologicalPosition": 30
     },
     {
       "issue": 31,
       "releaseDate": "July 1, 1998",
       "villainCount": 1,
-      "villains": [
-        "Rhino"
-      ],
+      "villains": ["Rhino"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)"
       ],
-      "villainIds": [
-        "Aleksei_Sytsevich_(Earth-616)"
-      ],
+      "villainIds": ["Aleksei_Sytsevich_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 11
+      "chronologicalPosition": 31
     },
     {
       "issue": 32,
       "releaseDate": "August 5, 1998",
       "villainCount": 2,
-      "villains": [
-        "Override",
-        "Norman Osborn"
-      ],
+      "villains": ["Norman Osborn", "Override"],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Gregory_Herd_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
+        "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+        "https://marvel.fandom.com/wiki/Gregory_Herd_(Earth-616)"
       ],
-      "villainIds": [
-        "Gregory_Herd_(Earth-616)",
-        "Norman_Osborn_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)", "Gregory_Herd_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 12
+      "chronologicalPosition": 32
     },
     {
       "issue": 33,
       "releaseDate": "September 2, 1998",
       "villainCount": 1,
-      "villains": [
-        "Override"
-      ],
+      "villains": ["Override"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Gregory_Herd_(Earth-616)"
       ],
-      "villainIds": [
-        "Gregory_Herd_(Earth-616)"
-      ],
+      "villainIds": ["Gregory_Herd_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 13
+      "chronologicalPosition": 33
     },
     {
       "issue": 34,
@@ -469,7 +734,7 @@
       "villainUrls": [],
       "villainIds": [],
       "series": "Sensational Spider-Man Vol 1",
-      "chronologicalPosition": 14
+      "chronologicalPosition": 34
     }
   ],
   "groups": []

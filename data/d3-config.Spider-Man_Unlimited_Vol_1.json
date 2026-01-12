@@ -22,11 +22,7 @@
       "chronologicalPosition": 2,
       "series": "Spider-Man Unlimited Vol 1",
       "releaseDate": "June 29, 1993",
-      "villainsInIssue": [
-        "Carnage",
-        "Megawatt",
-        "Jonas Harrow"
-      ],
+      "villainsInIssue": ["Carnage", "Megawatt", "Jonas Harrow"],
       "villainCount": 3
     },
     {
@@ -34,10 +30,7 @@
       "chronologicalPosition": 3,
       "series": "Spider-Man Unlimited Vol 1",
       "releaseDate": "September 28, 1993",
-      "villainsInIssue": [
-        "Doctor Octopus",
-        "Corona"
-      ],
+      "villainsInIssue": ["Doctor Octopus", "Corona"],
       "villainCount": 2
     },
     {
@@ -45,26 +38,16 @@
       "chronologicalPosition": 4,
       "series": "Spider-Man Unlimited Vol 1",
       "releaseDate": "December 28, 1993",
-      "villainsInIssue": [
-        "Mysterio",
-        "Nico",
-        "Frankie",
-        "Stone",
-        "Rhino"
-      ],
-      "villainCount": 5
+      "villainsInIssue": ["Mysterio", "Rhino"],
+      "villainCount": 2
     },
     {
       "issueNumber": 5,
       "chronologicalPosition": 5,
       "series": "Spider-Man Unlimited Vol 1",
       "releaseDate": "March 29, 1994",
-      "villainsInIssue": [
-        "Nico",
-        "The Fox",
-        "Tony MacDonald"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["The Fox", "Tony MacDonald"],
+      "villainCount": 2
     },
     {
       "issueNumber": 6,
@@ -84,10 +67,7 @@
       "chronologicalPosition": 7,
       "series": "Spider-Man Unlimited Vol 1",
       "releaseDate": "September 27, 1994",
-      "villainsInIssue": [
-        "James Kapoztas",
-        "Boomerang"
-      ],
+      "villainsInIssue": ["James Kapoztas", "Boomerang"],
       "villainCount": 2
     },
     {
@@ -95,12 +75,8 @@
       "chronologicalPosition": 8,
       "series": "Spider-Man Unlimited Vol 1",
       "releaseDate": "December 27, 1994",
-      "villainsInIssue": [
-        "Terror Unlimited",
-        "David",
-        "José"
-      ],
-      "villainCount": 3
+      "villainsInIssue": ["Terror Unlimited"],
+      "villainCount": 1
     },
     {
       "issueNumber": 9,
@@ -125,24 +101,16 @@
       "chronologicalPosition": 10,
       "series": "Spider-Man Unlimited Vol 1",
       "releaseDate": "July 27, 1995",
-      "villainsInIssue": [
-        "Vulture",
-        "Mr. Whitten"
-      ],
-      "villainCount": 2
+      "villainsInIssue": ["Vulture"],
+      "villainCount": 1
     },
     {
       "issueNumber": 11,
       "chronologicalPosition": 11,
       "series": "Spider-Man Unlimited Vol 1",
       "releaseDate": "December 28, 1995",
-      "villainsInIssue": [
-        "José",
-        "Skull-Jacket",
-        "Russian mob",
-        "Valeri Kasatanov"
-      ],
-      "villainCount": 4
+      "villainsInIssue": ["Skull-Jacket", "Russian mob", "Valeri Kasatanov"],
+      "villainCount": 3
     },
     {
       "issueNumber": 12,
@@ -187,28 +155,125 @@
         "Chance"
       ],
       "villainCount": 7
+    },
+    {
+      "issueNumber": 15,
+      "chronologicalPosition": 15,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "December 26, 1996",
+      "villainsInIssue": ["Raptar the Renegade"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 16,
+      "chronologicalPosition": 16,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "March 26, 1997",
+      "villainsInIssue": ["Roxxon", "Dreadknight"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 17,
+      "chronologicalPosition": 17,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "June 25, 1997",
+      "villainsInIssue": ["Robot Master"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 18,
+      "chronologicalPosition": 18,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "September 24, 1997",
+      "villainsInIssue": [
+        "Doctor Octopus",
+        "Lady Octopus",
+        "Spider-Man",
+        "Hercules",
+        "Luke Cage",
+        "Daredevil",
+        "NYPD",
+        "Code: Blue",
+        "Lt. Stone",
+        "Hulk",
+        "X-Men",
+        "Cyclops",
+        "Iceman",
+        "Wolverine"
+      ],
+      "villainCount": 14
+    },
+    {
+      "issueNumber": 19,
+      "chronologicalPosition": 19,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "December 24, 1997",
+      "villainsInIssue": ["Slug", "Lizard"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 20,
+      "chronologicalPosition": 20,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "March 25, 1998",
+      "villainsInIssue": ["Lilith Drake", "Zombie"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 21,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "June 24, 1998",
+      "villainsInIssue": ["Dr. Walston Kraft", "Ivan"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 22,
+      "chronologicalPosition": 22,
+      "series": "Spider-Man Unlimited Vol 1",
+      "releaseDate": "September 23, 1998",
+      "villainsInIssue": [
+        "Scorpion",
+        "Roxxon",
+        "Terence Gerard",
+        "Curtis Henshaw",
+        "Colonel Roland Gunderson",
+        "Tarantula's Organization",
+        "Black Tarantula",
+        "Fist of Freedom"
+      ],
+      "villainCount": 8
+    },
+    {
+      "issueNumber": 23,
+      "chronologicalPosition": 23,
+      "series": "Spider-Man Unlimited Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 24,
+      "chronologicalPosition": 24,
+      "series": "Spider-Man Unlimited Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 25,
+      "chronologicalPosition": 25,
+      "series": "Spider-Man Unlimited Vol 1",
+      "villainsInIssue": [],
+      "villainCount": 0
     }
   ],
   "scales": {
     "x": {
-      "domain": [
-        1,
-        14
-      ],
-      "range": [
-        60,
-        1180
-      ]
+      "domain": [1, 25],
+      "range": [60, 1180]
     },
     "y": {
-      "domain": [
-        0,
-        9
-      ],
-      "range": [
-        570,
-        20
-      ]
+      "domain": [0, 14],
+      "range": [570, 20]
     }
   },
   "colors": {
@@ -225,9 +290,6 @@
     "Doctor Octopus": "#ff6b6b",
     "Corona": "#d63031",
     "Mysterio": "#00b894",
-    "Nico": "#a29bfe",
-    "Frankie": "#34495e",
-    "Stone": "#00cec9",
     "Rhino": "#2980b9",
     "The Fox": "#ffeaa7",
     "Tony MacDonald": "#00cec9",
@@ -238,8 +300,6 @@
     "James Kapoztas": "#55efc4",
     "Boomerang": "#34495e",
     "Terror Unlimited": "#1abc9c",
-    "David": "#74b9ff",
-    "José": "#f39c12",
     "Kaine": "#6c5ce7",
     "Sinister Seven": "#74b9ff",
     "Beetle": "#f39c12",
@@ -248,7 +308,6 @@
     "Electro": "#74b9ff",
     "Shocker": "#c0392b",
     "Vulture": "#e84393",
-    "Mr. Whitten": "#fd79a8",
     "Skull-Jacket": "#2ecc71",
     "Russian mob": "#f9ca24",
     "Valeri Kasatanov": "#e84393",
@@ -263,6 +322,35 @@
     "Polestar": "#fab1a0",
     "El Toro Negro": "#34495e",
     "Joystick": "#d63031",
-    "Chance": "#74b9ff"
+    "Chance": "#74b9ff",
+    "Raptar the Renegade": "#e74c3c",
+    "Roxxon": "#2980b9",
+    "Dreadknight": "#2d3436",
+    "Robot Master": "#ffeaa7",
+    "Lady Octopus": "#3498db",
+    "Spider-Man": "#8e44ad",
+    "Hercules": "#00cec9",
+    "Luke Cage": "#0984e3",
+    "Daredevil": "#b2bec3",
+    "NYPD": "#e84393",
+    "Code: Blue": "#f1c40f",
+    "Lt. Stone": "#55efc4",
+    "Hulk": "#9b59b6",
+    "X-Men": "#3498db",
+    "Cyclops": "#f9ca24",
+    "Iceman": "#0984e3",
+    "Wolverine": "#dfe6e9",
+    "Slug": "#27ae60",
+    "Lizard": "#2ecc71",
+    "Lilith Drake": "#fdcb6e",
+    "Zombie": "#2ecc71",
+    "Dr. Walston Kraft": "#34495e",
+    "Ivan": "#6c5ce7",
+    "Terence Gerard": "#55efc4",
+    "Curtis Henshaw": "#2ecc71",
+    "Colonel Roland Gunderson": "#f9ca24",
+    "Tarantula's Organization": "#0984e3",
+    "Black Tarantula": "#c0392b",
+    "Fist of Freedom": "#fa8231"
   }
 }

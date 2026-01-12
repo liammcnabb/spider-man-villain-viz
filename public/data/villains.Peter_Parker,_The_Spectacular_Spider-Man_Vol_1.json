@@ -1,11 +1,11 @@
 {
   "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
-  "processedAt": "2026-01-11T18:41:41.786Z",
+  "processedAt": "2026-01-12T11:50:00.728Z",
   "stats": {
-    "totalVillains": 110,
+    "totalVillains": 106,
     "mostFrequent": "Kingpin",
     "mostFrequentCount": 21,
-    "averageFrequency": 2.26
+    "averageFrequency": 2.24
   },
   "villains": [
     {
@@ -16,29 +16,18 @@
       "imageUrl": "/images/anton-miguel-rodriquez-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [
-        1,
-        2,
-        3
-      ],
+      "appearances": [1, 2, 3],
       "frequency": 3
     },
     {
       "id": "Edward_Lansky_(Earth-616)",
       "name": "Lightmaster",
-      "aliases": [
-        "Edward Lansky"
-      ],
+      "aliases": ["Edward Lansky"],
       "url": "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
       "imageUrl": "/images/edward-lansky-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 2,
-      "appearances": [
-        2,
-        3,
-        19,
-        20
-      ],
+      "appearances": [2, 3, 19, 20],
       "frequency": 4
     },
     {
@@ -49,10 +38,7 @@
       "imageUrl": "/images/sergei-kravinoff-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 2,
-      "appearances": [
-        2,
-        65
-      ],
+      "appearances": [2, 65],
       "frequency": 2
     },
     {
@@ -63,12 +49,7 @@
       "imageUrl": "/images/adrian-toomes-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 4,
-      "appearances": [
-        4,
-        5,
-        44,
-        45
-      ],
+      "appearances": [4, 5, 44, 45],
       "frequency": 4
     },
     {
@@ -79,10 +60,7 @@
       "imageUrl": "/images/burt-kenyon-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 4,
-      "appearances": [
-        4,
-        5
-      ],
+      "appearances": [4, 5],
       "frequency": 2
     },
     {
@@ -93,29 +71,18 @@
       "imageUrl": "/images/boss-morgan-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 4,
-      "appearances": [
-        4,
-        5,
-        7
-      ],
+      "appearances": [4, 5, 7],
       "frequency": 3
     },
     {
       "id": "Michael_Morbius_(Earth-616)",
       "name": "Morbius the Living Vampire",
-      "aliases": [
-        "Morbius"
-      ],
+      "aliases": ["Morbius"],
       "url": "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
       "imageUrl": "/images/michael-morbius-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 6,
-      "appearances": [
-        6,
-        7,
-        8,
-        38
-      ],
+      "appearances": [6, 7, 8, 38],
       "frequency": 4
     },
     {
@@ -126,10 +93,7 @@
       "imageUrl": "/images/empathoid-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 6,
-      "appearances": [
-        6,
-        8
-      ],
+      "appearances": [6, 8],
       "frequency": 2
     },
     {
@@ -140,10 +104,7 @@
       "imageUrl": "/images/ramon-vasquez-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 9,
-      "appearances": [
-        9,
-        10
-      ],
+      "appearances": [9, 10],
       "frequency": 2
     },
     {
@@ -154,9 +115,7 @@
       "imageUrl": "/images/medusalith-amaquelin-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 11,
-      "appearances": [
-        11
-      ],
+      "appearances": [11],
       "frequency": 1
     },
     {
@@ -167,12 +126,7 @@
       "imageUrl": "/images/legion-of-light-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 12,
-      "appearances": [
-        12,
-        13,
-        14,
-        15
-      ],
+      "appearances": [12, 13, 14, 15],
       "frequency": 4
     },
     {
@@ -183,12 +137,7 @@
       "imageUrl": "/images/achmed-korba-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 12,
-      "appearances": [
-        12,
-        13,
-        14,
-        15
-      ],
+      "appearances": [12, 13, 14, 15],
       "frequency": 4
     },
     {
@@ -199,30 +148,18 @@
       "imageUrl": "/images/sha-shan-nguyen-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 12,
-      "appearances": [
-        12,
-        13,
-        14,
-        15
-      ],
+      "appearances": [12, 13, 14, 15],
       "frequency": 4
     },
     {
       "id": "Man-Beast_(Earth-616)",
       "name": "Hate Monger",
-      "aliases": [
-        "Hate-Monger",
-        "Man-Beast"
-      ],
+      "aliases": ["Hate-Monger", "Man-Beast"],
       "url": "https://marvel.fandom.com/wiki/Man-Beast_(Earth-616)",
       "imageUrl": "/images/man-beast-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 13,
-      "appearances": [
-        13,
-        14,
-        15
-      ],
+      "appearances": [13, 14, 15],
       "frequency": 3
     },
     {
@@ -233,12 +170,7 @@
       "imageUrl": "/images/abner-jenkins-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 16,
-      "appearances": [
-        16,
-        58,
-        59,
-        60
-      ],
+      "appearances": [16, 58, 59, 60],
       "frequency": 4
     },
     {
@@ -249,9 +181,7 @@
       "imageUrl": "/images/robert-drake-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 17,
-      "appearances": [
-        17
-      ],
+      "appearances": [17],
       "frequency": 1
     },
     {
@@ -262,10 +192,7 @@
       "imageUrl": "/images/stuart-clarke-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 17,
-      "appearances": [
-        17,
-        18
-      ],
+      "appearances": [17, 18],
       "frequency": 2
     },
     {
@@ -276,10 +203,7 @@
       "imageUrl": "/images/daniel-brito-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 19,
-      "appearances": [
-        19,
-        20
-      ],
+      "appearances": [19, 20],
       "frequency": 2
     },
     {
@@ -290,10 +214,7 @@
       "imageUrl": "/images/jackson-brice-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 19,
-      "appearances": [
-        19,
-        20
-      ],
+      "appearances": [19, 20],
       "frequency": 2
     },
     {
@@ -304,10 +225,7 @@
       "imageUrl": "/images/ronald-bloch-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 19,
-      "appearances": [
-        19,
-        20
-      ],
+      "appearances": [19, 20],
       "frequency": 2
     },
     {
@@ -318,9 +236,7 @@
       "imageUrl": "/images/macdonald-gargan-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 21,
-      "appearances": [
-        21
-      ],
+      "appearances": [21],
       "frequency": 1
     },
     {
@@ -331,10 +247,7 @@
       "imageUrl": "/images/andr-c3-a9-gerard-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 22,
-      "appearances": [
-        22,
-        23
-      ],
+      "appearances": [22, 23],
       "frequency": 2
     },
     {
@@ -345,13 +258,7 @@
       "imageUrl": "/images/frank-farnum-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 23,
-      "appearances": [
-        23,
-        25,
-        26,
-        27,
-        28
-      ],
+      "appearances": [23, 25, 26, 27, 28],
       "frequency": 5
     },
     {
@@ -362,9 +269,7 @@
       "imageUrl": "/images/antoine-delsoin-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 24,
-      "appearances": [
-        24
-      ],
+      "appearances": [24],
       "frequency": 1
     },
     {
@@ -375,15 +280,7 @@
       "imageUrl": "/images/carrion-miles-warren-clone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 25,
-      "appearances": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
-      ],
+      "appearances": [25, 26, 27, 28, 29, 30, 31],
       "frequency": 7
     },
     {
@@ -394,12 +291,7 @@
       "imageUrl": "/images/tri-man-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 25,
-      "appearances": [
-        25,
-        26,
-        27,
-        28
-      ],
+      "appearances": [25, 26, 27, 28],
       "frequency": 4
     },
     {
@@ -410,11 +302,7 @@
       "imageUrl": "/images/randy-vale-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 29,
-      "appearances": [
-        29,
-        30,
-        31
-      ],
+      "appearances": [29, 30, 31],
       "frequency": 3
     },
     {
@@ -425,9 +313,7 @@
       "imageUrl": "/images/spider-amoeba-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 31,
-      "appearances": [
-        31
-      ],
+      "appearances": [31],
       "frequency": 1
     },
     {
@@ -438,11 +324,7 @@
       "imageUrl": "/images/iguana-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 32,
-      "appearances": [
-        32,
-        33,
-        34
-      ],
+      "appearances": [32, 33, 34],
       "frequency": 3
     },
     {
@@ -453,10 +335,7 @@
       "imageUrl": "/images/curtis-connors-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 33,
-      "appearances": [
-        33,
-        34
-      ],
+      "appearances": [33, 34],
       "frequency": 2
     },
     {
@@ -467,9 +346,7 @@
       "imageUrl": "/images/william-turner-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 35,
-      "appearances": [
-        35
-      ],
+      "appearances": [35],
       "frequency": 1
     },
     {
@@ -480,10 +357,7 @@
       "imageUrl": "/images/fritz-von-meyer-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 36,
-      "appearances": [
-        36,
-        37
-      ],
+      "appearances": [36, 37],
       "frequency": 2
     },
     {
@@ -494,10 +368,7 @@
       "imageUrl": "/images/chip-martin-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 38,
-      "appearances": [
-        38,
-        39
-      ],
+      "appearances": [38, 39],
       "frequency": 2
     },
     {
@@ -508,9 +379,7 @@
       "imageUrl": "/images/peter-parker-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 40,
-      "appearances": [
-        40
-      ],
+      "appearances": [40],
       "frequency": 1
     },
     {
@@ -521,9 +390,7 @@
       "imageUrl": "/images/norton-fester-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 41,
-      "appearances": [
-        41
-      ],
+      "appearances": [41],
       "frequency": 1
     },
     {
@@ -534,9 +401,7 @@
       "imageUrl": "/images/frightful-four-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 42,
-      "appearances": [
-        42
-      ],
+      "appearances": [42],
       "frequency": 1
     },
     {
@@ -547,9 +412,7 @@
       "imageUrl": "/images/bentley-wittman-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 42,
-      "appearances": [
-        42
-      ],
+      "appearances": [42],
       "frequency": 1
     },
     {
@@ -560,9 +423,7 @@
       "imageUrl": "/images/peter-petruski-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 42,
-      "appearances": [
-        42
-      ],
+      "appearances": [42],
       "frequency": 1
     },
     {
@@ -573,9 +434,7 @@
       "imageUrl": "/images/william-baker-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 42,
-      "appearances": [
-        42
-      ],
+      "appearances": [42],
       "frequency": 1
     },
     {
@@ -586,10 +445,7 @@
       "imageUrl": "/images/maxwell-dillon-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 42,
-      "appearances": [
-        42,
-        66
-      ],
+      "appearances": [42, 66],
       "frequency": 2
     },
     {
@@ -600,46 +456,7 @@
       "imageUrl": "/images/narda-ravanna-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 43,
-      "appearances": [
-        43,
-        47,
-        48
-      ],
-      "frequency": 3
-    },
-    {
-      "id": "Character_Index/J",
-      "name": "Jack",
-      "aliases": [
-        "Jackson",
-        "John"
-      ],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/J",
-      "identitySource": "url",
-      "firstAppearance": 43,
-      "appearances": [
-        43,
-        47,
-        48,
-        106,
-        113
-      ],
-      "frequency": 5
-    },
-    {
-      "id": "Character_Index/M",
-      "name": "Manny",
-      "aliases": [
-        "Moe"
-      ],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/M",
-      "identitySource": "url",
-      "firstAppearance": 43,
-      "appearances": [
-        43,
-        47,
-        48
-      ],
+      "appearances": [43, 47, 48],
       "frequency": 3
     },
     {
@@ -650,10 +467,7 @@
       "imageUrl": "/images/malachi-toomes-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 44,
-      "appearances": [
-        44,
-        45
-      ],
+      "appearances": [44, 45],
       "frequency": 2
     },
     {
@@ -664,10 +478,7 @@
       "imageUrl": "/images/klaus-voorhees-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 46,
-      "appearances": [
-        46,
-        88
-      ],
+      "appearances": [46, 88],
       "frequency": 2
     },
     {
@@ -678,10 +489,7 @@
       "imageUrl": "/images/cat-burglar-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 47,
-      "appearances": [
-        47,
-        48
-      ],
+      "appearances": [47, 48],
       "frequency": 2
     },
     {
@@ -692,10 +500,7 @@
       "imageUrl": "/images/erik-josten-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 49,
-      "appearances": [
-        49,
-        50
-      ],
+      "appearances": [49, 50],
       "frequency": 2
     },
     {
@@ -706,27 +511,8 @@
       "imageUrl": "/images/quentin-beck-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 50,
-      "appearances": [
-        50,
-        51
-      ],
+      "appearances": [50, 51],
       "frequency": 2
-    },
-    {
-      "id": "Character_Index/C",
-      "name": "Charlie",
-      "aliases": [
-        "Chester"
-      ],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/C",
-      "identitySource": "url",
-      "firstAppearance": 50,
-      "appearances": [
-        50,
-        51,
-        106
-      ],
-      "frequency": 3
     },
     {
       "id": "Gideon_Mace_(Earth-616)",
@@ -736,11 +522,7 @@
       "imageUrl": "/images/gideon-mace-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 50,
-      "appearances": [
-        50,
-        51,
-        52
-      ],
+      "appearances": [50, 51, 52],
       "frequency": 3
     },
     {
@@ -751,9 +533,7 @@
       "imageUrl": "/images/phineas-mason-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 53,
-      "appearances": [
-        53
-      ],
+      "appearances": [53],
       "frequency": 1
     },
     {
@@ -764,9 +544,7 @@
       "imageUrl": "/images/toy-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 53,
-      "appearances": [
-        53
-      ],
+      "appearances": [53],
       "frequency": 1
     },
     {
@@ -777,9 +555,7 @@
       "imageUrl": "/images/robert-hunter-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 55,
-      "appearances": [
-        55
-      ],
+      "appearances": [55],
       "frequency": 1
     },
     {
@@ -790,9 +566,7 @@
       "imageUrl": "/images/jason-macendale-jr-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 56,
-      "appearances": [
-        56
-      ],
+      "appearances": [56],
       "frequency": 1
     },
     {
@@ -803,9 +577,7 @@
       "imageUrl": "/images/brand-corporation-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 57,
-      "appearances": [
-        57
-      ],
+      "appearances": [57],
       "frequency": 1
     },
     {
@@ -816,10 +588,7 @@
       "imageUrl": "/images/simon-maddicks-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 57,
-      "appearances": [
-        57,
-        102
-      ],
+      "appearances": [57, 102],
       "frequency": 2
     },
     {
@@ -830,9 +599,7 @@
       "imageUrl": "/images/james-melvin-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 57,
-      "appearances": [
-        57
-      ],
+      "appearances": [57],
       "frequency": 1
     },
     {
@@ -843,9 +610,7 @@
       "imageUrl": "/images/anthony-davis-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 58,
-      "appearances": [
-        58
-      ],
+      "appearances": [58],
       "frequency": 1
     },
     {
@@ -856,9 +621,7 @@
       "imageUrl": "/images/martin-blank-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 59,
-      "appearances": [
-        59
-      ],
+      "appearances": [59],
       "frequency": 1
     },
     {
@@ -869,9 +632,7 @@
       "imageUrl": "/images/carradine-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 60,
-      "appearances": [
-        60
-      ],
+      "appearances": [60],
       "frequency": 1
     },
     {
@@ -882,9 +643,7 @@
       "imageUrl": "/images/karla-sofen-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 61,
-      "appearances": [
-        61
-      ],
+      "appearances": [61],
       "frequency": 1
     },
     {
@@ -895,9 +654,7 @@
       "imageUrl": "/images/matthew-gilden-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 62,
-      "appearances": [
-        62
-      ],
+      "appearances": [62],
       "frequency": 1
     },
     {
@@ -908,9 +665,7 @@
       "imageUrl": "/images/mark-raxton-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 63,
-      "appearances": [
-        63
-      ],
+      "appearances": [63],
       "frequency": 1
     },
     {
@@ -921,9 +676,7 @@
       "imageUrl": "/images/simon-marshall-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 64,
-      "appearances": [
-        64
-      ],
+      "appearances": [64],
       "frequency": 1
     },
     {
@@ -934,9 +687,7 @@
       "imageUrl": "/images/calypso-ezili-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 65,
-      "appearances": [
-        65
-      ],
+      "appearances": [65],
       "frequency": 1
     },
     {
@@ -948,27 +699,8 @@
       "identitySource": "url",
       "firstAppearance": 67,
       "appearances": [
-        67,
-        69,
-        70,
-        74,
-        75,
-        80,
-        82,
-        89,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        109,
-        118,
-        130,
-        133
+        67, 69, 70, 74, 75, 80, 82, 89, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+        109, 118, 130, 133
       ],
       "frequency": 21
     },
@@ -980,11 +712,7 @@
       "imageUrl": "/images/frederick-myers-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 67,
-      "appearances": [
-        67,
-        73,
-        81
-      ],
+      "appearances": [67, 73, 81],
       "frequency": 3
     },
     {
@@ -995,13 +723,7 @@
       "imageUrl": "/images/silvio-manfredi-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 69,
-      "appearances": [
-        69,
-        70,
-        94,
-        95,
-        96
-      ],
+      "appearances": [69, 70, 94, 95, 96],
       "frequency": 5
     },
     {
@@ -1012,31 +734,18 @@
       "imageUrl": "/images/oliver-osnick-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 72,
-      "appearances": [
-        72
-      ],
+      "appearances": [72],
       "frequency": 1
     },
     {
       "id": "Otto_Octavius_(Earth-616)",
       "name": "Doctor Octopus",
-      "aliases": [
-        "Dr. Octopus"
-      ],
+      "aliases": ["Dr. Octopus"],
       "url": "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
       "imageUrl": "/images/otto-octavius-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 73,
-      "appearances": [
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        124
-      ],
+      "appearances": [73, 74, 75, 76, 77, 78, 79, 124],
       "frequency": 8
     },
     {
@@ -1047,12 +756,7 @@
       "imageUrl": "/images/leland-owlsley-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 73,
-      "appearances": [
-        73,
-        74,
-        75,
-        127
-      ],
+      "appearances": [73, 74, 75, 127],
       "frequency": 4
     },
     {
@@ -1063,9 +767,7 @@
       "imageUrl": "/images/mark-whitman-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 74,
-      "appearances": [
-        74
-      ],
+      "appearances": [74],
       "frequency": 1
     },
     {
@@ -1076,10 +778,7 @@
       "imageUrl": "/images/francis-castle-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 82,
-      "appearances": [
-        82,
-        83
-      ],
+      "appearances": [82, 83],
       "frequency": 2
     },
     {
@@ -1090,9 +789,7 @@
       "imageUrl": "/images/roderick-kingsley-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 85,
-      "appearances": [
-        85
-      ],
+      "appearances": [85],
       "frequency": 1
     },
     {
@@ -1103,9 +800,7 @@
       "imageUrl": "/images/richard-deacon-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 86,
-      "appearances": [
-        86
-      ],
+      "appearances": [86],
       "frequency": 1
     },
     {
@@ -1116,9 +811,7 @@
       "imageUrl": "/images/calvin-zabo-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 88,
-      "appearances": [
-        88
-      ],
+      "appearances": [88],
       "frequency": 1
     },
     {
@@ -1129,28 +822,18 @@
       "imageUrl": "/images/frederick-dukes-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 91,
-      "appearances": [
-        91
-      ],
+      "appearances": [91],
       "frequency": 1
     },
     {
       "id": "Aaron_Nicholson_(Earth-616)",
       "name": "Answer",
-      "aliases": [
-        "The Answer"
-      ],
+      "aliases": ["The Answer"],
       "url": "https://marvel.fandom.com/wiki/Aaron_Nicholson_(Earth-616)",
       "imageUrl": "/images/aaron-nicholson-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 92,
-      "appearances": [
-        92,
-        93,
-        94,
-        95,
-        96
-      ],
+      "appearances": [92, 93, 94, 95, 96],
       "frequency": 5
     },
     {
@@ -1161,9 +844,7 @@
       "imageUrl": "/images/richard-fisk-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 95,
-      "appearances": [
-        95
-      ],
+      "appearances": [95],
       "frequency": 1
     },
     {
@@ -1174,25 +855,8 @@
       "imageUrl": "/images/venom-symbiote-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 97,
-      "appearances": [
-        97,
-        98,
-        99,
-        100
-      ],
+      "appearances": [97, 98, 99, 100],
       "frequency": 4
-    },
-    {
-      "id": "Character_Index/E",
-      "name": "Elliot",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/E",
-      "identitySource": "url",
-      "firstAppearance": 97,
-      "appearances": [
-        97
-      ],
-      "frequency": 1
     },
     {
       "id": "Johnathon_Ohnn_(Earth-616)",
@@ -1202,11 +866,7 @@
       "imageUrl": "/images/johnathon-ohnn-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 98,
-      "appearances": [
-        98,
-        99,
-        100
-      ],
+      "appearances": [98, 99, 100],
       "frequency": 3
     },
     {
@@ -1217,9 +877,7 @@
       "imageUrl": "/images/marco-scarlotti-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 101,
-      "appearances": [
-        101
-      ],
+      "appearances": [101],
       "frequency": 1
     },
     {
@@ -1230,9 +888,7 @@
       "imageUrl": "/images/ashley-cranford-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 103,
-      "appearances": [
-        103
-      ],
+      "appearances": [103],
       "frequency": 1
     },
     {
@@ -1243,9 +899,7 @@
       "imageUrl": "/images/tommy-barrett-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 104,
-      "appearances": [
-        104
-      ],
+      "appearances": [104],
       "frequency": 1
     },
     {
@@ -1256,28 +910,18 @@
       "imageUrl": "/images/vince-granetti-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105,
-        106
-      ],
+      "appearances": [105, 106],
       "frequency": 2
     },
     {
       "id": "Stanley_Carter_(Earth-616)",
       "name": "Sin Eater",
-      "aliases": [
-        "Sin-Eater"
-      ],
+      "aliases": ["Sin-Eater"],
       "url": "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
       "imageUrl": "/images/stanley-carter-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 107,
-      "appearances": [
-        107,
-        108,
-        109,
-        110
-      ],
+      "appearances": [107, 108, 109, 110],
       "frequency": 4
     },
     {
@@ -1288,25 +932,18 @@
       "imageUrl": "/images/emil-gregg-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 109,
-      "appearances": [
-        109
-      ],
+      "appearances": [109],
       "frequency": 1
     },
     {
       "id": "Santa_Claus_Burglar_(Earth-616)",
       "name": "Santa Claus Burglar",
-      "aliases": [
-        "Santa Claus Imposter"
-      ],
+      "aliases": ["Santa Claus Imposter"],
       "url": "https://marvel.fandom.com/wiki/Santa_Claus_Burglar_(Earth-616)",
       "imageUrl": "/images/santa-claus-burglar-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 109,
-      "appearances": [
-        109,
-        112
-      ],
+      "appearances": [109, 112],
       "frequency": 2
     },
     {
@@ -1317,9 +954,7 @@
       "imageUrl": "/images/beyonder-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 111,
-      "appearances": [
-        111
-      ],
+      "appearances": [111],
       "frequency": 1
     },
     {
@@ -1330,9 +965,7 @@
       "imageUrl": "/images/barons-street-gang-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 114,
-      "appearances": [
-        114
-      ],
+      "appearances": [114],
       "frequency": 1
     },
     {
@@ -1343,9 +976,7 @@
       "imageUrl": "/images/cheech-beldone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 114,
-      "appearances": [
-        114
-      ],
+      "appearances": [114],
       "frequency": 1
     },
     {
@@ -1356,15 +987,7 @@
       "imageUrl": "/images/foreigner-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 115,
-      "appearances": [
-        115,
-        116,
-        117,
-        118,
-        119,
-        123,
-        129
-      ],
+      "appearances": [115, 116, 117, 118, 119, 123, 129],
       "frequency": 7
     },
     {
@@ -1375,10 +998,7 @@
       "imageUrl": "/images/victor-creed-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 116,
-      "appearances": [
-        116,
-        119
-      ],
+      "appearances": [116, 119],
       "frequency": 2
     },
     {
@@ -1389,9 +1009,7 @@
       "imageUrl": "/images/strategic-homeland-intervention-enforcement-and-logistics-division-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 118,
-      "appearances": [
-        118
-      ],
+      "appearances": [118],
       "frequency": 1
     },
     {
@@ -1402,10 +1020,7 @@
       "imageUrl": "/images/frederick-miluv-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 118,
-      "appearances": [
-        118,
-        128
-      ],
+      "appearances": [118, 128],
       "frequency": 2
     },
     {
@@ -1416,9 +1031,7 @@
       "imageUrl": "/images/reggie-simons-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 118,
-      "appearances": [
-        118
-      ],
+      "appearances": [118],
       "frequency": 1
     },
     {
@@ -1429,9 +1042,7 @@
       "imageUrl": "/images/brendan-doyle-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 122,
-      "appearances": [
-        122
-      ],
+      "appearances": [122],
       "frequency": 1
     },
     {
@@ -1442,9 +1053,7 @@
       "imageUrl": "/images/kirk-donaghue-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 123,
-      "appearances": [
-        123
-      ],
+      "appearances": [123],
       "frequency": 1
     },
     {
@@ -1454,25 +1063,18 @@
       "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)",
       "identitySource": "url",
       "firstAppearance": 123,
-      "appearances": [
-        123
-      ],
+      "appearances": [123],
       "frequency": 1
     },
     {
       "id": "Dirk_Garthwaite_(Earth-616)",
       "name": "Wrecker",
-      "aliases": [
-        "The Wrecker"
-      ],
+      "aliases": ["The Wrecker"],
       "url": "https://marvel.fandom.com/wiki/Dirk_Garthwaite_(Earth-616)",
       "imageUrl": "/images/dirk-garthwaite-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 125,
-      "appearances": [
-        125,
-        126
-      ],
+      "appearances": [125, 126],
       "frequency": 2
     },
     {
@@ -1483,10 +1085,7 @@
       "imageUrl": "/images/henry-camp-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 125,
-      "appearances": [
-        125,
-        126
-      ],
+      "appearances": [125, 126],
       "frequency": 2
     },
     {
@@ -1497,10 +1096,7 @@
       "imageUrl": "/images/brian-calusky-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 125,
-      "appearances": [
-        125,
-        126
-      ],
+      "appearances": [125, 126],
       "frequency": 2
     },
     {
@@ -1511,10 +1107,7 @@
       "imageUrl": "/images/eliot-franklin-thunderball-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 125,
-      "appearances": [
-        125,
-        126
-      ],
+      "appearances": [125, 126],
       "frequency": 2
     },
     {
@@ -1525,9 +1118,7 @@
       "imageUrl": "/images/silvija-sablinova-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 128,
-      "appearances": [
-        128
-      ],
+      "appearances": [128],
       "frequency": 1
     },
     {
@@ -1538,9 +1129,7 @@
       "imageUrl": "/images/edward-leeds-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 130,
-      "appearances": [
-        130
-      ],
+      "appearances": [130],
       "frequency": 1
     },
     {
@@ -1551,10 +1140,7 @@
       "imageUrl": "/images/edward-whelan-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 131,
-      "appearances": [
-        131,
-        132
-      ],
+      "appearances": [131, 132],
       "frequency": 2
     },
     {
@@ -1565,9 +1151,7 @@
       "imageUrl": "/images/oswald-silkworth-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 133,
-      "appearances": [
-        133
-      ],
+      "appearances": [133],
       "frequency": 1
     },
     {
@@ -1578,9 +1162,7 @@
       "imageUrl": "/images/doctor-hope-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 133,
-      "appearances": [
-        133
-      ],
+      "appearances": [133],
       "frequency": 1
     },
     {
@@ -1591,9 +1173,7 @@
       "imageUrl": "/images/brainstorm-jimmy-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 133,
-      "appearances": [
-        133
-      ],
+      "appearances": [133],
       "frequency": 1
     }
   ],
@@ -1602,15 +1182,11 @@
       "issue": 1,
       "releaseDate": "September 28, 1976",
       "villainCount": 1,
-      "villains": [
-        "Tarantula"
-      ],
+      "villains": ["Tarantula"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)"
       ],
-      "villainIds": [
-        "Anton_Miguel_Rodriquez_(Earth-616)"
-      ],
+      "villainIds": ["Anton_Miguel_Rodriquez_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 1
     },
@@ -1618,11 +1194,7 @@
       "issue": 2,
       "releaseDate": "October 26, 1976",
       "villainCount": 3,
-      "villains": [
-        "Tarantula",
-        "Lightmaster",
-        "Kraven the Hunter"
-      ],
+      "villains": ["Tarantula", "Lightmaster", "Kraven the Hunter"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)",
         "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
@@ -1640,10 +1212,7 @@
       "issue": 3,
       "releaseDate": "November 23, 1976",
       "villainCount": 2,
-      "villains": [
-        "Tarantula",
-        "Lightmaster"
-      ],
+      "villains": ["Tarantula", "Lightmaster"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)",
         "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)"
@@ -1659,11 +1228,7 @@
       "issue": 4,
       "releaseDate": "December 21, 1976",
       "villainCount": 3,
-      "villains": [
-        "Vulture",
-        "Hitman",
-        "Morgan"
-      ],
+      "villains": ["Vulture", "Hitman", "Morgan"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Burt_Kenyon_(Earth-616)",
@@ -1681,11 +1246,7 @@
       "issue": 5,
       "releaseDate": "January 25, 1977",
       "villainCount": 3,
-      "villains": [
-        "Vulture",
-        "Hitman",
-        "Morgan"
-      ],
+      "villains": ["Vulture", "Hitman", "Morgan"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Burt_Kenyon_(Earth-616)",
@@ -1703,18 +1264,12 @@
       "issue": 6,
       "releaseDate": "February 22, 1977",
       "villainCount": 2,
-      "villains": [
-        "Morbius the Living Vampire",
-        "Empathoid"
-      ],
+      "villains": ["Morbius the Living Vampire", "Empathoid"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Empathoid_(Earth-616)"
       ],
-      "villainIds": [
-        "Michael_Morbius_(Earth-616)",
-        "Empathoid_(Earth-616)"
-      ],
+      "villainIds": ["Michael_Morbius_(Earth-616)", "Empathoid_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 6
     },
@@ -1722,18 +1277,12 @@
       "issue": 7,
       "releaseDate": "March 22, 1977",
       "villainCount": 2,
-      "villains": [
-        "Morgan",
-        "Morbius the Living Vampire"
-      ],
+      "villains": ["Morgan", "Morbius the Living Vampire"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Boss_Morgan_(Earth-616)",
         "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)"
       ],
-      "villainIds": [
-        "Boss_Morgan_(Earth-616)",
-        "Michael_Morbius_(Earth-616)"
-      ],
+      "villainIds": ["Boss_Morgan_(Earth-616)", "Michael_Morbius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 7
     },
@@ -1741,18 +1290,12 @@
       "issue": 8,
       "releaseDate": "April 26, 1977",
       "villainCount": 2,
-      "villains": [
-        "Morbius the Living Vampire",
-        "Empathoid"
-      ],
+      "villains": ["Morbius the Living Vampire", "Empathoid"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Empathoid_(Earth-616)"
       ],
-      "villainIds": [
-        "Michael_Morbius_(Earth-616)",
-        "Empathoid_(Earth-616)"
-      ],
+      "villainIds": ["Michael_Morbius_(Earth-616)", "Empathoid_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 8
     },
@@ -1760,23 +1303,17 @@
       "issue": 9,
       "releaseDate": "May 24, 1977",
       "villainCount": 1,
-      "villains": [
-        "Professor Ramon Vasquez"
-      ],
+      "villains": ["Professor Ramon Vasquez"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Ramon_Vasquez_(Earth-616)"
       ],
-      "villainIds": [
-        "Ramon_Vasquez_(Earth-616)"
-      ],
+      "villainIds": ["Ramon_Vasquez_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 9,
       "groups": [
         {
           "name": "The Black Hand Gang",
-          "members": [
-            "Professor Ramon Vasquez"
-          ]
+          "members": ["Professor Ramon Vasquez"]
         }
       ]
     },
@@ -1784,23 +1321,17 @@
       "issue": 10,
       "releaseDate": "June 21, 1977",
       "villainCount": 1,
-      "villains": [
-        "Professor Ramon Vasquez"
-      ],
+      "villains": ["Professor Ramon Vasquez"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Ramon_Vasquez_(Earth-616)"
       ],
-      "villainIds": [
-        "Ramon_Vasquez_(Earth-616)"
-      ],
+      "villainIds": ["Ramon_Vasquez_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 10,
       "groups": [
         {
           "name": "The Black Hand Gang",
-          "members": [
-            "Professor Ramon Vasquez"
-          ]
+          "members": ["Professor Ramon Vasquez"]
         }
       ]
     },
@@ -1808,15 +1339,11 @@
       "issue": 11,
       "releaseDate": "July 26, 1977",
       "villainCount": 1,
-      "villains": [
-        "Medusa"
-      ],
+      "villains": ["Medusa"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Medusalith_Amaquelin_(Earth-616)"
       ],
-      "villainIds": [
-        "Medusalith_Amaquelin_(Earth-616)"
-      ],
+      "villainIds": ["Medusalith_Amaquelin_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 11
     },
@@ -1824,11 +1351,7 @@
       "issue": 12,
       "releaseDate": "August 24, 1977",
       "villainCount": 3,
-      "villains": [
-        "Legion of Light",
-        "Brother Power",
-        "Sister Sun"
-      ],
+      "villains": ["Legion of Light", "Brother Power", "Sister Sun"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Legion_of_Light_(Earth-616)",
         "https://marvel.fandom.com/wiki/Achmed_Korba_(Earth-616)",
@@ -1921,15 +1444,11 @@
       "issue": 16,
       "releaseDate": "December 27, 1977",
       "villainCount": 1,
-      "villains": [
-        "Beetle"
-      ],
+      "villains": ["Beetle"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)"
       ],
-      "villainIds": [
-        "Abner_Jenkins_(Earth-616)"
-      ],
+      "villainIds": ["Abner_Jenkins_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 16
     },
@@ -1937,18 +1456,12 @@
       "issue": 17,
       "releaseDate": "January 24, 1978",
       "villainCount": 2,
-      "villains": [
-        "Bobby Drake",
-        "Stuart Clarke"
-      ],
+      "villains": ["Bobby Drake", "Stuart Clarke"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Robert_Drake_(Earth-616)",
         "https://marvel.fandom.com/wiki/Stuart_Clarke_(Earth-616)"
       ],
-      "villainIds": [
-        "Robert_Drake_(Earth-616)",
-        "Stuart_Clarke_(Earth-616)"
-      ],
+      "villainIds": ["Robert_Drake_(Earth-616)", "Stuart_Clarke_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 17
     },
@@ -1956,15 +1469,11 @@
       "issue": 18,
       "releaseDate": "February 21, 1978",
       "villainCount": 1,
-      "villains": [
-        "Stuart Clarke"
-      ],
+      "villains": ["Stuart Clarke"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Stuart_Clarke_(Earth-616)"
       ],
-      "villainIds": [
-        "Stuart_Clarke_(Earth-616)"
-      ],
+      "villainIds": ["Stuart_Clarke_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 18
     },
@@ -1972,12 +1481,7 @@
       "issue": 19,
       "releaseDate": "March 28, 1978",
       "villainCount": 4,
-      "villains": [
-        "Lightmaster",
-        "Fancy Dan",
-        "Montana",
-        "Ox"
-      ],
+      "villains": ["Lightmaster", "Fancy Dan", "Montana", "Ox"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
         "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
@@ -1995,12 +1499,7 @@
       "groups": [
         {
           "name": "Enforcers",
-          "members": [
-            "Lightmaster",
-            "Fancy Dan",
-            "Montana",
-            "Ox"
-          ]
+          "members": ["Lightmaster", "Fancy Dan", "Montana", "Ox"]
         }
       ]
     },
@@ -2008,12 +1507,7 @@
       "issue": 20,
       "releaseDate": "April 25, 1978",
       "villainCount": 4,
-      "villains": [
-        "Lightmaster",
-        "Fancy Dan",
-        "Montana",
-        "Ox"
-      ],
+      "villains": ["Lightmaster", "Fancy Dan", "Montana", "Ox"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)",
         "https://marvel.fandom.com/wiki/Daniel_Brito_(Earth-616)",
@@ -2031,12 +1525,7 @@
       "groups": [
         {
           "name": "Enforcers",
-          "members": [
-            "Lightmaster",
-            "Fancy Dan",
-            "Montana",
-            "Ox"
-          ]
+          "members": ["Lightmaster", "Fancy Dan", "Montana", "Ox"]
         }
       ]
     },
@@ -2044,15 +1533,11 @@
       "issue": 21,
       "releaseDate": "May 23, 1978",
       "villainCount": 1,
-      "villains": [
-        "Scorpion"
-      ],
+      "villains": ["Scorpion"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)"
       ],
-      "villainIds": [
-        "MacDonald_Gargan_(Earth-616)"
-      ],
+      "villainIds": ["MacDonald_Gargan_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 21
     },
@@ -2060,23 +1545,17 @@
       "issue": 22,
       "releaseDate": "June 27, 1978",
       "villainCount": 1,
-      "villains": [
-        "Cyclone"
-      ],
+      "villains": ["Cyclone"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Andr%C3%A9_Gerard_(Earth-616)"
       ],
-      "villainIds": [
-        "Andr%C3%A9_Gerard_(Earth-616)"
-      ],
+      "villainIds": ["Andr%C3%A9_Gerard_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 22,
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Cyclone"
-          ]
+          "members": ["Cyclone"]
         }
       ]
     },
@@ -2084,10 +1563,7 @@
       "issue": 23,
       "releaseDate": "July 25, 1978",
       "villainCount": 2,
-      "villains": [
-        "Cyclone",
-        "Masked Marauder"
-      ],
+      "villains": ["Cyclone", "Masked Marauder"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Andr%C3%A9_Gerard_(Earth-616)",
         "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)"
@@ -2101,10 +1577,7 @@
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Cyclone",
-            "Masked Marauder"
-          ]
+          "members": ["Cyclone", "Masked Marauder"]
         }
       ]
     },
@@ -2112,23 +1585,17 @@
       "issue": 24,
       "releaseDate": "August 22, 1978",
       "villainCount": 1,
-      "villains": [
-        "Hypno-Hustler"
-      ],
+      "villains": ["Hypno-Hustler"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Antoine_Delsoin_(Earth-616)"
       ],
-      "villainIds": [
-        "Antoine_Delsoin_(Earth-616)"
-      ],
+      "villainIds": ["Antoine_Delsoin_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 24,
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Hypno-Hustler"
-          ]
+          "members": ["Hypno-Hustler"]
         }
       ]
     },
@@ -2136,11 +1603,7 @@
       "issue": 25,
       "releaseDate": "September 26, 1978",
       "villainCount": 3,
-      "villains": [
-        "Masked Marauder",
-        "Carrion",
-        "Tri-Man"
-      ],
+      "villains": ["Masked Marauder", "Carrion", "Tri-Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
         "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
@@ -2156,11 +1619,7 @@
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Masked Marauder",
-            "Carrion",
-            "Tri-Man"
-          ]
+          "members": ["Masked Marauder", "Carrion", "Tri-Man"]
         }
       ]
     },
@@ -2168,11 +1627,7 @@
       "issue": 26,
       "releaseDate": "October 24, 1978",
       "villainCount": 3,
-      "villains": [
-        "Masked Marauder",
-        "Carrion",
-        "Tri-Man"
-      ],
+      "villains": ["Masked Marauder", "Carrion", "Tri-Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
         "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
@@ -2190,11 +1645,7 @@
       "issue": 27,
       "releaseDate": "November 21, 1978",
       "villainCount": 3,
-      "villains": [
-        "Masked Marauder",
-        "Carrion",
-        "Tri-Man"
-      ],
+      "villains": ["Masked Marauder", "Carrion", "Tri-Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
         "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
@@ -2210,11 +1661,7 @@
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Masked Marauder",
-            "Carrion",
-            "Tri-Man"
-          ]
+          "members": ["Masked Marauder", "Carrion", "Tri-Man"]
         }
       ]
     },
@@ -2222,11 +1669,7 @@
       "issue": 28,
       "releaseDate": "December 12, 1978",
       "villainCount": 3,
-      "villains": [
-        "Masked Marauder",
-        "Carrion",
-        "Tri-Man"
-      ],
+      "villains": ["Masked Marauder", "Carrion", "Tri-Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Frank_Farnum_(Earth-616)",
         "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
@@ -2242,11 +1685,7 @@
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Masked Marauder",
-            "Carrion",
-            "Tri-Man"
-          ]
+          "members": ["Masked Marauder", "Carrion", "Tri-Man"]
         }
       ]
     },
@@ -2254,10 +1693,7 @@
       "issue": 29,
       "releaseDate": "January 23, 1979",
       "villainCount": 2,
-      "villains": [
-        "Carrion",
-        "Darter"
-      ],
+      "villains": ["Carrion", "Darter"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
         "https://marvel.fandom.com/wiki/Randy_Vale_(Earth-616)"
@@ -2273,10 +1709,7 @@
       "issue": 30,
       "releaseDate": "February 20, 1979",
       "villainCount": 2,
-      "villains": [
-        "Carrion",
-        "Darter"
-      ],
+      "villains": ["Carrion", "Darter"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
         "https://marvel.fandom.com/wiki/Randy_Vale_(Earth-616)"
@@ -2292,11 +1725,7 @@
       "issue": 31,
       "releaseDate": "March 27, 1979",
       "villainCount": 3,
-      "villains": [
-        "Carrion",
-        "Darter",
-        "Spider-Amoeba"
-      ],
+      "villains": ["Carrion", "Darter", "Spider-Amoeba"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Carrion_(Miles_Warren_Clone)_(Earth-616)",
         "https://marvel.fandom.com/wiki/Randy_Vale_(Earth-616)",
@@ -2314,15 +1743,9 @@
       "issue": 32,
       "releaseDate": "April 24, 1979",
       "villainCount": 1,
-      "villains": [
-        "Iguana"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Iguana_(Earth-616)"
-      ],
-      "villainIds": [
-        "Iguana_(Earth-616)"
-      ],
+      "villains": ["Iguana"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Iguana_(Earth-616)"],
+      "villainIds": ["Iguana_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 32
     },
@@ -2330,18 +1753,12 @@
       "issue": 33,
       "releaseDate": "May 22, 1979",
       "villainCount": 2,
-      "villains": [
-        "Iguana",
-        "Lizard"
-      ],
+      "villains": ["Iguana", "Lizard"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Iguana_(Earth-616)",
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)"
       ],
-      "villainIds": [
-        "Iguana_(Earth-616)",
-        "Curtis_Connors_(Earth-616)"
-      ],
+      "villainIds": ["Iguana_(Earth-616)", "Curtis_Connors_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 33
     },
@@ -2349,18 +1766,12 @@
       "issue": 34,
       "releaseDate": "June 26, 1979",
       "villainCount": 2,
-      "villains": [
-        "Iguana",
-        "Lizard"
-      ],
+      "villains": ["Iguana", "Lizard"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Iguana_(Earth-616)",
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)"
       ],
-      "villainIds": [
-        "Iguana_(Earth-616)",
-        "Curtis_Connors_(Earth-616)"
-      ],
+      "villainIds": ["Iguana_(Earth-616)", "Curtis_Connors_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 34
     },
@@ -2368,15 +1779,11 @@
       "issue": 35,
       "releaseDate": "July 24, 1979",
       "villainCount": 1,
-      "villains": [
-        "Mindworm"
-      ],
+      "villains": ["Mindworm"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/William_Turner_(Earth-616)"
       ],
-      "villainIds": [
-        "William_Turner_(Earth-616)"
-      ],
+      "villainIds": ["William_Turner_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 35
     },
@@ -2384,15 +1791,11 @@
       "issue": 36,
       "releaseDate": "August 28, 1979",
       "villainCount": 1,
-      "villains": [
-        "Swarm"
-      ],
+      "villains": ["Swarm"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)"
       ],
-      "villainIds": [
-        "Fritz_von_Meyer_(Earth-616)"
-      ],
+      "villainIds": ["Fritz_von_Meyer_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 36
     },
@@ -2400,15 +1803,11 @@
       "issue": 37,
       "releaseDate": "September 18, 1979",
       "villainCount": 1,
-      "villains": [
-        "Swarm"
-      ],
+      "villains": ["Swarm"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Fritz_von_Meyer_(Earth-616)"
       ],
-      "villainIds": [
-        "Fritz_von_Meyer_(Earth-616)"
-      ],
+      "villainIds": ["Fritz_von_Meyer_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 37
     },
@@ -2416,18 +1815,12 @@
       "issue": 38,
       "releaseDate": "October 23, 1979",
       "villainCount": 2,
-      "villains": [
-        "Morbius the Living Vampire",
-        "Schizoid-Man"
-      ],
+      "villains": ["Morbius the Living Vampire", "Schizoid-Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Chip_Martin_(Earth-616)"
       ],
-      "villainIds": [
-        "Michael_Morbius_(Earth-616)",
-        "Chip_Martin_(Earth-616)"
-      ],
+      "villainIds": ["Michael_Morbius_(Earth-616)", "Chip_Martin_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 38
     },
@@ -2435,15 +1828,9 @@
       "issue": 39,
       "releaseDate": "November 27, 1979",
       "villainCount": 1,
-      "villains": [
-        "Schizoid-Man"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Chip_Martin_(Earth-616)"
-      ],
-      "villainIds": [
-        "Chip_Martin_(Earth-616)"
-      ],
+      "villains": ["Schizoid-Man"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Chip_Martin_(Earth-616)"],
+      "villainIds": ["Chip_Martin_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 39
     },
@@ -2451,15 +1838,11 @@
       "issue": 40,
       "releaseDate": "December 25, 1979",
       "villainCount": 1,
-      "villains": [
-        "Spider-Lizard"
-      ],
+      "villains": ["Spider-Lizard"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)"
       ],
-      "villainIds": [
-        "Peter_Parker_(Earth-616)"
-      ],
+      "villainIds": ["Peter_Parker_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 40
     },
@@ -2467,15 +1850,11 @@
       "issue": 41,
       "releaseDate": "January 22, 1980",
       "villainCount": 1,
-      "villains": [
-        "Meteor Man"
-      ],
+      "villains": ["Meteor Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)"
       ],
-      "villainIds": [
-        "Norton_Fester_(Earth-616)"
-      ],
+      "villainIds": ["Norton_Fester_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 41
     },
@@ -2510,22 +1889,12 @@
     {
       "issue": 43,
       "releaseDate": "March 25, 1980",
-      "villainCount": 3,
-      "villains": [
-        "Belladonna",
-        "Jack",
-        "Manny"
-      ],
+      "villainCount": 1,
+      "villains": ["Belladonna"],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/J",
-        "https://marvel.fandom.com/wiki/Character_Index/M"
+        "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)"
       ],
-      "villainIds": [
-        "Narda_Ravanna_(Earth-616)",
-        "Character_Index/J",
-        "Character_Index/M"
-      ],
+      "villainIds": ["Narda_Ravanna_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 43
     },
@@ -2533,18 +1902,12 @@
       "issue": 44,
       "releaseDate": "April 22, 1980",
       "villainCount": 2,
-      "villains": [
-        "Vulture",
-        "Malachi Toomes"
-      ],
+      "villains": ["Vulture", "Malachi Toomes"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Malachi_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Malachi_Toomes_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Malachi_Toomes_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 44
     },
@@ -2552,18 +1915,12 @@
       "issue": 45,
       "releaseDate": "May 27, 1980",
       "villainCount": 2,
-      "villains": [
-        "Vulture",
-        "Malachi Toomes"
-      ],
+      "villains": ["Vulture", "Malachi Toomes"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Malachi_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Malachi_Toomes_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Malachi_Toomes_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 45
     },
@@ -2571,65 +1928,37 @@
       "issue": 46,
       "releaseDate": "June 24, 1980",
       "villainCount": 1,
-      "villains": [
-        "Cobra"
-      ],
+      "villains": ["Cobra"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Klaus_Voorhees_(Earth-616)"
       ],
-      "villainIds": [
-        "Klaus_Voorhees_(Earth-616)"
-      ],
+      "villainIds": ["Klaus_Voorhees_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 46
     },
     {
       "issue": 47,
       "releaseDate": "July 22, 1980",
-      "villainCount": 4,
-      "villains": [
-        "Belladonna",
-        "Jack",
-        "Manny",
-        "Prowler"
-      ],
+      "villainCount": 2,
+      "villains": ["Belladonna", "Prowler"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/J",
-        "https://marvel.fandom.com/wiki/Character_Index/M",
         "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)"
       ],
-      "villainIds": [
-        "Narda_Ravanna_(Earth-616)",
-        "Character_Index/J",
-        "Character_Index/M",
-        "Cat_Burglar_(Earth-616)"
-      ],
+      "villainIds": ["Narda_Ravanna_(Earth-616)", "Cat_Burglar_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 47
     },
     {
       "issue": 48,
       "releaseDate": "August 26, 1980",
-      "villainCount": 4,
-      "villains": [
-        "Belladonna",
-        "Jack",
-        "Manny",
-        "Prowler"
-      ],
+      "villainCount": 2,
+      "villains": ["Belladonna", "Prowler"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/J",
-        "https://marvel.fandom.com/wiki/Character_Index/M",
         "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)"
       ],
-      "villainIds": [
-        "Narda_Ravanna_(Earth-616)",
-        "Character_Index/J",
-        "Character_Index/M",
-        "Cat_Burglar_(Earth-616)"
-      ],
+      "villainIds": ["Narda_Ravanna_(Earth-616)", "Cat_Burglar_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 48
     },
@@ -2637,46 +1966,31 @@
       "issue": 49,
       "releaseDate": "September 23, 1980",
       "villainCount": 1,
-      "villains": [
-        "Smuggler"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Erik_Josten_(Earth-616)"
-      ],
-      "villainIds": [
-        "Erik_Josten_(Earth-616)"
-      ],
+      "villains": ["Smuggler"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Erik_Josten_(Earth-616)"],
+      "villainIds": ["Erik_Josten_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 49,
       "groups": [
         {
           "name": "White Dragon Gang",
-          "members": [
-            "Smuggler"
-          ]
+          "members": ["Smuggler"]
         }
       ]
     },
     {
       "issue": 50,
       "releaseDate": "October 28, 1980",
-      "villainCount": 4,
-      "villains": [
-        "Smuggler",
-        "Mysterio",
-        "Charlie",
-        "Gideon Mace"
-      ],
+      "villainCount": 3,
+      "villains": ["Smuggler", "Mysterio", "Gideon Mace"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Erik_Josten_(Earth-616)",
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/C",
         "https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)"
       ],
       "villainIds": [
         "Erik_Josten_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
-        "Character_Index/C",
         "Gideon_Mace_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
@@ -2685,22 +1999,13 @@
     {
       "issue": 51,
       "releaseDate": "November 25, 1980",
-      "villainCount": 3,
-      "villains": [
-        "Mysterio",
-        "Charlie",
-        "Gideon Mace"
-      ],
+      "villainCount": 2,
+      "villains": ["Mysterio", "Gideon Mace"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/C",
         "https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Character_Index/C",
-        "Gideon_Mace_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "Gideon_Mace_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 51
     },
@@ -2708,15 +2013,9 @@
       "issue": 52,
       "releaseDate": "December 23, 1980",
       "villainCount": 1,
-      "villains": [
-        "Gideon Mace"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)"
-      ],
-      "villainIds": [
-        "Gideon_Mace_(Earth-616)"
-      ],
+      "villains": ["Gideon Mace"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)"],
+      "villainIds": ["Gideon_Mace_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 52
     },
@@ -2724,18 +2023,12 @@
       "issue": 53,
       "releaseDate": "January 20, 1981",
       "villainCount": 2,
-      "villains": [
-        "Tinkerer",
-        "Toy"
-      ],
+      "villains": ["Tinkerer", "Toy"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)",
         "https://marvel.fandom.com/wiki/Toy_(Earth-616)"
       ],
-      "villainIds": [
-        "Phineas_Mason_(Earth-616)",
-        "Toy_(Earth-616)"
-      ],
+      "villainIds": ["Phineas_Mason_(Earth-616)", "Toy_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 53
     },
@@ -2759,15 +2052,11 @@
       "issue": 55,
       "releaseDate": "March 24, 1981",
       "villainCount": 1,
-      "villains": [
-        "Nitro"
-      ],
+      "villains": ["Nitro"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Robert_Hunter_(Earth-616)"
       ],
-      "villainIds": [
-        "Robert_Hunter_(Earth-616)"
-      ],
+      "villainIds": ["Robert_Hunter_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 55
     },
@@ -2775,15 +2064,11 @@
       "issue": 56,
       "releaseDate": "April 21, 1981",
       "villainCount": 1,
-      "villains": [
-        "Jack O'Lantern"
-      ],
+      "villains": ["Jack O'Lantern"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Jason_Macendale_Jr._(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 56
     },
@@ -2791,11 +2076,7 @@
       "issue": 57,
       "releaseDate": "May 19, 1981",
       "villainCount": 3,
-      "villains": [
-        "Brand Corporation",
-        "Killer Shrike",
-        "James Melvin"
-      ],
+      "villains": ["Brand Corporation", "Killer Shrike", "James Melvin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Brand_Corporation_(Earth-616)",
         "https://marvel.fandom.com/wiki/Simon_Maddicks_(Earth-616)",
@@ -2813,18 +2094,12 @@
       "issue": 58,
       "releaseDate": "June 16, 1981",
       "villainCount": 2,
-      "villains": [
-        "Beetle",
-        "Ringer"
-      ],
+      "villains": ["Beetle", "Ringer"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
         "https://marvel.fandom.com/wiki/Anthony_Davis_(Earth-616)"
       ],
-      "villainIds": [
-        "Abner_Jenkins_(Earth-616)",
-        "Anthony_Davis_(Earth-616)"
-      ],
+      "villainIds": ["Abner_Jenkins_(Earth-616)", "Anthony_Davis_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 58
     },
@@ -2832,18 +2107,12 @@
       "issue": 59,
       "releaseDate": "July 21, 1981",
       "villainCount": 2,
-      "villains": [
-        "Beetle",
-        "Gibbon"
-      ],
+      "villains": ["Beetle", "Gibbon"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
         "https://marvel.fandom.com/wiki/Martin_Blank_(Earth-616)"
       ],
-      "villainIds": [
-        "Abner_Jenkins_(Earth-616)",
-        "Martin_Blank_(Earth-616)"
-      ],
+      "villainIds": ["Abner_Jenkins_(Earth-616)", "Martin_Blank_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 59
     },
@@ -2851,18 +2120,12 @@
       "issue": 60,
       "releaseDate": "August 18, 1981",
       "villainCount": 2,
-      "villains": [
-        "Beetle",
-        "The Burglar"
-      ],
+      "villains": ["Beetle", "The Burglar"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
         "https://marvel.fandom.com/wiki/Carradine_(Earth-616)"
       ],
-      "villainIds": [
-        "Abner_Jenkins_(Earth-616)",
-        "Carradine_(Earth-616)"
-      ],
+      "villainIds": ["Abner_Jenkins_(Earth-616)", "Carradine_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 60
     },
@@ -2870,15 +2133,9 @@
       "issue": 61,
       "releaseDate": "September 15, 1981",
       "villainCount": 1,
-      "villains": [
-        "Moonstone"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Karla_Sofen_(Earth-616)"
-      ],
-      "villainIds": [
-        "Karla_Sofen_(Earth-616)"
-      ],
+      "villains": ["Moonstone"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Karla_Sofen_(Earth-616)"],
+      "villainIds": ["Karla_Sofen_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 61
     },
@@ -2886,23 +2143,17 @@
       "issue": 62,
       "releaseDate": "October 20, 1981",
       "villainCount": 1,
-      "villains": [
-        "Goldbug"
-      ],
+      "villains": ["Goldbug"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Matthew_Gilden_(Earth-616)"
       ],
-      "villainIds": [
-        "Matthew_Gilden_(Earth-616)"
-      ],
+      "villainIds": ["Matthew_Gilden_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 62,
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Goldbug"
-          ]
+          "members": ["Goldbug"]
         }
       ]
     },
@@ -2910,15 +2161,9 @@
       "issue": 63,
       "releaseDate": "November 17, 1981",
       "villainCount": 1,
-      "villains": [
-        "Molten Man"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)"
-      ],
-      "villainIds": [
-        "Mark_Raxton_(Earth-616)"
-      ],
+      "villains": ["Molten Man"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)"],
+      "villainIds": ["Mark_Raxton_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 63
     },
@@ -2926,23 +2171,17 @@
       "issue": 64,
       "releaseDate": "December 15, 1981",
       "villainCount": 1,
-      "villains": [
-        "Simon Marshall"
-      ],
+      "villains": ["Simon Marshall"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Simon_Marshall_(Earth-616)"
       ],
-      "villainIds": [
-        "Simon_Marshall_(Earth-616)"
-      ],
+      "villainIds": ["Simon_Marshall_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 64,
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Simon Marshall"
-          ]
+          "members": ["Simon Marshall"]
         }
       ]
     },
@@ -2950,10 +2189,7 @@
       "issue": 65,
       "releaseDate": "January 19, 1982",
       "villainCount": 2,
-      "villains": [
-        "Kraven the Hunter",
-        "Calypso"
-      ],
+      "villains": ["Kraven the Hunter", "Calypso"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
         "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)"
@@ -2969,15 +2205,11 @@
       "issue": 66,
       "releaseDate": "February 16, 1982",
       "villainCount": 1,
-      "villains": [
-        "Electro"
-      ],
+      "villains": ["Electro"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)"
       ],
-      "villainIds": [
-        "Maxwell_Dillon_(Earth-616)"
-      ],
+      "villainIds": ["Maxwell_Dillon_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 66
     },
@@ -2985,18 +2217,12 @@
       "issue": 67,
       "releaseDate": "March 16, 1982",
       "villainCount": 2,
-      "villains": [
-        "Kingpin",
-        "Boomerang"
-      ],
+      "villains": ["Kingpin", "Boomerang"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Frederick_Myers_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Frederick_Myers_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 67
     },
@@ -3014,18 +2240,12 @@
       "issue": 69,
       "releaseDate": "May 18, 1982",
       "villainCount": 2,
-      "villains": [
-        "Kingpin",
-        "Silvermane"
-      ],
+      "villains": ["Kingpin", "Silvermane"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Silvio_Manfredi_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Silvio_Manfredi_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 69
     },
@@ -3033,18 +2253,12 @@
       "issue": 70,
       "releaseDate": "June 15, 1982",
       "villainCount": 2,
-      "villains": [
-        "Kingpin",
-        "Silvermane"
-      ],
+      "villains": ["Kingpin", "Silvermane"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Silvio_Manfredi_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Silvio_Manfredi_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 70
     },
@@ -3062,15 +2276,11 @@
       "issue": 72,
       "releaseDate": "August 17, 1982",
       "villainCount": 1,
-      "villains": [
-        "Doctor Octopus"
-      ],
+      "villains": ["Doctor Octopus"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Oliver_Osnick_(Earth-616)"
       ],
-      "villainIds": [
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Oliver_Osnick_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 72
     },
@@ -3078,11 +2288,7 @@
       "issue": 73,
       "releaseDate": "September 14, 1982",
       "villainCount": 3,
-      "villains": [
-        "Boomerang",
-        "Doctor Octopus",
-        "Owl"
-      ],
+      "villains": ["Boomerang", "Doctor Octopus", "Owl"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)",
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
@@ -3100,12 +2306,7 @@
       "issue": 74,
       "releaseDate": "October 19, 1982",
       "villainCount": 4,
-      "villains": [
-        "Kingpin",
-        "Doctor Octopus",
-        "Owl",
-        "Mark Whitman"
-      ],
+      "villains": ["Kingpin", "Doctor Octopus", "Owl", "Mark Whitman"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
@@ -3125,11 +2326,7 @@
       "issue": 75,
       "releaseDate": "November 16, 1982",
       "villainCount": 3,
-      "villains": [
-        "Kingpin",
-        "Doctor Octopus",
-        "Owl"
-      ],
+      "villains": ["Kingpin", "Doctor Octopus", "Owl"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
@@ -3147,15 +2344,11 @@
       "issue": 76,
       "releaseDate": "December 14, 1982",
       "villainCount": 1,
-      "villains": [
-        "Doctor Octopus"
-      ],
+      "villains": ["Doctor Octopus"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 76
     },
@@ -3163,15 +2356,11 @@
       "issue": 77,
       "releaseDate": "January 18, 1983",
       "villainCount": 1,
-      "villains": [
-        "Doctor Octopus"
-      ],
+      "villains": ["Doctor Octopus"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 77
     },
@@ -3179,15 +2368,11 @@
       "issue": 78,
       "releaseDate": "February 15, 1983",
       "villainCount": 1,
-      "villains": [
-        "Doctor Octopus"
-      ],
+      "villains": ["Doctor Octopus"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 78
     },
@@ -3195,15 +2380,11 @@
       "issue": 79,
       "releaseDate": "March 15, 1983",
       "villainCount": 1,
-      "villains": [
-        "Doctor Octopus"
-      ],
+      "villains": ["Doctor Octopus"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 79
     },
@@ -3211,15 +2392,9 @@
       "issue": 80,
       "releaseDate": "April 12, 1983",
       "villainCount": 1,
-      "villains": [
-        "Kingpin"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)"
-      ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)"
-      ],
+      "villains": ["Kingpin"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)"],
+      "villainIds": ["Wilson_Fisk_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 80
     },
@@ -3227,15 +2402,11 @@
       "issue": 81,
       "releaseDate": "May 17, 1983",
       "villainCount": 1,
-      "villains": [
-        "Boomerang"
-      ],
+      "villains": ["Boomerang"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Frederick_Myers_(Earth-616)"
       ],
-      "villainIds": [
-        "Frederick_Myers_(Earth-616)"
-      ],
+      "villainIds": ["Frederick_Myers_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 81
     },
@@ -3243,18 +2414,12 @@
       "issue": 82,
       "releaseDate": "June 14, 1983",
       "villainCount": 2,
-      "villains": [
-        "Kingpin",
-        "Punisher"
-      ],
+      "villains": ["Kingpin", "Punisher"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Francis_Castle_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Francis_Castle_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Francis_Castle_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 82
     },
@@ -3262,15 +2427,11 @@
       "issue": 83,
       "releaseDate": "July 19, 1983",
       "villainCount": 1,
-      "villains": [
-        "Punisher"
-      ],
+      "villains": ["Punisher"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Francis_Castle_(Earth-616)"
       ],
-      "villainIds": [
-        "Francis_Castle_(Earth-616)"
-      ],
+      "villainIds": ["Francis_Castle_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 83
     },
@@ -3288,15 +2449,11 @@
       "issue": 85,
       "releaseDate": "September 13, 1983",
       "villainCount": 1,
-      "villains": [
-        "Hobgoblin"
-      ],
+      "villains": ["Hobgoblin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)"
       ],
-      "villainIds": [
-        "Roderick_Kingsley_(Earth-616)"
-      ],
+      "villainIds": ["Roderick_Kingsley_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 85
     },
@@ -3304,15 +2461,11 @@
       "issue": 86,
       "releaseDate": "October 18, 1983",
       "villainCount": 1,
-      "villains": [
-        "Fly"
-      ],
+      "villains": ["Fly"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)"
       ],
-      "villainIds": [
-        "Richard_Deacon_(Earth-616)"
-      ],
+      "villainIds": ["Richard_Deacon_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 86
     },
@@ -3330,18 +2483,12 @@
       "issue": 88,
       "releaseDate": "December 13, 1983",
       "villainCount": 2,
-      "villains": [
-        "Cobra",
-        "Mr. Hyde"
-      ],
+      "villains": ["Cobra", "Mr. Hyde"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Klaus_Voorhees_(Earth-616)",
         "https://marvel.fandom.com/wiki/Calvin_Zabo_(Earth-616)"
       ],
-      "villainIds": [
-        "Klaus_Voorhees_(Earth-616)",
-        "Calvin_Zabo_(Earth-616)"
-      ],
+      "villainIds": ["Klaus_Voorhees_(Earth-616)", "Calvin_Zabo_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 88
     },
@@ -3349,15 +2496,9 @@
       "issue": 89,
       "releaseDate": "January 17, 1984",
       "villainCount": 1,
-      "villains": [
-        "Kingpin"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)"
-      ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)"
-      ],
+      "villains": ["Kingpin"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)"],
+      "villainIds": ["Wilson_Fisk_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 89
     },
@@ -3375,15 +2516,11 @@
       "issue": 91,
       "releaseDate": "March 20, 1984",
       "villainCount": 1,
-      "villains": [
-        "The Blob"
-      ],
+      "villains": ["The Blob"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Frederick_Dukes_(Earth-616)"
       ],
-      "villainIds": [
-        "Frederick_Dukes_(Earth-616)"
-      ],
+      "villainIds": ["Frederick_Dukes_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 91
     },
@@ -3391,18 +2528,12 @@
       "issue": 92,
       "releaseDate": "April 17, 1984",
       "villainCount": 2,
-      "villains": [
-        "Kingpin",
-        "Answer"
-      ],
+      "villains": ["Kingpin", "Answer"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Aaron_Nicholson_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Aaron_Nicholson_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Aaron_Nicholson_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 92
     },
@@ -3410,18 +2541,12 @@
       "issue": 93,
       "releaseDate": "May 15, 1984",
       "villainCount": 2,
-      "villains": [
-        "Kingpin",
-        "Answer"
-      ],
+      "villains": ["Kingpin", "Answer"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Aaron_Nicholson_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Aaron_Nicholson_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Aaron_Nicholson_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 93
     },
@@ -3429,11 +2554,7 @@
       "issue": 94,
       "releaseDate": "June 12, 1984",
       "villainCount": 3,
-      "villains": [
-        "Kingpin",
-        "Silvermane",
-        "Answer"
-      ],
+      "villains": ["Kingpin", "Silvermane", "Answer"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
@@ -3451,12 +2572,7 @@
       "issue": 95,
       "releaseDate": "July 17, 1984",
       "villainCount": 4,
-      "villains": [
-        "Kingpin",
-        "Silvermane",
-        "Answer",
-        "The Rose"
-      ],
+      "villains": ["Kingpin", "Silvermane", "Answer", "The Rose"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
@@ -3476,11 +2592,7 @@
       "issue": 96,
       "releaseDate": "August 14, 1984",
       "villainCount": 3,
-      "villains": [
-        "Kingpin",
-        "Silvermane",
-        "Answer"
-      ],
+      "villains": ["Kingpin", "Silvermane", "Answer"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
@@ -3497,22 +2609,13 @@
     {
       "issue": 97,
       "releaseDate": "September 18, 1984",
-      "villainCount": 3,
-      "villains": [
-        "Kingpin",
-        "Symbiote",
-        "Elliot"
-      ],
+      "villainCount": 2,
+      "villains": ["Kingpin", "Symbiote"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/E"
+        "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Venom_(Symbiote)_(Earth-616)",
-        "Character_Index/E"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Venom_(Symbiote)_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 97
     },
@@ -3520,11 +2623,7 @@
       "issue": 98,
       "releaseDate": "October 16, 1984",
       "villainCount": 3,
-      "villains": [
-        "Kingpin",
-        "Symbiote",
-        "Spot"
-      ],
+      "villains": ["Kingpin", "Symbiote", "Spot"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
@@ -3542,11 +2641,7 @@
       "issue": 99,
       "releaseDate": "November 13, 1984",
       "villainCount": 3,
-      "villains": [
-        "Kingpin",
-        "Symbiote",
-        "Spot"
-      ],
+      "villains": ["Kingpin", "Symbiote", "Spot"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
@@ -3564,11 +2659,7 @@
       "issue": 100,
       "releaseDate": "December 18, 1984",
       "villainCount": 3,
-      "villains": [
-        "Kingpin",
-        "Symbiote",
-        "Spot"
-      ],
+      "villains": ["Kingpin", "Symbiote", "Spot"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
@@ -3586,15 +2677,11 @@
       "issue": 101,
       "releaseDate": "January 15, 1985",
       "villainCount": 1,
-      "villains": [
-        "Blacklash"
-      ],
+      "villains": ["Blacklash"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Marco_Scarlotti_(Earth-616)"
       ],
-      "villainIds": [
-        "Marco_Scarlotti_(Earth-616)"
-      ],
+      "villainIds": ["Marco_Scarlotti_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 101
     },
@@ -3602,15 +2689,11 @@
       "issue": 102,
       "releaseDate": "February 12, 1985",
       "villainCount": 1,
-      "villains": [
-        "Killer Shrike"
-      ],
+      "villains": ["Killer Shrike"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Simon_Maddicks_(Earth-616)"
       ],
-      "villainIds": [
-        "Simon_Maddicks_(Earth-616)"
-      ],
+      "villainIds": ["Simon_Maddicks_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 102
     },
@@ -3618,15 +2701,11 @@
       "issue": 103,
       "releaseDate": "March 19, 1985",
       "villainCount": 1,
-      "villains": [
-        "Ashley Cranford"
-      ],
+      "villains": ["Ashley Cranford"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Ashley_Cranford_(Earth-616)"
       ],
-      "villainIds": [
-        "Ashley_Cranford_(Earth-616)"
-      ],
+      "villainIds": ["Ashley_Cranford_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 103
     },
@@ -3634,15 +2713,11 @@
       "issue": 104,
       "releaseDate": "April 16, 1985",
       "villainCount": 1,
-      "villains": [
-        "Bounty Hunter"
-      ],
+      "villains": ["Bounty Hunter"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Tommy_Barrett_(Earth-616)"
       ],
-      "villainIds": [
-        "Tommy_Barrett_(Earth-616)"
-      ],
+      "villainIds": ["Tommy_Barrett_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 104
     },
@@ -3650,37 +2725,23 @@
       "issue": 105,
       "releaseDate": "May 14, 1985",
       "villainCount": 1,
-      "villains": [
-        "Vince Granetti"
-      ],
+      "villains": ["Vince Granetti"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Vince_Granetti_(Earth-616)"
       ],
-      "villainIds": [
-        "Vince_Granetti_(Earth-616)"
-      ],
+      "villainIds": ["Vince_Granetti_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 105
     },
     {
       "issue": 106,
       "releaseDate": "June 18, 1985",
-      "villainCount": 3,
-      "villains": [
-        "Jack",
-        "Charlie",
-        "Vince Granetti"
-      ],
+      "villainCount": 1,
+      "villains": ["Vince Granetti"],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Character_Index/J",
-        "https://marvel.fandom.com/wiki/Character_Index/C",
         "https://marvel.fandom.com/wiki/Vince_Granetti_(Earth-616)"
       ],
-      "villainIds": [
-        "Character_Index/J",
-        "Character_Index/C",
-        "Vince_Granetti_(Earth-616)"
-      ],
+      "villainIds": ["Vince_Granetti_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 106
     },
@@ -3688,15 +2749,11 @@
       "issue": 107,
       "releaseDate": "July 16, 1985",
       "villainCount": 1,
-      "villains": [
-        "Sin Eater"
-      ],
+      "villains": ["Sin Eater"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)"
       ],
-      "villainIds": [
-        "Stanley_Carter_(Earth-616)"
-      ],
+      "villainIds": ["Stanley_Carter_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 107
     },
@@ -3704,15 +2761,11 @@
       "issue": 108,
       "releaseDate": "August 13, 1985",
       "villainCount": 1,
-      "villains": [
-        "Sin Eater"
-      ],
+      "villains": ["Sin Eater"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)"
       ],
-      "villainIds": [
-        "Stanley_Carter_(Earth-616)"
-      ],
+      "villainIds": ["Stanley_Carter_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 108
     },
@@ -3720,12 +2773,7 @@
       "issue": 109,
       "releaseDate": "September 17, 1985",
       "villainCount": 4,
-      "villains": [
-        "Kingpin",
-        "Sin Eater",
-        "Emil Gregg",
-        "Santa Claus Burglar"
-      ],
+      "villains": ["Kingpin", "Sin Eater", "Emil Gregg", "Santa Claus Burglar"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)",
@@ -3745,15 +2793,11 @@
       "issue": 110,
       "releaseDate": "October 15, 1985",
       "villainCount": 1,
-      "villains": [
-        "Sin Eater"
-      ],
+      "villains": ["Sin Eater"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)"
       ],
-      "villainIds": [
-        "Stanley_Carter_(Earth-616)"
-      ],
+      "villainIds": ["Stanley_Carter_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 110
     },
@@ -3761,15 +2805,9 @@
       "issue": 111,
       "releaseDate": "November 12, 1985",
       "villainCount": 1,
-      "villains": [
-        "Beyonder"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Beyonder_(Earth-616)"
-      ],
-      "villainIds": [
-        "Beyonder_(Earth-616)"
-      ],
+      "villains": ["Beyonder"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Beyonder_(Earth-616)"],
+      "villainIds": ["Beyonder_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 111
     },
@@ -3777,31 +2815,21 @@
       "issue": 112,
       "releaseDate": "December 17, 1985",
       "villainCount": 1,
-      "villains": [
-        "Santa Claus Burglar"
-      ],
+      "villains": ["Santa Claus Burglar"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Santa_Claus_Burglar_(Earth-616)"
       ],
-      "villainIds": [
-        "Santa_Claus_Burglar_(Earth-616)"
-      ],
+      "villainIds": ["Santa_Claus_Burglar_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 112
     },
     {
       "issue": 113,
       "releaseDate": "January 14, 1986",
-      "villainCount": 1,
-      "villains": [
-        "Jack"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Character_Index/J"
-      ],
-      "villainIds": [
-        "Character_Index/J"
-      ],
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 113
     },
@@ -3809,10 +2837,7 @@
       "issue": 114,
       "releaseDate": "February 18, 1986",
       "villainCount": 2,
-      "villains": [
-        "The Barons",
-        "Cheech Beldone"
-      ],
+      "villains": ["The Barons", "Cheech Beldone"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Barons_(Street_Gang)_(Earth-616)",
         "https://marvel.fandom.com/wiki/Cheech_Beldone_(Earth-616)"
@@ -3828,15 +2853,9 @@
       "issue": 115,
       "releaseDate": "March 18, 1986",
       "villainCount": 1,
-      "villains": [
-        "Foreigner"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)"
-      ],
-      "villainIds": [
-        "Foreigner_(Earth-616)"
-      ],
+      "villains": ["Foreigner"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Foreigner_(Earth-616)"],
+      "villainIds": ["Foreigner_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 115
     },
@@ -3844,18 +2863,12 @@
       "issue": 116,
       "releaseDate": "April 15, 1986",
       "villainCount": 2,
-      "villains": [
-        "Foreigner",
-        "Sabretooth"
-      ],
+      "villains": ["Foreigner", "Sabretooth"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
         "https://marvel.fandom.com/wiki/Victor_Creed_(Earth-616)"
       ],
-      "villainIds": [
-        "Foreigner_(Earth-616)",
-        "Victor_Creed_(Earth-616)"
-      ],
+      "villainIds": ["Foreigner_(Earth-616)", "Victor_Creed_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 116
     },
@@ -3863,15 +2876,9 @@
       "issue": 117,
       "releaseDate": "May 13, 1986",
       "villainCount": 1,
-      "villains": [
-        "Foreigner"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)"
-      ],
-      "villainIds": [
-        "Foreigner_(Earth-616)"
-      ],
+      "villains": ["Foreigner"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Foreigner_(Earth-616)"],
+      "villainIds": ["Foreigner_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 117
     },
@@ -3907,18 +2914,12 @@
       "issue": 119,
       "releaseDate": "July 15, 1986",
       "villainCount": 2,
-      "villains": [
-        "Foreigner",
-        "Sabretooth"
-      ],
+      "villains": ["Foreigner", "Sabretooth"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
         "https://marvel.fandom.com/wiki/Victor_Creed_(Earth-616)"
       ],
-      "villainIds": [
-        "Foreigner_(Earth-616)",
-        "Victor_Creed_(Earth-616)"
-      ],
+      "villainIds": ["Foreigner_(Earth-616)", "Victor_Creed_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 119
     },
@@ -3946,15 +2947,11 @@
       "issue": 122,
       "releaseDate": "October 14, 1986",
       "villainCount": 1,
-      "villains": [
-        "Mauler"
-      ],
+      "villains": ["Mauler"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Brendan_Doyle_(Earth-616)"
       ],
-      "villainIds": [
-        "Brendan_Doyle_(Earth-616)"
-      ],
+      "villainIds": ["Brendan_Doyle_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 122
     },
@@ -3962,11 +2959,7 @@
       "issue": 123,
       "releaseDate": "November 18, 1986",
       "villainCount": 3,
-      "villains": [
-        "Foreigner",
-        "Blaze",
-        "1400 Club"
-      ],
+      "villains": ["Foreigner", "Blaze", "1400 Club"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
         "https://marvel.fandom.com/wiki/Kirk_Donaghue_(Earth-616)",
@@ -3984,15 +2977,11 @@
       "issue": 124,
       "releaseDate": "December 16, 1986",
       "villainCount": 1,
-      "villains": [
-        "Doctor Octopus"
-      ],
+      "villains": ["Doctor Octopus"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 124
     },
@@ -4000,12 +2989,7 @@
       "issue": 125,
       "releaseDate": "January 13, 1987",
       "villainCount": 4,
-      "villains": [
-        "Wrecker",
-        "Bulldozer",
-        "Piledriver",
-        "Thunderball"
-      ],
+      "villains": ["Wrecker", "Bulldozer", "Piledriver", "Thunderball"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Dirk_Garthwaite_(Earth-616)",
         "https://marvel.fandom.com/wiki/Henry_Camp_(Earth-616)",
@@ -4023,12 +3007,7 @@
       "groups": [
         {
           "name": "Wrecking Crew",
-          "members": [
-            "Wrecker",
-            "Bulldozer",
-            "Piledriver",
-            "Thunderball"
-          ]
+          "members": ["Wrecker", "Bulldozer", "Piledriver", "Thunderball"]
         }
       ]
     },
@@ -4036,12 +3015,7 @@
       "issue": 126,
       "releaseDate": "February 17, 1987",
       "villainCount": 4,
-      "villains": [
-        "Wrecker",
-        "Bulldozer",
-        "Piledriver",
-        "Thunderball"
-      ],
+      "villains": ["Wrecker", "Bulldozer", "Piledriver", "Thunderball"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Dirk_Garthwaite_(Earth-616)",
         "https://marvel.fandom.com/wiki/Henry_Camp_(Earth-616)",
@@ -4059,12 +3033,7 @@
       "groups": [
         {
           "name": "Wrecking Crew",
-          "members": [
-            "Wrecker",
-            "Bulldozer",
-            "Piledriver",
-            "Thunderball"
-          ]
+          "members": ["Wrecker", "Bulldozer", "Piledriver", "Thunderball"]
         }
       ]
     },
@@ -4072,15 +3041,11 @@
       "issue": 127,
       "releaseDate": "March 17, 1987",
       "villainCount": 1,
-      "villains": [
-        "Owl"
-      ],
+      "villains": ["Owl"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Leland_Owlsley_(Earth-616)"
       ],
-      "villainIds": [
-        "Leland_Owlsley_(Earth-616)"
-      ],
+      "villainIds": ["Leland_Owlsley_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 127
     },
@@ -4088,10 +3053,7 @@
       "issue": 128,
       "releaseDate": "April 14, 1987",
       "villainCount": 2,
-      "villains": [
-        "Freddy Helms",
-        "Silver Sable"
-      ],
+      "villains": ["Freddy Helms", "Silver Sable"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Frederick_Miluv_(Earth-616)",
         "https://marvel.fandom.com/wiki/Silvija_Sablinova_(Earth-616)"
@@ -4105,10 +3067,7 @@
       "groups": [
         {
           "name": "Wild Pack",
-          "members": [
-            "Freddy Helms",
-            "Silver Sable"
-          ]
+          "members": ["Freddy Helms", "Silver Sable"]
         }
       ]
     },
@@ -4116,15 +3075,9 @@
       "issue": 129,
       "releaseDate": "May 19, 1987",
       "villainCount": 1,
-      "villains": [
-        "Foreigner"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)"
-      ],
-      "villainIds": [
-        "Foreigner_(Earth-616)"
-      ],
+      "villains": ["Foreigner"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Foreigner_(Earth-616)"],
+      "villainIds": ["Foreigner_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 129
     },
@@ -4132,18 +3085,12 @@
       "issue": 130,
       "releaseDate": "June 16, 1987",
       "villainCount": 2,
-      "villains": [
-        "Kingpin",
-        "Hobgoblin"
-      ],
+      "villains": ["Kingpin", "Hobgoblin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Edward_Leeds_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Edward_Leeds_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 130
     },
@@ -4151,15 +3098,11 @@
       "issue": 131,
       "releaseDate": "July 14, 1987",
       "villainCount": 1,
-      "villains": [
-        "Vermin"
-      ],
+      "villains": ["Vermin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Edward_Whelan_(Earth-616)"
       ],
-      "villainIds": [
-        "Edward_Whelan_(Earth-616)"
-      ],
+      "villainIds": ["Edward_Whelan_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 131
     },
@@ -4167,15 +3110,11 @@
       "issue": 132,
       "releaseDate": "August 18, 1987",
       "villainCount": 1,
-      "villains": [
-        "Vermin"
-      ],
+      "villains": ["Vermin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Edward_Whelan_(Earth-616)"
       ],
-      "villainIds": [
-        "Edward_Whelan_(Earth-616)"
-      ],
+      "villainIds": ["Edward_Whelan_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 132
     },
@@ -4183,12 +3122,7 @@
       "issue": 133,
       "releaseDate": "September 15, 1987",
       "villainCount": 4,
-      "villains": [
-        "Kingpin",
-        "Arranger",
-        "Doctor Hope",
-        "Brainstorm"
-      ],
+      "villains": ["Kingpin", "Arranger", "Doctor Hope", "Brainstorm"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
@@ -4356,6 +3290,1023 @@
       "villainIds": [],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 150
+    },
+    {
+      "issue": 151,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 151
+    },
+    {
+      "issue": 152,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 152
+    },
+    {
+      "issue": 153,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 153
+    },
+    {
+      "issue": 154,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 154
+    },
+    {
+      "issue": 155,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 155
+    },
+    {
+      "issue": 156,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 156
+    },
+    {
+      "issue": 157,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 157
+    },
+    {
+      "issue": 158,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 158
+    },
+    {
+      "issue": 159,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 159
+    },
+    {
+      "issue": 160,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 160
+    },
+    {
+      "issue": 161,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 161
+    },
+    {
+      "issue": 162,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 162
+    },
+    {
+      "issue": 163,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 163
+    },
+    {
+      "issue": 164,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 164
+    },
+    {
+      "issue": 165,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 165
+    },
+    {
+      "issue": 166,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 166
+    },
+    {
+      "issue": 167,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 167
+    },
+    {
+      "issue": 168,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 168
+    },
+    {
+      "issue": 169,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 169
+    },
+    {
+      "issue": 170,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 170
+    },
+    {
+      "issue": 171,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 171
+    },
+    {
+      "issue": 172,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 172
+    },
+    {
+      "issue": 173,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 173
+    },
+    {
+      "issue": 174,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 174
+    },
+    {
+      "issue": 175,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 175
+    },
+    {
+      "issue": 176,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 176
+    },
+    {
+      "issue": 177,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 177
+    },
+    {
+      "issue": 178,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 178
+    },
+    {
+      "issue": 179,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 179
+    },
+    {
+      "issue": 180,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 180
+    },
+    {
+      "issue": 181,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 181
+    },
+    {
+      "issue": 182,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 182
+    },
+    {
+      "issue": 183,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 183
+    },
+    {
+      "issue": 184,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 184
+    },
+    {
+      "issue": 185,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 185
+    },
+    {
+      "issue": 186,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 186
+    },
+    {
+      "issue": 187,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 187
+    },
+    {
+      "issue": 188,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 188
+    },
+    {
+      "issue": 189,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 189
+    },
+    {
+      "issue": 190,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 190
+    },
+    {
+      "issue": 191,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 191
+    },
+    {
+      "issue": 192,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 192
+    },
+    {
+      "issue": 193,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 193
+    },
+    {
+      "issue": 194,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 194
+    },
+    {
+      "issue": 195,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 195
+    },
+    {
+      "issue": 196,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 196
+    },
+    {
+      "issue": 197,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 197
+    },
+    {
+      "issue": 198,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 198
+    },
+    {
+      "issue": 199,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 199
+    },
+    {
+      "issue": 200,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 200
+    },
+    {
+      "issue": 201,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 201
+    },
+    {
+      "issue": 202,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 202
+    },
+    {
+      "issue": 203,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 203
+    },
+    {
+      "issue": 204,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 204
+    },
+    {
+      "issue": 205,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 205
+    },
+    {
+      "issue": 206,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 206
+    },
+    {
+      "issue": 207,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 207
+    },
+    {
+      "issue": 208,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 208
+    },
+    {
+      "issue": 209,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 209
+    },
+    {
+      "issue": 210,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 210
+    },
+    {
+      "issue": 211,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 211
+    },
+    {
+      "issue": 212,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 212
+    },
+    {
+      "issue": 213,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 213
+    },
+    {
+      "issue": 214,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 214
+    },
+    {
+      "issue": 215,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 215
+    },
+    {
+      "issue": 216,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 216
+    },
+    {
+      "issue": 217,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 217
+    },
+    {
+      "issue": 218,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 218
+    },
+    {
+      "issue": 219,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 219
+    },
+    {
+      "issue": 220,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 220
+    },
+    {
+      "issue": 221,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 221
+    },
+    {
+      "issue": 222,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 222
+    },
+    {
+      "issue": 223,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 223
+    },
+    {
+      "issue": 224,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 224
+    },
+    {
+      "issue": 225,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 225
+    },
+    {
+      "issue": 226,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 226
+    },
+    {
+      "issue": 227,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 227
+    },
+    {
+      "issue": 228,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 228
+    },
+    {
+      "issue": 229,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 229
+    },
+    {
+      "issue": 230,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 230
+    },
+    {
+      "issue": 231,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 231
+    },
+    {
+      "issue": 232,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 232
+    },
+    {
+      "issue": 233,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 233
+    },
+    {
+      "issue": 234,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 234
+    },
+    {
+      "issue": 235,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 235
+    },
+    {
+      "issue": 236,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 236
+    },
+    {
+      "issue": 237,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 237
+    },
+    {
+      "issue": 238,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 238
+    },
+    {
+      "issue": 239,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 239
+    },
+    {
+      "issue": 240,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 240
+    },
+    {
+      "issue": 241,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 241
+    },
+    {
+      "issue": 242,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 242
+    },
+    {
+      "issue": 243,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 243
+    },
+    {
+      "issue": 244,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 244
+    },
+    {
+      "issue": 245,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 245
+    },
+    {
+      "issue": 246,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 246
+    },
+    {
+      "issue": 247,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 247
+    },
+    {
+      "issue": 248,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 248
+    },
+    {
+      "issue": 249,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 249
+    },
+    {
+      "issue": 250,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 250
+    },
+    {
+      "issue": 251,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 251
+    },
+    {
+      "issue": 252,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 252
+    },
+    {
+      "issue": 253,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 253
+    },
+    {
+      "issue": 254,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 254
+    },
+    {
+      "issue": 255,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 255
+    },
+    {
+      "issue": 256,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 256
+    },
+    {
+      "issue": 257,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 257
+    },
+    {
+      "issue": 258,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 258
+    },
+    {
+      "issue": 259,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 259
+    },
+    {
+      "issue": 260,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 260
+    },
+    {
+      "issue": 261,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 261
+    },
+    {
+      "issue": 262,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 262
+    },
+    {
+      "issue": 263,
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
+      "chronologicalPosition": 263
     }
   ],
   "groups": [
@@ -4363,65 +4314,42 @@
       "id": "Black_Hand_(Earth-616)",
       "name": "The Black Hand Gang",
       "url": "https://marvel.fandom.com/wiki/Black_Hand_(Earth-616)",
-      "appearances": [
-        9,
-        10
-      ],
+      "appearances": [9, 10],
       "frequency": 2
     },
     {
       "id": "Enforcers_(Earth-616)",
       "name": "Enforcers",
       "url": "https://marvel.fandom.com/wiki/Enforcers_(Earth-616)",
-      "appearances": [
-        19,
-        20
-      ],
+      "appearances": [19, 20],
       "frequency": 2
     },
     {
       "id": "Maggia_(Earth-616)",
       "name": "Maggia",
       "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
-      "appearances": [
-        22,
-        23,
-        24,
-        25,
-        27,
-        28,
-        54,
-        62,
-        64
-      ],
+      "appearances": [22, 23, 24, 25, 27, 28, 54, 62, 64],
       "frequency": 9
     },
     {
       "id": "Dragon_Lords_(White_Dragon%27s_Gang)_(Earth-616)",
       "name": "White Dragon Gang",
       "url": "https://marvel.fandom.com/wiki/Dragon_Lords_(White_Dragon%27s_Gang)_(Earth-616)",
-      "appearances": [
-        49
-      ],
+      "appearances": [49],
       "frequency": 1
     },
     {
       "id": "Wrecking_Crew_(Earth-616)",
       "name": "Wrecking Crew",
       "url": "https://marvel.fandom.com/wiki/Wrecking_Crew_(Earth-616)",
-      "appearances": [
-        125,
-        126
-      ],
+      "appearances": [125, 126],
       "frequency": 2
     },
     {
       "id": "Wild_Pack_(Earth-616)",
       "name": "Wild Pack",
       "url": "https://marvel.fandom.com/wiki/Wild_Pack_(Earth-616)",
-      "appearances": [
-        128
-      ],
+      "appearances": [128],
       "frequency": 1
     }
   ]

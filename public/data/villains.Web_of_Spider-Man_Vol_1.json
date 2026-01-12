@@ -1,11 +1,11 @@
 {
   "series": "Web of Spider-Man Vol 1",
-  "processedAt": "2026-01-11T18:52:09.370Z",
+  "processedAt": "2026-01-12T11:49:56.426Z",
   "stats": {
-    "totalVillains": 193,
+    "totalVillains": 187,
     "mostFrequent": "Hobgoblin",
     "mostFrequentCount": 13,
-    "averageFrequency": 2.08
+    "averageFrequency": 2.09
   },
   "villains": [
     {
@@ -16,9 +16,7 @@
       "imageUrl": "/images/venom-symbiote-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [
-        1
-      ],
+      "appearances": [1],
       "frequency": 1
     },
     {
@@ -29,11 +27,7 @@
       "imageUrl": "/images/vulturions-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [
-        1,
-        2,
-        3
-      ],
+      "appearances": [1, 2, 3],
       "frequency": 3
     },
     {
@@ -44,11 +38,7 @@
       "imageUrl": "/images/honcho-vulturions-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [
-        1,
-        2,
-        3
-      ],
+      "appearances": [1, 2, 3],
       "frequency": 3
     },
     {
@@ -59,11 +49,7 @@
       "imageUrl": "/images/gripes-vulturions-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [
-        1,
-        2,
-        3
-      ],
+      "appearances": [1, 2, 3],
       "frequency": 3
     },
     {
@@ -74,11 +60,7 @@
       "imageUrl": "/images/pigeon-vulturions-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [
-        1,
-        2,
-        3
-      ],
+      "appearances": [1, 2, 3],
       "frequency": 3
     },
     {
@@ -89,37 +71,18 @@
       "imageUrl": "/images/sugar-face-vulturions-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [
-        1,
-        2,
-        3
-      ],
+      "appearances": [1, 2, 3],
       "frequency": 3
     },
     {
       "id": "Wilson_Fisk_(Earth-616)",
       "name": "Kingpin",
-      "aliases": [
-        "The Kingpin"
-      ],
+      "aliases": ["The Kingpin"],
       "url": "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
       "imageUrl": "/images/wilson-fisk-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 2,
-      "appearances": [
-        2,
-        6,
-        30,
-        48,
-        53,
-        54,
-        55,
-        60,
-        65,
-        84,
-        85,
-        86
-      ],
+      "appearances": [2, 6, 30, 48, 53, 54, 55, 60, 65, 84, 85, 86],
       "frequency": 12
     },
     {
@@ -130,12 +93,7 @@
       "imageUrl": "/images/adrian-toomes-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 3,
-      "appearances": [
-        3,
-        23,
-        24,
-        45
-      ],
+      "appearances": [3, 23, 24, 45],
       "frequency": 4
     },
     {
@@ -146,56 +104,8 @@
       "imageUrl": "/images/otto-octavius-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 4,
-      "appearances": [
-        4,
-        5
-      ],
+      "appearances": [4, 5],
       "frequency": 2
-    },
-    {
-      "id": "Character_Index/L",
-      "name": "Larry",
-      "aliases": [
-        "Lenny"
-      ],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/L",
-      "identitySource": "url",
-      "firstAppearance": 5,
-      "appearances": [
-        5,
-        27
-      ],
-      "frequency": 2
-    },
-    {
-      "id": "Character_Index/M",
-      "name": "Mel",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/M",
-      "identitySource": "url",
-      "firstAppearance": 5,
-      "appearances": [
-        5
-      ],
-      "frequency": 1
-    },
-    {
-      "id": "Character_Index/R",
-      "name": "Roger",
-      "aliases": [
-        "Rollie",
-        "Randolph",
-        "Reuben"
-      ],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/R",
-      "identitySource": "url",
-      "firstAppearance": 5,
-      "appearances": [
-        5,
-        27,
-        28
-      ],
-      "frequency": 3
     },
     {
       "id": "Nightmare_(Earth-616)",
@@ -205,25 +115,18 @@
       "imageUrl": "/images/nightmare-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 7,
-      "appearances": [
-        7
-      ],
+      "appearances": [7],
       "frequency": 1
     },
     {
       "id": "Bruce_Banner_(Earth-616)",
       "name": "Hulk",
-      "aliases": [
-        "The Hulk"
-      ],
+      "aliases": ["The Hulk"],
       "url": "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
       "imageUrl": "/images/bruce-banner-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 7,
-      "appearances": [
-        7,
-        69
-      ],
+      "appearances": [7, 69],
       "frequency": 2
     },
     {
@@ -234,27 +137,18 @@
       "imageUrl": "/images/ludlow-grimes-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 8,
-      "appearances": [
-        8,
-        9
-      ],
+      "appearances": [8, 9],
       "frequency": 2
     },
     {
       "id": "Simon_Steele_(Earth-616)",
       "name": "Simon Steele",
-      "aliases": [
-        "Wolfgang von Lundt"
-      ],
+      "aliases": ["Wolfgang von Lundt"],
       "url": "https://marvel.fandom.com/wiki/Simon_Steele_(Earth-616)",
       "imageUrl": "/images/simon-steele-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 10,
-      "appearances": [
-        10,
-        71,
-        72
-      ],
+      "appearances": [10, 71, 72],
       "frequency": 3
     },
     {
@@ -265,10 +159,7 @@
       "imageUrl": "/images/herman-schultz-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 10,
-      "appearances": [
-        10,
-        109
-      ],
+      "appearances": [10, 109],
       "frequency": 2
     },
     {
@@ -279,9 +170,7 @@
       "imageUrl": "/images/black-fox-thief-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 14,
-      "appearances": [
-        14
-      ],
+      "appearances": [14],
       "frequency": 1
     },
     {
@@ -291,14 +180,7 @@
       "url": "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)",
       "identitySource": "url",
       "firstAppearance": 15,
-      "appearances": [
-        15,
-        91,
-        92,
-        97,
-        98,
-        99
-      ],
+      "appearances": [15, 91, 92, 97, 98, 99],
       "frequency": 6
     },
     {
@@ -309,9 +191,7 @@
       "imageUrl": "/images/nicholas-powell-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 15,
-      "appearances": [
-        15
-      ],
+      "appearances": [15],
       "frequency": 1
     },
     {
@@ -322,32 +202,18 @@
       "imageUrl": "/images/foreigner-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 15,
-      "appearances": [
-        15,
-        92,
-        93,
-        97,
-        98,
-        99
-      ],
+      "appearances": [15, 92, 93, 97, 98, 99],
       "frequency": 6
     },
     {
       "id": "Roxxon_Energy_Corporation_(Earth-616)",
       "name": "Roxxon",
-      "aliases": [
-        "Roxxon Company"
-      ],
+      "aliases": ["Roxxon Company"],
       "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
       "imageUrl": "/images/roxxon-energy-corporation-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 16,
-      "appearances": [
-        16,
-        17,
-        20,
-        22
-      ],
+      "appearances": [16, 17, 20, 22],
       "frequency": 4
     },
     {
@@ -358,11 +224,7 @@
       "imageUrl": "/images/jonathan-darque-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 16,
-      "appearances": [
-        16,
-        17,
-        18
-      ],
+      "appearances": [16, 17, 18],
       "frequency": 3
     },
     {
@@ -373,9 +235,7 @@
       "imageUrl": "/images/medgar-dupaul-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 18,
-      "appearances": [
-        18
-      ],
+      "appearances": [18],
       "frequency": 1
     },
     {
@@ -386,26 +246,18 @@
       "imageUrl": "/images/buchanan-mitty-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 19,
-      "appearances": [
-        19
-      ],
+      "appearances": [19],
       "frequency": 1
     },
     {
       "id": "Irish_Republican_Army_(Earth-616)",
       "name": "IRA",
-      "aliases": [
-        "Irish Republican Army"
-      ],
+      "aliases": ["Irish Republican Army"],
       "url": "https://marvel.fandom.com/wiki/Irish_Republican_Army_(Earth-616)",
       "imageUrl": "/images/irish-republican-army-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 19,
-      "appearances": [
-        19,
-        20,
-        22
-      ],
+      "appearances": [19, 20, 22],
       "frequency": 3
     },
     {
@@ -416,23 +268,7 @@
       "imageUrl": "/images/sean-dunne-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 20,
-      "appearances": [
-        20
-      ],
-      "frequency": 1
-    },
-    {
-      "id": "Character_Index/P",
-      "name": "Paddy",
-      "aliases": [
-        "Patrick"
-      ],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/P",
-      "identitySource": "url",
-      "firstAppearance": 20,
-      "appearances": [
-        20
-      ],
+      "appearances": [20],
       "frequency": 1
     },
     {
@@ -443,9 +279,7 @@
       "imageUrl": "/images/ron-corbett-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 21,
-      "appearances": [
-        21
-      ],
+      "appearances": [21],
       "frequency": 1
     },
     {
@@ -456,9 +290,7 @@
       "imageUrl": "/images/bill-corbett-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 21,
-      "appearances": [
-        21
-      ],
+      "appearances": [21],
       "frequency": 1
     },
     {
@@ -469,23 +301,17 @@
       "imageUrl": "/images/ian-forbes-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 22,
-      "appearances": [
-        22
-      ],
+      "appearances": [22],
       "frequency": 1
     },
     {
       "id": "Roxxon_Energy_Corporation_(Earth-616)/Members",
       "name": "Dr. Fahley",
-      "aliases": [
-        "Marty"
-      ],
+      "aliases": ["Marty"],
       "url": "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)/Members",
       "identitySource": "url",
       "firstAppearance": 22,
-      "appearances": [
-        22
-      ],
+      "appearances": [22],
       "frequency": 1
     },
     {
@@ -496,9 +322,7 @@
       "imageUrl": "/images/black-hoods-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 22,
-      "appearances": [
-        22
-      ],
+      "appearances": [22],
       "frequency": 1
     },
     {
@@ -509,9 +333,7 @@
       "imageUrl": "/images/rory-magill-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 22,
-      "appearances": [
-        22
-      ],
+      "appearances": [22],
       "frequency": 1
     },
     {
@@ -522,9 +344,7 @@
       "imageUrl": "/images/duncan-o-27neill-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 22,
-      "appearances": [
-        22
-      ],
+      "appearances": [22],
       "frequency": 1
     },
     {
@@ -535,9 +355,7 @@
       "imageUrl": "/images/jalome-beacher-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 23,
-      "appearances": [
-        23
-      ],
+      "appearances": [23],
       "frequency": 1
     },
     {
@@ -548,52 +366,29 @@
       "imageUrl": "/images/edward-leeds-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 24,
-      "appearances": [
-        24
-      ],
+      "appearances": [24],
       "frequency": 1
     },
     {
       "id": "Richard_Fisk_(Earth-616)",
       "name": "The Rose",
-      "aliases": [
-        "Richard Fisk",
-        "Blood Rose"
-      ],
+      "aliases": ["Richard Fisk", "Blood Rose"],
       "url": "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
       "imageUrl": "/images/richard-fisk-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 24,
-      "appearances": [
-        24,
-        29,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        97,
-        98,
-        99
-      ],
+      "appearances": [24, 29, 84, 85, 86, 87, 88, 89, 97, 98, 99],
       "frequency": 11
     },
     {
       "id": "Edward_Brock_(Earth-616)",
       "name": "Venom",
-      "aliases": [
-        "Eddie Brock"
-      ],
+      "aliases": ["Eddie Brock"],
       "url": "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
       "imageUrl": "/images/edward-brock-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 24,
-      "appearances": [
-        24,
-        118,
-        119
-      ],
+      "appearances": [24, 118, 119],
       "frequency": 3
     },
     {
@@ -604,9 +399,7 @@
       "imageUrl": "/images/xanja-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 25,
-      "appearances": [
-        25
-      ],
+      "appearances": [25],
       "frequency": 1
     },
     {
@@ -617,9 +410,7 @@
       "imageUrl": "/images/arnie-strunk-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 25,
-      "appearances": [
-        25
-      ],
+      "appearances": [25],
       "frequency": 1
     },
     {
@@ -630,9 +421,7 @@
       "imageUrl": "/images/willard-stein-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 26,
-      "appearances": [
-        26
-      ],
+      "appearances": [26],
       "frequency": 1
     },
     {
@@ -643,9 +432,7 @@
       "imageUrl": "/images/gunther-stein-criminal-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 26,
-      "appearances": [
-        26
-      ],
+      "appearances": [26],
       "frequency": 1
     },
     {
@@ -656,9 +443,7 @@
       "imageUrl": "/images/executive-services-inc-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 27,
-      "appearances": [
-        27
-      ],
+      "appearances": [27],
       "frequency": 1
     },
     {
@@ -669,21 +454,7 @@
       "imageUrl": "/images/headhunter-executive-services-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 27,
-      "appearances": [
-        27
-      ],
-      "frequency": 1
-    },
-    {
-      "id": "Character_Index/H",
-      "name": "Hershel",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/H",
-      "identitySource": "url",
-      "firstAppearance": 28,
-      "appearances": [
-        28
-      ],
+      "appearances": [27],
       "frequency": 1
     },
     {
@@ -694,9 +465,7 @@
       "imageUrl": "/images/milicent-peabody-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 28,
-      "appearances": [
-        28
-      ],
+      "appearances": [28],
       "frequency": 1
     },
     {
@@ -707,21 +476,7 @@
       "imageUrl": "/images/jason-macendale-jr-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 29,
-      "appearances": [
-        29,
-        38,
-        47,
-        48,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        93,
-        94,
-        95
-      ],
+      "appearances": [29, 38, 47, 48, 84, 85, 86, 87, 88, 89, 93, 94, 95],
       "frequency": 13
     },
     {
@@ -732,17 +487,7 @@
       "imageUrl": "/images/oswald-silkworth-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 29,
-      "appearances": [
-        29,
-        33,
-        38,
-        48,
-        50,
-        51,
-        53,
-        54,
-        55
-      ],
+      "appearances": [29, 33, 38, 48, 50, 51, 53, 54, 55],
       "frequency": 9
     },
     {
@@ -753,10 +498,7 @@
       "imageUrl": "/images/sergei-kravinoff-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 31,
-      "appearances": [
-        31,
-        32
-      ],
+      "appearances": [31, 32],
       "frequency": 2
     },
     {
@@ -767,9 +509,7 @@
       "imageUrl": "/images/doctor-hope-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 33,
-      "appearances": [
-        33
-      ],
+      "appearances": [33],
       "frequency": 1
     },
     {
@@ -780,9 +520,7 @@
       "imageUrl": "/images/a-27sai-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 34,
-      "appearances": [
-        34
-      ],
+      "appearances": [34],
       "frequency": 1
     },
     {
@@ -793,9 +531,7 @@
       "imageUrl": "/images/living-brain-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 35,
-      "appearances": [
-        35
-      ],
+      "appearances": [35],
       "frequency": 1
     },
     {
@@ -806,10 +542,7 @@
       "imageUrl": "/images/luis-alvarez-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 35,
-      "appearances": [
-        35,
-        36
-      ],
+      "appearances": [35, 36],
       "frequency": 2
     },
     {
@@ -820,9 +553,7 @@
       "imageUrl": "/images/general-ramone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 35,
-      "appearances": [
-        35
-      ],
+      "appearances": [35],
       "frequency": 1
     },
     {
@@ -833,9 +564,7 @@
       "imageUrl": "/images/steven-petty-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 36,
-      "appearances": [
-        36
-      ],
+      "appearances": [36],
       "frequency": 1
     },
     {
@@ -846,14 +575,7 @@
       "imageUrl": "/images/alonzo-lincoln-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 36,
-      "appearances": [
-        36,
-        38,
-        66,
-        67,
-        68,
-        120
-      ],
+      "appearances": [36, 38, 66, 67, 68, 120],
       "frequency": 6
     },
     {
@@ -864,9 +586,7 @@
       "imageUrl": "/images/elyse-nelson-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 37,
-      "appearances": [
-        37
-      ],
+      "appearances": [37],
       "frequency": 1
     },
     {
@@ -877,42 +597,18 @@
       "imageUrl": "/images/norton-fester-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 39,
-      "appearances": [
-        39
-      ],
+      "appearances": [39],
       "frequency": 1
     },
     {
       "id": "Students_of_Love_(Earth-616)",
       "name": "Cult of Love",
-      "aliases": [
-        "Students of Love"
-      ],
+      "aliases": ["Students of Love"],
       "url": "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
       "imageUrl": "/images/students-of-love-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 40,
-      "appearances": [
-        40,
-        41,
-        42,
-        43
-      ],
-      "frequency": 4
-    },
-    {
-      "id": "Character_Index/B",
-      "name": "Brother Bruce",
-      "aliases": [],
-      "url": "https://marvel.fandom.com/wiki/Character_Index/B",
-      "identitySource": "url",
-      "firstAppearance": 40,
-      "appearances": [
-        40,
-        41,
-        42,
-        43
-      ],
+      "appearances": [40, 41, 42, 43],
       "frequency": 4
     },
     {
@@ -923,11 +619,7 @@
       "imageUrl": "/images/teacher-students-of-love-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 41,
-      "appearances": [
-        41,
-        42,
-        43
-      ],
+      "appearances": [41, 42, 43],
       "frequency": 3
     },
     {
@@ -938,9 +630,7 @@
       "imageUrl": "/images/warzone-cyborgs-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 44,
-      "appearances": [
-        44
-      ],
+      "appearances": [44],
       "frequency": 1
     },
     {
@@ -951,9 +641,7 @@
       "imageUrl": "/images/alpha-warzone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 44,
-      "appearances": [
-        44
-      ],
+      "appearances": [44],
       "frequency": 1
     },
     {
@@ -964,9 +652,7 @@
       "imageUrl": "/images/bravo-warzone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 44,
-      "appearances": [
-        44
-      ],
+      "appearances": [44],
       "frequency": 1
     },
     {
@@ -977,9 +663,7 @@
       "imageUrl": "/images/charlie-warzone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 44,
-      "appearances": [
-        44
-      ],
+      "appearances": [44],
       "frequency": 1
     },
     {
@@ -990,9 +674,7 @@
       "imageUrl": "/images/delta-warzone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 44,
-      "appearances": [
-        44
-      ],
+      "appearances": [44],
       "frequency": 1
     },
     {
@@ -1003,9 +685,7 @@
       "imageUrl": "/images/morris-diamond-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 45,
-      "appearances": [
-        45
-      ],
+      "appearances": [45],
       "frequency": 1
     },
     {
@@ -1016,27 +696,18 @@
       "imageUrl": "/images/nekra-sinclair-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 46,
-      "appearances": [
-        46
-      ],
+      "appearances": [46],
       "frequency": 1
     },
     {
       "id": "Curtis_Connors_(Earth-616)",
       "name": "Lizard",
-      "aliases": [
-        "The Lizard"
-      ],
+      "aliases": ["The Lizard"],
       "url": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
       "imageUrl": "/images/curtis-connors-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 48,
-      "appearances": [
-        48,
-        109,
-        110,
-        111
-      ],
+      "appearances": [48, 109, 110, 111],
       "frequency": 4
     },
     {
@@ -1047,17 +718,7 @@
       "imageUrl": "/images/dmitri-smerdyakov-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 50,
-      "appearances": [
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        64,
-        65,
-        112
-      ],
+      "appearances": [50, 51, 52, 53, 54, 55, 64, 65, 112],
       "frequency": 9
     },
     {
@@ -1068,12 +729,7 @@
       "imageUrl": "/images/lobo-cartel-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 50,
-      "appearances": [
-        50,
-        53,
-        54,
-        55
-      ],
+      "appearances": [50, 53, 54, 55],
       "frequency": 4
     },
     {
@@ -1084,13 +740,7 @@
       "imageUrl": "/images/eduardo-lobo-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 50,
-      "appearances": [
-        50,
-        51,
-        53,
-        54,
-        55
-      ],
+      "appearances": [50, 51, 53, 54, 55],
       "frequency": 5
     },
     {
@@ -1101,12 +751,7 @@
       "imageUrl": "/images/carlos-lobo-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 50,
-      "appearances": [
-        50,
-        53,
-        54,
-        55
-      ],
+      "appearances": [50, 53, 54, 55],
       "frequency": 4
     },
     {
@@ -1117,13 +762,7 @@
       "imageUrl": "/images/hammerhead-joseph-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 51,
-      "appearances": [
-        51,
-        53,
-        55,
-        67,
-        68
-      ],
+      "appearances": [51, 53, 55, 67, 68],
       "frequency": 5
     },
     {
@@ -1134,9 +773,7 @@
       "imageUrl": "/images/new-york-city-police-department-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 52,
-      "appearances": [
-        52
-      ],
+      "appearances": [52],
       "frequency": 1
     },
     {
@@ -1147,9 +784,7 @@
       "imageUrl": "/images/michael-o-27hill-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 52,
-      "appearances": [
-        52
-      ],
+      "appearances": [52],
       "frequency": 1
     },
     {
@@ -1160,10 +795,7 @@
       "imageUrl": "/images/edward-cross-skinhead-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 56,
-      "appearances": [
-        56,
-        57
-      ],
+      "appearances": [56, 57],
       "frequency": 2
     },
     {
@@ -1174,9 +806,7 @@
       "imageUrl": "/images/maxwell-markham-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 58,
-      "appearances": [
-        58
-      ],
+      "appearances": [58],
       "frequency": 1
     },
     {
@@ -1187,10 +817,7 @@
       "imageUrl": "/images/phineas-mason-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 58,
-      "appearances": [
-        58,
-        79
-      ],
+      "appearances": [58, 79],
       "frequency": 2
     },
     {
@@ -1201,11 +828,7 @@
       "imageUrl": "/images/mary-macpherran-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 59,
-      "appearances": [
-        59,
-        64,
-        65
-      ],
+      "appearances": [59, 64, 65],
       "frequency": 3
     },
     {
@@ -1216,10 +839,7 @@
       "imageUrl": "/images/victor-von-doom-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 59,
-      "appearances": [
-        59,
-        60
-      ],
+      "appearances": [59, 60],
       "frequency": 2
     },
     {
@@ -1230,11 +850,7 @@
       "imageUrl": "/images/erik-josten-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 60,
-      "appearances": [
-        60,
-        64,
-        65
-      ],
+      "appearances": [60, 64, 65],
       "frequency": 3
     },
     {
@@ -1245,9 +861,7 @@
       "imageUrl": "/images/max-eisenhardt-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 60,
-      "appearances": [
-        60
-      ],
+      "appearances": [60],
       "frequency": 1
     },
     {
@@ -1258,9 +872,7 @@
       "imageUrl": "/images/bentley-wittman-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 61,
-      "appearances": [
-        61
-      ],
+      "appearances": [61],
       "frequency": 1
     },
     {
@@ -1271,11 +883,7 @@
       "imageUrl": "/images/draconus-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 61,
-      "appearances": [
-        61,
-        99,
-        100
-      ],
+      "appearances": [61, 99, 100],
       "frequency": 3
     },
     {
@@ -1286,25 +894,18 @@
       "imageUrl": "/images/mark-raxton-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 62,
-      "appearances": [
-        62
-      ],
+      "appearances": [62],
       "frequency": 1
     },
     {
       "id": "Alan_Fagan_(Earth-616)",
       "name": "Mister Fear",
-      "aliases": [
-        "Mr. Fear"
-      ],
+      "aliases": ["Mr. Fear"],
       "url": "https://marvel.fandom.com/wiki/Alan_Fagan_(Earth-616)",
       "imageUrl": "/images/alan-fagan-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 63,
-      "appearances": [
-        63,
-        100
-      ],
+      "appearances": [63, 100],
       "frequency": 2
     },
     {
@@ -1315,10 +916,7 @@
       "imageUrl": "/images/peter-petruski-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 64,
-      "appearances": [
-        64,
-        65
-      ],
+      "appearances": [64, 65],
       "frequency": 2
     },
     {
@@ -1329,10 +927,7 @@
       "imageUrl": "/images/percy-26-barton-grimes-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 64,
-      "appearances": [
-        64,
-        65
-      ],
+      "appearances": [64, 65],
       "frequency": 2
     },
     {
@@ -1343,10 +938,7 @@
       "imageUrl": "/images/franklin-hall-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 64,
-      "appearances": [
-        64,
-        65
-      ],
+      "appearances": [64, 65],
       "frequency": 2
     },
     {
@@ -1357,9 +949,7 @@
       "imageUrl": "/images/harold-osborn-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 67,
-      "appearances": [
-        67
-      ],
+      "appearances": [67],
       "frequency": 1
     },
     {
@@ -1370,9 +960,7 @@
       "imageUrl": "/images/armand-jones-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 69,
-      "appearances": [
-        69
-      ],
+      "appearances": [69],
       "frequency": 1
     },
     {
@@ -1383,10 +971,7 @@
       "imageUrl": "/images/elena-von-lundt-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 71,
-      "appearances": [
-        71,
-        72
-      ],
+      "appearances": [71, 72],
       "frequency": 2
     },
     {
@@ -1397,9 +982,7 @@
       "imageUrl": "/images/yiorgos-krallis-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 72,
-      "appearances": [
-        72
-      ],
+      "appearances": [72],
       "frequency": 1
     },
     {
@@ -1410,9 +993,7 @@
       "imageUrl": "/images/headmen-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 73,
-      "appearances": [
-        73
-      ],
+      "appearances": [73],
       "frequency": 1
     },
     {
@@ -1423,9 +1004,7 @@
       "imageUrl": "/images/arthur-nagan-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 73,
-      "appearances": [
-        73
-      ],
+      "appearances": [73],
       "frequency": 1
     },
     {
@@ -1436,9 +1015,7 @@
       "imageUrl": "/images/jerold-morgan-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 73,
-      "appearances": [
-        73
-      ],
+      "appearances": [73],
       "frequency": 1
     },
     {
@@ -1449,9 +1026,7 @@
       "imageUrl": "/images/harvey-schlemerman-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 73,
-      "appearances": [
-        73
-      ],
+      "appearances": [73],
       "frequency": 1
     },
     {
@@ -1462,9 +1037,7 @@
       "imageUrl": "/images/thursday-rubinstein-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 73,
-      "appearances": [
-        73
-      ],
+      "appearances": [73],
       "frequency": 1
     },
     {
@@ -1475,11 +1048,7 @@
       "imageUrl": "/images/wilhelm-van-vile-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 74,
-      "appearances": [
-        74,
-        75,
-        76
-      ],
+      "appearances": [74, 75, 76],
       "frequency": 3
     },
     {
@@ -1490,11 +1059,7 @@
       "imageUrl": "/images/anzhela-federova-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 74,
-      "appearances": [
-        74,
-        75,
-        76
-      ],
+      "appearances": [74, 75, 76],
       "frequency": 3
     },
     {
@@ -1505,11 +1070,7 @@
       "imageUrl": "/images/myron-schmertz-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 74,
-      "appearances": [
-        74,
-        75,
-        76
-      ],
+      "appearances": [74, 75, 76],
       "frequency": 3
     },
     {
@@ -1520,11 +1081,7 @@
       "imageUrl": "/images/cockroaches.jpg",
       "identitySource": "url",
       "firstAppearance": 74,
-      "appearances": [
-        74,
-        75,
-        76
-      ],
+      "appearances": [74, 75, 76],
       "frequency": 3
     },
     {
@@ -1535,10 +1092,7 @@
       "imageUrl": "/images/russell-broxtel-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 77,
-      "appearances": [
-        77,
-        78
-      ],
+      "appearances": [77, 78],
       "frequency": 2
     },
     {
@@ -1549,10 +1103,7 @@
       "imageUrl": "/images/silvio-manfredi-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 79,
-      "appearances": [
-        79,
-        80
-      ],
+      "appearances": [79, 80],
       "frequency": 2
     },
     {
@@ -1563,10 +1114,7 @@
       "imageUrl": "/images/ripster-android-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 79,
-      "appearances": [
-        79,
-        80
-      ],
+      "appearances": [79, 80],
       "frequency": 2
     },
     {
@@ -1577,9 +1125,7 @@
       "imageUrl": "/images/slambeaux-android-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 79,
-      "appearances": [
-        79
-      ],
+      "appearances": [79],
       "frequency": 1
     },
     {
@@ -1590,9 +1136,7 @@
       "imageUrl": "/images/twit-android-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 79,
-      "appearances": [
-        79
-      ],
+      "appearances": [79],
       "frequency": 1
     },
     {
@@ -1603,9 +1147,7 @@
       "imageUrl": "/images/purty-larry-android-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 79,
-      "appearances": [
-        79
-      ],
+      "appearances": [79],
       "frequency": 1
     },
     {
@@ -1616,9 +1158,7 @@
       "imageUrl": "/images/silvija-sablinova-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 79,
-      "appearances": [
-        79
-      ],
+      "appearances": [79],
       "frequency": 1
     },
     {
@@ -1629,9 +1169,7 @@
       "imageUrl": "/images/kenuichio-harada-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 79,
-      "appearances": [
-        79
-      ],
+      "appearances": [79],
       "frequency": 1
     },
     {
@@ -1642,9 +1180,7 @@
       "imageUrl": "/images/wyndell-dickinson-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 81,
-      "appearances": [
-        81
-      ],
+      "appearances": [81],
       "frequency": 1
     },
     {
@@ -1655,9 +1191,7 @@
       "imageUrl": "/images/michael-marko-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 82,
-      "appearances": [
-        82
-      ],
+      "appearances": [82],
       "frequency": 1
     },
     {
@@ -1668,9 +1202,7 @@
       "imageUrl": "/images/snaky-duvall-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 82,
-      "appearances": [
-        82
-      ],
+      "appearances": [82],
       "frequency": 1
     },
     {
@@ -1681,32 +1213,18 @@
       "imageUrl": "/images/hypertron-1-0-chester-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 83,
-      "appearances": [
-        83
-      ],
+      "appearances": [83],
       "frequency": 1
     },
     {
       "id": "Alfredo_Morelli_(Earth-616)",
       "name": "Richard Fisk",
-      "aliases": [
-        "Alfredo Morelli",
-        "Kingpin"
-      ],
+      "aliases": ["Alfredo Morelli", "Kingpin"],
       "url": "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)",
       "imageUrl": "/images/alfredo-morelli-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 84,
-      "appearances": [
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        97,
-        98
-      ],
+      "appearances": [84, 85, 86, 87, 88, 89, 97, 98],
       "frequency": 8
     },
     {
@@ -1717,11 +1235,7 @@
       "imageUrl": "/images/rose-blume-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 84,
-      "appearances": [
-        84,
-        86,
-        88
-      ],
+      "appearances": [84, 86, 88],
       "frequency": 3
     },
     {
@@ -1732,9 +1246,7 @@
       "imageUrl": "/images/triad-brothers-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 85,
-      "appearances": [
-        85
-      ],
+      "appearances": [85],
       "frequency": 1
     },
     {
@@ -1745,9 +1257,7 @@
       "imageUrl": "/images/deathwatch-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 85,
-      "appearances": [
-        85
-      ],
+      "appearances": [85],
       "frequency": 1
     },
     {
@@ -1758,16 +1268,7 @@
       "imageUrl": "/images/demogoblin-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 86,
-      "appearances": [
-        86,
-        87,
-        94,
-        95,
-        96,
-        101,
-        102,
-        103
-      ],
+      "appearances": [86, 87, 94, 95, 96, 101, 102, 103],
       "frequency": 8
     },
     {
@@ -1778,10 +1279,7 @@
       "imageUrl": "/images/praetorian-guard-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 87,
-      "appearances": [
-        87,
-        89
-      ],
+      "appearances": [87, 89],
       "frequency": 2
     },
     {
@@ -1792,9 +1290,7 @@
       "imageUrl": "/images/quentin-beck-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 90,
-      "appearances": [
-        90
-      ],
+      "appearances": [90],
       "frequency": 1
     },
     {
@@ -1805,41 +1301,29 @@
       "imageUrl": "/images/simon-maddicks-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 91,
-      "appearances": [
-        91
-      ],
+      "appearances": [91],
       "frequency": 1
     },
     {
       "id": "Pulse_(Death_Squad)_(Earth-616)",
       "name": "Pulse-2",
-      "aliases": [
-        "Pulse-3"
-      ],
+      "aliases": ["Pulse-3"],
       "url": "https://marvel.fandom.com/wiki/Pulse_(Death_Squad)_(Earth-616)",
       "imageUrl": "/images/pulse-death-squad-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 91,
-      "appearances": [
-        91,
-        92
-      ],
+      "appearances": [91, 92],
       "frequency": 2
     },
     {
       "id": "Whisper_(Death_Squad)_(Earth-616)",
       "name": "Whisper-3",
-      "aliases": [
-        "Whisper-4"
-      ],
+      "aliases": ["Whisper-4"],
       "url": "https://marvel.fandom.com/wiki/Whisper_(Death_Squad)_(Earth-616)",
       "imageUrl": "/images/whisper-death-squad-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 91,
-      "appearances": [
-        91,
-        92
-      ],
+      "appearances": [91, 92],
       "frequency": 2
     },
     {
@@ -1850,9 +1334,7 @@
       "imageUrl": "/images/swift-1-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 92,
-      "appearances": [
-        92
-      ],
+      "appearances": [92],
       "frequency": 1
     },
     {
@@ -1863,30 +1345,18 @@
       "imageUrl": "/images/warfare-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 92,
-      "appearances": [
-        92
-      ],
+      "appearances": [92],
       "frequency": 1
     },
     {
       "id": "Doppelganger_(Spider-Man)_(Earth-616)",
       "name": "Spider-Doppelganger",
-      "aliases": [
-        "Spider-Man Doppelganger"
-      ],
+      "aliases": ["Spider-Man Doppelganger"],
       "url": "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
       "imageUrl": "/images/doppelganger-spider-man-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 94,
-      "appearances": [
-        94,
-        95,
-        96,
-        98,
-        101,
-        102,
-        103
-      ],
+      "appearances": [94, 95, 96, 98, 101, 102, 103],
       "frequency": 7
     },
     {
@@ -1897,10 +1367,7 @@
       "imageUrl": "/images/hag-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 94,
-      "appearances": [
-        94,
-        95
-      ],
+      "appearances": [94, 95],
       "frequency": 2
     },
     {
@@ -1911,10 +1378,7 @@
       "imageUrl": "/images/troll-deathwatch-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 94,
-      "appearances": [
-        94,
-        95
-      ],
+      "appearances": [94, 95],
       "frequency": 2
     },
     {
@@ -1925,10 +1389,7 @@
       "imageUrl": "/images/deathspawn.jpg",
       "identitySource": "url",
       "firstAppearance": 95,
-      "appearances": [
-        95,
-        96
-      ],
+      "appearances": [95, 96],
       "frequency": 2
     },
     {
@@ -1939,10 +1400,7 @@
       "imageUrl": "/images/cyber-hunters-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 97,
-      "appearances": [
-        97,
-        98
-      ],
+      "appearances": [97, 98],
       "frequency": 2
     },
     {
@@ -1953,11 +1411,7 @@
       "imageUrl": "/images/jaime-zimmerman-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 98,
-      "appearances": [
-        98,
-        99,
-        100
-      ],
+      "appearances": [98, 99, 100],
       "frequency": 3
     },
     {
@@ -1968,11 +1422,7 @@
       "imageUrl": "/images/edward-lavell-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 98,
-      "appearances": [
-        98,
-        99,
-        100
-      ],
+      "appearances": [98, 99, 100],
       "frequency": 3
     },
     {
@@ -1983,11 +1433,7 @@
       "imageUrl": "/images/vanisher-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 98,
-      "appearances": [
-        98,
-        99,
-        100
-      ],
+      "appearances": [98, 99, 100],
       "frequency": 3
     },
     {
@@ -1998,10 +1444,7 @@
       "imageUrl": "/images/dreadnought-robot.jpg",
       "identitySource": "url",
       "firstAppearance": 99,
-      "appearances": [
-        99,
-        100
-      ],
+      "appearances": [99, 100],
       "frequency": 2
     },
     {
@@ -2012,10 +1455,7 @@
       "imageUrl": "/images/sunset-bain-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 99,
-      "appearances": [
-        99,
-        100
-      ],
+      "appearances": [99, 100],
       "frequency": 2
     },
     {
@@ -2026,9 +1466,7 @@
       "imageUrl": "/images/gina-palumbo-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 100,
-      "appearances": [
-        100
-      ],
+      "appearances": [100],
       "frequency": 1
     },
     {
@@ -2039,9 +1477,7 @@
       "imageUrl": "/images/samuel-smithers-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 100,
-      "appearances": [
-        100
-      ],
+      "appearances": [100],
       "frequency": 1
     },
     {
@@ -2052,9 +1488,7 @@
       "imageUrl": "/images/sam-yurimoto-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 100,
-      "appearances": [
-        100
-      ],
+      "appearances": [100],
       "frequency": 1
     },
     {
@@ -2065,9 +1499,7 @@
       "imageUrl": "/images/marvin-flumm-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 100,
-      "appearances": [
-        100
-      ],
+      "appearances": [100],
       "frequency": 1
     },
     {
@@ -2078,9 +1510,7 @@
       "imageUrl": "/images/norbert-ebersol-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 100,
-      "appearances": [
-        100
-      ],
+      "appearances": [100],
       "frequency": 1
     },
     {
@@ -2091,9 +1521,7 @@
       "imageUrl": "/images/advanced-idea-mechanics-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 100,
-      "appearances": [
-        100
-      ],
+      "appearances": [100],
       "frequency": 1
     },
     {
@@ -2104,9 +1532,7 @@
       "imageUrl": "/images/cletus-kasady-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 101,
-      "appearances": [
-        101
-      ],
+      "appearances": [101],
       "frequency": 1
     },
     {
@@ -2117,11 +1543,7 @@
       "imageUrl": "/images/frances-barrison-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 101,
-      "appearances": [
-        101,
-        102,
-        103
-      ],
+      "appearances": [101, 102, 103],
       "frequency": 3
     },
     {
@@ -2132,10 +1554,7 @@
       "imageUrl": "/images/carnage-symbiote-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 102,
-      "appearances": [
-        102,
-        103
-      ],
+      "appearances": [102, 103],
       "frequency": 2
     },
     {
@@ -2146,10 +1565,7 @@
       "imageUrl": "/images/malcolm-mcbride-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 102,
-      "appearances": [
-        102,
-        103
-      ],
+      "appearances": [102, 103],
       "frequency": 2
     },
     {
@@ -2160,10 +1576,7 @@
       "imageUrl": "/images/goddess-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 104,
-      "appearances": [
-        104,
-        105
-      ],
+      "appearances": [104, 105],
       "frequency": 2
     },
     {
@@ -2174,10 +1587,7 @@
       "imageUrl": "/images/heather-douglas-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 104,
-      "appearances": [
-        104,
-        105
-      ],
+      "appearances": [104, 105],
       "frequency": 2
     },
     {
@@ -2188,11 +1598,7 @@
       "imageUrl": "/images/daniel-davis-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 104,
-      "appearances": [
-        104,
-        105,
-        106
-      ],
+      "appearances": [104, 105, 106],
       "frequency": 3
     },
     {
@@ -2203,9 +1609,7 @@
       "imageUrl": "/images/pietro-maximoff-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2216,9 +1620,7 @@
       "imageUrl": "/images/wanda-maximoff-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2229,9 +1631,7 @@
       "imageUrl": "/images/thor-odinson-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2242,9 +1642,7 @@
       "imageUrl": "/images/james-madrox-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2255,9 +1653,7 @@
       "imageUrl": "/images/walter-langkowski-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2268,9 +1664,7 @@
       "imageUrl": "/images/gamora-zen-whoberi-ben-titan-earth-7528.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2281,9 +1675,7 @@
       "imageUrl": "/images/marc-spector-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2294,9 +1686,7 @@
       "imageUrl": "/images/susan-storm-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2307,9 +1697,7 @@
       "imageUrl": "/images/warren-worthington-iii-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 105,
-      "appearances": [
-        105
-      ],
+      "appearances": [105],
       "frequency": 1
     },
     {
@@ -2320,9 +1708,7 @@
       "imageUrl": "/images/guido-carosella-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 106,
-      "appearances": [
-        106
-      ],
+      "appearances": [106],
       "frequency": 1
     },
     {
@@ -2333,10 +1719,7 @@
       "imageUrl": "/images/angelica-jones-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 106,
-      "appearances": [
-        106,
-        129
-      ],
+      "appearances": [106, 129],
       "frequency": 2
     },
     {
@@ -2347,9 +1730,7 @@
       "imageUrl": "/images/christopher-powell-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 106,
-      "appearances": [
-        106
-      ],
+      "appearances": [106],
       "frequency": 1
     },
     {
@@ -2360,9 +1741,7 @@
       "imageUrl": "/images/anna-marie-lebeau-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 106,
-      "appearances": [
-        106
-      ],
+      "appearances": [106],
       "frequency": 1
     },
     {
@@ -2373,9 +1752,7 @@
       "imageUrl": "/images/benjamin-grimm-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 106,
-      "appearances": [
-        106
-      ],
+      "appearances": [106],
       "frequency": 1
     },
     {
@@ -2386,10 +1763,7 @@
       "imageUrl": "/images/tony-trainer-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 107,
-      "appearances": [
-        107,
-        108
-      ],
+      "appearances": [107, 108],
       "frequency": 2
     },
     {
@@ -2400,10 +1774,7 @@
       "imageUrl": "/images/macdonald-gargan-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 107,
-      "appearances": [
-        107,
-        108
-      ],
+      "appearances": [107, 108],
       "frequency": 2
     },
     {
@@ -2414,9 +1785,7 @@
       "imageUrl": "/images/quicksand-nguyet-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 108,
-      "appearances": [
-        108
-      ],
+      "appearances": [108],
       "frequency": 1
     },
     {
@@ -2427,10 +1796,7 @@
       "imageUrl": "/images/gray-garrison-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 110,
-      "appearances": [
-        110,
-        111
-      ],
+      "appearances": [110, 111],
       "frequency": 2
     },
     {
@@ -2441,12 +1807,7 @@
       "imageUrl": "/images/full-acclimation-combat-and-defence-explo-skeleton-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 113,
-      "appearances": [
-        113,
-        114,
-        115,
-        116
-      ],
+      "appearances": [113, 114, 115, 116],
       "frequency": 4
     },
     {
@@ -2457,9 +1818,7 @@
       "imageUrl": "/images/silencers-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 113,
-      "appearances": [
-        113
-      ],
+      "appearances": [113],
       "frequency": 1
     },
     {
@@ -2469,9 +1828,7 @@
       "url": "https://marvel.fandom.com/wiki/Host_(Judas_Traveller)_(Earth-616)",
       "identitySource": "url",
       "firstAppearance": 117,
-      "appearances": [
-        117
-      ],
+      "appearances": [117],
       "frequency": 1
     },
     {
@@ -2482,9 +1839,7 @@
       "imageUrl": "/images/anjali-sridhara-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 117,
-      "appearances": [
-        117
-      ],
+      "appearances": [117],
       "frequency": 1
     },
     {
@@ -2495,9 +1850,7 @@
       "imageUrl": "/images/morgan-boone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 117,
-      "appearances": [
-        117
-      ],
+      "appearances": [117],
       "frequency": 1
     },
     {
@@ -2508,9 +1861,7 @@
       "imageUrl": "/images/walther-nacht-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 117,
-      "appearances": [
-        117
-      ],
+      "appearances": [117],
       "frequency": 1
     },
     {
@@ -2521,9 +1872,7 @@
       "imageUrl": "/images/medea-kovack-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 117,
-      "appearances": [
-        117
-      ],
+      "appearances": [117],
       "frequency": 1
     },
     {
@@ -2534,9 +1883,7 @@
       "imageUrl": "/images/judas-traveller-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 117,
-      "appearances": [
-        117
-      ],
+      "appearances": [117],
       "frequency": 1
     },
     {
@@ -2547,9 +1894,7 @@
       "imageUrl": "/images/miles-warren-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 117,
-      "appearances": [
-        117
-      ],
+      "appearances": [117],
       "frequency": 1
     },
     {
@@ -2560,9 +1905,7 @@
       "imageUrl": "/images/donna-diego-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 119,
-      "appearances": [
-        119
-      ],
+      "appearances": [119],
       "frequency": 1
     },
     {
@@ -2573,16 +1916,7 @@
       "imageUrl": "/images/kaine-parker-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 119,
-      "appearances": [
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        126,
-        127
-      ],
+      "appearances": [119, 120, 121, 122, 123, 124, 126, 127],
       "frequency": 8
     },
     {
@@ -2593,10 +1927,7 @@
       "imageUrl": "/images/vladimir-kravinoff-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 120,
-      "appearances": [
-        120,
-        121
-      ],
+      "appearances": [120, 121],
       "frequency": 2
     },
     {
@@ -2607,9 +1938,7 @@
       "imageUrl": "/images/assassination-revolution-extortion-and-sabotage-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 120,
-      "appearances": [
-        120
-      ],
+      "appearances": [120],
       "frequency": 1
     },
     {
@@ -2620,10 +1949,7 @@
       "imageUrl": "/images/jack-spider-clone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 122,
-      "appearances": [
-        122,
-        123
-      ],
+      "appearances": [122, 123],
       "frequency": 2
     },
     {
@@ -2634,9 +1960,7 @@
       "imageUrl": "/images/guardian-spider-clone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 122,
-      "appearances": [
-        122
-      ],
+      "appearances": [122],
       "frequency": 1
     },
     {
@@ -2647,10 +1971,7 @@
       "imageUrl": "/images/miles-warren-catskill-mountains-clone-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 123,
-      "appearances": [
-        123,
-        127
-      ],
+      "appearances": [123, 127],
       "frequency": 2
     },
     {
@@ -2661,9 +1982,7 @@
       "imageUrl": "/images/phillip-urich-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 125,
-      "appearances": [
-        125
-      ],
+      "appearances": [125],
       "frequency": 1
     },
     {
@@ -2674,9 +1993,7 @@
       "imageUrl": "/images/d-27spayre-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 128,
-      "appearances": [
-        128
-      ],
+      "appearances": [128],
       "frequency": 1
     },
     {
@@ -2687,9 +2004,7 @@
       "imageUrl": "/images/new-warriors-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 129,
-      "appearances": [
-        129
-      ],
+      "appearances": [129],
       "frequency": 1
     },
     {
@@ -2700,9 +2015,7 @@
       "imageUrl": "/images/benjamin-reilly-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 129,
-      "appearances": [
-        129
-      ],
+      "appearances": [129],
       "frequency": 1
     },
     {
@@ -2713,9 +2026,7 @@
       "imageUrl": "/images/carlton-lafroyge-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 129,
-      "appearances": [
-        129
-      ],
+      "appearances": [129],
       "frequency": 1
     },
     {
@@ -2726,9 +2037,7 @@
       "imageUrl": "/images/vance-astrovik-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 129,
-      "appearances": [
-        129
-      ],
+      "appearances": [129],
       "frequency": 1
     },
     {
@@ -2739,9 +2048,7 @@
       "imageUrl": "/images/darrion-grobe-earth-9485.jpg",
       "identitySource": "url",
       "firstAppearance": 129,
-      "appearances": [
-        129
-      ],
+      "appearances": [129],
       "frequency": 1
     },
     {
@@ -2752,9 +2059,7 @@
       "imageUrl": "/images/alexander-power-earth-616.jpg",
       "identitySource": "url",
       "firstAppearance": 129,
-      "appearances": [
-        129
-      ],
+      "appearances": [129],
       "frequency": 1
     }
   ],
@@ -2856,40 +2161,23 @@
       "issue": 4,
       "releaseDate": "March 26, 1985",
       "villainCount": 1,
-      "villains": [
-        "Doctor Octopus"
-      ],
+      "villains": ["Doctor Octopus"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 4
     },
     {
       "issue": 5,
       "releaseDate": "April 23, 1985",
-      "villainCount": 4,
-      "villains": [
-        "Doctor Octopus",
-        "Larry",
-        "Mel",
-        "Roger"
-      ],
+      "villainCount": 1,
+      "villains": ["Doctor Octopus"],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/L",
-        "https://marvel.fandom.com/wiki/Character_Index/M",
-        "https://marvel.fandom.com/wiki/Character_Index/R"
+        "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Character_Index/L",
-        "Character_Index/M",
-        "Character_Index/R"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 5
     },
@@ -2897,15 +2185,9 @@
       "issue": 6,
       "releaseDate": "May 28, 1985",
       "villainCount": 1,
-      "villains": [
-        "Kingpin"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)"
-      ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)"
-      ],
+      "villains": ["Kingpin"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)"],
+      "villainIds": ["Wilson_Fisk_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 6
     },
@@ -2913,18 +2195,12 @@
       "issue": 7,
       "releaseDate": "June 25, 1985",
       "villainCount": 2,
-      "villains": [
-        "Nightmare",
-        "Hulk"
-      ],
+      "villains": ["Nightmare", "Hulk"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Nightmare_(Earth-616)",
         "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)"
       ],
-      "villainIds": [
-        "Nightmare_(Earth-616)",
-        "Bruce_Banner_(Earth-616)"
-      ],
+      "villainIds": ["Nightmare_(Earth-616)", "Bruce_Banner_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 7
     },
@@ -2932,15 +2208,11 @@
       "issue": 8,
       "releaseDate": "July 23, 1985",
       "villainCount": 1,
-      "villains": [
-        "Ludlow Grimes"
-      ],
+      "villains": ["Ludlow Grimes"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Ludlow_Grimes_(Earth-616)"
       ],
-      "villainIds": [
-        "Ludlow_Grimes_(Earth-616)"
-      ],
+      "villainIds": ["Ludlow_Grimes_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 8
     },
@@ -2948,15 +2220,11 @@
       "issue": 9,
       "releaseDate": "August 27, 1985",
       "villainCount": 1,
-      "villains": [
-        "Ludlow Grimes"
-      ],
+      "villains": ["Ludlow Grimes"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Ludlow_Grimes_(Earth-616)"
       ],
-      "villainIds": [
-        "Ludlow_Grimes_(Earth-616)"
-      ],
+      "villainIds": ["Ludlow_Grimes_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 9
     },
@@ -2964,18 +2232,12 @@
       "issue": 10,
       "releaseDate": "September 24, 1985",
       "villainCount": 2,
-      "villains": [
-        "Simon Steele",
-        "Shocker"
-      ],
+      "villains": ["Simon Steele", "Shocker"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Simon_Steele_(Earth-616)",
         "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)"
       ],
-      "villainIds": [
-        "Simon_Steele_(Earth-616)",
-        "Herman_Schultz_(Earth-616)"
-      ],
+      "villainIds": ["Simon_Steele_(Earth-616)", "Herman_Schultz_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 10
     },
@@ -3013,15 +2275,11 @@
       "issue": 14,
       "releaseDate": "January 28, 1986",
       "villainCount": 1,
-      "villains": [
-        "Black Fox"
-      ],
+      "villains": ["Black Fox"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Black_Fox_(Thief)_(Earth-616)"
       ],
-      "villainIds": [
-        "Black_Fox_(Thief)_(Earth-616)"
-      ],
+      "villainIds": ["Black_Fox_(Thief)_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 14
     },
@@ -3029,11 +2287,7 @@
       "issue": 15,
       "releaseDate": "February 25, 1986",
       "villainCount": 3,
-      "villains": [
-        "1400 Club",
-        "Chance",
-        "Foreigner"
-      ],
+      "villains": ["1400 Club", "Chance", "Foreigner"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)",
         "https://marvel.fandom.com/wiki/Nicholas_Powell_(Earth-616)",
@@ -3051,10 +2305,7 @@
       "issue": 16,
       "releaseDate": "March 25, 1986",
       "villainCount": 2,
-      "villains": [
-        "Roxxon",
-        "Magma"
-      ],
+      "villains": ["Roxxon", "Magma"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jonathan_Darque_(Earth-616)"
@@ -3070,10 +2321,7 @@
       "issue": 17,
       "releaseDate": "April 22, 1986",
       "villainCount": 2,
-      "villains": [
-        "Roxxon",
-        "Magma"
-      ],
+      "villains": ["Roxxon", "Magma"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jonathan_Darque_(Earth-616)"
@@ -3089,10 +2337,7 @@
       "issue": 18,
       "releaseDate": "May 17, 1986",
       "villainCount": 2,
-      "villains": [
-        "Magma",
-        "Medgar DuPaul"
-      ],
+      "villains": ["Magma", "Medgar DuPaul"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jonathan_Darque_(Earth-616)",
         "https://marvel.fandom.com/wiki/Medgar_DuPaul_(Earth-616)"
@@ -3108,10 +2353,7 @@
       "issue": 19,
       "releaseDate": "June 24, 1986",
       "villainCount": 2,
-      "villains": [
-        "Humbug",
-        "IRA"
-      ],
+      "villains": ["Humbug", "IRA"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Buchanan_Mitty_(Earth-616)",
         "https://marvel.fandom.com/wiki/Irish_Republican_Army_(Earth-616)"
@@ -3126,24 +2368,17 @@
     {
       "issue": 20,
       "releaseDate": "July 22, 1986",
-      "villainCount": 4,
-      "villains": [
-        "Roxxon",
-        "IRA",
-        "Sean Dunne",
-        "Paddy"
-      ],
+      "villainCount": 3,
+      "villains": ["Roxxon", "IRA", "Sean Dunne"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
         "https://marvel.fandom.com/wiki/Irish_Republican_Army_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Sean_Dunne_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/P"
+        "https://marvel.fandom.com/wiki/Sean_Dunne_(Earth-616)"
       ],
       "villainIds": [
         "Roxxon_Energy_Corporation_(Earth-616)",
         "Irish_Republican_Army_(Earth-616)",
-        "Sean_Dunne_(Earth-616)",
-        "Character_Index/P"
+        "Sean_Dunne_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 20
@@ -3152,18 +2387,12 @@
       "issue": 21,
       "releaseDate": "August 26, 1986",
       "villainCount": 2,
-      "villains": [
-        "Ron Corbett",
-        "Bill Corbett"
-      ],
+      "villains": ["Ron Corbett", "Bill Corbett"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Ron_Corbett_(Earth-616)",
         "https://marvel.fandom.com/wiki/Bill_Corbett_(Earth-616)"
       ],
-      "villainIds": [
-        "Ron_Corbett_(Earth-616)",
-        "Bill_Corbett_(Earth-616)"
-      ],
+      "villainIds": ["Ron_Corbett_(Earth-616)", "Bill_Corbett_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 21
     },
@@ -3205,18 +2434,12 @@
       "issue": 23,
       "releaseDate": "October 28, 1986",
       "villainCount": 2,
-      "villains": [
-        "Vulture",
-        "Slyde"
-      ],
+      "villains": ["Vulture", "Slyde"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jalome_Beacher_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Jalome_Beacher_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Jalome_Beacher_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 23
     },
@@ -3224,12 +2447,7 @@
       "issue": 24,
       "releaseDate": "November 25, 1986",
       "villainCount": 4,
-      "villains": [
-        "Vulture",
-        "Hobgoblin",
-        "The Rose",
-        "Venom"
-      ],
+      "villains": ["Vulture", "Hobgoblin", "The Rose", "Venom"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Edward_Leeds_(Earth-616)",
@@ -3249,18 +2467,12 @@
       "issue": 25,
       "releaseDate": "December 23, 1986",
       "villainCount": 2,
-      "villains": [
-        "Xanja",
-        "Arnie Strunk"
-      ],
+      "villains": ["Xanja", "Arnie Strunk"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Xanja_(Earth-616)",
         "https://marvel.fandom.com/wiki/Arnie_Strunk_(Earth-616)"
       ],
-      "villainIds": [
-        "Xanja_(Earth-616)",
-        "Arnie_Strunk_(Earth-616)"
-      ],
+      "villainIds": ["Xanja_(Earth-616)", "Arnie_Strunk_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 25
     },
@@ -3268,10 +2480,7 @@
       "issue": 26,
       "releaseDate": "January 27, 1987",
       "villainCount": 2,
-      "villains": [
-        "Willard Stein",
-        "Gunther Stein"
-      ],
+      "villains": ["Willard Stein", "Gunther Stein"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Willard_Stein_(Earth-616)",
         "https://marvel.fandom.com/wiki/Gunther_Stein_(Criminal)_(Earth-616)"
@@ -3286,22 +2495,13 @@
     {
       "issue": 27,
       "releaseDate": "February 24, 1987",
-      "villainCount": 4,
-      "villains": [
-        "Larry",
-        "Roger",
-        "Executive Services, Inc",
-        "Headhunter"
-      ],
+      "villainCount": 2,
+      "villains": ["Executive Services, Inc", "Headhunter"],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Character_Index/L",
-        "https://marvel.fandom.com/wiki/Character_Index/R",
         "https://marvel.fandom.com/wiki/Executive_Services,_Inc._(Earth-616)",
         "https://marvel.fandom.com/wiki/Headhunter_(Executive_Services)_(Earth-616)"
       ],
       "villainIds": [
-        "Character_Index/L",
-        "Character_Index/R",
         "Executive_Services,_Inc._(Earth-616)",
         "Headhunter_(Executive_Services)_(Earth-616)"
       ],
@@ -3311,22 +2511,12 @@
     {
       "issue": 28,
       "releaseDate": "March 24, 1987",
-      "villainCount": 3,
-      "villains": [
-        "Roger",
-        "Hershel",
-        "Milicent Peabody"
-      ],
+      "villainCount": 1,
+      "villains": ["Milicent Peabody"],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Character_Index/R",
-        "https://marvel.fandom.com/wiki/Character_Index/H",
         "https://marvel.fandom.com/wiki/Milicent_Peabody_(Earth-616)"
       ],
-      "villainIds": [
-        "Character_Index/R",
-        "Character_Index/H",
-        "Milicent_Peabody_(Earth-616)"
-      ],
+      "villainIds": ["Milicent_Peabody_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 28
     },
@@ -3334,11 +2524,7 @@
       "issue": 29,
       "releaseDate": "April 28, 1987",
       "villainCount": 3,
-      "villains": [
-        "The Rose",
-        "Hobgoblin",
-        "Arranger"
-      ],
+      "villains": ["The Rose", "Hobgoblin", "Arranger"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
@@ -3356,15 +2542,9 @@
       "issue": 30,
       "releaseDate": "May 26, 1987",
       "villainCount": 1,
-      "villains": [
-        "Kingpin"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)"
-      ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)"
-      ],
+      "villains": ["Kingpin"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)"],
+      "villainIds": ["Wilson_Fisk_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 30
     },
@@ -3372,15 +2552,11 @@
       "issue": 31,
       "releaseDate": "June 23, 1987",
       "villainCount": 1,
-      "villains": [
-        "Kraven the Hunter"
-      ],
+      "villains": ["Kraven the Hunter"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)"
       ],
-      "villainIds": [
-        "Sergei_Kravinoff_(Earth-616)"
-      ],
+      "villainIds": ["Sergei_Kravinoff_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 31
     },
@@ -3388,15 +2564,11 @@
       "issue": 32,
       "releaseDate": "July 28, 1987",
       "villainCount": 1,
-      "villains": [
-        "Kraven the Hunter"
-      ],
+      "villains": ["Kraven the Hunter"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)"
       ],
-      "villainIds": [
-        "Sergei_Kravinoff_(Earth-616)"
-      ],
+      "villainIds": ["Sergei_Kravinoff_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 32
     },
@@ -3404,18 +2576,12 @@
       "issue": 33,
       "releaseDate": "August 25, 1987",
       "villainCount": 2,
-      "villains": [
-        "Arranger",
-        "Doctor Hope"
-      ],
+      "villains": ["Arranger", "Doctor Hope"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
         "https://marvel.fandom.com/wiki/Doctor_Hope_(Earth-616)"
       ],
-      "villainIds": [
-        "Oswald_Silkworth_(Earth-616)",
-        "Doctor_Hope_(Earth-616)"
-      ],
+      "villainIds": ["Oswald_Silkworth_(Earth-616)", "Doctor_Hope_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 33
     },
@@ -3423,15 +2589,9 @@
       "issue": 34,
       "releaseDate": "September 1, 1987",
       "villainCount": 1,
-      "villains": [
-        "A'Sai"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/A%27Sai_(Earth-616)"
-      ],
-      "villainIds": [
-        "A%27Sai_(Earth-616)"
-      ],
+      "villains": ["A'Sai"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/A%27Sai_(Earth-616)"],
+      "villainIds": ["A%27Sai_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 34
     },
@@ -3439,11 +2599,7 @@
       "issue": 35,
       "releaseDate": "October 6, 1987",
       "villainCount": 3,
-      "villains": [
-        "The Living Brain",
-        "Tarantula",
-        "General Ramone"
-      ],
+      "villains": ["The Living Brain", "Tarantula", "General Ramone"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Living_Brain_(Earth-616)",
         "https://marvel.fandom.com/wiki/Luis_Alvarez_(Earth-616)",
@@ -3461,11 +2617,7 @@
       "issue": 36,
       "releaseDate": "November 3, 1987",
       "villainCount": 3,
-      "villains": [
-        "Tarantula",
-        "Phreak",
-        "Tombstone"
-      ],
+      "villains": ["Tarantula", "Phreak", "Tombstone"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Luis_Alvarez_(Earth-616)",
         "https://marvel.fandom.com/wiki/Steven_Petty_(Earth-616)",
@@ -3483,15 +2635,11 @@
       "issue": 37,
       "releaseDate": "December 1, 1987",
       "villainCount": 1,
-      "villains": [
-        "Elyse Nelson"
-      ],
+      "villains": ["Elyse Nelson"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Elyse_Nelson_(Earth-616)"
       ],
-      "villainIds": [
-        "Elyse_Nelson_(Earth-616)"
-      ],
+      "villainIds": ["Elyse_Nelson_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 37
     },
@@ -3499,11 +2647,7 @@
       "issue": 38,
       "releaseDate": "January 5, 1988",
       "villainCount": 3,
-      "villains": [
-        "Hobgoblin",
-        "Arranger",
-        "Tombstone"
-      ],
+      "villains": ["Hobgoblin", "Arranger", "Tombstone"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
         "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
@@ -3521,54 +2665,37 @@
       "issue": 39,
       "releaseDate": "February 2, 1988",
       "villainCount": 1,
-      "villains": [
-        "Looter"
-      ],
+      "villains": ["Looter"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)"
       ],
-      "villainIds": [
-        "Norton_Fester_(Earth-616)"
-      ],
+      "villainIds": ["Norton_Fester_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 39
     },
     {
       "issue": 40,
       "releaseDate": "March 1, 1988",
-      "villainCount": 2,
-      "villains": [
-        "Cult of Love",
-        "Brother Bruce"
-      ],
+      "villainCount": 1,
+      "villains": ["Cult of Love"],
       "villainUrls": [
-        "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/B"
+        "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)"
       ],
-      "villainIds": [
-        "Students_of_Love_(Earth-616)",
-        "Character_Index/B"
-      ],
+      "villainIds": ["Students_of_Love_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 40
     },
     {
       "issue": 41,
       "releaseDate": "April 5, 1988",
-      "villainCount": 3,
-      "villains": [
-        "Cult of Love",
-        "Brother Bruce",
-        "Teacher"
-      ],
+      "villainCount": 2,
+      "villains": ["Cult of Love", "Teacher"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/B",
         "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)"
       ],
       "villainIds": [
         "Students_of_Love_(Earth-616)",
-        "Character_Index/B",
         "Teacher_(Students_of_Love)_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -3577,20 +2704,14 @@
     {
       "issue": 42,
       "releaseDate": "May 3, 1988",
-      "villainCount": 3,
-      "villains": [
-        "Cult of Love",
-        "Brother Bruce",
-        "Teacher"
-      ],
+      "villainCount": 2,
+      "villains": ["Cult of Love", "Teacher"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/B",
         "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)"
       ],
       "villainIds": [
         "Students_of_Love_(Earth-616)",
-        "Character_Index/B",
         "Teacher_(Students_of_Love)_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -3599,20 +2720,14 @@
     {
       "issue": 43,
       "releaseDate": "June 7, 1988",
-      "villainCount": 3,
-      "villains": [
-        "Cult of Love",
-        "Brother Bruce",
-        "Teacher"
-      ],
+      "villainCount": 2,
+      "villains": ["Cult of Love", "Teacher"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Students_of_Love_(Earth-616)",
-        "https://marvel.fandom.com/wiki/Character_Index/B",
         "https://marvel.fandom.com/wiki/Teacher_(Students_of_Love)_(Earth-616)"
       ],
       "villainIds": [
         "Students_of_Love_(Earth-616)",
-        "Character_Index/B",
         "Teacher_(Students_of_Love)_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -3622,13 +2737,7 @@
       "issue": 44,
       "releaseDate": "July 5, 1988",
       "villainCount": 5,
-      "villains": [
-        "Warzone",
-        "Alpha",
-        "Bravo",
-        "Charlie",
-        "Delta"
-      ],
+      "villains": ["Warzone", "Alpha", "Bravo", "Charlie", "Delta"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Warzone_(Cyborgs)_(Earth-616)",
         "https://marvel.fandom.com/wiki/Alpha_(Warzone)_(Earth-616)",
@@ -3650,18 +2759,12 @@
       "issue": 45,
       "releaseDate": "August 2, 1988",
       "villainCount": 2,
-      "villains": [
-        "Vulture",
-        "Morris \"The Snake\" Diamond"
-      ],
+      "villains": ["Vulture", "Morris \"The Snake\" Diamond"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Morris_Diamond_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Morris_Diamond_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Morris_Diamond_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 45
     },
@@ -3669,15 +2772,11 @@
       "issue": 46,
       "releaseDate": "September 6, 1988",
       "villainCount": 1,
-      "villains": [
-        "Nekra"
-      ],
+      "villains": ["Nekra"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Nekra_Sinclair_(Earth-616)"
       ],
-      "villainIds": [
-        "Nekra_Sinclair_(Earth-616)"
-      ],
+      "villainIds": ["Nekra_Sinclair_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 46
     },
@@ -3685,15 +2784,11 @@
       "issue": 47,
       "releaseDate": "October 4, 1988",
       "villainCount": 1,
-      "villains": [
-        "Hobgoblin"
-      ],
+      "villains": ["Hobgoblin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Jason_Macendale_Jr._(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 47
     },
@@ -3701,12 +2796,7 @@
       "issue": 48,
       "releaseDate": "November 1, 1988",
       "villainCount": 4,
-      "villains": [
-        "Kingpin",
-        "Hobgoblin",
-        "Arranger",
-        "Lizard"
-      ],
+      "villains": ["Kingpin", "Hobgoblin", "Arranger", "Lizard"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
@@ -3776,12 +2866,7 @@
       "issue": 51,
       "releaseDate": "February 7, 1989",
       "villainCount": 4,
-      "villains": [
-        "Arranger",
-        "Chameleon",
-        "Eduardo Lobo",
-        "Hammerhead"
-      ],
+      "villains": ["Arranger", "Chameleon", "Eduardo Lobo", "Hammerhead"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Oswald_Silkworth_(Earth-616)",
         "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
@@ -3799,12 +2884,7 @@
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Arranger",
-            "Chameleon",
-            "Eduardo Lobo",
-            "Hammerhead"
-          ]
+          "members": ["Arranger", "Chameleon", "Eduardo Lobo", "Hammerhead"]
         }
       ]
     },
@@ -3812,11 +2892,7 @@
       "issue": 52,
       "releaseDate": "March 7, 1989",
       "villainCount": 3,
-      "villains": [
-        "Chameleon",
-        "NYPD",
-        "Sergeant Michael O'Hill"
-      ],
+      "villains": ["Chameleon", "NYPD", "Sergeant Michael O'Hill"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)",
         "https://marvel.fandom.com/wiki/New_York_City_Police_Department_(Earth-616)",
@@ -3933,15 +3009,11 @@
       "issue": 56,
       "releaseDate": "July 11, 1989",
       "villainCount": 1,
-      "villains": [
-        "Skinhead"
-      ],
+      "villains": ["Skinhead"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Edward_Cross_(Skinhead)_(Earth-616)"
       ],
-      "villainIds": [
-        "Edward_Cross_(Skinhead)_(Earth-616)"
-      ],
+      "villainIds": ["Edward_Cross_(Skinhead)_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 56
     },
@@ -3949,15 +3021,11 @@
       "issue": 57,
       "releaseDate": "August 1, 1989",
       "villainCount": 1,
-      "villains": [
-        "Skinhead"
-      ],
+      "villains": ["Skinhead"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Edward_Cross_(Skinhead)_(Earth-616)"
       ],
-      "villainIds": [
-        "Edward_Cross_(Skinhead)_(Earth-616)"
-      ],
+      "villainIds": ["Edward_Cross_(Skinhead)_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 57
     },
@@ -3965,10 +3033,7 @@
       "issue": 58,
       "releaseDate": "September 5, 1989",
       "villainCount": 2,
-      "villains": [
-        "Grizzly",
-        "Tinkerer"
-      ],
+      "villains": ["Grizzly", "Tinkerer"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Maxwell_Markham_(Earth-616)",
         "https://marvel.fandom.com/wiki/Phineas_Mason_(Earth-616)"
@@ -3984,10 +3049,7 @@
       "issue": 59,
       "releaseDate": "October 3, 1989",
       "villainCount": 2,
-      "villains": [
-        "Titania",
-        "Doctor Doom"
-      ],
+      "villains": ["Titania", "Doctor Doom"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Mary_MacPherran_(Earth-616)",
         "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)"
@@ -4003,12 +3065,7 @@
       "issue": 60,
       "releaseDate": "November 7, 1989",
       "villainCount": 4,
-      "villains": [
-        "Kingpin",
-        "Doctor Doom",
-        "Goliath",
-        "Magneto"
-      ],
+      "villains": ["Kingpin", "Doctor Doom", "Goliath", "Magneto"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Victor_von_Doom_(Earth-616)",
@@ -4028,18 +3085,12 @@
       "issue": 61,
       "releaseDate": "December 5, 1989",
       "villainCount": 2,
-      "villains": [
-        "Wizard",
-        "Dragon Man"
-      ],
+      "villains": ["Wizard", "Dragon Man"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
         "https://marvel.fandom.com/wiki/Draconus_(Earth-616)"
       ],
-      "villainIds": [
-        "Bentley_Wittman_(Earth-616)",
-        "Draconus_(Earth-616)"
-      ],
+      "villainIds": ["Bentley_Wittman_(Earth-616)", "Draconus_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 61
     },
@@ -4047,15 +3098,9 @@
       "issue": 62,
       "releaseDate": "January 2, 1990",
       "villainCount": 1,
-      "villains": [
-        "Molten Man"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)"
-      ],
-      "villainIds": [
-        "Mark_Raxton_(Earth-616)"
-      ],
+      "villains": ["Molten Man"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Mark_Raxton_(Earth-616)"],
+      "villainIds": ["Mark_Raxton_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 62
     },
@@ -4063,15 +3108,9 @@
       "issue": 63,
       "releaseDate": "February 6, 1990",
       "villainCount": 1,
-      "villains": [
-        "Mister Fear"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/Alan_Fagan_(Earth-616)"
-      ],
-      "villainIds": [
-        "Alan_Fagan_(Earth-616)"
-      ],
+      "villains": ["Mister Fear"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/Alan_Fagan_(Earth-616)"],
+      "villainIds": ["Alan_Fagan_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 63
     },
@@ -4144,15 +3183,11 @@
       "issue": 66,
       "releaseDate": "May 1, 1990",
       "villainCount": 1,
-      "villains": [
-        "Tombstone"
-      ],
+      "villains": ["Tombstone"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)"
       ],
-      "villainIds": [
-        "Alonzo_Lincoln_(Earth-616)"
-      ],
+      "villainIds": ["Alonzo_Lincoln_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 66
     },
@@ -4160,11 +3195,7 @@
       "issue": 67,
       "releaseDate": "June 5, 1990",
       "villainCount": 3,
-      "villains": [
-        "Tombstone",
-        "Hammerhead",
-        "Green Goblin"
-      ],
+      "villains": ["Tombstone", "Hammerhead", "Green Goblin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
         "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)",
@@ -4182,10 +3213,7 @@
       "issue": 68,
       "releaseDate": "July 3, 1990",
       "villainCount": 2,
-      "villains": [
-        "Tombstone",
-        "Hammerhead"
-      ],
+      "villains": ["Tombstone", "Hammerhead"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
         "https://marvel.fandom.com/wiki/Hammerhead_(Joseph)_(Earth-616)"
@@ -4201,18 +3229,12 @@
       "issue": 69,
       "releaseDate": "August 7, 1990",
       "villainCount": 2,
-      "villains": [
-        "Hulk",
-        "Armand Jones"
-      ],
+      "villains": ["Hulk", "Armand Jones"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Bruce_Banner_(Earth-616)",
         "https://marvel.fandom.com/wiki/Armand_Jones_(Earth-616)"
       ],
-      "villainIds": [
-        "Bruce_Banner_(Earth-616)",
-        "Armand_Jones_(Earth-616)"
-      ],
+      "villainIds": ["Bruce_Banner_(Earth-616)", "Armand_Jones_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 69
     },
@@ -4230,18 +3252,12 @@
       "issue": 71,
       "releaseDate": "October 2, 1990",
       "villainCount": 2,
-      "villains": [
-        "Simon Steele",
-        "Sabbath Raven"
-      ],
+      "villains": ["Simon Steele", "Sabbath Raven"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Simon_Steele_(Earth-616)",
         "https://marvel.fandom.com/wiki/Elena_von_Lundt_(Earth-616)"
       ],
-      "villainIds": [
-        "Simon_Steele_(Earth-616)",
-        "Elena_von_Lundt_(Earth-616)"
-      ],
+      "villainIds": ["Simon_Steele_(Earth-616)", "Elena_von_Lundt_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 71
     },
@@ -4249,11 +3265,7 @@
       "issue": 72,
       "releaseDate": "November 6, 1990",
       "villainCount": 3,
-      "villains": [
-        "Simon Steele",
-        "Sabbath Raven",
-        "Iron Monger"
-      ],
+      "villains": ["Simon Steele", "Sabbath Raven", "Iron Monger"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Simon_Steele_(Earth-616)",
         "https://marvel.fandom.com/wiki/Elena_von_Lundt_(Earth-616)",
@@ -4299,12 +3311,7 @@
       "issue": 74,
       "releaseDate": "January 1, 1991",
       "villainCount": 4,
-      "villains": [
-        "Painter",
-        "Bora",
-        "Spark",
-        "Cockroaches"
-      ],
+      "villains": ["Painter", "Bora", "Spark", "Cockroaches"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilhelm_van_Vile_(Earth-616)",
         "https://marvel.fandom.com/wiki/Anzhela_Federova_(Earth-616)",
@@ -4322,12 +3329,7 @@
       "groups": [
         {
           "name": "Avant Guard",
-          "members": [
-            "Painter",
-            "Bora",
-            "Spark",
-            "Cockroaches"
-          ]
+          "members": ["Painter", "Bora", "Spark", "Cockroaches"]
         }
       ]
     },
@@ -4335,12 +3337,7 @@
       "issue": 75,
       "releaseDate": "February 5, 1991",
       "villainCount": 4,
-      "villains": [
-        "Painter",
-        "Bora",
-        "Spark",
-        "Cockroaches"
-      ],
+      "villains": ["Painter", "Bora", "Spark", "Cockroaches"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilhelm_van_Vile_(Earth-616)",
         "https://marvel.fandom.com/wiki/Anzhela_Federova_(Earth-616)",
@@ -4358,12 +3355,7 @@
       "groups": [
         {
           "name": "Avant Guard",
-          "members": [
-            "Painter",
-            "Bora",
-            "Spark",
-            "Cockroaches"
-          ]
+          "members": ["Painter", "Bora", "Spark", "Cockroaches"]
         }
       ]
     },
@@ -4371,12 +3363,7 @@
       "issue": 76,
       "releaseDate": "March 5, 1991",
       "villainCount": 4,
-      "villains": [
-        "Painter",
-        "Bora",
-        "Spark",
-        "Cockroaches"
-      ],
+      "villains": ["Painter", "Bora", "Spark", "Cockroaches"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wilhelm_van_Vile_(Earth-616)",
         "https://marvel.fandom.com/wiki/Anzhela_Federova_(Earth-616)",
@@ -4394,12 +3381,7 @@
       "groups": [
         {
           "name": "Avant Guard",
-          "members": [
-            "Painter",
-            "Bora",
-            "Spark",
-            "Cockroaches"
-          ]
+          "members": ["Painter", "Bora", "Spark", "Cockroaches"]
         }
       ]
     },
@@ -4407,15 +3389,11 @@
       "issue": 77,
       "releaseDate": "April 2, 1991",
       "villainCount": 1,
-      "villains": [
-        "Firebrand"
-      ],
+      "villains": ["Firebrand"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Russell_Broxtel_(Earth-616)"
       ],
-      "villainIds": [
-        "Russell_Broxtel_(Earth-616)"
-      ],
+      "villainIds": ["Russell_Broxtel_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 77
     },
@@ -4423,15 +3401,11 @@
       "issue": 78,
       "releaseDate": "May 7, 1991",
       "villainCount": 1,
-      "villains": [
-        "Firebrand"
-      ],
+      "villains": ["Firebrand"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Russell_Broxtel_(Earth-616)"
       ],
-      "villainIds": [
-        "Russell_Broxtel_(Earth-616)"
-      ],
+      "villainIds": ["Russell_Broxtel_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 78
     },
@@ -4491,10 +3465,7 @@
       "issue": 80,
       "releaseDate": "July 2, 1991",
       "villainCount": 2,
-      "villains": [
-        "Silvermane",
-        "Ripster"
-      ],
+      "villains": ["Silvermane", "Ripster"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Silvio_Manfredi_(Earth-616)",
         "https://marvel.fandom.com/wiki/Ripster_(Android)_(Earth-616)"
@@ -4510,15 +3481,11 @@
       "issue": 81,
       "releaseDate": "August 6, 1991",
       "villainCount": 1,
-      "villains": [
-        "Bloodshed"
-      ],
+      "villains": ["Bloodshed"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Wyndell_Dickinson_(Earth-616)"
       ],
-      "villainIds": [
-        "Wyndell_Dickinson_(Earth-616)"
-      ],
+      "villainIds": ["Wyndell_Dickinson_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 81
     },
@@ -4526,27 +3493,18 @@
       "issue": 82,
       "releaseDate": "September 3, 1991",
       "villainCount": 2,
-      "villains": [
-        "Man Mountain Marko",
-        "Snaky Duvall"
-      ],
+      "villains": ["Man Mountain Marko", "Snaky Duvall"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Michael_Marko_(Earth-616)",
         "https://marvel.fandom.com/wiki/Snaky_Duvall_(Earth-616)"
       ],
-      "villainIds": [
-        "Michael_Marko_(Earth-616)",
-        "Snaky_Duvall_(Earth-616)"
-      ],
+      "villainIds": ["Michael_Marko_(Earth-616)", "Snaky_Duvall_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 82,
       "groups": [
         {
           "name": "Maggia",
-          "members": [
-            "Man Mountain Marko",
-            "Snaky Duvall"
-          ]
+          "members": ["Man Mountain Marko", "Snaky Duvall"]
         }
       ]
     },
@@ -4554,15 +3512,11 @@
       "issue": 83,
       "releaseDate": "October 1, 1991",
       "villainCount": 1,
-      "villains": [
-        "Hypertron 1.0"
-      ],
+      "villains": ["Hypertron 1.0"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Hypertron_1.0_(Chester)_(Earth-616)"
       ],
-      "villainIds": [
-        "Hypertron_1.0_(Chester)_(Earth-616)"
-      ],
+      "villainIds": ["Hypertron_1.0_(Chester)_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 83
     },
@@ -4688,12 +3642,7 @@
       "issue": 88,
       "releaseDate": "March 3, 1992",
       "villainCount": 4,
-      "villains": [
-        "The Rose",
-        "Hobgoblin",
-        "Richard Fisk",
-        "The Rose"
-      ],
+      "villains": ["The Rose", "Hobgoblin", "Richard Fisk", "The Rose"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)",
@@ -4711,12 +3660,7 @@
       "groups": [
         {
           "name": "Praetorian Guard",
-          "members": [
-            "The Rose",
-            "Hobgoblin",
-            "Richard Fisk",
-            "The Rose"
-          ]
+          "members": ["The Rose", "Hobgoblin", "Richard Fisk", "The Rose"]
         }
       ]
     },
@@ -4749,15 +3693,11 @@
       "issue": 90,
       "releaseDate": "May 5, 1992",
       "villainCount": 1,
-      "villains": [
-        "Mysterio"
-      ],
+      "villains": ["Mysterio"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 90
     },
@@ -4765,12 +3705,7 @@
       "issue": 91,
       "releaseDate": "June 2, 1992",
       "villainCount": 4,
-      "villains": [
-        "1400 Club",
-        "Killer Shrike",
-        "Pulse-2",
-        "Whisper-3"
-      ],
+      "villains": ["1400 Club", "Killer Shrike", "Pulse-2", "Whisper-3"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/1400_Club_(Earth-616)",
         "https://marvel.fandom.com/wiki/Simon_Maddicks_(Earth-616)",
@@ -4788,12 +3723,7 @@
       "groups": [
         {
           "name": "Death Squad",
-          "members": [
-            "1400 Club",
-            "Killer Shrike",
-            "Pulse-2",
-            "Whisper-3"
-          ]
+          "members": ["1400 Club", "Killer Shrike", "Pulse-2", "Whisper-3"]
         }
       ]
     },
@@ -4845,10 +3775,7 @@
       "issue": 93,
       "releaseDate": "August 4, 1992",
       "villainCount": 2,
-      "villains": [
-        "Foreigner",
-        "Hobgoblin"
-      ],
+      "villains": ["Foreigner", "Hobgoblin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Foreigner_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
@@ -4923,11 +3850,7 @@
       "issue": 96,
       "releaseDate": "November 3, 1992",
       "villainCount": 3,
-      "villains": [
-        "Demogoblin",
-        "Spider-Doppelganger",
-        "Deathspawn"
-      ],
+      "villains": ["Demogoblin", "Spider-Doppelganger", "Deathspawn"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
         "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
@@ -5157,12 +4080,7 @@
       "issue": 101,
       "releaseDate": "April 6, 1993",
       "villainCount": 4,
-      "villains": [
-        "Demogoblin",
-        "Spider-Doppelganger",
-        "Carnage",
-        "Shriek"
-      ],
+      "villains": ["Demogoblin", "Spider-Doppelganger", "Carnage", "Shriek"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)",
         "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)",
@@ -5238,11 +4156,7 @@
       "issue": 104,
       "releaseDate": "July 6, 1993",
       "villainCount": 3,
-      "villains": [
-        "Goddess",
-        "Moondragon",
-        "Deathgrin"
-      ],
+      "villains": ["Goddess", "Moondragon", "Deathgrin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Goddess_(Earth-616)",
         "https://marvel.fandom.com/wiki/Heather_Douglas_(Earth-616)",
@@ -5341,10 +4255,7 @@
       "issue": 107,
       "releaseDate": "October 5, 1993",
       "villainCount": 2,
-      "villains": [
-        "Sandstorm",
-        "Scorpion"
-      ],
+      "villains": ["Sandstorm", "Scorpion"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Tony_Trainer_(Earth-616)",
         "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)"
@@ -5360,11 +4271,7 @@
       "issue": 108,
       "releaseDate": "November 2, 1993",
       "villainCount": 3,
-      "villains": [
-        "Sandstorm",
-        "Scorpion",
-        "Quicksand"
-      ],
+      "villains": ["Sandstorm", "Scorpion", "Quicksand"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Tony_Trainer_(Earth-616)",
         "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
@@ -5382,10 +4289,7 @@
       "issue": 109,
       "releaseDate": "December 7, 1993",
       "villainCount": 2,
-      "villains": [
-        "Shocker",
-        "Lizard"
-      ],
+      "villains": ["Shocker", "Lizard"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)"
@@ -5401,18 +4305,12 @@
       "issue": 110,
       "releaseDate": "January 4, 1994",
       "villainCount": 2,
-      "villains": [
-        "Lizard",
-        "Warrant"
-      ],
+      "villains": ["Lizard", "Warrant"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
         "https://marvel.fandom.com/wiki/Gray_Garrison_(Earth-616)"
       ],
-      "villainIds": [
-        "Curtis_Connors_(Earth-616)",
-        "Gray_Garrison_(Earth-616)"
-      ],
+      "villainIds": ["Curtis_Connors_(Earth-616)", "Gray_Garrison_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 110
     },
@@ -5420,18 +4318,12 @@
       "issue": 111,
       "releaseDate": "February 1, 1994",
       "villainCount": 2,
-      "villains": [
-        "Lizard",
-        "Warrant"
-      ],
+      "villains": ["Lizard", "Warrant"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
         "https://marvel.fandom.com/wiki/Gray_Garrison_(Earth-616)"
       ],
-      "villainIds": [
-        "Curtis_Connors_(Earth-616)",
-        "Gray_Garrison_(Earth-616)"
-      ],
+      "villainIds": ["Curtis_Connors_(Earth-616)", "Gray_Garrison_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 111
     },
@@ -5439,15 +4331,11 @@
       "issue": 112,
       "releaseDate": "March 1, 1994",
       "villainCount": 1,
-      "villains": [
-        "Chameleon"
-      ],
+      "villains": ["Chameleon"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Dmitri_Smerdyakov_(Earth-616)"
       ],
-      "villainIds": [
-        "Dmitri_Smerdyakov_(Earth-616)"
-      ],
+      "villainIds": ["Dmitri_Smerdyakov_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 112
     },
@@ -5455,10 +4343,7 @@
       "issue": 113,
       "releaseDate": "April 5, 1994",
       "villainCount": 2,
-      "villains": [
-        "F.A.C.A.D.E",
-        "Silencers"
-      ],
+      "villains": ["F.A.C.A.D.E", "Silencers"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Full_Acclimation_Combat_And_Defence_Explo-skeleton_(Earth-616)",
         "https://marvel.fandom.com/wiki/Silencers_(Earth-616)"
@@ -5474,9 +4359,7 @@
       "issue": 114,
       "releaseDate": "May 3, 1994",
       "villainCount": 1,
-      "villains": [
-        "F.A.C.A.D.E"
-      ],
+      "villains": ["F.A.C.A.D.E"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Full_Acclimation_Combat_And_Defence_Explo-skeleton_(Earth-616)"
       ],
@@ -5490,9 +4373,7 @@
       "issue": 115,
       "releaseDate": "June 7, 1994",
       "villainCount": 1,
-      "villains": [
-        "F.A.C.A.D.E"
-      ],
+      "villains": ["F.A.C.A.D.E"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Full_Acclimation_Combat_And_Defence_Explo-skeleton_(Earth-616)"
       ],
@@ -5506,9 +4387,7 @@
       "issue": 116,
       "releaseDate": "July 5, 1994",
       "villainCount": 1,
-      "villains": [
-        "F.A.C.A.D.E"
-      ],
+      "villains": ["F.A.C.A.D.E"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Full_Acclimation_Combat_And_Defence_Explo-skeleton_(Earth-616)"
       ],
@@ -5556,15 +4435,11 @@
       "issue": 118,
       "releaseDate": "September 6, 1994",
       "villainCount": 1,
-      "villains": [
-        "Venom"
-      ],
+      "villains": ["Venom"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)"
       ],
-      "villainIds": [
-        "Edward_Brock_(Earth-616)"
-      ],
+      "villainIds": ["Edward_Brock_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 118
     },
@@ -5572,11 +4447,7 @@
       "issue": 119,
       "releaseDate": "October 4, 1994",
       "villainCount": 3,
-      "villains": [
-        "Venom",
-        "Scream",
-        "Kaine"
-      ],
+      "villains": ["Venom", "Scream", "Kaine"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Edward_Brock_(Earth-616)",
         "https://marvel.fandom.com/wiki/Donna_Diego_(Earth-616)",
@@ -5594,12 +4465,7 @@
       "issue": 120,
       "releaseDate": "November 1, 1994",
       "villainCount": 4,
-      "villains": [
-        "Tombstone",
-        "Kaine",
-        "Grim Hunter",
-        "A.R.E.S"
-      ],
+      "villains": ["Tombstone", "Kaine", "Grim Hunter", "A.R.E.S"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Alonzo_Lincoln_(Earth-616)",
         "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
@@ -5619,10 +4485,7 @@
       "issue": 121,
       "releaseDate": "December 6, 1994",
       "villainCount": 2,
-      "villains": [
-        "Kaine",
-        "Grim Hunter"
-      ],
+      "villains": ["Kaine", "Grim Hunter"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
         "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)"
@@ -5638,11 +4501,7 @@
       "issue": 122,
       "releaseDate": "January 3, 1995",
       "villainCount": 3,
-      "villains": [
-        "Kaine",
-        "Jack",
-        "Guardian"
-      ],
+      "villains": ["Kaine", "Jack", "Guardian"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jack_(Spider-Clone)_(Earth-616)",
@@ -5660,11 +4519,7 @@
       "issue": 123,
       "releaseDate": "February 7, 1995",
       "villainCount": 3,
-      "villains": [
-        "Kaine",
-        "Jack",
-        "Jackal"
-      ],
+      "villains": ["Kaine", "Jack", "Jackal"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jack_(Spider-Clone)_(Earth-616)",
@@ -5682,15 +4537,11 @@
       "issue": 124,
       "releaseDate": "March 7, 1995",
       "villainCount": 1,
-      "villains": [
-        "Kaine"
-      ],
+      "villains": ["Kaine"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)"
       ],
-      "villainIds": [
-        "Kaine_Parker_(Earth-616)"
-      ],
+      "villainIds": ["Kaine_Parker_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 124
     },
@@ -5698,15 +4549,11 @@
       "issue": 125,
       "releaseDate": "April 4, 1995",
       "villainCount": 1,
-      "villains": [
-        "Green Goblin"
-      ],
+      "villains": ["Green Goblin"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Phillip_Urich_(Earth-616)"
       ],
-      "villainIds": [
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Phillip_Urich_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 125
     },
@@ -5714,15 +4561,11 @@
       "issue": 126,
       "releaseDate": "May 2, 1995",
       "villainCount": 1,
-      "villains": [
-        "Kaine"
-      ],
+      "villains": ["Kaine"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)"
       ],
-      "villainIds": [
-        "Kaine_Parker_(Earth-616)"
-      ],
+      "villainIds": ["Kaine_Parker_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 126
     },
@@ -5730,10 +4573,7 @@
       "issue": 127,
       "releaseDate": "June 13, 1995",
       "villainCount": 2,
-      "villains": [
-        "Kaine",
-        "Jackal"
-      ],
+      "villains": ["Kaine", "Jackal"],
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
         "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
@@ -5749,15 +4589,9 @@
       "issue": 128,
       "releaseDate": "July 13, 1995",
       "villainCount": 1,
-      "villains": [
-        "D'Spayre"
-      ],
-      "villainUrls": [
-        "https://marvel.fandom.com/wiki/D%27Spayre_(Earth-616)"
-      ],
-      "villainIds": [
-        "D%27Spayre_(Earth-616)"
-      ],
+      "villains": ["D'Spayre"],
+      "villainUrls": ["https://marvel.fandom.com/wiki/D%27Spayre_(Earth-616)"],
+      "villainIds": ["D%27Spayre_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 128
     },
@@ -5801,61 +4635,42 @@
       "id": "Maggia_(Earth-616)",
       "name": "Maggia",
       "url": "https://marvel.fandom.com/wiki/Maggia_(Earth-616)",
-      "appearances": [
-        50,
-        51,
-        82
-      ],
+      "appearances": [50, 51, 82],
       "frequency": 3
     },
     {
       "id": "Avant_Guard_(Earth-616)",
       "name": "Avant Guard",
       "url": "https://marvel.fandom.com/wiki/Avant_Guard_(Earth-616)",
-      "appearances": [
-        74,
-        75,
-        76
-      ],
+      "appearances": [74, 75, 76],
       "frequency": 3
     },
     {
       "id": "Silver_Squad_(Earth-616)",
       "name": "Silver Squad",
       "url": "https://marvel.fandom.com/wiki/Silver_Squad_(Earth-616)",
-      "appearances": [
-        79
-      ],
+      "appearances": [79],
       "frequency": 1
     },
     {
       "id": "Praetorian_Guard_(Earth-616)",
       "name": "Praetorian Guard",
       "url": "https://marvel.fandom.com/wiki/Praetorian_Guard_(Earth-616)",
-      "appearances": [
-        88
-      ],
+      "appearances": [88],
       "frequency": 1
     },
     {
       "id": "Death_Squad_(Foreigner)_(Earth-616)",
       "name": "Death Squad",
       "url": "https://marvel.fandom.com/wiki/Death_Squad_(Foreigner)_(Earth-616)",
-      "appearances": [
-        91,
-        92
-      ],
+      "appearances": [91, 92],
       "frequency": 2
     },
     {
       "id": "New_Enforcers_(Earth-616)",
       "name": "New Enforcers",
       "url": "https://marvel.fandom.com/wiki/New_Enforcers_(Earth-616)",
-      "appearances": [
-        98,
-        99,
-        100
-      ],
+      "appearances": [98, 99, 100],
       "frequency": 3
     }
   ]

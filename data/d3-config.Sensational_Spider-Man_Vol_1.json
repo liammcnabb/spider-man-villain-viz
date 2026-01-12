@@ -1,8 +1,173 @@
 {
   "data": [
     {
-      "issueNumber": 21,
+      "issueNumber": 1,
       "chronologicalPosition": 1,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "December 7, 1995",
+      "villainsInIssue": ["Mysterio"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 2,
+      "chronologicalPosition": 2,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "December 28, 1995",
+      "villainsInIssue": ["Great Game", "Rhino"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 3,
+      "chronologicalPosition": 3,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "February 8, 1996",
+      "villainsInIssue": ["Carnage"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 4,
+      "chronologicalPosition": 4,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "March 7, 1996",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 5,
+      "chronologicalPosition": 5,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "April 3, 1996",
+      "villainsInIssue": ["Gaunt"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 6,
+      "chronologicalPosition": 6,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "May 8, 1996",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 7,
+      "chronologicalPosition": 7,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "June 5, 1996",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 8,
+      "chronologicalPosition": 8,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "July 3, 1996",
+      "villainsInIssue": ["Looter", "Sentinels"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 9,
+      "chronologicalPosition": 9,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "August 7, 1996",
+      "villainsInIssue": ["Swarm"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 10,
+      "chronologicalPosition": 10,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "September 4, 1996",
+      "villainsInIssue": ["Swarm"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 11,
+      "chronologicalPosition": 11,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "October 2, 1996",
+      "villainsInIssue": ["Gaunt", "Norman Osborn"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 12,
+      "chronologicalPosition": 12,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "November 6, 1996",
+      "villainsInIssue": ["Trapster"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 13,
+      "chronologicalPosition": 13,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "December 4, 1996",
+      "villainsInIssue": ["Roxxon Corportion", "Doctor Geral Roth"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 14,
+      "chronologicalPosition": 14,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "January 2, 1997",
+      "villainsInIssue": [
+        "Roxxon Corportion",
+        "Doctor Geral Roth",
+        "Chtylok",
+        "Stegron"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 15,
+      "chronologicalPosition": 15,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "February 5, 1997",
+      "villainsInIssue": ["Roxxon Corportion", "Doctor Geral Roth", "Chtylok"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 16,
+      "chronologicalPosition": 16,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "March 5, 1997",
+      "villainsInIssue": ["Vulture", "D.K"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 17,
+      "chronologicalPosition": 17,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "April 9, 1997",
+      "villainsInIssue": ["Vulture", "D.K"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 18,
+      "chronologicalPosition": 18,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "June 4, 1997",
+      "villainsInIssue": ["Vulture"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 19,
+      "chronologicalPosition": 19,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "July 2, 1997",
+      "villainsInIssue": ["Living Pharaoh"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 20,
+      "chronologicalPosition": 20,
+      "series": "Sensational Spider-Man Vol 1",
+      "releaseDate": "August 6, 1997",
+      "villainsInIssue": ["Living Pharaoh"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 21,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "September 3, 1997",
       "villainsInIssue": [
@@ -15,134 +180,103 @@
     },
     {
       "issueNumber": 22,
-      "chronologicalPosition": 2,
+      "chronologicalPosition": 22,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "October 1, 1997",
-      "villainsInIssue": [
-        "Buel, the Gremlyn-Lord"
-      ],
+      "villainsInIssue": ["Buel, the Gremlyn-Lord"],
       "villainCount": 1
     },
     {
       "issueNumber": 23,
-      "chronologicalPosition": 3,
+      "chronologicalPosition": 23,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "November 5, 1997",
-      "villainsInIssue": [
-        "Buel, the Gremlyn-Lord"
-      ],
+      "villainsInIssue": ["Buel, the Gremlyn-Lord"],
       "villainCount": 1
     },
     {
       "issueNumber": 24,
-      "chronologicalPosition": 4,
+      "chronologicalPosition": 24,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "December 3, 1997",
-      "villainsInIssue": [
-        "Hydro-Man"
-      ],
+      "villainsInIssue": ["Hydro-Man"],
       "villainCount": 1
     },
     {
       "issueNumber": 25,
-      "chronologicalPosition": 5,
+      "chronologicalPosition": 25,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "January 7, 1998",
-      "villainsInIssue": [
-        "Override",
-        "Aura",
-        "Dealy Boys",
-        "Harv",
-        "Lee",
-        "Ozzie"
-      ],
-      "villainCount": 6
+      "villainsInIssue": ["Override", "Aura", "Dealy Boys"],
+      "villainCount": 3
     },
     {
       "issueNumber": 26,
-      "chronologicalPosition": 6,
+      "chronologicalPosition": 26,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "February 4, 1998",
-      "villainsInIssue": [
-        "Hydro-Man"
-      ],
+      "villainsInIssue": ["Hydro-Man"],
       "villainCount": 1
     },
     {
       "issueNumber": 27,
-      "chronologicalPosition": 7,
+      "chronologicalPosition": 27,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "March 4, 1998",
-      "villainsInIssue": [
-        "Looter",
-        "Vulture"
-      ],
+      "villainsInIssue": ["Looter", "Vulture"],
       "villainCount": 2
     },
     {
       "issueNumber": 28,
-      "chronologicalPosition": 8,
+      "chronologicalPosition": 28,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "April 1, 1998",
-      "villainsInIssue": [
-        "Vulture"
-      ],
+      "villainsInIssue": ["Vulture"],
       "villainCount": 1
     },
     {
       "issueNumber": 29,
-      "chronologicalPosition": 9,
+      "chronologicalPosition": 29,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "May 6, 1998",
-      "villainsInIssue": [
-        "Arcade"
-      ],
+      "villainsInIssue": ["Arcade"],
       "villainCount": 1
     },
     {
       "issueNumber": 30,
-      "chronologicalPosition": 10,
+      "chronologicalPosition": 30,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "June 3, 1998",
-      "villainsInIssue": [
-        "Arcade"
-      ],
+      "villainsInIssue": ["Arcade"],
       "villainCount": 1
     },
     {
       "issueNumber": 31,
-      "chronologicalPosition": 11,
+      "chronologicalPosition": 31,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "July 1, 1998",
-      "villainsInIssue": [
-        "Rhino"
-      ],
+      "villainsInIssue": ["Rhino"],
       "villainCount": 1
     },
     {
       "issueNumber": 32,
-      "chronologicalPosition": 12,
+      "chronologicalPosition": 32,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "August 5, 1998",
-      "villainsInIssue": [
-        "Override",
-        "Norman Osborn"
-      ],
+      "villainsInIssue": ["Norman Osborn", "Override"],
       "villainCount": 2
     },
     {
       "issueNumber": 33,
-      "chronologicalPosition": 13,
+      "chronologicalPosition": 33,
       "series": "Sensational Spider-Man Vol 1",
       "releaseDate": "September 2, 1998",
-      "villainsInIssue": [
-        "Override"
-      ],
+      "villainsInIssue": ["Override"],
       "villainCount": 1
     },
     {
       "issueNumber": 34,
-      "chronologicalPosition": 14,
+      "chronologicalPosition": 34,
       "series": "Sensational Spider-Man Vol 1",
       "villainsInIssue": [],
       "villainCount": 0
@@ -150,27 +284,32 @@
   ],
   "scales": {
     "x": {
-      "domain": [
-        1,
-        14
-      ],
-      "range": [
-        60,
-        1180
-      ]
+      "domain": [1, 34],
+      "range": [60, 1180]
     },
     "y": {
-      "domain": [
-        0,
-        6
-      ],
-      "range": [
-        570,
-        20
-      ]
+      "domain": [0, 4],
+      "range": [570, 20]
     }
   },
   "colors": {
+    "Mysterio": "#00b894",
+    "Great Game": "#4ecdc4",
+    "Rhino": "#2980b9",
+    "Carnage": "#27ae60",
+    "Gaunt": "#3498db",
+    "Looter": "#ff7675",
+    "Sentinels": "#c0392b",
+    "Swarm": "#b2bec3",
+    "Norman Osborn": "#9b59b6",
+    "Trapster": "#27ae60",
+    "Roxxon Corportion": "#1abc9c",
+    "Doctor Geral Roth": "#4ecdc4",
+    "Chtylok": "#fab1a0",
+    "Stegron": "#8e44ad",
+    "Vulture": "#e84393",
+    "D.K": "#c0392b",
+    "Living Pharaoh": "#8e44ad",
     "Technomancer Corporation": "#00cec9",
     "Master Om": "#2980b9",
     "Maegis Gunther Senreich": "#fd79a8",
@@ -179,13 +318,6 @@
     "Override": "#45b7d1",
     "Aura": "#f39c12",
     "Dealy Boys": "#e67e22",
-    "Harv": "#00cec9",
-    "Lee": "#74b9ff",
-    "Ozzie": "#fdcb6e",
-    "Looter": "#ff7675",
-    "Vulture": "#e84393",
-    "Arcade": "#00b894",
-    "Rhino": "#2980b9",
-    "Norman Osborn": "#9b59b6"
+    "Arcade": "#00b894"
   }
 }

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Run lint-staged with Prettier to enforce consistent formatting on staged files
+npx lint-staged
