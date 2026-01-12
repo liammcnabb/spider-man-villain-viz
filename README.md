@@ -7,6 +7,7 @@ A visualization of Spider-Man villain appearances across the Amazing Spider-Man 
 ## 🚨 For AI Agents
 
 **MUST READ FIRST:** [AGENT_WORKFLOW_RULES.md](AGENT_WORKFLOW_RULES.md)
+
 - Verification requirements (always check compiled output)
 - Scraping guidelines (almost never necessary)
 - Common failure patterns to avoid
@@ -18,12 +19,14 @@ This project visualizes the chronological appearances of villains in the Spider-
 ## Features
 
 ### Core Features
+
 - **Web Scraper**: Automatically extracts antagonist information from Marvel Fandom pages
 - **Data Processing**: Normalizes and structures villain data from comic issues
 - **Interactive Visualization**: D3.js-based timeline graph showing villain appearances
 - **Context Engineering**: Follows the context engineering protocol for maintainability and clarity
 
 ### Grid Visualization Features ✨ NEW
+
 - **Data Filtering**: Hide villains with fewer than X appearances (default: 3)
 - **Flexible Sorting**: Sort Y-axis by first appearance or longest chronological span
 - **Magnification Controls**: Zoom from 0.5x to 16x with smooth 300ms transitions
@@ -36,6 +39,7 @@ This project visualizes the chronological appearances of villains in the Spider-
   - Preference saved to localStorage
 
 ### Data Processing Features
+
 - **Group Classification**: Automatically identifies and separates villain groups from individuals
 - **GroupRegistry**: Curated registry of 16+ known Spider-Man villain groups with alias resolution
 - **Identity Tracking**: Tracks whether villains are identified by URL or by name (with `identitySource` field)
@@ -102,7 +106,7 @@ spider-man-villain-timeline/
 
 ### Prerequisites
 
-- Node.js 16+ 
+- Node.js 16+
 - npm or yarn
 
 ### Installation
@@ -135,6 +139,7 @@ npm run pipeline -- --series "Untold Tales of Spider-Man Vol 1"
 You can also run each step separately:
 
 #### 1. Scrape Raw Data
+
 ```bash
 # Scrape all series
 npm run scrape -- --all-series
@@ -176,6 +181,7 @@ npm run serve
 ```
 
 This creates:
+
 - `data/villains.json` - Combined data for all series
 - `data/d3-config.json` - Visualization configuration
 
@@ -186,7 +192,6 @@ This creates:
   - Range: `1-20`
   - Multiple issues: `1,5,10,20`
   - Combined: `1-20,50-60,100`
-  
 - `--volume, -v <name>`: Specify which volume to scrape (default: "Amazing Spider-Man Vol 1")
   - Currently supports: Vol 1 (1-441), Vol 2 (1-58), Vol 3 (1-20), Vol 4 (1-32), Vol 5 (1-93)
 
@@ -214,18 +219,21 @@ JSON Files     →  (mergeDatasets.ts) → HTML/Browser
 ### Phase Separation Benefits
 
 **Pull (Scraping)**
+
 - Fetches data from Marvel Fandom
 - Creates series-specific JSON files
 - Can be run independently
 - Command: `npm run scrape -- --all-series`
 
 **Process (Merge & Transform)**
+
 - Pure function: `mergeDatasets(datasets)` in `src/utils/mergeDatasets.ts`
 - No I/O dependencies
 - Can be tested without scraping
 - Command: `npx ts-node test-merge-logic.ts`
 
 **Publish (Visualization)**
+
 - Generates D3 configs and HTML
 - Updates public data directory
 - Can reuse existing data files
@@ -233,6 +241,7 @@ JSON Files     →  (mergeDatasets.ts) → HTML/Browser
 ### Development Workflow
 
 For **data processing changes** (fast iteration):
+
 ```bash
 # 1. Edit src/utils/mergeDatasets.ts
 # 2. Rebuild
@@ -243,6 +252,7 @@ npx ts-node test-merge-logic.ts
 ```
 
 For **complete pipeline**:
+
 ```bash
 npm run build      # Build TypeScript
 npm test           # Run 93 unit tests
@@ -257,6 +267,7 @@ npm run serve      # View in browser
 ### Project Setup with Context Engineering
 
 This project uses the Context Engineering Protocol for:
+
 - Clear component boundaries
 - Documented tool definitions
 - Feedback-driven optimization
@@ -267,6 +278,7 @@ See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for details.
 ### Code Guidelines
 
 Follow the standards in [GUIDELINES.md](docs/GUIDELINES.md):
+
 - Max 110 character line length
 - Max 3 levels of nesting
 - Max 80 lines per function
@@ -295,6 +307,7 @@ npm test -- --coverage
 ## Next Steps
 
 ### Short Term
+
 - [x] Complete scraper for issues 1-20
 - [x] Create basic D3 timeline visualization
 - [x] Separate pull and process logic
@@ -302,17 +315,20 @@ npm test -- --coverage
 - [x] Create specific D3 gantt plot to explore as one chart
 
 ### Medium Term
+
 - [ ] Extend scraper to all 800+ issues
 - [ ] Add villain statistics (first appearance, frequency)
 - [ ] Implement villain relationship visualization
 - [ ] Extend Interaction with the marvel fandom website
 - [ ] Consider Arc's/Saga's ([Part of the End of Spider-Man arc](https://marvel.fandom.com/wiki/End_of_Spider-Man))
+- [ ] Create animated Group dynamics visualisation (showing how team members change)
 
 ### Long Term
+
 - [ ] Support multiple Spider-Man series (2099, Ultimate, etc.)
 - [ ] Add comics from other Marvel properties
 - [ ] Historical analysis of villain popularity trends
-
+- [ ] Attempt to make this compatable with a DC wiki (Batman?)
 
 ## Coverage Checklist
 
@@ -378,11 +394,9 @@ Maintenance note: Keep this checklist up to date after scrapes; tick items once 
   - [ ] Spider-Man Team-Up
   - [ ] Avenging Spider-Man
   - [ ] Spider-Man & Deadpool
-  
 - Extended Scope (616 Canon Spiders)
   Note: Explicitly build on separation and union — own pages, shared data, and unified form if requested.
   Status: Blocked until separation/union feature exists.
-
   - Miles Morales
     - [ ] Spider-Man (Miles Morales) Vol. 2 (2016–2018)
     - [ ] Miles Morales: Spider-Man Vol. 1 (2018–2022)
@@ -407,7 +421,6 @@ Maintenance note: Keep this checklist up to date after scrapes; tick items once 
   - Jessica Drew (Spider-Woman)
     - [ ] Spider-Woman Vol. 5 (2014–2017)
     - [ ] Spider-Woman Vol. 7 (2020–2021)
-
 
 ## Resources
 

@@ -23,6 +23,7 @@ import type {
   ProcessedGroup,
   SerializedProcessedData
 } from '../types';
+// GroupRegistry no longer used for roster enforcement
 import { classifyKind } from './groupClassifier';
 import { isUnnamedOrInvalidAntagonist } from './nameValidation';
 
@@ -312,16 +313,13 @@ function generateTimeline(
     const groupAppearances: GroupAppearance[] = [];
     for (const group of groupMap.values()) {
       if (group.appearances.includes(issueNumber)) {
-        // Derive members from villains present in THIS issue only
-        const members = villainsInIssue.map(v => v.name);
-
-        // Assert that members list reflects current issue context
-        if (members.length === 0) {
-          console.warn(
-            `[Group Members Derivation] Group "${group.name}" appears in issue ${issueNumber} ` +
-            `but has no member villains. This may indicate a data quality issue.`
-          );
-        }
+        // Derive members from INDIVIDUAL villains present in THIS issue only
+        // Exclude other groups (kind !== 'group') to prevent nested groups in member lists
+        // Use the villain's names array (which includes all name variants) to ensure
+        // cross-series matching works even when different series use different names
+        const members = villainsInIssue
+          .filter(v => v.kind === 'individual')
+          .flatMap(v => v.names || [v.name]); // Include all name variants
 
         groupAppearances.push({
           id: group.id,
