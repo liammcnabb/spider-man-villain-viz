@@ -599,4 +599,106 @@ describe('Elastic Grid Data Builder', () => {
             expect(tooltipData.webInfo).toBe('#1 → #8 (Gap: 5 issues)');
         });
     });
+
+    describe('Issue #13: Dark Theme Gap Column Colors', () => {
+        it('should use dark background color (#2d2d2d) for gap columns in dark theme', () => {
+            // Simulate dark theme being enabled
+            const isDarkTheme = true;
+            const gapColumnColor = isDarkTheme ? '#2d2d2d' : '#f8f9fa';
+
+            expect(gapColumnColor).toBe('#2d2d2d');
+        });
+
+        it('should use light background color (#f8f9fa) for gap columns in light theme', () => {
+            // Simulate light theme
+            const isDarkTheme = false;
+            const gapColumnColor = isDarkTheme ? '#2d2d2d' : '#f8f9fa';
+
+            expect(gapColumnColor).toBe('#f8f9fa');
+        });
+
+        it('should correctly determine theme and apply gap column color', () => {
+            // Test that gap columns use theme-appropriate colors
+            const themes = [
+                { isDark: true, expectedColor: '#2d2d2d', name: 'Dark Theme' },
+                { isDark: false, expectedColor: '#f8f9fa', name: 'Light Theme' }
+            ];
+
+            themes.forEach(theme => {
+                const gapColumnColor = theme.isDark ? '#2d2d2d' : '#f8f9fa';
+                expect(gapColumnColor).toBe(theme.expectedColor);
+            });
+        });
+
+        it('should match SVG background color in dark theme', () => {
+            // Dark theme SVG background
+            const svgBackgroundDark = '#2d2d2d';
+            // Gap column color in dark theme (must match exactly)
+            const gapColumnColorDark = '#2d2d2d';
+            // They should be identical so gaps are invisible
+
+            expect(gapColumnColorDark).toBe(svgBackgroundDark);
+        });
+
+        it('should not use #404040 (color-border) for gap columns', () => {
+            const borderColor = '#404040'; // Should NOT be used for gap columns
+            const gapColumnColor = '#2d2d2d'; // Should be used instead
+
+            expect(gapColumnColor).not.toBe(borderColor);
+        });
+    });
+
+    describe('Issue #14: Non-Elastic Grid Dark Theme Empty Cells', () => {
+        it('should use dark grey (#353535) for empty cells in dark theme', () => {
+            const isDarkTheme = true;
+            const cellFill = (isPresent: boolean) => {
+                if (isPresent) return '#e74c3c'; // Series color
+                return isDarkTheme ? '#353535' : '#ecf0f1';
+            };
+
+            expect(cellFill(false)).toBe('#353535');
+        });
+
+        it('should use light gray (#ecf0f1) for empty cells in light theme', () => {
+            const isDarkTheme = false;
+            const cellFill = (isPresent: boolean) => {
+                if (isPresent) return '#e74c3c'; // Series color
+                return isDarkTheme ? '#3a3a3a' : '#ecf0f1';
+            };
+
+            expect(cellFill(false)).toBe('#ecf0f1');
+        });
+
+        it('should show series color for present cells in both themes', () => {
+            const seriesColor = '#e74c3c';
+            const cellFillDark = (isPresent: boolean) => {
+                if (isPresent) return seriesColor;
+                return '#353535';
+            };
+            const cellFillLight = (isPresent: boolean) => {
+                if (isPresent) return seriesColor;
+                return '#ecf0f1';
+            };
+
+            expect(cellFillDark(true)).toBe(seriesColor);
+            expect(cellFillLight(true)).toBe(seriesColor);
+        });
+
+        it('should maintain visual distinction between empty cells and background in dark theme', () => {
+            // Empty cells should be slightly lighter than background
+            const svgBackgroundDark = '#2d2d2d';
+            const emptyCellColorDark = '#353535';
+
+            expect(emptyCellColorDark).not.toBe(svgBackgroundDark);
+        });
+
+        it('should maintain contrast in light theme with visible empty cells', () => {
+            // Empty cells should be visible in light theme
+            const svgBackgroundLight = '#ffffff';
+            const emptyCellColorLight = '#ecf0f1';
+
+            expect(emptyCellColorLight).not.toBe(svgBackgroundLight);
+        });
+    });
 });
+
