@@ -1,6 +1,6 @@
 {
   "series": "Amazing Spider-Man Vol 1",
-  "processedAt": "2026-01-12T11:49:46.013Z",
+  "processedAt": "2026-01-12T14:35:15.883Z",
   "stats": {
     "totalVillains": 334,
     "mostFrequent": "Doctor Octopus",
@@ -3939,7 +3939,14 @@
       "groups": [
         {
           "name": "Enforcers",
-          "members": ["Montana", "Fancy Dan", "Ox", "Green Goblin"]
+          "members": [
+            "Montana",
+            "Fancy Dan",
+            "Ox",
+            "Green Goblin",
+            "Norman Osborn",
+            "The Green Goblin"
+          ]
         }
       ]
     },
@@ -4066,7 +4073,14 @@
       "groups": [
         {
           "name": "Enforcers",
-          "members": ["Sandman", "Montana", "Fancy Dan", "Ox", "Rock Gimpy"]
+          "members": [
+            "Sandman",
+            "The Sandman",
+            "Montana",
+            "Fancy Dan",
+            "Ox",
+            "Rock Gimpy"
+          ]
         }
       ]
     },
@@ -4496,7 +4510,19 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Flint", "Big Turk"]
+          "members": [
+            "Kingpin",
+            "Sandman's Employer",
+            "Flint",
+            "Big Turk",
+            "Blinker",
+            "Shorty",
+            "Charlie",
+            "Mr. Slade",
+            "Louie",
+            "Blackie",
+            "Paine"
+          ]
         }
       ]
     },
@@ -4613,7 +4639,19 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Big Turk", "Dr. Winkler"]
+          "members": [
+            "Kingpin",
+            "Sandman's Employer",
+            "Big Turk",
+            "Blinker",
+            "Shorty",
+            "Charlie",
+            "Mr. Slade",
+            "Louie",
+            "Blackie",
+            "Paine",
+            "Dr. Winkler"
+          ]
         }
       ]
     },
@@ -4632,7 +4670,7 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Dr. Winkler"]
+          "members": ["Kingpin", "Sandman's Employer", "Dr. Winkler"]
         }
       ]
     },
@@ -4656,7 +4694,19 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Big Turk", "Dr. Winkler"]
+          "members": [
+            "Kingpin",
+            "Sandman's Employer",
+            "Big Turk",
+            "Blinker",
+            "Shorty",
+            "Charlie",
+            "Mr. Slade",
+            "Louie",
+            "Blackie",
+            "Paine",
+            "Dr. Winkler"
+          ]
         }
       ]
     },
@@ -4747,7 +4797,7 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Wilson"]
+          "members": ["Kingpin", "Sandman's Employer", "Wilson"]
         }
       ]
     },
@@ -4766,7 +4816,7 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Wilson"]
+          "members": ["Kingpin", "Sandman's Employer", "Wilson"]
         }
       ]
     },
@@ -4782,7 +4832,7 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin"]
+          "members": ["Kingpin", "Sandman's Employer"]
         }
       ]
     },
@@ -4840,6 +4890,7 @@
           "members": [
             "Manfredi Family",
             "Man-Mountain Marko",
+            "Man Mountain Marko",
             "Caesar Cicero",
             "Silvermane"
           ]
@@ -4876,6 +4927,7 @@
           "members": [
             "Manfredi Family",
             "Man-Mountain Marko",
+            "Man Mountain Marko",
             "Caesar Cicero",
             "Silvermane"
           ]
@@ -4915,6 +4967,7 @@
           "members": [
             "Manfredi Family",
             "Man-Mountain Marko",
+            "Man Mountain Marko",
             "Caesar Cicero",
             "Silvermane",
             "Blackie"
@@ -6412,12 +6465,21 @@
           "name": "Enforcers",
           "members": [
             "Burglar",
+            "The Burglar",
             "Chameleon",
             "Vulture",
+            "The Vulture",
+            "Quentin Beck",
             "Mysterio",
+            "Dr. Rinehart",
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
             "Doctor Doom",
+            "Dr. Doom",
+            "The Lizard",
             "Lizard",
             "Electro",
             "Big Man",
@@ -6425,22 +6487,31 @@
             "Fancy Dan",
             "Ox",
             "Green Goblin",
+            "Norman Osborn",
+            "The Green Goblin",
             "Kraven the Hunter",
             "Scorpion",
             "Beetle",
             "Molten Man",
             "Rhino",
+            "Colonel John Jameson",
             "Man-Wolf",
             "Shocker",
             "Kingpin",
+            "Sandman's Employer",
             "Morbius",
+            "Morbius the Living Vampire",
             "Hammerhead",
             "Tarantula",
             "Green Goblin",
             "Mirage",
             "Stegron",
+            "Stegron The Dinosaur Man",
             "Will O' The Wisp",
-            "Human Fly"
+            "Will O' the Wisp",
+            "The Human Fly",
+            "Human Fly",
+            "Fly"
           ]
         }
       ]
@@ -7992,11 +8063,16 @@
             "Beetle",
             "Rhino",
             "Kingpin",
+            "Sandman's Employer",
+            "Schemer",
+            "Rose",
             "The Rose",
             "Hydro-Man",
+            "Hydroman",
             "Speed Demon",
             "Hobgoblin",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Boomerang"
           ]
         }
@@ -8044,11 +8120,15 @@
           "members": [
             "Beetle",
             "Rhino",
+            "Schemer",
+            "Rose",
             "The Rose",
             "Hydro-Man",
+            "Hydroman",
             "Speed Demon",
             "Hobgoblin",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Boomerang"
           ]
         }
@@ -8994,7 +9074,14 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": ["Doctor Octopus", "Sandman", "Electro"]
+          "members": [
+            "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
+            "Sandman",
+            "The Sandman",
+            "Electro"
+          ]
         }
       ]
     },
@@ -9020,7 +9107,17 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": ["Mysterio", "Doctor Octopus", "Shocker", "Jack O'Lantern"]
+          "members": [
+            "Quentin Beck",
+            "Mysterio",
+            "Dr. Rinehart",
+            "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
+            "Shocker",
+            "Jack O'Lantern",
+            "Hobgoblin"
+          ]
         }
       ]
     },
@@ -9082,11 +9179,18 @@
           "name": "Sinister Six",
           "members": [
             "Vulture",
+            "The Vulture",
+            "Quentin Beck",
             "Mysterio",
+            "Dr. Rinehart",
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
             "Electro",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Jonathan Caesar"
           ]
         }
@@ -9130,11 +9234,18 @@
           "name": "Sinister Six",
           "members": [
             "Vulture",
+            "The Vulture",
+            "Quentin Beck",
             "Mysterio",
+            "Dr. Rinehart",
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
             "Electro",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Jonathan Caesar"
           ]
         }
@@ -9178,11 +9289,18 @@
           "name": "Sinister Six",
           "members": [
             "Vulture",
+            "The Vulture",
+            "Quentin Beck",
             "Mysterio",
+            "Dr. Rinehart",
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
             "Electro",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Jonathan Caesar"
           ]
         }
@@ -9607,8 +9725,19 @@
           "name": "Number Six",
           "members": [
             "Thunderball",
+            "Eliot Franklin",
+            "Dr. Eliot Franklin",
             "Secret Empire",
+            "Number Two",
+            "Number Five",
             "Number Seven",
+            "Number Three",
+            "Number Twelve",
+            "Number Nine",
+            "Number Ten",
+            "Number Four",
+            "Number Thirteen",
+            "Number Twenty-One",
             "Midnight",
             "Lynn Church"
           ]
@@ -9997,9 +10126,16 @@
           "name": "Wild Pack",
           "members": [
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
+            "Spider-Man's Black Suit",
+            "Symbiote Suit",
+            "Venom",
             "Venom Symbiote",
             "Venom",
+            "Eddie Brock",
             "Amy Chen",
             "Battlestar",
             "Raul Quentino",
@@ -10628,7 +10764,7 @@
       "groups": [
         {
           "name": "Jagged Skulls Gang",
-          "members": ["Mysterio", "Armada"]
+          "members": ["Quentin Beck", "Mysterio", "Dr. Rinehart", "Armada"]
         }
       ]
     },

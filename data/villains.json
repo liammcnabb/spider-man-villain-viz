@@ -1,6 +1,6 @@
 {
   "series": "Combined",
-  "processedAt": "2026-01-12T11:50:21.835Z",
+  "processedAt": "2026-01-12T14:35:19.602Z",
   "stats": {
     "totalVillains": 653,
     "mostFrequent": "Kingpin",
@@ -7324,10 +7324,7 @@
       "villainIds": [
         "Adrian_Toomes_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
-        "Phineas_Mason_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)"
+        "Phineas_Mason_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 2
@@ -7343,10 +7340,7 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Charles_Buchanan_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Charlie_(Warzone)_(Earth-616)"
+        "Charles_Buchanan_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 3
@@ -7409,11 +7403,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 8
     },
@@ -7456,8 +7446,7 @@
         "Frederick_Foswell_(Earth-616)",
         "Jackson_Brice_(Earth-616)",
         "Daniel_Brito_(Earth-616)",
-        "Raymond_Bloch_(Earth-616)",
-        "Ronald_Bloch_(Earth-616)"
+        "Raymond_Bloch_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 11,
@@ -7477,12 +7466,7 @@
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Blackie_Gaxton_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Blackie_Gaxton_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)", "Blackie_Gaxton_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 12
     },
@@ -7494,11 +7478,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 13
     },
@@ -7510,7 +7490,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 14
     },
@@ -7529,19 +7509,21 @@
         "Norman_Osborn_(Earth-616)",
         "Jackson_Brice_(Earth-616)",
         "Daniel_Brito_(Earth-616)",
-        "Raymond_Bloch_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Ronald_Bloch_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Raymond_Bloch_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 15,
       "groups": [
         {
           "name": "Enforcers",
-          "members": ["Montana", "Fancy Dan", "Ox", "Green Goblin"]
+          "members": [
+            "Montana",
+            "Fancy Dan",
+            "Ox",
+            "Green Goblin",
+            "Norman Osborn",
+            "The Green Goblin"
+          ]
         }
       ]
     },
@@ -7639,15 +7621,7 @@
         "X-Men_(Mysterio%27s_Androids)_(Earth-616)",
         "Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
         "Angel_(Mysterio%27s_Androids)_(Earth-616)",
-        "Beast_(Mysterio%27s_Androids)_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Scott_Summers_(Earth-616)",
-        "Warren_Worthington_III_(Earth-616)",
-        "Henry_McCoy_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Beast_(Mysterio%27s_Androids)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 18,
@@ -7660,11 +7634,7 @@
             "Doctor Octopus",
             "Mysterio",
             "Kraven the Hunter",
-            "Sandman",
-            "Mysterio's X-Men",
-            "Cyclops",
-            "Angel",
-            "Beast"
+            "Sandman"
           ]
         }
       ]
@@ -7677,13 +7647,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 19
     },
@@ -7713,15 +7677,7 @@
         "Sergei_Kravinoff_(Earth-616)",
         "William_Baker_(Earth-616)",
         "Norman_Osborn_(Earth-616)",
-        "Rocky_Roberts_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Rocky_Roberts_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 20
@@ -7743,15 +7699,21 @@
         "Jackson_Brice_(Earth-616)",
         "Daniel_Brito_(Earth-616)",
         "Raymond_Bloch_(Earth-616)",
-        "Rock_Gimpy_(Earth-616)",
-        "Ronald_Bloch_(Earth-616)"
+        "Rock_Gimpy_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 21,
       "groups": [
         {
           "name": "Enforcers",
-          "members": ["Sandman", "Montana", "Fancy Dan", "Ox", "Rock Gimpy"]
+          "members": [
+            "Sandman",
+            "The Sandman",
+            "Montana",
+            "Fancy Dan",
+            "Ox",
+            "Rock Gimpy"
+          ]
         }
       ]
     },
@@ -7822,14 +7784,7 @@
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
         "https://marvel.fandom.com/wiki/Francisco_Lobo_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Francisco_Lobo_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)", "Francisco_Lobo_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 25
     },
@@ -7841,7 +7796,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 26
     },
@@ -7869,10 +7824,7 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Nicholas_Lewis_Sr._(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 28
@@ -7888,10 +7840,7 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Nicholas_Lewis_Sr._(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 29
@@ -7922,8 +7871,7 @@
         "Carradine_(Earth-616)",
         "Phineas_Mason_(Earth-616)",
         "Victor_von_Doom_(Earth-616)",
-        "Doombot",
-        "Daniel_Berkhart_(Earth-616)"
+        "Doombot"
       ],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 30
@@ -7959,12 +7907,7 @@
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Cat_Burglar_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)", "Cat_Burglar_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 33
     },
@@ -7977,12 +7920,7 @@
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Foxy_Briggs_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Foxy_Briggs_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)", "Foxy_Briggs_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 34
     },
@@ -7994,11 +7932,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 35
     },
@@ -8055,14 +7989,7 @@
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
         "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Mendel_Stromm_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)", "Mendel_Stromm_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 40
     },
@@ -8086,13 +8013,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 42
     },
@@ -8104,13 +8025,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 43
     },
@@ -8139,9 +8054,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
         "Bruce_Banner_(Earth-616)",
-        "Blackie_Gaxton_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Blackie_Gaxton_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 45
@@ -8226,11 +8139,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Raniero_Drago_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Raniero_Drago_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 52
     },
@@ -8244,10 +8153,8 @@
         "https://marvel.fandom.com/wiki/Raniero_Drago_(Earth-616)"
       ],
       "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
         "Sergei_Kravinoff_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
+        "Raniero_Drago_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 53
@@ -8285,7 +8192,19 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Flint", "Big Turk"]
+          "members": [
+            "Kingpin",
+            "Sandman's Employer",
+            "Flint",
+            "Big Turk",
+            "Blinker",
+            "Shorty",
+            "Charlie",
+            "Mr. Slade",
+            "Louie",
+            "Blackie",
+            "Paine"
+          ]
         }
       ]
     },
@@ -8310,11 +8229,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 57
     },
@@ -8327,11 +8242,7 @@
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
         "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Bentley_Wittman_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "Bentley_Wittman_(Earth-616)"],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 58
     },
@@ -8343,11 +8254,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 59
     },
@@ -8359,11 +8266,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 60
     },
@@ -8375,11 +8278,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 61
     },
@@ -8435,7 +8334,19 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Big Turk", "Dr. Winkler"]
+          "members": [
+            "Kingpin",
+            "Sandman's Employer",
+            "Big Turk",
+            "Blinker",
+            "Shorty",
+            "Charlie",
+            "Mr. Slade",
+            "Louie",
+            "Blackie",
+            "Paine",
+            "Dr. Winkler"
+          ]
         }
       ]
     },
@@ -8454,7 +8365,7 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Dr. Winkler"]
+          "members": ["Kingpin", "Sandman's Employer", "Dr. Winkler"]
         }
       ]
     },
@@ -8478,7 +8389,19 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Big Turk", "Dr. Winkler"]
+          "members": [
+            "Kingpin",
+            "Sandman's Employer",
+            "Big Turk",
+            "Blinker",
+            "Shorty",
+            "Charlie",
+            "Mr. Slade",
+            "Louie",
+            "Blackie",
+            "Paine",
+            "Dr. Winkler"
+          ]
         }
       ]
     },
@@ -8503,11 +8426,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Raniero_Drago_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Raniero_Drago_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 68
     },
@@ -8519,11 +8438,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 69
     },
@@ -8546,15 +8461,7 @@
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 71
     },
@@ -8571,8 +8478,7 @@
       "villainIds": [
         "Albert_Malik_(Earth-616)",
         "Sandor_(Earth-616)",
-        "Karl_Fiers_(Earth-616)",
-        "Johann_Shmidt_(Earth-616)"
+        "Karl_Fiers_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 72
@@ -8585,7 +8491,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 73
     },
@@ -8604,7 +8510,7 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Wilson"]
+          "members": ["Kingpin", "Sandman's Employer", "Wilson"]
         }
       ]
     },
@@ -8623,7 +8529,7 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin", "Wilson"]
+          "members": ["Kingpin", "Sandman's Employer", "Wilson"]
         }
       ]
     },
@@ -8639,7 +8545,7 @@
       "groups": [
         {
           "name": "Kingpin's Henchmen",
-          "members": ["Kingpin"]
+          "members": ["Kingpin", "Sandman's Employer"]
         }
       ]
     },
@@ -8697,6 +8603,7 @@
           "members": [
             "Manfredi Family",
             "Man-Mountain Marko",
+            "Man Mountain Marko",
             "Caesar Cicero",
             "Silvermane"
           ]
@@ -8733,6 +8640,7 @@
           "members": [
             "Manfredi Family",
             "Man-Mountain Marko",
+            "Man Mountain Marko",
             "Caesar Cicero",
             "Silvermane"
           ]
@@ -8772,6 +8680,7 @@
           "members": [
             "Manfredi Family",
             "Man-Mountain Marko",
+            "Man Mountain Marko",
             "Caesar Cicero",
             "Silvermane",
             "Blackie"
@@ -8844,15 +8753,7 @@
         "Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
         "Angel_(Mysterio%27s_Androids)_(Earth-616)",
         "Beast_(Mysterio%27s_Androids)_(Earth-616)",
-        "Peter_Parker_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Scott_Summers_(Earth-616)",
-        "Warren_Worthington_III_(Earth-616)",
-        "Henry_McCoy_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Peter_Parker_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 84,
@@ -8865,12 +8766,7 @@
             "Doctor Octopus",
             "Mysterio",
             "Kraven the Hunter",
-            "Sandman",
-            "Mysterio's X-Men",
-            "Cyclops",
-            "Angel",
-            "Beast",
-            "Spider-Man"
+            "Sandman"
           ]
         }
       ]
@@ -8944,12 +8840,7 @@
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Richard_Fisk_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 90
     },
@@ -8962,12 +8853,7 @@
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Richard_Fisk_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 91
     },
@@ -8980,12 +8866,7 @@
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Richard_Fisk_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 92
     },
@@ -9019,11 +8900,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 95
     },
@@ -9035,11 +8912,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 96
     },
@@ -9051,11 +8924,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 97
     },
@@ -9072,9 +8941,7 @@
       "villainIds": [
         "Adrian_Toomes_(Earth-616)",
         "Dmitri_Smerdyakov_(Earth-616)",
-        "Joseph_Smith_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
+        "Joseph_Smith_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 98
@@ -9141,13 +9008,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 104
     },
@@ -9159,13 +9020,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 105
     },
@@ -9177,13 +9032,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 106
     },
@@ -9220,15 +9069,7 @@
         "Otto_Octavius_(Earth-616)",
         "Wilson_Fisk_(Earth-616)",
         "Norman_Osborn_(Earth-616)",
-        "Curtis_Connors_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Curtis_Connors_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 108
@@ -9399,11 +9240,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 121
     },
@@ -9418,9 +9255,7 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Hammerhead_(Joseph)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Hammerhead_(Joseph)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 122
@@ -9436,9 +9271,7 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Hammerhead_(Joseph)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Hammerhead_(Joseph)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 123
@@ -9454,9 +9287,7 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Hammerhead_(Joseph)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Hammerhead_(Joseph)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 124
@@ -9539,13 +9370,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 130
     },
@@ -9557,13 +9382,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 131
     },
@@ -9597,13 +9416,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 134
     },
@@ -9640,11 +9453,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Clifton_Shallot_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Clifton_Shallot_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 137
     },
@@ -9656,11 +9465,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Clifton_Shallot_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Clifton_Shallot_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 138
     },
@@ -9673,12 +9478,7 @@
         "https://marvel.fandom.com/wiki/Francis_Castle_(Earth-616)",
         "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)"
       ],
-      "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Francis_Castle_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
-      ],
+      "villainIds": ["Miles_Warren_(Earth-616)", "Francis_Castle_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 139
     },
@@ -9695,11 +9495,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)",
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Miles_Warren_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 140
@@ -9715,9 +9511,7 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Hammerhead_(Joseph)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Hammerhead_(Joseph)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 141
@@ -9753,7 +9547,6 @@
         "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)"
       ],
       "villainIds": [
-        "Luis_Alvarez_(Earth-616)",
         "Juan_(Tarantula%27s_Henchman)_(Earth-616)",
         "Hidalgo_Rodriquez_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)"
@@ -9772,7 +9565,6 @@
         "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)"
       ],
       "villainIds": [
-        "Luis_Alvarez_(Earth-616)",
         "Juan_(Tarantula%27s_Henchman)_(Earth-616)",
         "Hidalgo_Rodriquez_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)"
@@ -9788,13 +9580,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Harold_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Harold_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 146
     },
@@ -9806,13 +9592,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Harold_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Harold_Osborn_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 147
     },
@@ -9837,12 +9617,7 @@
         "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
         "https://marvel.fandom.com/wiki/Maxwell_Markham_(Earth-616)"
       ],
-      "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Maxwell_Markham_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
-      ],
+      "villainIds": ["Miles_Warren_(Earth-616)", "Maxwell_Markham_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 149
     },
@@ -9855,12 +9630,7 @@
         "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)",
         "https://marvel.fandom.com/wiki/Maxwell_Markham_(Earth-616)"
       ],
-      "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Maxwell_Markham_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
-      ],
+      "villainIds": ["Miles_Warren_(Earth-616)", "Maxwell_Markham_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 150
     },
@@ -9872,7 +9642,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Daniel_Berkhart_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Daniel_Berkhart_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 151
     },
@@ -9884,7 +9654,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Daniel_Berkhart_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Daniel_Berkhart_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 152
     },
@@ -9935,9 +9705,7 @@
       ],
       "villainIds": [
         "MacDonald_Gargan_(Earth-616)",
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
+        "Miles_Warren_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 156
@@ -9953,10 +9721,7 @@
       ],
       "villainIds": [
         "Miles_Warren_(Earth-616)",
-        "Luis_Alvarez_(Earth-616)",
-        "Anton_Miguel_Rodriquez_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
+        "Anton_Miguel_Rodriquez_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 157
@@ -9972,10 +9737,7 @@
       ],
       "villainIds": [
         "Miles_Warren_(Earth-616)",
-        "Luis_Alvarez_(Earth-616)",
-        "Anton_Miguel_Rodriquez_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
+        "Anton_Miguel_Rodriquez_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 158
@@ -9993,8 +9755,7 @@
       "villainIds": [
         "Miles_Warren_(Earth-616)",
         "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Benjamin_Reilly_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
+        "Benjamin_Reilly_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 159
@@ -10098,9 +9859,7 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Hammerhead_(Joseph)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Hammerhead_(Joseph)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 167
@@ -10116,9 +9875,7 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Hammerhead_(Joseph)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Hammerhead_(Joseph)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 168
@@ -10134,9 +9891,7 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Hammerhead_(Joseph)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Hammerhead_(Joseph)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 169
@@ -10212,10 +9967,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Anton_Miguel_Rodriquez_(Earth-616)"
       ],
-      "villainIds": [
-        "Luis_Alvarez_(Earth-616)",
-        "Anton_Miguel_Rodriquez_(Earth-616)"
-      ],
+      "villainIds": ["Anton_Miguel_Rodriquez_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 175
     },
@@ -10241,7 +9993,6 @@
       ],
       "villainIds": [
         "Sergei_Kravinoff_(Earth-616)",
-        "Luis_Alvarez_(Earth-616)",
         "Edward_Lansky_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)"
       ],
@@ -10270,7 +10021,6 @@
         "https://marvel.fandom.com/wiki/Edward_Lansky_(Earth-616)"
       ],
       "villainIds": [
-        "Luis_Alvarez_(Earth-616)",
         "Edward_Lansky_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)"
       ],
@@ -10305,8 +10055,6 @@
       ],
       "villainIds": [
         "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
         "Burt_Kenyon_(Earth-616)",
         "Boss_Morgan_(Earth-616)"
       ],
@@ -10341,8 +10089,6 @@
       ],
       "villainIds": [
         "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
         "Burt_Kenyon_(Earth-616)",
         "Boss_Morgan_(Earth-616)"
       ],
@@ -10376,7 +10122,7 @@
         "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Empathoid_(Earth-616)"
       ],
-      "villainIds": ["Empathoid_(Earth-616)"],
+      "villainIds": ["Michael_Morbius_(Earth-616)", "Empathoid_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 185
     },
@@ -10401,7 +10147,7 @@
         "https://marvel.fandom.com/wiki/Boss_Morgan_(Earth-616)",
         "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)"
       ],
-      "villainIds": ["Boss_Morgan_(Earth-616)"],
+      "villainIds": ["Michael_Morbius_(Earth-616)", "Boss_Morgan_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 187
     },
@@ -10426,7 +10172,7 @@
         "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Empathoid_(Earth-616)"
       ],
-      "villainIds": ["Empathoid_(Earth-616)"],
+      "villainIds": ["Michael_Morbius_(Earth-616)", "Empathoid_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 189
     },
@@ -10630,13 +10376,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Barton_Hamilton_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Barton_Hamilton_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 201
     },
@@ -10675,12 +10415,8 @@
         "https://marvel.fandom.com/wiki/Barton_Hamilton_(Earth-616)"
       ],
       "villainIds": [
-        "Norman_Osborn_(Earth-616)",
         "Silvio_Manfredi_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Barton_Hamilton_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 203
@@ -10720,12 +10456,8 @@
         "https://marvel.fandom.com/wiki/Barton_Hamilton_(Earth-616)"
       ],
       "villainIds": [
-        "Norman_Osborn_(Earth-616)",
         "Silvio_Manfredi_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Barton_Hamilton_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 205
@@ -10752,12 +10484,8 @@
         "https://marvel.fandom.com/wiki/Barton_Hamilton_(Earth-616)"
       ],
       "villainIds": [
-        "Norman_Osborn_(Earth-616)",
         "Silvio_Manfredi_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Barton_Hamilton_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 207
@@ -10771,7 +10499,7 @@
         "https://marvel.fandom.com/wiki/Robert_Drake_(Earth-616)",
         "https://marvel.fandom.com/wiki/Stuart_Clarke_(Earth-616)"
       ],
-      "villainIds": ["Stuart_Clarke_(Earth-616)"],
+      "villainIds": ["Robert_Drake_(Earth-616)", "Stuart_Clarke_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 208
     },
@@ -10785,12 +10513,8 @@
         "https://marvel.fandom.com/wiki/Barton_Hamilton_(Earth-616)"
       ],
       "villainIds": [
-        "Norman_Osborn_(Earth-616)",
         "Silvio_Manfredi_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Barton_Hamilton_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 209
@@ -10893,7 +10617,6 @@
         "Aleksei_Sytsevich_(Earth-616)",
         "MacDonald_Gargan_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)",
-        "Luis_Alvarez_(Earth-616)",
         "Curtis_Connors_(Earth-616)",
         "John_Jonah_Jameson_III_(Earth-616)",
         "Frederick_Foswell_(Earth-616)",
@@ -10901,21 +10624,12 @@
         "Daniel_Brito_(Earth-616)",
         "Raymond_Bloch_(Earth-616)",
         "Abner_Jenkins_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
         "Michael_Morbius_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)",
         "Harold_Osborn_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
         "Desmond_Charne_(Earth-616)",
         "Vincent_Stegron_(Earth-616)",
-        "Jackson_Arvad_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Ronald_Bloch_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Jackson_Arvad_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 211,
@@ -10924,12 +10638,21 @@
           "name": "Enforcers",
           "members": [
             "Burglar",
+            "The Burglar",
             "Chameleon",
             "Vulture",
+            "The Vulture",
+            "Quentin Beck",
             "Mysterio",
+            "Dr. Rinehart",
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
             "Doctor Doom",
+            "Dr. Doom",
+            "The Lizard",
             "Lizard",
             "Electro",
             "Big Man",
@@ -10937,22 +10660,31 @@
             "Fancy Dan",
             "Ox",
             "Green Goblin",
+            "Norman Osborn",
+            "The Green Goblin",
             "Kraven the Hunter",
             "Scorpion",
             "Beetle",
             "Molten Man",
             "Rhino",
+            "Colonel John Jameson",
             "Man-Wolf",
             "Shocker",
             "Kingpin",
+            "Sandman's Employer",
             "Morbius",
+            "Morbius the Living Vampire",
             "Hammerhead",
             "Tarantula",
             "Green Goblin",
             "Mirage",
             "Stegron",
+            "Stegron The Dinosaur Man",
             "Will O' The Wisp",
-            "Human Fly"
+            "Will O' the Wisp",
+            "The Human Fly",
+            "Human Fly",
+            "Fly"
           ]
         }
       ]
@@ -10972,7 +10704,6 @@
         "Edward_Lansky_(Earth-616)",
         "Jackson_Brice_(Earth-616)",
         "Daniel_Brito_(Earth-616)",
-        "Raymond_Bloch_(Earth-616)",
         "Ronald_Bloch_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
@@ -11012,7 +10743,6 @@
         "Edward_Lansky_(Earth-616)",
         "Jackson_Brice_(Earth-616)",
         "Daniel_Brito_(Earth-616)",
-        "Raymond_Bloch_(Earth-616)",
         "Ronald_Bloch_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
@@ -11196,7 +10926,6 @@
       ],
       "villainIds": [
         "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Malcolm_McBride_(Earth-616)",
         "Frank_Farnum_(Earth-616)",
         "Tri-Man_(Earth-616)"
       ],
@@ -11233,7 +10962,6 @@
       ],
       "villainIds": [
         "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Malcolm_McBride_(Earth-616)",
         "Frank_Farnum_(Earth-616)",
         "Tri-Man_(Earth-616)"
       ],
@@ -11268,7 +10996,6 @@
       ],
       "villainIds": [
         "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Malcolm_McBride_(Earth-616)",
         "Frank_Farnum_(Earth-616)",
         "Tri-Man_(Earth-616)"
       ],
@@ -11309,7 +11036,6 @@
       ],
       "villainIds": [
         "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Malcolm_McBride_(Earth-616)",
         "Frank_Farnum_(Earth-616)",
         "Tri-Man_(Earth-616)"
       ],
@@ -11345,7 +11071,6 @@
       ],
       "villainIds": [
         "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Malcolm_McBride_(Earth-616)",
         "Randy_Vale_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
@@ -11378,7 +11103,6 @@
       ],
       "villainIds": [
         "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Malcolm_McBride_(Earth-616)",
         "Randy_Vale_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
@@ -11409,7 +11133,6 @@
       ],
       "villainIds": [
         "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Malcolm_McBride_(Earth-616)",
         "Randy_Vale_(Earth-616)",
         "Spider-Amoeba_(Earth-616)"
       ],
@@ -11509,7 +11232,6 @@
       "villainIds": [
         "Quentin_Beck_(Earth-616)",
         "Wilson_Fisk_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
         "Boris_Korpse_(Earth-616)",
         "Bruno_Grainger_(Earth-616)"
       ],
@@ -11542,8 +11264,7 @@
       "villainIds": [
         "Quentin_Beck_(Earth-616)",
         "Carradine_(Earth-616)",
-        "Wilson_Fisk_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)"
+        "Wilson_Fisk_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 244
@@ -11598,9 +11319,7 @@
         "Silvio_Manfredi_(Earth-616)",
         "Michael_Marko_(Earth-616)",
         "Hobart_Brown_(Earth-616)",
-        "Frank_Oliver_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Frank_Oliver_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 246
@@ -11614,11 +11333,7 @@
         "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Carradine_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "Carradine_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 247
     },
@@ -11643,11 +11358,7 @@
         "https://marvel.fandom.com/wiki/Carradine_(Earth-616)",
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Carradine_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "Carradine_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 249
     },
@@ -11682,7 +11393,7 @@
         "https://marvel.fandom.com/wiki/Michael_Morbius_(Earth-616)",
         "https://marvel.fandom.com/wiki/Chip_Martin_(Earth-616)"
       ],
-      "villainIds": ["Chip_Martin_(Earth-616)"],
+      "villainIds": ["Michael_Morbius_(Earth-616)", "Chip_Martin_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 252
     },
@@ -11729,7 +11440,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Peter_Parker_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 256
     },
@@ -11753,7 +11464,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Norton_Fester_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 258
     },
@@ -11790,6 +11501,8 @@
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)",
         "William_Baker_(Earth-616)",
+        "Bentley_Wittman_(Earth-616)",
+        "Peter_Petruski_(Earth-616)",
         "Frightful_Four_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
@@ -11840,12 +11553,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Malachi_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Malachi_Toomes_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Malachi_Toomes_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 264
     },
@@ -11870,12 +11578,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Malachi_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Malachi_Toomes_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Malachi_Toomes_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 266
     },
@@ -11928,7 +11631,7 @@
         "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
         "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)"
       ],
-      "villainIds": ["Hobart_Brown_(Earth-616)", "Narda_Ravanna_(Earth-616)"],
+      "villainIds": ["Cat_Burglar_(Earth-616)", "Narda_Ravanna_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 270
     },
@@ -11953,7 +11656,7 @@
         "https://marvel.fandom.com/wiki/Narda_Ravanna_(Earth-616)",
         "https://marvel.fandom.com/wiki/Cat_Burglar_(Earth-616)"
       ],
-      "villainIds": ["Hobart_Brown_(Earth-616)", "Narda_Ravanna_(Earth-616)"],
+      "villainIds": ["Cat_Burglar_(Earth-616)", "Narda_Ravanna_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 272
     },
@@ -12027,7 +11730,6 @@
       ],
       "villainIds": [
         "Quentin_Beck_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
         "Erik_Josten_(Earth-616)",
         "Gideon_Mace_(Earth-616)"
       ],
@@ -12056,11 +11758,7 @@
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
         "https://marvel.fandom.com/wiki/Gideon_Mace_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Gideon_Mace_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "Gideon_Mace_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 279
     },
@@ -12217,10 +11915,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Jason_Macendale_Jr._(Earth-616)",
-        "Steven_Levins_(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 289
     },
@@ -12343,7 +12038,7 @@
         "https://marvel.fandom.com/wiki/Abner_Jenkins_(Earth-616)",
         "https://marvel.fandom.com/wiki/Carradine_(Earth-616)"
       ],
-      "villainIds": ["Abner_Jenkins_(Earth-616)"],
+      "villainIds": ["Carradine_(Earth-616)", "Abner_Jenkins_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 297
     },
@@ -12355,11 +12050,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 298
     },
@@ -12403,11 +12094,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 301
     },
@@ -12652,7 +12339,6 @@
         "https://marvel.fandom.com/wiki/Brand_Corporation_(Earth-616)/Members"
       ],
       "villainIds": [
-        "Luis_Alvarez_(Earth-616)",
         "Brand_Corporation_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)",
         "Brand_Corporation_(Earth-616)/Members"
@@ -12689,7 +12375,6 @@
         "https://marvel.fandom.com/wiki/James_Melvin_(Earth-616)"
       ],
       "villainIds": [
-        "Luis_Alvarez_(Earth-616)",
         "Brand_Corporation_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)",
         "Jackson_Arvad_(Earth-616)",
@@ -12707,11 +12392,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Oliver_Osnick_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Oliver_Osnick_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 322
     },
@@ -12756,7 +12437,7 @@
         "https://marvel.fandom.com/wiki/John_Gamelin_(Earth-616)"
       ],
       "villainIds": [
-        "Luis_Alvarez_(Earth-616)",
+        "Roxxon_Energy_Corporation_(Earth-616)",
         "Brand_Corporation_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)",
         "Jackson_Arvad_(Earth-616)",
@@ -12781,8 +12462,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
         "Frederick_Myers_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Leland_Owlsley_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 325
@@ -12810,7 +12490,7 @@
         "https://marvel.fandom.com/wiki/August_D%27Angelo_(Earth-616)"
       ],
       "villainIds": [
-        "Luis_Alvarez_(Earth-616)",
+        "Roxxon_Energy_Corporation_(Earth-616)",
         "Brand_Corporation_(Earth-616)",
         "Anton_Miguel_Rodriquez_(Earth-616)",
         "James_Melvin_(Earth-616)",
@@ -12835,8 +12515,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
         "Wilson_Fisk_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
+        "Leland_Owlsley_(Earth-616)",
         "Mark_Whitman_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
@@ -12865,8 +12544,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
         "Wilson_Fisk_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Leland_Owlsley_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 329
@@ -12881,10 +12559,8 @@
         "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
-        "George_Hill_(Criminal)_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
+        "George_Hill_(Criminal)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 330
@@ -12897,11 +12573,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 331
     },
@@ -12913,11 +12585,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)"
       ],
-      "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Roderick_Kingsley_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 332
     },
@@ -12929,11 +12597,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 333
     },
@@ -12945,11 +12609,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 334
     },
@@ -12961,11 +12621,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 335
     },
@@ -12977,11 +12633,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 336
     },
@@ -12993,11 +12645,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 337
     },
@@ -13061,10 +12709,8 @@
         "https://marvel.fandom.com/wiki/Arnold_Donovan_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
-        "Arnold_Donovan_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
+        "Arnold_Donovan_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 342
@@ -13092,10 +12738,8 @@
         "https://marvel.fandom.com/wiki/Arnold_Donovan_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
-        "Arnold_Donovan_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
+        "Arnold_Donovan_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 344
@@ -13165,11 +12809,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)"
       ],
-      "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Roderick_Kingsley_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 350
     },
@@ -13197,7 +12837,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Richard_Deacon_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Richard_Deacon_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 352
     },
@@ -13212,9 +12852,7 @@
       ],
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
+        "Roderick_Kingsley_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 353
@@ -13237,11 +12875,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)"
       ],
-      "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Roderick_Kingsley_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 355
     },
@@ -13254,7 +12888,7 @@
         "https://marvel.fandom.com/wiki/Klaus_Voorhees_(Earth-616)",
         "https://marvel.fandom.com/wiki/Calvin_Zabo_(Earth-616)"
       ],
-      "villainIds": ["Klaus_Voorhees_(Earth-616)"],
+      "villainIds": ["Klaus_Voorhees_(Earth-616)", "Calvin_Zabo_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 356
     },
@@ -13266,11 +12900,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)"
       ],
-      "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Roderick_Kingsley_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 357
     },
@@ -13312,11 +12942,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Richard_Fisk_(Earth-616)"
       ],
-      "villainIds": [
-        "Richard_Fisk_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
-      ],
+      "villainIds": ["Richard_Fisk_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 361
     },
@@ -13340,10 +12966,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Jason_Macendale_Jr._(Earth-616)",
-        "Steven_Levins_(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 363
     },
@@ -13410,9 +13033,7 @@
         "Thomas_Fireheart_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "Frankie_Silvera_(Earth-616)",
-        "Ralph_Mac_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Ralph_Mac_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 367
@@ -13448,13 +13069,9 @@
       ],
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
-        "Hobgoblin",
         "Thomas_Fireheart_(Earth-616)",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Edward_Leeds_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 369
@@ -13474,9 +13091,7 @@
         "Wilson_Fisk_(Earth-616)",
         "Silvio_Manfredi_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Aaron_Nicholson_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Aaron_Nicholson_(Earth-616)"
       ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 370
@@ -13492,13 +13107,9 @@
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "Edward_Leeds_(Earth-616)",
-        "Venom_(Symbiote)_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Venom_(Symbiote)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 371
@@ -13544,13 +13155,9 @@
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Venom_(Symbiote)_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Venom_(Symbiote)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 374
@@ -13564,7 +13171,7 @@
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)"
       ],
-      "villainIds": ["Wilson_Fisk_(Earth-616)"],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Venom_(Symbiote)_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 375
     },
@@ -13578,12 +13185,8 @@
         "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Richard_Fisk_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 376
@@ -13598,7 +13201,11 @@
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
         "https://marvel.fandom.com/wiki/Johnathon_Ohnn_(Earth-616)"
       ],
-      "villainIds": ["Wilson_Fisk_(Earth-616)", "Johnathon_Ohnn_(Earth-616)"],
+      "villainIds": [
+        "Wilson_Fisk_(Earth-616)",
+        "Venom_(Symbiote)_(Earth-616)",
+        "Johnathon_Ohnn_(Earth-616)"
+      ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 377
     },
@@ -13612,12 +13219,8 @@
         "https://marvel.fandom.com/wiki/Roderick_Kingsley_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Richard_Fisk_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 378
@@ -13632,7 +13235,11 @@
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
         "https://marvel.fandom.com/wiki/Johnathon_Ohnn_(Earth-616)"
       ],
-      "villainIds": ["Wilson_Fisk_(Earth-616)", "Johnathon_Ohnn_(Earth-616)"],
+      "villainIds": [
+        "Wilson_Fisk_(Earth-616)",
+        "Venom_(Symbiote)_(Earth-616)",
+        "Johnathon_Ohnn_(Earth-616)"
+      ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 379
     },
@@ -13659,7 +13266,11 @@
         "https://marvel.fandom.com/wiki/Venom_(Symbiote)_(Earth-616)",
         "https://marvel.fandom.com/wiki/Johnathon_Ohnn_(Earth-616)"
       ],
-      "villainIds": ["Wilson_Fisk_(Earth-616)", "Johnathon_Ohnn_(Earth-616)"],
+      "villainIds": [
+        "Wilson_Fisk_(Earth-616)",
+        "Venom_(Symbiote)_(Earth-616)",
+        "Johnathon_Ohnn_(Earth-616)"
+      ],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 381
     },
@@ -13684,6 +13295,7 @@
         "https://marvel.fandom.com/wiki/Sugar_Face_(Vulturions)_(Earth-616)"
       ],
       "villainIds": [
+        "Venom_(Symbiote)_(Earth-616)",
         "Vulturions_(Earth-616)",
         "Honcho_(Vulturions)_(Earth-616)",
         "Gripes_(Vulturions)_(Earth-616)",
@@ -13717,7 +13329,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Marco_Scarlotti_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Marco_Scarlotti_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 384
     },
@@ -13798,8 +13410,6 @@
       ],
       "villainIds": [
         "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
         "Vulturions_(Earth-616)",
         "Honcho_(Vulturions)_(Earth-616)",
         "Gripes_(Vulturions)_(Earth-616)",
@@ -13841,11 +13451,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 391
     },
@@ -13879,11 +13485,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 394
     },
@@ -13977,7 +13579,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Stanley_Carter_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 402
     },
@@ -14024,7 +13626,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Stanley_Carter_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 406
     },
@@ -14065,6 +13667,7 @@
       ],
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
+        "Stanley_Carter_(Earth-616)",
         "Emil_Gregg_(Earth-616)",
         "Santa_Claus_Burglar_(Earth-616)"
       ],
@@ -14104,7 +13707,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Stanley_Carter_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Stanley_Carter_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 412
     },
@@ -14200,12 +13803,8 @@
       ],
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Richard_Fisk_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 420
@@ -14252,14 +13851,10 @@
       ],
       "villainIds": [
         "Richard_Deacon_(Earth-616)",
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "Edward_Leeds_(Earth-616)",
-        "Scourge_(Delazny)_(Earth-616)",
-        "Scourge_II_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Scourge_(Delazny)_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 423
@@ -14330,7 +13925,10 @@
         "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jonathan_Darque_(Earth-616)"
       ],
-      "villainIds": ["Jonathan_Darque_(Earth-616)"],
+      "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
+        "Jonathan_Darque_(Earth-616)"
+      ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 428
     },
@@ -14346,15 +13944,10 @@
         "https://marvel.fandom.com/wiki/Brian_DeWolff_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Scourge_(Delazny)_(Earth-616)",
         "Scourge_II_(Earth-616)",
-        "Brian_DeWolff_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Brian_DeWolff_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 429
@@ -14381,7 +13974,10 @@
         "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jonathan_Darque_(Earth-616)"
       ],
-      "villainIds": ["Jonathan_Darque_(Earth-616)"],
+      "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
+        "Jonathan_Darque_(Earth-616)"
+      ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 431
     },
@@ -14393,10 +13989,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Jason_Macendale_Jr._(Earth-616)",
-        "Steven_Levins_(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 432
     },
@@ -14455,18 +14048,13 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
         "Aleksei_Sytsevich_(Earth-616)",
-        "Hobgoblin",
         "Morris_Bench_(Earth-616)",
         "Roderick_Kingsley_(Earth-616)",
         "Abner_Jenkins_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "James_Sanders_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Frederick_Myers_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Steven_Levins_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Frederick_Myers_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 435,
@@ -14477,11 +14065,16 @@
             "Beetle",
             "Rhino",
             "Kingpin",
+            "Sandman's Employer",
+            "Schemer",
+            "Rose",
             "The Rose",
             "Hydro-Man",
+            "Hydroman",
             "Speed Demon",
             "Hobgoblin",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Boomerang"
           ]
         }
@@ -14557,18 +14150,13 @@
       ],
       "villainIds": [
         "Aleksei_Sytsevich_(Earth-616)",
-        "Hobgoblin",
         "Morris_Bench_(Earth-616)",
         "Roderick_Kingsley_(Earth-616)",
         "Abner_Jenkins_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "James_Sanders_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Frederick_Myers_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Steven_Levins_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Frederick_Myers_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 438,
@@ -14578,11 +14166,15 @@
           "members": [
             "Beetle",
             "Rhino",
+            "Schemer",
+            "Rose",
             "The Rose",
             "Hydro-Man",
+            "Hydroman",
             "Speed Demon",
             "Hobgoblin",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Boomerang"
           ]
         }
@@ -14612,6 +14204,7 @@
         "https://marvel.fandom.com/wiki/Sean_Dunne_(Earth-616)"
       ],
       "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
         "Irish_Republican_Army_(Earth-616)",
         "Sean_Dunne_(Earth-616)"
       ],
@@ -14639,9 +14232,6 @@
         "https://marvel.fandom.com/wiki/Henry_McCoy_(Earth-616)"
       ],
       "villainIds": [
-        "Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
-        "Angel_(Mysterio%27s_Androids)_(Earth-616)",
-        "Beast_(Mysterio%27s_Androids)_(Earth-616)",
         "X-Factor_(Earth-616)",
         "Scott_Summers_(Earth-616)",
         "Jean_Grey_(Earth-616)",
@@ -14702,9 +14292,7 @@
         "https://marvel.fandom.com/wiki/Carl_Creel_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
         "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
         "Mary_MacPherran_(Earth-616)",
         "Carl_Creel_(Earth-616)"
       ],
@@ -14744,6 +14332,7 @@
         "https://marvel.fandom.com/wiki/Duncan_O%27Neill_(Earth-616)"
       ],
       "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
         "Irish_Republican_Army_(Earth-616)",
         "Ian_Forbes_(Earth-616)",
         "Roxxon_Energy_Corporation_(Earth-616)/Members",
@@ -14779,16 +14368,11 @@
       "villainIds": [
         "Silvio_Manfredi_(Earth-616)",
         "Oswald_Silkworth_(Earth-616)",
-        "Hobgoblin",
         "Hammerhead_(Joseph)_(Earth-616)",
         "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Blue_Boys_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Steven_Levins_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Blue_Boys_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 448
@@ -14814,12 +14398,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jalome_Beacher_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Jalome_Beacher_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Jalome_Beacher_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 450
     },
@@ -14845,16 +14424,11 @@
       ],
       "villainIds": [
         "Oswald_Silkworth_(Earth-616)",
-        "Hobgoblin",
         "Hammerhead_(Joseph)_(Earth-616)",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
         "Edward_Leeds_(Earth-616)",
-        "Blue_Boys_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Steven_Levins_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Blue_Boys_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 451
@@ -14890,15 +14464,9 @@
       ],
       "villainIds": [
         "Adrian_Toomes_(Earth-616)",
-        "Hobgoblin",
         "Edward_Brock_(Earth-616)",
-        "Roderick_Kingsley_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Edward_Leeds_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 453
@@ -14915,15 +14483,10 @@
         "https://marvel.fandom.com/wiki/Blue_Boys_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
         "Edward_Leeds_(Earth-616)",
-        "Blue_Boys_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Steven_Levins_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Blue_Boys_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 454
@@ -14936,11 +14499,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 455
     },
@@ -14971,12 +14530,8 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
         "Oswald_Silkworth_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Edward_Leeds_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 457
@@ -15048,16 +14603,11 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
         "Oswald_Silkworth_(Earth-616)",
-        "Hobgoblin",
         "Hammerhead_(Joseph)_(Earth-616)",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
         "Edward_Leeds_(Earth-616)",
-        "Blue_Boys_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Steven_Levins_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Blue_Boys_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 460
@@ -15127,10 +14677,7 @@
         "Richard_Fisk_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
         "1400_Club_(Earth-616)",
-        "Foreigner_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Steven_Levins_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Foreigner_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 463
@@ -15143,7 +14690,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Leland_Owlsley_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Leland_Owlsley_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 464
     },
@@ -15203,12 +14750,8 @@
       ],
       "villainIds": [
         "Oswald_Silkworth_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Jason_Macendale_Jr._(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 468
@@ -15221,7 +14764,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Alistaire_Smythe_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 469
     },
@@ -15254,7 +14797,10 @@
         "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)",
         "https://marvel.fandom.com/wiki/Philip_Watson_(Earth-616)"
       ],
-      "villainIds": ["Philip_Watson_(Earth-616)"],
+      "villainIds": [
+        "Alistaire_Smythe_(Earth-616)",
+        "Philip_Watson_(Earth-616)"
+      ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 472
     },
@@ -15280,12 +14826,7 @@
         "https://marvel.fandom.com/wiki/Wilson_Fisk_(Earth-616)",
         "https://marvel.fandom.com/wiki/Edward_Leeds_(Earth-616)"
       ],
-      "villainIds": [
-        "Wilson_Fisk_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Wilson_Fisk_(Earth-616)", "Edward_Leeds_(Earth-616)"],
       "series": "Peter Parker, The Spectacular Spider-Man Vol 1",
       "chronologicalPosition": 474
     },
@@ -15406,11 +14947,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 484
     },
@@ -15446,7 +14983,7 @@
       ],
       "villainIds": [
         "Luis_Alvarez_(Earth-616)",
-        "Anton_Miguel_Rodriquez_(Earth-616)",
+        "Living_Brain_(Earth-616)",
         "General_Ramone_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -15460,11 +14997,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 487
     },
@@ -15480,7 +15013,6 @@
       ],
       "villainIds": [
         "Luis_Alvarez_(Earth-616)",
-        "Anton_Miguel_Rodriquez_(Earth-616)",
         "Alonzo_Lincoln_(Earth-616)",
         "Steven_Petty_(Earth-616)"
       ],
@@ -15547,9 +15079,7 @@
       ],
       "villainIds": [
         "Oswald_Silkworth_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Alonzo_Lincoln_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -15774,7 +15304,6 @@
         "https://marvel.fandom.com/wiki/Delta_(Warzone)_(Earth-616)"
       ],
       "villainIds": [
-        "Charles_Buchanan_(Earth-616)",
         "Warzone_(Cyborgs)_(Earth-616)",
         "Alpha_(Warzone)_(Earth-616)",
         "Bravo_(Warzone)_(Earth-616)",
@@ -15829,12 +15358,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Morris_Diamond_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Morris_Diamond_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Morris_Diamond_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 510
     },
@@ -15871,7 +15395,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 513
     },
@@ -15883,11 +15407,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 514
     },
@@ -15899,10 +15419,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Jason_Macendale_Jr._(Earth-616)",
-        "Steven_Levins_(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 515
     },
@@ -15920,10 +15437,8 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
         "Oswald_Silkworth_(Earth-616)",
-        "Hobgoblin",
         "Curtis_Connors_(Earth-616)",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
+        "Jason_Macendale_Jr._(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 516
@@ -16273,22 +15788,7 @@
         "John_Jonah_Jameson_III_(Earth-616)",
         "Phraug_(Earth-616)",
         "Nolem_(Earth-616)",
-        "Atra_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Anton_Miguel_Rodriquez_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Johann_Shmidt_(Earth-616)",
-        "Malcolm_McBride_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Atra_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 528
@@ -16521,7 +16021,6 @@
         "https://marvel.fandom.com/wiki/Watchdogs_(Earth-616)"
       ],
       "villainIds": [
-        "Albert_Malik_(Earth-616)",
         "Underground_Liberated_Totally_Integrated_Mobile_Army_To_Unite_Mankind_(Earth-616)",
         "Toler_Weil_(Earth-616)",
         "Johann_Shmidt_(Earth-616)",
@@ -16609,7 +16108,8 @@
       "villainIds": [
         "Victor_von_Doom_(Earth-616)",
         "Wilson_Fisk_(Earth-616)",
-        "Max_Eisenhardt_(Earth-616)"
+        "Max_Eisenhardt_(Earth-616)",
+        "Erik_Josten_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 544
@@ -16636,7 +16136,7 @@
         "https://marvel.fandom.com/wiki/Bentley_Wittman_(Earth-616)",
         "https://marvel.fandom.com/wiki/Draconus_(Earth-616)"
       ],
-      "villainIds": ["Draconus_(Earth-616)"],
+      "villainIds": ["Bentley_Wittman_(Earth-616)", "Draconus_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 546
     },
@@ -16747,8 +16247,10 @@
       ],
       "villainIds": [
         "Dmitri_Smerdyakov_(Earth-616)",
+        "Peter_Petruski_(Earth-616)",
         "Mary_MacPherran_(Earth-616)",
         "Franklin_Hall_(Earth-616)",
+        "Erik_Josten_(Earth-616)",
         "Percy_%26_Barton_Grimes_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -16807,8 +16309,10 @@
       "villainIds": [
         "Dmitri_Smerdyakov_(Earth-616)",
         "Wilson_Fisk_(Earth-616)",
+        "Peter_Petruski_(Earth-616)",
         "Mary_MacPherran_(Earth-616)",
         "Franklin_Hall_(Earth-616)",
+        "Erik_Josten_(Earth-616)",
         "Percy_%26_Barton_Grimes_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -16859,16 +16363,21 @@
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
-        "William_Baker_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "William_Baker_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 557,
       "groups": [
         {
           "name": "Sinister Six",
-          "members": ["Doctor Octopus", "Sandman", "Electro"]
+          "members": [
+            "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
+            "Sandman",
+            "The Sandman",
+            "Electro"
+          ]
         }
       ]
     },
@@ -16887,18 +16396,24 @@
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
         "Herman_Schultz_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Jason_Macendale_Jr._(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Steven_Levins_(Earth-616)"
+        "Jason_Macendale_Jr._(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 558,
       "groups": [
         {
           "name": "Sinister Six",
-          "members": ["Mysterio", "Doctor Octopus", "Shocker", "Jack O'Lantern"]
+          "members": [
+            "Quentin Beck",
+            "Mysterio",
+            "Dr. Rinehart",
+            "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
+            "Shocker",
+            "Jack O'Lantern",
+            "Hobgoblin"
+          ]
         }
       ]
     },
@@ -16931,13 +16446,9 @@
         "https://marvel.fandom.com/wiki/Harold_Osborn_(Earth-616)"
       ],
       "villainIds": [
-        "Norman_Osborn_(Earth-616)",
         "Hammerhead_(Joseph)_(Earth-616)",
         "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Alonzo_Lincoln_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Alonzo_Lincoln_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 560
@@ -16957,11 +16468,7 @@
         "Adrian_Toomes_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
         "Wilson_Fisk_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Nicholas_Powell_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Nicholas_Powell_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 561
@@ -16975,7 +16482,7 @@
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
         "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)"
       ],
-      "villainIds": ["Calypso_Ezili_(Earth-616)"],
+      "villainIds": ["Curtis_Connors_(Earth-616)", "Calypso_Ezili_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 562
     },
@@ -17007,14 +16514,8 @@
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
         "William_Baker_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
-        "Jonathan_Caesar_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Steven_Levins_(Earth-616)"
+        "Jonathan_Caesar_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 563,
@@ -17023,11 +16524,18 @@
           "name": "Sinister Six",
           "members": [
             "Vulture",
+            "The Vulture",
+            "Quentin Beck",
             "Mysterio",
+            "Dr. Rinehart",
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
             "Electro",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Jonathan Caesar"
           ]
         }
@@ -17077,14 +16585,8 @@
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
         "William_Baker_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
-        "Jonathan_Caesar_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Steven_Levins_(Earth-616)"
+        "Jonathan_Caesar_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 565,
@@ -17093,11 +16595,18 @@
           "name": "Sinister Six",
           "members": [
             "Vulture",
+            "The Vulture",
+            "Quentin Beck",
             "Mysterio",
+            "Dr. Rinehart",
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
             "Electro",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Jonathan Caesar"
           ]
         }
@@ -17112,7 +16621,7 @@
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
         "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)"
       ],
-      "villainIds": ["Calypso_Ezili_(Earth-616)"],
+      "villainIds": ["Curtis_Connors_(Earth-616)", "Calypso_Ezili_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 566
     },
@@ -17144,14 +16653,8 @@
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
         "William_Baker_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
-        "Jonathan_Caesar_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Steven_Levins_(Earth-616)"
+        "Jonathan_Caesar_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 567,
@@ -17160,11 +16663,18 @@
           "name": "Sinister Six",
           "members": [
             "Vulture",
+            "The Vulture",
+            "Quentin Beck",
             "Mysterio",
+            "Dr. Rinehart",
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
             "Electro",
             "Jack O'Lantern",
+            "Hobgoblin",
             "Jonathan Caesar"
           ]
         }
@@ -17223,7 +16733,7 @@
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
         "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)"
       ],
-      "villainIds": ["Calypso_Ezili_(Earth-616)"],
+      "villainIds": ["Curtis_Connors_(Earth-616)", "Calypso_Ezili_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 570
     },
@@ -17248,8 +16758,7 @@
       ],
       "villainIds": [
         "Dmitri_Smerdyakov_(Earth-616)",
-        "Luis_Alvarez_(Earth-616)",
-        "Anton_Miguel_Rodriquez_(Earth-616)"
+        "Luis_Alvarez_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 572
@@ -17263,7 +16772,7 @@
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
         "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)"
       ],
-      "villainIds": ["Calypso_Ezili_(Earth-616)"],
+      "villainIds": ["Curtis_Connors_(Earth-616)", "Calypso_Ezili_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 573
     },
@@ -17305,7 +16814,7 @@
         "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
         "https://marvel.fandom.com/wiki/Calypso_Ezili_(Earth-616)"
       ],
-      "villainIds": ["Calypso_Ezili_(Earth-616)"],
+      "villainIds": ["Curtis_Connors_(Earth-616)", "Calypso_Ezili_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 576
     },
@@ -17355,7 +16864,6 @@
         "Dmitri_Smerdyakov_(Earth-616)",
         "MacDonald_Gargan_(Earth-616)",
         "Luis_Alvarez_(Earth-616)",
-        "Anton_Miguel_Rodriquez_(Earth-616)",
         "Femme_Fatales_(Earth-616)",
         "Beatta_Dubiel_(Earth-616)",
         "Leeann_Foreman_(Earth-616)",
@@ -17373,11 +16881,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 579
     },
@@ -17445,11 +16949,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 582
     },
@@ -17934,7 +17434,7 @@
         "https://marvel.fandom.com/wiki/Michael_Marko_(Earth-616)",
         "https://marvel.fandom.com/wiki/Snaky_Duvall_(Earth-616)"
       ],
-      "villainIds": ["Snaky_Duvall_(Earth-616)"],
+      "villainIds": ["Michael_Marko_(Earth-616)", "Snaky_Duvall_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 608,
       "groups": [
@@ -18109,11 +17609,9 @@
       ],
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
+        "Alfredo_Morelli_(Earth-616)",
         "Rose_(Blume)_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -18151,8 +17649,19 @@
           "name": "Number Six",
           "members": [
             "Thunderball",
+            "Eliot Franklin",
+            "Dr. Eliot Franklin",
             "Secret Empire",
+            "Number Two",
+            "Number Five",
             "Number Seven",
+            "Number Three",
+            "Number Twelve",
+            "Number Nine",
+            "Number Ten",
+            "Number Four",
+            "Number Thirteen",
+            "Number Twenty-One",
             "Midnight",
             "Lynn Church"
           ]
@@ -18182,27 +17691,14 @@
         "Maxwell_Dillon_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Jason_Macendale_Jr._(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 618,
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -18262,12 +17758,9 @@
       ],
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
+        "Alfredo_Morelli_(Earth-616)",
         "Triad_Brothers_(Earth-616)",
         "Deathwatch_(Earth-616)"
       ],
@@ -18311,14 +17804,7 @@
         "Maxwell_Dillon_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Esteban_Coraz%C3%B3n_de_Ablo_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
@@ -18326,14 +17812,7 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio",
-            "Diablo"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -18359,12 +17838,10 @@
       ],
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Demogoblin_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
+        "Alfredo_Morelli_(Earth-616)",
         "Rose_(Blume)_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -18413,14 +17890,7 @@
         "Maxwell_Dillon_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Esteban_Coraz%C3%B3n_de_Ablo_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
@@ -18428,14 +17898,7 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio",
-            "Diablo"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -18458,13 +17921,10 @@
         "https://marvel.fandom.com/wiki/Praetorian_Guard_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Demogoblin_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)",
+        "Alfredo_Morelli_(Earth-616)",
         "Praetorian_Guard_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -18509,27 +17969,14 @@
         "Maxwell_Dillon_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Jason_Macendale_Jr._(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 628,
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -18545,11 +17992,9 @@
         "https://marvel.fandom.com/wiki/Rose_(Blume)_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
+        "Alfredo_Morelli_(Earth-616)",
         "Rose_(Blume)_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -18602,29 +18047,15 @@
         "Maxwell_Dillon_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
         "Gog_(Tsiln)_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Jason_Macendale_Jr._(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 631,
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio",
-            "Gog"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         },
         {
           "name": "Hydra",
@@ -18656,12 +18087,9 @@
         "https://marvel.fandom.com/wiki/Praetorian_Guard_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Richard_Fisk_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
+        "Alfredo_Morelli_(Earth-616)",
         "Praetorian_Guard_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -18708,29 +18136,15 @@
         "Maxwell_Dillon_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
         "Gog_(Tsiln)_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Jason_Macendale_Jr._(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 634,
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio",
-            "Gog"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -18742,7 +18156,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 635
     },
@@ -18769,9 +18183,7 @@
         "https://marvel.fandom.com/wiki/Doppelganger_(Spider-Man)_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
         "Demogoblin_(Earth-616)"
       ],
@@ -18833,14 +18245,7 @@
         "Carradine_(Earth-616)",
         "Norman_Osborn_(Earth-616)",
         "Curtis_Connors_(Earth-616)",
-        "Edward_Brock_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Edward_Brock_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 639
@@ -18978,7 +18383,6 @@
         "https://marvel.fandom.com/wiki/Sweat_Shop_(Earth-616)"
       ],
       "villainIds": [
-        "Albert_Malik_(Earth-616)",
         "Ophelia_Sarkissian_(Earth-616)",
         "Anthony_Masters_(Earth-616)",
         "Johann_Shmidt_(Earth-616)",
@@ -19031,9 +18435,7 @@
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Foreigner_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -19062,7 +18464,6 @@
         "https://marvel.fandom.com/wiki/Michael_Bingham_(Earth-616)"
       ],
       "villainIds": [
-        "Albert_Malik_(Earth-616)",
         "Ophelia_Sarkissian_(Earth-616)",
         "Anthony_Masters_(Earth-616)",
         "Underground_Liberated_Totally_Integrated_Mobile_Army_To_Unite_Mankind_(Earth-616)",
@@ -19103,9 +18504,7 @@
         "https://marvel.fandom.com/wiki/Troll_(Deathwatch)_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
         "Demogoblin_(Earth-616)",
         "Hag_(Earth-616)",
@@ -19123,7 +18522,10 @@
         "https://marvel.fandom.com/wiki/John_Jonah_Jameson_(Earth-616)",
         "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)"
       ],
-      "villainIds": ["John_Jonah_Jameson_(Earth-616)"],
+      "villainIds": [
+        "Alistaire_Smythe_(Earth-616)",
+        "John_Jonah_Jameson_(Earth-616)"
+      ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 649
     },
@@ -19146,7 +18548,10 @@
         "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
         "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)"
       ],
-      "villainIds": ["Maxwell_Dillon_(Earth-616)"],
+      "villainIds": [
+        "Maxwell_Dillon_(Earth-616)",
+        "Alistaire_Smythe_(Earth-616)"
+      ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 651
     },
@@ -19171,9 +18576,7 @@
         "https://marvel.fandom.com/wiki/Deathspawn"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
         "Demogoblin_(Earth-616)",
         "Hag_(Earth-616)",
@@ -19265,13 +18668,13 @@
         "https://marvel.fandom.com/wiki/Spider-Slayer_Mark_XVII"
       ],
       "villainIds": [
+        "Alistaire_Smythe_(Earth-616)",
         "Jason_Macendale_Jr._(Earth-616)",
         "Max_Young_(Earth-616)",
         "Charles_Shaddock_(Earth-616)",
         "Spider-Slayer_Mark_XV",
         "Spider-Slayer_Mark_XVI",
-        "Spider-Slayer_Mark_XVII",
-        "Steven_Levins_(Earth-616)"
+        "Spider-Slayer_Mark_XVII"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 657
@@ -19301,7 +18704,10 @@
         "https://marvel.fandom.com/wiki/Alistaire_Smythe_(Earth-616)",
         "https://marvel.fandom.com/wiki/Charles_Shaddock_(Earth-616)"
       ],
-      "villainIds": ["Charles_Shaddock_(Earth-616)"],
+      "villainIds": [
+        "Alistaire_Smythe_(Earth-616)",
+        "Charles_Shaddock_(Earth-616)"
+      ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 659
     },
@@ -19327,8 +18733,7 @@
         "Richard_Fisk_(Earth-616)",
         "1400_Club_(Earth-616)",
         "Foreigner_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)",
+        "Alfredo_Morelli_(Earth-616)",
         "Cyber-Hunters_(Earth-616)"
       ],
       "series": "Web of Spider-Man Vol 1",
@@ -19397,9 +18802,7 @@
         "1400_Club_(Earth-616)",
         "Foreigner_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Leopold_Stryke_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)",
+        "Alfredo_Morelli_(Earth-616)",
         "Cyber-Hunters_(Earth-616)",
         "Jaime_Zimmerman_(Earth-616)",
         "Edward_Lavell_(Earth-616)",
@@ -19462,9 +18865,7 @@
         "Raul_Quentino_(Earth-616)",
         "Douglas_Powell_(Earth-616)",
         "Carl_Striklan_(Earth-616)",
-        "Jake_Austin_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Jake_Austin_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 664,
@@ -19473,9 +18874,16 @@
           "name": "Wild Pack",
           "members": [
             "Doctor Octopus",
+            "Master Planner",
+            "Dr. Octopus",
             "Sandman",
+            "The Sandman",
+            "Spider-Man's Black Suit",
+            "Symbiote Suit",
+            "Venom",
             "Venom Symbiote",
             "Venom",
+            "Eddie Brock",
             "Amy Chen",
             "Battlestar",
             "Raul Quentino",
@@ -19525,13 +18933,12 @@
         "https://marvel.fandom.com/wiki/Sunset_Bain_(Earth-616)"
       ],
       "villainIds": [
+        "Dreadnought_(Robot)",
         "Richard_Fisk_(Earth-616)",
         "1400_Club_(Earth-616)",
         "Foreigner_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Leopold_Stryke_(Earth-616)",
+        "Sunset_Bain_(Earth-616)",
         "Draconus_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)",
         "Jaime_Zimmerman_(Earth-616)",
         "Edward_Lavell_(Earth-616)",
         "Vanisher_(Earth-616)"
@@ -19640,7 +19047,10 @@
         "https://marvel.fandom.com/wiki/Advanced_Idea_Mechanics_(Earth-616)"
       ],
       "villainIds": [
-        "Leopold_Stryke_(Earth-616)",
+        "Dreadnought_(Robot)",
+        "Advanced_Idea_Mechanics_(Earth-616)",
+        "Samuel_Smithers_(Earth-616)",
+        "Sunset_Bain_(Earth-616)",
         "Draconus_(Earth-616)",
         "Alan_Fagan_(Earth-616)",
         "Jaime_Zimmerman_(Earth-616)",
@@ -19754,7 +19164,6 @@
       ],
       "villainIds": [
         "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
         "Demogoblin_(Earth-616)"
@@ -19774,7 +19183,6 @@
         "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)"
       ],
       "villainIds": [
-        "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
@@ -19796,7 +19204,6 @@
       ],
       "villainIds": [
         "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
         "Demogoblin_(Earth-616)"
@@ -19823,8 +19230,6 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
@@ -19853,9 +19258,7 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
         "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
         "Demogoblin_(Earth-616)",
@@ -19883,8 +19286,6 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
@@ -19913,8 +19314,6 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
@@ -19943,8 +19342,6 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
@@ -19973,8 +19370,6 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
-        "Cletus_Kasady_(Earth-616)",
         "Carnage_(Symbiote)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Doppelganger_(Spider-Man)_(Earth-616)",
@@ -19997,7 +19392,6 @@
       "villainIds": [
         "Cletus_Kasady_(Earth-616)",
         "Jonas_Harrow_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)",
         "Dirk_Leydon_(Earth-616)"
       ],
       "series": "Spider-Man Unlimited Vol 1",
@@ -20066,7 +19460,10 @@
         "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
         "https://marvel.fandom.com/wiki/Charles_Buchanan_(Earth-616)"
       ],
-      "villainIds": ["Maxwell_Dillon_(Earth-616)"],
+      "villainIds": [
+        "Maxwell_Dillon_(Earth-616)",
+        "Charles_Buchanan_(Earth-616)"
+      ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 688
     },
@@ -20158,8 +19555,6 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
         "Dagny_Forrester_(Earth-616)"
       ],
       "series": "Spider-Man Unlimited Vol 1",
@@ -20315,11 +19710,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 700
     },
@@ -20346,8 +19737,7 @@
       ],
       "villainIds": [
         "Quentin_Beck_(Earth-616)",
-        "Aleksei_Sytsevich_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)"
+        "Aleksei_Sytsevich_(Earth-616)"
       ],
       "series": "Spider-Man Unlimited Vol 1",
       "chronologicalPosition": 702
@@ -20376,9 +19766,7 @@
       ],
       "villainIds": [
         "Adrian_Toomes_(Earth-616)",
-        "Dmitri_Smerdyakov_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
+        "Dmitri_Smerdyakov_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 704
@@ -20391,11 +19779,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Jason_Macendale_Jr._(Earth-616)"
       ],
-      "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)"
-      ],
+      "villainIds": ["Jason_Macendale_Jr._(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 705
     },
@@ -20444,10 +19828,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)"
       ],
-      "villainIds": [
-        "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)"
-      ],
+      "villainIds": ["Cletus_Kasady_(Earth-616)"],
       "series": "Amazing Spider-Man Annual Vol 1",
       "chronologicalPosition": 709
     },
@@ -20489,9 +19870,7 @@
         "https://marvel.fandom.com/wiki/Demogoblin_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Demogoblin_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
@@ -20537,9 +19916,7 @@
         "https://marvel.fandom.com/wiki/Alfredo_Morelli_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Demogoblin_(Earth-616)",
         "Vladimir_Kravinoff_(Earth-616)",
         "Alfredo_Morelli_(Earth-616)"
@@ -20571,7 +19948,6 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Malcolm_McBride_(Earth-616)"
       ],
@@ -20589,9 +19965,7 @@
         "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Demogoblin_(Earth-616)",
         "Vladimir_Kravinoff_(Earth-616)"
       ],
@@ -20622,7 +19996,6 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Malcolm_McBride_(Earth-616)"
       ],
@@ -20640,9 +20013,7 @@
         "https://marvel.fandom.com/wiki/Kateri_Deseronto_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Vladimir_Kravinoff_(Earth-616)",
         "Kateri_Deseronto_(Earth-616)"
       ],
@@ -20693,7 +20064,6 @@
         "https://marvel.fandom.com/wiki/Malcolm_McBride_(Earth-616)"
       ],
       "villainIds": [
-        "Carrion_(Miles_Warren_Clone)_(Earth-616)",
         "Frances_Barrison_(Earth-616)",
         "Malcolm_McBride_(Earth-616)"
       ],
@@ -20709,7 +20079,10 @@
         "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)",
         "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)"
       ],
-      "villainIds": ["Vladimir_Kravinoff_(Earth-616)"],
+      "villainIds": [
+        "Sergei_Kravinoff_(Earth-616)",
+        "Vladimir_Kravinoff_(Earth-616)"
+      ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 725
     },
@@ -20736,6 +20109,8 @@
         "https://marvel.fandom.com/wiki/Miles_Warren_(Earth-616)"
       ],
       "villainIds": [
+        "Miles_Warren_(Earth-616)",
+        "Judas_Traveller_(Earth-616)",
         "Host_(Judas_Traveller)_(Earth-616)",
         "Walther_Nacht_(Earth-616)",
         "Anjali_Sridhara_(Earth-616)",
@@ -20767,14 +20142,11 @@
       ],
       "villainIds": [
         "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
         "Judas_Traveller_(Earth-616)",
         "Host_(Judas_Traveller)_(Earth-616)",
         "Walther_Nacht_(Earth-616)",
         "Anjali_Sridhara_(Earth-616)",
-        "Charles_Bates_(Earth-616)",
-        "Samuel_Fox_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
+        "Charles_Bates_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 727
@@ -20801,11 +20173,9 @@
       ],
       "villainIds": [
         "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
         "Judas_Traveller_(Earth-616)",
         "Host_(Judas_Traveller)_(Earth-616)",
         "Walther_Nacht_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
         "Medea_Kovack_(Earth-616)",
         "Morgan_Boone_(Earth-616)"
       ],
@@ -20892,12 +20262,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Leland_Owlsley_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Leland_Owlsley_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Leland_Owlsley_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 734
     },
@@ -20926,6 +20291,7 @@
       ],
       "villainIds": [
         "Kaine_Parker_(Earth-616)",
+        "Vladimir_Kravinoff_(Earth-616)",
         "Alonzo_Lincoln_(Earth-616)",
         "Assassination,_Revolution,_Extortion_and_Sabotage_(Earth-616)"
       ],
@@ -20945,9 +20311,7 @@
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
         "Kaine_Parker_(Earth-616)",
-        "Angelina_Brancale_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Angelina_Brancale_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 737
@@ -20977,7 +20341,10 @@
         "https://marvel.fandom.com/wiki/Kaine_Parker_(Earth-616)",
         "https://marvel.fandom.com/wiki/Vladimir_Kravinoff_(Earth-616)"
       ],
-      "villainIds": ["Kaine_Parker_(Earth-616)"],
+      "villainIds": [
+        "Kaine_Parker_(Earth-616)",
+        "Vladimir_Kravinoff_(Earth-616)"
+      ],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 739
     },
@@ -20989,11 +20356,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 740
     },
@@ -21054,9 +20417,6 @@
         "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
       ],
       "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Charles_Bates_(Earth-616)",
         "Kaine_Parker_(Earth-616)",
         "Samuel_Fox_(Earth-616)",
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
@@ -21072,11 +20432,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
       ],
-      "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
-      ],
+      "villainIds": ["Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 745
     },
@@ -21091,8 +20447,6 @@
         "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
       ],
       "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
         "Kaine_Parker_(Earth-616)",
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
         "Jack_(Spider-Clone)_(Earth-616)"
@@ -21120,8 +20474,6 @@
       ],
       "villainIds": [
         "Carradine_(Earth-616)",
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
         "Judas_Traveller_(Earth-616)",
         "Walther_Nacht_(Earth-616)",
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
@@ -21163,21 +20515,15 @@
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)",
         "Otto_Octavius_(Earth-616)",
+        "Sergei_Kravinoff_(Earth-616)",
         "Norman_Osborn_(Earth-616)",
         "Miles_Warren_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
         "Judas_Traveller_(Earth-616)",
         "Host_(Judas_Traveller)_(Earth-616)",
         "Walther_Nacht_(Earth-616)",
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
         "Medea_Kovack_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Morgan_Boone_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Morgan_Boone_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 748
@@ -21257,13 +20603,8 @@
         "Maxwell_Dillon_(Earth-616)",
         "Quentin_Beck_(Earth-616)",
         "Herman_Schultz_(Earth-616)",
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Abner_Jenkins_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Kaine_Parker_(Earth-616)",
         "Sinister_Six_(Earth-616)",
         "Elaine_Coll_(Earth-616)"
@@ -21279,13 +20620,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Phillip_Urich_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Phillip_Urich_(Earth-616)"],
       "series": "Web of Spider-Man Vol 1",
       "chronologicalPosition": 753
     },
@@ -21300,8 +20635,7 @@
       ],
       "villainIds": [
         "Judas_Traveller_(Earth-616)",
-        "Charles_Bates_(Earth-616)",
-        "Samuel_Fox_(Earth-616)"
+        "Charles_Bates_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 754
@@ -21334,7 +20668,6 @@
         "Walther_Nacht_(Earth-616)",
         "Anjali_Sridhara_(Earth-616)",
         "Charles_Bates_(Earth-616)",
-        "Samuel_Fox_(Earth-616)",
         "Medea_Kovack_(Earth-616)",
         "Morgan_Boone_(Earth-616)"
       ],
@@ -21364,7 +20697,6 @@
       ],
       "villainIds": [
         "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)",
         "Judas_Traveller_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
@@ -21396,8 +20728,6 @@
         "https://marvel.fandom.com/wiki/Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
       ],
       "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
         "Kaine_Parker_(Earth-616)",
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
       ],
@@ -21414,8 +20744,6 @@
         "https://marvel.fandom.com/wiki/Spidercide_(Earth-616)"
       ],
       "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
         "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
         "Spidercide_(Earth-616)"
       ],
@@ -21432,9 +20760,8 @@
         "https://marvel.fandom.com/wiki/Spidercide_(Earth-616)"
       ],
       "villainIds": [
-        "Miles_Warren_(Earth-616)",
-        "Miles_Warren_(Shea_Stadium_Clone)_(Earth-616)",
-        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)"
+        "Miles_Warren_(Catskill_Mountains_Clone)_(Earth-616)",
+        "Spidercide_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 761
@@ -21457,11 +20784,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Carolyn_Trainer_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 763
     },
@@ -21473,11 +20796,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Spider-Man Unlimited Vol 1",
       "chronologicalPosition": 764
     },
@@ -21492,11 +20811,7 @@
       ],
       "villainIds": [
         "Adrian_Toomes_(Earth-616)",
-        "Otto_Octavius_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
+        "Carolyn_Trainer_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 765
@@ -21524,6 +20839,7 @@
         "https://marvel.fandom.com/wiki/Alexander_Power_(Earth-616)"
       ],
       "villainIds": [
+        "Benjamin_Reilly_(Earth-616)",
         "Angelica_Jones_(Earth-616)",
         "New_Warriors_(Earth-616)",
         "Carlton_LaFroyge_(Earth-616)",
@@ -21542,11 +20858,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Carolyn_Trainer_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 767
     },
@@ -21570,11 +20882,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Carolyn_Trainer_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Carolyn_Trainer_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 769
     },
@@ -21620,7 +20928,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 772
     },
@@ -21632,11 +20940,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 773
     },
@@ -21649,11 +20953,7 @@
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
         "https://marvel.fandom.com/wiki/Sergio_Torres_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "Sergio_Torres_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "Sergio_Torres_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 774
     },
@@ -21665,7 +20965,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 775
     },
@@ -21678,17 +20978,13 @@
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
         "https://marvel.fandom.com/wiki/David_Breyer_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "David_Breyer_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "David_Breyer_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 776,
       "groups": [
         {
           "name": "Jagged Skulls Gang",
-          "members": ["Mysterio", "Armada"]
+          "members": ["Quentin Beck", "Mysterio", "Dr. Rinehart", "Armada"]
         }
       ]
     },
@@ -21712,7 +21008,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)"
       ],
-      "villainIds": ["Quentin_Beck_(Earth-616)", "Daniel_Berkhart_(Earth-616)"],
+      "villainIds": ["Quentin_Beck_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 778
     },
@@ -21787,7 +21083,10 @@
         "https://marvel.fandom.com/wiki/Gerhard_Winkler_(Earth-616)",
         "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)"
       ],
-      "villainIds": ["Maxwell_Dillon_(Earth-616)"],
+      "villainIds": [
+        "Maxwell_Dillon_(Earth-616)",
+        "Gerhard_Winkler_(Earth-616)"
+      ],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 782
     },
@@ -21817,10 +21116,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)"
       ],
-      "villainIds": [
-        "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)"
-      ],
+      "villainIds": ["Carnage_(Symbiote)_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 784
     },
@@ -21855,7 +21151,6 @@
         "Jackson_Brice_(Earth-616)",
         "Daniel_Brito_(Earth-616)",
         "Raymond_Bloch_(Earth-616)",
-        "Ronald_Bloch_(Earth-616)",
         "Cleavon_Twain_(Earth-616)"
       ],
       "series": "Untold Tales of Spider-Man Vol 1",
@@ -21875,10 +21170,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Carnage_(Symbiote)_(Earth-616)"
       ],
-      "villainIds": [
-        "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)"
-      ],
+      "villainIds": ["Carnage_(Symbiote)_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 787
     },
@@ -21959,9 +21251,7 @@
         "https://marvel.fandom.com/wiki/Lasher_(Cell-12)_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Cell-12_(Earth-616)",
         "Bramer_(Earth-616)",
         "Nardi_(Earth-616)",
@@ -21994,7 +21284,6 @@
       "villainIds": [
         "Herman_Schultz_(Earth-616)",
         "Abner_Jenkins_(Earth-616)",
-        "Jason_Macendale_Jr._(Earth-616)",
         "Frederick_Myers_(Earth-616)",
         "Elaine_Coll_(Earth-616)",
         "Steven_Levins_(Earth-616)",
@@ -22066,10 +21355,8 @@
         "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)"
       ],
       "villainIds": [
-        "Hobgoblin",
-        "Roderick_Kingsley_(Earth-616)",
         "Mendel_Stromm_(Earth-616)",
-        "Edward_Leeds_(Earth-616)",
+        "Jason_Macendale_Jr._(Earth-616)",
         "Cell-12_(Earth-616)",
         "Bramer_(Earth-616)",
         "Nardi_(Earth-616)",
@@ -22098,11 +21385,7 @@
         "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
         "https://marvel.fandom.com/wiki/David_Breyer_(Earth-616)"
       ],
-      "villainIds": [
-        "Quentin_Beck_(Earth-616)",
-        "Daniel_Berkhart_(Earth-616)",
-        "David_Breyer_(Earth-616)"
-      ],
+      "villainIds": ["Quentin_Beck_(Earth-616)", "David_Breyer_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 798
     },
@@ -22117,8 +21400,7 @@
       ],
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)",
-        "Leopold_Stryke_(Earth-616)",
-        "Edward_Lavell_(Earth-616)"
+        "Leopold_Stryke_(Earth-616)"
       ],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 799
@@ -22158,12 +21440,7 @@
         "https://marvel.fandom.com/wiki/Delilah_(Earth-616)",
         "https://marvel.fandom.com/wiki/Jacob_Conover_(Earth-616)"
       ],
-      "villainIds": [
-        "Richard_Fisk_(Earth-616)",
-        "Delilah_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
-      ],
+      "villainIds": ["Delilah_(Earth-616)", "Jacob_Conover_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 802
     },
@@ -22192,12 +21469,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/Scarlet_Beetle_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Scarlet_Beetle_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Scarlet_Beetle_(Earth-616)"],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 804
     },
@@ -22313,18 +21585,15 @@
       ],
       "villainIds": [
         "Mendel_Stromm_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
         "Judas_Traveller_(Earth-616)",
         "Host_(Judas_Traveller)_(Earth-616)",
         "Walther_Nacht_(Earth-616)",
         "Anjali_Sridhara_(Earth-616)",
         "Charles_Bates_(Earth-616)",
-        "Samuel_Fox_(Earth-616)",
         "Medea_Kovack_(Earth-616)",
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
-        "Morgan_Boone_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Morgan_Boone_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 811
@@ -22405,7 +21674,6 @@
         "Host_(Judas_Traveller)_(Earth-616)",
         "Walther_Nacht_(Earth-616)",
         "Charles_Bates_(Earth-616)",
-        "Samuel_Fox_(Earth-616)",
         "Medea_Kovack_(Earth-616)",
         "Morgan_Boone_(Earth-616)",
         "Cabal_of_Scrier_(Earth-616)"
@@ -22452,7 +21720,7 @@
         "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)",
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": ["Mendel_Stromm_(Earth-616)"],
+      "villainIds": ["Norman_Osborn_(Earth-616)", "Mendel_Stromm_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 818
     },
@@ -22465,14 +21733,7 @@
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
         "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Mendel_Stromm_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)", "Mendel_Stromm_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 819
     },
@@ -22528,13 +21789,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 822
     },
@@ -22546,7 +21801,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Peter_Petruski_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 823
     },
@@ -22601,7 +21856,10 @@
         "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
         "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)"
       ],
-      "villainIds": ["Gerald_Roth_(Earth-616)"],
+      "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
+        "Gerald_Roth_(Earth-616)"
+      ],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 827
     },
@@ -22624,13 +21882,11 @@
         "https://marvel.fandom.com/wiki/El_Uno_(Earth-616)"
       ],
       "villainIds": [
-        "Richard_Fisk_(Earth-616)",
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
         "Carlos_LaMuerto_(Earth-616)",
         "Tarantula%27s_Organization_(Earth-616)",
-        "El_Uno_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "El_Uno_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 828
@@ -22674,11 +21930,7 @@
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
         "Francisco_Lobo_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Cleavon_Twain_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Cleavon_Twain_(Earth-616)"
       ],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 831
@@ -22700,6 +21952,7 @@
         "https://marvel.fandom.com/wiki/Vincent_Stegron_(Earth-616)"
       ],
       "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
         "Vincent_Stegron_(Earth-616)",
         "Gerald_Roth_(Earth-616)",
         "Chtylok_(Earth-616)"
@@ -22730,15 +21983,13 @@
         "https://marvel.fandom.com/wiki/Karsano_(Earth-616)"
       ],
       "villainIds": [
-        "Richard_Fisk_(Earth-616)",
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
         "Carlos_LaMuerto_(Earth-616)",
         "Tarantula%27s_Organization_(Earth-616)",
         "True_Believers_(Cult)_(Earth-616)",
         "Madam_Qwa_(Earth-616)",
-        "Karsano_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Karsano_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 833
@@ -22767,11 +22018,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Otto_Octavius_(Earth-616)"
       ],
-      "villainIds": [
-        "Otto_Octavius_(Earth-616)",
-        "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)"
-      ],
+      "villainIds": ["Otto_Octavius_(Earth-616)"],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 835
     },
@@ -22785,7 +22032,11 @@
         "https://marvel.fandom.com/wiki/Gerald_Roth_(Earth-616)",
         "https://marvel.fandom.com/wiki/Chtylok_(Earth-616)"
       ],
-      "villainIds": ["Gerald_Roth_(Earth-616)", "Chtylok_(Earth-616)"],
+      "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
+        "Gerald_Roth_(Earth-616)",
+        "Chtylok_(Earth-616)"
+      ],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 836
     },
@@ -22809,12 +22060,10 @@
       ],
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
         "Carlos_LaMuerto_(Earth-616)",
-        "Vincente_Fortunato_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Vincente_Fortunato_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 837
@@ -22864,12 +22113,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/David_Kalen_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "David_Kalen_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "David_Kalen_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 839
     },
@@ -22885,10 +22129,8 @@
       ],
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
         "Delilah_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Jacob_Conover_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 840
@@ -22946,7 +22188,10 @@
         "https://marvel.fandom.com/wiki/Roxxon_Energy_Corporation_(Earth-616)",
         "https://marvel.fandom.com/wiki/Bram_Velsing_(Earth-616)"
       ],
-      "villainIds": ["Bram_Velsing_(Earth-616)"],
+      "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
+        "Bram_Velsing_(Earth-616)"
+      ],
       "series": "Spider-Man Unlimited Vol 1",
       "chronologicalPosition": 842
     },
@@ -22987,14 +22232,12 @@
         "https://marvel.fandom.com/wiki/Yano_(Earth-616)"
       ],
       "villainIds": [
-        "Richard_Fisk_(Earth-616)",
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
         "Tarantula%27s_Organization_(Earth-616)",
         "True_Believers_(Cult)_(Earth-616)",
         "Madam_Qwa_(Earth-616)",
-        "Yano_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Yano_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 844
@@ -23008,12 +22251,7 @@
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
         "https://marvel.fandom.com/wiki/David_Kalen_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
-        "David_Kalen_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "David_Kalen_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 845
     },
@@ -23053,11 +22291,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 848
     },
@@ -23069,7 +22303,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Nicholas_Lewis_Sr._(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Nicholas_Lewis_Sr._(Earth-616)"],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 849
     },
@@ -23085,10 +22319,8 @@
       ],
       "villainIds": [
         "Maxwell_Dillon_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
         "Delilah_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Jacob_Conover_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 850
@@ -23119,7 +22351,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Mendel_Stromm_(Earth-616)"
       ],
-      "villainIds": [],
+      "villainIds": ["Mendel_Stromm_(Earth-616)"],
       "series": "Spider-Man Unlimited Vol 1",
       "chronologicalPosition": 852
     },
@@ -23205,13 +22437,10 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
         "Angelina_Brancale_(Earth-616)",
         "Carolyn_Trainer_(Earth-616)",
         "Delilah_(Earth-616)",
-        "Jacob_Conover_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Jacob_Conover_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 858
@@ -23271,13 +22500,10 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
         "Carolyn_Trainer_(Earth-616)",
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
-        "Carlos_LaMuerto_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Carlos_LaMuerto_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 861
@@ -23293,10 +22519,7 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Nicholas_Lewis_Sr._(Earth-616)"
       ],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 862
@@ -23351,14 +22574,12 @@
       ],
       "villainIds": [
         "Otto_Octavius_(Earth-616)",
-        "Cyclops_(Mysterio%27s_Androids)_(Earth-616)",
         "Bruce_Banner_(Earth-616)",
         "Peter_Parker_(Earth-616)",
         "Lucas_Cage_(Earth-616)",
         "Scott_Summers_(Earth-616)",
         "Robert_Drake_(Earth-616)",
         "Carolyn_Trainer_(Earth-616)",
-        "Oliver_Osnick_(Earth-616)",
         "Hercules_Panhellenios_(Earth-616)",
         "Matthew_Murdock_(Earth-616)",
         "New_York_City_Police_Department_(Earth-616)",
@@ -23392,12 +22613,8 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
         "Mary_MacPherran_(Earth-616)",
-        "Carl_Creel_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Carl_Creel_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 866
@@ -23411,7 +22628,10 @@
         "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
         "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)"
       ],
-      "villainIds": ["Herman_Schultz_(Earth-616)"],
+      "villainIds": [
+        "Herman_Schultz_(Earth-616)",
+        "Peter_Petruski_(Earth-616)"
+      ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 867
     },
@@ -23434,11 +22654,7 @@
         "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
         "https://marvel.fandom.com/wiki/Norrin_Radd_(Earth-616)"
       ],
-      "villainIds": [
-        "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)",
-        "Norrin_Radd_(Earth-616)"
-      ],
+      "villainIds": ["Cletus_Kasady_(Earth-616)", "Norrin_Radd_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 869
     },
@@ -23460,6 +22676,7 @@
       ],
       "villainIds": [
         "Herman_Schultz_(Earth-616)",
+        "Peter_Petruski_(Earth-616)",
         "Friends_of_Humanity_(Earth-616)",
         "Donovan_Zane_(Earth-616)"
       ],
@@ -23487,11 +22704,7 @@
         "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
         "https://marvel.fandom.com/wiki/Norrin_Radd_(Earth-616)"
       ],
-      "villainIds": [
-        "Cletus_Kasady_(Earth-616)",
-        "Carnage_(Symbiote)_(Earth-616)",
-        "Norrin_Radd_(Earth-616)"
-      ],
+      "villainIds": ["Cletus_Kasady_(Earth-616)", "Norrin_Radd_(Earth-616)"],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 872
     },
@@ -23506,10 +22719,7 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Green_Goblin_(Construct)_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 873
@@ -23529,8 +22739,7 @@
         "Adrian_Toomes_(Earth-616)",
         "Wilson_Fisk_(Earth-616)",
         "Flint_(Goon)_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
+        "Nicholas_Lewis_Sr._(Earth-616)"
       ],
       "series": "Untold Tales of Spider-Man Vol 1",
       "chronologicalPosition": 874,
@@ -23597,16 +22806,11 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Richard_Fisk_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
         "Carlos_LaMuerto_(Earth-616)",
         "Vincente_Fortunato_(Earth-616)",
         "Green_Goblin_(Construct)_(Earth-616)",
-        "Jensen_Walker_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Jensen_Walker_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 877
@@ -23623,11 +22827,8 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
         "Green_Goblin_(Construct)_(Earth-616)",
-        "Jensen_Walker_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Jensen_Walker_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 878
@@ -23673,12 +22874,7 @@
         "https://marvel.fandom.com/wiki/Norton_Fester_(Earth-616)",
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Norton_Fester_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)", "Norton_Fester_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 882
     },
@@ -23693,11 +22889,9 @@
         "https://marvel.fandom.com/wiki/Cabal_of_Scrier_(Earth-616)"
       ],
       "villainIds": [
-        "Richard_Fisk_(Earth-616)",
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
-        "Cabal_of_Scrier_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Cabal_of_Scrier_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 883
@@ -23711,7 +22905,10 @@
         "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
         "https://marvel.fandom.com/wiki/Peter_Petruski_(Earth-616)"
       ],
-      "villainIds": ["Herman_Schultz_(Earth-616)"],
+      "villainIds": [
+        "Herman_Schultz_(Earth-616)",
+        "Peter_Petruski_(Earth-616)"
+      ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 884
     },
@@ -23736,11 +22933,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)"
       ],
-      "villainIds": [
-        "Adrian_Toomes_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)"
-      ],
+      "villainIds": ["Adrian_Toomes_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 886
     },
@@ -23767,15 +22960,13 @@
         "https://marvel.fandom.com/wiki/Roughouse_(Earth-616)"
       ],
       "villainIds": [
-        "Richard_Fisk_(Earth-616)",
         "Delilah_(Earth-616)",
         "Jacob_Conover_(Earth-616)",
         "Cabal_of_Scrier_(Earth-616)",
         "Carlos_LaMuerto_(Earth-616)",
         "Vincente_Fortunato_(Earth-616)",
         "Bloodscream_(Earth-616)",
-        "Roughouse_(Earth-616)",
-        "Rose_(Blume)_(Earth-616)"
+        "Roughouse_(Earth-616)"
       ],
       "series": "Amazing Spider-Man Vol 1",
       "chronologicalPosition": 887
@@ -23793,12 +22984,9 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
+        "Peter_Petruski_(Earth-616)",
         "Q-4_(Earth-616)",
-        "Waiters_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Waiters_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 888
@@ -23870,7 +23058,7 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
         "Silvio_Manfredi_(Earth-616)",
-        "Raymond_Bloch_(Earth-616)",
+        "Kingpin%27s_Henchmen",
         "Sebastian_Shaw_(Earth-616)",
         "Ronald_Bloch_(Earth-616)"
       ],
@@ -23937,13 +23125,8 @@
       "villainIds": [
         "Wilson_Fisk_(Earth-616)",
         "Norman_Osborn_(Earth-616)",
-        "Raymond_Bloch_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
         "Ronald_Bloch_(Earth-616)",
-        "Robert_Hunter_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Robert_Hunter_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 898
@@ -23967,7 +23150,7 @@
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
         "https://marvel.fandom.com/wiki/Gregory_Herd_(Earth-616)"
       ],
-      "villainIds": ["Gregory_Herd_(Earth-616)"],
+      "villainIds": ["Norman_Osborn_(Earth-616)", "Gregory_Herd_(Earth-616)"],
       "series": "Sensational Spider-Man Vol 1",
       "chronologicalPosition": 900
     },
@@ -23992,11 +23175,7 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Creep_(Osborn_Agent)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Creep_(Osborn_Agent)_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 902
@@ -24031,13 +23210,7 @@
       "villainUrls": [
         "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)"
       ],
-      "villainIds": [
-        "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
-      ],
+      "villainIds": ["Norman_Osborn_(Earth-616)"],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 905
     },
@@ -24066,6 +23239,7 @@
         "https://marvel.fandom.com/wiki/Fist_of_Freedom_(Earth-616)"
       ],
       "villainIds": [
+        "Roxxon_Energy_Corporation_(Earth-616)",
         "MacDonald_Gargan_(Earth-616)",
         "Carlos_LaMuerto_(Earth-616)",
         "Tarantula%27s_Organization_(Earth-616)",
@@ -24088,10 +23262,7 @@
       ],
       "villainIds": [
         "Norman_Osborn_(Earth-616)",
-        "Harold_Osborn_(Earth-616)",
-        "Barton_Hamilton_(Earth-616)",
-        "Green_Goblin_(Construct)_(Earth-616)",
-        "Phillip_Urich_(Earth-616)"
+        "Cabal_of_Scrier_(Earth-616)"
       ],
       "series": "Spider-Man Vol 1",
       "chronologicalPosition": 907
@@ -25337,6 +24508,7 @@
       ],
       "villainIds": [
         "Pietro_Maximoff_(Earth-616)",
+        "Warren_Worthington_III_(Earth-616)",
         "Goddess_(Earth-616)",
         "Heather_Douglas_(Earth-616)",
         "Daniel_Davis_(Earth-616)",
@@ -25374,8 +24546,6 @@
         "Adrian_Toomes_(Earth-616)",
         "Peter_Parker_(Earth-616)",
         "Dmitri_Smerdyakov_(Earth-616)",
-        "Raniero_Drago_(Earth-616)",
-        "Clifton_Shallot_(Earth-616)",
         "Richard_Parker_(Simulacrum)_(Earth-616)",
         "Enos_Warwick_(Earth-616)"
       ],

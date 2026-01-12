@@ -1,6 +1,6 @@
 {
   "series": "Spider-Man Vol 1",
-  "processedAt": "2026-01-12T11:50:12.444Z",
+  "processedAt": "2026-01-12T13:06:53.697Z",
   "stats": {
     "totalVillains": 98,
     "mostFrequent": "Hobgoblin",
@@ -1339,13 +1339,7 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -1382,14 +1376,7 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio",
-            "Diablo"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -1426,14 +1413,7 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio",
-            "Diablo"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -1467,13 +1447,7 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },
@@ -1510,14 +1484,7 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio",
-            "Gog"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         },
         {
           "name": "Hydra",
@@ -1565,14 +1532,7 @@
       "groups": [
         {
           "name": "Sinister Six",
-          "members": [
-            "Hobgoblin",
-            "Doctor Octopus",
-            "Electro",
-            "Vulture",
-            "Mysterio",
-            "Gog"
-          ]
+          "members": ["Doctor Octopus", "Electro", "Vulture", "Mysterio"]
         }
       ]
     },

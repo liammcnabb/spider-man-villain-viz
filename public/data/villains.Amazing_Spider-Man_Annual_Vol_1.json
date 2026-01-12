@@ -1,6 +1,6 @@
 {
   "series": "Amazing Spider-Man Annual Vol 1",
-  "processedAt": "2026-01-12T11:50:04.297Z",
+  "processedAt": "2026-01-12T13:06:29.227Z",
   "stats": {
     "totalVillains": 104,
     "mostFrequent": "Kingpin",
@@ -1203,11 +1203,7 @@
             "Doctor Octopus",
             "Mysterio",
             "Kraven the Hunter",
-            "Sandman",
-            "Mysterio's X-Men",
-            "Cyclops",
-            "Angel",
-            "Beast"
+            "Sandman"
           ]
         }
       ]
@@ -1346,12 +1342,7 @@
             "Doctor Octopus",
             "Mysterio",
             "Kraven the Hunter",
-            "Sandman",
-            "Mysterio's X-Men",
-            "Cyclops",
-            "Angel",
-            "Beast",
-            "Spider-Man"
+            "Sandman"
           ]
         }
       ]

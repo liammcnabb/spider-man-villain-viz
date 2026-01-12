@@ -39,6 +39,8 @@ export interface GroupRegistryEntry {
    */
   description?: string;
 
+  // No roster constraints: groups are recognized by name/alias only
+
   /**
    * When this entry was added to the registry
    */

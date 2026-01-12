@@ -141,9 +141,14 @@ export class MergeRunner {
         villainCount: t.villainCount || 0,
         villains: t.villains || [],
         villainUrls: t.villainUrls || [],
-        villainIds: mergedResult.villains
-          .filter(v => (t.villains || []).includes(v.name))
-          .map(v => v.id),
+        villainIds: (t.villainUrls || []).length > 0
+          ? mergedResult.villains
+              .filter(v => v.url && (t.villainUrls || []).includes(v.url))
+              .map(v => v.id)
+          : mergedResult.villains
+              .filter(v => (t.villains || []).includes(v.name) && 
+                           (!v.url || t.series === v.firstAppearanceSeries))
+              .map(v => v.id),
         series: t.series,
         chronologicalPosition: t.chronologicalPosition,
         groups: t.groups
