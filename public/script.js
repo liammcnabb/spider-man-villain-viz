@@ -1079,9 +1079,11 @@ class SpiderManVisualization {
             .attr('y', (d) => d.y * cellSize)
             .attr('width', cellSize)
             .attr('height', cellSize)
-            .attr('fill', (d) => d.present ? d.seriesColor : '#ecf0f1')
-            .attr('stroke', '#bdc3c7')
-            .attr('stroke-width', 0.5)
+            .attr('fill', (d) => {
+                if (d.present) return d.seriesColor;
+                return document.body.classList.contains('dark-theme') ? '#353535' : '#ecf0f1';
+            })
+            .attr('stroke', 'none')
             .on('mouseenter', (event, d) => {
                 if (d.present) {
                     this.showGridTooltip(event, d);
@@ -1180,7 +1182,7 @@ class SpiderManVisualization {
                         fromChrono: chrono,
                         toChrono: nextChrono,
                         gapSize,
-                        color: '#f8f9fa' // Gap columns always neutral grey
+                        color: document.body.classList.contains('dark-theme') ? '#2d2d2d' : '#f8f9fa'
                     });
                 }
             }
@@ -1290,6 +1292,7 @@ class SpiderManVisualization {
                     .attr('width', cellSize)
                     .attr('height', villains.length * cellSize)
                     .attr('fill', column.color)
+                    .attr('stroke', 'none')
                     .attr('opacity', 0.12);
             }
         });
