@@ -31,63 +31,89 @@
                     Grid visualization where X = Issues, Y = Villains. Colored cells indicate villain appearances.
                     Use mouse to pan and scroll to zoom.
                 </p>
-                <div class="filters">
-                    <label class="toggle-label">
-                        <input type="checkbox" id="showTrailingGrids" checked>
-                        Show trailing empty cells
-                    </label>
-                    <label class="toggle-label">
-                        <input type="checkbox" id="elasticModeToggle">
-                        Elastic X-axis
-                    </label>
-                    <label class="filter-label">
-                        Min appearances:
-                        <input type="number" id="minAppearancesFilter" min="1" max="50" value="3" class="filter-input">
-                    </label>
-                    <label class="filter-label">
-                        Sort Y-axis:
-                        <select id="yAxisSort" class="filter-input">
-                            <option value="default">Default (First appearance)</option>
-                            <option value="span">Longest span</option>
-                        </select>
-                    </label>
-                    <div class="filter-chip-input">
-                        <label class="filter-label">
-                            Villains:
-                            <input list="villainOptions" id="villainFilterInput" class="filter-input" placeholder="Add villain">
+                <!-- Single Unified Filter Box -->
+                <div class="unified-filter-container">
+                    <!-- Top: Elastic Timeline Toggle -->
+                    <div class="elastic-section">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="elasticModeToggle">
+                            <div class="elastic-content">
+                                <strong>View Elastic Timeline</strong>
+                                <span class="toggle-description">Compress X-axis to show only issues with appearances</span>
+                            </div>
                         </label>
-                        <button id="addVillainFilter" class="zoom-button" title="Add villain filter">Add</button>
-                        <datalist id="villainOptions"></datalist>
-                        <div id="activeVillainFilters" class="filter-chip-row"></div>
                     </div>
-                    <div class="filter-chip-input">
-                        <label class="filter-label">
-                            Groups:
-                            <input list="groupOptions" id="groupFilterInput" class="filter-input" placeholder="Add group">
-                        </label>
-                        <button id="addGroupFilter" class="zoom-button" title="Add group filter">Add</button>
-                        <datalist id="groupOptions"></datalist>
-                        <div id="activeGroupFilters" class="filter-chip-row"></div>
-                    </div>
-                    <div class="filter-chip-input">
-                        <label class="filter-label">
-                            Volumes:
-                            <input list="volumeOptions" id="volumeFilterInput" class="filter-input" placeholder="Add volume">
-                        </label>
-                        <button id="addVolumeFilter" class="zoom-button" title="Add volume filter">Add</button>
-                        <datalist id="volumeOptions"></datalist>
-                        <div id="activeVolumeFilters" class="filter-chip-row"></div>
-                    </div>
-                    <div class="zoom-controls">
-                        <button id="zoomIn" class="zoom-button" title="Zoom In (Ctrl+Plus)">+</button>
-                        <button id="zoomOut" class="zoom-button" title="Zoom Out (Ctrl+Minus)">−</button>
-                        <button id="zoomReset" class="zoom-button" title="Reset Zoom">Reset</button>
-                        <button id="fullscreenBtn" class="zoom-button" title="Fullscreen">⛶</button>
-                        <button id="clearFiltersBtn" class="zoom-button" title="Clear villain/group filters">Clear</button>
+
+                    <!-- Bottom: Two Filter Columns -->
+                    <div class="filters-split">
+                        <!-- Left: Villain & Group Filters -->
+                        <div class="filter-column">
+                            <h3 class="filter-section-title">Villain & Group Filters</h3>
+                            <p class="filter-description">Highlight specific villains, groups, or volumes on the timeline</p>
+                            <div class="filter-chip-input">
+                                <label class="filter-label">
+                                    Groups:
+                                    <input list="groupOptions" id="groupFilterInput" class="filter-input" placeholder="Add group" title="Filter by villain group/team">
+                                </label>
+                                <button id="addGroupFilter" class="zoom-button" title="Add group filter">Add</button>
+                                <datalist id="groupOptions"></datalist>
+                                <div id="activeGroupFilters" class="filter-chip-row"></div>
+                            </div>
+                            <div class="filter-chip-input">
+                                <label class="filter-label">
+                                    Villains:
+                                    <input list="villainOptions" id="villainFilterInput" class="filter-input" placeholder="Add villain" title="Filter by individual villain">
+                                </label>
+                                <button id="addVillainFilter" class="zoom-button" title="Add villain filter">Add</button>
+                                <datalist id="villainOptions"></datalist>
+                                <div id="activeVillainFilters" class="filter-chip-row"></div>
+                            </div>
+                            <div class="filter-chip-input">
+                                <label class="filter-label">
+                                    Volumes:
+                                    <input list="volumeOptions" id="volumeFilterInput" class="filter-input" placeholder="Add volume" title="Filter by comic series/volume">
+                                </label>
+                                <button id="addVolumeFilter" class="zoom-button" title="Add volume filter">Add</button>
+                                <datalist id="volumeOptions"></datalist>
+                                <div id="activeVolumeFilters" class="filter-chip-row"></div>
+                            </div>
+                            <button id="clearFiltersBtn" class="zoom-button" title="Clear villain/group filters">Clear Filters</button>
+                        </div>
+
+                        <!-- Right: Display Settings -->
+                        <div class="filter-column">
+                            <h3 class="filter-section-title">Display Settings</h3>
+                            <p class="filter-description">Control how the timeline is displayed</p>
+                            <label class="toggle-label">
+                                <input type="checkbox" id="showTrailingGrids" checked title="Show/hide empty cells after last villain appearance">
+                                Show trailing empty cells
+                            </label>
+                            <label class="filter-label">
+                                Min appearances:
+                                <input type="number" id="minAppearancesFilter" min="1" max="50" value="3" class="filter-input" title="Hide villains with fewer appearances than this number">
+                            </label>
+                            <label class="filter-label">
+                                Sort Y-axis:
+                                <select id="yAxisSort" class="filter-input" title="Change how villains are ordered vertically">
+                                    <option value="default">Default (First appearance)</option>
+                                    <option value="span">Longest span</option>
+                                </select>
+                            </label>
+                        </div>
                     </div>
                 </div>
                 <div class="chart-container" id="gridContainer">
                     <div id="grid-timeline"></div>
+                    <!-- Floating Zoom Controls -->
+                    <div class="floating-zoom-controls" id="floatingZoomControls">
+                        <button id="toggleZoomControls" class="zoom-toggle-btn" title="Toggle Controls">⚙</button>
+                        <div class="zoom-buttons" id="zoomButtonsContainer">
+                            <button id="zoomIn" class="zoom-button" title="Zoom In (Ctrl+Plus)">+</button>
+                            <button id="zoomOut" class="zoom-button" title="Zoom Out (Ctrl+Minus)">−</button>
+                            <button id="zoomReset" class="zoom-button" title="Reset Zoom">↺</button>
+                            <button id="fullscreenBtn" class="zoom-button" title="Fullscreen">⛶</button>
+                        </div>
+                    </div>
                 </div>
             </section>
 

@@ -353,7 +353,9 @@ class SpiderManVisualization {
         // Populate datalists
         if (villainOptions) {
             villainOptions.innerHTML = '';
-            this.villains.forEach(v => {
+            // Sort villains alphabetically
+            const sortedVillains = [...this.villains].sort((a, b) => a.name.localeCompare(b.name));
+            sortedVillains.forEach(v => {
                 const opt = document.createElement('option');
                 opt.value = v.name;
                 opt.label = v.name;
@@ -362,7 +364,9 @@ class SpiderManVisualization {
         }
         if (groupOptions) {
             groupOptions.innerHTML = '';
-            this.groups.forEach(g => {
+            // Sort groups alphabetically
+            const sortedGroups = [...this.groups].sort((a, b) => a.name.localeCompare(b.name));
+            sortedGroups.forEach(g => {
                 const opt = document.createElement('option');
                 opt.value = g.name;
                 opt.label = g.name;
@@ -740,6 +744,9 @@ class SpiderManVisualization {
             }
         });
 
+        // Setup floating zoom controls toggle
+        this.setupFloatingZoomToggle();
+
         // Update button text when fullscreen changes
         document.addEventListener('fullscreenchange', () => {
             this.updateFullscreenButtonText();
@@ -749,6 +756,20 @@ class SpiderManVisualization {
         });
         document.addEventListener('msfullscreenchange', () => {
             this.updateFullscreenButtonText();
+        });
+    }
+
+    /**
+     * Setup floating zoom controls toggle
+     */
+    setupFloatingZoomToggle() {
+        const toggleBtn = document.getElementById('toggleZoomControls');
+        const buttonsContainer = document.getElementById('zoomButtonsContainer');
+        
+        if (!toggleBtn || !buttonsContainer) return;
+
+        toggleBtn.addEventListener('click', () => {
+            buttonsContainer.classList.toggle('collapsed');
         });
     }
 
