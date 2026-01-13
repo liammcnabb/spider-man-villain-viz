@@ -40,6 +40,23 @@ class SpiderManVisualization {
         this.groupMembers = new Map();
         this.seriesColorMap = {}; // Will be populated from config.seriesColors
         this.appearanceMetadata = new Map(); // Map<"villainName#issueNumber", metadata>
+        
+        // Performance: debounce timers and caches
+        this._renderDebounceTimer = null;
+        this._filterDebounceTimer = null;
+        this._dataCache = new Map(); // Cache loaded JSON to avoid re-fetching
+        this._sparklineCache = new Map(); // Cache computed sparkline data per villain
+    }
+
+    /**
+     * Debounce utility for performance optimization
+     */
+    debounce(fn, delay = 150) {
+        let timer;
+        return (...args) => {
+            clearTimeout(timer);
+            timer = setTimeout(() => fn.apply(this, args), delay);
+        };
     }
 
     /**
@@ -82,7 +99,10 @@ class SpiderManVisualization {
      */
     async init() {
         try {
-            // Load data from JSON files
+            // Show loading state
+            this.showLoadingState();
+            
+            // Load primary data files in parallel
             const [villainData, d3Config] = await Promise.all([
                 this.loadJSON('data/villains.json'),
                 this.loadJSON('data/d3-config.json')
@@ -107,7 +127,7 @@ class SpiderManVisualization {
             });
             this.buildGroupMembersLookup();
 
-            // Load series-specific data for grid visualization
+            // Load series-specific data for grid visualization (in parallel)
             this.seriesData = await this.loadSeriesData();
             
             // Build metadata lookup for appearance visualization
@@ -118,27 +138,63 @@ class SpiderManVisualization {
 
             // Setup filters
             this.setupFilterControls();
+            
+            // Hide loading state before rendering
+            this.hideLoadingState();
 
-            // Render all components
-            this.renderStats();
-            this.renderGridTimeline();
-            this.renderHistogram();
-            this.renderTimeline();
-            this.renderVillainList();
-            this.setupSparklineToggle();
-            this.renderGroupList();
-            this.renderMissingVillainIssues();
+            // Render all components - use requestAnimationFrame for smoother loading
+            requestAnimationFrame(() => {
+                this.renderStats();
+                this.renderGridTimeline();
+                this.renderHistogram();
+                this.renderTimeline();
+                this.renderVillainList();
+                this.setupSparklineToggle();
+                this.renderGroupList();
+                this.renderMissingVillainIssues();
 
-            // Setup toggle listeners
-            this.setupGridToggle();
-
-            console.log('✅ Visualization loaded successfully');
+                // Setup toggle listeners
+                this.setupGridToggle();
+                
+                console.log('✅ Visualization loaded successfully');
+            });
         } catch (error) {
+            this.hideLoadingState();
             console.error('Error loading visualization:', error);
             this.showError(
                 'Failed to load data. ' +
                 'Please run "npm run scrape" first.'
             );
+        }
+    }
+    
+    /**
+     * Show loading indicator
+     */
+    showLoadingState() {
+        const container = document.querySelector('.main-content');
+        if (!container) return;
+        
+        // Check if loading indicator already exists
+        if (document.getElementById('loadingIndicator')) return;
+        
+        const loadingDiv = document.createElement('div');
+        loadingDiv.id = 'loadingIndicator';
+        loadingDiv.className = 'loading-indicator';
+        loadingDiv.innerHTML = `
+            <div class="loading-spinner"></div>
+            <p>Loading villain data...</p>
+        `;
+        container.insertBefore(loadingDiv, container.firstChild);
+    }
+    
+    /**
+     * Hide loading indicator
+     */
+    hideLoadingState() {
+        const loading = document.getElementById('loadingIndicator');
+        if (loading) {
+            loading.remove();
         }
     }
 
@@ -704,19 +760,29 @@ class SpiderManVisualization {
     }
 
     /**
-     * Load JSON file
+     * Load JSON file with in-memory caching for performance
+     * Cache is used during the session to avoid re-fetching on filter changes
      */
-    async loadJSON(url) {
-        // Add timestamp to prevent browser caching of stale data
+    async loadJSON(url, bypassCache = false) {
+        // Check in-memory cache first (for repeated loads during same session)
+        if (!bypassCache && this._dataCache.has(url)) {
+            return this._dataCache.get(url);
+        }
+        
+        // Add timestamp only on first load to get fresh data once per session
         const separator = url.includes('?') ? '&' : '?';
-        const bustedUrl = `${url}${separator}t=${Date.now()}`;
-        const response = await fetch(bustedUrl, { cache: 'no-cache' });
+        const bustedUrl = bypassCache ? `${url}${separator}t=${Date.now()}` : url;
+        
+        const response = await fetch(bustedUrl);
         if (!response.ok) {
             throw new Error(
                 `Failed to load ${url}: ${response.statusText}`
             );
         }
-        return response.json();
+        
+        const data = await response.json();
+        this._dataCache.set(url, data); // Cache for subsequent reads
+        return data;
     }
 
     /**
@@ -1357,93 +1423,106 @@ class SpiderManVisualization {
         this.gridZoom = zoom;
         this.gridGroup = g;
 
-        // Draw grid cells
-        const cellData = [];
-        issues.forEach((issue, xIdx) => {
-            villains.forEach((villain, yIdx) => {
-                const chronoPos = issue.chronologicalPosition;
-                let shouldShowCell = chronoPos >= villainFirstChrono[villain];
+        // PERFORMANCE OPTIMIZATION: Draw grid background as a single rect + grid lines
+        // Instead of creating individual rects for every empty cell
+        const emptyColor = document.body.classList.contains('dark-theme') ? '#353535' : '#ecf0f1';
+        const gridLineColor = document.body.classList.contains('dark-theme') ? '#2d2d2d' : '#ddd';
                 
-                // Only filter trailing cells if toggle is OFF
-                if (!this.showTrailingGrids) {
-                    shouldShowCell = shouldShowCell && chronoPos <= villainLastChrono[villain];
-                }
-                
-                if (shouldShowCell) {
-                    const isPresent = appearances[chronoPos]?.has(villain) ?? false;
-                    cellData.push({
-                        issue: issue.label,
-                        issueNum: issue.number,
-                        chronoPos: chronoPos,
-                        series: issue.series,
-                        seriesColor: issue.seriesColor,
-                        villain,
-                        x: xIdx,
-                        y: yIdx,
-                        present: isPresent
-                    });
-                }
-            });
-        });
+        // PERFORMANCE: Use single path elements for all grid lines instead of individual lines
+        // Build path data for vertical lines
+        let verticalPathD = '';
+        for (let x = 0; x <= issues.length; x++) {
+            verticalPathD += `M${x * cellSize},0 L${x * cellSize},${height} `;
+        }
+        g.append('path')
+            .attr('class', 'grid-lines-v')
+            .attr('d', verticalPathD)
+            .attr('stroke', gridLineColor)
+            .attr('stroke-width', 0.5)
+            .attr('fill', 'none');
+        
+        // Build path data for horizontal lines
+        let horizontalPathD = '';
+        for (let y = 0; y <= villains.length; y++) {
+            horizontalPathD += `M0,${y * cellSize} L${width},${y * cellSize} `;
+        }
+        g.append('path')
+            .attr('class', 'grid-lines-h')
+            .attr('d', horizontalPathD)
+            .attr('stroke', gridLineColor)
+            .attr('stroke-width', 0.5)
+            .attr('fill', 'none');
 
-        // Render grid cells with metadata visualization
-        g.selectAll('g.grid-cell-group')
-            .data(cellData)
-            .enter()
-            .append('g')
-            .attr('class', 'grid-cell-group')
-            .each((d, i, nodes) => {
-                const cellGroup = d3.select(nodes[i]);
-                const x = d.x * cellSize;
-                const y = d.y * cellSize;
-                
-                // Get metadata for this appearance
-                const metadata = d.present ? this.getAppearanceMetadata(d.villain, d.issueNum) : null;
-                
-                // Render background rect
-                const rect = cellGroup.append('rect')
-                    .attr('class', 'grid-cell')
-                    .attr('x', x)
-                    .attr('y', y)
-                    .attr('width', cellSize)
-                    .attr('height', cellSize)
-                    .attr('fill', (cellD) => {
-                        if (cellD.present) return cellD.seriesColor;
-                        return document.body.classList.contains('dark-theme') ? '#353535' : '#ecf0f1';
-                    })
-                    .attr('stroke', 'none')
-                    .on('mouseenter', (event, cellD) => {
-                        if (cellD.present) {
-                            this.showGridTooltip(event, {
-                                ...cellD,
-                                metadata: metadata
-                            });
-                        }
-                    })
-                    .on('mouseleave', () => {
-                        this.hideGridTooltip();
-                    });
-                
-                // Apply metadata styles if present
-                if (d.present && metadata) {
-                    this.applyMetadataStyles(rect, metadata, cellGroup, x, y, cellSize);
-                    
-                    // Add stripe overlay for mentioned-only or flashback (skip if death)
-                    if ((metadata.mentionedOnly || metadata.flashback) && !metadata.death) {
-                        this.addStripeOverlay(cellGroup, x, y, cellSize, cellSize, false);
+        // For each villain, draw a single rect (or a few, if there are gaps) spanning their timeline
+        villains.forEach((villain, yIdx) => {
+            // Find the first and last visible issue for this villain in the current filtered issues
+            // Only draw if the villain's true first appearance is in the visible issues
+            const trueFirstChrono = villainFirstChrono[villain];
+            const trueLastChrono = villainLastChrono[villain];
+            const firstIdx = issues.findIndex(issue => issue.chronologicalPosition === trueFirstChrono);
+            const lastIdx = issues.findIndex(issue => issue.chronologicalPosition === trueLastChrono);
+            const y = yIdx * cellSize;
+            let xStart = firstIdx;
+            let xEnd = lastIdx;
+            if (this.showTrailingGrids) {
+                xEnd = issues.length - 1;
+            }
+            // Only draw if the villain's first appearance is in the visible issues
+            if (xStart === -1 || xEnd === -1) {
+                // Do not draw anything for this villain
+                return;
+            }
+            // Draw background for the villain's row (empty cells)
+            g.append('rect')
+                .attr('class', 'villain-row-bg')
+                .attr('x', xStart * cellSize)
+                .attr('y', y)
+                .attr('width', (xEnd - xStart + 1) * cellSize)
+                .attr('height', cellSize)
+                .attr('fill', emptyColor)
+                .attr('stroke', 'none');
+
+            // Find all contiguous runs of appearances for this villain (within the visible issues)
+            let runStart = null;
+            let runColor = null;
+            for (let x = xStart; x <= xEnd; x++) {
+                const issue = issues[x];
+                if (!issue) continue;
+                const chronoPos = issue.chronologicalPosition;
+                const isPresent = appearances[chronoPos]?.has(villain) ?? false;
+                if (isPresent) {
+                    if (runStart === null) {
+                        runStart = x;
+                        runColor = issue.seriesColor;
                     }
-                    
-                    // Draw death X if applicable
-                    if (metadata.death) {
-                        this.drawDeathX(cellGroup, x, y, cellSize, d.seriesColor);
-                    }
-                    
-                    // Draw first appearance border last so it appears on top of all overlays
-                    if (metadata.firstAppearance) {
-                        this.drawFirstAppearanceBorder(cellGroup, x, y, cellSize);
+                } else {
+                    if (runStart !== null) {
+                        // End of a run, draw the colored rect
+                        g.append('rect')
+                            .attr('class', 'villain-appearance')
+                            .attr('x', runStart * cellSize)
+                            .attr('y', y)
+                            .attr('width', (x - runStart) * cellSize)
+                            .attr('height', cellSize)
+                            .attr('fill', runColor)
+                            .attr('stroke', 'none');
+                        runStart = null;
+                        runColor = null;
                     }
                 }
-            });
+            }
+            // If a run was open at the end, close it
+            if (runStart !== null) {
+                g.append('rect')
+                    .attr('class', 'villain-appearance')
+                    .attr('x', runStart * cellSize)
+                    .attr('y', y)
+                    .attr('width', (xEnd - runStart + 1) * cellSize)
+                    .attr('height', cellSize)
+                    .attr('fill', runColor)
+                    .attr('stroke', 'none');
+            }
+        });
 
         // Issue labels (X-axis)
         g.selectAll('text.issue-label')
@@ -2333,7 +2412,8 @@ class SpiderManVisualization {
     }
 
     /**
-     * Render villain list with filtering
+     * Render villain list with filtering and lazy loading for performance
+     * Uses IntersectionObserver to only render sparklines when visible
      */
     renderVillainList() {
         const villainListDiv = 
@@ -2351,7 +2431,29 @@ class SpiderManVisualization {
                 b.frequency - a.frequency
             );
 
-        // Render all villains initially
+        // IntersectionObserver for lazy loading sparklines
+        const sparklineObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const container = entry.target;
+                    const villainId = container.dataset.villainId;
+                    const villain = this.villainById.get(villainId);
+                    if (villain && !container.dataset.loaded) {
+                        container.dataset.loaded = 'true';
+                        // Use cached sparkline data if available
+                        let series = this._sparklineCache.get(villainId);
+                        if (!series) {
+                            series = this.buildYearlyCounts(villain);
+                            this._sparklineCache.set(villainId, series);
+                        }
+                        this.renderSparkline(container, series);
+                    }
+                    sparklineObserver.unobserve(container);
+                }
+            });
+        }, { rootMargin: '100px' }); // Pre-load 100px before visible
+
+        // Render villains with lazy sparkline loading
         const renderVillains = (villainsToRender) => {
             villainListDiv.innerHTML = '';
             
@@ -2361,10 +2463,15 @@ class SpiderManVisualization {
                 return;
             }
 
+            // Use DocumentFragment for batch DOM insertion (performance)
+            const fragment = document.createDocumentFragment();
+            
             villainsToRender.forEach(villain => {
-                const card = this.createVillainCard(villain);
-                villainListDiv.appendChild(card);
+                const card = this.createVillainCardLazy(villain, sparklineObserver);
+                fragment.appendChild(card);
             });
+            
+            villainListDiv.appendChild(fragment);
         };
 
         const getFilteredVillains = () => {
@@ -2381,11 +2488,10 @@ class SpiderManVisualization {
         // Initial render
         renderCurrentVillains();
 
-        // Add filter functionality
+        // Add filter functionality with debouncing for performance
         if (filterInput) {
-            filterInput.addEventListener('input', () => {
-                renderCurrentVillains();
-            });
+            const debouncedRender = this.debounce(renderCurrentVillains, 200);
+            filterInput.addEventListener('input', debouncedRender);
         }
 
         // Expose re-render for external toggles (e.g., sparkline domain)
@@ -2951,6 +3057,172 @@ class SpiderManVisualization {
         card.appendChild(trendDiv);
 
         // Add wiki link in bottom-right
+        if (villain.url) {
+            const wikiLink = document.createElement('a');
+            wikiLink.href = villain.url;
+            wikiLink.className = 'villain-wiki-link';
+            wikiLink.target = '_blank';
+            wikiLink.rel = 'noopener noreferrer';
+            wikiLink.textContent = 'Wiki →';
+            wikiLink.title = `View ${villain.name} on Marvel Wiki`;
+            card.appendChild(wikiLink);
+        }
+
+        return card;
+    }
+
+    /**
+     * Create a villain card with lazy-loaded sparkline for performance
+     * Sparkline rendering is deferred until the card scrolls into view
+     */
+    createVillainCardLazy(villain, sparklineObserver) {
+        const card = document.createElement('div');
+        card.className = 'villain-card';
+
+        // Create header section with name/stats and image
+        const header = document.createElement('div');
+        header.className = 'villain-card-header';
+
+        // Name and stats container (left side)
+        const infoContainer = document.createElement('div');
+        infoContainer.className = 'villain-info-container';
+
+        const name = document.createElement('div');
+        name.className = 'villain-name';
+        name.textContent = villain.name;
+        name.title = `ID: ${villain.id}`;
+
+        const statsDiv = document.createElement('div');
+        
+        const frequencyStat = this.createStatElement(
+            'Appearances',
+            villain.frequency
+        );
+        const firstAppearanceStat = this.createStatElement(
+            'First Issue',
+            villain.firstAppearance
+        );
+
+        statsDiv.appendChild(frequencyStat);
+        statsDiv.appendChild(firstAppearanceStat);
+
+        infoContainer.appendChild(name);
+        infoContainer.appendChild(statsDiv);
+        header.appendChild(infoContainer);
+
+        // Add villain image if available (right side)
+        if (villain.imageUrl) {
+            const img = document.createElement('img');
+            img.className = 'villain-image';
+            const variants = [this.normalizeImageUrl(villain.imageUrl)];
+            if (villain.imageUrl.includes('/scale-to-width-down/')) {
+                variants.push(
+                    this.normalizeImageUrl(
+                        villain.imageUrl.replace(/\/scale-to-width-down\/\d+/i, '')
+                    )
+                );
+            }
+
+            let attempt = 0;
+            const tryLoad = () => {
+                img.src = variants[attempt];
+            };
+
+            tryLoad();
+            img.alt = villain.name;
+            img.title = villain.name;
+            img.loading = 'lazy';
+            img.referrerPolicy = 'no-referrer';
+            img.onerror = () => {
+                attempt += 1;
+                if (attempt < variants.length) {
+                    tryLoad();
+                } else {
+                    img.style.display = 'none';
+                }
+            };
+            header.appendChild(img);
+        }
+
+        card.appendChild(header);
+
+        const appearancesDiv = document.createElement('div');
+        appearancesDiv.className = 'villain-appearances';
+
+        const appearancesLabel = document.createElement('div');
+        appearancesLabel.className = 'villain-appearances-label';
+        appearancesLabel.textContent = 'In Issues:';
+
+        const tagsDiv = document.createElement('div');
+        tagsDiv.className = 'issue-tags';
+
+        // Build URL->series map from timeline
+        const villainUrlIssueToSeries = {};
+        const timeline = this.data.timeline || [];
+        for (const entry of timeline) {
+            if (!entry.villainUrls) continue;
+            entry.villainUrls.forEach((url) => {
+                const key = `${url}|${entry.issue}`;
+                if (!villainUrlIssueToSeries[key]) {
+                    villainUrlIssueToSeries[key] = [];
+                }
+                villainUrlIssueToSeries[key].push({
+                    series: entry.series,
+                    chronoPos: entry.chronologicalPosition || Infinity
+                });
+            });
+        }
+        
+        for (const key in villainUrlIssueToSeries) {
+            villainUrlIssueToSeries[key].sort((a, b) => a.chronoPos - b.chronoPos);
+        }
+
+        villain.appearances.forEach(issue => {
+            const key = `${villain.url}|${issue}`;
+            const seriesList = villainUrlIssueToSeries[key];
+            
+            const tag = document.createElement('span');
+            tag.className = 'issue-tag';
+            tag.textContent = `#${issue}`;
+            
+            if (seriesList && seriesList.length > 0) {
+                const series = seriesList[0].series;
+                tag.title = series;
+                const color = this.seriesColorMap[series] || '#95a5a6';
+                tag.style.backgroundColor = color;
+                tag.setAttribute('data-series', series);
+            } else {
+                tag.style.backgroundColor = '#95a5a6';
+            }
+            tagsDiv.appendChild(tag);
+        });
+
+        appearancesDiv.appendChild(appearancesLabel);
+        appearancesDiv.appendChild(tagsDiv);
+        card.appendChild(appearancesDiv);
+
+        // Sparkline container - will be populated lazily via IntersectionObserver
+        const trendDiv = document.createElement('div');
+        trendDiv.className = 'villain-trend';
+        const trendLabel = document.createElement('div');
+        trendLabel.className = 'villain-trend-label';
+        trendLabel.textContent = 'Appearances per year';
+        
+        const sparklineHost = document.createElement('div');
+        sparklineHost.className = 'villain-sparkline';
+        sparklineHost.dataset.villainId = villain.id;
+        sparklineHost.textContent = 'Loading...'; // Placeholder
+        
+        // Register for lazy loading
+        if (sparklineObserver) {
+            sparklineObserver.observe(sparklineHost);
+        }
+        
+        trendDiv.appendChild(trendLabel);
+        trendDiv.appendChild(sparklineHost);
+        card.appendChild(trendDiv);
+
+        // Wiki link
         if (villain.url) {
             const wikiLink = document.createElement('a');
             wikiLink.href = villain.url;
