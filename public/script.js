@@ -1104,13 +1104,20 @@ class SpiderManVisualization {
      */
     applyMetadataStyles(element, metadata, cellGroup, x, y, cellSize) {
         if (!metadata) return;
-        
+        // Theme-aware border color
+        const borderColor = document.body.classList.contains('dark-theme') ? '#cccccc' : '#222';
         // First appearance: draw inner border for rects, stroke for circles
-        // Note: For grid rects, this is applied before overlays; for circles it uses stroke directly
-        if (metadata.firstAppearance && element.node().tagName === 'circle') {
-            // For circles, use stroke directly
-            element.attr('stroke', '#000000')
-                   .attr('stroke-width', 2);
+        if (metadata.firstAppearance) {
+            if (element.node().tagName === 'circle') {
+                // For circles, use stroke directly
+                element.attr('stroke', borderColor)
+                       .attr('stroke-width', 2);
+            } else if (element.node().tagName === 'rect' || element.node().tagName === 'path') {
+                // For grid rects and elastic paths, draw border overlay
+                if (cellGroup) {
+                    this.drawFirstAppearanceBorder(cellGroup, x, y, cellSize);
+                }
+            }
         }
     }
 
@@ -1119,17 +1126,19 @@ class SpiderManVisualization {
      * This ensures the border is visible on top of stripes and other overlays
      */
     drawFirstAppearanceBorder(cellGroup, x, y, cellSize) {
-        const borderWidth = 2;
-        const inset = 1;
-        cellGroup.append('rect')
-            .attr('x', x + inset)
-            .attr('y', y + inset)
-            .attr('width', cellSize - (inset * 2))
-            .attr('height', cellSize - (inset * 2))
-            .attr('fill', 'none')
-            .attr('stroke', '#000000')
-            .attr('stroke-width', borderWidth)
-            .attr('pointer-events', 'none');
+            const borderWidth = 2;
+            const inset = 1;
+            // Use theme-aware color: light border in dark theme, dark border in light theme
+            const borderColor = document.body.classList.contains('dark-theme') ? '#cccccc' : '#222';
+            cellGroup.append('rect')
+                .attr('x', x + inset)
+                .attr('y', y + inset)
+                .attr('width', cellSize - (inset * 2))
+                .attr('height', cellSize - (inset * 2))
+                .attr('fill', 'none')
+                .attr('stroke', borderColor)
+                .attr('stroke-width', borderWidth)
+                .attr('pointer-events', 'none');
     }
 
     /**
@@ -1430,33 +1439,9 @@ class SpiderManVisualization {
                 
         // PERFORMANCE: Use single path elements for all grid lines instead of individual lines
         // Build path data for vertical lines
-        let verticalPathD = '';
-        for (let x = 0; x <= issues.length; x++) {
-            verticalPathD += `M${x * cellSize},0 L${x * cellSize},${height} `;
-        }
-        g.append('path')
-            .attr('class', 'grid-lines-v')
-            .attr('d', verticalPathD)
-            .attr('stroke', gridLineColor)
-            .attr('stroke-width', 0.5)
-            .attr('fill', 'none');
-        
-        // Build path data for horizontal lines
-        let horizontalPathD = '';
-        for (let y = 0; y <= villains.length; y++) {
-            horizontalPathD += `M0,${y * cellSize} L${width},${y * cellSize} `;
-        }
-        g.append('path')
-            .attr('class', 'grid-lines-h')
-            .attr('d', horizontalPathD)
-            .attr('stroke', gridLineColor)
-            .attr('stroke-width', 0.5)
-            .attr('fill', 'none');
 
         // For each villain, draw a single rect (or a few, if there are gaps) spanning their timeline
         villains.forEach((villain, yIdx) => {
-            // Find the first and last visible issue for this villain in the current filtered issues
-            // Only draw if the villain's true first appearance is in the visible issues
             const trueFirstChrono = villainFirstChrono[villain];
             const trueLastChrono = villainLastChrono[villain];
             const firstIdx = issues.findIndex(issue => issue.chronologicalPosition === trueFirstChrono);
@@ -1467,12 +1452,9 @@ class SpiderManVisualization {
             if (this.showTrailingGrids) {
                 xEnd = issues.length - 1;
             }
-            // Only draw if the villain's first appearance is in the visible issues
             if (xStart === -1 || xEnd === -1) {
-                // Do not draw anything for this villain
                 return;
             }
-            // Draw background for the villain's row (empty cells)
             g.append('rect')
                 .attr('class', 'villain-row-bg')
                 .attr('x', xStart * cellSize)
@@ -1498,7 +1480,7 @@ class SpiderManVisualization {
                 } else {
                     if (runStart !== null) {
                         // End of a run, draw the colored rect
-                        g.append('rect')
+                        const rect = g.append('rect')
                             .attr('class', 'villain-appearance')
                             .attr('x', runStart * cellSize)
                             .attr('y', y)
@@ -1506,6 +1488,11 @@ class SpiderManVisualization {
                             .attr('height', cellSize)
                             .attr('fill', runColor)
                             .attr('stroke', 'none');
+                        // Draw first appearance border if this run includes the first appearance
+                        const metadata = this.getAppearanceMetadata(villain, issues[runStart]?.number);
+                        if (metadata.firstAppearance) {
+                            this.drawFirstAppearanceBorder(g, runStart * cellSize, y, cellSize);
+                        }
                         runStart = null;
                         runColor = null;
                     }
@@ -1513,7 +1500,7 @@ class SpiderManVisualization {
             }
             // If a run was open at the end, close it
             if (runStart !== null) {
-                g.append('rect')
+                const rect = g.append('rect')
                     .attr('class', 'villain-appearance')
                     .attr('x', runStart * cellSize)
                     .attr('y', y)
@@ -1521,6 +1508,11 @@ class SpiderManVisualization {
                     .attr('height', cellSize)
                     .attr('fill', runColor)
                     .attr('stroke', 'none');
+                // Draw first appearance border if this run includes the first appearance
+                const metadata = this.getAppearanceMetadata(villain, issues[runStart]?.number);
+                if (metadata.firstAppearance) {
+                    this.drawFirstAppearanceBorder(g, runStart * cellSize, y, cellSize);
+                }
             }
         });
 
@@ -1965,7 +1957,7 @@ class SpiderManVisualization {
                                 });
                             
                             // Apply metadata styles
-                            this.applyMetadataStyles(pathEl, metadata);
+                            this.applyMetadataStyles(pathEl, metadata, cellGroup, x, y, cellSize);
                             
                             // Mentioned/flashback stripes overlay (skip if death)
                             if ((metadata.mentionedOnly || metadata.flashback) && !metadata.death) {
