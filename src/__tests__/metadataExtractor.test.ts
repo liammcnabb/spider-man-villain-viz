@@ -123,6 +123,60 @@ describe('Metadata Extractor', () => {
       expect(metadata.voiceOnly).toBe(true);
       expect(uncaptured).toEqual([]);
     });
+
+    // Regression test for label-based metadata extraction
+    it('should extract metadata from green_text labels array', () => {
+      const text = 'Chameleon';
+      const labels = ['First appearance'];
+      const { metadata, uncaptured } = extractAppearanceMetadata(text, 'Chameleon', labels);
+      
+      expect(metadata.firstAppearance).toBe(true);
+      expect(metadata.rawMetadata).toEqual(['First appearance']);
+      expect(uncaptured).toEqual([]);
+    });
+
+    // Regression test for multiple labels
+    it('should extract multiple metadata from labels array', () => {
+      const text = 'Sandman';
+      const labels = ['Flint Marko', 'Death', 'Flashback'];
+      const { metadata, uncaptured } = extractAppearanceMetadata(text, 'Sandman', labels);
+      
+      expect(metadata.death).toBe(true);
+      expect(metadata.flashback).toBe(true);
+      expect(uncaptured).toEqual(['Flint Marko']);
+      expect(metadata.uncategorized).toContain('Flint Marko');
+    });
+
+    // Regression test for label priority over parenthetical
+    it('should prioritize labels over parenthetical metadata', () => {
+      const text = 'Rock Gimpy (Some other info)';
+      const labels = ['First appearance'];
+      const { metadata, uncaptured } = extractAppearanceMetadata(text, 'Rock Gimpy', labels);
+      
+      expect(metadata.firstAppearance).toBe(true);
+      expect(metadata.rawMetadata).toContain('First appearance');
+      // When labels are present, parentheticals are NOT parsed
+      expect(uncaptured).toEqual([]);
+    });
+
+    // Regression test for fallback to parenthetical when no labels
+    it('should fall back to parenthetical parsing when labels array is empty', () => {
+      const text = 'Villain (First appearance)';
+      const labels: string[] = [];
+      const { metadata } = extractAppearanceMetadata(text, 'Villain', labels);
+      
+      expect(metadata.firstAppearance).toBe(true);
+    });
+
+    // Regression test for handling real names in labels
+    it('should mark real names as uncategorized when in labels', () => {
+      const text = 'Enforcers';
+      const labels = ['Daniel Brito', 'Raymond Bloch', 'Jackson Brice'];
+      const { metadata, uncaptured } = extractAppearanceMetadata(text, 'Enforcers', labels);
+      
+      expect(uncaptured).toEqual(['Daniel Brito', 'Raymond Bloch', 'Jackson Brice']);
+      expect(metadata.uncategorized).toEqual(['Daniel Brito', 'Raymond Bloch', 'Jackson Brice']);
+    });
   });
 
   describe('logUncapturedMetadata', () => {

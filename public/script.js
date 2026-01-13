@@ -39,6 +39,7 @@ class SpiderManVisualization {
         this.villainByName = new Map();
         this.groupMembers = new Map();
         this.seriesColorMap = {}; // Will be populated from config.seriesColors
+        this.appearanceMetadata = new Map(); // Map<"villainName#issueNumber", metadata>
     }
 
     /**
@@ -108,6 +109,9 @@ class SpiderManVisualization {
 
             // Load series-specific data for grid visualization
             this.seriesData = await this.loadSeriesData();
+            
+            // Build metadata lookup for appearance visualization
+            this.appearanceMetadata = await this.buildMetadataLookup(this.seriesData);
 
             // Initialize theme
             this.initializeTheme();
@@ -263,6 +267,136 @@ class SpiderManVisualization {
         }
 
         return loaded;
+    }
+
+    /**
+     * Normalize villain name (remove parenthetical info like real names)
+     * Matches the processing done in the data pipeline
+     */
+    normalizeVillainName(name) {
+        // Trim whitespace
+        let normalized = name.trim();
+        
+        // Remove alias information in parentheses
+        // e.g., "Green Goblin (Norman Osborn)" → "Green Goblin"
+        normalized = normalized.replace(/\([^)]*\)/g, '').trim();
+        
+        // Remove trailing punctuation
+        normalized = normalized.replace(/[,;:\.]+$/, '').trim();
+        
+        // Standardize spacing (remove multiple spaces)
+        normalized = normalized.replace(/\s+/g, ' ');
+        
+        return normalized;
+    }
+
+    /**
+     * Build metadata lookup from series data
+     * Maps "villainName#issueNumber" to appearance metadata
+     */
+    async buildMetadataLookup(seriesData) {
+        const metadata = new Map();
+        
+        for (const series of seriesData) {
+            const seriesName = series.name;
+            if (!series.data || !series.data.timeline) continue;
+            
+            for (const timelineEntry of series.data.timeline) {
+                const issueNum = timelineEntry.issue;
+                
+                if (timelineEntry.villains && Array.isArray(timelineEntry.villains)) {
+                    for (const villain of timelineEntry.villains) {
+                        const villainName = typeof villain === 'string' ? villain : villain.name;
+                        if (!villainName) continue;
+                        
+                        // Create a placeholder entry - metadata will be populated from raw data
+                        // when available
+                        const key = `${villainName}#${issueNum}`;
+                        if (!metadata.has(key)) {
+                            metadata.set(key, {
+                                firstAppearance: false,
+                                death: false,
+                                mentionedOnly: false,
+                                flashback: false
+                            });
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Try to load raw data and merge metadata
+        await this.loadAndMergeRawMetadata(metadata, seriesData);
+        
+        return metadata;
+    }
+
+    /**
+     * Load raw data files and merge metadata into the lookup
+     */
+    async loadAndMergeRawMetadata(metadataMap, seriesData) {
+        const rawDataFiles = [
+            { file: 'data/raw.Amazing_Spider-Man_Vol_1.json', series: 'Amazing Spider-Man Vol 1' },
+            { file: 'data/raw.Untold_Tales_of_Spider-Man_Vol_1.json', series: 'Untold Tales of Spider-Man Vol 1' },
+            { file: 'data/raw.Amazing_Spider-Man_Annual_Vol_1.json', series: 'Amazing Spider-Man Annual Vol 1' },
+            { file: 'data/raw.Peter_Parker,_The_Spectacular_Spider-Man_Vol_1.json', series: 'Peter Parker, The Spectacular Spider-Man Vol 1' },
+            { file: 'data/raw.Sensational_Spider-Man_Vol_1.json', series: 'Sensational Spider-Man Vol 1' },
+            { file: 'data/raw.Spider-Man_Unlimited_Vol_1.json', series: 'Spider-Man Unlimited Vol 1' },
+            { file: 'data/raw.Spider-Man_Vol_1.json', series: 'Spider-Man Vol 1' },
+            { file: 'data/raw.Web_of_Spider-Man_Vol_1.json', series: 'Web of Spider-Man Vol 1' }
+        ];
+        
+        for (const rawFile of rawDataFiles) {
+            try {
+                const rawData = await this.loadJSON(rawFile.file);
+                if (!rawData.issues) continue;
+                
+                for (const issue of rawData.issues) {
+                    const issueNum = issue.issueNumber;
+                    
+                    if (!issue.antagonists) continue;
+                    for (const antagonist of issue.antagonists) {
+                        if (typeof antagonist === 'string') continue;
+                        
+                        const rawVillainName = antagonist.name;
+                        const normalizedName = this.normalizeVillainName(rawVillainName);
+                        const meta = antagonist.metadata;
+                        
+                        if (meta && normalizedName) {
+                            // Build a robust set of keys to tolerate punctuation/hyphen differences
+                            const keySet = new Set();
+                            keySet.add(`${normalizedName}#${issueNum}`);
+                            keySet.add(`${rawVillainName}#${issueNum}`);
+
+                            const normalizedNoHyphen = normalizedName.replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+                            const rawNoHyphen = rawVillainName.replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+
+                            if (normalizedNoHyphen && normalizedNoHyphen !== normalizedName) {
+                                keySet.add(`${normalizedNoHyphen}#${issueNum}`);
+                            }
+                            if (rawNoHyphen && rawNoHyphen !== rawVillainName) {
+                                keySet.add(`${rawNoHyphen}#${issueNum}`);
+                            }
+
+                            const metadataEntry = {
+                                firstAppearance: meta.firstAppearance === true,
+                                death: meta.death === true,
+                                mentionedOnly: meta.mentionedOnly === true,
+                                flashback: meta.flashback === true
+                            };
+
+                            // Update all matching keys
+                            for (const key of keySet) {
+                                metadataMap.set(key, metadataEntry);
+                            }
+                        }
+                    }
+                }
+            } catch (err) {
+                // Raw data file not available, continue
+                console.debug(`Raw data file ${rawFile.file} not available`);
+            }
+        }
     }
 
     /**
@@ -800,6 +934,185 @@ class SpiderManVisualization {
     }
 
     /**
+     * Add SVG pattern definitions for metadata visualization
+     */
+    addSVGPatterns(svg) {
+        const defs = svg.append('defs');
+        
+        // Swap colors: dark theme uses light stripes, light theme uses dark stripes
+        const stripeColor = document.body.classList.contains('dark-theme') ? '#cccccc' : '#2e2e2e';
+        
+        // Diagonal stripe pattern for mentioned/flashback (transparent background)
+        const stripePattern = defs.append('pattern')
+            .attr('id', 'diagonal-stripes')
+            .attr('patternUnits', 'userSpaceOnUse')
+            .attr('width', 3)
+            .attr('height', 3)
+            .attr('patternTransform', 'rotate(-45)');
+        
+        stripePattern.append('rect')
+            .attr('width', 3)
+            .attr('height', 3)
+            .attr('fill', 'none');
+        
+        stripePattern.append('line')
+            .attr('x1', 0)
+            .attr('y1', 0)
+            .attr('x2', 0)
+            .attr('y2', 3)
+            .attr('stroke', stripeColor)
+            .attr('stroke-width', 2)
+            .attr('stroke-opacity', 1);
+
+        // Dedicated pattern for death X stripes (fixed light color)
+        const deathStripePattern = defs.append('pattern')
+            .attr('id', 'diagonal-stripes-death')
+            .attr('patternUnits', 'userSpaceOnUse')
+            .attr('width', 3)
+            .attr('height', 3)
+            .attr('patternTransform', 'rotate(-45)');
+
+        deathStripePattern.append('rect')
+            .attr('width', 3)
+            .attr('height', 3)
+            .attr('fill', 'none');
+
+        deathStripePattern.append('line')
+            .attr('x1', 0)
+            .attr('y1', 0)
+            .attr('x2', 0)
+            .attr('y2', 3)
+            .attr('stroke', stripeColor)
+            .attr('stroke-width', 100)
+            .attr('stroke-opacity', 1);
+        
+        // X pattern for death (using SVG group with crossed lines)
+        const xMarker = defs.append('marker')
+            .attr('id', 'death-x')
+            .attr('markerWidth', 10)
+            .attr('markerHeight', 10)
+            .attr('refX', 5)
+            .attr('refY', 5)
+            .attr('markerUnits', 'strokeWidth');
+    }
+
+    /**
+     * Get appearance metadata for a villain in a specific issue
+     * Uses normalized villain name to match processed names to raw metadata
+     */
+    getAppearanceMetadata(villainName, issueNum) {
+        const rawName = villainName || '';
+        const normalized = this.normalizeVillainName(rawName);
+        const normalizedNoHyphen = normalized.replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+        const rawNoHyphen = rawName.replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+
+        const candidateKeys = [
+            `${normalized}#${issueNum}`,
+            `${rawName}#${issueNum}`
+        ];
+
+        if (normalizedNoHyphen && normalizedNoHyphen !== normalized) {
+            candidateKeys.push(`${normalizedNoHyphen}#${issueNum}`);
+        }
+        if (rawNoHyphen && rawNoHyphen !== rawName) {
+            candidateKeys.push(`${rawNoHyphen}#${issueNum}`);
+        }
+
+        for (const key of candidateKeys) {
+            const entry = this.appearanceMetadata.get(key);
+            if (entry) {
+                return entry;
+            }
+        }
+
+        return {
+            firstAppearance: false,
+            death: false,
+            mentionedOnly: false,
+            flashback: false
+        };
+    }
+
+    /**
+     * Apply metadata styling to a cell element
+     */
+    applyMetadataStyles(element, metadata, cellGroup, x, y, cellSize) {
+        if (!metadata) return;
+        
+        // First appearance: draw inner border for rects, stroke for circles
+        // Note: For grid rects, this is applied before overlays; for circles it uses stroke directly
+        if (metadata.firstAppearance && element.node().tagName === 'circle') {
+            // For circles, use stroke directly
+            element.attr('stroke', '#000000')
+                   .attr('stroke-width', 2);
+        }
+    }
+
+    /**
+     * Draw first appearance border after all other overlays
+     * This ensures the border is visible on top of stripes and other overlays
+     */
+    drawFirstAppearanceBorder(cellGroup, x, y, cellSize) {
+        const borderWidth = 2;
+        const inset = 1;
+        cellGroup.append('rect')
+            .attr('x', x + inset)
+            .attr('y', y + inset)
+            .attr('width', cellSize - (inset * 2))
+            .attr('height', cellSize - (inset * 2))
+            .attr('fill', 'none')
+            .attr('stroke', '#000000')
+            .attr('stroke-width', borderWidth)
+            .attr('pointer-events', 'none');
+    }
+
+    /**
+     * Overlay stripes for mentioned/flashback without losing base color
+     */
+    addStripeOverlay(group, x, y, width, height, isCircle = false, radius = null) {
+        const overlay = group.append(isCircle ? 'circle' : 'rect')
+            .attr('fill', 'url(#diagonal-stripes)')
+            .attr('pointer-events', 'none');
+        
+        if (isCircle && radius !== null) {
+            overlay.attr('cx', x).attr('cy', y).attr('r', radius);
+        } else {
+            overlay.attr('x', x).attr('y', y).attr('width', width).attr('height', height);
+        }
+    }
+
+    /**
+     * Draw an X pattern over a cell for death using filled diagonal stripes
+     */
+    drawDeathX(g, x, y, cellSize, color) {
+        // Keep the X centered and inside the shape by using a bounded square
+        const cx = x + cellSize / 2;
+        const cy = y + cellSize / 2;
+        const half = Math.max(4, cellSize * 0.28); // scale with cell size but stay inside pill/circle
+        const length = half * 2; // full length of X arm
+        const width = 4; // thickness of each arm
+
+        // Two filled rectangles rotated to form the X; pattern keeps it contained inside the shape
+        g.append('rect')
+            .attr('x', cx - width / 2)
+            .attr('y', cy - half)
+            .attr('width', width)
+            .attr('height', length)
+            .attr('transform', 'rotate(45 ' + cx + ' ' + cy + ')')
+            .attr('fill', 'url(#diagonal-stripes-death)')
+            .attr('pointer-events', 'none');
+
+        g.append('rect')
+            .attr('x', cx - width / 2)
+            .attr('y', cy - half)
+            .attr('width', width)
+            .attr('height', length)
+            .attr('transform', 'rotate(-45 ' + cx + ' ' + cy + ')')
+            .attr('fill', 'url(#diagonal-stripes-death)')
+            .attr('pointer-events', 'none');
+    }
+
+    /**
      * Render statistics panel
      */
     renderStats() {
@@ -1023,6 +1336,9 @@ class SpiderManVisualization {
             .attr('viewBox', `0 0 ${totalWidth} ${totalHeight}`)
             .style('background', this.getSvgBackground());
 
+        // Add SVG pattern definitions for metadata visualization
+        this.addSVGPatterns(svg);
+
         // Pan and zoom group
         const g = svg.append('g')
             .attr('transform', `translate(${marginLeft},${marginTop})`);
@@ -1070,27 +1386,63 @@ class SpiderManVisualization {
             });
         });
 
-        g.selectAll('rect.grid-cell')
+        // Render grid cells with metadata visualization
+        g.selectAll('g.grid-cell-group')
             .data(cellData)
             .enter()
-            .append('rect')
-            .attr('class', 'grid-cell')
-            .attr('x', (d) => d.x * cellSize)
-            .attr('y', (d) => d.y * cellSize)
-            .attr('width', cellSize)
-            .attr('height', cellSize)
-            .attr('fill', (d) => {
-                if (d.present) return d.seriesColor;
-                return document.body.classList.contains('dark-theme') ? '#353535' : '#ecf0f1';
-            })
-            .attr('stroke', 'none')
-            .on('mouseenter', (event, d) => {
-                if (d.present) {
-                    this.showGridTooltip(event, d);
+            .append('g')
+            .attr('class', 'grid-cell-group')
+            .each((d, i, nodes) => {
+                const cellGroup = d3.select(nodes[i]);
+                const x = d.x * cellSize;
+                const y = d.y * cellSize;
+                
+                // Get metadata for this appearance
+                const metadata = d.present ? this.getAppearanceMetadata(d.villain, d.issueNum) : null;
+                
+                // Render background rect
+                const rect = cellGroup.append('rect')
+                    .attr('class', 'grid-cell')
+                    .attr('x', x)
+                    .attr('y', y)
+                    .attr('width', cellSize)
+                    .attr('height', cellSize)
+                    .attr('fill', (cellD) => {
+                        if (cellD.present) return cellD.seriesColor;
+                        return document.body.classList.contains('dark-theme') ? '#353535' : '#ecf0f1';
+                    })
+                    .attr('stroke', 'none')
+                    .on('mouseenter', (event, cellD) => {
+                        if (cellD.present) {
+                            this.showGridTooltip(event, {
+                                ...cellD,
+                                metadata: metadata
+                            });
+                        }
+                    })
+                    .on('mouseleave', () => {
+                        this.hideGridTooltip();
+                    });
+                
+                // Apply metadata styles if present
+                if (d.present && metadata) {
+                    this.applyMetadataStyles(rect, metadata, cellGroup, x, y, cellSize);
+                    
+                    // Add stripe overlay for mentioned-only or flashback (skip if death)
+                    if ((metadata.mentionedOnly || metadata.flashback) && !metadata.death) {
+                        this.addStripeOverlay(cellGroup, x, y, cellSize, cellSize, false);
+                    }
+                    
+                    // Draw death X if applicable
+                    if (metadata.death) {
+                        this.drawDeathX(cellGroup, x, y, cellSize, d.seriesColor);
+                    }
+                    
+                    // Draw first appearance border last so it appears on top of all overlays
+                    if (metadata.firstAppearance) {
+                        this.drawFirstAppearanceBorder(cellGroup, x, y, cellSize);
+                    }
                 }
-            })
-            .on('mouseleave', () => {
-                this.hideGridTooltip();
             });
 
         // Issue labels (X-axis)
@@ -1265,6 +1617,9 @@ class SpiderManVisualization {
             .attr('viewBox', `0 0 ${totalWidth} ${totalHeight}`)
             .style('background', this.getSvgBackground());
 
+        // Add SVG pattern definitions for metadata visualization
+        this.addSVGPatterns(svg);
+
         // Pan and zoom group
         const g = svg.append('g')
             .attr('transform', `translate(${marginLeft},${marginTop})`);
@@ -1409,8 +1764,13 @@ class SpiderManVisualization {
                     const app = run.appearances[0];
                     const x = app.colIdx * cellSize;
                     const cellColor = (app.issue && app.issue.seriesColor) || '#e74c3c';
+                    const issueNumberForMetadata = app.issue ? app.issue.number : app.chrono;
+                    const metadata = this.getAppearanceMetadata(villain, issueNumberForMetadata);
                     
-                    g.append('circle')
+                    // Create a group for the circle and potential X overlay
+                    const cellGroup = g.append('g');
+                    
+                    const circle = cellGroup.append('circle')
                         .attr('class', 'grid-cell')
                         .attr('cx', x + cellSize / 2)
                         .attr('cy', y + cellSize / 2)
@@ -1423,18 +1783,33 @@ class SpiderManVisualization {
                                 issue: app.issue ? app.issue.label : `#${app.chrono}`,
                                 series: app.issue ? app.issue.series : 'Unknown',
                                 present: true,
-                                chronoPos: app.chrono
+                                chronoPos: app.chrono,
+                                metadata: metadata
                             });
                         })
                         .on('mouseleave', () => {
                             this.hideGridTooltip();
                         });
+                    
+                    // Apply metadata styles
+                    this.applyMetadataStyles(circle, metadata, cellGroup, x, y, cellSize);
+                    
+                    // Mentioned/flashback stripes overlay (skip if death)
+                    if ((metadata.mentionedOnly || metadata.flashback) && !metadata.death) {
+                        this.addStripeOverlay(cellGroup, x + cellSize / 2, y + cellSize / 2, 0, 0, true, cellSize / 2.5);
+                    }
+                    
+                    if (metadata.death) {
+                        this.drawDeathX(cellGroup, x, y, cellSize, cellColor);
+                    }
                 } else {
                     // Draw consecutive run as connected shape
                     run.appearances.forEach((app, idx) => {
                         const x = app.colIdx * cellSize;
                         const cellColor = (app.issue && app.issue.seriesColor) || '#e74c3c';
                         const radius = cellSize / 2.5;
+                        const issueNumberForMetadata = app.issue ? app.issue.number : app.chrono;
+                        const metadata = this.getAppearanceMetadata(villain, issueNumberForMetadata);
                         
                         if (idx === 0) {
                             // Left half-circle
@@ -1445,7 +1820,9 @@ class SpiderManVisualization {
                                 L ${x + cellSize} ${y + cellSize / 2 - radius}
                                 Z
                             `;
-                            g.append('path')
+                            const cellGroup = g.append('g');
+                            
+                            const pathEl = cellGroup.append('path')
                                 .attr('class', 'grid-cell')
                                 .attr('d', path)
                                 .attr('fill', cellColor)
@@ -1456,12 +1833,28 @@ class SpiderManVisualization {
                                         issue: app.issue ? app.issue.label : `#${app.chrono}`,
                                         series: app.issue ? app.issue.series : 'Unknown',
                                         present: true,
-                                        chronoPos: app.chrono
+                                        chronoPos: app.chrono,
+                                        metadata: metadata
                                     });
                                 })
                                 .on('mouseleave', () => {
                                     this.hideGridTooltip();
                                 });
+                            
+                            // Apply metadata styles
+                            this.applyMetadataStyles(pathEl, metadata, cellGroup, x, y, cellSize);
+                            
+                            // Mentioned/flashback stripes overlay (skip if death)
+                            if ((metadata.mentionedOnly || metadata.flashback) && !metadata.death) {
+                                cellGroup.append('path')
+                                    .attr('d', path)
+                                    .attr('fill', 'url(#diagonal-stripes)')
+                                    .attr('pointer-events', 'none');
+                            }
+                            
+                            if (metadata.death) {
+                                this.drawDeathX(cellGroup, x, y, cellSize, cellColor);
+                            }
                         } else if (idx === run.appearances.length - 1) {
                             // Right half-circle
                             const path = `
@@ -1471,7 +1864,9 @@ class SpiderManVisualization {
                                 L ${x} ${y + cellSize / 2 + radius}
                                 Z
                             `;
-                            g.append('path')
+                            const cellGroup = g.append('g');
+                            
+                            const pathEl = cellGroup.append('path')
                                 .attr('class', 'grid-cell')
                                 .attr('d', path)
                                 .attr('fill', cellColor)
@@ -1482,15 +1877,33 @@ class SpiderManVisualization {
                                         issue: app.issue ? app.issue.label : `#${app.chrono}`,
                                         series: app.issue ? app.issue.series : 'Unknown',
                                         present: true,
-                                        chronoPos: app.chrono
+                                        chronoPos: app.chrono,
+                                        metadata: metadata
                                     });
                                 })
                                 .on('mouseleave', () => {
                                     this.hideGridTooltip();
                                 });
+                            
+                            // Apply metadata styles
+                            this.applyMetadataStyles(pathEl, metadata);
+                            
+                            // Mentioned/flashback stripes overlay (skip if death)
+                            if ((metadata.mentionedOnly || metadata.flashback) && !metadata.death) {
+                                cellGroup.append('path')
+                                    .attr('d', path)
+                                    .attr('fill', 'url(#diagonal-stripes)')
+                                    .attr('pointer-events', 'none');
+                            }
+                            
+                            if (metadata.death) {
+                                this.drawDeathX(cellGroup, x, y, cellSize, cellColor);
+                            }
                         } else {
                             // Middle rectangle
-                            g.append('rect')
+                            const cellGroup = g.append('g');
+                            
+                            const rect = cellGroup.append('rect')
                                 .attr('class', 'grid-cell')
                                 .attr('x', x)
                                 .attr('y', y + cellSize / 2 - radius)
@@ -1504,12 +1917,25 @@ class SpiderManVisualization {
                                         issue: app.issue ? app.issue.label : `#${app.chrono}`,
                                         series: app.issue ? app.issue.series : 'Unknown',
                                         present: true,
-                                        chronoPos: app.chrono
+                                        chronoPos: app.chrono,
+                                        metadata: metadata
                                     });
                                 })
                                 .on('mouseleave', () => {
                                     this.hideGridTooltip();
                                 });
+                            
+                            // Apply metadata styles
+                            this.applyMetadataStyles(rect, metadata, cellGroup, x, y, cellSize);
+                            
+                            // Mentioned/flashback stripes overlay (skip if death)
+                            if ((metadata.mentionedOnly || metadata.flashback) && !metadata.death) {
+                                this.addStripeOverlay(cellGroup, x, y + cellSize / 2 - radius, cellSize, radius * 2, false);
+                            }
+                            
+                            if (metadata.death) {
+                                this.drawDeathX(cellGroup, x, y, cellSize, cellColor);
+                            }
                         }
                     });
                 }
@@ -1534,10 +1960,23 @@ class SpiderManVisualization {
             ? `Web: ${d.webInfo}`
             : `Status: ${d.present ? 'Appears' : 'Absent'}`;
         
+        // Build metadata line
+        let metadataLine = '';
+        if (d.metadata) {
+            const tags = [];
+            if (d.metadata.firstAppearance) tags.push('First Appearance');
+            if (d.metadata.death) tags.push('Death');
+            if (d.metadata.mentionedOnly) tags.push('Mentioned Only');
+            if (d.metadata.flashback) tags.push('Flashback');
+            if (tags.length > 0) {
+                metadataLine = `<br>Metadata: ${tags.join(', ')}`;
+            }
+        }
+        
         tooltip.innerHTML = `
             <strong>${d.villain}</strong><br>
             Issue: ${d.issue} (${d.series})<br>
-            ${statusLine}
+            ${statusLine}${metadataLine}
         `;
 
         // Position tooltip near mouse cursor

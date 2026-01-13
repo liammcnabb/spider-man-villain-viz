@@ -81,10 +81,12 @@ describe('Story Arc Extractor', () => {
     it('should extract story arcs from infobox', () => {
       const html = `
         <aside class="portable-infobox pi-background">
-          <div class="pi-data-value pi-font">
-            Part of the <span style="font-style:italic">
-              <a href="/wiki/Clone_Saga_(Event)" title="Clone Saga (Event)">Clone Saga</a>
-            </span> storyline
+          <div class="pi-item pi-data pi-item-spacing pi-border-color">
+            <div class="pi-data-value pi-font">
+              Part of the <span style="font-style:italic">
+                <a href="/wiki/Clone_Saga_(Event)">Clone Saga (Event)</a>
+              </span> storyline
+            </div>
           </div>
         </aside>
       `;
@@ -100,15 +102,16 @@ describe('Story Arc Extractor', () => {
     it('should extract multiple story arcs from infobox', () => {
       const html = `
         <aside class="portable-infobox pi-background">
-          <div class="pi-data-value pi-font">
-            Part of the <span style="font-style:italic">
-              <a href="/wiki/Power_and_Responsibility" title="Power and Responsibility">Power and Responsibility</a>
-            </span> and <span style="font-style:italic">
-              <a href="/wiki/Double" title="Double">Double</a>
-            </span> arcs<br>
-            Part of the <span style="font-style:italic">
-              <a href="/wiki/Clone_Saga_(Event)" title="Clone Saga (Event)">Clone Saga</a>
-            </span> storyline
+          <div class="pi-item pi-data pi-item-spacing pi-border-color">
+            <div class="pi-data-value pi-font">
+              Part of the <a href="/wiki/Power_and_Responsibility">Power and Responsibility</a>
+               and <a href="/wiki/Double">Double</a> arcs
+            </div>
+          </div>
+          <div class="pi-item pi-data pi-item-spacing pi-border-color">
+            <div class="pi-data-value pi-font">
+              Part of the <a href="/wiki/Clone_Saga_(Event)">Clone Saga (Event)</a> storyline
+            </div>
           </div>
         </aside>
       `;
@@ -145,12 +148,11 @@ describe('Story Arc Extractor', () => {
     it('should deduplicate duplicate arcs in infobox', () => {
       const html = `
         <aside class="portable-infobox pi-background">
-          <div class="pi-data-value pi-font">
-            Part of the <span style="font-style:italic">
-              <a href="/wiki/Clone_Saga_(Event)" title="Clone Saga (Event)">Clone Saga</a>
-            </span> and <span style="font-style:italic">
-              <a href="/wiki/Clone_Saga_(Event)" title="Clone Saga (Event)">Clone Saga</a>
-            </span>
+          <div class="pi-item pi-data pi-item-spacing pi-border-color">
+            <div class="pi-data-value pi-font">
+              Part of the <a href="/wiki/Clone_Saga_(Event)">Clone Saga (Event)</a>
+               and <a href="/wiki/Clone_Saga_(Event)">Clone Saga (Event)</a>
+            </div>
           </div>
         </aside>
       `;
@@ -180,24 +182,60 @@ describe('Story Arc Extractor', () => {
       expect(arcs).toEqual([]);
     });
 
-    it('should filter out excluded categories from infobox', () => {
+    // Regression test for ASM #19 - arc in top banner instead of infobox
+    it('should extract story arc from top banner when not in infobox', () => {
+      const html = `
+        <div class="page-content">
+          Part of the <a href="/wiki/End_of_Spider-Man">End of Spider-Man</a> arc
+        </div>
+        <aside class="portable-infobox pi-background">
+          <div class="pi-data-value pi-font">Some other info</div>
+        </aside>
+      `;
+      
+      const arcs = extractStoryArcsFromHtml(html, 19);
+      
+      expect(arcs).toHaveLength(1);
+      expect(arcs[0].id).toBe('end-of-spider-man');
+      expect(arcs[0].name).toBe('End of Spider-Man');
+    });
+
+    // Regression test for links without title attribute
+    it('should extract arcs from links without title attribute using anchor text', () => {
       const html = `
         <aside class="portable-infobox pi-background">
-          <div class="pi-data-value pi-font">
-            Part of the <span style="font-style:italic">
-              <a href="/wiki/Spider-Man" title="Spider-Man">Spider-Man</a>
-            </span> and <span style="font-style:italic">
-              <a href="/wiki/Clone_Saga_(Event)" title="Clone Saga (Event)">Clone Saga</a>
-            </span> comics
+          <div class="pi-item pi-data pi-item-spacing pi-border-color">
+            <div class="pi-data-value pi-font">
+              Part of the <a href="/wiki/Maximum_Carnage">Maximum Carnage</a> storyline
+            </div>
           </div>
         </aside>
       `;
       
-      const arcs = extractStoryArcsFromHtml(html, 1);
+      const arcs = extractStoryArcsFromHtml(html, 378);
       
-      // Should only get Clone Saga, not Spider-Man (excluded category)
       expect(arcs).toHaveLength(1);
-      expect(arcs[0].id).toMatch(/clone-saga/);
+      expect(arcs[0].id).toBe('maximum-carnage');
+      expect(arcs[0].name).toBe('Maximum Carnage');
+    });
+
+    // Regression test for top banner fallback with "storyline" keyword
+    it('should extract arc from banner using "storyline" keyword', () => {
+      const html = `
+        <div class="banner">
+          Part of the <a href="/wiki/Kravens_Last_Hunt">Kraven's Last Hunt</a> storyline
+        </div>
+        <aside class="portable-infobox">
+          <div class="pi-data-value">Regular content</div>
+        </aside>
+      `;
+      
+      const arcs = extractStoryArcsFromHtml(html, 293);
+      
+      expect(arcs).toHaveLength(1);
+      // ID is derived from anchor text "Kraven's Last Hunt" with apostrophe preserved
+      expect(arcs[0].id).toBe("kraven's-last-hunt");
+      expect(arcs[0].name).toBe("Kraven's Last Hunt");
     });
   });
 
