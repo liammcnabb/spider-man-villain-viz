@@ -1,4 +1,7 @@
-# This repo is entirely written by Claude as a public example of a workflow. Since I do not pay for any AI, progress is limited by the amount of tokens I get per month.
+# Notice
+#### This repo is entirely written by AI as a public example of using AI with no context of what's going on (no code reading in an unknown language, but with programming experience). Since I do not pay for any AI, progress is limited by the amount of tokens I get per month.
+#### The excercise is officially over. I did not get quite as much as I wanted and probably should have kept better track of tokens. I was surprised by the fact it managed to create the timeline in the way I wanted so well in comparison to some other tasks. Functionally got it working in 4-5 iterations.
+#### Posthumously I noticed that it never properly made an appearance key and have created an issue for if anyone wants to take over. Also leaving the meta-data filter stuff I was in the process of in case someone feels the desire to take this over for some reason.
 
 # Spider-Man Villain Timeline
 
