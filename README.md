@@ -348,24 +348,24 @@ Maintenance note: Keep this checklist up to date after scrapes; tick items once 
   - [ ] Vol. 7 (2024–present)
 
 - Peter Parker, The Spectacular Spider-Man
-  - [ ] Vol. 1 (1976–1998)
+  - [x] Vol. 1 (1976–1998)
   - [ ] Vol. 2 (1999–2003)
   - [ ] Vol. 3 (2017–2018)
 
 - Web of Spider-Man
-  - [ ] Vol. 1 (1985–1995)
+  - [x] Vol. 1 (1985–1995)
 
 - Spider-Man (Adjectiveless)
-  - [ ] Vol. 1 (1990–1998)
+  - [x] Vol. 1 (1990–1998)
   - [ ] Vol. 2 (2004–2006)
 
 - Sensational Spider-Man
-  - [ ] Vol. 1 (1996–1998)
+  - [x] Vol. 1 (1996–1998)
 
 - Parallel Ongoings
   - [ ] Friendly Neighborhood Spider-Man Vol. 1 (2005–2007)
   - [ ] Friendly Neighborhood Spider-Man Vol. 2 (2019)
-  - [ ] Spider-Man Unlimited Vol. 1 (1993–1998)
+  - [x] Spider-Man Unlimited Vol. 1 (1993–1998)
   - [x] Untold Tales of Spider-Man Vol. 1 (1995–1997)
   - [ ] Superior Spider-Man Vol. 1 (2013–2014)
   - [ ] Superior Spider-Man Vol. 2 (2018–2019)
